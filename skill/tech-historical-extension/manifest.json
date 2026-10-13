@@ -1,0 +1,79 @@
+{
+  "schema_version": "technology-historical-extension-manifest/v1.0",
+  "version": "1.0-candidate",
+  "decision_cutoff_utc": "2025-12-31T23:59:59Z",
+  "independent_acceptance": "pending_Astra",
+  "automatic_use_enabled": false,
+  "methods": [
+    "ark-research-team",
+    "ron-baron"
+  ],
+  "source_count": 7,
+  "rule_count": 10,
+  "files": {
+    "README.md": {
+      "sha256": "abe1045445eb92d934f95593f353c696cd772883033cf90ad66581876a9e05b2",
+      "bytes": 6065
+    },
+    "accepted-baseline-hashes.json": {
+      "sha256": "8e0603c2b8daf593f4c533d3bccbd11e4a4d7231e28917103d021e8800b6b7d1",
+      "bytes": 6311
+    },
+    "ark-research-team.json": {
+      "sha256": "83bae6c27ae327d5302f290e946f6fd020b40a1a2096daf01ae2972a78ddf59d",
+      "bytes": 1428
+    },
+    "bounded-search-log.json": {
+      "sha256": "2a91d095c4d9cfa810f5963b4a61cd8931048486d7e97697d54c05d90275562e",
+      "bytes": 2373
+    },
+    "review-fixtures.json": {
+      "sha256": "83eeec3fe178c607a04a00529e85b1ffc820e9f91ce2a3f31ac1e85aad897d83",
+      "bytes": 2717
+    },
+    "ron-baron.json": {
+      "sha256": "147d5c9403e861861c503d2747e2d84561ff4decb7e71d67a5a49db2bceeb58f",
+      "bytes": 1356
+    },
+    "rule-anchors.json": {
+      "sha256": "168ed229213562eed61bf8393d789aded542d0c8045d5d38386165f7c353c169",
+      "bytes": 30147
+    },
+    "source-registry.json": {
+      "sha256": "8e8580e7072ec8700428d868cc90f4c9df03d432a62dd551bc75d4ccdbe60691",
+      "bytes": 21646
+    },
+    "sources/ark-x-ai-disruption-20241001.json": {
+      "sha256": "d1aaeabc18851aa12aaac866f9672453056c7829063e51da367ccaf35a734da2",
+      "bytes": 2848
+    },
+    "sources/ark-x-big-ideas-2024.json": {
+      "sha256": "655d5e670b88d341650c095beb7f367683fddd16f3a6e11d738727d1be6daffc",
+      "bytes": 3089
+    },
+    "sources/ark-x-big-ideas-2025.json": {
+      "sha256": "059084229bdc5e41cec7cb70e1f16466b089d6f907d8d60ac344916730d1961b",
+      "bytes": 3453
+    },
+    "sources/ark-x-software-20250729.json": {
+      "sha256": "cb13c41209f8ec96a3bfbd8b81856406903fe5e8a4c1c40f91f3e0ee426b3da1",
+      "bytes": 2388
+    },
+    "sources/ark-x-wright-20190102.json": {
+      "sha256": "6ba9ebe385cd0fd5f9ea70222587529d1646bfcde1352ef51d1f6800b0688b91",
+      "bytes": 2284
+    },
+    "sources/baron-x-letter-20240512.json": {
+      "sha256": "f24606dd5f0d28ffc8825138db9e855011e28d2630bcc172171a4290aa4a3ac7",
+      "bytes": 3014
+    },
+    "sources/baron-x-letter-20240716.json": {
+      "sha256": "e740bedc14ec327b3a89d55070eb2b9951194ee3eee473af2848337259ca42b9",
+      "bytes": 3155
+    },
+    "validation-report.json": {
+      "sha256": "0368783edba4c6143ed2eb8dc00a1b25d482bee2844c3c310dfe9304064e88f5",
+      "bytes": 2467
+    }
+  }
+}

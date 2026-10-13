@@ -1,0 +1,44 @@
+{
+  "recorded_at_utc": "2026-10-13T16:10:00Z",
+  "positioning": "Requested extension; emerging investor and financing-risk case, not an established master. Outside frozen ten-person roster unless parent explicitly amends it.",
+  "selection_design": "Purposive, retrospective evidence case selection. Initial July reporting was already known when this list was frozen; therefore this is not blind preregistration or a representative performance sample. Candidate list is saved before detailed decision/outcome reconstruction.",
+  "candidates": [
+    {
+      "id": "L-C1",
+      "name": "AI infrastructure sequencing from June 2024 public thesis to dated disclosed holdings",
+      "selected": true,
+      "outcome_class": "documented practice alignment; successful trade outcome not established",
+      "reason": "Original method interview precedes firm formation; multiple SEC snapshots allow security-class-aware practice comparison.",
+      "limitations": "No security-specific initial trade memo, execution ledger, entry cost or realized return. Do not call this an audited success."
+    },
+    {
+      "id": "L-C2",
+      "name": "July 2026 financing stress and forced deleveraging",
+      "selected": true,
+      "outcome_class": "adverse manager-reported drawdown and risk redesign",
+      "reason": "June 2024 survival/timing warnings can be compared with reproduced July investor letter; June 2026 holdings are a pre-event observation published after the event, usable only for retrospective reconstruction.",
+      "limitations": "No public prime-broker financing agreements, full short/foreign/private book, or independently audited July NAV."
+    },
+    {
+      "id": "L-C3",
+      "name": "Anthropic private investment and valuation appreciation",
+      "selected": false,
+      "outcome_class": "reported positive candidate, unverified realized P&L",
+      "reason": "13F does not include private stakes; no authenticated position/cost/exit ledger located. Avoid substituting a reported private valuation for fund return."
+    },
+    {
+      "id": "L-C4",
+      "name": "Adobe short versus AI infrastructure longs in July",
+      "selected": false,
+      "outcome_class": "reported adverse pair, attribution and size incomplete",
+      "reason": "Public 13F cannot establish short stock positions; later manager letter describes spread reversal without a full trade ledger."
+    },
+    {
+      "id": "L-C5",
+      "name": "Post-July all-paid public/private portfolio resilience",
+      "selected": false,
+      "outcome_class": "outcome not established",
+      "reason": "July letter announces a change, but latest June 30 13F predates it. Cannot claim the redesign worked without later comparable disclosure."
+    }
+  ]
+}

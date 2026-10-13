@@ -1,0 +1,191 @@
+{
+  "schema_version": "applied-public-locator-projection.v1",
+  "audit_proposal_sha256": "4dd3d21a5cb959fafb70d3023a13b74f25709a7bbe3c94b793eac76ab93be1ab",
+  "transform_count": 13,
+  "affected_files_count": 6,
+  "transforms": [
+    {
+      "transform_id": "LOC-01",
+      "source_path": "skill-bundle-snapshots/source-integration-rework2-v1.1-review/current-library/macro/dalio.json",
+      "projected_path": "current-library/macro/dalio.json",
+      "json_pointer": "/rules/4/evidence_anchors/0/locator",
+      "original_value_sha256": "e2c1f26ea84381b118a904de39e7a2414bc657935b89194a9908f860681ea676",
+      "replacement": "Opening body paragraphs on portfolio construction under uncertainty and cross-country scenario learning; before the first section on the economic shock’s follow-on effects",
+      "replacement_sha256": "e2f54f25c7886f84e6dbba18f668d699627829afdc186b0d1f6721ae78f9b8e6",
+      "source_ids": [
+        "DAL-10"
+      ],
+      "priority": "conservative_budget_hygiene",
+      "operation": "locator-only public-copy replacement"
+    },
+    {
+      "transform_id": "LOC-02",
+      "source_path": "skill-bundle-snapshots/source-integration-rework2-v1.1-review/current-library/macro/druckenmiller.json",
+      "projected_path": "current-library/macro/druckenmiller.json",
+      "json_pointer": "/rules/4/evidence_anchors/0/locator",
+      "original_value_sha256": "6c49fe6b0265e2b40938afe730f0fe357e3d6a56341f2a2b914e1802a4c066ce",
+      "replacement": "AI-investment narrative: interviewer asks about recognizing the opportunity’s scale; partner and specialist-network discussion preceding the initial purchase",
+      "replacement_sha256": "7c20872d98907b7cd3a3cc023006e79f44ee4482ed1b859c0347904250201e97",
+      "source_ids": [
+        "DRU-03"
+      ],
+      "priority": "required_quotation_budget",
+      "operation": "locator-only public-copy replacement"
+    },
+    {
+      "transform_id": "LOC-03",
+      "source_path": "skill-bundle-snapshots/source-integration-rework2-v1.1-review/current-library/macro/druckenmiller.json",
+      "projected_path": "current-library/macro/druckenmiller.json",
+      "json_pointer": "/rules/5/evidence_anchors/0/locator",
+      "original_value_sha256": "2a40779617e98d9417c8bef8b1f3e6a19d9bb772bc1385754d433756fee2dd2e",
+      "replacement": "Interview discussion of reduced reliance on technical analysis and market reaction to news; the following three answer paragraphs",
+      "replacement_sha256": "fbb364b6c1b9966d2e08866392847add3bfeca802a7d191dd93f0c8831a7f741",
+      "source_ids": [
+        "DRU-03"
+      ],
+      "priority": "required_quotation_budget",
+      "operation": "locator-only public-copy replacement"
+    },
+    {
+      "transform_id": "LOC-04",
+      "source_path": "skill-bundle-snapshots/source-integration-rework2-v1.1-review/current-library/macro/method-cutoff-2026.json",
+      "projected_path": "current-library/macro/method-cutoff-2026.json",
+      "json_pointer": "/modules/0/rules/4/evidence_anchors/0/locator",
+      "original_value_sha256": "e2c1f26ea84381b118a904de39e7a2414bc657935b89194a9908f860681ea676",
+      "replacement": "Opening body paragraphs on portfolio construction under uncertainty and cross-country scenario learning; before the first section on the economic shock’s follow-on effects",
+      "replacement_sha256": "e2f54f25c7886f84e6dbba18f668d699627829afdc186b0d1f6721ae78f9b8e6",
+      "source_ids": [
+        "DAL-10"
+      ],
+      "priority": "conservative_budget_hygiene",
+      "operation": "locator-only public-copy replacement"
+    },
+    {
+      "transform_id": "LOC-05",
+      "source_path": "skill-bundle-snapshots/source-integration-rework2-v1.1-review/current-library/macro/method-cutoff-2026.json",
+      "projected_path": "current-library/macro/method-cutoff-2026.json",
+      "json_pointer": "/modules/2/rules/4/evidence_anchors/0/locator",
+      "original_value_sha256": "6c49fe6b0265e2b40938afe730f0fe357e3d6a56341f2a2b914e1802a4c066ce",
+      "replacement": "AI-investment narrative: interviewer asks about recognizing the opportunity’s scale; partner and specialist-network discussion preceding the initial purchase",
+      "replacement_sha256": "7c20872d98907b7cd3a3cc023006e79f44ee4482ed1b859c0347904250201e97",
+      "source_ids": [
+        "DRU-03"
+      ],
+      "priority": "required_quotation_budget",
+      "operation": "locator-only public-copy replacement"
+    },
+    {
+      "transform_id": "LOC-06",
+      "source_path": "skill-bundle-snapshots/source-integration-rework2-v1.1-review/current-library/macro/method-cutoff-2026.json",
+      "projected_path": "current-library/macro/method-cutoff-2026.json",
+      "json_pointer": "/modules/2/rules/5/evidence_anchors/0/locator",
+      "original_value_sha256": "2a40779617e98d9417c8bef8b1f3e6a19d9bb772bc1385754d433756fee2dd2e",
+      "replacement": "Interview discussion of reduced reliance on technical analysis and market reaction to news; the following three answer paragraphs",
+      "replacement_sha256": "fbb364b6c1b9966d2e08866392847add3bfeca802a7d191dd93f0c8831a7f741",
+      "source_ids": [
+        "DRU-03"
+      ],
+      "priority": "required_quotation_budget",
+      "operation": "locator-only public-copy replacement"
+    },
+    {
+      "transform_id": "LOC-07",
+      "source_path": "skill-bundle-snapshots/source-integration-rework2-v1.1-review/current-library/macro/sources.json",
+      "projected_path": "current-library/macro/sources.json",
+      "json_pointer": "/sources/10/locator",
+      "original_value_sha256": "8500c56a71594b7aba4118fa38e9c1f71cee6b14c0fc7a8b81666d1ca98d0cee",
+      "replacement": "End disclosure: paragraph beginning Additionally, following research-purpose paragraph | Opening body paragraphs on portfolio construction under uncertainty and cross-country scenario learning; before the first section on the economic shock’s follow-on effects",
+      "replacement_sha256": "492625f8ef8421cc346edaf19345b36fd00881dc268012b52013ed11fda17de8",
+      "source_ids": [
+        "DAL-10"
+      ],
+      "priority": "conservative_budget_hygiene",
+      "operation": "locator-only public-copy replacement"
+    },
+    {
+      "transform_id": "LOC-08",
+      "source_path": "skill-bundle-snapshots/source-integration-rework2-v1.1-review/current-library/macro/sources.json",
+      "projected_path": "current-library/macro/sources.json",
+      "json_pointer": "/sources/39/locator",
+      "original_value_sha256": "60c1c85e90fe0a9dca0f62f082a7823c5481841f10a1f585417402e63227c276",
+      "replacement": "AI-investment narrative: interviewer asks about recognizing the opportunity’s scale; partner and specialist-network discussion preceding the initial purchase | Interview discussion of reduced reliance on technical analysis and market reaction to news; the following three answer paragraphs",
+      "replacement_sha256": "3565a3da6f5db567d042ba7a8cbc37f82dbdbad72c2d7e0596d95f4fb95685f1",
+      "source_ids": [
+        "DRU-03"
+      ],
+      "priority": "required_quotation_budget",
+      "operation": "locator-only public-copy replacement"
+    },
+    {
+      "transform_id": "LOC-09",
+      "source_path": "skill-bundle-snapshots/source-integration-rework2-v1.1-review/methods/ray-dalio.json",
+      "projected_path": "methods/ray-dalio.json",
+      "json_pointer": "/rules/4/original_record/evidence_anchors/0/locator",
+      "original_value_sha256": "e2c1f26ea84381b118a904de39e7a2414bc657935b89194a9908f860681ea676",
+      "replacement": "Opening body paragraphs on portfolio construction under uncertainty and cross-country scenario learning; before the first section on the economic shock’s follow-on effects",
+      "replacement_sha256": "e2f54f25c7886f84e6dbba18f668d699627829afdc186b0d1f6721ae78f9b8e6",
+      "source_ids": [
+        "DAL-10"
+      ],
+      "priority": "conservative_budget_hygiene",
+      "operation": "locator-only public-copy replacement"
+    },
+    {
+      "transform_id": "LOC-10",
+      "source_path": "skill-bundle-snapshots/source-integration-rework2-v1.1-review/methods/ray-dalio.json",
+      "projected_path": "methods/ray-dalio.json",
+      "json_pointer": "/source_records/6/locator",
+      "original_value_sha256": "8500c56a71594b7aba4118fa38e9c1f71cee6b14c0fc7a8b81666d1ca98d0cee",
+      "replacement": "End disclosure: paragraph beginning Additionally, following research-purpose paragraph | Opening body paragraphs on portfolio construction under uncertainty and cross-country scenario learning; before the first section on the economic shock’s follow-on effects",
+      "replacement_sha256": "492625f8ef8421cc346edaf19345b36fd00881dc268012b52013ed11fda17de8",
+      "source_ids": [
+        "DAL-10"
+      ],
+      "priority": "conservative_budget_hygiene",
+      "operation": "locator-only public-copy replacement"
+    },
+    {
+      "transform_id": "LOC-11",
+      "source_path": "skill-bundle-snapshots/source-integration-rework2-v1.1-review/methods/stanley-druckenmiller.json",
+      "projected_path": "methods/stanley-druckenmiller.json",
+      "json_pointer": "/rules/4/original_record/evidence_anchors/0/locator",
+      "original_value_sha256": "6c49fe6b0265e2b40938afe730f0fe357e3d6a56341f2a2b914e1802a4c066ce",
+      "replacement": "AI-investment narrative: interviewer asks about recognizing the opportunity’s scale; partner and specialist-network discussion preceding the initial purchase",
+      "replacement_sha256": "7c20872d98907b7cd3a3cc023006e79f44ee4482ed1b859c0347904250201e97",
+      "source_ids": [
+        "DRU-03"
+      ],
+      "priority": "required_quotation_budget",
+      "operation": "locator-only public-copy replacement"
+    },
+    {
+      "transform_id": "LOC-12",
+      "source_path": "skill-bundle-snapshots/source-integration-rework2-v1.1-review/methods/stanley-druckenmiller.json",
+      "projected_path": "methods/stanley-druckenmiller.json",
+      "json_pointer": "/rules/5/original_record/evidence_anchors/0/locator",
+      "original_value_sha256": "2a40779617e98d9417c8bef8b1f3e6a19d9bb772bc1385754d433756fee2dd2e",
+      "replacement": "Interview discussion of reduced reliance on technical analysis and market reaction to news; the following three answer paragraphs",
+      "replacement_sha256": "fbb364b6c1b9966d2e08866392847add3bfeca802a7d191dd93f0c8831a7f741",
+      "source_ids": [
+        "DRU-03"
+      ],
+      "priority": "required_quotation_budget",
+      "operation": "locator-only public-copy replacement"
+    },
+    {
+      "transform_id": "LOC-13",
+      "source_path": "skill-bundle-snapshots/source-integration-rework2-v1.1-review/methods/stanley-druckenmiller.json",
+      "projected_path": "methods/stanley-druckenmiller.json",
+      "json_pointer": "/source_records/3/locator",
+      "original_value_sha256": "60c1c85e90fe0a9dca0f62f082a7823c5481841f10a1f585417402e63227c276",
+      "replacement": "AI-investment narrative: interviewer asks about recognizing the opportunity’s scale; partner and specialist-network discussion preceding the initial purchase | Interview discussion of reduced reliance on technical analysis and market reaction to news; the following three answer paragraphs",
+      "replacement_sha256": "3565a3da6f5db567d042ba7a8cbc37f82dbdbad72c2d7e0596d95f4fb95685f1",
+      "source_ids": [
+        "DRU-03"
+      ],
+      "priority": "required_quotation_budget",
+      "operation": "locator-only public-copy replacement"
+    }
+  ],
+  "original_expression_not_duplicated": true
+}

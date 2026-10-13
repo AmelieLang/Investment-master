@@ -1,0 +1,50 @@
+{
+  "schema_version": "skill-source-correction-map/v1",
+  "corrective_round": 1,
+  "maximum_corrective_rounds": 3,
+  "closed": [
+    {
+      "id": "WRAPPER-STATE-01",
+      "result": "Completed/partial views require present method/rules/claims, verified actual model and archived prompt/raw response; ten negative probes reject local contradictions."
+    },
+    {
+      "id": "WRAPPER-SLOTS-01",
+      "result": "Exactly slots1/2/3 and no duplicate known master in schema; mandatory semantic preflight enforces all identities/extensions and route/view correspondence."
+    },
+    {
+      "id": "TRANSPORT-BACKBONE-01",
+      "result": "Explicit selected-card/hash/date-safe finterm plus unchanged R2 integration contract; absent projection/receipt blocks future historical opinion generation. No backbone omitted silently."
+    },
+    {
+      "id": "PRIVACY-01",
+      "result": "Private message ID, worker local command and hardcoded source-user home paths stripped or converted; grep scan clean."
+    },
+    {
+      "id": "TICKER-ATTRIBUTION-01",
+      "result": "Typed actual-ticker statement/holding status, publication, entity/decision/class attribution and bounded missing-evidence request added."
+    },
+    {
+      "id": "TECH-ANCHORS-01",
+      "result": "Accepted rework1 source and all28 anchors/eight historical rules refreshed; team/case scope retained."
+    },
+    {
+      "id": "FUNDAMENTAL-REWORK-01",
+      "result": "Corrected final source manifest and independent bounded review1 accepted; exact13-rule method packet used. Current source corpus retains liquidity distinction,0/9 original initial investorT0 coverage and minor locator notes."
+    },
+    {
+      "id": "INDIVIDUAL-CALL-CLARIFICATION",
+      "result": "One assigned lens per fresh model context; controller-enriched single-view schemas and three-slot assembly afterward. Per-view finterm and R2 receipts are mandatory."
+    },
+    {
+      "id": "FCFF-SEMANTICS-GUARD",
+      "result": "Explicit operating-tax/reinvestment/interest/lease/claim cash-flow bridge is required for enterprise FCFF; unsupported branches stay unavailable."
+    }
+  ],
+  "pending": [
+    {
+      "id": "IMPLEMENTATION-PREFLIGHT",
+      "reason": "This task delivers source docs/schemas only; semantic validator, sanitized card projection, reviewed calculation runtime and all152 benchmark cells remain future execution."
+    }
+  ],
+  "overall_source_bundle_acceptance": "prior_round1_architecture_accepted_activation_blocked; separately_versioned_source_refresh_pending"
+}

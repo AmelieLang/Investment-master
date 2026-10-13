@@ -1,0 +1,630 @@
+{
+  "schema_version": "investment-master-method/v0.1-draft",
+  "master_id": "ray-dalio",
+  "catalogue_entity_id": "ray-dalio",
+  "display_name": "Ray Dalio",
+  "classification": "core_dossier",
+  "source_stream": "macro",
+  "source_acceptance": "accepted",
+  "implementation_ready": false,
+  "identity_and_mandate_record": {
+    "era_mandates": [
+      {
+        "era": "1975 through management transition",
+        "mandate": "Bridgewater institutional macro research and systematic active management",
+        "source_ids": [
+          "DAL-01"
+        ]
+      },
+      {
+        "era": "1991 onward",
+        "mandate": "Pure Alpha: active, diversified alpha; distinct from passive beta",
+        "source_ids": [
+          "DAL-05"
+        ]
+      },
+      {
+        "era": "1996 onward",
+        "mandate": "All Weather: risk-balanced beta, initially family trust, later institutional use",
+        "source_ids": [
+          "DAL-05"
+        ]
+      },
+      {
+        "era": "2017 / 2020 / 2021 / 2022 transition",
+        "mandate": "CEO role ended 2017; CIO summer 2020; chair end 2021; control transferred in 2022. Current company investment decisions require current-manager attribution.",
+        "source_ids": [
+          "DAL-01",
+          "DAL-02"
+        ]
+      }
+    ]
+  },
+  "scope": {
+    "strong": [
+      "Debt-cycle policy transmission",
+      "Cross-asset growth/inflation surprises"
+    ],
+    "conditional": [
+      "Macro funding challenge for corporate equities"
+    ],
+    "not_established": [
+      "Single-company moat specialist",
+      "Precise mechanical crisis timing",
+      "Bridgewater current positions as Dalio personal decisions"
+    ],
+    "historical_status": "Original pre-cutoff method facts only; company stock valuation is not the macro module core."
+  },
+  "rules": [
+    {
+      "rule_id": "DAL-R1",
+      "method_fact": "Debt stress follows borrower cash flows, balance sheets and funding constraints.",
+      "method_fact_origin": "Native-principle paraphrase; action/thresholds are independent operationalization.",
+      "source_ids": [
+        "DAL-03"
+      ],
+      "claim_ids": [],
+      "our_design_questions": [
+        "Build a debt-service/refinancing map before choosing a directional asset trade."
+      ],
+      "required_inputs": [
+        "Debt/income and debt-service ratios",
+        "Maturity/refinancing schedule",
+        "Creditor/borrower currency and rate type",
+        "Bank/collateral links"
+      ],
+      "falsifiers": [
+        "Reject an analogy if currency issuance, creditor access or refinancing mechanics differ."
+      ],
+      "limits": [
+        "Operational workflow adapted by this audit; not a master-authored formula"
+      ],
+      "historical_eligibility": {
+        "status": "candidate_eligible_pending_review",
+        "eligible_source_ids": [
+          "DAL-03"
+        ],
+        "reason": "Use the dated eligible sources only; prospective implementation must be frozen before outcome review. Independent acceptance pending; historical exporter separately tests direct-method authority."
+      },
+      "original_record": {
+        "id": "DAL-R1",
+        "native_principle": "Debt stress follows borrower cash flows, balance sheets and funding constraints.",
+        "implementation_status": "Operational workflow adapted by this audit; not a master-authored formula",
+        "action": "Build a debt-service/refinancing map before choosing a directional asset trade.",
+        "required_data": [
+          "Debt/income and debt-service ratios",
+          "Maturity/refinancing schedule",
+          "Creditor/borrower currency and rate type",
+          "Bank/collateral links"
+        ],
+        "invalidation_test": "Reject an analogy if currency issuance, creditor access or refinancing mechanics differ.",
+        "source_ids": [
+          "DAL-03"
+        ],
+        "beginning_2026_eligibility": {
+          "cutoff": "2026-01-01T00:00:00Z",
+          "status": "eligible_pre2026_native_principle_with_audit_adaptation",
+          "eligible_source_ids": [
+            "DAL-03"
+          ],
+          "excluded_or_uncertain_source_ids": [],
+          "reason": "Use the dated eligible sources only; prospective implementation must be frozen before outcome review."
+        },
+        "evidence_anchors": [
+          {
+            "source_id": "DAL-03",
+            "url": "https://www.bridgewater.com/big-debt-crises/principles-for-navigating-big-debt-crises-by-ray-dalio.pdf",
+            "locator_type": "pdf_page_and_section",
+            "locator": "Printed/PDF pp.9 and 13: How I Think about Credit and Debt; The Template for the Archetypal Long-Term/Big Debt Cycle",
+            "supporting_paraphrase": "Repayment depends on what credit produces; debt service outgrowing income creates stress.",
+            "supports": "native_principle",
+            "does_not_authenticate": "Audit action, input checklist and invalidation workflow remain analyst-adapted.",
+            "pdf_pages_1_based": [
+              9,
+              13
+            ]
+          }
+        ],
+        "native_principle_attribution_status": "source-anchored principle, observation or firm disclosure; exact provenance recorded per anchor"
+      }
+    },
+    {
+      "rule_id": "DAL-R2",
+      "method_fact": "Deleveraging mixes austerity, restructuring, monetary support and transfers.",
+      "method_fact_origin": "Native-principle paraphrase; action/thresholds are independent operationalization.",
+      "source_ids": [
+        "DAL-03"
+      ],
+      "claim_ids": [],
+      "our_design_questions": [
+        "Model multiple policy mixes and their inflation/output/distribution consequences; assign no automatic winner."
+      ],
+      "required_inputs": [
+        "Fiscal authority and political capacity",
+        "Central-bank tools and legal limits",
+        "Domestic versus foreign-currency obligations",
+        "Income growth versus financing cost"
+      ],
+      "falsifiers": [
+        "Revise when actual policies change the balance of inflationary and deflationary pressure."
+      ],
+      "limits": [
+        "Operational workflow adapted by this audit; not a master-authored formula"
+      ],
+      "historical_eligibility": {
+        "status": "candidate_eligible_pending_review",
+        "eligible_source_ids": [
+          "DAL-03"
+        ],
+        "reason": "Use the dated eligible sources only; prospective implementation must be frozen before outcome review. Independent acceptance pending; historical exporter separately tests direct-method authority."
+      },
+      "original_record": {
+        "id": "DAL-R2",
+        "native_principle": "Deleveraging mixes austerity, restructuring, monetary support and transfers.",
+        "implementation_status": "Operational workflow adapted by this audit; not a master-authored formula",
+        "action": "Model multiple policy mixes and their inflation/output/distribution consequences; assign no automatic winner.",
+        "required_data": [
+          "Fiscal authority and political capacity",
+          "Central-bank tools and legal limits",
+          "Domestic versus foreign-currency obligations",
+          "Income growth versus financing cost"
+        ],
+        "invalidation_test": "Revise when actual policies change the balance of inflationary and deflationary pressure.",
+        "source_ids": [
+          "DAL-03"
+        ],
+        "beginning_2026_eligibility": {
+          "cutoff": "2026-01-01T00:00:00Z",
+          "status": "eligible_pre2026_native_principle_with_audit_adaptation",
+          "eligible_source_ids": [
+            "DAL-03"
+          ],
+          "excluded_or_uncertain_source_ids": [],
+          "reason": "Use the dated eligible sources only; prospective implementation must be frozen before outcome review."
+        },
+        "evidence_anchors": [
+          {
+            "source_id": "DAL-03",
+            "url": "https://www.bridgewater.com/big-debt-crises/principles-for-navigating-big-debt-crises-by-ray-dalio.pdf",
+            "locator_type": "pdf_page_and_section",
+            "locator": "Printed/PDF p.12: Can Most Debt Crises Be Managed so There Aren’t Big Problems?; four-lever list and following balance discussion",
+            "supporting_paraphrase": "Different policy levers redistribute losses and have differing inflation and growth effects.",
+            "supports": "native_principle",
+            "does_not_authenticate": "Audit action, input checklist and invalidation workflow remain analyst-adapted.",
+            "pdf_pages_1_based": [
+              12
+            ]
+          }
+        ],
+        "native_principle_attribution_status": "source-anchored principle, observation or firm disclosure; exact provenance recorded per anchor"
+      }
+    },
+    {
+      "rule_id": "DAL-R3",
+      "method_fact": "All Weather allocates risk across growth/inflation surprises.",
+      "method_fact_origin": "Native-principle paraphrase; action/thresholds are independent operationalization.",
+      "source_ids": [
+        "DAL-05"
+      ],
+      "claim_ids": [],
+      "our_design_questions": [
+        "Separate beta risk budget from active views; stress each regime relative to expectations."
+      ],
+      "required_inputs": [
+        "Market-implied expectations",
+        "Instrument sensitivities",
+        "Volatility/correlation under stress",
+        "Funding/collateral availability"
+      ],
+      "falsifiers": [
+        "Do not equate equal nominal dollars or a retail allocation recipe with institutional equal-risk implementation."
+      ],
+      "limits": [
+        "Operational workflow adapted by this audit; not a master-authored formula"
+      ],
+      "historical_eligibility": {
+        "status": "candidate_eligible_pending_review",
+        "eligible_source_ids": [
+          "DAL-05"
+        ],
+        "reason": "Use the dated eligible sources only; prospective implementation must be frozen before outcome review. Independent acceptance pending; historical exporter separately tests direct-method authority."
+      },
+      "original_record": {
+        "id": "DAL-R3",
+        "native_principle": "All Weather allocates risk across growth/inflation surprises.",
+        "implementation_status": "Operational workflow adapted by this audit; not a master-authored formula",
+        "action": "Separate beta risk budget from active views; stress each regime relative to expectations.",
+        "required_data": [
+          "Market-implied expectations",
+          "Instrument sensitivities",
+          "Volatility/correlation under stress",
+          "Funding/collateral availability"
+        ],
+        "invalidation_test": "Do not equate equal nominal dollars or a retail allocation recipe with institutional equal-risk implementation.",
+        "source_ids": [
+          "DAL-05"
+        ],
+        "beginning_2026_eligibility": {
+          "cutoff": "2026-01-01T00:00:00Z",
+          "status": "eligible_pre2026_native_principle_with_audit_adaptation",
+          "eligible_source_ids": [
+            "DAL-05"
+          ],
+          "excluded_or_uncertain_source_ids": [],
+          "reason": "Use the dated eligible sources only; prospective implementation must be frozen before outcome review.",
+          "document_month": "2012-01"
+        },
+        "evidence_anchors": [
+          {
+            "source_id": "DAL-05",
+            "url": "https://www.bridgewater.com/resources/all-weather-story.pdf",
+            "locator_type": "pdf_page_and_section",
+            "locator": "Printed/PDF pp.5-6: Balancing Growth and Inflation; four-box diagram and equal-risk discussion",
+            "supporting_paraphrase": "Growth and inflation surprises require balanced risk, rather than equal capital allocations.",
+            "supports": "native_principle",
+            "does_not_authenticate": "Audit action, input checklist and invalidation workflow remain analyst-adapted.",
+            "pdf_pages_1_based": [
+              5,
+              6
+            ]
+          }
+        ],
+        "native_principle_attribution_status": "source-anchored principle, observation or firm disclosure; exact provenance recorded per anchor"
+      }
+    },
+    {
+      "rule_id": "DAL-R4",
+      "method_fact": "A research view and an actual client position can differ.",
+      "method_fact_origin": "Native-principle paraphrase; action/thresholds are independent operationalization.",
+      "source_ids": [
+        "DAL-07",
+        "COM-13F",
+        "COM-13F-2017",
+        "DAL-10"
+      ],
+      "claim_ids": [],
+      "our_design_questions": [
+        "Require a mandate/position bridge before calling the portfolio consistent or inconsistent."
+      ],
+      "required_inputs": [
+        "Fund/share class",
+        "Report date",
+        "Gross/net exposure and hedges",
+        "Restrictions and rebalance timing"
+      ],
+      "falsifiers": [
+        "If only equity 13F data are available, grade whole-macro-book alignment unknown."
+      ],
+      "limits": [
+        "Operational workflow adapted by this audit; not a master-authored formula"
+      ],
+      "historical_eligibility": {
+        "status": "candidate_eligible_pending_review",
+        "eligible_source_ids": [
+          "DAL-07",
+          "COM-13F-2017"
+        ],
+        "reason": "Use the dated eligible sources only; prospective implementation must be frozen before outcome review. Independent acceptance pending; historical exporter separately tests direct-method authority."
+      },
+      "original_record": {
+        "id": "DAL-R4",
+        "native_principle": "A research view and an actual client position can differ.",
+        "implementation_status": "Operational workflow adapted by this audit; not a master-authored formula",
+        "action": "Require a mandate/position bridge before calling the portfolio consistent or inconsistent.",
+        "required_data": [
+          "Fund/share class",
+          "Report date",
+          "Gross/net exposure and hedges",
+          "Restrictions and rebalance timing"
+        ],
+        "invalidation_test": "If only equity 13F data are available, grade whole-macro-book alignment unknown.",
+        "source_ids": [
+          "DAL-07",
+          "COM-13F",
+          "COM-13F-2017",
+          "DAL-10"
+        ],
+        "beginning_2026_eligibility": {
+          "cutoff": "2026-01-01T00:00:00Z",
+          "status": "eligible_pre2026_native_principle_with_audit_adaptation",
+          "eligible_source_ids": [
+            "DAL-07",
+            "COM-13F-2017"
+          ],
+          "excluded_or_uncertain_source_ids": [
+            "COM-13F"
+          ],
+          "reason": "Use the dated eligible sources only; prospective implementation must be frozen before outcome review."
+        },
+        "evidence_anchors": [
+          {
+            "source_id": "DAL-07",
+            "url": "https://www.gurufocus.com/news/1079552/ray-dalio-commentary-our-performance",
+            "locator_type": "web_section_and_paragraph",
+            "locator": "Post-letter disclosure beginning Bridgewater Daily Observations; second paragraph beginning Additionally",
+            "supporting_paraphrase": "Client restrictions, rebalancing and costs can separate positions from research conclusions.",
+            "supports": "firm_disclosure_supporting_native_principle",
+            "does_not_authenticate": "Audit action, input checklist and invalidation workflow remain analyst-adapted."
+          },
+          {
+            "source_id": "DAL-10",
+            "url": "https://www.bridgewater.com/thinking-through-the-wide-range-of-possible-economic-outcomes",
+            "locator_type": "web_section_and_paragraph",
+            "locator": "End disclosure: paragraph beginning Additionally, following research-purpose paragraph",
+            "supporting_paraphrase": "Original firm research repeats the distinction between expressed analysis and actual client positions.",
+            "supports": "firm_disclosure_corroboration",
+            "does_not_authenticate": "Audit action, input checklist and invalidation workflow remain analyst-adapted."
+          }
+        ],
+        "native_principle_attribution_status": "source-anchored principle, observation or firm disclosure; exact provenance recorded per anchor"
+      }
+    },
+    {
+      "rule_id": "DAL-R5",
+      "method_fact": "Novel shocks create a wide range of economic outcomes.",
+      "method_fact_origin": "Native-principle paraphrase; action/thresholds are independent operationalization.",
+      "source_ids": [
+        "DAL-10",
+        "DAL-08"
+      ],
+      "claim_ids": [],
+      "our_design_questions": [
+        "Predefine a novel-risk review, scenario liquidity tests and an override decision log."
+      ],
+      "required_inputs": [
+        "Medical/real-economy indicators appropriate to shock",
+        "Portfolio path losses",
+        "Option expiry/coverage",
+        "Model boundary assumptions"
+      ],
+      "falsifiers": [
+        "A model outside its training domain requires explicit review; no assumption that a historic drawdown envelope is sufficient."
+      ],
+      "limits": [
+        "Operational workflow adapted by this audit; not a master-authored formula"
+      ],
+      "historical_eligibility": {
+        "status": "candidate_eligible_pending_review",
+        "eligible_source_ids": [
+          "DAL-10",
+          "DAL-08"
+        ],
+        "reason": "Use the dated eligible sources only; prospective implementation must be frozen before outcome review. Independent acceptance pending; historical exporter separately tests direct-method authority."
+      },
+      "original_record": {
+        "id": "DAL-R5",
+        "native_principle": "Novel shocks create a wide range of economic outcomes.",
+        "implementation_status": "Operational workflow adapted by this audit; not a master-authored formula",
+        "action": "Predefine a novel-risk review, scenario liquidity tests and an override decision log.",
+        "required_data": [
+          "Medical/real-economy indicators appropriate to shock",
+          "Portfolio path losses",
+          "Option expiry/coverage",
+          "Model boundary assumptions"
+        ],
+        "invalidation_test": "A model outside its training domain requires explicit review; no assumption that a historic drawdown envelope is sufficient.",
+        "source_ids": [
+          "DAL-10",
+          "DAL-08"
+        ],
+        "beginning_2026_eligibility": {
+          "cutoff": "2026-01-01T00:00:00Z",
+          "status": "eligible_pre2026_native_principle_with_audit_adaptation",
+          "eligible_source_ids": [
+            "DAL-10",
+            "DAL-08"
+          ],
+          "excluded_or_uncertain_source_ids": [],
+          "reason": "Use the dated eligible sources only; prospective implementation must be frozen before outcome review."
+        },
+        "evidence_anchors": [
+          {
+            "source_id": "DAL-10",
+            "url": "https://www.bridgewater.com/thinking-through-the-wide-range-of-possible-economic-outcomes",
+            "locator_type": "web_section_and_paragraph",
+            "locator": "Opening body paragraphs on portfolio construction under uncertainty and cross-country scenario learning; before the first section on the economic shock’s follow-on effects",
+            "supporting_paraphrase": "Wide uncertainty calls for positions based on understood links and multiple plausible outcomes.",
+            "supports": "firm_research_supporting_native_principle",
+            "does_not_authenticate": "Audit action, input checklist and invalidation workflow remain analyst-adapted.",
+            "native_attribution": "Greg Jensen, Jason Rotenberg, Matthew Karasz and Kate Dunbar; Bridgewater team research, not assumed Dalio sole authorship"
+          }
+        ],
+        "native_principle_attribution_status": "source-anchored principle, observation or firm disclosure; exact provenance recorded per anchor"
+      }
+    }
+  ],
+  "source_records": [
+    {
+      "id": "COM-13F",
+      "title": "SEC: Frequently Asked Questions About Form 13F",
+      "url": "https://www.sec.gov/rules-regulations/staff-guidance/frequently-asked-questions-about-form-13f",
+      "date": "updated 2026-03-06",
+      "kind": "regulatory primary",
+      "access": "inspected",
+      "limits": "Read the FAQ with the contemporaneous form instructions; never infer a complete risk book.",
+      "locator": "",
+      "retrieved_at": "2026-10-13",
+      "source_date_semantics": "The date field may describe an original event/report. Use publication_visibility below for temporal decision-packet eligibility.",
+      "publication_visibility": {
+        "original_publication_or_filing_date": "2026-03-06",
+        "date_precision": "day",
+        "public_republication_date": "unknown where current author/firm page is a republication",
+        "eligibility_before_2026": "excluded_post_cutoff",
+        "provenance_caveat": "A dated original first-person source reproduced on a current host is not an immutable archive of every historical version."
+      }
+    },
+    {
+      "id": "COM-13F-2017",
+      "title": "SEC: retained March 15, 2017 Form 13F FAQ",
+      "url": "https://www.sec.gov/files/divisions/investment/13ffaq.htm",
+      "date": "2017-03-15",
+      "kind": "regulatory primary, retained older version",
+      "access": "inspected relevant sections",
+      "limits": "Supports pre-2026 lag/long-only/coverage rules. Old value reporting and electronic procedures are obsolete; do not use those fields to normalize 2023/24 filings.",
+      "locator": "Questions 7, 25, 40, 41, 43 and 44",
+      "retrieved_at": "2026-10-13",
+      "source_date_semantics": "The date field may describe an original event/report. Use publication_visibility below for temporal decision-packet eligibility.",
+      "publication_visibility": {
+        "original_publication_or_filing_date": "2017-03-15",
+        "date_precision": "day",
+        "public_republication_date": "unknown where current author/firm page is a republication",
+        "eligibility_before_2026": "eligible_dated_original_content",
+        "provenance_caveat": "A dated original first-person source reproduced on a current host is not an immutable archive of every historical version."
+      }
+    },
+    {
+      "id": "DAL-03",
+      "title": "Ray Dalio: Principles for Navigating Big Debt Crises",
+      "url": "https://www.bridgewater.com/big-debt-crises/principles-for-navigating-big-debt-crises-by-ray-dalio.pdf",
+      "date": "2018",
+      "kind": "author book on firm site",
+      "access": "selected sections inspected",
+      "limits": "Full PDF downloaded and text extracted; selected relevant sections, not every page reviewed. SHA256 7730b3be98d735950c28b1e47c8f9ca289b85d6c7588afdbd7c2cba63160ddb9.",
+      "locator": "Printed/PDF pp.9 and 13: How I Think about Credit and Debt; The Template for the Archetypal Long-Term/Big Debt Cycle | Printed/PDF p.12: Can Most Debt Crises Be Managed so There Aren’t Big Problems?; four-lever list and following balance discussion",
+      "retrieved_at": "2026-10-13",
+      "source_date_semantics": "The date field may describe an original event/report. Use publication_visibility below for temporal decision-packet eligibility.",
+      "publication_visibility": {
+        "original_publication_or_filing_date": null,
+        "latest_pre2026_bound": "2018-12-31",
+        "date_precision": "bounded year/month",
+        "basis": "Book dated 2018; exact public-release day not established here.",
+        "eligibility_before_2026": "eligible_bounded_original_content"
+      }
+    },
+    {
+      "id": "DAL-05",
+      "title": "Bridgewater: The All Weather Story",
+      "url": "https://www.bridgewater.com/resources/all-weather-story.pdf",
+      "date": "2012-01 (document cover)",
+      "kind": "firm primary",
+      "access": "inspected",
+      "limits": "Explains strategy design; does not publish a complete live institutional allocation formula.",
+      "locator": "Printed/PDF pp.5-6: Balancing Growth and Inflation; four-box diagram and equal-risk discussion",
+      "retrieved_at": "2026-10-13",
+      "source_date_semantics": "The date field may describe an original event/report. Use publication_visibility below for temporal decision-packet eligibility.",
+      "publication_visibility": {
+        "original_publication_or_filing_date": null,
+        "latest_pre2026_bound": "2012-01-31",
+        "date_precision": "document month",
+        "basis": "Cover explicitly dated January 2012; not inferred merely from copyright or URL.",
+        "eligibility_before_2026": "eligible_dated_document_month",
+        "provenance_caveat": "Current official copy inspected; immutable original distribution snapshot not obtained."
+      }
+    },
+    {
+      "id": "DAL-07",
+      "title": "Ray Dalio Commentary: Our Performance",
+      "url": "https://www.gurufocus.com/news/1079552/ray-dalio-commentary-our-performance",
+      "date": "2020-03-19; letter described as sent 2020-03-18",
+      "kind": "first-person client-letter reproduction on third-party site",
+      "access": "inspected",
+      "limits": "Primary text via secondary host; original signed client letter not obtained. Estimates, strategy-specific volatility targets and net returns.",
+      "locator": "Post-letter disclosure beginning Bridgewater Daily Observations; second paragraph beginning Additionally",
+      "retrieved_at": "2026-10-13",
+      "source_date_semantics": "The date field may describe an original event/report. Use publication_visibility below for temporal decision-packet eligibility.",
+      "publication_visibility": {
+        "original_publication_or_filing_date": "2020-03-19",
+        "date_precision": "day",
+        "public_republication_date": "unknown where current author/firm page is a republication",
+        "eligibility_before_2026": "eligible_dated_original_content",
+        "provenance_caveat": "A dated original first-person source reproduced on a current host is not an immutable archive of every historical version."
+      }
+    },
+    {
+      "id": "DAL-08",
+      "title": "Reuters: Bridgewater hedge funds fall further on coronavirus market rout",
+      "url": "https://kfgo.com/2020/03/18/bridgewater-hedge-funds-fall-further-on-coronavirus-market-rout/",
+      "date": "2020-03-18",
+      "kind": "contemporary secondary with reporter viewing client note",
+      "access": "inspected",
+      "limits": "Independent journalistic corroboration, not a position ledger or audited performance report.",
+      "locator": "",
+      "retrieved_at": "2026-10-13",
+      "source_date_semantics": "The date field may describe an original event/report. Use publication_visibility below for temporal decision-packet eligibility.",
+      "publication_visibility": {
+        "original_publication_or_filing_date": "2020-03-18",
+        "date_precision": "day",
+        "public_republication_date": "unknown where current author/firm page is a republication",
+        "eligibility_before_2026": "eligible_dated_original_content",
+        "provenance_caveat": "A dated original first-person source reproduced on a current host is not an immutable archive of every historical version."
+      }
+    },
+    {
+      "id": "DAL-10",
+      "title": "Bridgewater: Thinking Through the Wide Range of Possible Economic Outcomes",
+      "url": "https://www.bridgewater.com/thinking-through-the-wide-range-of-possible-economic-outcomes",
+      "date": "2020-04-27",
+      "kind": "firm research primary",
+      "access": "inspected",
+      "limits": "Post-shock risk framework, not a reconstructed pretrade letter.",
+      "locator": "End disclosure: paragraph beginning Additionally, following research-purpose paragraph | Opening body paragraphs on portfolio construction under uncertainty and cross-country scenario learning; before the first section on the economic shock’s follow-on effects",
+      "retrieved_at": "2026-10-13",
+      "source_date_semantics": "The date field may describe an original event/report. Use publication_visibility below for temporal decision-packet eligibility.",
+      "publication_visibility": {
+        "original_publication_or_filing_date": "2020-04-27",
+        "date_precision": "day",
+        "public_republication_date": "unknown where current author/firm page is a republication",
+        "eligibility_before_2026": "eligible_dated_original_content",
+        "provenance_caveat": "A dated original first-person source reproduced on a current host is not an immutable archive of every historical version."
+      }
+    }
+  ],
+  "evidence_artifacts": [
+    {
+      "path": "current-library/macro/dalio.json",
+      "sha256": "34193462000cc56fd4b625c8caf5bd9d6d765a1719228558484c4d18b42d63c5",
+      "content_kind": "current evidence including holdings/cases/limits; forbidden to historical workers"
+    },
+    {
+      "path": "current-library/macro/soros.json",
+      "sha256": "f23c1efc21e831ead2ed69477a13c51096d57bd3966d55f49a4fc8c950738284",
+      "content_kind": "current evidence including holdings/cases/limits; forbidden to historical workers"
+    },
+    {
+      "path": "current-library/macro/druckenmiller.json",
+      "sha256": "7a1fd864543722bb4f05876906a75151ed6fcf27dedf4e213aed7b15af6d8941",
+      "content_kind": "current evidence including holdings/cases/limits; forbidden to historical workers"
+    },
+    {
+      "path": "current-library/macro/sources.json",
+      "sha256": "9ade79aac0adaa40a968d16a735ab5bf68df627f8be3a3d2845e6fa99b17cf89",
+      "content_kind": "current evidence including holdings/cases/limits; forbidden to historical workers"
+    },
+    {
+      "path": "current-library/macro/common-audit-rules.json",
+      "sha256": "d04d3dff923788144937e8d025855368b0c6c26f7f8e3c3b27563f0275a8e573",
+      "content_kind": "current evidence including holdings/cases/limits; forbidden to historical workers"
+    },
+    {
+      "path": "current-library/macro/method-cutoff-2026.json",
+      "sha256": "da1a3c4060446ef95283fd1e103a58951fd444dc15d552dfa345262fd6b3bd44",
+      "content_kind": "current evidence including holdings/cases/limits; forbidden to historical workers"
+    },
+    {
+      "path": "current-library/macro/candidate-cases.json",
+      "sha256": "3ee31ff1c7603c31e300586da623c130eb2c7ea9ef232ec1a1d6a2f3c358d417",
+      "content_kind": "current evidence including holdings/cases/limits; forbidden to historical workers"
+    },
+    {
+      "path": "current-library/macro/rework1-tests.json",
+      "sha256": "9ac348c80adf247f6befd429db10adea23333c595fd325277fd93bd304acb4fd",
+      "content_kind": "current evidence including holdings/cases/limits; forbidden to historical workers"
+    }
+  ],
+  "corpus_limits": [
+    "{\"reviewed\": \"Official firm founder/transition, 2008 timeline, selected debt book sections, All Weather story, named 2020 public materials and contemporaneous outcome reports.\", \"not_reviewed\": \"All historic Daily Observations, private investment committee records, complete book catalog, live proprietary signals or every modern filing.\", \"limits\": \"This is a bounded auditable public-source sample, not a claim to have learned all Dalio thoughts.\"}"
+  ],
+  "normalization": {
+    "original_dossier_path": "macro/dalio.json",
+    "original_dossier_sha256": "34193462000cc56fd4b625c8caf5bd9d6d765a1719228558484c4d18b42d63c5",
+    "field_mapping": {
+      "method_fact": "/rules/*/native_principle",
+      "our_design_questions": "/rules/*/action",
+      "falsifiers": "/rules/*/invalidation_test",
+      "sources": "/rules/*/source_ids joins macro/sources.json",
+      "historical_eligibility": "/rules/*/beginning_2026_eligibility; publication_visibility retained"
+    },
+    "raw_evidence_preserved": true,
+    "source_audit_receipt_sha256": "5f1e2b12aacfe6af28d6db21240aa98ce3a38c51c712cd1d55003dd5393083ff"
+  }
+}

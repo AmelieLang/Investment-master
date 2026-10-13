@@ -1,0 +1,146 @@
+{
+  "schema_version": "historical-method-facts/v0.1-draft",
+  "master_id": "stanley-druckenmiller",
+  "display_attribution": "Stanley Druckenmiller; original speech/interview method facts",
+  "identity_scope": "individual_or_bounded_fund",
+  "decision_information_cutoff_utc": "2025-12-31T23:59:59Z",
+  "eligibility": {
+    "status": "bounded_candidate_pending_review",
+    "independent_source_acceptance": "accepted_bounded_upstream_source_content",
+    "automatic_route_enabled": false,
+    "assembled_export_acceptance": "pending_separate_review"
+  },
+  "method_facts": [
+    {
+      "rule_id": "DRU-R1",
+      "documented_method_fact": "Liquidity and policy matter to markets; earnings alone are insufficient.",
+      "source_ids": [
+        "DRU-01"
+      ],
+      "source_specific_locators": {
+        "DRU-01": "Transcript p.16 last paragraph continuing onto p.17 first paragraph: mentor’s central-bank/liquidity lesson"
+      },
+      "documented_scope": "Bounded direct original method/risk fact; operational workflow is independent design.",
+      "original_language_terms": [],
+      "precutoff_publication_eligible_candidate": true,
+      "independent_acceptance": "pending_sanitized_export_review",
+      "application_is_hypothetical": true
+    },
+    {
+      "rule_id": "DRU-R7",
+      "documented_method_fact": "Look ahead to changing conditions rather than rely on present earnings.",
+      "source_ids": [
+        "DRU-01"
+      ],
+      "source_specific_locators": {
+        "DRU-01": "Transcript p.16: first of mentor’s two lessons, the 18-month forward situation"
+      },
+      "documented_scope": "Bounded direct original method/risk fact; operational workflow is independent design.",
+      "original_language_terms": [],
+      "precutoff_publication_eligible_candidate": true,
+      "independent_acceptance": "pending_sanitized_export_review",
+      "application_is_hypothetical": true
+    },
+    {
+      "rule_id": "DRU-R2",
+      "documented_method_fact": "Concentrate when a rare opportunity is compelling, and change course quickly when wrong.",
+      "source_ids": [
+        "DRU-01",
+        "DRU-02"
+      ],
+      "source_specific_locators": {
+        "DRU-01": "Transcript pp.13-14: concentration discussion and rare opportunity paragraph",
+        "DRU-02": "On his approach to risk management, both paragraphs; On his investment process, second paragraph"
+      },
+      "documented_scope": "Bounded direct original method/risk fact; operational workflow is independent design.",
+      "original_language_terms": [],
+      "precutoff_publication_eligible_candidate": true,
+      "independent_acceptance": "pending_sanitized_export_review",
+      "application_is_hypothetical": true
+    },
+    {
+      "rule_id": "DRU-R3",
+      "documented_method_fact": "Flexible liquid asset classes create alternatives to dangerous markets.",
+      "source_ids": [
+        "DRU-02"
+      ],
+      "source_specific_locators": {
+        "DRU-02": "On his investment process, both paragraphs"
+      },
+      "documented_scope": "Bounded direct original method/risk fact; operational workflow is independent design.",
+      "original_language_terms": [],
+      "precutoff_publication_eligible_candidate": true,
+      "independent_acceptance": "pending_sanitized_export_review",
+      "application_is_hypothetical": true
+    },
+    {
+      "rule_id": "DRU-R6",
+      "documented_method_fact": "Knowing a rule does not prevent emotional re-entry.",
+      "source_ids": [
+        "DRU-01"
+      ],
+      "source_specific_locators": {
+        "DRU-01": "Transcript pp.39-40: January 2000 exit, frustration at others’ gains, emotional re-entry and admission"
+      },
+      "documented_scope": "Bounded direct original method/risk fact; operational workflow is independent design.",
+      "original_language_terms": [],
+      "precutoff_publication_eligible_candidate": true,
+      "independent_acceptance": "pending_sanitized_export_review",
+      "application_is_hypothetical": true
+    }
+  ],
+  "original_sources": [
+    {
+      "source_id": "DRU-01",
+      "original_public_url": "https://covestreetcapital.com/wp-content/uploads/2015/03/Druckenmiller-_Speech.pdf",
+      "title": "Stanley Druckenmiller: Lost Tree Club speech",
+      "original_author_or_speaker": "Named original author/firm in source title",
+      "provenance": "P2",
+      "publication_date_or_latest_public_bound": "2015-04-13",
+      "publication_proof": "Public transcript availability directly corroborated no later than April 13, 2015; earlier March 30 posting separately reported. No URL-path dating assumption.",
+      "precise_locator": "Transcript pp.39-40: January 2000 exit, frustration at others’ gains, emotional re-entry and admission",
+      "content_scope": "Short method fact/paraphrase only; no full source text, holding table or case/outcome narrative.",
+      "independent_acceptance": "pending",
+      "source_record_sha256": "3ddfffd2b91f28018bf2eb46fc626e276bac1dab7d00b2c6d6d3c1cf76cc8fc5",
+      "public_availability_corroboration": [
+        {
+          "source_id": "DRU-PUB-01",
+          "url": "https://finance.yahoo.com/news/druckenmiller-joins-fed-bashers-end-211208803.html",
+          "date": "2015-04-13",
+          "role": "Secondary contemporaneous public-posting report only, not primary method authority."
+        },
+        {
+          "source_id": "DRU-PUB-02",
+          "url": "https://gist.github.com/bluechoochoo/a034da52c64ac6fcb637/revisions",
+          "date": "2015-04-13",
+          "role": "Primary platform public revision-date record; transcription is third-party."
+        }
+      ]
+    },
+    {
+      "source_id": "DRU-02",
+      "original_public_url": "https://www.goldmansachs.com/insights/talks-at-gs/stanley-druckenmiller.html",
+      "title": "Goldman Sachs: Talks at GS, Stanley Druckenmiller",
+      "original_author_or_speaker": "Named original author/firm in source title",
+      "provenance": "P2",
+      "publication_date_or_latest_public_bound": "2021-02-03",
+      "publication_proof": "A dated original first-person source reproduced on a current host is not an immutable archive of every historical version.",
+      "precise_locator": "On his investment process, both paragraphs",
+      "content_scope": "Short method fact/paraphrase only; no full source text, holding table or case/outcome narrative.",
+      "independent_acceptance": "pending",
+      "source_record_sha256": "6a577270cd5627c657116e256787985a00e6eff41a1c5ca03c8a651e2d9b8c84"
+    }
+  ],
+  "application_scope": [
+    "Flexible global macro across liquid assets",
+    "Liquidity/policy sensitivity and change-oriented equity theses",
+    "Concentration, hypothesis reversal and portfolio sizing"
+  ],
+  "corpus_limits": [
+    "Selected public original material only; no complete institutional positions, proprietary strategy or full-book export.",
+    "Macro context does not establish a security-level intrinsic value or current personal view.",
+    "Published retrospective risk lessons are used only as pre-cutoff method facts; no case outcome or narrative is transported."
+  ],
+  "native_numerical_algorithm_established": false,
+  "authorship_boundary": "Method facts are faithful bounded paraphrases. Any application checklist, thresholds, weights, forecasts, probabilities or decision conclusion is independent research design and must not be attributed to the investor."
+}

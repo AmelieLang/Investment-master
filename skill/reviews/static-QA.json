@@ -1,0 +1,251 @@
+{
+  "schema_version": "skill-bundle-static-qa/v1",
+  "status": "passed_static_checks_only",
+  "executed_checks": [
+    {
+      "test": "All JSON files parse",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "research-result.missing-adapter.json",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "research-result.existing-adapter-reference.json",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "Negative schema probe: Absent adapter with available panel",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "Negative schema probe: Completed opinion under blocked route",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "Negative schema probe: Invocation under blocked route",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "Negative schema probe: Unknown wrapper field",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "Negative schema probe: Missing third logical cell",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "Negative schema probe: Claimed completion while acceptance pending",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "Negative schema probe: Null unverified model for partial view",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "Negative schema probe: Duplicate known master identity",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "Negative schema probe: Duplicate view slot",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "Negative schema probe: Duplicate route slot",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "Eleven current method modules satisfy typed draft schema",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "One-view schema and abstention fixture: individual-model-response.v0.1.schema.json",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "One-view schema rejects sibling wrapper field: individual-model-response.v0.1.schema.json",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "One-view schema and abstention fixture: individual-view-result.v0.1.schema.json",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "One-view schema rejects sibling wrapper field: individual-view-result.v0.1.schema.json",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "wrapper requires integration accounting: backbone_card_use",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "wrapper requires integration accounting: adapter_call_result",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "canonical_one_view requires integration accounting: backbone_card_use",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "canonical_one_view requires integration accounting: adapter_call_result",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "Raw model cannot self-certify runtime identity",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "research-result.v0.1.schema.json executed adapter receipt shape valid (synthetic only)",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "research-result.v0.1.schema.json rejects executed adapter with missing request",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "research-result.v0.1.schema.json shared adapter receipt shape valid (synthetic only)",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "research-result.v0.1.schema.json rejects shared adapter without receipt ID",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "individual-view-result.v0.1.schema.json executed adapter receipt shape valid (synthetic only)",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "individual-view-result.v0.1.schema.json rejects executed adapter with missing request",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "individual-view-result.v0.1.schema.json shared adapter receipt shape valid (synthetic only)",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "individual-view-result.v0.1.schema.json rejects shared adapter without receipt ID",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "Eight accepted R2 contract/config/license files byte-identical",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "Existing R2 fixture valid; added field rejected",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "Full finterm card coverage",
+      "status": "passed",
+      "detail": "65"
+    },
+    {
+      "test": "Preserved finterm source hashes; program not executed",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "121 catalogue entities; zero automatic expert routes",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "39 adoption rows cover frozen twenty plus finterm",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "Current registry resolves all eleven exact module hashes",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "Historical fact IDs/sources/hashes/publication bounds resolve",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "Fundamental fit/exclusion polarity:13 positive and65 actually rejected mutation fixtures",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "Historical worker bytes contain no later-date/holding/outcome/cache/private-reference transports",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "No private user message IDs or recognizable credential tokens in text/JSON",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "All five underlying stream receipt hashes matched accepted source artifacts",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "Ten core sources accepted; emerging extension counted separately",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "Optional cutoff ticker evidence contains only five approved minimal files plus usage limits, exact hashes verified",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "Portable text/JSON excludes private paths, user-message identifiers and restricted document links",
+      "status": "passed",
+      "detail": ""
+    }
+  ],
+  "executed_check_count": 46,
+  "source_acceptance": "All ten core dossiers plus separate Leopold emerging/risk extension have bounded source receipts; refreshed integration/runtime remain pending.",
+  "not_executed": [
+    "Upstream programs",
+    "New math/valuation implementation",
+    "Model opinions",
+    "Historical stock routes",
+    "Custom/comparator benchmark",
+    "Live integration",
+    "Publishing"
+  ],
+  "historical_method_fact_count": 37,
+  "historical_method_file_count": 12,
+  "new_bundle_corrective_reworks_used": 2,
+  "max_corrective_reworks": 3
+}

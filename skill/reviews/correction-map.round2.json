@@ -1,0 +1,32 @@
+{
+  "schema_version": "skill-source-correction-map/v1",
+  "corrective_round": 2,
+  "maximum_corrective_rounds": 3,
+  "review_receipt_sha256": "9482b2588fea331b4512b4c28d459dcab4992333cdb375e14cd3dc2d46f85d6f",
+  "closed": [
+    {
+      "id": "V2D-R2-01",
+      "result": "All13 fundamental historical facts preserve explicit author-adapted applies-to and does-not-apply fields plus labelled prose; matched exactly to accepted source packet.14 current fundamental rules preserve the same polarity.13 positive and65 negative mutation checks actually pass."
+    },
+    {
+      "id": "HISTORICAL-INPUT-PROSE",
+      "result": "Entrypoint explicitly enumerates admitted method facts, frozen company packet, reviewed procedural cards and fixed single-view schema."
+    },
+    {
+      "id": "CONTROLLER-RECEIPT-PROSE",
+      "result": "Canonical adapter/runtime/artifact metadata is trusted-controller-owned; model emits restricted one-lens analytical response."
+    },
+    {
+      "id": "S15-IMPLEMENTATION-REMINDER",
+      "result": "Executed R2 requires present request+result artifacts; shared result requires nonempty resolvable frozen shared-calculation receipt. Local state contradictions are schema-rejected; cross-file resolution remains mandatory future semantic acceptance."
+    }
+  ],
+  "pending": [
+    {
+      "id": "IMPLEMENTATION-PREFLIGHT",
+      "reason": "Source docs/schemas only; complete semantic validator, sanitized card projection, security packets, numerical runtime, model transport and benchmark remain separate blocked work."
+    }
+  ],
+  "overall_source_integration_acceptance": "pending_independent_rework2_review",
+  "remaining_corrective_rounds": 1
+}

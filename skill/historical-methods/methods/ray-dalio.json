@@ -1,0 +1,100 @@
+{
+  "schema_version": "historical-method-facts/v0.1-draft",
+  "master_id": "ray-dalio",
+  "display_attribution": "Ray Dalio / bounded documented Bridgewater strategy design",
+  "identity_scope": "individual_or_bounded_fund",
+  "decision_information_cutoff_utc": "2025-12-31T23:59:59Z",
+  "eligibility": {
+    "status": "bounded_candidate_pending_review",
+    "independent_source_acceptance": "accepted_bounded_upstream_source_content",
+    "automatic_route_enabled": false,
+    "assembled_export_acceptance": "pending_separate_review"
+  },
+  "method_facts": [
+    {
+      "rule_id": "DAL-R1",
+      "documented_method_fact": "Debt stress follows borrower cash flows, balance sheets and funding constraints.",
+      "source_ids": [
+        "DAL-03"
+      ],
+      "source_specific_locators": {
+        "DAL-03": "Printed/PDF pp.9 and 13: How I Think about Credit and Debt; The Template for the Archetypal Long-Term/Big Debt Cycle"
+      },
+      "documented_scope": "Bounded direct original method/risk fact; operational workflow is independent design.",
+      "original_language_terms": [],
+      "precutoff_publication_eligible_candidate": true,
+      "independent_acceptance": "pending_sanitized_export_review",
+      "application_is_hypothetical": true
+    },
+    {
+      "rule_id": "DAL-R2",
+      "documented_method_fact": "Deleveraging mixes austerity, restructuring, monetary support and transfers.",
+      "source_ids": [
+        "DAL-03"
+      ],
+      "source_specific_locators": {
+        "DAL-03": "Printed/PDF p.12: Can Most Debt Crises Be Managed so There Aren’t Big Problems?; four-lever list and following balance discussion"
+      },
+      "documented_scope": "Bounded direct original method/risk fact; operational workflow is independent design.",
+      "original_language_terms": [],
+      "precutoff_publication_eligible_candidate": true,
+      "independent_acceptance": "pending_sanitized_export_review",
+      "application_is_hypothetical": true
+    },
+    {
+      "rule_id": "DAL-R3",
+      "documented_method_fact": "All Weather allocates risk across growth/inflation surprises.",
+      "source_ids": [
+        "DAL-05"
+      ],
+      "source_specific_locators": {
+        "DAL-05": "Printed/PDF pp.5-6: Balancing Growth and Inflation; four-box diagram and equal-risk discussion"
+      },
+      "documented_scope": "Bounded direct original method/risk fact; operational workflow is independent design.",
+      "original_language_terms": [],
+      "precutoff_publication_eligible_candidate": true,
+      "independent_acceptance": "pending_sanitized_export_review",
+      "application_is_hypothetical": true
+    }
+  ],
+  "original_sources": [
+    {
+      "source_id": "DAL-03",
+      "original_public_url": "https://www.bridgewater.com/big-debt-crises/principles-for-navigating-big-debt-crises-by-ray-dalio.pdf",
+      "title": "Ray Dalio: Principles for Navigating Big Debt Crises",
+      "original_author_or_speaker": "Named original author/firm in source title",
+      "provenance": "P1",
+      "publication_date_or_latest_public_bound": "2018-12-31",
+      "publication_proof": "Book dated 2018; exact public-release day not established here.",
+      "precise_locator": "Printed/PDF p.12: Can Most Debt Crises Be Managed so There Aren’t Big Problems?; four-lever list and following balance discussion",
+      "content_scope": "Short method fact/paraphrase only; no full source text, holding table or case/outcome narrative.",
+      "independent_acceptance": "pending",
+      "source_record_sha256": "377427b16039d35e87747275e46bb07af5b1182d474f31497898d6b1ba91108d"
+    },
+    {
+      "source_id": "DAL-05",
+      "original_public_url": "https://www.bridgewater.com/resources/all-weather-story.pdf",
+      "title": "Bridgewater: The All Weather Story",
+      "original_author_or_speaker": "Named original author/firm in source title",
+      "provenance": "P1",
+      "publication_date_or_latest_public_bound": "2012-01-31",
+      "publication_proof": "Cover explicitly dated January 2012; not inferred merely from copyright or URL.",
+      "precise_locator": "Printed/PDF pp.5-6: Balancing Growth and Inflation; four-box diagram and equal-risk discussion",
+      "content_scope": "Short method fact/paraphrase only; no full source text, holding table or case/outcome narrative.",
+      "independent_acceptance": "pending",
+      "source_record_sha256": "2c2f963031761283f5179b05ed10a326b729bb068fa4720a69029c7090ac330c"
+    }
+  ],
+  "application_scope": [
+    "Global macro debt-cycle mechanisms",
+    "Policy transmission and deleveraging scenarios",
+    "Cross-asset growth/inflation regime allocation"
+  ],
+  "corpus_limits": [
+    "Selected public original material only; no complete institutional positions, proprietary strategy or full-book export.",
+    "Macro context does not establish a security-level intrinsic value or current personal view.",
+    "Published retrospective risk lessons are used only as pre-cutoff method facts; no case outcome or narrative is transported."
+  ],
+  "native_numerical_algorithm_established": false,
+  "authorship_boundary": "Method facts are faithful bounded paraphrases. Any application checklist, thresholds, weights, forecasts, probabilities or decision conclusion is independent research design and must not be attributed to the investor."
+}

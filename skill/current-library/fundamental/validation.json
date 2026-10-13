@@ -1,0 +1,103 @@
+{
+  "schema_version": "2.1",
+  "completed_at_utc": "2026-10-13T17:12:52.377561+00:00",
+  "status": "corrective_round1 automated QA passed; independent re-review pending",
+  "counts": {
+    "investors": 3,
+    "sources": 58,
+    "claims": 67,
+    "rules": 14,
+    "evidence_records": 81,
+    "strict_pre2026_rules": 13,
+    "case_records_including_one_excluded_lead": 11,
+    "accepted_case_records": 10,
+    "investment_or_strategy_cases": 9,
+    "verified_original_initial_investor_T0_theses": 0
+  },
+  "checks": [
+    {
+      "check": "Unique source, claim and rule IDs",
+      "result": "pass"
+    },
+    {
+      "check": "Every dossier source/claim/rule/case-node/crosscheck reference resolves",
+      "result": "pass"
+    },
+    {
+      "check": "Every eligible claim and rule passes linked-source publication and provenance gate",
+      "result": "pass"
+    },
+    {
+      "check": "Strict method export contains 13 eligible rules and excludes DYP-R-05",
+      "result": "pass"
+    },
+    {
+      "check": "All 2026 publication dates, undated current pages and unofficial notes excluded from strict historical source layer",
+      "result": "pass"
+    },
+    {
+      "check": "Berkshire Q2 2026 Apple aggregation includes all 12 rows",
+      "result": "pass",
+      "shares": 227917808,
+      "market_value_usd": 65950296923
+    },
+    {
+      "check": "Himalaya Q2 2026 8 classes / 7 issuers and published cover versus row-sum difference preserved",
+      "result": "pass_with_disclosed_anomaly",
+      "cover_usd": 3702921098,
+      "sum_of_rows_usd": 3702921099,
+      "unresolved_difference_usd": 1
+    },
+    {
+      "check": "Duan 2009 NetEase individual and foundation aggregate",
+      "result": "pass"
+    },
+    {
+      "check": "Li Lu controlled-fund 2021 BYD sale reconciles and proceeds are not labeled profit",
+      "result": "pass"
+    }
+  ],
+  "known_unresolved_anomalies": [
+    "NetEase 2003 annual ordinary-share scale versus October Schedule 13G reported units/header not reconciled.",
+    "Li Lu 2016 HKEX event shares 22,645,000 versus arithmetic holding increase 2,264,500.",
+    "Li Lu 2016 HKEX date field and serial do not establish the same exact public day; month used.",
+    "Himalaya Q2 2026 cover $3,702,921,098 versus published row sum $3,702,921,099; rounding plausible, cause unverified."
+  ],
+  "major_missing_links": [
+    "Initial pre-trade investor memos/public posts were not verified for Buffett Apple/IBM, Duan NetEase/2011 Apple or Li Lu initial BYD.",
+    "Duan NetEase success multiple and unnamed index monetary loss are original self-reports, not transaction-audited returns.",
+    "Li Lu BYD complete cost/return and named shorting failure remain unknown.",
+    "Initial Buffett Apple deputy identity Ted versus Todd remains unknown at accepted primary-text level."
+  ],
+  "research_boundary": "Selected original sources and specific disclosures only. Not all-internet, all-position or lifetime exhaustive research; no external account actions or trading.",
+  "corrective_round1_checks": [
+    {
+      "check": "F-01 working liquidity / absolute minimum / repurchase condition distinguished in canonical and mirrored streams",
+      "result": "pass"
+    },
+    {
+      "check": "F-02 all67 claims have81 linked evidence records with exact claim anchors and independent provenance/timing axes; all14 rules resolve anchors",
+      "result": "pass"
+    },
+    {
+      "check": "F-02 exact case denominator, nonexclusive T-label counts and source-family coverage reconcile",
+      "result": "pass"
+    },
+    {
+      "check": "F-03 same H&H CIK/security/class/SH-unit Q3 2025 and Q2 2026 snapshots compared with bounded amendment check; no public-2025 personal attribution inferred",
+      "result": "pass_bounded_vehicle_scope"
+    },
+    {
+      "check": "Frozen historical method packet13 rules; no broad eligible-claim transport, positions, named case narratives, currency outcomes or current opinions",
+      "result": "pass_automated_content_guard"
+    }
+  ],
+  "review_ledger": {
+    "task_id": "V2-B-fundamental",
+    "initial_review": 0,
+    "initial_review_verdict": "PARTIAL",
+    "corrective_submission": 1,
+    "maximum_corrective_rounds": 3,
+    "independent_re_review_verdict": "pending"
+  }
+}

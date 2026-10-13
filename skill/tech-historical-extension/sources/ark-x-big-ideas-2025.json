@@ -1,0 +1,50 @@
+{
+  "source_id": "ARK-X-BIG-IDEAS-2025",
+  "title": "Big Ideas 2025",
+  "original_public_url": "https://research.ark-invest.com/hubfs/1_Download_Files_ARK-Invest/Big_Ideas/ARK%20Invest%20Big%20Ideas%202025.pdf",
+  "original_author_or_speaker": "ARK research team; convergence: Brett Winton; AI Agents: Nicholas Grous, Frank Downing, Varshika Prasanna and Jozef Soja",
+  "provenance": "P1",
+  "publication_date_shown": "2025-02-04",
+  "publication_date_precision": "day",
+  "retrieval_date": "2026-10-13",
+  "decision_cutoff_utc": "2025-12-31T23:59:59Z",
+  "publication_proof": {
+    "primary_locator": "PDF page 1 cover.",
+    "attribution_locators": [
+      "Printed/PDF page 5 convergence author credit",
+      "Printed/PDF page 15 AI Agents author credits"
+    ],
+    "corroboration_url": "https://www.ark-invest.com/newsletters/issue-450",
+    "corroboration_locator": "Dated February 11, 2025 newsletter, item 1 points to the report; item 4 says the report was released that week.",
+    "evidence": "Report existence before cutoff corroborated by original official newsletter. Current PDF was re-created July 9, 2025; metadata is not proof this exact version was publicly served then."
+  },
+  "precutoff_publication_eligible_candidate": true,
+  "historical_version_status": "dated_original_edition_retrieved_currently; exact historical bytes not archive-pinned",
+  "first_public_upload_time_independently_verified": false,
+  "content_scope": "Cross-platform catalysts and conditional agent-economics variables; no market capitalization forecasts or security targets.",
+  "admissibility": "candidate_only_pending_independent_Astra_source_acceptance",
+  "source_limits": [
+    "Public original statements establish the author/team stated analytical ideas, not that the ideas are correct or were applied to every investment.",
+    "A dated source is eligible relative to this replay cutoff; no actual stock-entry timing or personal position is inferred.",
+    "Current file contains a May 23, 2025 point on page 9 although the cover says February 4; this is direct reason not to assert all bytes are the untouched February original. Page 9 is excluded from this rule set.",
+    "Only precise selected method anchors are candidates; publication/version uncertainty must remain visible even if the reviewer accepts them."
+  ],
+  "copyright_reuse": {
+    "status": "Copyrighted first-party research; no source-wide open redistribution license established.",
+    "retained_content": "Bibliographic facts, very short authentication anchors and independently written analytical questions only.",
+    "excluded": "No full report, source graphics, source tables, workbook, code, native scoring matrix or weight reproduction.",
+    "ARK_CC_boundary": "Any ARK CC BY-NC 4.0 model license is source-specific. It is not MIT and does not authorize commercial reuse. No ARK valuation model or workbook is accessed, adapted or exported here."
+  },
+  "inspection_receipt": {
+    "retrieved_bytes_sha256": "f9e434b489972428446532f3cf5282f2e5bc5b4a3fba80cc8f8dcd80cc318e43",
+    "retrieved_bytes": 15518488,
+    "pdf_page_count": 147,
+    "metadata": {
+      "/Producer": "macOS Version 15.5 (Build 24F74) Quartz PDFContext",
+      "/CreationDate": "D:20250709182549Z00'00'",
+      "/ModDate": "D:20250709182549Z00'00'"
+    },
+    "raw_file_in_deliverable": false,
+    "hash_proves": "The bytes read in this audit, not their historical public-availability date."
+  }
+}

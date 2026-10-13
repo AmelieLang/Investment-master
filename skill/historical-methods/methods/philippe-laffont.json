@@ -1,0 +1,22 @@
+{
+  "schema_version": "historical-method-facts/v0.1-draft",
+  "master_id": "philippe-laffont",
+  "display_attribution": "Philippe Laffont; requested personal-method slot",
+  "identity_scope": "individual_or_bounded_fund",
+  "decision_information_cutoff_utc": "2025-12-31T23:59:59Z",
+  "eligibility": {
+    "status": "not_eligible_personal_method",
+    "independent_source_acceptance": "accepted_bounded_upstream_source_content",
+    "automatic_route_enabled": false,
+    "assembled_export_acceptance": "pending_separate_review"
+  },
+  "method_facts": [],
+  "original_sources": [],
+  "application_scope": [],
+  "corpus_limits": [
+    "No eligible personal algorithm established by the recovered dated team paper.",
+    "Requested slot must abstain if personal-method evidence is essential; do not silently replace it with team research."
+  ],
+  "native_numerical_algorithm_established": false,
+  "authorship_boundary": "Method facts are faithful bounded paraphrases. Any application checklist, thresholds, weights, forecasts, probabilities or decision conclusion is independent research design and must not be attributed to the investor."
+}

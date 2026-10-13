@@ -1,0 +1,80 @@
+[
+  {
+    "pair_id": "L-P1",
+    "statement_rule_ids": [
+      "L-R2"
+    ],
+    "statement_source_ids": [
+      "L02",
+      "L03"
+    ],
+    "practice_source_ids": [
+      "L14",
+      "L16",
+      "L17"
+    ],
+    "security": "BLOOM ENERGY CORP COM CL A (CUSIP 093712107), common shares and calls kept separate",
+    "decision_maker": "SALP holds formal SOLE discretion; Aschenbrenner is founder and thesis speaker, but individual stock-selection authorship is not established",
+    "period": "Statement 2024-06-04; holdings 2025-12-31 and 2026-06-30",
+    "comparison_validity": "Comparable broad thematic scope, company and long side; cannot compare a security-specific price thesis that was not found",
+    "outcome": "consistent",
+    "finding": "The disclosed Bloom stock/call positions fit the power-constraint research theme and the issuer confirms AI data-center exposure.",
+    "alternative_explanations": [
+      "Other SALP investment-team input",
+      "Non-AI power economics",
+      "Different catalysts or valuation thesis"
+    ],
+    "unresolved": "No authenticated purchase valuation or trade ledger; thematic fit is not return proof."
+  },
+  {
+    "pair_id": "L-P2",
+    "statement_rule_ids": [
+      "L-R4"
+    ],
+    "statement_source_ids": [
+      "L03"
+    ],
+    "practice_source_ids": [
+      "L07"
+    ],
+    "security": "Fund-wide financing and long/short public portfolio, not a single security",
+    "decision_maker": "Aschenbrenner speaks both in original interview and reproduced manager letter; reproducer authenticity boundary retained",
+    "period": "Public risk intent 2024-06-04; adverse episode around 2026-07-29/30; letter published 2026-07-31",
+    "comparison_validity": "Same speaker and survival objective; a stated intention is not a promised numerical constraint",
+    "outcome": "apparent_tension",
+    "finding": "The reported financing-threatening episode tests the earlier survival intent; the letter acknowledges a need for more resilience.",
+    "alternative_explanations": [
+      "Unforeseen spread/correlation/liquidity moves",
+      "Financing terms or stress assumptions not public",
+      "Positions changed since disclosed snapshots"
+    ],
+    "unresolved": "Precise leverage, covenants, lender chronology and loss attribution cannot be reconstructed; not evidence of dishonesty or wrong AGI thesis."
+  },
+  {
+    "pair_id": "L-P3",
+    "statement_rule_ids": [
+      "L-R3"
+    ],
+    "statement_source_ids": [
+      "L03"
+    ],
+    "practice_source_ids": [
+      "L15",
+      "L16",
+      "L19"
+    ],
+    "security": "Q1 puts and stock/call holdings; Q2 substantially different reportable mix",
+    "decision_maker": "SALP manager, not automatically personal trade",
+    "period": "2026-03-31 versus 2026-06-30",
+    "comparison_validity": "Not comparable as net bullish/bearish conviction: underlying option report values are not delta/NAV; global/private/short stock book missing",
+    "outcome": "not_comparable",
+    "finding": "Large reported puts neither disprove the broad AI thesis nor establish a bearish net AI portfolio.",
+    "alternative_explanations": [
+      "Hedges",
+      "Relative-value long/short structure",
+      "Timing trades",
+      "Foreign/private longs absent from 13F"
+    ],
+    "unresolved": "Put strikes, expiries, premiums, delta, short equity positions and aggregate net exposure are missing."
+  }
+]

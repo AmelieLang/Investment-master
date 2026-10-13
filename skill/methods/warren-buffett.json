@@ -1,0 +1,1273 @@
+{
+  "schema_version": "investment-master-method/v0.1-draft",
+  "master_id": "warren-buffett",
+  "catalogue_entity_id": "warren-buffett",
+  "display_name": "Warren Buffett / Berkshire",
+  "classification": "core_dossier",
+  "source_stream": "fundamental",
+  "source_acceptance": "accepted",
+  "implementation_ready": false,
+  "identity_and_mandate_record": {
+    "person": "Warren Edward Buffett",
+    "organization": "Berkshire Hathaway Inc.",
+    "regulatory_cik": "0001067983",
+    "roles": [
+      {
+        "era": "Historical cases through 2025",
+        "role": "Chairman and CEO; principal capital allocator, alongside other authorized investment managers",
+        "basis_claim_ids": [
+          "WB-F-DEPUTIES2016",
+          "WB-F-ROLE-CHANGE"
+        ]
+      },
+      {
+        "era": "2026-01-01 onward",
+        "role": "Chairman; CEO is Greg Abel",
+        "basis_claim_ids": [
+          "WB-F-ROLE-CHANGE",
+          "WB-F-ROLE-2026"
+        ]
+      }
+    ],
+    "mandate": "Permanent-capital operating conglomerate, insurance liabilities and float, public equities and wholly owned businesses. Not a retail portfolio or a redeemable long-only mutual fund.",
+    "attribution_boundary": "Buffett’s original statements can support his reasoning. Berkshire consolidated holdings include other decision makers, entities and scopes. Initial Apple deputy identity is not established here as Ted versus Todd."
+  },
+  "scope": {
+    "strong": [
+      "Durable comprehensible cash-producing equity economics",
+      "Owner-cash valuation and capital allocation"
+    ],
+    "conditional": [
+      "Technology or capital-intensive businesses when economic competence is demonstrated"
+    ],
+    "not_established": [
+      "Universal sector ban",
+      "Mechanical low-P/E buy screen",
+      "Current personal endorsement"
+    ],
+    "historical_status": "Direct original method facts only; operationalized scenarios are our design."
+  },
+  "rules": [
+    {
+      "rule_id": "WB-R-01",
+      "method_fact": "Business cash valuation",
+      "method_fact_origin": "Auditor operationalization of cited investor evidence; checklist and scenarios are not quotations or claimed historical procedures.",
+      "source_ids": [
+        "WB-S-OWNERS1999",
+        "WB-S-1986"
+      ],
+      "claim_ids": [
+        "WB-F-VALUE",
+        "WB-F-OWNEREARNINGS"
+      ],
+      "our_design_questions": [
+        "Reconcile earnings to cash available after maintenance spending and working capital. Separate expansion investment.",
+        "Write bear/base/bull cash paths, competitive assumptions and discount-rate sensitivity; report a range.",
+        "Reject precision unsupported by accounting or business knowledge."
+      ],
+      "required_inputs": [
+        "Comparable issuer filings and cash-flow notes",
+        "Maintenance/growth reinvestment and working-capital estimates labelled as estimates",
+        "Customer/competition/capital-allocation evidence",
+        "Exact price, obligations, dilution and security-unit facts"
+      ],
+      "falsifiers": [
+        "Cash generation or competitive durability contradicts the assumed mechanism",
+        "Required capital or funding exceeds the modelled capacity",
+        "Price cannot be supported under defensible assumptions"
+      ],
+      "limits": [
+        "Applies to: Durable cash businesses with estimable reinvestment",
+        "Does not apply to: Mechanical low P/E, EBITDA-only or book-value screens",
+        "Not established unless a cited claim explicitly supplies one.",
+        "Required-input checklist and falsification tests are independent application design, not claimed investor-native rules or thresholds."
+      ],
+      "historical_eligibility": {
+        "status": "candidate_eligible_pending_review",
+        "eligible_source_ids": [
+          "WB-S-OWNERS1999",
+          "WB-S-1986"
+        ],
+        "reason": "Original claim/publication proof must pass independently; security/case narrative claims do not enter sanitized method export."
+      },
+      "original_record": {
+        "rule_id": "WB-R-01",
+        "name": "Business cash valuation",
+        "basis_claim_ids": [
+          "WB-F-VALUE",
+          "WB-F-OWNEREARNINGS"
+        ],
+        "origin": "Auditor operationalization of cited investor evidence; checklist and scenarios are not quotations or claimed historical procedures.",
+        "operational_steps": [
+          "Reconcile earnings to cash available after maintenance spending and working capital. Separate expansion investment.",
+          "Write bear/base/bull cash paths, competitive assumptions and discount-rate sensitivity; report a range.",
+          "Reject precision unsupported by accounting or business knowledge."
+        ],
+        "fits": "Durable cash businesses with estimable reinvestment",
+        "does_not_fit": "Mechanical low P/E, EBITDA-only or book-value screens",
+        "benchmark_2026_start_eligible": true,
+        "hard_numeric_threshold": "Not established unless a cited claim explicitly supplies one.",
+        "basis_source_ids": [
+          "WB-S-OWNERS1999",
+          "WB-S-1986"
+        ],
+        "precutoff_evidence_records": [
+          {
+            "source_id": "WB-S-OWNERS1999",
+            "published_at": "1999-01",
+            "known_public_by_2025_12_31": true,
+            "access_grade": "A_direct_original_read"
+          },
+          {
+            "source_id": "WB-S-1986",
+            "published_at": "1987-02-27",
+            "known_public_by_2025_12_31": true,
+            "access_grade": "A_direct_original_read"
+          }
+        ],
+        "strict_pre2026_eligible": true,
+        "precise_evidence_record_ids": [
+          "WB-F-VALUE-E1",
+          "WB-F-OWNEREARNINGS-E1"
+        ],
+        "precise_claim_anchors": [
+          {
+            "claim_id": "WB-F-VALUE",
+            "precise_locator": "Owner manual, Intrinsic Value appendix: opening discounted-cash definition paragraph and subsequent estimate-sensitivity/book-value discussion."
+          },
+          {
+            "claim_id": "WB-F-OWNEREARNINGS",
+            "precise_locator": "1986 letter Appendix, paragraph defining owner earnings as (a)+(b)-(c), including following incremental-working-capital sentence and maintenance-estimate caveat."
+          }
+        ],
+        "method_vs_application_boundary": "Source-faithful mechanism below is separate from auditor operational_steps. Contemporary or retrospective case provenance does not become original pre-trade intent."
+      },
+      "application_scope": {
+        "applies_to": "Durable cash businesses with estimable reinvestment",
+        "does_not_apply_to": "Mechanical low P/E, EBITDA-only or book-value screens",
+        "origin": "auditor_adaptation_not_investor_native_rule"
+      }
+    },
+    {
+      "rule_id": "WB-R-02",
+      "method_fact": "Competence and durability",
+      "method_fact_origin": "Auditor operationalization of cited investor evidence; checklist and scenarios are not quotations or claimed historical procedures.",
+      "source_ids": [
+        "WB-S-1996",
+        "WB-S-CNBC2017-MEETING"
+      ],
+      "claim_ids": [
+        "WB-F-CIRCLE",
+        "WB-F-TECHFIT"
+      ],
+      "our_design_questions": [
+        "Explain who pays, why customers stay, and what change destroys earning power.",
+        "List the strongest evidence against the franchise and explicit unknowns.",
+        "Use no-fit or too-hard when crucial assumptions are ungrounded."
+      ],
+      "required_inputs": [
+        "Comparable issuer filings and cash-flow notes",
+        "Maintenance/growth reinvestment and working-capital estimates labelled as estimates",
+        "Customer/competition/capital-allocation evidence",
+        "Exact price, obligations, dilution and security-unit facts"
+      ],
+      "falsifiers": [
+        "Cash generation or competitive durability contradicts the assumed mechanism",
+        "Required capital or funding exceeds the modelled capacity",
+        "Price cannot be supported under defensible assumptions"
+      ],
+      "limits": [
+        "Applies to: Business-specific knowledge including selected technology-mediated consumer franchises",
+        "Does not apply to: Automatic sector stereotypes or prediction of every technology winner",
+        "Not established unless a cited claim explicitly supplies one.",
+        "Required-input checklist and falsification tests are independent application design, not claimed investor-native rules or thresholds."
+      ],
+      "historical_eligibility": {
+        "status": "candidate_eligible_pending_review",
+        "eligible_source_ids": [
+          "WB-S-1996",
+          "WB-S-CNBC2017-MEETING"
+        ],
+        "reason": "Original claim/publication proof must pass independently; security/case narrative claims do not enter sanitized method export."
+      },
+      "original_record": {
+        "rule_id": "WB-R-02",
+        "name": "Competence and durability",
+        "basis_claim_ids": [
+          "WB-F-CIRCLE",
+          "WB-F-TECHFIT"
+        ],
+        "origin": "Auditor operationalization of cited investor evidence; checklist and scenarios are not quotations or claimed historical procedures.",
+        "operational_steps": [
+          "Explain who pays, why customers stay, and what change destroys earning power.",
+          "List the strongest evidence against the franchise and explicit unknowns.",
+          "Use no-fit or too-hard when crucial assumptions are ungrounded."
+        ],
+        "fits": "Business-specific knowledge including selected technology-mediated consumer franchises",
+        "does_not_fit": "Automatic sector stereotypes or prediction of every technology winner",
+        "benchmark_2026_start_eligible": true,
+        "hard_numeric_threshold": "Not established unless a cited claim explicitly supplies one.",
+        "basis_source_ids": [
+          "WB-S-1996",
+          "WB-S-CNBC2017-MEETING"
+        ],
+        "precutoff_evidence_records": [
+          {
+            "source_id": "WB-S-1996",
+            "published_at": "1997-02-28",
+            "known_public_by_2025_12_31": true,
+            "access_grade": "A_direct_original_read"
+          },
+          {
+            "source_id": "WB-S-CNBC2017-MEETING",
+            "published_at": "2017-05-06",
+            "known_public_by_2025_12_31": true,
+            "access_grade": "B_original_publisher_indexed_transcript"
+          }
+        ],
+        "strict_pre2026_eligible": true,
+        "precise_evidence_record_ids": [
+          "WB-F-CIRCLE-E1",
+          "WB-F-TECHFIT-E1"
+        ],
+        "precise_claim_anchors": [
+          {
+            "claim_id": "WB-F-CIRCLE",
+            "precise_locator": "1996 letter Common Stock Investments, paragraph specifying an understandable business at a rational price and next paragraph on circle-of-competence boundaries."
+          },
+          {
+            "claim_id": "WB-F-TECHFIT",
+            "precise_locator": "CNBC 2017 meeting afternoon session, section 12, Apple consumer-behavior/technology discussion; URL seek position start=6532.87 seconds. Original indexed transcript, full recording unlistened."
+          }
+        ],
+        "method_vs_application_boundary": "Source-faithful mechanism below is separate from auditor operational_steps. Contemporary or retrospective case provenance does not become original pre-trade intent."
+      },
+      "application_scope": {
+        "applies_to": "Business-specific knowledge including selected technology-mediated consumer franchises",
+        "does_not_apply_to": "Automatic sector stereotypes or prediction of every technology winner",
+        "origin": "auditor_adaptation_not_investor_native_rule"
+      }
+    },
+    {
+      "rule_id": "WB-R-03",
+      "method_fact": "Capital allocation economics",
+      "method_fact_origin": "Auditor operationalization of cited investor evidence; checklist and scenarios are not quotations or claimed historical procedures.",
+      "source_ids": [
+        "WB-S-OWNERS1999",
+        "WB-S-2011",
+        "WB-S-IBM2016-AR"
+      ],
+      "claim_ids": [
+        "WB-F-CAPITAL",
+        "WB-F-REPURCHASE2011",
+        "WB-F-IBMTHESIS",
+        "WB-F-IBM-BUSINESS"
+      ],
+      "our_design_questions": [
+        "Model business earnings independently of share-count reduction.",
+        "Price buybacks against intrinsic value and retained-capital alternatives.",
+        "Audit whether repurchases mask erosion of total cash generation."
+      ],
+      "required_inputs": [
+        "Comparable issuer filings and cash-flow notes",
+        "Maintenance/growth reinvestment and working-capital estimates labelled as estimates",
+        "Customer/competition/capital-allocation evidence",
+        "Exact price, obligations, dilution and security-unit facts"
+      ],
+      "falsifiers": [
+        "Cash generation or competitive durability contradicts the assumed mechanism",
+        "Required capital or funding exceeds the modelled capacity",
+        "Price cannot be supported under defensible assumptions"
+      ],
+      "limits": [
+        "Applies to: Companies with meaningful reinvestment, buyback or dividend choices",
+        "Does not apply to: EPS growth treated as sufficient proof of improved enterprise economics",
+        "Not established unless a cited claim explicitly supplies one.",
+        "Required-input checklist and falsification tests are independent application design, not claimed investor-native rules or thresholds."
+      ],
+      "historical_eligibility": {
+        "status": "candidate_eligible_pending_review",
+        "eligible_source_ids": [
+          "WB-S-OWNERS1999",
+          "WB-S-2011",
+          "WB-S-IBM2016-AR"
+        ],
+        "reason": "Original claim/publication proof must pass independently; security/case narrative claims do not enter sanitized method export."
+      },
+      "original_record": {
+        "rule_id": "WB-R-03",
+        "name": "Capital allocation economics",
+        "basis_claim_ids": [
+          "WB-F-CAPITAL",
+          "WB-F-REPURCHASE2011",
+          "WB-F-IBMTHESIS",
+          "WB-F-IBM-BUSINESS"
+        ],
+        "origin": "Auditor operationalization of cited investor evidence; checklist and scenarios are not quotations or claimed historical procedures.",
+        "operational_steps": [
+          "Model business earnings independently of share-count reduction.",
+          "Price buybacks against intrinsic value and retained-capital alternatives.",
+          "Audit whether repurchases mask erosion of total cash generation."
+        ],
+        "fits": "Companies with meaningful reinvestment, buyback or dividend choices",
+        "does_not_fit": "EPS growth treated as sufficient proof of improved enterprise economics",
+        "benchmark_2026_start_eligible": true,
+        "hard_numeric_threshold": "Not established unless a cited claim explicitly supplies one.",
+        "basis_source_ids": [
+          "WB-S-OWNERS1999",
+          "WB-S-2011",
+          "WB-S-IBM2016-AR"
+        ],
+        "precutoff_evidence_records": [
+          {
+            "source_id": "WB-S-OWNERS1999",
+            "published_at": "1999-01",
+            "known_public_by_2025_12_31": true,
+            "access_grade": "A_direct_original_read"
+          },
+          {
+            "source_id": "WB-S-2011",
+            "published_at": "2012-02-25",
+            "known_public_by_2025_12_31": true,
+            "access_grade": "A_direct_original_read"
+          },
+          {
+            "source_id": "WB-S-IBM2016-AR",
+            "published_at": "2017",
+            "known_public_by_2025_12_31": true,
+            "access_grade": "B_original_indexed_report"
+          }
+        ],
+        "strict_pre2026_eligible": true,
+        "precise_evidence_record_ids": [
+          "WB-F-CAPITAL-E1",
+          "WB-F-REPURCHASE2011-E1",
+          "WB-F-IBMTHESIS-E1",
+          "WB-F-IBM-BUSINESS-E1"
+        ],
+        "precise_claim_anchors": [
+          {
+            "claim_id": "WB-F-CAPITAL",
+            "precise_locator": "Owner manual principle 7 (debt), principle 9 (five-year retention test), principle 11 (controlled-business retention and exceptions)."
+          },
+          {
+            "claim_id": "WB-F-REPURCHASE2011",
+            "precise_locator": "2011 letter printed p6/PDF page5, Share Repurchases first two conditions paragraphs and following dilution/excess-cash warning (rendered lines219–227)."
+          },
+          {
+            "claim_id": "WB-F-IBMTHESIS",
+            "precise_locator": "2011 letter printed pp6–7 (PDF pages5–6): Share Repurchases/IBM illustration, 63.9m/5.5% paragraph and hypothetical fifth-year $20bn paragraph; cost also printed p4 highlights."
+          },
+          {
+            "claim_id": "WB-F-IBM-BUSINESS",
+            "precise_locator": "IBM 2016 annual report printed p69/PDF page71: five-year cash-flow table, Free Cash Flow and Gross Share Repurchases rows, plus financing-receivables adjustment note."
+          }
+        ],
+        "method_vs_application_boundary": "Source-faithful mechanism below is separate from auditor operational_steps. Contemporary or retrospective case provenance does not become original pre-trade intent."
+      },
+      "application_scope": {
+        "applies_to": "Companies with meaningful reinvestment, buyback or dividend choices",
+        "does_not_apply_to": "EPS growth treated as sufficient proof of improved enterprise economics",
+        "origin": "auditor_adaptation_not_investor_native_rule"
+      }
+    },
+    {
+      "rule_id": "WB-R-04",
+      "method_fact": "Survival and financing",
+      "method_fact_origin": "Auditor operationalization of cited investor evidence; checklist and scenarios are not quotations or claimed historical procedures.",
+      "source_ids": [
+        "WB-S-OWNERS1999",
+        "WB-S-2011"
+      ],
+      "claim_ids": [
+        "WB-F-CAPITAL",
+        "WB-F-LIQUIDITY2011"
+      ],
+      "our_design_questions": [
+        "Map obligations, currency, funding tenor, insurance stress and liquidity before sizing.",
+        "Stress forced-sale risk rather than borrow against expected price stability.",
+        "Use the investor’s actual capital and liability constraints. Distinguish working liquidity, an absolute minimum and a separate repurchase condition; do not copy any 2011 dollar amount as a universal or current threshold."
+      ],
+      "required_inputs": [
+        "Comparable issuer filings and cash-flow notes",
+        "Maintenance/growth reinvestment and working-capital estimates labelled as estimates",
+        "Customer/competition/capital-allocation evidence",
+        "Exact price, obligations, dilution and security-unit facts"
+      ],
+      "falsifiers": [
+        "Cash generation or competitive durability contradicts the assumed mechanism",
+        "Required capital or funding exceeds the modelled capacity",
+        "Price cannot be supported under defensible assumptions"
+      ],
+      "limits": [
+        "Applies to: Long-duration investment capital compatible with liability profile",
+        "Does not apply to: Return maximization requiring fragile financing",
+        "Not established unless a cited claim explicitly supplies one.",
+        "Required-input checklist and falsification tests are independent application design, not claimed investor-native rules or thresholds."
+      ],
+      "historical_eligibility": {
+        "status": "candidate_eligible_pending_review",
+        "eligible_source_ids": [
+          "WB-S-OWNERS1999",
+          "WB-S-2011"
+        ],
+        "reason": "Original claim/publication proof must pass independently; security/case narrative claims do not enter sanitized method export."
+      },
+      "original_record": {
+        "rule_id": "WB-R-04",
+        "name": "Survival and financing",
+        "basis_claim_ids": [
+          "WB-F-CAPITAL",
+          "WB-F-LIQUIDITY2011"
+        ],
+        "origin": "Auditor operationalization of cited investor evidence; checklist and scenarios are not quotations or claimed historical procedures.",
+        "operational_steps": [
+          "Map obligations, currency, funding tenor, insurance stress and liquidity before sizing.",
+          "Stress forced-sale risk rather than borrow against expected price stability.",
+          "Use the investor’s actual capital and liability constraints. Distinguish working liquidity, an absolute minimum and a separate repurchase condition; do not copy any 2011 dollar amount as a universal or current threshold."
+        ],
+        "fits": "Long-duration investment capital compatible with liability profile",
+        "does_not_fit": "Return maximization requiring fragile financing",
+        "benchmark_2026_start_eligible": true,
+        "hard_numeric_threshold": "Not established unless a cited claim explicitly supplies one.",
+        "basis_source_ids": [
+          "WB-S-OWNERS1999",
+          "WB-S-2011"
+        ],
+        "precutoff_evidence_records": [
+          {
+            "source_id": "WB-S-OWNERS1999",
+            "published_at": "1999-01",
+            "known_public_by_2025_12_31": true,
+            "access_grade": "A_direct_original_read"
+          },
+          {
+            "source_id": "WB-S-2011",
+            "published_at": "2012-02-25",
+            "known_public_by_2025_12_31": true,
+            "access_grade": "A_direct_original_read"
+          }
+        ],
+        "strict_pre2026_eligible": true,
+        "historical_numeric_constraint_guard": "2011 $20bn working liquidity, $10bn absolute minimum and separate $20bn repurchase cash-equivalent condition are distinct. The rule’s adaptation supplies no fixed universal or current amount.",
+        "precise_evidence_record_ids": [
+          "WB-F-CAPITAL-E1",
+          "WB-F-LIQUIDITY2011-E1"
+        ],
+        "precise_claim_anchors": [
+          {
+            "claim_id": "WB-F-CAPITAL",
+            "precise_locator": "Owner manual principle 7 (debt), principle 9 (five-year retention test), principle 11 (controlled-business retention and exceptions)."
+          },
+          {
+            "claim_id": "WB-F-LIQUIDITY2011",
+            "precise_locator": "2011 letter printed p18/PDF page17, currency-based investments, working/absolute-liquidity paragraph (rendered lines777–782); printed p6/PDF page5, Share Repurchases, cash-equivalent condition paragraph (lines237–242)."
+          }
+        ],
+        "method_vs_application_boundary": "Source-faithful mechanism below is separate from auditor operational_steps. Contemporary or retrospective case provenance does not become original pre-trade intent."
+      },
+      "application_scope": {
+        "applies_to": "Long-duration investment capital compatible with liability profile",
+        "does_not_apply_to": "Return maximization requiring fragile financing",
+        "origin": "auditor_adaptation_not_investor_native_rule"
+      }
+    },
+    {
+      "rule_id": "WB-R-05",
+      "method_fact": "Good business and price are separate",
+      "method_fact_origin": "Auditor operationalization of cited investor evidence; checklist and scenarios are not quotations or claimed historical procedures.",
+      "source_ids": [
+        "WB-S-2020"
+      ],
+      "claim_ids": [
+        "WB-F-PCC-ERROR"
+      ],
+      "our_design_questions": [
+        "Estimate normalized earnings over a full demand cycle.",
+        "Test downside from customer concentration, orders, margins and maintenance spending.",
+        "Record business-quality assessment separately from price, then revisit both after adverse evidence."
+      ],
+      "required_inputs": [
+        "Comparable issuer filings and cash-flow notes",
+        "Maintenance/growth reinvestment and working-capital estimates labelled as estimates",
+        "Customer/competition/capital-allocation evidence",
+        "Exact price, obligations, dilution and security-unit facts"
+      ],
+      "falsifiers": [
+        "Cash generation or competitive durability contradicts the assumed mechanism",
+        "Required capital or funding exceeds the modelled capacity",
+        "Price cannot be supported under defensible assumptions"
+      ],
+      "limits": [
+        "Applies to: Cyclical high-quality businesses only at adequately risk-compensating valuation",
+        "Does not apply to: Admiration for management used to waive valuation discipline",
+        "Not established unless a cited claim explicitly supplies one.",
+        "Required-input checklist and falsification tests are independent application design, not claimed investor-native rules or thresholds."
+      ],
+      "historical_eligibility": {
+        "status": "candidate_eligible_pending_review",
+        "eligible_source_ids": [
+          "WB-S-2020"
+        ],
+        "reason": "Original claim/publication proof must pass independently; security/case narrative claims do not enter sanitized method export."
+      },
+      "original_record": {
+        "rule_id": "WB-R-05",
+        "name": "Good business and price are separate",
+        "basis_claim_ids": [
+          "WB-F-PCC-ERROR"
+        ],
+        "origin": "Auditor operationalization of cited investor evidence; checklist and scenarios are not quotations or claimed historical procedures.",
+        "operational_steps": [
+          "Estimate normalized earnings over a full demand cycle.",
+          "Test downside from customer concentration, orders, margins and maintenance spending.",
+          "Record business-quality assessment separately from price, then revisit both after adverse evidence."
+        ],
+        "fits": "Cyclical high-quality businesses only at adequately risk-compensating valuation",
+        "does_not_fit": "Admiration for management used to waive valuation discipline",
+        "benchmark_2026_start_eligible": true,
+        "hard_numeric_threshold": "Not established unless a cited claim explicitly supplies one.",
+        "basis_source_ids": [
+          "WB-S-2020"
+        ],
+        "precutoff_evidence_records": [
+          {
+            "source_id": "WB-S-2020",
+            "published_at": "2021-02-27",
+            "known_public_by_2025_12_31": true,
+            "access_grade": "A_direct_original_read"
+          }
+        ],
+        "strict_pre2026_eligible": true,
+        "precise_evidence_record_ids": [
+          "WB-F-PCC-ERROR-E1"
+        ],
+        "precise_claim_anchors": [
+          {
+            "claim_id": "WB-F-PCC-ERROR",
+            "precise_locator": "2020 letter printed p4: PCC impairment paragraph and following overpayment/normalized-profit admission."
+          }
+        ],
+        "method_vs_application_boundary": "Source-faithful mechanism below is separate from auditor operational_steps. Contemporary or retrospective case provenance does not become original pre-trade intent."
+      },
+      "application_scope": {
+        "applies_to": "Cyclical high-quality businesses only at adequately risk-compensating valuation",
+        "does_not_apply_to": "Admiration for management used to waive valuation discipline",
+        "origin": "auditor_adaptation_not_investor_native_rule"
+      }
+    }
+  ],
+  "source_records": [
+    {
+      "source_id": "WB-S-OWNERS1999",
+      "title": "An Owner’s Manual, January 1999",
+      "url": "https://www.berkshirehathaway.com/owners.html",
+      "author_or_issuer": "Warren E. Buffett",
+      "published_at": "1999-01",
+      "event_or_information_date": null,
+      "access_grade": "A_direct_original_read",
+      "known_public_by_2025_12_31": true,
+      "benchmark_2026_start_eligible": true,
+      "locator": "Principles 1–15; intrinsic value and book value",
+      "limitation": null,
+      "accessed_on": "2026-10-13",
+      "source_family": "original_investor_shareholder_writing",
+      "provenance_grade": "P1",
+      "provenance_limitation": "Provenance is authority for the reported statement/fact, not truth certainty, private motive or audited investment performance.",
+      "publication_date": "1999-01",
+      "event_date": null,
+      "archive_or_upload_date": null,
+      "retrieved_at_utc": "2026-10-13T17:07:22Z",
+      "access_status": "read_original_text",
+      "coverage_count_unit": "one listed source record, not one entire lifetime source family",
+      "found": true,
+      "read_substantive": true,
+      "read_full_original": true,
+      "full_original_unavailable_or_unreviewed": false
+    },
+    {
+      "source_id": "WB-S-1986",
+      "title": "1986 shareholder letter",
+      "url": "https://www.berkshirehathaway.com/letters/1986.html",
+      "author_or_issuer": "Warren E. Buffett",
+      "published_at": "1987-02-27",
+      "event_or_information_date": "1986-12-31",
+      "access_grade": "A_direct_original_read",
+      "known_public_by_2025_12_31": true,
+      "benchmark_2026_start_eligible": true,
+      "locator": "Appendix, owner earnings",
+      "limitation": null,
+      "accessed_on": "2026-10-13",
+      "source_family": "original_investor_shareholder_writing",
+      "provenance_grade": "P1",
+      "provenance_limitation": "Provenance is authority for the reported statement/fact, not truth certainty, private motive or audited investment performance.",
+      "publication_date": "1987-02-27",
+      "event_date": "1986-12-31",
+      "archive_or_upload_date": null,
+      "retrieved_at_utc": "2026-10-13T17:07:22Z",
+      "access_status": "read_original_text",
+      "coverage_count_unit": "one listed source record, not one entire lifetime source family",
+      "found": true,
+      "read_substantive": true,
+      "read_full_original": true,
+      "full_original_unavailable_or_unreviewed": false
+    },
+    {
+      "source_id": "WB-S-1996",
+      "title": "1996 shareholder letter",
+      "url": "https://www.berkshirehathaway.com/letters/1996.html",
+      "author_or_issuer": "Warren E. Buffett",
+      "published_at": "1997-02-28",
+      "event_or_information_date": "1996-12-31",
+      "access_grade": "A_direct_original_read",
+      "known_public_by_2025_12_31": true,
+      "benchmark_2026_start_eligible": true,
+      "locator": "Common stock investment principles",
+      "limitation": null,
+      "accessed_on": "2026-10-13",
+      "source_family": "original_investor_shareholder_writing",
+      "provenance_grade": "P1",
+      "provenance_limitation": "Provenance is authority for the reported statement/fact, not truth certainty, private motive or audited investment performance.",
+      "publication_date": "1997-02-28",
+      "event_date": "1996-12-31",
+      "archive_or_upload_date": null,
+      "retrieved_at_utc": "2026-10-13T17:07:22Z",
+      "access_status": "read_original_text",
+      "coverage_count_unit": "one listed source record, not one entire lifetime source family",
+      "found": true,
+      "read_substantive": true,
+      "read_full_original": true,
+      "full_original_unavailable_or_unreviewed": false
+    },
+    {
+      "source_id": "WB-S-2011",
+      "title": "2011 shareholder letter",
+      "url": "https://www.berkshirehathaway.com/letters/2011ltr.pdf",
+      "author_or_issuer": "Warren E. Buffett",
+      "published_at": "2012-02-25",
+      "event_or_information_date": "2011-12-31",
+      "access_grade": "A_direct_original_read",
+      "known_public_by_2025_12_31": true,
+      "benchmark_2026_start_eligible": true,
+      "locator": "Common stock investments; IBM; insurance float",
+      "limitation": "Written after initial IBM purchases, not a pre-entry memo.",
+      "accessed_on": "2026-10-13",
+      "source_family": "original_investor_shareholder_writing",
+      "provenance_grade": "P1",
+      "provenance_limitation": "Provenance is authority for the reported statement/fact, not truth certainty, private motive or audited investment performance.",
+      "publication_date": "2012-02-25",
+      "event_date": "2011-12-31",
+      "archive_or_upload_date": null,
+      "retrieved_at_utc": "2026-10-13T17:07:22Z",
+      "access_status": "read_original_text",
+      "coverage_count_unit": "one listed source record, not one entire lifetime source family",
+      "found": true,
+      "read_substantive": true,
+      "read_full_original": true,
+      "full_original_unavailable_or_unreviewed": false
+    },
+    {
+      "source_id": "WB-S-2016",
+      "title": "2016 shareholder letter",
+      "url": "https://www.berkshirehathaway.com/letters/2016ltr.pdf",
+      "author_or_issuer": "Warren E. Buffett",
+      "published_at": "2017-02-25",
+      "event_or_information_date": "2016-12-31",
+      "access_grade": "A_direct_original_read",
+      "known_public_by_2025_12_31": true,
+      "benchmark_2026_start_eligible": true,
+      "locator": "Marketable equity table and Ted/Todd paragraph",
+      "limitation": null,
+      "accessed_on": "2026-10-13",
+      "source_family": "original_investor_shareholder_writing",
+      "provenance_grade": "P1",
+      "provenance_limitation": "Provenance is authority for the reported statement/fact, not truth certainty, private motive or audited investment performance.",
+      "publication_date": "2017-02-25",
+      "event_date": "2016-12-31",
+      "archive_or_upload_date": null,
+      "retrieved_at_utc": "2026-10-13T17:07:22Z",
+      "access_status": "read_original_text",
+      "coverage_count_unit": "one listed source record, not one entire lifetime source family",
+      "found": true,
+      "read_substantive": true,
+      "read_full_original": true,
+      "full_original_unavailable_or_unreviewed": false
+    },
+    {
+      "source_id": "WB-S-2017",
+      "title": "2017 shareholder letter",
+      "url": "https://www.berkshirehathaway.com/letters/2017ltr.pdf",
+      "author_or_issuer": "Warren E. Buffett",
+      "published_at": "2018-02-24",
+      "event_or_information_date": "2017-12-31",
+      "access_grade": "A_direct_original_read",
+      "known_public_by_2025_12_31": true,
+      "benchmark_2026_start_eligible": true,
+      "locator": "Marketable equity table; investment responsibilities",
+      "limitation": null,
+      "accessed_on": "2026-10-13",
+      "source_family": "original_investor_shareholder_writing",
+      "provenance_grade": "P1",
+      "provenance_limitation": "Provenance is authority for the reported statement/fact, not truth certainty, private motive or audited investment performance.",
+      "publication_date": "2018-02-24",
+      "event_date": "2017-12-31",
+      "archive_or_upload_date": null,
+      "retrieved_at_utc": "2026-10-13T17:07:22Z",
+      "access_status": "read_original_text",
+      "coverage_count_unit": "one listed source record, not one entire lifetime source family",
+      "found": true,
+      "read_substantive": true,
+      "read_full_original": true,
+      "full_original_unavailable_or_unreviewed": false
+    },
+    {
+      "source_id": "WB-S-2020",
+      "title": "2020 shareholder letter",
+      "url": "https://www.berkshirehathaway.com/letters/2020ltr.pdf",
+      "author_or_issuer": "Warren E. Buffett",
+      "published_at": "2021-02-27",
+      "event_or_information_date": "2020-12-31",
+      "access_grade": "A_direct_original_read",
+      "known_public_by_2025_12_31": true,
+      "benchmark_2026_start_eligible": true,
+      "locator": "PCC impairment; Apple ownership; BNSF/BHE",
+      "limitation": "Retrospective assessment, with cost/value disclosures; not exact realized investment IRRs.",
+      "accessed_on": "2026-10-13",
+      "source_family": "original_investor_shareholder_writing",
+      "provenance_grade": "P1",
+      "provenance_limitation": "Provenance is authority for the reported statement/fact, not truth certainty, private motive or audited investment performance.",
+      "publication_date": "2021-02-27",
+      "event_date": "2020-12-31",
+      "archive_or_upload_date": null,
+      "retrieved_at_utc": "2026-10-13T17:07:22Z",
+      "access_status": "read_original_text",
+      "coverage_count_unit": "one listed source record, not one entire lifetime source family",
+      "found": true,
+      "read_substantive": true,
+      "read_full_original": true,
+      "full_original_unavailable_or_unreviewed": false
+    },
+    {
+      "source_id": "WB-S-APPLE2016-13F",
+      "title": "Berkshire Q 1 2016 13F information table",
+      "url": "https://www.sec.gov/Archives/edgar/data/1067983/000095012316017295/xslForm13F_X01/form13fInfoTable.xml",
+      "author_or_issuer": "Berkshire Hathaway Inc.",
+      "published_at": "2016-05-16",
+      "event_or_information_date": "2016-03-31",
+      "access_grade": "A_direct_original_read",
+      "known_public_by_2025_12_31": true,
+      "benchmark_2026_start_eligible": true,
+      "locator": "Apple row; values in thousands of USD",
+      "limitation": null,
+      "accessed_on": "2026-10-13",
+      "source_family": "regulator_manager_holdings_filing",
+      "provenance_grade": "P1",
+      "provenance_limitation": "Provenance is authority for the reported statement/fact, not truth certainty, private motive or audited investment performance.",
+      "publication_date": "2016-05-16",
+      "event_date": "2016-03-31",
+      "archive_or_upload_date": null,
+      "retrieved_at_utc": "2026-10-13T17:07:22Z",
+      "access_status": "read_original_text",
+      "coverage_count_unit": "one listed source record, not one entire lifetime source family",
+      "found": true,
+      "read_substantive": true,
+      "read_full_original": true,
+      "full_original_unavailable_or_unreviewed": false
+    },
+    {
+      "source_id": "WB-S-APPLE2016-INDEX",
+      "title": "Berkshire Q 1 2016 filing index",
+      "url": "https://www.sec.gov/Archives/edgar/data/1067983/000095012316017295/0000950123-16-017295-index.htm",
+      "author_or_issuer": "SEC / Berkshire",
+      "published_at": "2016-05-16",
+      "event_or_information_date": "2016-03-31",
+      "access_grade": "A_direct_original_read",
+      "known_public_by_2025_12_31": true,
+      "benchmark_2026_start_eligible": true,
+      "locator": null,
+      "limitation": null,
+      "accessed_on": "2026-10-13",
+      "source_family": "regulator_manager_holdings_filing",
+      "provenance_grade": "P1",
+      "provenance_limitation": "Provenance is authority for the reported statement/fact, not truth certainty, private motive or audited investment performance.",
+      "publication_date": "2016-05-16",
+      "event_date": "2016-03-31",
+      "archive_or_upload_date": null,
+      "retrieved_at_utc": "2026-10-13T17:07:22Z",
+      "access_status": "read_original_text",
+      "coverage_count_unit": "one listed source record, not one entire lifetime source family",
+      "found": true,
+      "read_substantive": true,
+      "read_full_original": true,
+      "full_original_unavailable_or_unreviewed": false
+    },
+    {
+      "source_id": "WB-S-CNBC2017-A",
+      "title": "Buffett buys airlines and Apple, original CNBC interview",
+      "url": "https://buffett.cnbc.com/video/2017/02/27/buffett-buys-airlines-and-apple-full-interview.html",
+      "author_or_issuer": "CNBC interviewing Warren Buffett",
+      "published_at": "2017-02-27",
+      "event_or_information_date": null,
+      "access_grade": "B_original_publisher_metadata",
+      "known_public_by_2025_12_31": true,
+      "benchmark_2026_start_eligible": true,
+      "locator": null,
+      "limitation": "Original video identified; direct page returned 403. Reposted 10m/123m transcript exists but was not promoted to primary-verified text.",
+      "accessed_on": "2026-10-13",
+      "source_family": "authorized_original_interview_archive",
+      "provenance_grade": "P2",
+      "provenance_limitation": "Provenance is authority for the reported statement/fact, not truth certainty, private motive or audited investment performance.",
+      "publication_date": "2017-02-27",
+      "event_date": null,
+      "archive_or_upload_date": null,
+      "retrieved_at_utc": "2026-10-13T17:07:22Z",
+      "access_status": "original_indexed_extract_or_metadata_only",
+      "coverage_count_unit": "one listed source record, not one entire lifetime source family",
+      "found": true,
+      "read_substantive": false,
+      "read_full_original": false,
+      "full_original_unavailable_or_unreviewed": true
+    },
+    {
+      "source_id": "WB-S-CNBC2017-MEETING",
+      "title": "2017 annual meeting afternoon session",
+      "url": "https://buffett.cnbc.com/video/2017/05/06/afternoon-session---2017-berkshire-hathaway-annual-meeting.html?start=6532.87",
+      "author_or_issuer": "CNBC original meeting archive / Warren Buffett",
+      "published_at": "2017-05-06",
+      "event_or_information_date": null,
+      "access_grade": "B_original_publisher_indexed_transcript",
+      "known_public_by_2025_12_31": true,
+      "benchmark_2026_start_eligible": true,
+      "locator": "Technology and Apple consumer characteristics",
+      "limitation": "Indexed original transcript read; recording not listened to.",
+      "accessed_on": "2026-10-13",
+      "source_family": "authorized_original_interview_archive",
+      "provenance_grade": "P2",
+      "provenance_limitation": "Provenance is authority for the reported statement/fact, not truth certainty, private motive or audited investment performance.",
+      "publication_date": "2017-05-06",
+      "event_date": null,
+      "archive_or_upload_date": null,
+      "retrieved_at_utc": "2026-10-13T17:07:22Z",
+      "access_status": "original_indexed_extract_or_metadata_only",
+      "coverage_count_unit": "one listed source record, not one entire lifetime source family",
+      "found": true,
+      "read_substantive": true,
+      "read_full_original": false,
+      "full_original_unavailable_or_unreviewed": true
+    },
+    {
+      "source_id": "WB-S-CNBC2017-IBM",
+      "title": "Buffett: I was wrong on IBM, full interview",
+      "url": "https://buffett.cnbc.com/video/2017/08/30/buffett-i-was-wrong-on-ibm-full-interview.html",
+      "author_or_issuer": "CNBC interviewing Warren Buffett",
+      "published_at": "2017-08-30",
+      "event_or_information_date": null,
+      "access_grade": "B_original_publisher_description",
+      "known_public_by_2025_12_31": true,
+      "benchmark_2026_start_eligible": true,
+      "locator": null,
+      "limitation": "Original publisher records his admission; full audio not verified.",
+      "accessed_on": "2026-10-13",
+      "source_family": "authorized_original_interview_archive",
+      "provenance_grade": "P2",
+      "provenance_limitation": "Provenance is authority for the reported statement/fact, not truth certainty, private motive or audited investment performance.",
+      "publication_date": "2017-08-30",
+      "event_date": null,
+      "archive_or_upload_date": null,
+      "retrieved_at_utc": "2026-10-13T17:07:22Z",
+      "access_status": "original_indexed_extract_or_metadata_only",
+      "coverage_count_unit": "one listed source record, not one entire lifetime source family",
+      "found": true,
+      "read_substantive": true,
+      "read_full_original": false,
+      "full_original_unavailable_or_unreviewed": true
+    },
+    {
+      "source_id": "WB-S-CNBC2018-IBM",
+      "title": "Buffett: I think we have zero IBM shares",
+      "url": "https://buffett.cnbc.com/video/2018/05/03/buffett-i-think-we-have-zero-ibm-shares.html?qsearchterm=%2Bfiletype%3Ash",
+      "author_or_issuer": "CNBC interviewing Warren Buffett",
+      "published_at": "2018-05-03",
+      "event_or_information_date": "2018-Q1",
+      "access_grade": "B_original_publisher_description",
+      "known_public_by_2025_12_31": true,
+      "benchmark_2026_start_eligible": true,
+      "locator": null,
+      "limitation": "Speaker uses a qualification; publisher describes Q 1 full exit. No exact net realized P&L supplied.",
+      "accessed_on": "2026-10-13",
+      "source_family": "authorized_original_interview_archive",
+      "provenance_grade": "P2",
+      "provenance_limitation": "Provenance is authority for the reported statement/fact, not truth certainty, private motive or audited investment performance.",
+      "publication_date": "2018-05-03",
+      "event_date": "2018-Q1",
+      "archive_or_upload_date": null,
+      "retrieved_at_utc": "2026-10-13T17:07:22Z",
+      "access_status": "original_indexed_extract_or_metadata_only",
+      "coverage_count_unit": "one listed source record, not one entire lifetime source family",
+      "found": true,
+      "read_substantive": true,
+      "read_full_original": false,
+      "full_original_unavailable_or_unreviewed": true
+    },
+    {
+      "source_id": "WB-S-PCC2015-DEAL",
+      "title": "Berkshire agreement to acquire PCC",
+      "url": "https://www.berkshirehathaway.com/news/aug1015.pdf",
+      "author_or_issuer": "Berkshire Hathaway / Precision Castparts",
+      "published_at": "2015-08-10",
+      "event_or_information_date": "2015-08-08",
+      "access_grade": "A_direct_original_read",
+      "known_public_by_2025_12_31": true,
+      "benchmark_2026_start_eligible": true,
+      "locator": "Price, enterprise value, Buffett statement",
+      "limitation": "Pre-closing announcement after the merger decision; not a pre-decision memorandum.",
+      "accessed_on": "2026-10-13",
+      "source_family": "issuer_business_transaction_or_financial_report",
+      "provenance_grade": "P1",
+      "provenance_limitation": "Provenance is authority for the reported statement/fact, not truth certainty, private motive or audited investment performance.",
+      "publication_date": "2015-08-10",
+      "event_date": "2015-08-08",
+      "archive_or_upload_date": null,
+      "retrieved_at_utc": "2026-10-13T17:07:22Z",
+      "access_status": "read_original_text",
+      "coverage_count_unit": "one listed source record, not one entire lifetime source family",
+      "found": true,
+      "read_substantive": true,
+      "read_full_original": true,
+      "full_original_unavailable_or_unreviewed": false
+    },
+    {
+      "source_id": "WB-S-PCC2016-CLOSE",
+      "title": "Berkshire completes PCC acquisition",
+      "url": "https://berkshirehathaway.com/news/jan2916.pdf",
+      "author_or_issuer": "Berkshire Hathaway / Precision Castparts",
+      "published_at": "2016-01-29",
+      "event_or_information_date": "2016-01-29",
+      "access_grade": "B_original_indexed_release",
+      "known_public_by_2025_12_31": true,
+      "benchmark_2026_start_eligible": true,
+      "locator": null,
+      "limitation": null,
+      "accessed_on": "2026-10-13",
+      "source_family": "issuer_business_transaction_or_financial_report",
+      "provenance_grade": "P1",
+      "provenance_limitation": "Provenance is authority for the reported statement/fact, not truth certainty, private motive or audited investment performance.",
+      "publication_date": "2016-01-29",
+      "event_date": "2016-01-29",
+      "archive_or_upload_date": null,
+      "retrieved_at_utc": "2026-10-13T17:07:22Z",
+      "access_status": "original_indexed_extract_or_metadata_only",
+      "coverage_count_unit": "one listed source record, not one entire lifetime source family",
+      "found": true,
+      "read_substantive": true,
+      "read_full_original": false,
+      "full_original_unavailable_or_unreviewed": true
+    },
+    {
+      "source_id": "WB-S-PCC2016-10Q",
+      "title": "Berkshire first-quarter 2016 report",
+      "url": "https://berkshirehathaway.com/qtrly/1stqtr16.pdf",
+      "author_or_issuer": "Berkshire Hathaway",
+      "published_at": "2016",
+      "event_or_information_date": "2016-03-31",
+      "access_grade": "B_original_indexed_report",
+      "known_public_by_2025_12_31": true,
+      "benchmark_2026_start_eligible": true,
+      "locator": "Note 3, PCC acquisition",
+      "limitation": null,
+      "accessed_on": "2026-10-13",
+      "source_family": "issuer_business_transaction_or_financial_report",
+      "provenance_grade": "P1",
+      "provenance_limitation": "Provenance is authority for the reported statement/fact, not truth certainty, private motive or audited investment performance.",
+      "publication_date": "2016",
+      "event_date": "2016-03-31",
+      "archive_or_upload_date": null,
+      "retrieved_at_utc": "2026-10-13T17:07:22Z",
+      "access_status": "original_indexed_extract_or_metadata_only",
+      "coverage_count_unit": "one listed source record, not one entire lifetime source family",
+      "found": true,
+      "read_substantive": true,
+      "read_full_original": false,
+      "full_original_unavailable_or_unreviewed": true
+    },
+    {
+      "source_id": "WB-S-PCC2015-RESULT",
+      "title": "PCC fiscal 2015 results, contemporaneous pre-deal public information",
+      "url": "https://www.sec.gov/Archives/edgar/data/79958/000007995815000023/pcp051320158kex991.htm",
+      "author_or_issuer": "Precision Castparts Corp.",
+      "published_at": "2015-05-13",
+      "event_or_information_date": "2015-03-29",
+      "access_grade": "B_original_indexed_release",
+      "known_public_by_2025_12_31": true,
+      "benchmark_2026_start_eligible": true,
+      "locator": null,
+      "limitation": "Available before acquisition agreement; does not prove Buffett used or ignored these specific facts.",
+      "accessed_on": "2026-10-13",
+      "source_family": "issuer_business_transaction_or_financial_report",
+      "provenance_grade": "P1",
+      "provenance_limitation": "Provenance is authority for the reported statement/fact, not truth certainty, private motive or audited investment performance.",
+      "publication_date": "2015-05-13",
+      "event_date": "2015-03-29",
+      "archive_or_upload_date": null,
+      "retrieved_at_utc": "2026-10-13T17:07:22Z",
+      "access_status": "original_indexed_extract_or_metadata_only",
+      "coverage_count_unit": "one listed source record, not one entire lifetime source family",
+      "found": true,
+      "read_substantive": true,
+      "read_full_original": false,
+      "full_original_unavailable_or_unreviewed": true
+    },
+    {
+      "source_id": "WB-S-IBM2016-AR",
+      "title": "IBM 2016 annual report",
+      "url": "https://www.ibm.com/investor/att/pdf/IBM_Annual_Report_2016.pdf",
+      "author_or_issuer": "International Business Machines Corp.",
+      "published_at": "2017",
+      "event_or_information_date": "2016-12-31",
+      "access_grade": "B_original_indexed_report",
+      "known_public_by_2025_12_31": true,
+      "benchmark_2026_start_eligible": true,
+      "locator": "Management discussion, free cash flow table",
+      "limitation": null,
+      "accessed_on": "2026-10-13",
+      "source_family": "issuer_business_transaction_or_financial_report",
+      "provenance_grade": "P1",
+      "provenance_limitation": "Provenance is authority for the reported statement/fact, not truth certainty, private motive or audited investment performance.",
+      "publication_date": "2017",
+      "event_date": "2016-12-31",
+      "archive_or_upload_date": null,
+      "retrieved_at_utc": "2026-10-13T17:07:22Z",
+      "access_status": "original_indexed_extract_or_metadata_only",
+      "coverage_count_unit": "one listed source record, not one entire lifetime source family",
+      "found": true,
+      "read_substantive": true,
+      "read_full_original": false,
+      "full_original_unavailable_or_unreviewed": true
+    },
+    {
+      "source_id": "WB-S-SUCCESSION2025",
+      "title": "Berkshire CEO succession announcement",
+      "url": "https://www.berkshirehathaway.com/news/may0525.pdf",
+      "author_or_issuer": "Berkshire Hathaway",
+      "published_at": "2025-05-05",
+      "event_or_information_date": "2026-01-01",
+      "access_grade": "A_direct_original_read",
+      "known_public_by_2025_12_31": true,
+      "benchmark_2026_start_eligible": true,
+      "locator": null,
+      "limitation": null,
+      "accessed_on": "2026-10-13",
+      "source_family": "issuer_governance_release",
+      "provenance_grade": "P1",
+      "provenance_limitation": "Provenance is authority for the reported statement/fact, not truth certainty, private motive or audited investment performance.",
+      "publication_date": "2025-05-05",
+      "event_date": "2026-01-01",
+      "archive_or_upload_date": null,
+      "retrieved_at_utc": "2026-10-13T17:07:22Z",
+      "access_status": "read_original_text",
+      "coverage_count_unit": "one listed source record, not one entire lifetime source family",
+      "found": true,
+      "read_substantive": true,
+      "read_full_original": true,
+      "full_original_unavailable_or_unreviewed": false
+    },
+    {
+      "source_id": "WB-S-COMBS2025",
+      "title": "Berkshire leadership appointments",
+      "url": "https://www.berkshirehathaway.com/news/dec0825.pdf",
+      "author_or_issuer": "Berkshire Hathaway",
+      "published_at": "2025-12-08",
+      "event_or_information_date": null,
+      "access_grade": "A_direct_original_read",
+      "known_public_by_2025_12_31": true,
+      "benchmark_2026_start_eligible": true,
+      "locator": null,
+      "limitation": null,
+      "accessed_on": "2026-10-13",
+      "source_family": "issuer_governance_release",
+      "provenance_grade": "P1",
+      "provenance_limitation": "Provenance is authority for the reported statement/fact, not truth certainty, private motive or audited investment performance.",
+      "publication_date": "2025-12-08",
+      "event_date": null,
+      "archive_or_upload_date": null,
+      "retrieved_at_utc": "2026-10-13T17:07:22Z",
+      "access_status": "read_original_text",
+      "coverage_count_unit": "one listed source record, not one entire lifetime source family",
+      "found": true,
+      "read_substantive": true,
+      "read_full_original": true,
+      "full_original_unavailable_or_unreviewed": false
+    },
+    {
+      "source_id": "WB-S-ABEL2026",
+      "title": "2025 annual shareholder letter, authored by Greg Abel",
+      "url": "https://www.berkshirehathaway.com/letters/2025ltr.pdf",
+      "author_or_issuer": "Gregory E. Abel",
+      "published_at": "2026-02-28",
+      "event_or_information_date": "2025-12-31",
+      "access_grade": "A_direct_original_read",
+      "known_public_by_2025_12_31": false,
+      "benchmark_2026_start_eligible": false,
+      "locator": "pp 1 and16–18",
+      "limitation": "Excluded from beginning-2026 methods/views despite 2025 in title.",
+      "accessed_on": "2026-10-13",
+      "source_family": "original_investor_shareholder_writing",
+      "provenance_grade": "P1",
+      "provenance_limitation": "Provenance is authority for the reported statement/fact, not truth certainty, private motive or audited investment performance.",
+      "publication_date": "2026-02-28",
+      "event_date": "2025-12-31",
+      "archive_or_upload_date": null,
+      "retrieved_at_utc": "2026-10-13T17:07:22Z",
+      "access_status": "read_original_text",
+      "coverage_count_unit": "one listed source record, not one entire lifetime source family",
+      "found": true,
+      "read_substantive": true,
+      "read_full_original": true,
+      "full_original_unavailable_or_unreviewed": false
+    },
+    {
+      "source_id": "WB-S-Q226-INDEX",
+      "title": "Berkshire Q 2 2026 13F filing index",
+      "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526352200/0001193125-26-352200-index.htm",
+      "author_or_issuer": "SEC / Berkshire",
+      "published_at": "2026-08-14",
+      "event_or_information_date": "2026-06-30",
+      "access_grade": "A_direct_original_read",
+      "known_public_by_2025_12_31": false,
+      "benchmark_2026_start_eligible": false,
+      "locator": null,
+      "limitation": null,
+      "accessed_on": "2026-10-13",
+      "source_family": "regulator_manager_holdings_filing",
+      "provenance_grade": "P1",
+      "provenance_limitation": "Provenance is authority for the reported statement/fact, not truth certainty, private motive or audited investment performance.",
+      "publication_date": "2026-08-14",
+      "event_date": "2026-06-30",
+      "archive_or_upload_date": null,
+      "retrieved_at_utc": "2026-10-13T17:07:22Z",
+      "access_status": "read_original_text",
+      "coverage_count_unit": "one listed source record, not one entire lifetime source family",
+      "found": true,
+      "read_substantive": true,
+      "read_full_original": true,
+      "full_original_unavailable_or_unreviewed": false
+    },
+    {
+      "source_id": "WB-S-Q226-TABLE",
+      "title": "Berkshire Q 2 2026 13F information table",
+      "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526352200/xslForm13F_X02/56757.xml",
+      "author_or_issuer": "Berkshire Hathaway",
+      "published_at": "2026-08-14",
+      "event_or_information_date": "2026-06-30",
+      "access_grade": "A_direct_original_read",
+      "known_public_by_2025_12_31": false,
+      "benchmark_2026_start_eligible": false,
+      "locator": "Apple rows 30–41",
+      "limitation": "Aggregate all 12 Apple rows; other-manager identifiers are entities, not a named human trade history.",
+      "accessed_on": "2026-10-13",
+      "source_family": "regulator_manager_holdings_filing",
+      "provenance_grade": "P1",
+      "provenance_limitation": "Provenance is authority for the reported statement/fact, not truth certainty, private motive or audited investment performance.",
+      "publication_date": "2026-08-14",
+      "event_date": "2026-06-30",
+      "archive_or_upload_date": null,
+      "retrieved_at_utc": "2026-10-13T17:07:22Z",
+      "access_status": "read_original_text",
+      "coverage_count_unit": "one listed source record, not one entire lifetime source family",
+      "found": true,
+      "read_substantive": true,
+      "read_full_original": true,
+      "full_original_unavailable_or_unreviewed": false
+    }
+  ],
+  "evidence_artifacts": [
+    {
+      "path": "current-library/fundamental/buffett-berkshire.json",
+      "sha256": "84cf6fa72f8e11dad346d0bd057133b4f1e24b8c067f49f665d2bc5243b91ddc",
+      "content_kind": "current evidence including holdings/cases/limits; forbidden to historical workers"
+    },
+    {
+      "path": "current-library/fundamental/duan-yongping.json",
+      "sha256": "f945663d41d31fadc32a39049d6eb90ba2e6c8751bc54cfd6ef4cb1e764ee749",
+      "content_kind": "current evidence including holdings/cases/limits; forbidden to historical workers"
+    },
+    {
+      "path": "current-library/fundamental/li-lu-himalaya.json",
+      "sha256": "eeb098aa6eca3e3c9fb4e4a50afc5bb8c55d165d4be10328f9a31afa2f8c7602",
+      "content_kind": "current evidence including holdings/cases/limits; forbidden to historical workers"
+    },
+    {
+      "path": "current-library/fundamental/sources.json",
+      "sha256": "347dfccb1bcc08ece97e8fae25004624ed19427f74be095d6e8df04ff52c01c4",
+      "content_kind": "current evidence including holdings/cases/limits; forbidden to historical workers"
+    },
+    {
+      "path": "current-library/fundamental/claims.json",
+      "sha256": "a1cddf12b31eacd540a3910ec675a4e0978d0b2bbbf5f61355b1a8ccea2b4d48",
+      "content_kind": "current evidence including holdings/cases/limits; forbidden to historical workers"
+    },
+    {
+      "path": "current-library/fundamental/rules.json",
+      "sha256": "047da361a6d088253080e577bec0cbb2c0307bf1dcd551068acb2d6fb57ad664",
+      "content_kind": "current evidence including holdings/cases/limits; forbidden to historical workers"
+    },
+    {
+      "path": "current-library/fundamental/candidate-cases.json",
+      "sha256": "a8b25f1764d77767357b26fe4b60fb26ae746e2db4e3621128ad16f2101c9810",
+      "content_kind": "current evidence including holdings/cases/limits; forbidden to historical workers"
+    },
+    {
+      "path": "current-library/fundamental/common-disclosure.json",
+      "sha256": "010762733e7e840717ff4e24570fe724503bae052b1eb440e5c0832d95c7f8bf",
+      "content_kind": "current evidence including holdings/cases/limits; forbidden to historical workers"
+    },
+    {
+      "path": "current-library/fundamental/benchmark-2026-start-export.json",
+      "sha256": "b3ec8a7c99f9153c4c11f8a416d6259cbf026d24fc8dcd304fba9a00023994d8",
+      "content_kind": "current evidence including holdings/cases/limits; forbidden to historical workers"
+    },
+    {
+      "path": "current-library/fundamental/validation.json",
+      "sha256": "b952c5a55fd09dfc80fd69eb32875893b5be18137aecfa3bade24cb416a2c5ce",
+      "content_kind": "current evidence including holdings/cases/limits; forbidden to historical workers"
+    },
+    {
+      "path": "current-library/fundamental/historical-method-packet.json",
+      "sha256": "b2863fe599e89eccbec50531d9e82332f0022d3d952475f3c8aeb9b3857a6704",
+      "content_kind": "current evidence including holdings/cases/limits; forbidden to historical workers"
+    },
+    {
+      "path": "current-library/fundamental/evidence-map.json",
+      "sha256": "67db822bc7070febc61ae35adce32ee43f42e28d56abffd8e317fea4330e1dc5",
+      "content_kind": "current evidence including holdings/cases/limits; forbidden to historical workers"
+    },
+    {
+      "path": "current-library/fundamental/case-coverage.json",
+      "sha256": "25a030cab303cab527071c4c7e111972e4d534535560409cf78969a5a426943d",
+      "content_kind": "current evidence including holdings/cases/limits; forbidden to historical workers"
+    },
+    {
+      "path": "current-library/fundamental/corrective-submission-1.json",
+      "sha256": "8cdc440ce5507da247cc9be636f3243defa1c99ab50ec59155eb9833dfa5790f",
+      "content_kind": "current evidence including holdings/cases/limits; forbidden to historical workers"
+    }
+  ],
+  "corpus_limits": [
+    "{\"bounded_window\": \"2026-10-13 research session; selected original letters 1986,1996,1999,2011,2016,2017,2020 plus governance 2025/2026, identified CNBC records, SEC snapshots and PCC/IBM issuer records.\", \"failures\": [\"CNBC direct pages often 403; distinguish indexed original transcript/description from listened video.\", \"No private pre-trade documents requested or assumed.\"], \"not_searched_exhaustively\": [\"Every annual-meeting recording\", \"All 13F amendments across history\", \"All subsidiary accounts or personal investments\"]}",
+    "{\"primary_formats\": [\"Shareholder letters and audited annual reports\", \"Consolidated quarterly reports\", \"SEC 13F manager tables\", \"Ownership filings for specific issuers\"], \"scope_warning\": \"Annual equity tables can exclude pensions and have different entity coverage from 13F. Subsidiary manager tables require consolidation care.\", \"latest_verified_cycle\": \"2026-06-30, filed 2026-08-14\", \"personal_attribution\": \"Letters specify some personal reasoning and delegation; consolidated positions alone do not.\"}",
+    "Not all lifetime materials or private positions."
+  ],
+  "normalization": {
+    "original_dossier_path": "fundamental/buffett-berkshire.json",
+    "original_dossier_sha256": "84cf6fa72f8e11dad346d0bd057133b4f1e24b8c067f49f665d2bc5243b91ddc",
+    "field_mapping": {
+      "method_fact": "/rules/*/name; /claims links contain underlying fact",
+      "our_design_questions": "/rules/*/operational_steps",
+      "sources": "/sources",
+      "historical_eligibility": "rule and claim cutoff flags plus access/publication evidence",
+      "independently_authored_requirements": "required_inputs/falsifiers derive from the material mechanism and retained source-specific scope; these supplement raw evidence and are explicitly non-native."
+    },
+    "raw_evidence_preserved": true,
+    "source_audit_receipt_sha256": "92ac77274bce7d820cca6ca03ded9ea6bf0cd3347070bb1a554ca796a7ae544b"
+  }
+}

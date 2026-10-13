@@ -1,0 +1,221 @@
+{
+  "schema_version": "historical-method-facts/v0.1-draft",
+  "master_id": "warren-buffett",
+  "display_attribution": "Warren Buffett; original writings and bounded authorized meeting transcript",
+  "identity_scope": "individual_or_bounded_fund",
+  "decision_information_cutoff_utc": "2025-12-31T23:59:59Z",
+  "eligibility": {
+    "status": "bounded_candidate_pending_review",
+    "independent_source_acceptance": "accepted_bounded_upstream_source_content",
+    "automatic_route_enabled": false,
+    "assembled_export_acceptance": "pending_separate_review"
+  },
+  "method_facts": [
+    {
+      "rule_id": "WB-R-01",
+      "documented_method_fact": "Intrinsic value is an estimate of discounted extractable future cash. Owner earnings require maintenance investment and necessary working capital, with estimation uncertainty.",
+      "source_ids": [
+        "WB-S-OWNERS1999",
+        "WB-S-1986"
+      ],
+      "source_specific_locators": {
+        "WB-S-OWNERS1999": "Owner manual Intrinsic Value appendix opening definition and estimate-sensitivity paragraphs.",
+        "WB-S-1986": "1986 letter Appendix owner-earnings formula/maintenance-investment paragraph."
+      },
+      "documented_scope": "Auditor-adapted application scope. Applies to: Durable cash businesses with estimable reinvestment; Does not apply to: Mechanical low P/E, EBITDA-only or book-value screens; any operational checklist is independently authored.",
+      "original_language_terms": [],
+      "precutoff_publication_eligible_candidate": true,
+      "independent_acceptance": "pending_sanitized_export_review",
+      "application_is_hypothetical": true,
+      "application_scope": {
+        "applies_to": "Durable cash businesses with estimable reinvestment",
+        "does_not_apply_to": "Mechanical low P/E, EBITDA-only or book-value screens",
+        "origin": "auditor_adaptation_not_investor_native_rule"
+      },
+      "documented_scope_origin": "auditor_adaptation_not_investor_native_rule"
+    },
+    {
+      "rule_id": "WB-R-02",
+      "documented_method_fact": "An understandable business and the boundaries of competence matter. Selected technology-mediated businesses can be evaluated through their specific customer economics.",
+      "source_ids": [
+        "WB-S-1996",
+        "WB-S-CNBC2017-MEETING"
+      ],
+      "source_specific_locators": {
+        "WB-S-1996": "1996 letter Common Stock Investments competence-boundary paragraphs.",
+        "WB-S-CNBC2017-MEETING": "2017 original meeting archive afternoon section12, consumer-business discussion."
+      },
+      "documented_scope": "Auditor-adapted application scope. Applies to: Business-specific knowledge including selected technology-mediated consumer franchises; Does not apply to: Automatic sector stereotypes or prediction of every technology winner; any operational checklist is independently authored.",
+      "original_language_terms": [],
+      "precutoff_publication_eligible_candidate": true,
+      "independent_acceptance": "pending_sanitized_export_review",
+      "application_is_hypothetical": true,
+      "application_scope": {
+        "applies_to": "Business-specific knowledge including selected technology-mediated consumer franchises",
+        "does_not_apply_to": "Automatic sector stereotypes or prediction of every technology winner",
+        "origin": "auditor_adaptation_not_investor_native_rule"
+      },
+      "documented_scope_origin": "auditor_adaptation_not_investor_native_rule"
+    },
+    {
+      "rule_id": "WB-R-03",
+      "documented_method_fact": "Retained capital and repurchases need economic justification. Repurchase effects depend on price versus intrinsic value and underlying earnings, not share-count reduction alone.",
+      "source_ids": [
+        "WB-S-OWNERS1999",
+        "WB-S-2011"
+      ],
+      "source_specific_locators": {
+        "WB-S-OWNERS1999": "Owner manual principles7 and9, debt/retained-capital economic justification.",
+        "WB-S-2011": "2011 letter printed p6/PDF page5, Share Repurchases first two condition paragraphs and excess-cash/dilution warning, rendered lines219–227."
+      },
+      "documented_scope": "Auditor-adapted application scope. Applies to: Companies with meaningful reinvestment, buyback or dividend choices; Does not apply to: EPS growth treated as sufficient proof of improved enterprise economics; any operational checklist is independently authored.",
+      "original_language_terms": [],
+      "precutoff_publication_eligible_candidate": true,
+      "independent_acceptance": "pending_sanitized_export_review",
+      "application_is_hypothetical": true,
+      "application_scope": {
+        "applies_to": "Companies with meaningful reinvestment, buyback or dividend choices",
+        "does_not_apply_to": "EPS growth treated as sufficient proof of improved enterprise economics",
+        "origin": "auditor_adaptation_not_investor_native_rule"
+      },
+      "documented_scope_origin": "auditor_adaptation_not_investor_native_rule"
+    },
+    {
+      "rule_id": "WB-R-04",
+      "documented_method_fact": "Preserve financing strength and liquidity appropriate to liabilities. Working liquidity, an absolute minimum and a purpose-specific repurchase condition are distinct constraints.",
+      "source_ids": [
+        "WB-S-OWNERS1999",
+        "WB-S-2011"
+      ],
+      "source_specific_locators": {
+        "WB-S-OWNERS1999": "Owner manual principle7 conservative financing paragraph.",
+        "WB-S-2011": "2011 letter printed p18/PDF page17 liquidity-purpose paragraph; printed p6/PDF page5 separate repurchase-condition paragraph."
+      },
+      "documented_scope": "Auditor-adapted application scope. Applies to: Long-duration investment capital compatible with liability profile; Does not apply to: Return maximization requiring fragile financing; any operational checklist is independently authored.",
+      "original_language_terms": [],
+      "precutoff_publication_eligible_candidate": true,
+      "independent_acceptance": "pending_sanitized_export_review",
+      "application_is_hypothetical": true,
+      "application_scope": {
+        "applies_to": "Long-duration investment capital compatible with liability profile",
+        "does_not_apply_to": "Return maximization requiring fragile financing",
+        "origin": "auditor_adaptation_not_investor_native_rule"
+      },
+      "documented_scope_origin": "auditor_adaptation_not_investor_native_rule"
+    },
+    {
+      "rule_id": "WB-R-05",
+      "documented_method_fact": "Management or business quality does not remove the need for a justified price and a defensible normalized-earnings estimate.",
+      "source_ids": [
+        "WB-S-2020"
+      ],
+      "source_specific_locators": {
+        "WB-S-2020": "2020 letter printed p4, pricing versus business quality and normalized-profit-estimation diagnosis paragraphs."
+      },
+      "documented_scope": "Auditor-adapted application scope. Applies to: Cyclical high-quality businesses only at adequately risk-compensating valuation; Does not apply to: Admiration for management used to waive valuation discipline; any operational checklist is independently authored.",
+      "original_language_terms": [],
+      "precutoff_publication_eligible_candidate": true,
+      "independent_acceptance": "pending_sanitized_export_review",
+      "application_is_hypothetical": true,
+      "application_scope": {
+        "applies_to": "Cyclical high-quality businesses only at adequately risk-compensating valuation",
+        "does_not_apply_to": "Admiration for management used to waive valuation discipline",
+        "origin": "auditor_adaptation_not_investor_native_rule"
+      },
+      "documented_scope_origin": "auditor_adaptation_not_investor_native_rule"
+    }
+  ],
+  "original_sources": [
+    {
+      "source_id": "WB-S-1986",
+      "original_public_url": "https://www.berkshirehathaway.com/letters/1986.html",
+      "title": "1986 shareholder letter",
+      "original_author_or_speaker": "Warren E. Buffett",
+      "provenance": "P1",
+      "publication_date_or_latest_public_bound": "1987-02-27",
+      "publication_proof": "Corrected source-faithful historical-method packet supplies original publication and independently qualified provenance; source/export acceptance remains separately gated.",
+      "precise_locator": "1986 letter Appendix owner-earnings formula/maintenance-investment paragraph.",
+      "content_scope": "Short original method fact/paraphrase only; no full source, case narrative, holding table or outcomes.",
+      "independent_acceptance": "pending",
+      "source_record_sha256": "0f7e7e8185dd31106c6d26bc1f7eab5ad7b76ad556e8bda7df4ac754ace925ce"
+    },
+    {
+      "source_id": "WB-S-1996",
+      "original_public_url": "https://www.berkshirehathaway.com/letters/1996.html",
+      "title": "1996 shareholder letter",
+      "original_author_or_speaker": "Warren E. Buffett",
+      "provenance": "P1",
+      "publication_date_or_latest_public_bound": "1997-02-28",
+      "publication_proof": "Corrected source-faithful historical-method packet supplies original publication and independently qualified provenance; source/export acceptance remains separately gated.",
+      "precise_locator": "1996 letter Common Stock Investments competence-boundary paragraphs.",
+      "content_scope": "Short original method fact/paraphrase only; no full source, case narrative, holding table or outcomes.",
+      "independent_acceptance": "pending",
+      "source_record_sha256": "827fb9edb0bd8db1adbe6497dbc7b235caf44d4bd3b0f9215cd7bf6692382fde"
+    },
+    {
+      "source_id": "WB-S-2011",
+      "original_public_url": "https://www.berkshirehathaway.com/letters/2011ltr.pdf",
+      "title": "2011 shareholder letter",
+      "original_author_or_speaker": "Warren E. Buffett",
+      "provenance": "P1",
+      "publication_date_or_latest_public_bound": "2012-02-25",
+      "publication_proof": "Corrected source-faithful historical-method packet supplies original publication and independently qualified provenance; source/export acceptance remains separately gated.",
+      "precise_locator": "2011 letter printed p18/PDF page17 liquidity-purpose paragraph; printed p6/PDF page5 separate repurchase-condition paragraph.",
+      "content_scope": "Short original method fact/paraphrase only; no full source, case narrative, holding table or outcomes.",
+      "independent_acceptance": "pending",
+      "source_record_sha256": "2b2e9eb040059643dc544285aced41cd6a80ecd740237d89f530f8b5ddae07cf"
+    },
+    {
+      "source_id": "WB-S-2020",
+      "original_public_url": "https://www.berkshirehathaway.com/letters/2020ltr.pdf",
+      "title": "2020 shareholder letter",
+      "original_author_or_speaker": "Warren E. Buffett",
+      "provenance": "P1",
+      "publication_date_or_latest_public_bound": "2021-02-27",
+      "publication_proof": "Corrected source-faithful historical-method packet supplies original publication and independently qualified provenance; source/export acceptance remains separately gated.",
+      "precise_locator": "2020 letter printed p4, pricing versus business quality and normalized-profit-estimation diagnosis paragraphs.",
+      "content_scope": "Short original method fact/paraphrase only; no full source, case narrative, holding table or outcomes.",
+      "independent_acceptance": "pending",
+      "source_record_sha256": "d5924c5ca530350a67ebaa8b5950e2d06da26a4ea42fcbd3eb020fcf8baaf7e3"
+    },
+    {
+      "source_id": "WB-S-CNBC2017-MEETING",
+      "original_public_url": "https://buffett.cnbc.com/video/2017/05/06/afternoon-session---2017-berkshire-hathaway-annual-meeting.html?start=6532.87",
+      "title": "2017 annual meeting afternoon session",
+      "original_author_or_speaker": "CNBC original meeting archive / Warren Buffett",
+      "provenance": "P2",
+      "publication_date_or_latest_public_bound": "2017-05-06",
+      "publication_proof": "Corrected source-faithful historical-method packet supplies original publication and independently qualified provenance; source/export acceptance remains separately gated.",
+      "precise_locator": "2017 original meeting archive afternoon section12, consumer-business discussion.",
+      "content_scope": "Short original method fact/paraphrase only; no full source, case narrative, holding table or outcomes.",
+      "independent_acceptance": "pending",
+      "source_record_sha256": "36094ed6274bf1cdf2404a6beb9a126818793bba4ab323e5e23516f0bbdac546"
+    },
+    {
+      "source_id": "WB-S-OWNERS1999",
+      "original_public_url": "https://www.berkshirehathaway.com/owners.html",
+      "title": "An Owner’s Manual, January 1999",
+      "original_author_or_speaker": "Warren E. Buffett",
+      "provenance": "P1",
+      "publication_date_or_latest_public_bound": "1999-01",
+      "publication_proof": "Corrected source-faithful historical-method packet supplies original publication and independently qualified provenance; source/export acceptance remains separately gated.",
+      "precise_locator": "Owner manual principle7 conservative financing paragraph.",
+      "content_scope": "Short original method fact/paraphrase only; no full source, case narrative, holding table or outcomes.",
+      "independent_acceptance": "pending",
+      "source_record_sha256": "2dea42f8b984579f9865888e98abeea684a978236f8c3da4d069f8bdb8df0ad5"
+    }
+  ],
+  "application_scope": [
+    "Understandable cash economics",
+    "Capital allocation and funded survival",
+    "Price separate from business admiration"
+  ],
+  "corpus_limits": [
+    "Representative selected original sources, not lifetime census.",
+    "No current personal security view, target or proprietary algorithm.",
+    "Source-fact wording, provenance and precise locators refreshed from corrected canonical method packet; no broad case/holding claim allowlist is transported."
+  ],
+  "native_numerical_algorithm_established": false,
+  "authorship_boundary": "Method facts are faithful bounded paraphrases. Any application checklist, thresholds, weights, forecasts, probabilities or decision conclusion is independent research design and must not be attributed to the investor.",
+  "upstream_source_faithful_method_packet_sha256": "b2863fe599e89eccbec50531d9e82332f0022d3d952475f3c8aeb9b3857a6704"
+}

@@ -1,0 +1,77 @@
+{
+  "schema_version": "technology-historical-extension-local-validation/v1.0",
+  "status": "local_static_checks_only_not_independent_acceptance",
+  "source_count": 7,
+  "method_count": 2,
+  "rule_count": 10,
+  "probe_count": 15,
+  "source_reference_integrity_passed": true,
+  "precise_locators_present": true,
+  "quotes_below_25_words_per_source": {
+    "ARK-X-AI-DISRUPTION-20241001": 11,
+    "ARK-X-WRIGHT-20190102": 11,
+    "ARK-X-SOFTWARE-20250729": 6,
+    "ARK-X-BIG-IDEAS-2024": 5,
+    "ARK-X-BIG-IDEAS-2025": 9,
+    "BARON-X-LETTER-20240512": 8,
+    "BARON-X-LETTER-20240716": 7
+  },
+  "quoted_pdf_anchor_checks": [
+    {
+      "rule_id": "ARK-X01",
+      "source_id": "ARK-X-AI-DISRUPTION-20241001",
+      "pdf_page_1_based": 4,
+      "exact_normalized_quote_match": true
+    },
+    {
+      "rule_id": "ARK-X06",
+      "source_id": "ARK-X-BIG-IDEAS-2024",
+      "pdf_page_1_based": 2,
+      "exact_normalized_quote_match": true
+    },
+    {
+      "rule_id": "ARK-X06",
+      "source_id": "ARK-X-BIG-IDEAS-2025",
+      "pdf_page_1_based": 10,
+      "exact_normalized_quote_match": true
+    },
+    {
+      "rule_id": "BARON-X01",
+      "source_id": "BARON-X-LETTER-20240512",
+      "pdf_page_1_based": 1,
+      "exact_normalized_quote_match": true
+    },
+    {
+      "rule_id": "BARON-X02",
+      "source_id": "BARON-X-LETTER-20240716",
+      "pdf_page_1_based": 2,
+      "exact_normalized_quote_match": true
+    },
+    {
+      "rule_id": "BARON-X03",
+      "source_id": "BARON-X-LETTER-20240512",
+      "pdf_page_1_based": 3,
+      "exact_normalized_quote_match": true
+    }
+  ],
+  "html_quote_checks": "Manually compared to original dated article text returned by public web reader; no raw HTML byte verification claimed.",
+  "visual_checks": [
+    "ARK AI-disruption paper p4",
+    "ARK Big Ideas 2024 pp19,30,32,33",
+    "ARK Big Ideas 2025 pp1,5,10,26",
+    "Ron Q1 letter selected method paragraphs pp1-3",
+    "Ron Q2 letter method p2 and signature p3"
+  ],
+  "accepted_baseline_files_checked": 53,
+  "accepted_baseline_changes": [],
+  "no_stock_results_created": true,
+  "no_raw_source_report_or_workbook_in_deliverable": true,
+  "native_algorithm_not_recovered": true,
+  "candidate_gates_unchanged": true,
+  "errors": [],
+  "remaining_review_questions": [
+    "Independent source acceptance, including exact historical-version admissibility",
+    "Cross-method integration acceptance",
+    "No implementation or runtime behavioral test executed"
+  ]
+}

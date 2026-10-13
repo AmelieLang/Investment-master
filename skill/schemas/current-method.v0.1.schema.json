@@ -1,0 +1,331 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:investment-master:current-method:v0.1-draft",
+  "type": "object",
+  "properties": {
+    "schema_version": {
+      "const": "investment-master-method/v0.1-draft"
+    },
+    "master_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "catalogue_entity_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "display_name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "classification": {
+      "enum": [
+        "core_dossier",
+        "requested_extension_emerging"
+      ]
+    },
+    "source_stream": {
+      "type": "string",
+      "minLength": 1
+    },
+    "source_acceptance": {
+      "enum": [
+        "pending",
+        "accepted",
+        "rejected"
+      ]
+    },
+    "implementation_ready": {
+      "const": false
+    },
+    "identity_and_mandate_record": {
+      "type": "object"
+    },
+    "scope": {
+      "type": "object",
+      "properties": {
+        "strong": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true
+        },
+        "conditional": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true
+        },
+        "not_established": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true
+        },
+        "historical_status": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": [
+        "strong",
+        "conditional",
+        "not_established",
+        "historical_status"
+      ],
+      "additionalProperties": false
+    },
+    "rules": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "rule_id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "method_fact": {
+            "type": "string",
+            "minLength": 1
+          },
+          "method_fact_origin": {
+            "type": "string",
+            "minLength": 1
+          },
+          "source_ids": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "uniqueItems": true
+          },
+          "claim_ids": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "uniqueItems": true
+          },
+          "our_design_questions": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "uniqueItems": true
+          },
+          "required_inputs": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "uniqueItems": true
+          },
+          "falsifiers": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "uniqueItems": true
+          },
+          "limits": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "uniqueItems": true
+          },
+          "historical_eligibility": {
+            "type": "object",
+            "properties": {
+              "status": {
+                "enum": [
+                  "candidate_eligible_pending_review",
+                  "excluded",
+                  "question_only_insufficient_scope"
+                ]
+              },
+              "eligible_source_ids": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "uniqueItems": true
+              },
+              "reason": {
+                "type": "string",
+                "minLength": 1
+              }
+            },
+            "required": [
+              "status",
+              "eligible_source_ids",
+              "reason"
+            ],
+            "additionalProperties": false
+          },
+          "original_record": {
+            "type": "object"
+          },
+          "application_scope": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "applies_to": {
+                "type": "string",
+                "minLength": 1
+              },
+              "does_not_apply_to": {
+                "type": "string",
+                "minLength": 1
+              },
+              "origin": {
+                "const": "auditor_adaptation_not_investor_native_rule"
+              }
+            },
+            "required": [
+              "applies_to",
+              "does_not_apply_to",
+              "origin"
+            ]
+          }
+        },
+        "required": [
+          "rule_id",
+          "method_fact",
+          "method_fact_origin",
+          "source_ids",
+          "claim_ids",
+          "our_design_questions",
+          "required_inputs",
+          "falsifiers",
+          "limits",
+          "historical_eligibility",
+          "original_record"
+        ],
+        "additionalProperties": false,
+        "allOf": [
+          {
+            "if": {
+              "properties": {
+                "rule_id": {
+                  "pattern": "^(WB|DYP|LL)-R-"
+                }
+              },
+              "required": [
+                "rule_id"
+              ]
+            },
+            "then": {
+              "required": [
+                "application_scope"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "source_records": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "evidence_artifacts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "path": {
+            "type": "string",
+            "minLength": 1
+          },
+          "sha256": {
+            "type": "string",
+            "pattern": "^[0-9a-f]{64}$"
+          },
+          "content_kind": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "required": [
+          "path",
+          "sha256",
+          "content_kind"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "corpus_limits": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "uniqueItems": true
+    },
+    "normalization": {
+      "type": "object",
+      "properties": {
+        "original_dossier_path": {
+          "type": "string",
+          "minLength": 1
+        },
+        "original_dossier_sha256": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{64}$"
+        },
+        "field_mapping": {
+          "type": "object"
+        },
+        "raw_evidence_preserved": {
+          "type": "boolean"
+        },
+        "source_audit_receipt_sha256": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{64}$"
+        }
+      },
+      "required": [
+        "original_dossier_path",
+        "original_dossier_sha256",
+        "field_mapping",
+        "raw_evidence_preserved"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "required": [
+    "schema_version",
+    "master_id",
+    "catalogue_entity_id",
+    "display_name",
+    "classification",
+    "source_stream",
+    "source_acceptance",
+    "implementation_ready",
+    "identity_and_mandate_record",
+    "scope",
+    "rules",
+    "source_records",
+    "evidence_artifacts",
+    "corpus_limits",
+    "normalization"
+  ],
+  "additionalProperties": false
+}

@@ -1,0 +1,48 @@
+{
+  "source_id": "ARK-X-BIG-IDEAS-2024",
+  "title": "Big Ideas 2024",
+  "original_public_url": "https://assets.arkinvest.com/media-8e522a83-1b23-4d58-a202-792712f8d2d3/8cea086f-21b4-47bf-8ac6-666b96a84a04/ARK-Invest_Big-Ideas-2024.pdf",
+  "original_author_or_speaker": "ARK research team; convergence: Brett Winton; AI: Frank Downing and Jozef Soja",
+  "provenance": "P1",
+  "publication_date_shown": "2024-01-31",
+  "publication_date_precision": "day",
+  "retrieval_date": "2026-10-13",
+  "decision_cutoff_utc": "2025-12-31T23:59:59Z",
+  "publication_proof": {
+    "primary_locator": "Printed/PDF page 1 cover.",
+    "attribution_locators": [
+      "Printed/PDF page 5 convergence author credit",
+      "Printed/PDF page 19 AI author credits"
+    ],
+    "evidence": "Official dated edition cover. Current PDF metadata shows re-creation October 14, 2024; that is not a new publication date or proof of historical access."
+  },
+  "precutoff_publication_eligible_candidate": true,
+  "historical_version_status": "dated_original_edition_retrieved_currently; exact historical bytes not archive-pinned",
+  "first_public_upload_time_independently_verified": false,
+  "content_scope": "Disclosure combining research levels; AI capability/cost, differentiation and productivity-versus-capture sensitivities.",
+  "admissibility": "candidate_only_pending_independent_Astra_source_acceptance",
+  "source_limits": [
+    "Public original statements establish the author/team stated analytical ideas, not that the ideas are correct or were applied to every investment.",
+    "A dated source is eligible relative to this replay cutoff; no actual stock-entry timing or personal position is inferred.",
+    "Cover date authenticates the dated edition, not every byte as originally released on January 31. Reviewer must explicitly accept the bounded method anchors or quarantine them; no original-edition numerical forecast is promoted as a proven invariant."
+  ],
+  "copyright_reuse": {
+    "status": "Copyrighted first-party research; no source-wide open redistribution license established.",
+    "retained_content": "Bibliographic facts, very short authentication anchors and independently written analytical questions only.",
+    "excluded": "No full report, source graphics, source tables, workbook, code, native scoring matrix or weight reproduction.",
+    "ARK_CC_boundary": "Any ARK CC BY-NC 4.0 model license is source-specific. It is not MIT and does not authorize commercial reuse. No ARK valuation model or workbook is accessed, adapted or exported here."
+  },
+  "inspection_receipt": {
+    "retrieved_bytes_sha256": "5d46cdb029070e47787a2c959e2eda619fff9909b62442c6b194971c682e65cb",
+    "retrieved_bytes": 20234005,
+    "pdf_page_count": 163,
+    "metadata": {
+      "/CreationDate": "D:20241014130304-04'00'",
+      "/Creator": "Acrobat Pro 24.3.20180",
+      "/ModDate": "D:20241014130304-04'00'",
+      "/Producer": "Acrobat Pro 24.3.20180"
+    },
+    "raw_file_in_deliverable": false,
+    "hash_proves": "The bytes read in this audit, not their historical public-availability date."
+  }
+}

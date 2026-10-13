@@ -1,0 +1,51 @@
+{
+  "source_id": "BARON-X-LETTER-20240512",
+  "title": "Letter from Ron | Q1 2024",
+  "original_public_url": "https://www.baroncapitalgroup.com/sites/default/files/2024-05/letter-from-ron-3.31.24.pdf",
+  "original_author_or_speaker": "Ronald Baron, signed CEO letter",
+  "provenance": "P1",
+  "publication_date_shown": "2024-05-12",
+  "publication_date_precision": "day",
+  "retrieval_date": "2026-10-13",
+  "decision_cutoff_utc": "2025-12-31T23:59:59Z",
+  "publication_proof": {
+    "primary_locator": "PDF page 3 right column: signature, name, title and May 12, 2024.",
+    "corroboration_url": "https://www.baroncapitalgroup.com/article/letter-ron-q1-2024",
+    "corroboration_locator": "Official article header displays May 12, 2024.",
+    "report_period": "2024-03-31",
+    "evidence": "Signed letter date and first-party publication header agree. March 31 is the report period, not the publication date. PDF was created May 16, 2024."
+  },
+  "precutoff_publication_eligible_candidate": true,
+  "historical_version_status": "dated_original_edition_retrieved_currently; exact historical bytes not archive-pinned",
+  "first_public_upload_time_independently_verified": false,
+  "content_scope": "Ongoing field research, management/competitive differentiation and interpretation of growth reinvestment.",
+  "admissibility": "candidate_only_pending_independent_Astra_source_acceptance",
+  "source_limits": [
+    "Public original statements establish the author/team stated analytical ideas, not that the ideas are correct or were applied to every investment.",
+    "A dated source is eligible relative to this replay cutoff; no actual stock-entry timing or personal position is inferred.",
+    "No exact first-public upload timestamp or archived original bytes recovered. The source is a publicly dated original letter; the stated date is not claimed to be an independently audited upload timestamp.",
+    "Source contains unrelated holdings, returns and performance sections; none supply a rule, quantity or inference in this package."
+  ],
+  "copyright_reuse": {
+    "status": "Copyrighted first-party research; no source-wide open redistribution license established.",
+    "retained_content": "Bibliographic facts, very short authentication anchors and independently written analytical questions only.",
+    "excluded": "No full report, source graphics, source tables, workbook, code, native scoring matrix or weight reproduction.",
+    "ARK_CC_boundary": "No open license assumed."
+  },
+  "inspection_receipt": {
+    "retrieved_bytes_sha256": "820f2a2056bf7156bdc7992e8b86a643a721c4070ed8ee29abef67375bfa5160",
+    "retrieved_bytes": 1082604,
+    "pdf_page_count": 10,
+    "metadata": {
+      "/Producer": "",
+      "/CreationDate": "D:20240516173208Z",
+      "/Author": "",
+      "/Subject": "",
+      "/Title": "",
+      "/Keywords": "",
+      "/Creator": ""
+    },
+    "raw_file_in_deliverable": false,
+    "hash_proves": "The bytes read in this audit, not their historical public-availability date."
+  }
+}

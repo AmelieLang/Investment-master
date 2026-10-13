@@ -1,0 +1,423 @@
+{
+  "schema_version": "investment-master-source-refresh-change-log/v1",
+  "source_refresh_version": "v1.1",
+  "scope": "Source integration corrective rework2: scope-polarity correction plus final bounded source receipts and execution-contract clarifications; no runtime acceptance.",
+  "prior_accepted_snapshot_manifest_sha256": "296f3af1f5e165425cf972882ff3d4dabf6ce243741a04318c47d85e380f02b6",
+  "prior_architecture_acceptance_receipt_sha256": "ff86ed34dda723d45719351c49ff4fba3aee3007384d1890589068deffef408a",
+  "prior_snapshot_preservation": "Every prior indexed file hash reverified; snapshot and prior ZIP unchanged.",
+  "new_source_refresh_integration_acceptance": "pending_independent_review",
+  "intermediate_v1_manifest_sha256": "c4de77f9b8775ead8210d0a97aff2a71716f94ec2bcae6f0e3de9ef182ff5a34",
+  "preserved_prose_only_v1_1_manifest_sha256": "788d242f3b4f3a467956c45758b2f05451266b90840a47dae7dad396ebe1d2f8",
+  "v1_1_correction": "All13 fundamental applicability scopes preserve positive/excluded polarity,14 current scopes explicitly labelled; reviewed-card/schema inputs and controller ownership clarified; S15 local state gates strengthened. No new investor rule or math.",
+  "major_updates": [
+    "Fundamental corrected source and exact13-rule source-faithful historical packet; bounded pass with0/9 initial investorT0 coverage and minor locator notes.",
+    "Ten accepted core sources plus separate Leopold emerging/risk extension; no automatic121-catalogue experts.",
+    "Fresh one-lens model call and controller-owned one-view enrichment; three-slot synthesis afterward.",
+    "Per-view exact finterm selected-card and unchangedR2 contract/request/result accounting.",
+    "Enterprise FCFF cash-flow semantics and claim/class/ADR/FX gates; unsupported values stay missing.",
+    "Only five minimal public-ready cutoff evidence files copied outside historical methods; no raw cache or tax identifiers.",
+    "Portable provenance conversion and explicit minor-source coverage limitations."
+  ],
+  "change_index_excludes": [
+    "bundle-manifest.json",
+    "reviews/source-refresh-change-log.v1.1.json"
+  ],
+  "changes": [
+    {
+      "path": "README.md",
+      "change": "added",
+      "prior_sha256": null,
+      "refresh_sha256": "9fc40df2e16eda0250f583db1623a395334dd1cf4deb7d554d6e5dc1acdded8d"
+    },
+    {
+      "path": "SKILL.md",
+      "change": "modified",
+      "prior_sha256": "88ce9de0b3ebc9a8799f32662ca729eec2f01e7be2073242d45e9c993db342de",
+      "refresh_sha256": "92e70352f08a36ca22c747d9a5f9ef22a09256c7573f83bb124ad3feb793b822"
+    },
+    {
+      "path": "current-library/fundamental/benchmark-2026-start-export.json",
+      "change": "modified",
+      "prior_sha256": "f3a88ced8b4ba81ba51bcc14d4b702273f664c754d44de8914d76f6c2b73939d",
+      "refresh_sha256": "b3ec8a7c99f9153c4c11f8a416d6259cbf026d24fc8dcd304fba9a00023994d8"
+    },
+    {
+      "path": "current-library/fundamental/buffett-berkshire.json",
+      "change": "modified",
+      "prior_sha256": "9f839f42ef0d706a49d183d32532318629a425a020b139b848427971aa5b16b3",
+      "refresh_sha256": "84cf6fa72f8e11dad346d0bd057133b4f1e24b8c067f49f665d2bc5243b91ddc"
+    },
+    {
+      "path": "current-library/fundamental/case-coverage.json",
+      "change": "added",
+      "prior_sha256": null,
+      "refresh_sha256": "25a030cab303cab527071c4c7e111972e4d534535560409cf78969a5a426943d"
+    },
+    {
+      "path": "current-library/fundamental/claims.json",
+      "change": "modified",
+      "prior_sha256": "56f00bc888eaffe970988db77d7e9725896db511c1d1d042dd378132f081bd3a",
+      "refresh_sha256": "a1cddf12b31eacd540a3910ec675a4e0978d0b2bbbf5f61355b1a8ccea2b4d48"
+    },
+    {
+      "path": "current-library/fundamental/common-disclosure.json",
+      "change": "modified",
+      "prior_sha256": "5db2053f594031ed3f2141b12fc7a9061bcc63cc52b881e90481cfea2a8b6c38",
+      "refresh_sha256": "010762733e7e840717ff4e24570fe724503bae052b1eb440e5c0832d95c7f8bf"
+    },
+    {
+      "path": "current-library/fundamental/corrective-submission-1.json",
+      "change": "added",
+      "prior_sha256": null,
+      "refresh_sha256": "8cdc440ce5507da247cc9be636f3243defa1c99ab50ec59155eb9833dfa5790f"
+    },
+    {
+      "path": "current-library/fundamental/duan-yongping.json",
+      "change": "modified",
+      "prior_sha256": "a1c060af54a0f0cc556a2341f7300a2ffeba7b1d995b4e20ff2c13e6a02945ad",
+      "refresh_sha256": "f945663d41d31fadc32a39049d6eb90ba2e6c8751bc54cfd6ef4cb1e764ee749"
+    },
+    {
+      "path": "current-library/fundamental/evidence-map.json",
+      "change": "added",
+      "prior_sha256": null,
+      "refresh_sha256": "67db822bc7070febc61ae35adce32ee43f42e28d56abffd8e317fea4330e1dc5"
+    },
+    {
+      "path": "current-library/fundamental/historical-method-packet.json",
+      "change": "added",
+      "prior_sha256": null,
+      "refresh_sha256": "b2863fe599e89eccbec50531d9e82332f0022d3d952475f3c8aeb9b3857a6704"
+    },
+    {
+      "path": "current-library/fundamental/li-lu-himalaya.json",
+      "change": "modified",
+      "prior_sha256": "90760d533f4af1c936966b7d9210a3c56d69b47a41132dd080ae71d56f5ae848",
+      "refresh_sha256": "eeb098aa6eca3e3c9fb4e4a50afc5bb8c55d165d4be10328f9a31afa2f8c7602"
+    },
+    {
+      "path": "current-library/fundamental/rules.json",
+      "change": "modified",
+      "prior_sha256": "0262bf08ae2315276e423e9603349e57221c39c7f07587630e09d447f29fc5eb",
+      "refresh_sha256": "047da361a6d088253080e577bec0cbb2c0307bf1dcd551068acb2d6fb57ad664"
+    },
+    {
+      "path": "current-library/fundamental/sources.json",
+      "change": "modified",
+      "prior_sha256": "dc8ae9aa544c605b4815614df7144779a01c3638f960f93264338439bac21ad7",
+      "refresh_sha256": "347dfccb1bcc08ece97e8fae25004624ed19427f74be095d6e8df04ff52c01c4"
+    },
+    {
+      "path": "current-library/fundamental/validation.json",
+      "change": "modified",
+      "prior_sha256": "b0508fbb3f0e414fcbc051e396feb8a2cc03ae03754eb23b36d335211a7a9b5c",
+      "refresh_sha256": "b952c5a55fd09dfc80fd69eb32875893b5be18137aecfa3bade24cb416a2c5ce"
+    },
+    {
+      "path": "evaluation-control/cutoff-ticker-evidence/QA-allowlist.json",
+      "change": "added",
+      "prior_sha256": null,
+      "refresh_sha256": "7762b54fd194a2c04ffc0f3ea809a479f1d866f8c2b787ee404a988e16dd8bd4"
+    },
+    {
+      "path": "evaluation-control/cutoff-ticker-evidence/USE-LIMITS.md",
+      "change": "added",
+      "prior_sha256": null,
+      "refresh_sha256": "b4a64b5a6f2421083b5b3ab13e72a164a4fc02b578dd5d4ab3834fdadb8d4e4f"
+    },
+    {
+      "path": "evaluation-control/cutoff-ticker-evidence/historical-export.json",
+      "change": "added",
+      "prior_sha256": null,
+      "refresh_sha256": "cceeba9329feb9e061ce92ab69a6cb6803307dbafe73b339aa389d658f8c4de5"
+    },
+    {
+      "path": "evaluation-control/cutoff-ticker-evidence/normalized.json",
+      "change": "added",
+      "prior_sha256": null,
+      "refresh_sha256": "eb4621b820216f09d8f3594dad7fd60ddca4bb460367c77704b1409f2d06b877"
+    },
+    {
+      "path": "evaluation-control/cutoff-ticker-evidence/sanitized-manifest.json",
+      "change": "added",
+      "prior_sha256": null,
+      "refresh_sha256": "cd0b23cd8028e7aea3bc7fd0cc25909b0a2982bafe3b78c444383c9aa93b9925"
+    },
+    {
+      "path": "evaluation-control/cutoff-ticker-evidence/source-ledger.json",
+      "change": "added",
+      "prior_sha256": null,
+      "refresh_sha256": "08b65873c81db05110b718bf6db2dc0fbccc84f4c9d28a29456a7210ffbded77"
+    },
+    {
+      "path": "examples/individual-model-response.abstention.json",
+      "change": "added",
+      "prior_sha256": null,
+      "refresh_sha256": "48d2bc19559747e2167716ca81265d86c1c38998563345ef05df8c110784eb6e"
+    },
+    {
+      "path": "examples/individual-view-result.abstention.json",
+      "change": "added",
+      "prior_sha256": null,
+      "refresh_sha256": "8722441e30331889c2cce67f182396987e35df3dc8aea7a14a204aa20de53344"
+    },
+    {
+      "path": "examples/research-result.existing-adapter-reference.json",
+      "change": "modified",
+      "prior_sha256": "1f7741cac72725a1b4dd70561266ae59deed2d2f51e86d873a04ed707cb5e779",
+      "refresh_sha256": "a916997a662c6998fd1530708cb25a6ccc1db4b43c88fd5fdf0a10b5c36bcc8f"
+    },
+    {
+      "path": "examples/research-result.missing-adapter.json",
+      "change": "modified",
+      "prior_sha256": "8b0b2939c21c313c74a39124f2014b868185e988c9a23d5eb5f4193e642046b9",
+      "refresh_sha256": "6b5850e5dcdf3e26011846d7e13ef81a8595f38f4dc14ca32bf43e578828e680"
+    },
+    {
+      "path": "historical-methods/SKILL.md",
+      "change": "modified",
+      "prior_sha256": "56f6ac8e5e34149ee52e22b454102bc80b0ecbc20e7a65b7f790caff552b8ab8",
+      "refresh_sha256": "2906ee0ce55253247ed49623ea77a400936480138f5fea62b03cd3784a6f23f1"
+    },
+    {
+      "path": "historical-methods/method-manifest.json",
+      "change": "modified",
+      "prior_sha256": "18332b2235f80289ccbb173f6dc75b964837d8666db3b9c5ee27236eae211b40",
+      "refresh_sha256": "6b50c8a9c0ca5e3a27670d513c18fe8cde6f935bdd17d576128db3a90a6a5b41"
+    },
+    {
+      "path": "historical-methods/methods/brad-gerstner.json",
+      "change": "modified",
+      "prior_sha256": "69cbb8135d75ae8759d69a68af048702674086b8d8c8f4e4773a55fe61302a3e",
+      "refresh_sha256": "9ede81dc0c651dc29d974bf4d0c5bf5d7a806c6602d2645c561f290bf1b8eb48"
+    },
+    {
+      "path": "historical-methods/methods/cathie-wood.json",
+      "change": "modified",
+      "prior_sha256": "a51eebeb80cec1a92a2e5c4a8c84be31e4a086e1e9616b2827fba8d4d75837a0",
+      "refresh_sha256": "3853aa2162303e8b68c1a7598062409de78c0ae0e1cd07e87acc7ce5065d44b2"
+    },
+    {
+      "path": "historical-methods/methods/coatue-team.json",
+      "change": "modified",
+      "prior_sha256": "8c48f307534037ed48f5a3b6533ba7b3fedf091d0ea336b181f70a0a44fe21a8",
+      "refresh_sha256": "a645c69b1e550476732f35e1db77871aed2473c053ead21ea00d5e13e27c10b4"
+    },
+    {
+      "path": "historical-methods/methods/duan-yongping.json",
+      "change": "modified",
+      "prior_sha256": "d66ae26afe4ae05bc55723013c53d83625f8c3ce1f71f79d052cd2f95c0c82dd",
+      "refresh_sha256": "e589e6162ab59ad9ce6204328dccbce00bfccc0afcffd585ae26c4440a0d193c"
+    },
+    {
+      "path": "historical-methods/methods/george-soros.json",
+      "change": "modified",
+      "prior_sha256": "a7363c29335d1ffea24245e846ea04f8cf48bc13328e6570d51c233c9ad941fd",
+      "refresh_sha256": "194ff4d52847dfbfec9519c2aaf868f495163ce6af588f7215b240d9aba7abe8"
+    },
+    {
+      "path": "historical-methods/methods/leopold-aschenbrenner.json",
+      "change": "modified",
+      "prior_sha256": "30f2ba2b14e07fd59dfa5407dea160dea2397394119d967c2dc653f18008ebb1",
+      "refresh_sha256": "363952ac34cc9d10921ab8f47da813781ad3900c2068566afa15cce60f935034"
+    },
+    {
+      "path": "historical-methods/methods/li-lu.json",
+      "change": "modified",
+      "prior_sha256": "16484b31ed9a746c0426e963cb382cccfbb4516a18abb6c8250369876b7a7a70",
+      "refresh_sha256": "5060dc800aa4ffd2f6e2e245eea54575ee3162034ce17277851b90bba9f7f993"
+    },
+    {
+      "path": "historical-methods/methods/philippe-laffont.json",
+      "change": "modified",
+      "prior_sha256": "93c0bf21b94b4aa9b797b6f33041e5be8cde2ebd59f8524659a38a649125c967",
+      "refresh_sha256": "d2831c0d80c80201341cefa29bf1ad8b93adcb44ca27444cfa1dabd0359974bc"
+    },
+    {
+      "path": "historical-methods/methods/ray-dalio.json",
+      "change": "modified",
+      "prior_sha256": "03fbfa7f54587623903f25fd451422910132f37dd8ee12cb8c1197672ee79baf",
+      "refresh_sha256": "518a62a6d88113163109408fb24b8b7f99eed29f00ba9635ff8eade9d7f05675"
+    },
+    {
+      "path": "historical-methods/methods/ron-baron.json",
+      "change": "modified",
+      "prior_sha256": "2f676fabe0163a5b8d975aec9318a02c4ff1037e206e738ea6f50ddeb59e556a",
+      "refresh_sha256": "8c71c69c259e8b42472f85f8325ecb10eb73d6053f3ed75c0f464a23a70760c2"
+    },
+    {
+      "path": "historical-methods/methods/stanley-druckenmiller.json",
+      "change": "modified",
+      "prior_sha256": "224e60e9ec3251322f2b15ed5198bb028225aa3d4198a039714f0eb48e686797",
+      "refresh_sha256": "28e639d7c086ab689d64c67e8f244346aabea5d3bf7b0a5571380520df5766a8"
+    },
+    {
+      "path": "historical-methods/methods/warren-buffett.json",
+      "change": "modified",
+      "prior_sha256": "73074c12405ff5184e59a74bdc636085c99ab7065f5a397c03a60ac25dcc31cb",
+      "refresh_sha256": "821620897c32b1b7562424c64d75ef1f722599b627f577c952e1e1c13552f49a"
+    },
+    {
+      "path": "methods/duan-yongping.json",
+      "change": "modified",
+      "prior_sha256": "87e27887fba94bfbaa4b6f7cda8ba56e6df4c1716e70acac6c98db3204e53294",
+      "refresh_sha256": "b754921d38b67f40f4926012bb7b6b75498dad5b198d57d8eca6d72d2978c058"
+    },
+    {
+      "path": "methods/li-lu.json",
+      "change": "modified",
+      "prior_sha256": "0dc218bf1ac76083f78c813cf76c1fef6615bc0ccbc3adbbe228cabc6c7288c6",
+      "refresh_sha256": "bebcfb2072292f897da484a9d7c64e4dcedd39f055c8feb82fb8d0c3b7383fce"
+    },
+    {
+      "path": "methods/warren-buffett.json",
+      "change": "modified",
+      "prior_sha256": "54cc6d07e25dace471857bc88a067333ba3cf3d825134e98b6c91212fbc8f92e",
+      "refresh_sha256": "3154096049ebac483701fe177da449f5d5069d2fa7d483267fc0e3eac148d9c2"
+    },
+    {
+      "path": "references/historical-isolation.md",
+      "change": "modified",
+      "prior_sha256": "7083aad3b2d443970f6cf775a380440bb575774e89f308cde85d582a18ae0668",
+      "refresh_sha256": "54752de2f520d8607eb80497314551ecec64fc93f535270e6f50ff1cc2251f00"
+    },
+    {
+      "path": "references/quantitative-output.md",
+      "change": "modified",
+      "prior_sha256": "38b6b1d1e9c2eb96c87e2254c174eb482654972f13438076a5fd9a1936b5eba3",
+      "refresh_sha256": "475fb6b25b6fd1d7fdc534ead27cb6b980d0c6636304e1da2552f4a6cd25add7"
+    },
+    {
+      "path": "references/registry-and-normalization.md",
+      "change": "modified",
+      "prior_sha256": "9f168bc801584812b1a03fd7be14c4f473cb86aa4a0e1761392589bf6f4d86db",
+      "refresh_sha256": "defb91663a7265a48dd01c293699e433307766b0bb5ece250751261f77ccab38"
+    },
+    {
+      "path": "references/routing.md",
+      "change": "modified",
+      "prior_sha256": "361820beb0a650c24ee7a08070824ef299ae0f9010636dfd7f3e5db07d18dbcc",
+      "refresh_sha256": "32518417213f0cf8d1811845a24104bedb3be2df3e22feecb7144488baf9f603"
+    },
+    {
+      "path": "references/wrapper-semantic-invariants.md",
+      "change": "modified",
+      "prior_sha256": "59c64b6117322cc4f06de219c3a959957815dd21611ae24421b1fd5120becacb",
+      "refresh_sha256": "4e5b9bdb706e20dccb9341b2933aa51ac35f42f950a87f5653f9aab62a0797c0"
+    },
+    {
+      "path": "registry/current-method-registry.json",
+      "change": "modified",
+      "prior_sha256": "9e9efbcaa7c1392b1646945b52b60f0a058c562ae10ad0682f4a94efdeede5e5",
+      "refresh_sha256": "33cb175acc10a0fb404ea8170cdcf209051d8a46101d9922e3196ea61964891a"
+    },
+    {
+      "path": "registry/normalization-receipt.json",
+      "change": "modified",
+      "prior_sha256": "0dd2f90a99f0a155b984fdf92b5e3040ae242cc670f2faab555707957798cc81",
+      "refresh_sha256": "baf926315617060b7b5b3583f4578890a08526b893e6bbf6b27f8bdd07f68449"
+    },
+    {
+      "path": "reviews/QA-and-completion-limits.md",
+      "change": "modified",
+      "prior_sha256": "76808cc5f45b18b1145e0a0827534cdfabdeb94024deb7384a3a6cbe73709a96",
+      "refresh_sha256": "cd16667c72fc69d8a4d778ef035d3993d0d281e0b77e9623f0b932af61491f17"
+    },
+    {
+      "path": "reviews/correction-map.round1.json",
+      "change": "modified",
+      "prior_sha256": "61508a0a2e11465907d7f9f7f8f1a274b9934d0ce4092624d5b49b1f0f9f7d94",
+      "refresh_sha256": "5fe4e8b695d1e586a15d22174f5792ff9bd305f5e33b4c0cbe725d09480fbdb4"
+    },
+    {
+      "path": "reviews/correction-map.round2.json",
+      "change": "added",
+      "prior_sha256": null,
+      "refresh_sha256": "3b8fdbac2f53b95470419f46c4a808bc9f2663136b711e72e4181714209cf761"
+    },
+    {
+      "path": "reviews/individual-call-contract-QA.json",
+      "change": "added",
+      "prior_sha256": null,
+      "refresh_sha256": "c64c23320d205b4be00888b34a3c9fd51260d92803ff6364ed036de3857a0aa8"
+    },
+    {
+      "path": "reviews/regression-fixtures.json",
+      "change": "modified",
+      "prior_sha256": "f109baf7d7b1c417daaa60d312548655ba9d7e7506f79cc0a3717c9024879b56",
+      "refresh_sha256": "83aa2bf56589617ea3956906d48f3aeb077d643aa6dc786c6e96d61d9a84e3b3"
+    },
+    {
+      "path": "reviews/scope-polarity-QA.round2.json",
+      "change": "added",
+      "prior_sha256": null,
+      "refresh_sha256": "9601571f5be25462114caf2fead764d73f01af7eecc443ca1b6ab0548adb75a1"
+    },
+    {
+      "path": "reviews/source-acceptance-ledger.json",
+      "change": "modified",
+      "prior_sha256": "c8b4f49b3cdaff1f272725b63a5b49bef35b52f432827c74697f7dee84e65d97",
+      "refresh_sha256": "34053a2b8c007deaa4ebb7fb3a5630f722c21506e1cab578ae4cbc4bdc2a1793"
+    },
+    {
+      "path": "reviews/source-coverage-limits.json",
+      "change": "added",
+      "prior_sha256": null,
+      "refresh_sha256": "84d8c2f86b0db769fb30544ee7a2685acd63d425d14a52a8251a60f5dfc46ac8"
+    },
+    {
+      "path": "reviews/source-refresh-change-log.v1.json",
+      "change": "added",
+      "prior_sha256": null,
+      "refresh_sha256": "e8dea907289f94b137713bb516d31c8441a8f081b9bb340b6801445583fd0dd4"
+    },
+    {
+      "path": "reviews/static-QA.json",
+      "change": "modified",
+      "prior_sha256": "31c93084580e3c612fc5444a9567b4d5b8b3a8b9aaae3fce944cc98e6cc5c11f",
+      "refresh_sha256": "3c5aea8f7312ff83f08a356b0efddd4b41afe9246fc245e03ab5ce7bf9d99cd8"
+    },
+    {
+      "path": "schemas/current-method.v0.1.schema.json",
+      "change": "modified",
+      "prior_sha256": "13fc5332018c8310c5e663a045602d5aac0dada258a9e16e81adf2bdceb0557b",
+      "refresh_sha256": "180a4992626d58eba3ffd50f77b5cb871854b602e2f8b96468d21956b41c9895"
+    },
+    {
+      "path": "schemas/fundamental-scope-polarity.v0.1.schema.json",
+      "change": "added",
+      "prior_sha256": null,
+      "refresh_sha256": "36db0a46d7c891a6fef58f1a82e41ae16f6ab6070851eef9b84145c9a03967ec"
+    },
+    {
+      "path": "schemas/historical-backbone-adapter-transport.v0.1.json",
+      "change": "modified",
+      "prior_sha256": "590e8cc2086e84f10b21811c3869271427acfa8036c9ec5cc03551ae98be82fd",
+      "refresh_sha256": "cf7de62c8894b3fd9d8497517c2de468ea9c0c6db8caec8cfa4f5687cf0fa5e2"
+    },
+    {
+      "path": "schemas/individual-model-response.v0.1.schema.json",
+      "change": "added",
+      "prior_sha256": null,
+      "refresh_sha256": "4d679a99c583cf5414d8ee7da78dd230ea5fafde5be91a6cbbfb7f8b523a024b"
+    },
+    {
+      "path": "schemas/individual-view-result.v0.1.schema.json",
+      "change": "added",
+      "prior_sha256": null,
+      "refresh_sha256": "2ff4b58bdc05b589454ce7d97c76c48c79de9c2ccfb5a644f574aaa382ded590"
+    },
+    {
+      "path": "schemas/research-result.v0.1.schema.json",
+      "change": "modified",
+      "prior_sha256": "0e3725df251c4ccf433c4eda5ca1d9a77e45f5aebec184ce877422bb8e59b1aa",
+      "refresh_sha256": "c226df918f6c81640cbfff0124de4dd1c6a84205490309059a9c8ad57ec5d0ec"
+    },
+    {
+      "path": "schemas/semantic-preflight-contract.v0.1.json",
+      "change": "modified",
+      "prior_sha256": "4cd27884a30d2fbe7006c27a7947ca6fa07f7a528092ed1d56b359733f26d6b9",
+      "refresh_sha256": "e2ad51dd8e7264e0c29ae652f6f441ee6f85ec1627904d1dd1873481f4a7723b"
+    }
+  ]
+}

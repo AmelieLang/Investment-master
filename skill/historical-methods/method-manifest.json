@@ -1,0 +1,170 @@
+{
+  "schema_version": "historical-method-manifest/v0.1-draft",
+  "decision_information_cutoff_utc": "2025-12-31T23:59:59Z",
+  "independent_source_acceptance": "accepted_bounded_upstream_source_content",
+  "activation": "blocked_until_verified_accepted_rule_allowlist_and_frozen_security_route",
+  "method_files": [
+    {
+      "master_id": "warren-buffett",
+      "display_attribution": "Warren Buffett; original writings and bounded authorized meeting transcript",
+      "path": "methods/warren-buffett.json",
+      "sha256": "821620897c32b1b7562424c64d75ef1f722599b627f577c952e1e1c13552f49a",
+      "rule_ids": [
+        "WB-R-01",
+        "WB-R-02",
+        "WB-R-03",
+        "WB-R-04",
+        "WB-R-05"
+      ],
+      "eligibility": "bounded_candidate_pending_review",
+      "automatic_route_enabled": false
+    },
+    {
+      "master_id": "duan-yongping",
+      "display_attribution": "Duan Yongping; direct author replies and original producer Chinese interview",
+      "path": "methods/duan-yongping.json",
+      "sha256": "e589e6162ab59ad9ce6204328dccbce00bfccc0afcffd585ae26c4440a0d193c",
+      "rule_ids": [
+        "DYP-R-01",
+        "DYP-R-02",
+        "DYP-R-03",
+        "DYP-R-04"
+      ],
+      "eligibility": "bounded_candidate_pending_review",
+      "automatic_route_enabled": false
+    },
+    {
+      "master_id": "li-lu",
+      "display_attribution": "Li Lu; original Columbia interview",
+      "path": "methods/li-lu.json",
+      "sha256": "5060dc800aa4ffd2f6e2e245eea54575ee3162034ce17277851b90bba9f7f993",
+      "rule_ids": [
+        "LL-R-01",
+        "LL-R-02",
+        "LL-R-03",
+        "LL-R-04"
+      ],
+      "eligibility": "bounded_candidate_pending_review",
+      "automatic_route_enabled": false
+    },
+    {
+      "master_id": "cathie-wood",
+      "display_attribution": "Cathie Wood / ARK; dated case-bounded public method facts",
+      "path": "methods/cathie-wood.json",
+      "sha256": "3853aa2162303e8b68c1a7598062409de78c0ae0e1cd07e87acc7ce5065d44b2",
+      "rule_ids": [
+        "ARK-R00",
+        "ARK-R04"
+      ],
+      "eligibility": "bounded_candidate_pending_review",
+      "automatic_route_enabled": false
+    },
+    {
+      "master_id": "ron-baron",
+      "display_attribution": "Ron Baron / Baron Partners; dated generic fund-method fact",
+      "path": "methods/ron-baron.json",
+      "sha256": "8c71c69c259e8b42472f85f8325ecb10eb73d6053f3ed75c0f464a23a70760c2",
+      "rule_ids": [
+        "BARON-R00"
+      ],
+      "eligibility": "question_only_insufficient_scope",
+      "automatic_route_enabled": false
+    },
+    {
+      "master_id": "brad-gerstner",
+      "display_attribution": "Brad Gerstner / Altimeter; dated case-bounded public facts",
+      "path": "methods/brad-gerstner.json",
+      "sha256": "9ede81dc0c651dc29d974bf4d0c5bf5d7a806c6602d2645c561f290bf1b8eb48",
+      "rule_ids": [
+        "ALT-R01",
+        "ALT-R02",
+        "ALT-R03",
+        "ALT-R04"
+      ],
+      "eligibility": "bounded_candidate_pending_review",
+      "automatic_route_enabled": false
+    },
+    {
+      "master_id": "philippe-laffont",
+      "display_attribution": "Philippe Laffont; requested personal-method slot",
+      "path": "methods/philippe-laffont.json",
+      "sha256": "d2831c0d80c80201341cefa29bf1ad8b93adcb44ca27444cfa1dabd0359974bc",
+      "rule_ids": [],
+      "eligibility": "not_eligible_personal_method",
+      "automatic_route_enabled": false
+    },
+    {
+      "master_id": "coatue-team",
+      "display_attribution": "Coatue team: Sri Viswanath and Vibhor Khanna",
+      "path": "methods/coatue-team.json",
+      "sha256": "a645c69b1e550476732f35e1db77871aed2473c053ead21ea00d5e13e27c10b4",
+      "rule_ids": [
+        "COATUE-R04"
+      ],
+      "eligibility": "question_only_insufficient_scope",
+      "automatic_route_enabled": false
+    },
+    {
+      "master_id": "ray-dalio",
+      "display_attribution": "Ray Dalio / bounded documented Bridgewater strategy design",
+      "path": "methods/ray-dalio.json",
+      "sha256": "518a62a6d88113163109408fb24b8b7f99eed29f00ba9635ff8eade9d7f05675",
+      "rule_ids": [
+        "DAL-R1",
+        "DAL-R2",
+        "DAL-R3"
+      ],
+      "eligibility": "bounded_candidate_pending_review",
+      "automatic_route_enabled": false
+    },
+    {
+      "master_id": "george-soros",
+      "display_attribution": "George Soros; original public method lectures",
+      "path": "methods/george-soros.json",
+      "sha256": "194ff4d52847dfbfec9519c2aaf868f495163ce6af588f7215b240d9aba7abe8",
+      "rule_ids": [
+        "SOR-R1",
+        "SOR-R2",
+        "SOR-R3"
+      ],
+      "eligibility": "bounded_candidate_pending_review",
+      "automatic_route_enabled": false
+    },
+    {
+      "master_id": "stanley-druckenmiller",
+      "display_attribution": "Stanley Druckenmiller; original speech/interview method facts",
+      "path": "methods/stanley-druckenmiller.json",
+      "sha256": "28e639d7c086ab689d64c67e8f244346aabea5d3bf7b0a5571380520df5766a8",
+      "rule_ids": [
+        "DRU-R1",
+        "DRU-R7",
+        "DRU-R2",
+        "DRU-R3",
+        "DRU-R6"
+      ],
+      "eligibility": "bounded_candidate_pending_review",
+      "automatic_route_enabled": false
+    },
+    {
+      "master_id": "leopold-aschenbrenner",
+      "display_attribution": "Leopold Aschenbrenner; emerging broad thematic and funding-risk questions",
+      "path": "methods/leopold-aschenbrenner.json",
+      "sha256": "363952ac34cc9d10921ab8f47da813781ad3900c2068566afa15cce60f935034",
+      "rule_ids": [
+        "L-R1",
+        "L-R2",
+        "L-R3",
+        "L-R4",
+        "L-R5"
+      ],
+      "eligibility": "bounded_candidate_pending_review",
+      "automatic_route_enabled": false
+    }
+  ],
+  "automatic_validated_experts": 0,
+  "automatic_routes_enabled": 0,
+  "transport_boundary": "This subtree only, plus separately admitted immutable company packet and frozen route. No current library, catalogue, case/holding/output paths, later-method fields or outcome files.",
+  "corpus_policy": "Individual rule facts with original-public-source identity, publication proof and bounded speaker/team attribution. Missing authority/date/scope means abstain or ineligible.",
+  "requested_master_policy": "Preserve requested name and abstention; no silent persona or team substitution.",
+  "historical_export_acceptance": "pending_separate_sanitized_export_and_transport_review"
+}

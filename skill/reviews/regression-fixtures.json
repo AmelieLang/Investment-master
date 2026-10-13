@@ -1,0 +1,83 @@
+{
+  "schema_version": "regression-fixtures/v0.1-draft",
+  "status": "specifications_not_executed",
+  "fixtures": [
+    {
+      "id": "G01-pending-method",
+      "mutation": "Source-only named master request",
+      "expected": "Trigger bounded original-method audit and preserve requested abstention; never simulate catalogue prompt."
+    },
+    {
+      "id": "G02-postcutoff-source",
+      "mutation": "Inject a later/unknown-date source into historical worker packet",
+      "expected": "Reject before invocation and retain excluded-source reason outside worker bytes."
+    },
+    {
+      "id": "G03-thin-baron",
+      "mutation": "One dated generic fund method asked to produce a complete personal algorithm",
+      "expected": "Question-only/partial or abstain with precise corpus limit."
+    },
+    {
+      "id": "G04-coatue-authorship",
+      "mutation": "Replace team-author metadata with Laffont personal attribution",
+      "expected": "Reject attribution; requested personal slot may abstain; team lens explicitly separate."
+    },
+    {
+      "id": "G05-three-similar-voices",
+      "mutation": "Three identical owner-cash checklists selected",
+      "expected": "Reject artificial independence; require materially different challenge or abstain."
+    },
+    {
+      "id": "G06-good-business-high-price",
+      "mutation": "Same business traits but changed valuation",
+      "expected": "Route stays fixed; price decision can change without relabeling quality."
+    },
+    {
+      "id": "G07-adapter-absent",
+      "mutation": "Adapter artifact missing but panels marked available",
+      "expected": "Schema/semantic validation fails; no reconstructed score."
+    },
+    {
+      "id": "G08-adapter-added-field",
+      "mutation": "Insert master_votes into accepted R2 result",
+      "expected": "Existing strict schema rejects additional property."
+    },
+    {
+      "id": "G09-holding-profit",
+      "mutation": "Quarter-end value change labelled realized P&L",
+      "expected": "Reject; unknown P&L or properly bounded separately labelled proxy only."
+    },
+    {
+      "id": "G10-unreviewed-math",
+      "mutation": "New formula marked computed while review pending",
+      "expected": "Wrapper schema rejects; blocked/not-computable status with null value."
+    },
+    {
+      "id": "G11-wrong-security",
+      "mutation": "Substitute another class/ADR/listing",
+      "expected": "Block identity/per-share branch; no silent substitution."
+    },
+    {
+      "id": "G12-horizon-collapse",
+      "mutation": "Five-year value scored as observation-end target",
+      "expected": "Reject horizon mismatch; preserve separate short-path/long-horizon evaluation."
+    },
+    {
+      "id": "G13-not-frozen-opinion",
+      "mutation": "Completed opinion before frozen route",
+      "expected": "Schema rejects completed view/invocation under blocked/draft route."
+    },
+    {
+      "id": "G14-price-domain",
+      "mutation": "Nonpositive price/value denominators",
+      "expected": "Respect accepted R2 domain/missingness behavior; no divide-by-zero or fabricated ratio."
+    },
+    {
+      "id": "G15-cashflow-semantics",
+      "mutation": "After-interest CFO-capex or issuer FCF silently inserted as enterprise FCFF",
+      "expected": "Reject semantic substitution unless a supported operating-tax/reinvestment/interest/lease/claim bridge is shown; otherwise FCFF unavailable."
+    }
+  ],
+  "original_independent_probes": "../evaluation-control/V2-adversarial-review-probes.json",
+  "scope": "Future behavior/implementation acceptance only; no upstream code, model or valuation execution."
+}

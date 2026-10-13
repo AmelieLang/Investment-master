@@ -1,0 +1,333 @@
+{
+  "tested_at_utc": "2026-10-13T16:32:20.662712+00:00",
+  "review_type": "author_local_self_validation_not_independent_review",
+  "tests_run": 49,
+  "tests_passed": 49,
+  "tests_failed": 0,
+  "results": [
+    {
+      "test": "JSON_PARSE",
+      "passed": true,
+      "detail": "All seven substantive JSON files parse."
+    },
+    {
+      "test": "SOURCE_MINIMUM",
+      "passed": true,
+      "detail": "20 source records; direct method and regulator/practice families included."
+    },
+    {
+      "test": "PROVENANCE_ENUM",
+      "passed": true,
+      "detail": "Provenance is not mixed with chronology or primary-content authentication."
+    },
+    {
+      "test": "SOURCE_REFERENCES",
+      "passed": true,
+      "detail": {
+        "unresolved": []
+      }
+    },
+    {
+      "test": "SNAPSHOT_COUNT",
+      "passed": true,
+      "detail": "All seven listed 13F-HR reports parsed."
+    },
+    {
+      "test": "XML_ROWS_2026-06-30",
+      "passed": true,
+      "detail": "Raw XML count equals parsed rows and cover count."
+    },
+    {
+      "test": "XML_VALUES_2026-06-30",
+      "passed": true,
+      "detail": "Raw official XML reported values exactly match stored row values."
+    },
+    {
+      "test": "XML_INSTRUMENTS_2026-06-30",
+      "passed": true,
+      "detail": "CUSIP, shares/principal and call/put match every raw row."
+    },
+    {
+      "test": "COVER_RECONCILE_2026-06-30",
+      "passed": true,
+      "detail": {
+        "table_minus_cover_usd": 0,
+        "preserved_not_hidden": true
+      }
+    },
+    {
+      "test": "OPTION_BUCKETS_2026-06-30",
+      "passed": true,
+      "detail": "Common/other long securities, calls and puts remain separate reported-value buckets."
+    },
+    {
+      "test": "XML_ROWS_2026-03-31",
+      "passed": true,
+      "detail": "Raw XML count equals parsed rows and cover count."
+    },
+    {
+      "test": "XML_VALUES_2026-03-31",
+      "passed": true,
+      "detail": "Raw official XML reported values exactly match stored row values."
+    },
+    {
+      "test": "XML_INSTRUMENTS_2026-03-31",
+      "passed": true,
+      "detail": "CUSIP, shares/principal and call/put match every raw row."
+    },
+    {
+      "test": "COVER_RECONCILE_2026-03-31",
+      "passed": true,
+      "detail": {
+        "table_minus_cover_usd": 0,
+        "preserved_not_hidden": true
+      }
+    },
+    {
+      "test": "OPTION_BUCKETS_2026-03-31",
+      "passed": true,
+      "detail": "Common/other long securities, calls and puts remain separate reported-value buckets."
+    },
+    {
+      "test": "XML_ROWS_2025-12-31",
+      "passed": true,
+      "detail": "Raw XML count equals parsed rows and cover count."
+    },
+    {
+      "test": "XML_VALUES_2025-12-31",
+      "passed": true,
+      "detail": "Raw official XML reported values exactly match stored row values."
+    },
+    {
+      "test": "XML_INSTRUMENTS_2025-12-31",
+      "passed": true,
+      "detail": "CUSIP, shares/principal and call/put match every raw row."
+    },
+    {
+      "test": "COVER_RECONCILE_2025-12-31",
+      "passed": true,
+      "detail": {
+        "table_minus_cover_usd": 1,
+        "preserved_not_hidden": true
+      }
+    },
+    {
+      "test": "OPTION_BUCKETS_2025-12-31",
+      "passed": true,
+      "detail": "Common/other long securities, calls and puts remain separate reported-value buckets."
+    },
+    {
+      "test": "XML_ROWS_2025-09-30",
+      "passed": true,
+      "detail": "Raw XML count equals parsed rows and cover count."
+    },
+    {
+      "test": "XML_VALUES_2025-09-30",
+      "passed": true,
+      "detail": "Raw official XML reported values exactly match stored row values."
+    },
+    {
+      "test": "XML_INSTRUMENTS_2025-09-30",
+      "passed": true,
+      "detail": "CUSIP, shares/principal and call/put match every raw row."
+    },
+    {
+      "test": "COVER_RECONCILE_2025-09-30",
+      "passed": true,
+      "detail": {
+        "table_minus_cover_usd": 0,
+        "preserved_not_hidden": true
+      }
+    },
+    {
+      "test": "OPTION_BUCKETS_2025-09-30",
+      "passed": true,
+      "detail": "Common/other long securities, calls and puts remain separate reported-value buckets."
+    },
+    {
+      "test": "XML_ROWS_2025-06-30",
+      "passed": true,
+      "detail": "Raw XML count equals parsed rows and cover count."
+    },
+    {
+      "test": "XML_VALUES_2025-06-30",
+      "passed": true,
+      "detail": "Raw official XML reported values exactly match stored row values."
+    },
+    {
+      "test": "XML_INSTRUMENTS_2025-06-30",
+      "passed": true,
+      "detail": "CUSIP, shares/principal and call/put match every raw row."
+    },
+    {
+      "test": "COVER_RECONCILE_2025-06-30",
+      "passed": true,
+      "detail": {
+        "table_minus_cover_usd": 0,
+        "preserved_not_hidden": true
+      }
+    },
+    {
+      "test": "OPTION_BUCKETS_2025-06-30",
+      "passed": true,
+      "detail": "Common/other long securities, calls and puts remain separate reported-value buckets."
+    },
+    {
+      "test": "XML_ROWS_2025-03-31",
+      "passed": true,
+      "detail": "Raw XML count equals parsed rows and cover count."
+    },
+    {
+      "test": "XML_VALUES_2025-03-31",
+      "passed": true,
+      "detail": "Raw official XML reported values exactly match stored row values."
+    },
+    {
+      "test": "XML_INSTRUMENTS_2025-03-31",
+      "passed": true,
+      "detail": "CUSIP, shares/principal and call/put match every raw row."
+    },
+    {
+      "test": "COVER_RECONCILE_2025-03-31",
+      "passed": true,
+      "detail": {
+        "table_minus_cover_usd": 0,
+        "preserved_not_hidden": true
+      }
+    },
+    {
+      "test": "OPTION_BUCKETS_2025-03-31",
+      "passed": true,
+      "detail": "Common/other long securities, calls and puts remain separate reported-value buckets."
+    },
+    {
+      "test": "XML_ROWS_2024-12-31",
+      "passed": true,
+      "detail": "Raw XML count equals parsed rows and cover count."
+    },
+    {
+      "test": "XML_VALUES_2024-12-31",
+      "passed": true,
+      "detail": "Raw official XML reported values exactly match stored row values."
+    },
+    {
+      "test": "XML_INSTRUMENTS_2024-12-31",
+      "passed": true,
+      "detail": "CUSIP, shares/principal and call/put match every raw row."
+    },
+    {
+      "test": "COVER_RECONCILE_2024-12-31",
+      "passed": true,
+      "detail": {
+        "table_minus_cover_usd": 0,
+        "preserved_not_hidden": true
+      }
+    },
+    {
+      "test": "OPTION_BUCKETS_2024-12-31",
+      "passed": true,
+      "detail": "Common/other long securities, calls and puts remain separate reported-value buckets."
+    },
+    {
+      "test": "Q2_CONCENTRATION_DENOMINATOR",
+      "passed": true,
+      "detail": {
+        "percent_of_13f_not_NAV": "55.56464543794056721193186402",
+        "number_of_stock_rows": 2
+      }
+    },
+    {
+      "test": "JULY_NO_LOOKAHEAD",
+      "passed": true,
+      "detail": "July letter and June 30 observation published August 14 are excluded from prior public knowledge."
+    },
+    {
+      "test": "CURRENT_ESSAY_SENTENCE_BOUNDARY",
+      "passed": true,
+      "detail": "Current website paragraph chronology is not silently treated as historical sentence-level T0."
+    },
+    {
+      "test": "NO_FALSE_SUCCESS",
+      "passed": true,
+      "detail": "Practice alignment is not a verified profitable trade or audited alpha claim."
+    },
+    {
+      "test": "ROLE_AND_READINESS",
+      "passed": true,
+      "detail": "Emerging extension, bounded research use, implementation and independent review not claimed."
+    },
+    {
+      "test": "USER_NAMES_CONFIRMED",
+      "passed": true,
+      "detail": "Explicit user identity clarification retained; book edition not inferred."
+    },
+    {
+      "test": "SELECTION_BEFORE_RECONSTRUCTION",
+      "passed": true,
+      "detail": "Candidate file precedes detailed reconstruction; known prior July reporting and purposive bias expressly retained."
+    },
+    {
+      "test": "TWO_PRACTICE_PAIRS",
+      "passed": true,
+      "detail": "One consistent thematic pair, one apparent tension, and one not-comparable instrument pair."
+    },
+    {
+      "test": "NO_PLACEHOLDER_LOCATORS",
+      "passed": true,
+      "detail": "Risk locator replaced with verified 04:14:09 and bounded surrounding segment."
+    }
+  ],
+  "raw_value_reconciliations": [
+    {
+      "period_end": "2026-06-30",
+      "cover_total_usd": 20242292228,
+      "row_sum_usd": 20242292228,
+      "difference_usd": 0
+    },
+    {
+      "period_end": "2026-03-31",
+      "cover_total_usd": 13676657577,
+      "row_sum_usd": 13676657577,
+      "difference_usd": 0
+    },
+    {
+      "period_end": "2025-12-31",
+      "cover_total_usd": 5516758344,
+      "row_sum_usd": 5516758345,
+      "difference_usd": 1
+    },
+    {
+      "period_end": "2025-09-30",
+      "cover_total_usd": 4138368748,
+      "row_sum_usd": 4138368748,
+      "difference_usd": 0
+    },
+    {
+      "period_end": "2025-06-30",
+      "cover_total_usd": 2123023762,
+      "row_sum_usd": 2123023762,
+      "difference_usd": 0
+    },
+    {
+      "period_end": "2025-03-31",
+      "cover_total_usd": 1005567727,
+      "row_sum_usd": 1005567727,
+      "difference_usd": 0
+    },
+    {
+      "period_end": "2024-12-31",
+      "cover_total_usd": 254813765,
+      "row_sum_usd": 254813765,
+      "difference_usd": 0
+    }
+  ],
+  "not_established": [
+    "Full/private/short portfolio",
+    "Leverage ratio",
+    "Audited return",
+    "Current operating status",
+    "Security-specific pre-trade memo",
+    "Predictive skill or profitable replication"
+  ],
+  "validation_origin": "Worker static research validator; not executed by this assembly."
+}

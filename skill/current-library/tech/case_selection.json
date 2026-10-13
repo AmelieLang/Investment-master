@@ -1,0 +1,50 @@
+{
+  "recorded_at_utc": "2026-10-13T15:59:06Z",
+  "selection_design": "Retrospective, purposive cases selected for fame and primary-evidence availability. This is not a predictive backtest or a representative sample of lifetime decisions. The requested famous successes create selection bias; adverse cases are independently included rather than screened out.",
+  "candidates": [
+    {
+      "investor": "Cathie Wood / ARK",
+      "case": "Tesla 2018 public thesis and later business/share-price success",
+      "selected": true,
+      "reason": "Original Wood-authored 2018 letter is dated before later outcomes. ARK was already a shareholder, so it is pre-outcome, not pre-initial-trade evidence.",
+      "paired_adverse": "ARKK 2021-2022 innovation portfolio drawdown",
+      "gap": "First Tesla purchase memo and trade ledger not found."
+    },
+    {
+      "investor": "Ron Baron / Baron Partners",
+      "case": "Tesla 2014-2016 accumulation and later success",
+      "selected": true,
+      "reason": "Famous long-horizon investment; issuer fund letter documents purchase dates, cost, partial sale, and later position. A pre-February-2014 original purchase memo has not been located.",
+      "paired_adverse": "Tesla concentration and leverage in Baron Partners Q1 2024",
+      "gap": "Success chain presently relies partly on later fund recollection; will keep attribution and timing explicit."
+    },
+    {
+      "investor": "Brad Gerstner / Altimeter",
+      "case": "Meta Time to Get Fit letter, 2022-2023",
+      "selected": true,
+      "reason": "Original October 24, 2022 shareholder letter provides measurable prospective operating recommendations; SEC snapshots and issuer outcomes allow a dated comparison.",
+      "paired_adverse": "Grab 2021 SPAC thesis and later adverse financial/share-price evidence",
+      "gap": "Meta letter follows initial investment; cannot attribute Meta changes causally to Gerstner."
+    },
+    {
+      "investor": "Philippe Laffont / Coatue",
+      "case": "NVIDIA holdings around 2022-2023 AI growth",
+      "selected": true,
+      "reason": "Requested lead is famous and SEC positions are verifiable; original November 2023 team-authored AI research is available. No pre-first-buy NVIDIA memo has been located.",
+      "paired_adverse": "Moderna post-pandemic revenue normalization versus year-end 2022 position",
+      "gap": "Neither security has a located contemporary Coatue purchase valuation. Cases must remain holdings/outcome chains, not proven Laffont decision rationales."
+    },
+    {
+      "investor": "Philippe Laffont / Coatue",
+      "case": "Snap 2022 drawdown",
+      "selected": false,
+      "reason": "Candidate fallback. Moderna is a larger disclosed year-end 2022 line and provides a clearer issuer financial normalization test; no attempt made to find the worst possible loss."
+    },
+    {
+      "investor": "Brad Gerstner / Altimeter",
+      "case": "Snowflake private-to-public investment",
+      "selected": false,
+      "reason": "Famous success candidate, but Meta provides a much clearer original prospective memo. No claim that Snowflake is unimportant or unsuccessful."
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "schema_version": "historical-method-facts/v0.1-draft",
+  "master_id": "george-soros",
+  "display_attribution": "George Soros; original public method lectures",
+  "identity_scope": "individual_or_bounded_fund",
+  "decision_information_cutoff_utc": "2025-12-31T23:59:59Z",
+  "eligibility": {
+    "status": "bounded_candidate_pending_review",
+    "independent_source_acceptance": "accepted_bounded_upstream_source_content",
+    "automatic_route_enabled": false,
+    "assembled_export_acceptance": "pending_separate_review"
+  },
+  "method_facts": [
+    {
+      "rule_id": "SOR-R1",
+      "documented_method_fact": "Prices can change fundamentals through financing and credit feedback.",
+      "source_ids": [
+        "SOR-03"
+      ],
+      "source_specific_locators": {
+        "SOR-03": "PDF pp.1-2: two cardinal principles; leverage pathways; negative and positive feedback"
+      },
+      "documented_scope": "Bounded direct original method/risk fact; operational workflow is independent design.",
+      "original_language_terms": [],
+      "precutoff_publication_eligible_candidate": true,
+      "independent_acceptance": "pending_sanitized_export_review",
+      "application_is_hypothetical": true
+    },
+    {
+      "rule_id": "SOR-R2",
+      "documented_method_fact": "Market participants are fallible; trends test and can overturn their misconceptions.",
+      "source_ids": [
+        "SOR-04",
+        "SOR-03"
+      ],
+      "source_specific_locators": {
+        "SOR-04": "PDF p.4: core propositions defining fallibility and reflexivity",
+        "SOR-03": "PDF p.2: trend/misconception tests and eventual reversal; paragraph following model examples on unpredictability"
+      },
+      "documented_scope": "Bounded direct original method/risk fact; operational workflow is independent design.",
+      "original_language_terms": [],
+      "precutoff_publication_eligible_candidate": true,
+      "independent_acceptance": "pending_sanitized_export_review",
+      "application_is_hypothetical": true
+    },
+    {
+      "rule_id": "SOR-R3",
+      "documented_method_fact": "Direction can be right while oversized positions force bad liquidation.",
+      "source_ids": [
+        "SOR-03"
+      ],
+      "source_specific_locators": {
+        "SOR-03": "PDF p.5: 2008 personal volatility/oversized-position admission and following liquidity-preference paragraph"
+      },
+      "documented_scope": "Bounded direct original method/risk fact; operational workflow is independent design.",
+      "original_language_terms": [],
+      "precutoff_publication_eligible_candidate": true,
+      "independent_acceptance": "pending_sanitized_export_review",
+      "application_is_hypothetical": true
+    }
+  ],
+  "original_sources": [
+    {
+      "source_id": "SOR-03",
+      "original_public_url": "https://www.opensocietyfoundations.org/uploads/2b96bb8c-e2e1-4d88-9eea-badf16d0a2b8/george-soros-financial-markets-transcript.pdf",
+      "title": "George Soros: Financial Markets, CEU lecture transcript",
+      "original_author_or_speaker": "Named original author/firm in source title",
+      "provenance": "P2",
+      "publication_date_or_latest_public_bound": "2012-12-31",
+      "publication_proof": "Original public lecture dated 2009; inspected OSF transcript bears 2012 copyright. Do not equate speech date with first publication of this PDF edition.",
+      "precise_locator": "PDF p.5: 2008 personal volatility/oversized-position admission and following liquidity-preference paragraph",
+      "content_scope": "Short method fact/paraphrase only; no full source text, holding table or case/outcome narrative.",
+      "independent_acceptance": "pending",
+      "source_record_sha256": "aa96111b8f62a0c4c6a2333e85b52784a46cfe60d9e2e40ece5356b860056e06"
+    },
+    {
+      "source_id": "SOR-04",
+      "original_public_url": "https://www.opensocietyfoundations.org/uploads/9ae17912-2262-4646-8ffc-d01afc934c36/george-soros-general-theory-of-reflexivity-transcript.pdf",
+      "title": "George Soros: General Theory of Reflexivity, CEU transcript",
+      "original_author_or_speaker": "Named original author/firm in source title",
+      "provenance": "P2",
+      "publication_date_or_latest_public_bound": "2012-12-31",
+      "publication_proof": "Original public lecture dated 2009; inspected OSF transcript bears 2012 copyright. Do not equate speech date with first publication of this PDF edition.",
+      "precise_locator": "PDF p.4: core propositions defining fallibility and reflexivity",
+      "content_scope": "Short method fact/paraphrase only; no full source text, holding table or case/outcome narrative.",
+      "independent_acceptance": "pending",
+      "source_record_sha256": "e5d975e64664cc1d91d2918ff2c59c2f2efe7a105cf7c1534553eef41cf0ded2"
+    }
+  ],
+  "application_scope": [
+    "Cross-asset global macro and currency policy contradictions",
+    "Reflexive price/credit feedback and regime breaks",
+    "Hypothesis revision and conviction sizing"
+  ],
+  "corpus_limits": [
+    "Selected public original material only; no complete institutional positions, proprietary strategy or full-book export.",
+    "Macro context does not establish a security-level intrinsic value or current personal view.",
+    "Published retrospective risk lessons are used only as pre-cutoff method facts; no case outcome or narrative is transported."
+  ],
+  "native_numerical_algorithm_established": false,
+  "authorship_boundary": "Method facts are faithful bounded paraphrases. Any application checklist, thresholds, weights, forecasts, probabilities or decision conclusion is independent research design and must not be attributed to the investor."
+}

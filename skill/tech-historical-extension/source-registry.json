@@ -1,0 +1,318 @@
+{
+  "schema_version": "technology-historical-extension-sources/v1.0",
+  "cutoff_utc": "2025-12-31T23:59:59Z",
+  "retrieval_date": "2026-10-13",
+  "sources": [
+    {
+      "source_id": "ARK-X-WRIGHT-20190102",
+      "title": "Moore’s Law Isn’t Dead: It’s Wrong - Long Live Wright’s Law",
+      "original_public_url": "https://www.ark-invest.com/articles/analyst-research/wrights-law-2",
+      "original_author_or_speaker": "Brett Winton / ARK research",
+      "provenance": "P1",
+      "publication_date_shown": "2019-01-02",
+      "publication_date_precision": "day",
+      "retrieval_date": "2026-10-13",
+      "decision_cutoff_utc": "2025-12-31T23:59:59Z",
+      "publication_proof": {
+        "primary_locator": "Original article header, date and byline.",
+        "evidence": "Official article visibly dates itself January 02, 2019 and names Brett Winton.",
+        "date_is_not": "A 2026 retrieval time or an inferred trade date."
+      },
+      "precutoff_publication_eligible_candidate": true,
+      "historical_version_status": "dated_original_edition_retrieved_currently; exact historical bytes not archive-pinned",
+      "first_public_upload_time_independently_verified": false,
+      "content_scope": "General technology-cost forecasting, historical unit data and price-elastic demand.",
+      "admissibility": "candidate_only_pending_independent_Astra_source_acceptance",
+      "source_limits": [
+        "Public original statements establish the author/team stated analytical ideas, not that the ideas are correct or were applied to every investment.",
+        "A dated source is eligible relative to this replay cutoff; no actual stock-entry timing or personal position is inferred.",
+        "HTML read successfully through the public web reader; raw HTML fetch returned HTTP 403, so no raw HTML byte hash is claimed.",
+        "Current header/navigation and author biography are not historical evidence."
+      ],
+      "copyright_reuse": {
+        "status": "Copyrighted first-party research; no source-wide open redistribution license established.",
+        "retained_content": "Bibliographic facts, very short authentication anchors and independently written analytical questions only.",
+        "excluded": "No full report, source graphics, source tables, workbook, code, native scoring matrix or weight reproduction.",
+        "ARK_CC_boundary": "Any ARK CC BY-NC 4.0 model license is source-specific. It is not MIT and does not authorize commercial reuse. No ARK valuation model or workbook is accessed, adapted or exported here."
+      }
+    },
+    {
+      "source_id": "ARK-X-AI-DISRUPTION-20241001",
+      "title": "Is AI Truly Disruptive?",
+      "original_public_url": "https://assets.arkinvest.com/media-8e522a83-1b23-4d58-a202-792712f8d2d3/83a277d3-70f2-467e-a492-33b08e4bea90/ARK-Invest_Is%20AI%20Truly%20Disruptive_09302024%20%281%29.pdf",
+      "original_author_or_speaker": "Brett Winton / ARK research",
+      "provenance": "P1",
+      "publication_date_shown": "2024-10-01",
+      "publication_date_precision": "day",
+      "retrieval_date": "2026-10-13",
+      "decision_cutoff_utc": "2025-12-31T23:59:59Z",
+      "publication_proof": {
+        "primary_locator": "PDF page 1 cover: published date and named author.",
+        "corroboration_url": "https://www.ark-invest.com/white-papers",
+        "corroboration_locator": "Official catalogue entry identifies Oct. 01, 2024, Brett Winton.",
+        "evidence": "Cover and official catalogue agree. PDF metadata creation September 30, 2024 is consistent but not publication proof."
+      },
+      "precutoff_publication_eligible_candidate": true,
+      "historical_version_status": "dated_original_edition_retrieved_currently; exact historical bytes not archive-pinned",
+      "first_public_upload_time_independently_verified": false,
+      "content_scope": "General disruptive-platform criteria and explicitly conditional incumbent responses.",
+      "admissibility": "candidate_only_pending_independent_Astra_source_acceptance",
+      "source_limits": [
+        "Public original statements establish the author/team stated analytical ideas, not that the ideas are correct or were applied to every investment.",
+        "A dated source is eligible relative to this replay cutoff; no actual stock-entry timing or personal position is inferred."
+      ],
+      "copyright_reuse": {
+        "status": "Copyrighted first-party research; no source-wide open redistribution license established.",
+        "retained_content": "Bibliographic facts, very short authentication anchors and independently written analytical questions only.",
+        "excluded": "No full report, source graphics, source tables, workbook, code, native scoring matrix or weight reproduction.",
+        "ARK_CC_boundary": "Any ARK CC BY-NC 4.0 model license is source-specific. It is not MIT and does not authorize commercial reuse. No ARK valuation model or workbook is accessed, adapted or exported here."
+      },
+      "inspection_receipt": {
+        "retrieved_bytes_sha256": "402bfd978dd57fcca66427db39b3f2c0eaed4b2bfd4433e2748a4ae93b9a99ea",
+        "retrieved_bytes": 1224436,
+        "pdf_page_count": 20,
+        "metadata": {
+          "/CreationDate": "D:20240930134430-04'00'",
+          "/Creator": "Adobe InDesign 19.5 (Macintosh)",
+          "/ModDate": "D:20240930134431-04'00'",
+          "/Producer": "Adobe PDF Library 17.0",
+          "/Trapped": "/False"
+        },
+        "raw_file_in_deliverable": false,
+        "hash_proves": "The bytes read in this audit, not their historical public-availability date."
+      }
+    },
+    {
+      "source_id": "ARK-X-BIG-IDEAS-2024",
+      "title": "Big Ideas 2024",
+      "original_public_url": "https://assets.arkinvest.com/media-8e522a83-1b23-4d58-a202-792712f8d2d3/8cea086f-21b4-47bf-8ac6-666b96a84a04/ARK-Invest_Big-Ideas-2024.pdf",
+      "original_author_or_speaker": "ARK research team; convergence: Brett Winton; AI: Frank Downing and Jozef Soja",
+      "provenance": "P1",
+      "publication_date_shown": "2024-01-31",
+      "publication_date_precision": "day",
+      "retrieval_date": "2026-10-13",
+      "decision_cutoff_utc": "2025-12-31T23:59:59Z",
+      "publication_proof": {
+        "primary_locator": "Printed/PDF page 1 cover.",
+        "attribution_locators": [
+          "Printed/PDF page 5 convergence author credit",
+          "Printed/PDF page 19 AI author credits"
+        ],
+        "evidence": "Official dated edition cover. Current PDF metadata shows re-creation October 14, 2024; that is not a new publication date or proof of historical access."
+      },
+      "precutoff_publication_eligible_candidate": true,
+      "historical_version_status": "dated_original_edition_retrieved_currently; exact historical bytes not archive-pinned",
+      "first_public_upload_time_independently_verified": false,
+      "content_scope": "Disclosure combining research levels; AI capability/cost, differentiation and productivity-versus-capture sensitivities.",
+      "admissibility": "candidate_only_pending_independent_Astra_source_acceptance",
+      "source_limits": [
+        "Public original statements establish the author/team stated analytical ideas, not that the ideas are correct or were applied to every investment.",
+        "A dated source is eligible relative to this replay cutoff; no actual stock-entry timing or personal position is inferred.",
+        "Cover date authenticates the dated edition, not every byte as originally released on January 31. Reviewer must explicitly accept the bounded method anchors or quarantine them; no original-edition numerical forecast is promoted as a proven invariant."
+      ],
+      "copyright_reuse": {
+        "status": "Copyrighted first-party research; no source-wide open redistribution license established.",
+        "retained_content": "Bibliographic facts, very short authentication anchors and independently written analytical questions only.",
+        "excluded": "No full report, source graphics, source tables, workbook, code, native scoring matrix or weight reproduction.",
+        "ARK_CC_boundary": "Any ARK CC BY-NC 4.0 model license is source-specific. It is not MIT and does not authorize commercial reuse. No ARK valuation model or workbook is accessed, adapted or exported here."
+      },
+      "inspection_receipt": {
+        "retrieved_bytes_sha256": "5d46cdb029070e47787a2c959e2eda619fff9909b62442c6b194971c682e65cb",
+        "retrieved_bytes": 20234005,
+        "pdf_page_count": 163,
+        "metadata": {
+          "/CreationDate": "D:20241014130304-04'00'",
+          "/Creator": "Acrobat Pro 24.3.20180",
+          "/ModDate": "D:20241014130304-04'00'",
+          "/Producer": "Acrobat Pro 24.3.20180"
+        },
+        "raw_file_in_deliverable": false,
+        "hash_proves": "The bytes read in this audit, not their historical public-availability date."
+      }
+    },
+    {
+      "source_id": "ARK-X-BIG-IDEAS-2025",
+      "title": "Big Ideas 2025",
+      "original_public_url": "https://research.ark-invest.com/hubfs/1_Download_Files_ARK-Invest/Big_Ideas/ARK%20Invest%20Big%20Ideas%202025.pdf",
+      "original_author_or_speaker": "ARK research team; convergence: Brett Winton; AI Agents: Nicholas Grous, Frank Downing, Varshika Prasanna and Jozef Soja",
+      "provenance": "P1",
+      "publication_date_shown": "2025-02-04",
+      "publication_date_precision": "day",
+      "retrieval_date": "2026-10-13",
+      "decision_cutoff_utc": "2025-12-31T23:59:59Z",
+      "publication_proof": {
+        "primary_locator": "PDF page 1 cover.",
+        "attribution_locators": [
+          "Printed/PDF page 5 convergence author credit",
+          "Printed/PDF page 15 AI Agents author credits"
+        ],
+        "corroboration_url": "https://www.ark-invest.com/newsletters/issue-450",
+        "corroboration_locator": "Dated February 11, 2025 newsletter, item 1 points to the report; item 4 says the report was released that week.",
+        "evidence": "Report existence before cutoff corroborated by original official newsletter. Current PDF was re-created July 9, 2025; metadata is not proof this exact version was publicly served then."
+      },
+      "precutoff_publication_eligible_candidate": true,
+      "historical_version_status": "dated_original_edition_retrieved_currently; exact historical bytes not archive-pinned",
+      "first_public_upload_time_independently_verified": false,
+      "content_scope": "Cross-platform catalysts and conditional agent-economics variables; no market capitalization forecasts or security targets.",
+      "admissibility": "candidate_only_pending_independent_Astra_source_acceptance",
+      "source_limits": [
+        "Public original statements establish the author/team stated analytical ideas, not that the ideas are correct or were applied to every investment.",
+        "A dated source is eligible relative to this replay cutoff; no actual stock-entry timing or personal position is inferred.",
+        "Current file contains a May 23, 2025 point on page 9 although the cover says February 4; this is direct reason not to assert all bytes are the untouched February original. Page 9 is excluded from this rule set.",
+        "Only precise selected method anchors are candidates; publication/version uncertainty must remain visible even if the reviewer accepts them."
+      ],
+      "copyright_reuse": {
+        "status": "Copyrighted first-party research; no source-wide open redistribution license established.",
+        "retained_content": "Bibliographic facts, very short authentication anchors and independently written analytical questions only.",
+        "excluded": "No full report, source graphics, source tables, workbook, code, native scoring matrix or weight reproduction.",
+        "ARK_CC_boundary": "Any ARK CC BY-NC 4.0 model license is source-specific. It is not MIT and does not authorize commercial reuse. No ARK valuation model or workbook is accessed, adapted or exported here."
+      },
+      "inspection_receipt": {
+        "retrieved_bytes_sha256": "f9e434b489972428446532f3cf5282f2e5bc5b4a3fba80cc8f8dcd80cc318e43",
+        "retrieved_bytes": 15518488,
+        "pdf_page_count": 147,
+        "metadata": {
+          "/Producer": "macOS Version 15.5 (Build 24F74) Quartz PDFContext",
+          "/CreationDate": "D:20250709182549Z00'00'",
+          "/ModDate": "D:20250709182549Z00'00'"
+        },
+        "raw_file_in_deliverable": false,
+        "hash_proves": "The bytes read in this audit, not their historical public-availability date."
+      }
+    },
+    {
+      "source_id": "ARK-X-SOFTWARE-20250729",
+      "title": "AI Will Determine The Future Of Software And Cloud Spending",
+      "original_public_url": "https://www.ark-invest.com/articles/analyst-research/ai-will-determine-the-future-of-software-and-cloud-spending",
+      "original_author_or_speaker": "Frank Downing / ARK research",
+      "provenance": "P1",
+      "publication_date_shown": "2025-07-29",
+      "publication_date_precision": "day",
+      "retrieval_date": "2026-10-13",
+      "decision_cutoff_utc": "2025-12-31T23:59:59Z",
+      "publication_proof": {
+        "primary_locator": "Original article header immediately above byline.",
+        "evidence": "Official article visibly shows July 29, 2025 and Frank Downing. Chart notes distinguish June 30, 2025 and December 31, 2024 data bases."
+      },
+      "precutoff_publication_eligible_candidate": true,
+      "historical_version_status": "dated_original_edition_retrieved_currently; exact historical bytes not archive-pinned",
+      "first_public_upload_time_independently_verified": false,
+      "content_scope": "Comparable-capability inference economics; adoption scenarios, capture-rate caveat and differentiated software-stack competition.",
+      "admissibility": "candidate_only_pending_independent_Astra_source_acceptance",
+      "source_limits": [
+        "Public original statements establish the author/team stated analytical ideas, not that the ideas are correct or were applied to every investment.",
+        "A dated source is eligible relative to this replay cutoff; no actual stock-entry timing or personal position is inferred.",
+        "HTML read successfully through public web reader; raw HTML fetch returned HTTP 403, so no raw HTML byte hash is claimed.",
+        "Contemporary title and dated article body only; current role biography and security list are excluded."
+      ],
+      "copyright_reuse": {
+        "status": "Copyrighted first-party research; no source-wide open redistribution license established.",
+        "retained_content": "Bibliographic facts, very short authentication anchors and independently written analytical questions only.",
+        "excluded": "No full report, source graphics, source tables, workbook, code, native scoring matrix or weight reproduction.",
+        "ARK_CC_boundary": "Any ARK CC BY-NC 4.0 model license is source-specific. It is not MIT and does not authorize commercial reuse. No ARK valuation model or workbook is accessed, adapted or exported here."
+      }
+    },
+    {
+      "source_id": "BARON-X-LETTER-20240512",
+      "title": "Letter from Ron | Q1 2024",
+      "original_public_url": "https://www.baroncapitalgroup.com/sites/default/files/2024-05/letter-from-ron-3.31.24.pdf",
+      "original_author_or_speaker": "Ronald Baron, signed CEO letter",
+      "provenance": "P1",
+      "publication_date_shown": "2024-05-12",
+      "publication_date_precision": "day",
+      "retrieval_date": "2026-10-13",
+      "decision_cutoff_utc": "2025-12-31T23:59:59Z",
+      "publication_proof": {
+        "primary_locator": "PDF page 3 right column: signature, name, title and May 12, 2024.",
+        "corroboration_url": "https://www.baroncapitalgroup.com/article/letter-ron-q1-2024",
+        "corroboration_locator": "Official article header displays May 12, 2024.",
+        "report_period": "2024-03-31",
+        "evidence": "Signed letter date and first-party publication header agree. March 31 is the report period, not the publication date. PDF was created May 16, 2024."
+      },
+      "precutoff_publication_eligible_candidate": true,
+      "historical_version_status": "dated_original_edition_retrieved_currently; exact historical bytes not archive-pinned",
+      "first_public_upload_time_independently_verified": false,
+      "content_scope": "Ongoing field research, management/competitive differentiation and interpretation of growth reinvestment.",
+      "admissibility": "candidate_only_pending_independent_Astra_source_acceptance",
+      "source_limits": [
+        "Public original statements establish the author/team stated analytical ideas, not that the ideas are correct or were applied to every investment.",
+        "A dated source is eligible relative to this replay cutoff; no actual stock-entry timing or personal position is inferred.",
+        "No exact first-public upload timestamp or archived original bytes recovered. The source is a publicly dated original letter; the stated date is not claimed to be an independently audited upload timestamp.",
+        "Source contains unrelated holdings, returns and performance sections; none supply a rule, quantity or inference in this package."
+      ],
+      "copyright_reuse": {
+        "status": "Copyrighted first-party research; no source-wide open redistribution license established.",
+        "retained_content": "Bibliographic facts, very short authentication anchors and independently written analytical questions only.",
+        "excluded": "No full report, source graphics, source tables, workbook, code, native scoring matrix or weight reproduction.",
+        "ARK_CC_boundary": "No open license assumed."
+      },
+      "inspection_receipt": {
+        "retrieved_bytes_sha256": "820f2a2056bf7156bdc7992e8b86a643a721c4070ed8ee29abef67375bfa5160",
+        "retrieved_bytes": 1082604,
+        "pdf_page_count": 10,
+        "metadata": {
+          "/Producer": "",
+          "/CreationDate": "D:20240516173208Z",
+          "/Author": "",
+          "/Subject": "",
+          "/Title": "",
+          "/Keywords": "",
+          "/Creator": ""
+        },
+        "raw_file_in_deliverable": false,
+        "hash_proves": "The bytes read in this audit, not their historical public-availability date."
+      }
+    },
+    {
+      "source_id": "BARON-X-LETTER-20240716",
+      "title": "Letter from Ron | Q2 2024",
+      "original_public_url": "https://www.baroncapitalgroup.com/sites/default/files/2024-08/letter-from-ron-6.30.24_0.pdf",
+      "original_author_or_speaker": "Ronald Baron, signed CEO letter",
+      "provenance": "P1",
+      "publication_date_shown": "2024-07-16",
+      "publication_date_precision": "day",
+      "retrieval_date": "2026-10-13",
+      "decision_cutoff_utc": "2025-12-31T23:59:59Z",
+      "publication_proof": {
+        "primary_locator": "Printed/PDF page 3: signature block with Ronald Baron, CEO, July 16, 2024.",
+        "corroboration_url": "https://www.baroncapitalgroup.com/article/letter-ron-q2-2024",
+        "corroboration_locator": "Official indexed article date July 16, 2024; live reader layout omits this header date.",
+        "report_period": "2024-06-30",
+        "evidence": "Signed letter date is unambiguous. June 30 is the report period; August 2024 PDF path/metadata is not a July publication-day proof."
+      },
+      "precutoff_publication_eligible_candidate": true,
+      "historical_version_status": "dated_original_edition_retrieved_currently; exact historical bytes not archive-pinned",
+      "first_public_upload_time_independently_verified": false,
+      "content_scope": "Explicit personal description of management assessment, growth/competitive advantage and smaller/mid-sized management relevance.",
+      "admissibility": "candidate_only_pending_independent_Astra_source_acceptance",
+      "source_limits": [
+        "Public original statements establish the author/team stated analytical ideas, not that the ideas are correct or were applied to every investment.",
+        "A dated source is eligible relative to this replay cutoff; no actual stock-entry timing or personal position is inferred.",
+        "No exact first-public upload timestamp or archived original bytes recovered. The source is a publicly dated original letter; signature date and report period are kept separate.",
+        "Source contains unrelated holdings, returns and performance sections; none supply a rule, quantity or inference in this package."
+      ],
+      "copyright_reuse": {
+        "status": "Copyrighted first-party research; no source-wide open redistribution license established.",
+        "retained_content": "Bibliographic facts, very short authentication anchors and independently written analytical questions only.",
+        "excluded": "No full report, source graphics, source tables, workbook, code, native scoring matrix or weight reproduction.",
+        "ARK_CC_boundary": "No open license assumed."
+      },
+      "inspection_receipt": {
+        "retrieved_bytes_sha256": "84660304a0501f9f30e032168770e81336b01281b583ab05581c62f0c6c51d94",
+        "retrieved_bytes": 875153,
+        "pdf_page_count": 11,
+        "metadata": {
+          "/Author": "Baron Capital",
+          "/CreationDate": "D:20240802134847-04'00'",
+          "/Keywords": "ADA 508",
+          "/ModDate": "D:20240803045851+05'30'",
+          "/Producer": "Acrobat Distiller 8.1.0 (Windows)",
+          "/Subject": "Accessible PDF",
+          "/Title": "Letter from Ron"
+        },
+        "raw_file_in_deliverable": false,
+        "hash_proves": "The bytes read in this audit, not their historical public-availability date."
+      }
+    }
+  ]
+}

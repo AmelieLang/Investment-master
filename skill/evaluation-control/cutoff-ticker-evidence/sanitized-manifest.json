@@ -1,0 +1,42 @@
+{
+  "schema_version": "cutoff_holdings_minimal_public_bundle_v1.1",
+  "created_at_utc": "2026-10-13T17:13:54.495127+00:00",
+  "decision_cutoff_utc": "2025-12-31T23:59:59Z",
+  "publication_status": "public_ready_minimal_artifact; no publication/upload performed",
+  "file_allowlist": [
+    "normalized.json",
+    "historical-export.json",
+    "source-ledger.json",
+    "QA-allowlist.json",
+    "sanitized-manifest.json"
+  ],
+  "decision_input_file": "historical-export.json",
+  "privacy_scan_pass": true,
+  "full_original_source_pages_included": false,
+  "tax_identifiers_included": false,
+  "private_support_zip_was_not_modified": true,
+  "original_support_zip_sha256_private_reference": "8989431febf6ba46ecac91198b110de7da5b85e56290074da0fe7309eb6c5544",
+  "files": [
+    {
+      "path": "normalized.json",
+      "bytes": 950909,
+      "sha256": "eb4621b820216f09d8f3594dad7fd60ddca4bb460367c77704b1409f2d06b877"
+    },
+    {
+      "path": "historical-export.json",
+      "bytes": 1021248,
+      "sha256": "cceeba9329feb9e061ce92ab69a6cb6803307dbafe73b339aa389d658f8c4de5"
+    },
+    {
+      "path": "source-ledger.json",
+      "bytes": 84177,
+      "sha256": "08b65873c81db05110b718bf6db2dc0fbccc84f4c9d28a29456a7210ffbded77"
+    },
+    {
+      "path": "QA-allowlist.json",
+      "bytes": 21789,
+      "sha256": "7762b54fd194a2c04ffc0f3ea809a479f1d866f8c2b787ee404a988e16dd8bd4"
+    }
+  ],
+  "manifest_hash_note": "This manifest’s exact hash is recorded in the external packaging receipt and final report, avoiding self-referential hashing."
+}

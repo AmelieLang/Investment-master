@@ -1,0 +1,83 @@
+{
+  "schema_version": "historical-method-facts/v0.1-draft",
+  "master_id": "cathie-wood",
+  "display_attribution": "Cathie Wood / ARK; dated case-bounded public method facts",
+  "identity_scope": "individual_or_bounded_fund",
+  "decision_information_cutoff_utc": "2025-12-31T23:59:59Z",
+  "eligibility": {
+    "status": "bounded_candidate_pending_review",
+    "independent_source_acceptance": "accepted_bounded_upstream_source_content",
+    "automatic_route_enabled": false,
+    "assembled_export_acceptance": "pending_separate_review"
+  },
+  "method_facts": [
+    {
+      "rule_id": "ARK-R00",
+      "documented_method_fact": "A positive valuation thesis does not require holding until its target.",
+      "source_ids": [
+        "ARK-TESLA-20180822"
+      ],
+      "source_specific_locators": {
+        "ARK-TESLA-20180822": "{\"footnote\": 1, \"position\": \"After the assumptions bullet list and before the podcast section\", \"type\": \"html_footnote\"}"
+      },
+      "documented_scope": "Tesla 2018 open-letter caveat; dated_case_disclosure",
+      "original_language_terms": [],
+      "precutoff_publication_eligible_candidate": true,
+      "independent_acceptance": "pending_sanitized_export_review",
+      "application_is_hypothetical": true
+    },
+    {
+      "rule_id": "ARK-R04",
+      "documented_method_fact": "Tesla scenarios explicitly vary autonomous timing, production and capital efficiency.",
+      "source_ids": [
+        "ARK-TESLA-20220414"
+      ],
+      "source_specific_locators": {
+        "ARK-TESLA-20220414": "{\"heading\": \"Autonomous Driving\", \"paragraphs\": [3, 4, 5], \"qualification_locator\": \"Forecast warning immediately before the section; explanation beneath the scenario examples\", \"type\": \"html_section\"}"
+      },
+      "documented_scope": "Tesla 2022 model only; case_specific_model",
+      "original_language_terms": [],
+      "precutoff_publication_eligible_candidate": true,
+      "independent_acceptance": "pending_sanitized_export_review",
+      "application_is_hypothetical": true
+    }
+  ],
+  "original_sources": [
+    {
+      "source_id": "ARK-TESLA-20180822",
+      "original_public_url": "https://www.ark-invest.com/articles/analyst-research/tesla-private",
+      "title": "An open letter opposing taking Tesla private",
+      "original_author_or_speaker": "Cathie Wood",
+      "provenance": "P1",
+      "publication_date_or_latest_public_bound": "2018-08-22",
+      "publication_proof": "Source-level original publication date and method-source eligibility explicitly recorded; independent acceptance pending.",
+      "precise_locator": "{\"footnote\": 1, \"position\": \"After the assumptions bullet list and before the podcast section\", \"type\": \"html_footnote\"}",
+      "content_scope": "Short method fact/paraphrase only; no full source text, holding table or case/outcome narrative.",
+      "independent_acceptance": "pending",
+      "source_record_sha256": "bd5c990e6c97ee68d2ab1d9f4f51428a9015b7707916f56ff546ed0e55025445"
+    },
+    {
+      "source_id": "ARK-TESLA-20220414",
+      "original_public_url": "https://www.ark-invest.com/articles/valuation-models/arks-tesla-model",
+      "title": "ARK Tesla valuation model, 2026 horizon",
+      "original_author_or_speaker": "Tasha Keeney",
+      "provenance": "P1",
+      "publication_date_or_latest_public_bound": "2022-04-15",
+      "publication_proof": "Source-level original publication date and method-source eligibility explicitly recorded; independent acceptance pending.",
+      "precise_locator": "{\"heading\": \"Autonomous Driving\", \"paragraphs\": [3, 4, 5], \"qualification_locator\": \"Forecast warning immediately before the section; explanation beneath the scenario examples\", \"type\": \"html_section\"}",
+      "content_scope": "Short method fact/paraphrase only; no full source text, holding table or case/outcome narrative.",
+      "independent_acceptance": "pending",
+      "source_record_sha256": "21aac7161027e63ef6e8e6c0a0db326a1b30b8f40cea79d5a7c5d7995ef213e2"
+    }
+  ],
+  "application_scope": [
+    "Only mechanisms supported by these dated public sources; match actual business/instrument traits."
+  ],
+  "corpus_limits": [
+    "Case/fund-specific source boundaries cannot be generalized by technology sector label.",
+    "Future-horizon value is not a near-term target; preserve the original horizon.",
+    "No recovered exact personal investment algorithm."
+  ],
+  "native_numerical_algorithm_established": false,
+  "authorship_boundary": "Method facts are faithful bounded paraphrases. Any application checklist, thresholds, weights, forecasts, probabilities or decision conclusion is independent research design and must not be attributed to the investor."
+}

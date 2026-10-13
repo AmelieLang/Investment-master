@@ -1,0 +1,37 @@
+{
+  "schema_version": "source-acceptance-provenance.v1",
+  "receipts": [
+    {
+      "source_receipt": "investment-master-skill-source-rework2-v1.1-acceptance-receipt.json",
+      "sha256": "c0d2deeaf0f3c1ff844d5f34b4983395ac5fa6fc0d1b498bb6358cc6480ff88b",
+      "status": "independently_accepted_reviewable_source_specification_activation_blocked",
+      "source_scope_only": true
+    },
+    {
+      "source_receipt": "reviews/V2-D-source-integration-rework2-review-3.json",
+      "sha256": "ebed0a59e9b0316753b2230a0fc668d29d11904990be31983d0efec30efb8294",
+      "status": "accepted_bounded_source_refresh_and_transport_schema_design_activation_blocked",
+      "source_scope_only": true
+    },
+    {
+      "source_receipt": "reviews/V2-B-technology-historical-extension-review-0.json",
+      "sha256": "503a17ff02fe440fa99b8359892af39726da5fc0d325209137edb9b8c19de15b",
+      "status": "PASS_BOUNDED_METHOD_SOURCE_WITH_VERSION_LIMITS",
+      "source_scope_only": true
+    },
+    {
+      "source_receipt": "reviews/V2-B-native-baseline-method-ledger-review-0.json",
+      "sha256": "a61cfc3ee5ee2f8e10a965bf9e29a5bcadb568cc38548b7b1d2340d5d90a6ee4",
+      "status": "PASS_BOUNDED_CONCEPT_AND_SOFTWARE_ATTRIBUTION_LEDGER",
+      "source_scope_only": true
+    }
+  ],
+  "immutable_source_manifest_sha256": "583f7cb49ae1725afca280808a9f28c278a03c5d14e64b0521378827a08518af",
+  "technology_extension_manifest_sha256": "c61f7813d431a896c2e5f0cd8a08b034a247b3195e11d71471a45472772d7da3",
+  "baseline_ledger_sha256": "cb81e04d6c4f46032b75ce8e927aa826bdc18e41a41461068240e3bd6ce81ef6",
+  "accepted_source_counters_preserved": true,
+  "status_labels_in_copied_sources": "Frozen historical build metadata; exact-hash external receipts establish bounded source acceptance.",
+  "technology_extension_scope": "Ten qualitative bounded ARK research-team/Ron Baron rules. Version uncertainty, named authorship, case limits and independently authored application design remain unchanged. No routing or runtime activation.",
+  "baseline_ledger_scope": "Bounded concept/software-attribution evidence only; exact thresholds and confidence scales remain repository-author choices. Not a production method freeze.",
+  "publication_authorization": "Source receipts are evidence of bounded research acceptance, not authorization to publish or deploy."
+}

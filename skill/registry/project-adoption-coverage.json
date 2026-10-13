@@ -1,0 +1,360 @@
+{
+  "schema_version": "project-adoption-coverage/v1",
+  "expected_core_projects": 20,
+  "expected_supplemental_backbones": 1,
+  "actual_repository_count": 21,
+  "features": 39,
+  "repositories": [
+    {
+      "repo": "AlphaGBM/investment-masters",
+      "feature_decisions": [
+        {
+          "feature_id": "F06",
+          "decision": "rewrite"
+        },
+        {
+          "feature_id": "F22",
+          "decision": "rewrite"
+        },
+        {
+          "feature_id": "F23",
+          "decision": "rewrite"
+        },
+        {
+          "feature_id": "F24",
+          "decision": "rewrite"
+        },
+        {
+          "feature_id": "F32",
+          "decision": "rewrite"
+        }
+      ]
+    },
+    {
+      "repo": "AskRoundtable/expert-skills",
+      "feature_decisions": [
+        {
+          "feature_id": "F34",
+          "decision": "rewrite"
+        },
+        {
+          "feature_id": "F35",
+          "decision": "rewrite"
+        }
+      ]
+    },
+    {
+      "repo": "LI-Jialu/investor-panel-skill",
+      "feature_decisions": [
+        {
+          "feature_id": "F13",
+          "decision": "rewrite"
+        },
+        {
+          "feature_id": "F14",
+          "decision": "rewrite"
+        },
+        {
+          "feature_id": "F15",
+          "decision": "rewrite"
+        },
+        {
+          "feature_id": "F38",
+          "decision": "exclude"
+        }
+      ]
+    },
+    {
+      "repo": "LLMQuant/skills",
+      "feature_decisions": [
+        {
+          "feature_id": "F04",
+          "decision": "rewrite"
+        },
+        {
+          "feature_id": "F05",
+          "decision": "rewrite"
+        }
+      ]
+    },
+    {
+      "repo": "MichaelRochonnn/buffett-investment-research",
+      "feature_decisions": [
+        {
+          "feature_id": "F39",
+          "decision": "redundant_no_adoption"
+        }
+      ]
+    },
+    {
+      "repo": "Wechat-ggGitHub/investment-masters-skill",
+      "feature_decisions": [
+        {
+          "feature_id": "F38",
+          "decision": "exclude"
+        }
+      ]
+    },
+    {
+      "repo": "agi-now/buffett-skills",
+      "feature_decisions": [
+        {
+          "feature_id": "F38",
+          "decision": "exclude"
+        }
+      ]
+    },
+    {
+      "repo": "alchaincyf/munger-skill",
+      "feature_decisions": [
+        {
+          "feature_id": "F35",
+          "decision": "rewrite"
+        }
+      ]
+    },
+    {
+      "repo": "finterm-ai/investment-skills",
+      "feature_decisions": [
+        {
+          "feature_id": "F01",
+          "decision": "keep"
+        }
+      ]
+    },
+    {
+      "repo": "freenowill/stock-fish",
+      "feature_decisions": [
+        {
+          "feature_id": "F10",
+          "decision": "rewrite"
+        }
+      ]
+    },
+    {
+      "repo": "kangarooking/buffett-letters-skill",
+      "feature_decisions": [
+        {
+          "feature_id": "F20",
+          "decision": "rewrite"
+        }
+      ]
+    },
+    {
+      "repo": "kangarooking/poor-charlies-almanack-skill",
+      "feature_decisions": [
+        {
+          "feature_id": "F35",
+          "decision": "rewrite"
+        }
+      ]
+    },
+    {
+      "repo": "lanfuli/aleabito-serenity-skills",
+      "feature_decisions": [
+        {
+          "feature_id": "F36",
+          "decision": "rewrite"
+        },
+        {
+          "feature_id": "F37",
+          "decision": "rewrite"
+        }
+      ]
+    },
+    {
+      "repo": "monarchjuno/vibe-investing",
+      "feature_decisions": [
+        {
+          "feature_id": "F05",
+          "decision": "rewrite"
+        },
+        {
+          "feature_id": "F08",
+          "decision": "rewrite"
+        },
+        {
+          "feature_id": "F13",
+          "decision": "rewrite"
+        }
+      ]
+    },
+    {
+      "repo": "questflowai/investorskills",
+      "feature_decisions": [
+        {
+          "feature_id": "F06",
+          "decision": "rewrite"
+        },
+        {
+          "feature_id": "F11",
+          "decision": "rewrite"
+        },
+        {
+          "feature_id": "F12",
+          "decision": "rewrite"
+        },
+        {
+          "feature_id": "F14",
+          "decision": "rewrite"
+        },
+        {
+          "feature_id": "F15",
+          "decision": "rewrite"
+        },
+        {
+          "feature_id": "F16",
+          "decision": "rewrite"
+        },
+        {
+          "feature_id": "F17",
+          "decision": "rewrite"
+        },
+        {
+          "feature_id": "F18",
+          "decision": "rewrite"
+        },
+        {
+          "feature_id": "F19",
+          "decision": "rewrite"
+        },
+        {
+          "feature_id": "F20",
+          "decision": "rewrite"
+        },
+        {
+          "feature_id": "F21",
+          "decision": "rewrite"
+        },
+        {
+          "feature_id": "F22",
+          "decision": "rewrite"
+        },
+        {
+          "feature_id": "F23",
+          "decision": "rewrite"
+        },
+        {
+          "feature_id": "F24",
+          "decision": "rewrite"
+        },
+        {
+          "feature_id": "F26",
+          "decision": "rewrite"
+        },
+        {
+          "feature_id": "F31",
+          "decision": "rewrite"
+        },
+        {
+          "feature_id": "F32",
+          "decision": "rewrite"
+        },
+        {
+          "feature_id": "F33",
+          "decision": "rewrite"
+        },
+        {
+          "feature_id": "F34",
+          "decision": "rewrite"
+        }
+      ]
+    },
+    {
+      "repo": "tradermonty/claude-trading-skills",
+      "feature_decisions": [
+        {
+          "feature_id": "F25",
+          "decision": "rewrite"
+        },
+        {
+          "feature_id": "F27",
+          "decision": "rewrite"
+        },
+        {
+          "feature_id": "F28",
+          "decision": "rewrite"
+        },
+        {
+          "feature_id": "F29",
+          "decision": "rewrite"
+        },
+        {
+          "feature_id": "F30",
+          "decision": "rewrite"
+        }
+      ]
+    },
+    {
+      "repo": "videGavin/serenity-analyst",
+      "feature_decisions": [
+        {
+          "feature_id": "F36",
+          "decision": "rewrite"
+        }
+      ]
+    },
+    {
+      "repo": "virattt/ai-hedge-fund",
+      "feature_decisions": [
+        {
+          "feature_id": "F02",
+          "decision": "rewrite"
+        },
+        {
+          "feature_id": "F11",
+          "decision": "rewrite"
+        },
+        {
+          "feature_id": "F12",
+          "decision": "rewrite"
+        },
+        {
+          "feature_id": "F25",
+          "decision": "rewrite"
+        }
+      ]
+    },
+    {
+      "repo": "wbh604/UZI-Skill",
+      "feature_decisions": [
+        {
+          "feature_id": "F03",
+          "decision": "rewrite"
+        },
+        {
+          "feature_id": "F04",
+          "decision": "rewrite"
+        },
+        {
+          "feature_id": "F09",
+          "decision": "rewrite"
+        },
+        {
+          "feature_id": "F21",
+          "decision": "rewrite"
+        }
+      ]
+    },
+    {
+      "repo": "will2025btc/buffett-perspective",
+      "feature_decisions": [
+        {
+          "feature_id": "F38",
+          "decision": "exclude"
+        }
+      ]
+    },
+    {
+      "repo": "xbtlin/ai-berkshire",
+      "feature_decisions": [
+        {
+          "feature_id": "F07",
+          "decision": "rewrite"
+        }
+      ]
+    }
+  ],
+  "status": "design_rows_complete_pending_independent_acceptance",
+  "source_feature_matrix_sha256": "ab01fff0e15942d409178be4a23d186d4581beee68106a118b3a16938f8f5848"
+}

@@ -1,0 +1,595 @@
+{
+  "schema_version": "technology-historical-extension-rules/v1.0",
+  "cutoff_utc": "2025-12-31T23:59:59Z",
+  "automatic_use_enabled": false,
+  "rules": [
+    {
+      "rule_id": "ARK-X01",
+      "method_id": "ark-research-team",
+      "documented_native_fact": "ARK describes disruptive platforms by steep cost declines, cross-sector reach and capacity to enable additional innovation.",
+      "documented_scope": "General platform identification; Brett Winton’s published framework, not Cathie Wood’s individual rule set.",
+      "evidence_anchors": [
+        {
+          "source_id": "ARK-X-AI-DISRUPTION-20241001",
+          "precise_locator": {
+            "printed_page": 4,
+            "pdf_page_1_based": 4,
+            "section_topic": "Disruptive technology definition",
+            "paragraphs": "Three intrinsic-property paragraphs after the introductory definition"
+          },
+          "supporting_paraphrase": "Uses cost, sector reach and enabling-platform properties.",
+          "support_role": "direct_documented_method",
+          "brief_quote": "They serve as innovation platforms or launching pads for new technologies.",
+          "quote_word_count": 11
+        },
+        {
+          "source_id": "ARK-X-AI-DISRUPTION-20241001",
+          "precise_locator": {
+            "printed_page": 17,
+            "pdf_page_1_based": 17,
+            "section_topic": "Conclusion",
+            "paragraphs": "Second and third substantive paragraphs"
+          },
+          "supporting_paraphrase": "Incumbent displacement is possible, not inevitable.",
+          "support_role": "direct_qualification"
+        }
+      ],
+      "historical_eligibility": "dated_pre_2026_candidate_only",
+      "independent_acceptance": "pending_Astra",
+      "native_numeric_scoring_weights_established": false,
+      "application_design": {
+        "authorship": "Independent auditor operationalization; not an investor quotation, recovered personal algorithm or claim of historical use.",
+        "required_quantitative_inputs": [
+          "Quality-adjusted cost history and service price",
+          "Number and revenue share of distinct addressable use cases/sectors",
+          "Active independent developers, deployed complements and paid adoption"
+        ],
+        "research_checks": [
+          "Document which of the three properties is evidenced and which is only a forecast.",
+          "Tie enabling platforms to the actual company’s attainable economics."
+        ],
+        "falsifiers_or_contrary_mechanisms": [
+          "Cost declines stall or performance does not meet customer requirements.",
+          "Platform complements fail to gain paying adoption; incumbents preserve customer access or economics."
+        ],
+        "application_limits": [
+          "A platform-level property does not select a security or establish its value capture.",
+          "No automatic technology-sector eligibility; absence of an input is missing evidence, not a positive score."
+        ]
+      }
+    },
+    {
+      "rule_id": "ARK-X02",
+      "method_id": "ark-research-team",
+      "documented_native_fact": "Winton forecasts technology costs from cumulative production and learning rates, then requires historical unit data and demand response.",
+      "documented_scope": "General technology-cost forecasting; ARK research author attribution.",
+      "evidence_anchors": [
+        {
+          "source_id": "ARK-X-WRIGHT-20190102",
+          "precise_locator": {
+            "html_section": "Article body",
+            "paragraph_topics": [
+              "Forecast costs from production, following first graph",
+              "Historical data requirement, following second graph",
+              "Second challenge: anticipated demand, after industrial-robot graphs"
+            ],
+            "retrieval_specific_web_text_lines": [
+              124,
+              136
+            ],
+            "line_number_caveat": "Convenience coordinates of this retrieval only. Original heading/topic locator is primary."
+          },
+          "supporting_paraphrase": "Cost projection needs production history, learning and price elasticity.",
+          "support_role": "direct_documented_method",
+          "brief_quote": "Wright’s Law requires an understanding of the price elasticity of demand",
+          "quote_word_count": 11
+        },
+        {
+          "source_id": "ARK-X-BIG-IDEAS-2024",
+          "precise_locator": {
+            "printed_page": 27,
+            "pdf_page_1_based": 27,
+            "figure_topic": "Training hardware and software cost versus cumulative compute units"
+          },
+          "supporting_paraphrase": "Separates hardware and algorithmic cost contributions.",
+          "support_role": "dated_specific_application"
+        }
+      ],
+      "historical_eligibility": "dated_pre_2026_candidate_only",
+      "independent_acceptance": "pending_Astra",
+      "native_numeric_scoring_weights_established": false,
+      "application_design": {
+        "authorship": "Independent auditor operationalization; not an investor quotation, recovered personal algorithm or claim of historical use.",
+        "required_quantitative_inputs": [
+          "Cumulative production on a stable quality-adjusted unit basis",
+          "Unit production cost and selling price at matching dates",
+          "Learning-rate estimate and uncertainty",
+          "Demand sensitivity, capacity growth, utilization and financing needs"
+        ],
+        "research_checks": [
+          "Fit a learning relationship to observed comparable data; keep price distinct from manufacturing cost.",
+          "Model slower cumulative-volume growth and weaker demand elasticity separately.",
+          "Track whether incremental cost improvement is retained in margin or passed to buyers."
+        ],
+        "falsifiers_or_contrary_mechanisms": [
+          "Learning fit breaks under architecture shifts or input scarcity.",
+          "Production does not double as expected; cheaper pricing fails to unlock adoption.",
+          "Price competition transfers savings away from equity owners."
+        ],
+        "application_limits": [
+          "Do not reuse any ARK forecast rate for a new company or copy its model.",
+          "Sparse production history is insufficient-data; time alone does not justify automatic cost improvement."
+        ]
+      }
+    },
+    {
+      "rule_id": "ARK-X03",
+      "method_id": "ark-research-team",
+      "documented_native_fact": "ARK compares AI cost at similar capability and discusses multiple performance measures rather than treating a single test as complete capability.",
+      "documented_scope": "Dated AI research; Downing/Soja Big Ideas 2024 and Downing 2025.",
+      "evidence_anchors": [
+        {
+          "source_id": "ARK-X-BIG-IDEAS-2024",
+          "precise_locator": {
+            "printed_page": 30,
+            "pdf_page_1_based": 30,
+            "figure_topics": [
+              "Capability contrasts across test categories",
+              "Multi-dimensional evaluation table"
+            ]
+          },
+          "supporting_paraphrase": "Performance varies by task and evaluation dimension.",
+          "support_role": "direct_documented_method"
+        },
+        {
+          "source_id": "ARK-X-SOFTWARE-20250729",
+          "precise_locator": {
+            "html_heading": "As Costs Plummet, Intelligence Is Exploding",
+            "paragraph_topic": "Minimum cost at the specified coding-performance threshold",
+            "retrieval_specific_web_text_lines": [
+              125,
+              135
+            ],
+            "line_number_caveat": "Convenience coordinates of this retrieval only. Original heading/topic locator is primary."
+          },
+          "supporting_paraphrase": "Compares inference pricing at a fixed capability threshold.",
+          "support_role": "direct_documented_method",
+          "brief_quote": "models that score at least 50%",
+          "quote_word_count": 6
+        },
+        {
+          "source_id": "ARK-X-SOFTWARE-20250729",
+          "precise_locator": {
+            "html_heading": "Industry Implications",
+            "paragraph": 1,
+            "retrieval_specific_web_text_lines": [
+              148,
+              149
+            ],
+            "line_number_caveat": "Convenience coordinates of this retrieval only. Original heading/topic locator is primary."
+          },
+          "supporting_paraphrase": "Benchmarks are imperfect indicators of deployed performance.",
+          "support_role": "direct_qualification"
+        }
+      ],
+      "historical_eligibility": "dated_pre_2026_candidate_only",
+      "independent_acceptance": "pending_Astra",
+      "native_numeric_scoring_weights_established": false,
+      "application_design": {
+        "authorship": "Independent auditor operationalization; not an investor quotation, recovered personal algorithm or claim of historical use.",
+        "required_quantitative_inputs": [
+          "Task-success rate on comparable real workflows",
+          "Cost per successful completed task, including retries and human review",
+          "Latency, context limits, reliability and security requirements",
+          "Benchmark definitions and test dates"
+        ],
+        "research_checks": [
+          "Match service quality before comparing economic cost.",
+          "Test actual task productivity and customer willingness to pay."
+        ],
+        "falsifiers_or_contrary_mechanisms": [
+          "Benchmark gains do not reduce deployed cost or reliably complete the required workflow.",
+          "Retries, integration, risk controls or human supervision erase apparent savings."
+        ],
+        "application_limits": [
+          "The article’s benchmark threshold is an example, not a universal investment cutoff.",
+          "Training costs, API prices, hardware capital costs and total deployed costs cannot be substituted for one another."
+        ]
+      }
+    },
+    {
+      "rule_id": "ARK-X04",
+      "method_id": "ark-research-team",
+      "documented_native_fact": "ARK separates potential productivity gains from software-vendor capture and publishes adoption sensitivities with explicit simplifying assumptions.",
+      "documented_scope": "AI industry scenarios; conditional demand/economics, not share-price targets.",
+      "evidence_anchors": [
+        {
+          "source_id": "ARK-X-BIG-IDEAS-2024",
+          "precise_locator": {
+            "printed_page": 33,
+            "pdf_page_1_based": 33,
+            "figure_topic": "Left-hand productivity-uplift versus vendor-capture scenario grid"
+          },
+          "supporting_paraphrase": "Separately varies productivity improvement and vendor capture.",
+          "support_role": "direct_documented_method"
+        },
+        {
+          "source_id": "ARK-X-SOFTWARE-20250729",
+          "precise_locator": {
+            "html_heading": "Forecasted Adoption Scenarios",
+            "table_locator": "Adoption table and immediately following note",
+            "specific_rows": [
+              "Working time automated",
+              "Productivity surplus",
+              "Value capture",
+              "Software revenue"
+            ],
+            "retrieval_specific_web_text_lines": [
+              175,
+              189
+            ],
+            "line_number_caveat": "Convenience coordinates of this retrieval only. Original heading/topic locator is primary."
+          },
+          "supporting_paraphrase": "Separates adoption, surplus and revenue; fixed capture is simplification.",
+          "support_role": "direct_scenario_and_qualification"
+        },
+        {
+          "source_id": "ARK-X-BIG-IDEAS-2025",
+          "precise_locator": {
+            "printed_page": 26,
+            "pdf_page_1_based": 26,
+            "figure_topic": "Customer service savings sensitivity and footnotes"
+          },
+          "supporting_paraphrase": "Varies successful automation and per-conversation cost under explicit assumptions.",
+          "support_role": "dated_specific_application"
+        }
+      ],
+      "historical_eligibility": "dated_pre_2026_candidate_only",
+      "independent_acceptance": "pending_Astra",
+      "native_numeric_scoring_weights_established": false,
+      "application_design": {
+        "authorship": "Independent auditor operationalization; not an investor quotation, recovered personal algorithm or claim of historical use.",
+        "required_quantitative_inputs": [
+          "Addressable workers or tasks, usage frequency and spend base",
+          "Automation success, adoption pace and productivity uplift",
+          "Realized customer savings, willingness to pay and vendor take rate",
+          "Gross margin, incremental operating cost, capex, working capital, dilution and runway"
+        ],
+        "research_checks": [
+          "Build independent low/base/high adoption and capture scenarios.",
+          "Bridge workload or customer surplus to paid revenue, then cash flow and diluted per-share value only if company inputs exist.",
+          "Allow capture rates to fall with competition; do not carry a fixed rate across every scenario."
+        ],
+        "falsifiers_or_contrary_mechanisms": [
+          "Adoption lags even as capability improves.",
+          "Value stays with customers or competitors rather than the analyzed vendor.",
+          "Revenue expands but required capital and dilution absorb owner returns."
+        ],
+        "application_limits": [
+          "No copied source table or forecast amount; native scenario probabilities are not established.",
+          "No firm-specific price output without a separately frozen issuer packet, valuation date, capital structure, funding and discount assumptions."
+        ]
+      }
+    },
+    {
+      "rule_id": "ARK-X05",
+      "method_id": "ark-research-team",
+      "documented_native_fact": "ARK contrasts commoditizable generic AI features with differentiated applications and separately examines platform, infrastructure and application-layer competition.",
+      "documented_scope": "Industry positioning; AI software research, not a guarantee that any layer or incumbent wins.",
+      "evidence_anchors": [
+        {
+          "source_id": "ARK-X-BIG-IDEAS-2024",
+          "precise_locator": {
+            "printed_page": 32,
+            "pdf_page_1_based": 32,
+            "figure_topic": "Horizontal versus differentiated offerings and vendor capture"
+          },
+          "supporting_paraphrase": "Differentiation affects monetization and generic features face commoditization.",
+          "support_role": "direct_documented_method"
+        },
+        {
+          "source_id": "ARK-X-SOFTWARE-20250729",
+          "precise_locator": {
+            "html_heading": "Industry Implications",
+            "paragraph_topics": [
+              "Feature-copying risk and build-versus-buy decisions",
+              "Application uncertainty",
+              "Platforms and infrastructure",
+              "Application software may survive or thrive"
+            ],
+            "retrieval_specific_web_text_line_ranges": [
+              [
+                166,
+                172
+              ],
+              [
+                197,
+                206
+              ]
+            ],
+            "line_number_caveat": "Convenience coordinates of this retrieval only. Original heading/topic locator is primary."
+          },
+          "supporting_paraphrase": "Examines own-versus-buy, data moats, layer shifts and incumbent adaptation.",
+          "support_role": "direct_competitive_mechanisms"
+        }
+      ],
+      "historical_eligibility": "dated_pre_2026_candidate_only",
+      "independent_acceptance": "pending_Astra",
+      "native_numeric_scoring_weights_established": false,
+      "application_design": {
+        "authorship": "Independent auditor operationalization; not an investor quotation, recovered personal algorithm or claim of historical use.",
+        "required_quantitative_inputs": [
+          "Retention, net expansion and renewal pricing",
+          "Unique data access and data rights",
+          "Customer switching/integration costs",
+          "Revenue share by software-stack layer",
+          "Feature parity, competitor prices, distribution reach and sales efficiency"
+        ],
+        "research_checks": [
+          "Specify the scarce asset or workflow that survives easier feature replication.",
+          "Distinguish expanding industry spend from the company’s own share, pricing and cash-flow capture.",
+          "Test whether an incumbent’s distribution/data can offset slower innovation."
+        ],
+        "falsifiers_or_contrary_mechanisms": [
+          "Feature replication compresses pricing or customer retention.",
+          "Customers build internally or a platform bundles the product.",
+          "The analyzed company lacks rights or access needed to benefit from data feedback."
+        ],
+        "application_limits": [
+          "Public statements identify mechanisms, not a native moat score.",
+          "No blanket inference that infrastructure is profitable or application software disappears."
+        ]
+      }
+    },
+    {
+      "rule_id": "ARK-X06",
+      "method_id": "ark-research-team",
+      "documented_native_fact": "ARK combines cross-sector, top-down and bottom-up research and examines technologies as catalysts for other innovation platforms.",
+      "documented_scope": "Research-level integration and convergence; ARK team with Brett Winton convergence authorship.",
+      "evidence_anchors": [
+        {
+          "source_id": "ARK-X-BIG-IDEAS-2024",
+          "precise_locator": {
+            "printed_page": 2,
+            "pdf_page_1_based": 2,
+            "section_topic": "Innovation-risk disclosure",
+            "locator": "Two research aims at bottom of page"
+          },
+          "supporting_paraphrase": "Combines cross-sector top-down and bottom-up work.",
+          "support_role": "direct_documented_method",
+          "brief_quote": "combine top-down and bottom-up research",
+          "quote_word_count": 5
+        },
+        {
+          "source_id": "ARK-X-BIG-IDEAS-2025",
+          "precise_locator": {
+            "printed_page": 10,
+            "pdf_page_1_based": 10,
+            "section_topic": "Convergence",
+            "locator": "Opening prose and explanatory network-density note"
+          },
+          "supporting_paraphrase": "Studies inter-platform catalyst relationships.",
+          "support_role": "direct_documented_method",
+          "brief_quote": "technologies serve as catalysts between and among innovation platforms",
+          "quote_word_count": 9
+        }
+      ],
+      "historical_eligibility": "dated_pre_2026_candidate_only",
+      "independent_acceptance": "pending_Astra",
+      "native_numeric_scoring_weights_established": false,
+      "application_design": {
+        "authorship": "Independent auditor operationalization; not an investor quotation, recovered personal algorithm or claim of historical use.",
+        "required_quantitative_inputs": [
+          "Actual dependency capacity, cost, lead times and adoption",
+          "Exposure of revenue/cost/capex to enabling technologies",
+          "Power, compute, input, infrastructure and regulatory constraints"
+        ],
+        "research_checks": [
+          "Identify the concrete enabling dependency for each proposed growth pathway.",
+          "Reconcile industry demand with company-level execution and funding.",
+          "Stress a delayed enabling platform and cap adoption by the tightest real constraint."
+        ],
+        "falsifiers_or_contrary_mechanisms": [
+          "The complement scales slowly or the company cannot secure scarce inputs.",
+          "Downstream demand grows without proportional company economics."
+        ],
+        "application_limits": [
+          "No reproduction or reverse-engineering of ARK network weights, catalyst scores or original matrix.",
+          "Network-density observations are thematic descriptions, not investment probabilities."
+        ]
+      }
+    },
+    {
+      "rule_id": "BARON-X01",
+      "method_id": "ron-baron",
+      "documented_native_fact": "Ron describes visiting businesses before investing and continuing company, competitor and consultant research afterward.",
+      "documented_scope": "General investment-research statement in his signed May 2024 letter.",
+      "evidence_anchors": [
+        {
+          "source_id": "BARON-X-LETTER-20240512",
+          "precise_locator": {
+            "pdf_page_1_based": 1,
+            "printed_page": null,
+            "layout": "Left column, paragraph after the opening Iscar narrative",
+            "paragraph_topic": "Visits before investing and continuing afterward"
+          },
+          "supporting_paraphrase": "Continues research across businesses, competitors and consultants.",
+          "support_role": "direct_documented_method",
+          "brief_quote": "we visit before we invest",
+          "quote_word_count": 5
+        }
+      ],
+      "historical_eligibility": "dated_pre_2026_candidate_only",
+      "independent_acceptance": "pending_Astra",
+      "native_numeric_scoring_weights_established": false,
+      "application_design": {
+        "authorship": "Independent auditor operationalization; not an investor quotation, recovered personal algorithm or claim of historical use.",
+        "required_quantitative_inputs": [
+          "Documented operating KPIs, unit costs and capacity/usage",
+          "Dated promises versus subsequent operating delivery available by cutoff",
+          "Customer/competitor comparisons and source coverage"
+        ],
+        "research_checks": [
+          "Triangulate issuer explanations with lawfully available customers, competitors and operational facts.",
+          "Record unverified claims and unmet research access rather than impersonating a completed visit."
+        ],
+        "falsifiers_or_contrary_mechanisms": [
+          "Independent evidence contradicts management’s operational narrative.",
+          "The advantage cannot be observed outside curated demonstrations."
+        ],
+        "application_limits": [
+          "No visits, interviews or outreach are authorized or claimed here.",
+          "A research visit is evidence gathering, not evidence that a security is attractive at every price."
+        ]
+      }
+    },
+    {
+      "rule_id": "BARON-X02",
+      "method_id": "ron-baron",
+      "documented_native_fact": "Ron bases decisions on management character and capability together with growth and competitive advantage, with particular management relevance in smaller/mid-sized businesses.",
+      "documented_scope": "Explicit personal description of Baron’s process in his signed July 2024 letter.",
+      "evidence_anchors": [
+        {
+          "source_id": "BARON-X-LETTER-20240716",
+          "precise_locator": {
+            "printed_page": 2,
+            "pdf_page_1_based": 2,
+            "layout": "Right column",
+            "paragraph_topics": [
+              "Firm operating principles and decision basis",
+              "Judgment and ethics",
+              "Manager relevance to smaller/mid-sized business growth"
+            ]
+          },
+          "supporting_paraphrase": "Assesses people alongside business growth and competitive advantage.",
+          "support_role": "direct_documented_method",
+          "brief_quote": "we give unusual weight to manager talent",
+          "quote_word_count": 7
+        }
+      ],
+      "historical_eligibility": "dated_pre_2026_candidate_only",
+      "independent_acceptance": "pending_Astra",
+      "native_numeric_scoring_weights_established": false,
+      "application_design": {
+        "authorship": "Independent auditor operationalization; not an investor quotation, recovered personal algorithm or claim of historical use.",
+        "required_quantitative_inputs": [
+          "Operating execution against dated targets",
+          "Capital allocation, reinvestment returns and financing terms",
+          "Diluted shares, stock compensation and related-party transactions",
+          "Retention of critical personnel and governance protections"
+        ],
+        "research_checks": [
+          "Substantiate management claims with operating and governance evidence.",
+          "Trace talent or incentives to a specific business advantage."
+        ],
+        "falsifiers_or_contrary_mechanisms": [
+          "Missed execution, poor allocation or conflicts weaken the management thesis.",
+          "A celebrated founder cannot convert the company’s opportunity into funded economic output."
+        ],
+        "application_limits": [
+          "“Unusual weight” is qualitative; no numeric weight is recovered.",
+          "Do not equate charisma, intelligence or public acclaim with trustworthiness or assign personal traits without evidence."
+        ]
+      }
+    },
+    {
+      "rule_id": "BARON-X03",
+      "method_id": "ron-baron",
+      "documented_native_fact": "Ron explains that growth investment can suppress current reported profitability and links reinvestment to long-horizon business growth.",
+      "documented_scope": "General owner/reinvestment explanation in his signed May 2024 letter.",
+      "evidence_anchors": [
+        {
+          "source_id": "BARON-X-LETTER-20240512",
+          "precise_locator": {
+            "pdf_page_1_based": 3,
+            "printed_page": null,
+            "layout": "Middle column",
+            "paragraph_topic": "Ownership philosophy followed by reinvestment and current-profit explanation"
+          },
+          "supporting_paraphrase": "Growth spending can obscure current operating profitability.",
+          "support_role": "direct_documented_method",
+          "brief_quote": "growth capital investments",
+          "quote_word_count": 3
+        }
+      ],
+      "historical_eligibility": "dated_pre_2026_candidate_only",
+      "independent_acceptance": "pending_Astra",
+      "native_numeric_scoring_weights_established": false,
+      "application_design": {
+        "authorship": "Independent auditor operationalization; not an investor quotation, recovered personal algorithm or claim of historical use.",
+        "required_quantitative_inputs": [
+          "Reported operating income and cash flow",
+          "Maintenance versus incremental growth capex with evidence",
+          "R&D, sales investment, cohort contribution margins and payback",
+          "Incremental returns, cash runway, working capital and funding/dilution"
+        ],
+        "research_checks": [
+          "Reconcile reported figures to the proposed growth-investment explanation.",
+          "Test whether new cohorts or capacity can become profitable under reasonable adoption.",
+          "Keep all actual cash consumption visible."
+        ],
+        "falsifiers_or_contrary_mechanisms": [
+          "Spending is recurring upkeep or inefficient acquisition rather than productive growth.",
+          "Incremental projects miss returns or the business runs out of affordable funding."
+        ],
+        "application_limits": [
+          "Do not add back all R&D, stock compensation or capex automatically.",
+          "Long-term orientation does not supply an entry-price rule or excuse unbounded losses."
+        ]
+      }
+    },
+    {
+      "rule_id": "BARON-X04",
+      "method_id": "ron-baron",
+      "documented_native_fact": "Ron explains a data/workflow competitive advantage using a contributory database that is difficult to reproduce, embedded use and client economics.",
+      "documented_scope": "Case-bounded competitive-mechanism explanation in May 2024 letter; independent transfer to other data/workflow businesses is hypothetical.",
+      "evidence_anchors": [
+        {
+          "source_id": "BARON-X-LETTER-20240512",
+          "precise_locator": {
+            "pdf_page_1_based": 2,
+            "printed_page": null,
+            "layout": "Right column, paragraph beginning with the named data-analytics business; continuation atop page 3 left column",
+            "case_identifier": "Verisk operating-business example; no stock or holding inference"
+          },
+          "supporting_paraphrase": "Uses replicability, workflow embedding, retention and low client expense share.",
+          "support_role": "case_specific_mechanism_not_universal_rule"
+        }
+      ],
+      "historical_eligibility": "dated_pre_2026_candidate_only",
+      "independent_acceptance": "pending_Astra",
+      "native_numeric_scoring_weights_established": false,
+      "application_design": {
+        "authorship": "Independent auditor operationalization; not an investor quotation, recovered personal algorithm or claim of historical use.",
+        "required_quantitative_inputs": [
+          "Customer revenue retention with definition",
+          "Price as share of the client’s relevant operating cost",
+          "Contribution/data rights and source diversity",
+          "Replication cost/time, integration dependence and new-product uptake"
+        ],
+        "research_checks": [
+          "Test whether the company actually owns or controls scarce, reusable data.",
+          "Compare renewal, economics and replaceability with competitors.",
+          "Keep a low customer budget share distinct from unlimited pricing power."
+        ],
+        "falsifiers_or_contrary_mechanisms": [
+          "Data can be replicated or accessed elsewhere, including through new AI tools.",
+          "Clients stop contributing, workflow replacement gets easier or retention deteriorates."
+        ],
+        "application_limits": [
+          "No example-specific number is adopted as a screening threshold.",
+          "Data volume alone is not a durable moat; this is a mechanism question, not a recovered quantitative Baron algorithm."
+        ]
+      }
+    }
+  ],
+  "stored_quote_words_per_source": {
+    "ARK-X-AI-DISRUPTION-20241001": 11,
+    "ARK-X-WRIGHT-20190102": 11,
+    "ARK-X-SOFTWARE-20250729": 6,
+    "ARK-X-BIG-IDEAS-2024": 5,
+    "ARK-X-BIG-IDEAS-2025": 9,
+    "BARON-X-LETTER-20240512": 8,
+    "BARON-X-LETTER-20240716": 7
+  }
+}

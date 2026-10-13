@@ -1,0 +1,88 @@
+{
+  "schema_version": "source-holdings-audit-assignment/v0.1-draft",
+  "status": "research_specification_only",
+  "core_roster": [
+    "warren-buffett",
+    "duan-yongping",
+    "li-lu",
+    "cathie-wood",
+    "ron-baron",
+    "brad-gerstner",
+    "philippe-laffont",
+    "ray-dalio",
+    "george-soros",
+    "stanley-druckenmiller"
+  ],
+  "requested_extensions": [
+    {
+      "id": "leopold-aschenbrenner",
+      "classification": "emerging_thematic_financing_risk_case",
+      "established_master": false
+    }
+  ],
+  "bounded_search_requirements": {
+    "substantive_source_minimum": 3,
+    "source_family_minimum": 2,
+    "direct_method_primary_or_authorized_minimum": 1,
+    "practice_source_minimum": 1,
+    "living_practicing_manager_compatible_snapshots_target": 2,
+    "tested_statement_practice_pairs_target": 2,
+    "pair_diversity_target": [
+      "apparent_fit",
+      "apparent_mismatch"
+    ],
+    "missing_gate_result": "incomplete_with_search_log_never_fabricated",
+    "corpus_scope": "Bounded publicly lawful sources, not lifetime/private/entire-feed census."
+  },
+  "required_output_artifacts": [
+    "identity_and_mandate",
+    "source_register",
+    "claim_ledger",
+    "method_rules",
+    "holdings_snapshots_or_legal_gap",
+    "statement_practice_pairs",
+    "contradictions_uncertainties",
+    "coverage_denominator",
+    "bounded_search_log",
+    "rule_level_publication_eligibility",
+    "rights_and_reuse_manifest"
+  ],
+  "provenance_levels": [
+    "P1",
+    "P2",
+    "S1",
+    "S2",
+    "U"
+  ],
+  "timing_levels": [
+    "T0",
+    "T1",
+    "T2",
+    "TU"
+  ],
+  "comparison_outcomes": [
+    "consistent",
+    "apparent_tension",
+    "resolved_change",
+    "attribution_uncertain",
+    "not_comparable",
+    "unresolved"
+  ],
+  "return_kinds": [
+    "security_total_return",
+    "fund_return",
+    "trade_realized_pnl",
+    "manager_self_report",
+    "reconstructed_interval_proxy",
+    "unknown"
+  ],
+  "historical_cutoff_utc": "2025-12-31T23:59:59Z",
+  "historical_export_policy": "Only accepted original-method facts with proven pre-cutoff public availability. No holding/outcome/case/current-role tables. Preserve individual-rule eligibility; unknown/mutable dates excluded.",
+  "review": {
+    "source_acceptance": "pending_designated_independent_reviewer",
+    "worker_self_checks_are_acceptance": false,
+    "maximum_corrective_rework_rounds": 3,
+    "stop_after_cap": "Return exact unresolved defects and bounded incomplete status."
+  },
+  "authorization": "Read-only public/connected authorized sources; no private account access expansion, copyrighted full-text redistribution, external communications or live actions."
+}

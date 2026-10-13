@@ -1,0 +1,52 @@
+{
+  "schema_version": "source-acceptance-ledger/v1",
+  "accepted_receipts": [
+    {
+      "task": "catalogue",
+      "receipt_path": "reviews/V2-A-catalogue-review-1.json",
+      "receipt_sha256": "d5e065d5d3f54da73dec1c2d35b2dbbba704f07f0a24eba37fb475271e42413d",
+      "verdict": "accepted_static_catalogue_and_transfer_inventory",
+      "scope": "Static catalogue/transfer inventory only, zero automatic experts.",
+      "corrective_reworks_used": 1
+    },
+    {
+      "task": "macro",
+      "receipt_path": "reviews/V2-B-macro-review-1.json",
+      "receipt_sha256": "5f1e2b12aacfe6af28d6db21240aa98ce3a38c51c712cd1d55003dd5393083ff",
+      "verdict": "accepted_bounded_research_and_rule_provenance",
+      "scope": "Bounded macro source/rule provenance, including personal/team/case/corpus limits; implementation/export acceptance separate.",
+      "corrective_reworks_used": 1
+    },
+    {
+      "task": "tech",
+      "receipt_path": "reviews/V2-B-technology-review-1.json",
+      "receipt_sha256": "e44ad83dfdb4b25dd4bbe3965a3a239d547d9ccb023308aa86799ae324afcb3a",
+      "verdict": "accepted_bounded_research_and_rule_provenance",
+      "scope": "Bounded tech source/rule provenance, including personal/team/case/corpus limits; implementation/export acceptance separate.",
+      "corrective_reworks_used": 1
+    },
+    {
+      "task": "leopold",
+      "receipt_path": "reviews/V2-B-leopold-review-0.json",
+      "receipt_sha256": "9801b033a8efbc2abcc913f8f7ec71aa6ba78d5859b5b6138ff46e28c8db7940",
+      "verdict": "PASS_BOUNDED_RESEARCH",
+      "scope": "Bounded leopold source/rule provenance, including personal/team/case/corpus limits; implementation/export acceptance separate.",
+      "corrective_reworks_used": 0
+    },
+    {
+      "task": "fundamental",
+      "receipt_path": "reviews/V2-B-fundamental-review-1.json",
+      "receipt_sha256": "92ac77274bce7d820cca6ca03ded9ea6bf0cd3347070bb1a554ca796a7ae544b",
+      "verdict": "PASS_BOUNDED_RESEARCH_WITH_MINOR_NOTES",
+      "scope": "Bounded fundamental source/rule provenance, including personal/team/case/corpus limits; implementation/export acceptance separate.",
+      "corrective_reworks_used": 1
+    }
+  ],
+  "pending_streams": [],
+  "underlying_core_source_dossiers_accepted": 10,
+  "separate_emerging_extension_accepted": 1,
+  "bundle_source_acceptance": "source_refresh_pending_integration_review",
+  "wrapper_implementation_acceptance": "not_started",
+  "historical_export_acceptance": "pending_separate_preflight",
+  "maximum_corrective_reworks_per_stable_task": 3
+}

@@ -1,0 +1,62 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:investment-master:fundamental-scope-polarity:v0.1-draft",
+  "title": "Targeted fundamental application-scope polarity shape; exact accepted-source comparison remains mandatory",
+  "type": "object",
+  "properties": {
+    "rule_id": {
+      "enum": [
+        "WB-R-01",
+        "WB-R-02",
+        "WB-R-03",
+        "WB-R-04",
+        "WB-R-05",
+        "DYP-R-01",
+        "DYP-R-02",
+        "DYP-R-03",
+        "DYP-R-04",
+        "LL-R-01",
+        "LL-R-02",
+        "LL-R-03",
+        "LL-R-04"
+      ]
+    },
+    "documented_scope": {
+      "type": "string",
+      "pattern": "^Auditor-adapted application scope\\. Applies to: .+; Does not apply to: .+; "
+    },
+    "application_scope": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "applies_to": {
+          "type": "string",
+          "minLength": 1
+        },
+        "does_not_apply_to": {
+          "type": "string",
+          "minLength": 1
+        },
+        "origin": {
+          "const": "auditor_adaptation_not_investor_native_rule"
+        }
+      },
+      "required": [
+        "applies_to",
+        "does_not_apply_to",
+        "origin"
+      ]
+    },
+    "documented_scope_origin": {
+      "const": "auditor_adaptation_not_investor_native_rule"
+    }
+  },
+  "required": [
+    "rule_id",
+    "documented_scope",
+    "application_scope",
+    "documented_scope_origin"
+  ],
+  "additionalProperties": true,
+  "description": "This shape rejects unlabeled scope. It cannot establish semantic direction alone; compare applies_to and does_not_apply_to exactly with the accepted source packet by rule ID/hash. Never promote author adaptation into investor-native method facts."
+}

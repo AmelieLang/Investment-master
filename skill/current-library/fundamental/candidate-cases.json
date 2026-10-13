@@ -1,0 +1,91 @@
+{
+  "schema_version": "1.0",
+  "selection_time_utc": "2026-10-13T15:59:00Z",
+  "sampling": "Purposive retrospective famous-case selection plus documented adverse cases, not random sampling or a predictive backtest. The initial candidate list was saved first; later additions and exclusions are timestamped separately.",
+  "candidates": [
+    {
+      "case_id": "WB-C-APPLE",
+      "person": "Warren Buffett / Berkshire Hathaway",
+      "type": "success",
+      "selected": true,
+      "reason": "Famous large technology/consumer franchise win with official cost/market-value disclosures and direct attribution boundary between initial deputy and Buffett scaling. Initial pre-trade memo not located."
+    },
+    {
+      "case_id": "WB-C-IBM",
+      "person": "Warren Buffett",
+      "type": "adverse thesis/counterexample",
+      "selected": true,
+      "reason": "Original 2011 shareholder thesis about earnings and buybacks, actual position, later direct admission and exit. Postentry 2011 letter must not be called preinitial-trade evidence."
+    },
+    {
+      "case_id": "WB-C-PCC",
+      "person": "Warren Buffett",
+      "type": "adverse valuation supplemental",
+      "selected": true,
+      "reason": "2020 original shareholder letter explicitly identifies overpayment and normalized earnings error. Demonstrates good business does not validate any price."
+    },
+    {
+      "case_id": "DYP-C-NETEASE",
+      "person": "Duan Yongping",
+      "type": "success lead",
+      "selected": true,
+      "reason": "Famous Chinese distressed-to-games turnaround; initial ownership verifiable in issuer filings. Precise 100x/entry/exit claims require stronger original transaction evidence."
+    },
+    {
+      "case_id": "DYP-C-APPLE",
+      "person": "Duan Yongping",
+      "type": "success lead",
+      "selected": true,
+      "reason": "Famous long-held consumer electronics fit; original social-post history needs provenance and contemporary financial crosscheck. Later H&H snapshot is only partial corroboration."
+    },
+    {
+      "case_id": "DYP-C-BAIDU-SHORT",
+      "person": "Duan Yongping",
+      "type": "adverse lead",
+      "selected": "conditional_on_primary",
+      "reason": "Widely retold named shorting loss, but primary investor recording/post must establish it; secondhand dollar losses not accepted."
+    },
+    {
+      "case_id": "DYP-C-OPTIONS",
+      "person": "Duan Yongping",
+      "type": "documented boundary/counterexample",
+      "selected": true,
+      "reason": "Direct dated current-account post shows option writing and foregone-upside concern; counters simplistic never-derivatives/always-100%-stock persona. Embedded AI-generated calculations are not investor evidence."
+    },
+    {
+      "case_id": "LL-C-BYD",
+      "person": "Li Lu / Himalaya",
+      "type": "success",
+      "selected": true,
+      "reason": "Famous Chinese battery/EV investment with direct 2013 interview and separately identified HKEX holdings/sales. Berkshire return cannot be substituted for Himalaya return."
+    },
+    {
+      "case_id": "LL-C-SHORTING",
+      "person": "Li Lu",
+      "type": "adverse strategy",
+      "selected": true,
+      "reason": "Original Columbia 2013 interview explicitly reports an earlier shorting mistake and abandonment about nine years earlier. Named security, exact dates and realized loss remain unknown."
+    }
+  ],
+  "coverage_target": "Deep chains use primary original speech/writeups, disclosed actual position, subsequent original reassessment/outcome, and explicit missing links.",
+  "selection_updates": [
+    {
+      "discovered_after_initial_selection_at_utc": "2026-10-13T16:03:00Z",
+      "case_id": "DYP-C-OILGAS-INDEX",
+      "selected": true,
+      "reason": "Original producer 2025 interview provides a monetary loss and instrument-mechanism error. No named ticker: do not call it UNG. Stronger accepted adverse than the unverifiedBaidulead."
+    },
+    {
+      "discovered_after_initial_selection_at_utc": "2026-10-13T16:03:00Z",
+      "case_id": "DYP-C-GE",
+      "selected": true,
+      "reason": "Namedoriginal decision quality error despite monetary profit; supplemental counterexample, not aninventedloss."
+    }
+  ],
+  "final_exclusions": [
+    {
+      "case_id": "DYP-C-BAIDU-SHORT",
+      "reason": "Original record not verified. Excluded from accepted deep cases."
+    }
+  ]
+}

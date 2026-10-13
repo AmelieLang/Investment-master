@@ -1,0 +1,22 @@
+{
+  "scope": "Static one-view schemas/fixtures only; no model call or runtime acceptance.",
+  "checks": [
+    {
+      "test": "individual-model-response.v0.1.schema.json shape/fixture",
+      "status": "passed"
+    },
+    {
+      "test": "individual-model-response.v0.1.schema.json rejects three-slot wrapper field",
+      "status": "passed"
+    },
+    {
+      "test": "individual-view-result.v0.1.schema.json shape/fixture",
+      "status": "passed"
+    },
+    {
+      "test": "individual-view-result.v0.1.schema.json rejects three-slot wrapper field",
+      "status": "passed"
+    }
+  ],
+  "model_facing_definitions": "Only transitively referenced one-view analytical definitions; no sibling route/catalogue/persona definitions."
+}

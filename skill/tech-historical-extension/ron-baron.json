@@ -1,0 +1,29 @@
+{
+  "schema_version": "technology-historical-extension-method/v1.0",
+  "method_id": "ron-baron",
+  "display_attribution": "Ron Baron: historical growth-business supplement",
+  "identity_scope": "signed_personal_statements_with_case_bounded_example",
+  "cutoff_utc": "2025-12-31T23:59:59Z",
+  "status": "bounded_candidate_pending_independent_Astra_acceptance",
+  "automatic_route_enabled": false,
+  "purpose": "Dated original letters add continued research, people/business assessment and productive-reinvestment interpretation to the existing generic price-versus-growth fact.",
+  "rule_ids": [
+    "BARON-X01",
+    "BARON-X02",
+    "BARON-X03",
+    "BARON-X04"
+  ],
+  "source_ids": [
+    "BARON-X-LETTER-20240512",
+    "BARON-X-LETTER-20240716"
+  ],
+  "native_numerical_algorithm_established": false,
+  "application_is_hypothetical": true,
+  "valuation_boundary": "No target price, stock view, portfolio decision, current holding, native score, probability or weight is produced. Independent valuation requires its own evidence and review.",
+  "missing_scope": [
+    "No recovered complete personal investment algorithm.",
+    "No immutable first-upload proof for every currently served source version.",
+    "No native position sizing, discount rate, universal buy/sell threshold or calibrated probability."
+  ],
+  "external_effects_authorized": false
+}

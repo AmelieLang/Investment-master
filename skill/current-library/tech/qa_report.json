@@ -1,0 +1,105 @@
+{
+  "as_of_date": "2026-10-13",
+  "dossiers": 4,
+  "sources": 40,
+  "case_count": 8,
+  "adverse_case_count": 4,
+  "rule_count": 20,
+  "errors": [],
+  "reference_integrity_passed": true,
+  "XML_arithmetic_checks": [
+    {
+      "source_id": "COATUE-13F-20221231",
+      "issuer_match": "NVIDIA",
+      "rows": 4,
+      "shares": 4638632,
+      "raw_value": 677889680,
+      "passed": true
+    },
+    {
+      "source_id": "COATUE-13F-20231231",
+      "issuer_match": "NVIDIA",
+      "rows": 6,
+      "shares": 4322201,
+      "raw_value": 2140440379,
+      "passed": true
+    },
+    {
+      "source_id": "COATUE-13F-20221231",
+      "issuer_match": "MODERNA",
+      "rows": 2,
+      "shares": 6393565,
+      "raw_value": 1148412145,
+      "passed": true
+    },
+    {
+      "source_id": "COATUE-13F-20231231",
+      "issuer_match": "MODERNA",
+      "rows": 2,
+      "shares": 3273052,
+      "raw_value": 325505021,
+      "passed": true
+    }
+  ],
+  "visual_checks": [
+    "ARK prospectus PDF p12 calendar-return chart",
+    "Meta 2023 issuer stock-performance image qualitative trend"
+  ],
+  "not_verified": [
+    "Exact original first purchase memos",
+    "Matched-lot realized P&L",
+    "All fund/hedge exposure",
+    "Unchanged original of revised ARK 2021 commentary",
+    "Precise Baron Q1 2024 webpage publication day",
+    "Original Moderna/Tesla stock graph numeric returns"
+  ],
+  "tool_interruption": "Optional SEC image download polling cancelled by automatic tool review; Meta image saved; remaining images excluded. No denied action retried.",
+  "final_sanity_checks": [
+    "Tesla/NVIDIA historical split basis explicitly recorded",
+    "Grab $10 PIPE price verified in original transaction deck",
+    "2026 Gerstner role self-report separately labeled and audit-only",
+    "Positive-thesis/portfolio-resize compatibility supported by dated ARK caveat"
+  ],
+  "corrective_rework": {
+    "task_id": "V2-B-technology",
+    "round": 1,
+    "max_rounds": 3,
+    "receipt": "../reviews/V2-B-technology-review-0.json",
+    "defect_id": "TECH-R0-01",
+    "rules_with_precise_anchors": 20,
+    "anchor_count": 28,
+    "historical_rules_spotchecked": 8,
+    "historical_rule_ids": [
+      "ARK-R00",
+      "ARK-R04",
+      "BARON-R00",
+      "ALT-R01",
+      "ALT-R02",
+      "ALT-R03",
+      "ALT-R04",
+      "COATUE-R04"
+    ],
+    "preserved": {
+      "source_count": 40,
+      "rule_count": 20,
+      "case_count": 8,
+      "adverse_case_count": 4,
+      "historical_allowlist_unchanged": true
+    },
+    "passed": true,
+    "changes": [
+      "Precise pages/sections/paragraphs and support roles added to all rules",
+      "Resolvable historical allowlist of the same eight rules added",
+      "ARK-R02 and ALT-R01 wording narrowed to explicit source content",
+      "Meta P/E comparison corrected: 23x to 12x, no decade-average/forward claim",
+      "NVDA endpoint proxy uses unrounded filing arithmetic, matching independent reviewer"
+    ],
+    "locator_crosschecks": [
+      "Meta opening/conclusion paragraph ordinals re-counted",
+      "Grab slides 46/53 valuation and 51/52/59/60 structures/forecasts verified",
+      "CTEK printed versus zero/one-based PDF pages distinguished",
+      "Eight historical rules match source cutoff classifications"
+    ],
+    "anchor_reference_integrity_passed": true
+  }
+}

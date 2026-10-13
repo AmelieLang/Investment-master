@@ -1,0 +1,126 @@
+{
+  "schema_version": "historical-method-facts/v0.1-draft",
+  "master_id": "li-lu",
+  "display_attribution": "Li Lu; original Columbia interview",
+  "identity_scope": "individual_or_bounded_fund",
+  "decision_information_cutoff_utc": "2025-12-31T23:59:59Z",
+  "eligibility": {
+    "status": "bounded_candidate_pending_review",
+    "independent_source_acceptance": "accepted_bounded_upstream_source_content",
+    "automatic_route_enabled": false,
+    "assembled_export_acceptance": "pending_separate_review"
+  },
+  "method_facts": [
+    {
+      "rule_id": "LL-R-01",
+      "documented_method_fact": "Distinguish known, unknown, unnecessary-to-know and unknown-unknown risks. Engage the strongest contrary argument and leave crucial ununderstood situations too hard.",
+      "source_ids": [
+        "LL-S-COLUMBIA2013"
+      ],
+      "source_specific_locators": {
+        "LL-S-COLUMBIA2013": "Columbia Spring2013 printed p25 opposing-argument paragraph; p30 too-hard bucket; pp31–32 intellectual-honesty categories."
+      },
+      "documented_scope": "Auditor-adapted application scope. Applies to: Deeply understood businesses with honest uncertainty ranges; Does not apply to: A fluent narrative masking an essential knowledge gap; any operational checklist is independently authored.",
+      "original_language_terms": [],
+      "precutoff_publication_eligible_candidate": true,
+      "independent_acceptance": "pending_sanitized_export_review",
+      "application_is_hypothetical": true,
+      "application_scope": {
+        "applies_to": "Deeply understood businesses with honest uncertainty ranges",
+        "does_not_apply_to": "A fluent narrative masking an essential knowledge gap",
+        "origin": "auditor_adaptation_not_investor_native_rule"
+      },
+      "documented_scope_origin": "auditor_adaptation_not_investor_native_rule"
+    },
+    {
+      "rule_id": "LL-R-02",
+      "documented_method_fact": "Repeated problem-solving and an adaptive culture can be relevant business evidence. Rapid change still makes forecasts harder and outcomes uncertain.",
+      "source_ids": [
+        "LL-S-COLUMBIA2013"
+      ],
+      "source_specific_locators": {
+        "LL-S-COLUMBIA2013": "Columbia Spring2013 printed p28, repeatable engineering/problem-solving paragraph; p31, adaptive-culture/change paragraphs."
+      },
+      "documented_scope": "Auditor-adapted application scope. Applies to: Selected changing industries where investor competence is adequate; Does not apply to: Excluding every technology business or treating policy support as a guaranteed moat; any operational checklist is independently authored.",
+      "original_language_terms": [],
+      "precutoff_publication_eligible_candidate": true,
+      "independent_acceptance": "pending_sanitized_export_review",
+      "application_is_hypothetical": true,
+      "application_scope": {
+        "applies_to": "Selected changing industries where investor competence is adequate",
+        "does_not_apply_to": "Excluding every technology business or treating policy support as a guaranteed moat",
+        "origin": "auditor_adaptation_not_investor_native_rule"
+      },
+      "documented_scope_origin": "auditor_adaptation_not_investor_native_rule"
+    },
+    {
+      "rule_id": "LL-R-03",
+      "documented_method_fact": "Cash and existing holdings form an opportunity-cost comparison. Improve the portfolio’s risk-adjusted economics; a better alternative can justify selling.",
+      "source_ids": [
+        "LL-S-COLUMBIA2013"
+      ],
+      "source_specific_locators": {
+        "LL-S-COLUMBIA2013": "Columbia Spring2013 printed pp28–29 opportunity-cost/cash/geography paragraphs; p32, superior-alternative sale paragraph."
+      },
+      "documented_scope": "Auditor-adapted application scope. Applies to: Patient concentrated research with long-duration compatible capital; Does not apply to: Forced deployment, fixed geographic quota or never-sell dogma; any operational checklist is independently authored.",
+      "original_language_terms": [],
+      "precutoff_publication_eligible_candidate": true,
+      "independent_acceptance": "pending_sanitized_export_review",
+      "application_is_hypothetical": true,
+      "application_scope": {
+        "applies_to": "Patient concentrated research with long-duration compatible capital",
+        "does_not_apply_to": "Forced deployment, fixed geographic quota or never-sell dogma",
+        "origin": "auditor_adaptation_not_investor_native_rule"
+      },
+      "documented_scope_origin": "auditor_adaptation_not_investor_native_rule"
+    },
+    {
+      "rule_id": "LL-R-04",
+      "documented_method_fact": "A correct thesis can fail financially under adverse strategy economics. Shorting adds asymmetric loss, borrowing persistence and attention costs incompatible with the later long-owner framework.",
+      "source_ids": [
+        "LL-S-COLUMBIA2013"
+      ],
+      "source_specific_locators": {
+        "LL-S-COLUMBIA2013": "Columbia Spring2013 printed pp26–27, short-strategy asymmetry/borrowing/attention-risk paragraphs."
+      },
+      "documented_scope": "Auditor-adapted application scope. Applies to: Long business ownership compatible with understanding and loss capacity; Does not apply to: Assuming past shorting practice is a current endorsed skill; any operational checklist is independently authored.",
+      "original_language_terms": [],
+      "precutoff_publication_eligible_candidate": true,
+      "independent_acceptance": "pending_sanitized_export_review",
+      "application_is_hypothetical": true,
+      "application_scope": {
+        "applies_to": "Long business ownership compatible with understanding and loss capacity",
+        "does_not_apply_to": "Assuming past shorting practice is a current endorsed skill",
+        "origin": "auditor_adaptation_not_investor_native_rule"
+      },
+      "documented_scope_origin": "auditor_adaptation_not_investor_native_rule"
+    }
+  ],
+  "original_sources": [
+    {
+      "source_id": "LL-S-COLUMBIA2013",
+      "original_public_url": "https://business.columbia.edu/sites/default/files-efs/imce-uploads/Graham%20%26%20Doddsville%20-%20Issue%2018%20-%20Spring%202013_0.pdf",
+      "title": "Graham & Doddsville, Spring 2013, Li Lu interview",
+      "original_author_or_speaker": "Columbia Business School original interview publisher / Li Lu",
+      "provenance": "P2",
+      "publication_date_or_latest_public_bound": "2013-03",
+      "publication_proof": "Corrected source-faithful historical-method packet supplies original publication and independently qualified provenance; source/export acceptance remains separately gated.",
+      "precise_locator": "Columbia Spring2013 printed pp26–27, short-strategy asymmetry/borrowing/attention-risk paragraphs.",
+      "content_scope": "Short original method fact/paraphrase only; no full source, case narrative, holding table or outcomes.",
+      "independent_acceptance": "pending",
+      "source_record_sha256": "e1b946c212d0c9803c67692b738a2407bc77a08f823e3441100450999e6c56cb"
+    }
+  ],
+  "application_scope": [
+    "Competence and honest uncertainty",
+    "Opportunity cost and permanent-loss questions"
+  ],
+  "corpus_limits": [
+    "One detailed original-method interview is the recovered sanitized corpus.",
+    "No dated view for every requested security or recovered proprietary valuation/positioning algorithm.",
+    "Source-fact wording, provenance and precise locators refreshed from corrected canonical method packet; no broad case/holding claim allowlist is transported."
+  ],
+  "native_numerical_algorithm_established": false,
+  "authorship_boundary": "Method facts are faithful bounded paraphrases. Any application checklist, thresholds, weights, forecasts, probabilities or decision conclusion is independent research design and must not be attributed to the investor.",
+  "upstream_source_faithful_method_packet_sha256": "b2863fe599e89eccbec50531d9e82332f0022d3d952475f3c8aeb9b3857a6704"
+}

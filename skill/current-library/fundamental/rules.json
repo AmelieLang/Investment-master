@@ -1,0 +1,706 @@
+{
+  "schema_version": "2.1",
+  "asof": "2026-10-13",
+  "benchmark_cutoff": "2025-12-31",
+  "completed_at_utc": "2026-10-13T17:09:14.298344+00:00",
+  "corrective_submission": 1,
+  "rules": [
+    {
+      "investor_id": "WB",
+      "rule_id": "WB-R-01",
+      "name": "Business cash valuation",
+      "basis_claim_ids": [
+        "WB-F-VALUE",
+        "WB-F-OWNEREARNINGS"
+      ],
+      "origin": "Auditor operationalization of cited investor evidence; checklist and scenarios are not quotations or claimed historical procedures.",
+      "operational_steps": [
+        "Reconcile earnings to cash available after maintenance spending and working capital. Separate expansion investment.",
+        "Write bear/base/bull cash paths, competitive assumptions and discount-rate sensitivity; report a range.",
+        "Reject precision unsupported by accounting or business knowledge."
+      ],
+      "fits": "Durable cash businesses with estimable reinvestment",
+      "does_not_fit": "Mechanical low P/E, EBITDA-only or book-value screens",
+      "benchmark_2026_start_eligible": true,
+      "hard_numeric_threshold": "Not established unless a cited claim explicitly supplies one.",
+      "basis_source_ids": [
+        "WB-S-OWNERS1999",
+        "WB-S-1986"
+      ],
+      "precutoff_evidence_records": [
+        {
+          "source_id": "WB-S-OWNERS1999",
+          "published_at": "1999-01",
+          "known_public_by_2025_12_31": true,
+          "access_grade": "A_direct_original_read"
+        },
+        {
+          "source_id": "WB-S-1986",
+          "published_at": "1987-02-27",
+          "known_public_by_2025_12_31": true,
+          "access_grade": "A_direct_original_read"
+        }
+      ],
+      "strict_pre2026_eligible": true,
+      "precise_evidence_record_ids": [
+        "WB-F-VALUE-E1",
+        "WB-F-OWNEREARNINGS-E1"
+      ],
+      "precise_claim_anchors": [
+        {
+          "claim_id": "WB-F-VALUE",
+          "precise_locator": "Owner manual, Intrinsic Value appendix: opening discounted-cash definition paragraph and subsequent estimate-sensitivity/book-value discussion."
+        },
+        {
+          "claim_id": "WB-F-OWNEREARNINGS",
+          "precise_locator": "1986 letter Appendix, paragraph defining owner earnings as (a)+(b)-(c), including following incremental-working-capital sentence and maintenance-estimate caveat."
+        }
+      ],
+      "method_vs_application_boundary": "Source-faithful mechanism below is separate from auditor operational_steps. Contemporary or retrospective case provenance does not become original pre-trade intent."
+    },
+    {
+      "investor_id": "WB",
+      "rule_id": "WB-R-02",
+      "name": "Competence and durability",
+      "basis_claim_ids": [
+        "WB-F-CIRCLE",
+        "WB-F-TECHFIT"
+      ],
+      "origin": "Auditor operationalization of cited investor evidence; checklist and scenarios are not quotations or claimed historical procedures.",
+      "operational_steps": [
+        "Explain who pays, why customers stay, and what change destroys earning power.",
+        "List the strongest evidence against the franchise and explicit unknowns.",
+        "Use no-fit or too-hard when crucial assumptions are ungrounded."
+      ],
+      "fits": "Business-specific knowledge including selected technology-mediated consumer franchises",
+      "does_not_fit": "Automatic sector stereotypes or prediction of every technology winner",
+      "benchmark_2026_start_eligible": true,
+      "hard_numeric_threshold": "Not established unless a cited claim explicitly supplies one.",
+      "basis_source_ids": [
+        "WB-S-1996",
+        "WB-S-CNBC2017-MEETING"
+      ],
+      "precutoff_evidence_records": [
+        {
+          "source_id": "WB-S-1996",
+          "published_at": "1997-02-28",
+          "known_public_by_2025_12_31": true,
+          "access_grade": "A_direct_original_read"
+        },
+        {
+          "source_id": "WB-S-CNBC2017-MEETING",
+          "published_at": "2017-05-06",
+          "known_public_by_2025_12_31": true,
+          "access_grade": "B_original_publisher_indexed_transcript"
+        }
+      ],
+      "strict_pre2026_eligible": true,
+      "precise_evidence_record_ids": [
+        "WB-F-CIRCLE-E1",
+        "WB-F-TECHFIT-E1"
+      ],
+      "precise_claim_anchors": [
+        {
+          "claim_id": "WB-F-CIRCLE",
+          "precise_locator": "1996 letter Common Stock Investments, paragraph specifying an understandable business at a rational price and next paragraph on circle-of-competence boundaries."
+        },
+        {
+          "claim_id": "WB-F-TECHFIT",
+          "precise_locator": "CNBC 2017 meeting afternoon session, section 12, Apple consumer-behavior/technology discussion; URL seek position start=6532.87 seconds. Original indexed transcript, full recording unlistened."
+        }
+      ],
+      "method_vs_application_boundary": "Source-faithful mechanism below is separate from auditor operational_steps. Contemporary or retrospective case provenance does not become original pre-trade intent."
+    },
+    {
+      "investor_id": "WB",
+      "rule_id": "WB-R-03",
+      "name": "Capital allocation economics",
+      "basis_claim_ids": [
+        "WB-F-CAPITAL",
+        "WB-F-REPURCHASE2011",
+        "WB-F-IBMTHESIS",
+        "WB-F-IBM-BUSINESS"
+      ],
+      "origin": "Auditor operationalization of cited investor evidence; checklist and scenarios are not quotations or claimed historical procedures.",
+      "operational_steps": [
+        "Model business earnings independently of share-count reduction.",
+        "Price buybacks against intrinsic value and retained-capital alternatives.",
+        "Audit whether repurchases mask erosion of total cash generation."
+      ],
+      "fits": "Companies with meaningful reinvestment, buyback or dividend choices",
+      "does_not_fit": "EPS growth treated as sufficient proof of improved enterprise economics",
+      "benchmark_2026_start_eligible": true,
+      "hard_numeric_threshold": "Not established unless a cited claim explicitly supplies one.",
+      "basis_source_ids": [
+        "WB-S-OWNERS1999",
+        "WB-S-2011",
+        "WB-S-IBM2016-AR"
+      ],
+      "precutoff_evidence_records": [
+        {
+          "source_id": "WB-S-OWNERS1999",
+          "published_at": "1999-01",
+          "known_public_by_2025_12_31": true,
+          "access_grade": "A_direct_original_read"
+        },
+        {
+          "source_id": "WB-S-2011",
+          "published_at": "2012-02-25",
+          "known_public_by_2025_12_31": true,
+          "access_grade": "A_direct_original_read"
+        },
+        {
+          "source_id": "WB-S-IBM2016-AR",
+          "published_at": "2017",
+          "known_public_by_2025_12_31": true,
+          "access_grade": "B_original_indexed_report"
+        }
+      ],
+      "strict_pre2026_eligible": true,
+      "precise_evidence_record_ids": [
+        "WB-F-CAPITAL-E1",
+        "WB-F-REPURCHASE2011-E1",
+        "WB-F-IBMTHESIS-E1",
+        "WB-F-IBM-BUSINESS-E1"
+      ],
+      "precise_claim_anchors": [
+        {
+          "claim_id": "WB-F-CAPITAL",
+          "precise_locator": "Owner manual principle 7 (debt), principle 9 (five-year retention test), principle 11 (controlled-business retention and exceptions)."
+        },
+        {
+          "claim_id": "WB-F-REPURCHASE2011",
+          "precise_locator": "2011 letter printed p6/PDF page5, Share Repurchases first two conditions paragraphs and following dilution/excess-cash warning (rendered lines219–227)."
+        },
+        {
+          "claim_id": "WB-F-IBMTHESIS",
+          "precise_locator": "2011 letter printed pp6–7 (PDF pages5–6): Share Repurchases/IBM illustration, 63.9m/5.5% paragraph and hypothetical fifth-year $20bn paragraph; cost also printed p4 highlights."
+        },
+        {
+          "claim_id": "WB-F-IBM-BUSINESS",
+          "precise_locator": "IBM 2016 annual report printed p69/PDF page71: five-year cash-flow table, Free Cash Flow and Gross Share Repurchases rows, plus financing-receivables adjustment note."
+        }
+      ],
+      "method_vs_application_boundary": "Source-faithful mechanism below is separate from auditor operational_steps. Contemporary or retrospective case provenance does not become original pre-trade intent."
+    },
+    {
+      "investor_id": "WB",
+      "rule_id": "WB-R-04",
+      "name": "Survival and financing",
+      "basis_claim_ids": [
+        "WB-F-CAPITAL",
+        "WB-F-LIQUIDITY2011"
+      ],
+      "origin": "Auditor operationalization of cited investor evidence; checklist and scenarios are not quotations or claimed historical procedures.",
+      "operational_steps": [
+        "Map obligations, currency, funding tenor, insurance stress and liquidity before sizing.",
+        "Stress forced-sale risk rather than borrow against expected price stability.",
+        "Use the investor’s actual capital and liability constraints. Distinguish working liquidity, an absolute minimum and a separate repurchase condition; do not copy any 2011 dollar amount as a universal or current threshold."
+      ],
+      "fits": "Long-duration investment capital compatible with liability profile",
+      "does_not_fit": "Return maximization requiring fragile financing",
+      "benchmark_2026_start_eligible": true,
+      "hard_numeric_threshold": "Not established unless a cited claim explicitly supplies one.",
+      "basis_source_ids": [
+        "WB-S-OWNERS1999",
+        "WB-S-2011"
+      ],
+      "precutoff_evidence_records": [
+        {
+          "source_id": "WB-S-OWNERS1999",
+          "published_at": "1999-01",
+          "known_public_by_2025_12_31": true,
+          "access_grade": "A_direct_original_read"
+        },
+        {
+          "source_id": "WB-S-2011",
+          "published_at": "2012-02-25",
+          "known_public_by_2025_12_31": true,
+          "access_grade": "A_direct_original_read"
+        }
+      ],
+      "strict_pre2026_eligible": true,
+      "historical_numeric_constraint_guard": "2011 $20bn working liquidity, $10bn absolute minimum and separate $20bn repurchase cash-equivalent condition are distinct. The rule’s adaptation supplies no fixed universal or current amount.",
+      "precise_evidence_record_ids": [
+        "WB-F-CAPITAL-E1",
+        "WB-F-LIQUIDITY2011-E1"
+      ],
+      "precise_claim_anchors": [
+        {
+          "claim_id": "WB-F-CAPITAL",
+          "precise_locator": "Owner manual principle 7 (debt), principle 9 (five-year retention test), principle 11 (controlled-business retention and exceptions)."
+        },
+        {
+          "claim_id": "WB-F-LIQUIDITY2011",
+          "precise_locator": "2011 letter printed p18/PDF page17, currency-based investments, working/absolute-liquidity paragraph (rendered lines777–782); printed p6/PDF page5, Share Repurchases, cash-equivalent condition paragraph (lines237–242)."
+        }
+      ],
+      "method_vs_application_boundary": "Source-faithful mechanism below is separate from auditor operational_steps. Contemporary or retrospective case provenance does not become original pre-trade intent."
+    },
+    {
+      "investor_id": "WB",
+      "rule_id": "WB-R-05",
+      "name": "Good business and price are separate",
+      "basis_claim_ids": [
+        "WB-F-PCC-ERROR"
+      ],
+      "origin": "Auditor operationalization of cited investor evidence; checklist and scenarios are not quotations or claimed historical procedures.",
+      "operational_steps": [
+        "Estimate normalized earnings over a full demand cycle.",
+        "Test downside from customer concentration, orders, margins and maintenance spending.",
+        "Record business-quality assessment separately from price, then revisit both after adverse evidence."
+      ],
+      "fits": "Cyclical high-quality businesses only at adequately risk-compensating valuation",
+      "does_not_fit": "Admiration for management used to waive valuation discipline",
+      "benchmark_2026_start_eligible": true,
+      "hard_numeric_threshold": "Not established unless a cited claim explicitly supplies one.",
+      "basis_source_ids": [
+        "WB-S-2020"
+      ],
+      "precutoff_evidence_records": [
+        {
+          "source_id": "WB-S-2020",
+          "published_at": "2021-02-27",
+          "known_public_by_2025_12_31": true,
+          "access_grade": "A_direct_original_read"
+        }
+      ],
+      "strict_pre2026_eligible": true,
+      "precise_evidence_record_ids": [
+        "WB-F-PCC-ERROR-E1"
+      ],
+      "precise_claim_anchors": [
+        {
+          "claim_id": "WB-F-PCC-ERROR",
+          "precise_locator": "2020 letter printed p4: PCC impairment paragraph and following overpayment/normalized-profit admission."
+        }
+      ],
+      "method_vs_application_boundary": "Source-faithful mechanism below is separate from auditor operational_steps. Contemporary or retrospective case provenance does not become original pre-trade intent."
+    },
+    {
+      "investor_id": "DYP",
+      "rule_id": "DYP-R-01",
+      "name": "Business model and culture filters",
+      "basis_claim_ids": [
+        "DYP-F-FILTERS",
+        "DYP-F-GE-ERROR"
+      ],
+      "origin": "Auditor operationalization of cited investor evidence; checklist and scenarios are not quotations or claimed historical procedures.",
+      "operational_steps": [
+        "Explain how the business can keep producing cash and what the investor must understand.",
+        "Test culture with product choices, customer treatment, commitments and governance behavior, not slogans alone.",
+        "Record failed model or culture filters even if a past trade made money."
+      ],
+      "fits": "Businesses whose customer value and incentives can be examined",
+      "does_not_fit": "Profit on a trade used as proof the decision was sound",
+      "benchmark_2026_start_eligible": true,
+      "hard_numeric_threshold": "Not established unless a cited claim explicitly supplies one.",
+      "basis_source_ids": [
+        "DYP-S-FILTERS2025",
+        "DYP-S-FANGLUE2025"
+      ],
+      "precutoff_evidence_records": [
+        {
+          "source_id": "DYP-S-FILTERS2025",
+          "published_at": "2025-08-15",
+          "known_public_by_2025_12_31": true,
+          "access_grade": "A_direct_original_read"
+        },
+        {
+          "source_id": "DYP-S-FANGLUE2025",
+          "published_at": "2025-11-11",
+          "known_public_by_2025_12_31": true,
+          "access_grade": "A_direct_original_read"
+        }
+      ],
+      "strict_pre2026_eligible": true,
+      "precise_evidence_record_ids": [
+        "DYP-F-FILTERS-E1",
+        "DYP-F-GE-ERROR-E1"
+      ],
+      "precise_claim_anchors": [
+        {
+          "claim_id": "DYP-F-FILTERS",
+          "precise_locator": "Xueqiu thread author 大道无形我有型 replies dated 2025-08-15 21:42 (business model/culture) and 23:07 (rational long-term essential thinking). Reader quotations are excluded."
+        },
+        {
+          "claim_id": "DYP-F-GE-ERROR",
+          "precise_locator": "Fanglue lines365–378: GE 2008 purchase question, misunderstood model/lost integrity-slogan explanation, holding interval, profit acknowledgment and two-filter repudiation."
+        }
+      ],
+      "method_vs_application_boundary": "Source-faithful mechanism below is separate from auditor operational_steps. Contemporary or retrospective case provenance does not become original pre-trade intent."
+    },
+    {
+      "investor_id": "DYP",
+      "rule_id": "DYP-R-02",
+      "name": "Future cash and opportunity cost",
+      "basis_claim_ids": [
+        "DYP-F-VALUATION",
+        "DYP-F-APPLE-PRICE2025"
+      ],
+      "origin": "Auditor operationalization of cited investor evidence; checklist and scenarios are not quotations or claimed historical procedures.",
+      "operational_steps": [
+        "Compare a conservative future cash-flow range with price and investable alternatives.",
+        "Separate company admiration from expected return at the chosen price.",
+        "Avoid importing exact historic multiples or a cash balance remembered many years later."
+      ],
+      "fits": "Long-lived cash generation with comprehensible uncertainty",
+      "does_not_fit": "Fixed PE rule, cheapness alone or guaranteed upside claims",
+      "benchmark_2026_start_eligible": true,
+      "hard_numeric_threshold": "Not established unless a cited claim explicitly supplies one.",
+      "basis_source_ids": [
+        "DYP-S-FANGLUE2025"
+      ],
+      "precutoff_evidence_records": [
+        {
+          "source_id": "DYP-S-FANGLUE2025",
+          "published_at": "2025-11-11",
+          "known_public_by_2025_12_31": true,
+          "access_grade": "A_direct_original_read"
+        }
+      ],
+      "strict_pre2026_eligible": true,
+      "precise_evidence_record_ids": [
+        "DYP-F-VALUATION-E1",
+        "DYP-F-APPLE-PRICE2025-E1"
+      ],
+      "precise_claim_anchors": [
+        {
+          "claim_id": "DYP-F-VALUATION",
+          "precise_locator": "Fanglue investment section rendered line267, future-cash understanding; line412, future earnings versus investment opportunity cost."
+        },
+        {
+          "claim_id": "DYP-F-APPLE-PRICE2025",
+          "precise_locator": "Fanglue lines358–363: interview question on current Apple price; answer not cheap; subsequent opportunity-cost comparison and uncertainty."
+        }
+      ],
+      "method_vs_application_boundary": "Source-faithful mechanism below is separate from auditor operational_steps. Contemporary or retrospective case provenance does not become original pre-trade intent."
+    },
+    {
+      "investor_id": "DYP",
+      "rule_id": "DYP-R-03",
+      "name": "Competence before conviction",
+      "basis_claim_ids": [
+        "DYP-F-NETEASE-STORY",
+        "DYP-F-TRANSPARENCY"
+      ],
+      "origin": "Auditor operationalization of cited investor evidence; checklist and scenarios are not quotations or claimed historical procedures.",
+      "operational_steps": [
+        "Link each major assumption to firsthand operating understanding or dated primary evidence.",
+        "Label uncertainty and observation positions; do not treat any public buy as conviction size.",
+        "Choose sizing from independent loss capacity and liquidity, never from an assumed percentage of the investor’s undisclosed wealth."
+      ],
+      "fits": "Concentrated research when competence and capital capacity are established",
+      "does_not_fit": "Blind copying, full-net-worth inference from one account’s exposure",
+      "benchmark_2026_start_eligible": true,
+      "hard_numeric_threshold": "Not established unless a cited claim explicitly supplies one.",
+      "basis_source_ids": [
+        "DYP-S-FANGLUE2025"
+      ],
+      "precutoff_evidence_records": [
+        {
+          "source_id": "DYP-S-FANGLUE2025",
+          "published_at": "2025-11-11",
+          "known_public_by_2025_12_31": true,
+          "access_grade": "A_direct_original_read"
+        }
+      ],
+      "strict_pre2026_eligible": true,
+      "precise_evidence_record_ids": [
+        "DYP-F-NETEASE-STORY-E1",
+        "DYP-F-TRANSPARENCY-E1"
+      ],
+      "precise_claim_anchors": [
+        {
+          "claim_id": "DYP-F-NETEASE-STORY",
+          "precise_locator": "Fanglue rendered lines307–309 (game/team/cash/account and holding capacity), 316 (knowledge limits) and 320 (>100x later self-report)."
+        },
+        {
+          "claim_id": "DYP-F-TRANSPARENCY",
+          "precise_locator": "Fanglue lines383 and386: small Occidental stake; selective holdings disclosure, learning positions and warning about followers going all-in."
+        }
+      ],
+      "method_vs_application_boundary": "Source-faithful mechanism below is separate from auditor operational_steps. Contemporary or retrospective case provenance does not become original pre-trade intent."
+    },
+    {
+      "investor_id": "DYP",
+      "rule_id": "DYP-R-04",
+      "name": "Instrument economics and correction",
+      "basis_claim_ids": [
+        "DYP-F-INDEX-ERROR"
+      ],
+      "origin": "Auditor operationalization of cited investor evidence; checklist and scenarios are not quotations or claimed historical procedures.",
+      "operational_steps": [
+        "Read legal instrument structure, daily-reset or roll exposure, carry, decay and long-run tracking before entry.",
+        "Separate belief in oil demand from the return delivered by an index product.",
+        "Specify an immediate reconsideration trigger when the economic mechanism is misunderstood; recognize sunk cost without needing price recovery."
+      ],
+      "fits": "Understandable instruments supporting an independently formed thesis",
+      "does_not_fit": "Long-term holding of a product whose tracking mechanism is unknown",
+      "benchmark_2026_start_eligible": true,
+      "hard_numeric_threshold": "Not established unless a cited claim explicitly supplies one.",
+      "instrument_mechanism_guard": "Reset, roll, carry and decay are auditor checks to identify from a product’s legal documents; they are not verified features of the unnamed historical instrument.",
+      "basis_source_ids": [
+        "DYP-S-FANGLUE2025"
+      ],
+      "precutoff_evidence_records": [
+        {
+          "source_id": "DYP-S-FANGLUE2025",
+          "published_at": "2025-11-11",
+          "known_public_by_2025_12_31": true,
+          "access_grade": "A_direct_original_read"
+        }
+      ],
+      "strict_pre2026_eligible": true,
+      "precise_evidence_record_ids": [
+        "DYP-F-INDEX-ERROR-E1"
+      ],
+      "precise_claim_anchors": [
+        {
+          "claim_id": "DYP-F-INDEX-ERROR",
+          "precise_locator": "Fanglue lines382–383: unnamed oil/gas index, daily99% correlation, long-run/time-loss mechanism, approximately $100m invested and slightly over $10m loss; product name absent."
+        }
+      ],
+      "method_vs_application_boundary": "Source-faithful mechanism below is separate from auditor operational_steps. Contemporary or retrospective case provenance does not become original pre-trade intent."
+    },
+    {
+      "investor_id": "DYP",
+      "rule_id": "DYP-R-05",
+      "name": "Options require their own risk budget",
+      "basis_claim_ids": [
+        "DYP-F-OPTIONS2026",
+        "DYP-F-HKEX-DERIVATIVES"
+      ],
+      "origin": "Auditor operationalization of cited investor evidence; checklist and scenarios are not quotations or claimed historical procedures.",
+      "operational_steps": [
+        "Classify written put/call, assignment obligations, available collateral and upside forfeiture separately from stock holdings.",
+        "Stress adverse assignment and exercise rather than label option premium risk-free interest.",
+        "Do not adopt embedded AI yield arithmetic as the investor’s validated method."
+      ],
+      "fits": "Only informed investors able to fund contingent commitments",
+      "does_not_fit": "Simplistic never-derivatives persona or premium-as-guaranteed-return",
+      "benchmark_2026_start_eligible": false,
+      "hard_numeric_threshold": "Not established unless a cited claim explicitly supplies one.",
+      "basis_source_ids": [
+        "DYP-S-OPTIONS20261013",
+        "DYP-S-HKEX-2026-INDIVIDUAL",
+        "DYP-S-HKEX-2026-CORPORATE"
+      ],
+      "precutoff_evidence_records": [
+        {
+          "source_id": "DYP-S-OPTIONS20261013",
+          "published_at": "2026-10-13",
+          "known_public_by_2025_12_31": false,
+          "access_grade": "A_direct_original_read"
+        },
+        {
+          "source_id": "DYP-S-HKEX-2026-INDIVIDUAL",
+          "published_at": "2026-08-12",
+          "known_public_by_2025_12_31": false,
+          "access_grade": "A_direct_original_read"
+        },
+        {
+          "source_id": "DYP-S-HKEX-2026-CORPORATE",
+          "published_at": "2026-08-12",
+          "known_public_by_2025_12_31": false,
+          "access_grade": "A_direct_original_read"
+        }
+      ],
+      "strict_pre2026_eligible": false,
+      "precise_evidence_record_ids": [
+        "DYP-F-OPTIONS2026-E1",
+        "DYP-F-HKEX-DERIVATIVES-E1",
+        "DYP-F-HKEX-DERIVATIVES-E2"
+      ],
+      "precise_claim_anchors": [
+        {
+          "claim_id": "DYP-F-OPTIONS2026",
+          "precise_locator": "Verified-account post /1247347556/412008255 dated2026-10-13 03:07 (display timezone unknown), author paragraph on new3-month put/foregone upside. Embedded Gemini text excluded; independent reviewer could not reopen."
+        },
+        {
+          "claim_id": "DYP-F-HKEX-DERIVATIVES",
+          "precise_locator": "HKEX individual box14 event shares28,646,000/reason11032; boxes17–18 before/after long interests; box19 physically settled listed derivative30,666,000. Corporate boxes17–21 corroborate."
+        }
+      ],
+      "method_vs_application_boundary": "Source-faithful mechanism below is separate from auditor operational_steps. Contemporary or retrospective case provenance does not become original pre-trade intent."
+    },
+    {
+      "investor_id": "LL",
+      "rule_id": "LL-R-01",
+      "name": "Epistemic audit before valuation",
+      "basis_claim_ids": [
+        "LL-F-HONESTY",
+        "LL-F-TOOHARD"
+      ],
+      "origin": "Auditor operationalization of cited investor evidence; checklist and scenarios are not quotations or claimed historical procedures.",
+      "operational_steps": [
+        "Separate known, unknown, irrelevant-to-thesis and potential unknown-unknown risks.",
+        "Write the strongest contrary explanation using its best evidence.",
+        "Reject a crucial assumption lacking a defensible evidence path rather than fill it with a sector stereotype."
+      ],
+      "fits": "Deeply understood businesses with honest uncertainty ranges",
+      "does_not_fit": "A fluent narrative masking an essential knowledge gap",
+      "benchmark_2026_start_eligible": true,
+      "hard_numeric_threshold": "Not established unless a cited claim explicitly supplies one.",
+      "basis_source_ids": [
+        "LL-S-COLUMBIA2013"
+      ],
+      "precutoff_evidence_records": [
+        {
+          "source_id": "LL-S-COLUMBIA2013",
+          "published_at": "2013-03",
+          "known_public_by_2025_12_31": true,
+          "access_grade": "A_direct_original_read"
+        }
+      ],
+      "strict_pre2026_eligible": true,
+      "precise_evidence_record_ids": [
+        "LL-F-HONESTY-E1",
+        "LL-F-TOOHARD-E1"
+      ],
+      "precise_claim_anchors": [
+        {
+          "claim_id": "LL-F-HONESTY",
+          "precise_locator": "Columbia Spring2013 interview printed p25, strongest-counterargument/knowledge paragraphs; printed pp31–32 intellectual-honesty four-category paragraphs (rendered lines3631–3637 and3740–3744)."
+        },
+        {
+          "claim_id": "LL-F-TOOHARD",
+          "precise_locator": "Columbia printed p30, three-bucket yes/no/too-hard paragraph (rendered lines3389–3401)."
+        }
+      ],
+      "method_vs_application_boundary": "Source-faithful mechanism below is separate from auditor operational_steps. Contemporary or retrospective case provenance does not become original pre-trade intent."
+    },
+    {
+      "investor_id": "LL",
+      "rule_id": "LL-R-02",
+      "name": "Moat and adaptive culture",
+      "basis_claim_ids": [
+        "LL-F-BYD-THESIS"
+      ],
+      "origin": "Auditor operationalization of cited investor evidence; checklist and scenarios are not quotations or claimed historical procedures.",
+      "operational_steps": [
+        "Test concrete repeatable problem-solving, organizational learning, incentives and customer value.",
+        "Separate what was proved at the decision date from what management accomplished later.",
+        "Price the range of outcomes with a margin for mechanisms not yet understood."
+      ],
+      "fits": "Selected changing industries where investor competence is adequate",
+      "does_not_fit": "Excluding every technology business or treating policy support as a guaranteed moat",
+      "benchmark_2026_start_eligible": true,
+      "hard_numeric_threshold": "Not established unless a cited claim explicitly supplies one.",
+      "basis_source_ids": [
+        "LL-S-COLUMBIA2013"
+      ],
+      "precutoff_evidence_records": [
+        {
+          "source_id": "LL-S-COLUMBIA2013",
+          "published_at": "2013-03",
+          "known_public_by_2025_12_31": true,
+          "access_grade": "A_direct_original_read"
+        }
+      ],
+      "strict_pre2026_eligible": true,
+      "precise_evidence_record_ids": [
+        "LL-F-BYD-THESIS-E1"
+      ],
+      "precise_claim_anchors": [
+        {
+          "claim_id": "LL-F-BYD-THESIS",
+          "precise_locator": "Columbia printed p27, Wang/engineering organization and original margin-of-safety paragraph (lines2987–2999); p28 concrete problem-solving/can-do culture (3153–3161); p31 adaptive-culture/change discussion (3480–3505)."
+        }
+      ],
+      "method_vs_application_boundary": "Source-faithful mechanism below is separate from auditor operational_steps. Contemporary or retrospective case provenance does not become original pre-trade intent."
+    },
+    {
+      "investor_id": "LL",
+      "rule_id": "LL-R-03",
+      "name": "Opportunity-cost portfolio construction",
+      "basis_claim_ids": [
+        "LL-F-OPPCOST",
+        "LL-F-SELL-OPPCOST"
+      ],
+      "origin": "Auditor operationalization of cited investor evidence; checklist and scenarios are not quotations or claimed historical procedures.",
+      "operational_steps": [
+        "Compare candidate risk-adjusted economics with cash and current holdings.",
+        "Explain the marginal improvement to the whole portfolio rather than chase a target country weight.",
+        "Reassess a holding when a superior alternative or new adverse evidence changes the comparison."
+      ],
+      "fits": "Patient concentrated research with long-duration compatible capital",
+      "does_not_fit": "Forced deployment, fixed geographic quota or never-sell dogma",
+      "benchmark_2026_start_eligible": true,
+      "hard_numeric_threshold": "Not established unless a cited claim explicitly supplies one.",
+      "basis_source_ids": [
+        "LL-S-COLUMBIA2013"
+      ],
+      "precutoff_evidence_records": [
+        {
+          "source_id": "LL-S-COLUMBIA2013",
+          "published_at": "2013-03",
+          "known_public_by_2025_12_31": true,
+          "access_grade": "A_direct_original_read"
+        }
+      ],
+      "strict_pre2026_eligible": true,
+      "precise_evidence_record_ids": [
+        "LL-F-OPPCOST-E1",
+        "LL-F-SELL-OPPCOST-E1"
+      ],
+      "precise_claim_anchors": [
+        {
+          "claim_id": "LL-F-OPPCOST",
+          "precise_locator": "Columbia printed pp28–29, portfolio/opportunity-cost discussion; p29 geographic allocations and cash paragraphs (rendered lines3267–3280)."
+        },
+        {
+          "claim_id": "LL-F-SELL-OPPCOST",
+          "precise_locator": "Columbia printed p32: third occasion for selling, superior alternative and improving portfolio opportunity cost (rendered lines3599–3608)."
+        }
+      ],
+      "method_vs_application_boundary": "Source-faithful mechanism below is separate from auditor operational_steps. Contemporary or retrospective case provenance does not become original pre-trade intent."
+    },
+    {
+      "investor_id": "LL",
+      "rule_id": "LL-R-04",
+      "name": "Avoid strategy risk incompatible with the mandate",
+      "basis_claim_ids": [
+        "LL-F-SHORT-ERROR",
+        "LL-F-SHORT-RISK"
+      ],
+      "origin": "Auditor operationalization of cited investor evidence; checklist and scenarios are not quotations or claimed historical procedures.",
+      "operational_steps": [
+        "Separate being factually right from surviving until prices recognize it.",
+        "Stress unlimited-loss, borrow-cost/recall and attention costs when evaluating a short strategy.",
+        "Do not apply the mature long-owner method to the investor’s earlier long/short era without an explicit era tag."
+      ],
+      "fits": "Long business ownership compatible with understanding and loss capacity",
+      "does_not_fit": "Assuming past shorting practice is a current endorsed skill",
+      "benchmark_2026_start_eligible": true,
+      "hard_numeric_threshold": "Not established unless a cited claim explicitly supplies one.",
+      "basis_source_ids": [
+        "LL-S-COLUMBIA2013"
+      ],
+      "precutoff_evidence_records": [
+        {
+          "source_id": "LL-S-COLUMBIA2013",
+          "published_at": "2013-03",
+          "known_public_by_2025_12_31": true,
+          "access_grade": "A_direct_original_read"
+        }
+      ],
+      "strict_pre2026_eligible": true,
+      "precise_evidence_record_ids": [
+        "LL-F-SHORT-ERROR-E1",
+        "LL-F-SHORT-RISK-E1"
+      ],
+      "precise_claim_anchors": [
+        {
+          "claim_id": "LL-F-SHORT-ERROR",
+          "precise_locator": "Columbia printed p26: answer to whether Himalaya still shorts, nine-years-ago cessation and worst-mistake admission (rendered lines2879–2884)."
+        },
+        {
+          "claim_id": "LL-F-SHORT-RISK",
+          "precise_locator": "Columbia printed pp26–27: three disadvantages of shorting, asymmetry/fraud survival/borrowing and diverted attention (rendered lines2891–2918 plus continuation)."
+        }
+      ],
+      "method_vs_application_boundary": "Source-faithful mechanism below is separate from auditor operational_steps. Contemporary or retrospective case provenance does not become original pre-trade intent."
+    }
+  ]
+}

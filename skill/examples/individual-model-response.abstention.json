@@ -1,0 +1,46 @@
+{
+  "schema_version": "investment-master-individual-model-response/v0.1-draft",
+  "master_id": "warren-buffett",
+  "horizon": "Synthetic fixture only",
+  "scope_status": "abstain",
+  "analysis_status": "abstained",
+  "abstention_reason": "Fixture with no accepted method/packet.",
+  "claims": [],
+  "rule_results": [],
+  "quantitative_decision_outputs": {
+    "status": "missing",
+    "market_price_fact_id": null,
+    "scenarios": [],
+    "reverse_expectation_calculation_ids": [],
+    "funding_downside_calculation_ids": [],
+    "blocked_inputs": [
+      "Synthetic example does not run new quantitative research."
+    ],
+    "probability_statement": "No model confidence is a calibrated probability; any scenario probabilities are explicit authored assumptions."
+  },
+  "decision": {
+    "conclusion": "abstain",
+    "meaning": "Hypothetical research conclusion; no order, investor endorsement or portfolio action.",
+    "rationale_claim_ids": []
+  },
+  "actual_ticker_evidence_check": {
+    "status": "not_checked",
+    "decision_cutoff_utc": "2025-12-31T23:59:59Z",
+    "actual_view_claim_ids": [],
+    "holding_claim_ids": [],
+    "source_ids": [],
+    "publication_date_or_bound": null,
+    "available_by_cutoff": "unknown",
+    "reported_entity": null,
+    "decision_attribution": "not_applicable",
+    "same_security_class_vehicle": "unknown",
+    "application_label": "Hypothetical method application unless a matching direct original statement establishes the actual view; holding alone is not endorsement.",
+    "bounded_research_request": "If used for a real security, research original statements and latest compatible disclosures actually public by the cutoff; retain exact entity/class attribution and report no verified view if absent.",
+    "limitations": [
+      "Synthetic fixture: no ticker-level actual-view/holding check is performed."
+    ]
+  },
+  "limitations": [
+    "Synthetic one-lens response; no model invoked."
+  ]
+}

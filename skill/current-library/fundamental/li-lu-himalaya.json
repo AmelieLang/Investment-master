@@ -1,0 +1,1910 @@
+{
+  "schema_version": "2.0",
+  "investor_id": "LL",
+  "canonical_name": "李录 / Li Lu / Himalaya Capital",
+  "research_asof": "2026-10-13",
+  "benchmark_information_cutoff": "2025-12-31",
+  "selection": "Purposive, retrospectively selected famous successes and documented adverse/counterexamples. Not a predictive backtest or a lifetime census.",
+  "source_grade_legend": {
+    "A": "Original issuer/regulator/investor or original interview publisher, readable; self-report remains self-report.",
+    "B": "Original publisher indexed extract or metadata only; not full recording verified.",
+    "C": "Secondary compilation/attendee notes, discovery only; excluded as proof of pre-trade intent."
+  },
+  "global_disclosure_reference": "common-disclosure.json",
+  "sources": [
+    {
+      "source_id": "LL-S-HOME-EN",
+      "title": "Himalaya Capital official identity and mandate",
+      "url": "https://www.himcap.com/",
+      "author_or_issuer": "Himalaya Capital",
+      "published_at": "unknown_current_page",
+      "event_or_information_date": null,
+      "access_grade": "A_direct_original_read",
+      "known_public_by_2025_12_31": false,
+      "benchmark_2026_start_eligible": false,
+      "locator": "About us and Li Lu biography",
+      "limitation": "Current wording observed 2026; do not assume every phrase existed at the 2025 cutoff.",
+      "accessed_on": "2026-10-13",
+      "source_family": "official_fund_identity_mandate_page",
+      "provenance_grade": "P1",
+      "provenance_limitation": "Provenance is authority for the reported statement/fact, not truth certainty, private motive or audited investment performance.",
+      "publication_date": "unknown_current_page",
+      "event_date": null,
+      "archive_or_upload_date": null,
+      "retrieved_at_utc": "2026-10-13T17:07:22Z",
+      "access_status": "read_original_text",
+      "coverage_count_unit": "one listed source record, not one entire lifetime source family",
+      "found": true,
+      "read_substantive": true,
+      "read_full_original": true,
+      "full_original_unavailable_or_unreviewed": false
+    },
+    {
+      "source_id": "LL-S-HOME-CN",
+      "title": "喜马拉雅资本官方网站：简介与投资理念",
+      "url": "https://www.himcap.com/cn/home",
+      "author_or_issuer": "Himalaya Capital / 李录",
+      "published_at": "unknown_current_page",
+      "event_or_information_date": null,
+      "access_grade": "A_direct_original_read",
+      "known_public_by_2025_12_31": false,
+      "benchmark_2026_start_eligible": false,
+      "locator": null,
+      "limitation": "Chinese original company page, observed 2026; current identity context only.",
+      "accessed_on": "2026-10-13",
+      "source_family": "official_fund_identity_mandate_page",
+      "provenance_grade": "P1",
+      "provenance_limitation": "Provenance is authority for the reported statement/fact, not truth certainty, private motive or audited investment performance.",
+      "publication_date": "unknown_current_page",
+      "event_date": null,
+      "archive_or_upload_date": null,
+      "retrieved_at_utc": "2026-10-13T17:07:22Z",
+      "access_status": "read_original_text",
+      "coverage_count_unit": "one listed source record, not one entire lifetime source family",
+      "found": true,
+      "read_substantive": true,
+      "read_full_original": true,
+      "full_original_unavailable_or_unreviewed": false
+    },
+    {
+      "source_id": "LL-S-PUBLICATIONS",
+      "title": "Himalaya official publications catalog",
+      "url": "https://www.himcap.com/publications",
+      "author_or_issuer": "Himalaya Capital",
+      "published_at": "unknown_current_catalog",
+      "event_or_information_date": null,
+      "access_grade": "A_direct_original_read",
+      "known_public_by_2025_12_31": false,
+      "benchmark_2026_start_eligible": false,
+      "locator": "Original 2010 foreword,2013 interview,2015 Peking speech,2020 book,2023 Munger tribute,2024 speech",
+      "limitation": "Catalog verifies titles and original-source leads. Official CDN PDFs failed access; their full contents were not asserted as read.",
+      "accessed_on": "2026-10-13",
+      "source_family": "official_original_works_catalog",
+      "provenance_grade": "P1",
+      "provenance_limitation": "Provenance is authority for the reported statement/fact, not truth certainty, private motive or audited investment performance.",
+      "publication_date": "unknown_current_catalog",
+      "event_date": null,
+      "archive_or_upload_date": null,
+      "retrieved_at_utc": "2026-10-13T17:07:22Z",
+      "access_status": "read_original_text",
+      "coverage_count_unit": "one listed source record, not one entire lifetime source family",
+      "found": true,
+      "read_substantive": true,
+      "read_full_original": true,
+      "full_original_unavailable_or_unreviewed": false
+    },
+    {
+      "source_id": "LL-S-COLUMBIA2013",
+      "title": "Graham & Doddsville, Spring 2013, Li Lu interview",
+      "url": "https://business.columbia.edu/sites/default/files-efs/imce-uploads/Graham%20%26%20Doddsville%20-%20Issue%2018%20-%20Spring%202013_0.pdf",
+      "author_or_issuer": "Columbia Business School original interview publisher / Li Lu",
+      "published_at": "2013-03",
+      "event_or_information_date": "2013",
+      "access_grade": "A_direct_original_read",
+      "known_public_by_2025_12_31": true,
+      "benchmark_2026_start_eligible": true,
+      "locator": "Printed pp25–35, particularly26–32",
+      "limitation": "Original public interview, not a pre-initial-BYD memo. Himalaya catalog labels 2013-03-28; exact interview day not established by this PDF.",
+      "accessed_on": "2026-10-13",
+      "source_family": "authorized_original_interview_transcript",
+      "provenance_grade": "P2",
+      "provenance_limitation": "Provenance is authority for the reported statement/fact, not truth certainty, private motive or audited investment performance.",
+      "publication_date": "2013-03",
+      "event_date": "2013",
+      "archive_or_upload_date": null,
+      "retrieved_at_utc": "2026-10-13T17:07:22Z",
+      "access_status": "read_original_text",
+      "coverage_count_unit": "one listed source record, not one entire lifetime source family",
+      "found": true,
+      "read_substantive": true,
+      "read_full_original": true,
+      "full_original_unavailable_or_unreviewed": false
+    },
+    {
+      "source_id": "LL-S-BYD2016-INDIVIDUAL",
+      "title": "Li Lu BYD H-share individual substantial-interest notification",
+      "url": "https://di.hkex.com.hk/filing/di/NSForm1.aspx?corpn=BYD+Co.+Ltd.+-+H+Shares&ed=14%2F07%2F2017&fn=76944&g_lang=zh-HK&lang=ZH&sa1=cl&sa1p=1&sa2=as&sc=1211&sced=22%2F12%2F2019&scsd=22%2F12%2F2009&sd=18%2F01%2F2010&sid=10187400&src=MAIN",
+      "author_or_issuer": "Li Lu / HKEX",
+      "published_at": "2016-01",
+      "event_or_information_date": "2016-01-08",
+      "access_grade": "A_direct_original_read",
+      "known_public_by_2025_12_31": true,
+      "benchmark_2026_start_eligible": true,
+      "locator": "Sections15–20",
+      "limitation": "Formserial includesJan22 but filed-date field saysJan12. Transaction field 22,645,000 differs from before/after delta 2,264,500; do not repair by assumption.",
+      "accessed_on": "2026-10-13",
+      "publication_date_precision": "Month established; form date 2016-01-12 and serial IS20160122000136 differ, exact first public day unresolved.",
+      "source_family": "regulator_beneficial_ownership_notification",
+      "provenance_grade": "P1",
+      "provenance_limitation": "Provenance is authority for the reported statement/fact, not truth certainty, private motive or audited investment performance.",
+      "publication_date": "2016-01",
+      "event_date": "2016-01-08",
+      "archive_or_upload_date": null,
+      "retrieved_at_utc": "2026-10-13T17:07:22Z",
+      "access_status": "read_original_text",
+      "coverage_count_unit": "one listed source record, not one entire lifetime source family",
+      "found": true,
+      "read_substantive": true,
+      "read_full_original": true,
+      "full_original_unavailable_or_unreviewed": false
+    },
+    {
+      "source_id": "LL-S-BYD2021-SALE",
+      "title": "Himalaya BYD H-share substantial-interest sale notification",
+      "url": "https://di.hkex.com.hk/di/NSForm2.aspx?fn=CS20210713E00396&lang=EN&pn=Himalaya&sa1=pl&sa2=np&sced=16%2F06%2F2023&scpid1=35291&scpid2=2508&scpid3=2&scsd=16%2F06%2F2016&src=MAIN",
+      "author_or_issuer": "Himalaya Capital Investors, L.P. / HKEX",
+      "published_at": "2021-07-13",
+      "event_or_information_date": "2021-07-08",
+      "access_grade": "A_direct_original_read",
+      "known_public_by_2025_12_31": true,
+      "benchmark_2026_start_eligible": true,
+      "locator": "Transaction and before/after holdings",
+      "limitation": "Sale proceeds are not sale profit; neither personal wealth nor full fund return follows from notification.",
+      "accessed_on": "2026-10-13",
+      "source_family": "regulator_beneficial_ownership_notification",
+      "provenance_grade": "P1",
+      "provenance_limitation": "Provenance is authority for the reported statement/fact, not truth certainty, private motive or audited investment performance.",
+      "publication_date": "2021-07-13",
+      "event_date": "2021-07-08",
+      "archive_or_upload_date": null,
+      "retrieved_at_utc": "2026-10-13T17:07:22Z",
+      "access_status": "read_original_text",
+      "coverage_count_unit": "one listed source record, not one entire lifetime source family",
+      "found": true,
+      "read_substantive": true,
+      "read_full_original": true,
+      "full_original_unavailable_or_unreviewed": false
+    },
+    {
+      "source_id": "LL-S-BYD2019-AR",
+      "title": "BYD 2019 annual report",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2020/0421/2020042101468.pdf",
+      "author_or_issuer": "BYD Company Limited",
+      "published_at": "2020-04-21",
+      "event_or_information_date": "2019-12-31",
+      "access_grade": "B_original_issuer_indexed_extract",
+      "known_public_by_2025_12_31": true,
+      "benchmark_2026_start_eligible": true,
+      "locator": "Substantial shareholders pp41–42",
+      "limitation": "Indexed original disclosure read; direct PDF exceeded tool file-size limit. Use readable HKEX 2016/2021 notices for core proof.",
+      "accessed_on": "2026-10-13",
+      "source_family": "issuer_business_transaction_or_financial_report",
+      "provenance_grade": "P1",
+      "provenance_limitation": "Provenance is authority for the reported statement/fact, not truth certainty, private motive or audited investment performance.",
+      "publication_date": "2020-04-21",
+      "event_date": "2019-12-31",
+      "archive_or_upload_date": null,
+      "retrieved_at_utc": "2026-10-13T17:07:22Z",
+      "access_status": "original_indexed_extract_or_metadata_only",
+      "coverage_count_unit": "one listed source record, not one entire lifetime source family",
+      "found": true,
+      "read_substantive": true,
+      "read_full_original": false,
+      "full_original_unavailable_or_unreviewed": true
+    },
+    {
+      "source_id": "LL-S-Q226-INDEX",
+      "title": "Himalaya Q 2 2026 13F index",
+      "url": "https://www.sec.gov/Archives/edgar/data/1709323/000204358526000022/0002043585-26-000022-index.htm",
+      "author_or_issuer": "SEC / Himalaya Capital Management LLC",
+      "published_at": "2026-08-14",
+      "event_or_information_date": "2026-06-30",
+      "access_grade": "A_direct_original_read",
+      "known_public_by_2025_12_31": false,
+      "benchmark_2026_start_eligible": false,
+      "locator": null,
+      "limitation": null,
+      "accessed_on": "2026-10-13",
+      "source_family": "regulator_manager_holdings_filing",
+      "provenance_grade": "P1",
+      "provenance_limitation": "Provenance is authority for the reported statement/fact, not truth certainty, private motive or audited investment performance.",
+      "publication_date": "2026-08-14",
+      "event_date": "2026-06-30",
+      "archive_or_upload_date": null,
+      "retrieved_at_utc": "2026-10-13T17:07:22Z",
+      "access_status": "read_original_text",
+      "coverage_count_unit": "one listed source record, not one entire lifetime source family",
+      "found": true,
+      "read_substantive": true,
+      "read_full_original": true,
+      "full_original_unavailable_or_unreviewed": false
+    },
+    {
+      "source_id": "LL-S-Q226-COVER",
+      "title": "Himalaya Q 2 2026 13F cover",
+      "url": "https://www.sec.gov/Archives/edgar/data/1709323/000204358526000022/xslForm13F_X02/primary_doc.xml",
+      "author_or_issuer": "Himalaya Capital Management LLC",
+      "published_at": "2026-08-14",
+      "event_or_information_date": "2026-06-30",
+      "access_grade": "A_direct_original_read",
+      "known_public_by_2025_12_31": false,
+      "benchmark_2026_start_eligible": false,
+      "locator": null,
+      "limitation": null,
+      "accessed_on": "2026-10-13",
+      "source_family": "regulator_manager_holdings_filing",
+      "provenance_grade": "P1",
+      "provenance_limitation": "Provenance is authority for the reported statement/fact, not truth certainty, private motive or audited investment performance.",
+      "publication_date": "2026-08-14",
+      "event_date": "2026-06-30",
+      "archive_or_upload_date": null,
+      "retrieved_at_utc": "2026-10-13T17:07:22Z",
+      "access_status": "read_original_text",
+      "coverage_count_unit": "one listed source record, not one entire lifetime source family",
+      "found": true,
+      "read_substantive": true,
+      "read_full_original": true,
+      "full_original_unavailable_or_unreviewed": false
+    },
+    {
+      "source_id": "LL-S-Q226-TABLE",
+      "title": "Himalaya Q 2 2026 13F information table",
+      "url": "https://www.sec.gov/Archives/edgar/data/1709323/000204358526000022/xslForm13F_X02/13fhciq226.xml",
+      "author_or_issuer": "Himalaya Capital Management LLC",
+      "published_at": "2026-08-14",
+      "event_or_information_date": "2026-06-30",
+      "access_grade": "A_direct_original_read",
+      "known_public_by_2025_12_31": false,
+      "benchmark_2026_start_eligible": false,
+      "locator": null,
+      "limitation": null,
+      "accessed_on": "2026-10-13",
+      "source_family": "regulator_manager_holdings_filing",
+      "provenance_grade": "P1",
+      "provenance_limitation": "Provenance is authority for the reported statement/fact, not truth certainty, private motive or audited investment performance.",
+      "publication_date": "2026-08-14",
+      "event_date": "2026-06-30",
+      "archive_or_upload_date": null,
+      "retrieved_at_utc": "2026-10-13T17:07:22Z",
+      "access_status": "read_original_text",
+      "coverage_count_unit": "one listed source record, not one entire lifetime source family",
+      "found": true,
+      "read_substantive": true,
+      "read_full_original": true,
+      "full_original_unavailable_or_unreviewed": false
+    },
+    {
+      "source_id": "LL-S-Q425-RESTATEMENT-INDEX",
+      "title": "Himalaya Q 4 2025 13F amendment index",
+      "url": "https://www.sec.gov/Archives/edgar/data/1709323/000204358526000012/0002043585-26-000012-index.htm",
+      "author_or_issuer": "SEC / Himalaya",
+      "published_at": "2026-02-19",
+      "event_or_information_date": "2025-12-31",
+      "access_grade": "A_direct_original_read",
+      "known_public_by_2025_12_31": false,
+      "benchmark_2026_start_eligible": false,
+      "locator": null,
+      "limitation": "Accepted 2026-02-18at20:20:40, EDGARfiling date 2026-02-19. Information as of 2025 does not mean availablebefore 2026.",
+      "accessed_on": "2026-10-13",
+      "source_family": "regulator_manager_holdings_filing",
+      "provenance_grade": "P1",
+      "provenance_limitation": "Provenance is authority for the reported statement/fact, not truth certainty, private motive or audited investment performance.",
+      "publication_date": "2026-02-19",
+      "event_date": "2025-12-31",
+      "archive_or_upload_date": null,
+      "retrieved_at_utc": "2026-10-13T17:07:22Z",
+      "access_status": "read_original_text",
+      "coverage_count_unit": "one listed source record, not one entire lifetime source family",
+      "found": true,
+      "read_substantive": true,
+      "read_full_original": true,
+      "full_original_unavailable_or_unreviewed": false
+    },
+    {
+      "source_id": "LL-S-Q425-RESTATEMENT-COVER",
+      "title": "Himalaya Q 4 2025 amendment 1, restatement",
+      "url": "https://www.sec.gov/Archives/edgar/data/1709323/000204358526000012/xslForm13F_X02/primary_doc.xml",
+      "author_or_issuer": "Himalaya Capital Management LLC",
+      "published_at": "2026-02-19",
+      "event_or_information_date": "2025-12-31",
+      "access_grade": "A_direct_original_read",
+      "known_public_by_2025_12_31": false,
+      "benchmark_2026_start_eligible": false,
+      "locator": null,
+      "limitation": null,
+      "accessed_on": "2026-10-13",
+      "source_family": "regulator_manager_holdings_filing",
+      "provenance_grade": "P1",
+      "provenance_limitation": "Provenance is authority for the reported statement/fact, not truth certainty, private motive or audited investment performance.",
+      "publication_date": "2026-02-19",
+      "event_date": "2025-12-31",
+      "archive_or_upload_date": null,
+      "retrieved_at_utc": "2026-10-13T17:07:22Z",
+      "access_status": "read_original_text",
+      "coverage_count_unit": "one listed source record, not one entire lifetime source family",
+      "found": true,
+      "read_substantive": true,
+      "read_full_original": true,
+      "full_original_unavailable_or_unreviewed": false
+    },
+    {
+      "source_id": "LL-S-Q425-RESTATEMENT-TABLE",
+      "title": "Himalaya Q 4 2025 amended information table",
+      "url": "https://www.sec.gov/Archives/edgar/data/1709323/000204358526000012/xslForm13F_X02/13fhciq425v2.xml",
+      "author_or_issuer": "Himalaya Capital Management LLC",
+      "published_at": "2026-02-19",
+      "event_or_information_date": "2025-12-31",
+      "access_grade": "A_direct_original_read",
+      "known_public_by_2025_12_31": false,
+      "benchmark_2026_start_eligible": false,
+      "locator": null,
+      "limitation": null,
+      "accessed_on": "2026-10-13",
+      "source_family": "regulator_manager_holdings_filing",
+      "provenance_grade": "P1",
+      "provenance_limitation": "Provenance is authority for the reported statement/fact, not truth certainty, private motive or audited investment performance.",
+      "publication_date": "2026-02-19",
+      "event_date": "2025-12-31",
+      "archive_or_upload_date": null,
+      "retrieved_at_utc": "2026-10-13T17:07:22Z",
+      "access_status": "read_original_text",
+      "coverage_count_unit": "one listed source record, not one entire lifetime source family",
+      "found": true,
+      "read_substantive": true,
+      "read_full_original": true,
+      "full_original_unavailable_or_unreviewed": false
+    },
+    {
+      "source_id": "LL-S-Q425-SUPERSEDED",
+      "title": "Himalaya original Q 4 2025 information table, superseded",
+      "url": "https://www.sec.gov/Archives/edgar/data/1709323/000204358526000011/xslForm13F_X02/13fhciq425.xml",
+      "author_or_issuer": "Himalaya Capital Management LLC",
+      "published_at": "2026-02-17",
+      "event_or_information_date": "2025-12-31",
+      "access_grade": "A_direct_original_read",
+      "known_public_by_2025_12_31": false,
+      "benchmark_2026_start_eligible": false,
+      "locator": null,
+      "limitation": "Replaced for comparable data by amendment 1; original Alphabet A/C share-class mapping was reversed.",
+      "accessed_on": "2026-10-13",
+      "source_family": "regulator_manager_holdings_filing",
+      "provenance_grade": "P1",
+      "provenance_limitation": "Provenance is authority for the reported statement/fact, not truth certainty, private motive or audited investment performance.",
+      "publication_date": "2026-02-17",
+      "event_date": "2025-12-31",
+      "archive_or_upload_date": null,
+      "retrieved_at_utc": "2026-10-13T17:07:22Z",
+      "access_status": "read_original_text",
+      "coverage_count_unit": "one listed source record, not one entire lifetime source family",
+      "found": true,
+      "read_substantive": true,
+      "read_full_original": true,
+      "full_original_unavailable_or_unreviewed": false
+    },
+    {
+      "source_id": "LL-S-2010-NOTES",
+      "title": "Attendee notes of 2010 Columbia lecture, discovery only",
+      "url": "https://focusedcompounding.com/wp-content/uploads/2017/06/li-lu_s-lecture-at-columbia-2010.pdf",
+      "author_or_issuer": "Unofficial lecture-note compiler",
+      "published_at": "2017_copy_of_2010_event",
+      "event_or_information_date": "2010",
+      "access_grade": "C_unofficial_attendee_notes",
+      "known_public_by_2025_12_31": false,
+      "benchmark_2026_start_eligible": false,
+      "locator": null,
+      "limitation": "Provides 2002 BYD entry lead and redemption-sale narrative. Not a verified original pre-trade record or exact verbatim Li Lu transcript.",
+      "accessed_on": "2026-10-13",
+      "source_family": "secondary_discovery_compilation",
+      "provenance_grade": "S2",
+      "provenance_limitation": "Provenance is authority for the reported statement/fact, not truth certainty, private motive or audited investment performance.",
+      "publication_date": "2017_copy_of_2010_event",
+      "event_date": "2010",
+      "archive_or_upload_date": null,
+      "retrieved_at_utc": "2026-10-13T17:07:22Z",
+      "access_status": "secondary_lead_not_original_verified",
+      "coverage_count_unit": "one listed source record, not one entire lifetime source family",
+      "found": true,
+      "read_substantive": false,
+      "read_full_original": false,
+      "full_original_unavailable_or_unreviewed": true
+    },
+    {
+      "source_id": "LL-S-2024-VIDEO",
+      "title": "Himalaya original 2024 Chinese speech, verified 2026 upload",
+      "url": "https://www.youtube.com/watch?v=8jJA4vHWvLc",
+      "author_or_issuer": "Himalaya Capital official channel / 李录",
+      "published_at": "2026-04-07",
+      "event_or_information_date": "2024-12-07",
+      "access_grade": "B_original_channel_metadata",
+      "known_public_by_2025_12_31": false,
+      "benchmark_2026_start_eligible": false,
+      "locator": null,
+      "limitation": "Chinese speech listed as controlling text, but full audio not reviewed. An earlier publication date was not established; not eligible merely because event was 2024.",
+      "accessed_on": "2026-10-13",
+      "source_family": "official_speech_video_metadata",
+      "provenance_grade": "P1",
+      "provenance_limitation": "Provenance is authority for the reported statement/fact, not truth certainty, private motive or audited investment performance.",
+      "publication_date": "2026-04-07",
+      "event_date": "2024-12-07",
+      "archive_or_upload_date": "2026-04-07",
+      "retrieved_at_utc": "2026-10-13T17:07:22Z",
+      "access_status": "original_indexed_extract_or_metadata_only",
+      "coverage_count_unit": "one listed source record, not one entire lifetime source family",
+      "found": true,
+      "read_substantive": false,
+      "read_full_original": false,
+      "full_original_unavailable_or_unreviewed": true
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "LL-F-IDENTITY",
+      "text": "Himalaya’s official pages identify Li Lu as founder/chairman, managing its principal fund since 1997.",
+      "source_ids": [
+        "LL-S-HOME-EN",
+        "LL-S-HOME-CN"
+      ],
+      "information_date": "2026_current_identity",
+      "evidence_type": "original_investor_statement",
+      "known_public_by_2025_12_31": false,
+      "confidence": "high",
+      "structured_data": null,
+      "precise_locator": "Official English page About Us, Li Lu biography paragraph; Chinese page 创始人/李录 biography, managing principal fund since1997 statement. Current undated page.",
+      "evidence_record_ids": [
+        "LL-F-IDENTITY-E1",
+        "LL-F-IDENTITY-E2"
+      ],
+      "timing_by_case": [],
+      "timing_labels": [
+        "TU"
+      ],
+      "timing_reference": "See timing_by_case; no security decision specified for standalone general-method/identity claims.",
+      "publication_availability_is_not_pretrade_proof": true,
+      "claim_kind": "direct_statement",
+      "scope": {
+        "speaker_or_reporter": "李录 / Li Lu / Himalaya Capital",
+        "organization": "Himalaya Capital Management LLC",
+        "decision_type": "original_investor_statement",
+        "security_or_case_ids": [],
+        "position_side": "only explicitly reported side; no short inferred from absence",
+        "horizon": "source/event/holding interval; no invented personal intended horizon",
+        "qualifiers": "See structured_data, exact locator and source-specific limitations."
+      },
+      "provenance_grades": [
+        "P1"
+      ]
+    },
+    {
+      "claim_id": "LL-F-CURRENTMANDATE",
+      "text": "Official current mandate emphasizes public companies in Asia/North America, long ownership, quality/moats/growth/trustworthy managers; institutional and private clients.",
+      "source_ids": [
+        "LL-S-HOME-EN",
+        "LL-S-HOME-CN"
+      ],
+      "information_date": "2026_current_mandate",
+      "evidence_type": "original_investor_statement",
+      "known_public_by_2025_12_31": false,
+      "confidence": "high",
+      "structured_data": null,
+      "precise_locator": "Official English About Us investment-strategy and client-list paragraphs; Chinese 投资理念 corresponding business quality/long-term ownership paragraph. Current wording only.",
+      "evidence_record_ids": [
+        "LL-F-CURRENTMANDATE-E1",
+        "LL-F-CURRENTMANDATE-E2"
+      ],
+      "timing_by_case": [],
+      "timing_labels": [
+        "TU"
+      ],
+      "timing_reference": "See timing_by_case; no security decision specified for standalone general-method/identity claims.",
+      "publication_availability_is_not_pretrade_proof": true,
+      "claim_kind": "direct_statement",
+      "scope": {
+        "speaker_or_reporter": "李录 / Li Lu / Himalaya Capital",
+        "organization": "Himalaya Capital Management LLC",
+        "decision_type": "original_investor_statement",
+        "security_or_case_ids": [],
+        "position_side": "only explicitly reported side; no short inferred from absence",
+        "horizon": "source/event/holding interval; no invented personal intended horizon",
+        "qualifiers": "See structured_data, exact locator and source-specific limitations."
+      },
+      "provenance_grades": [
+        "P1"
+      ]
+    },
+    {
+      "claim_id": "LL-F-HONESTY",
+      "text": "2013: distinguish knowledge, unknowns, unnecessary knowledge and unknown unknowns; understand opposing arguments.",
+      "source_ids": [
+        "LL-S-COLUMBIA2013"
+      ],
+      "information_date": "2013",
+      "evidence_type": "original_investor_statement",
+      "known_public_by_2025_12_31": true,
+      "confidence": "high",
+      "structured_data": null,
+      "precise_locator": "Columbia Spring2013 interview printed p25, strongest-counterargument/knowledge paragraphs; printed pp31–32 intellectual-honesty four-category paragraphs (rendered lines3631–3637 and3740–3744).",
+      "evidence_record_ids": [
+        "LL-F-HONESTY-E1"
+      ],
+      "timing_by_case": [],
+      "timing_labels": [
+        "TU"
+      ],
+      "timing_reference": "See timing_by_case; no security decision specified for standalone general-method/identity claims.",
+      "publication_availability_is_not_pretrade_proof": true,
+      "claim_kind": "direct_statement",
+      "scope": {
+        "speaker_or_reporter": "李录 / Li Lu / Himalaya Capital",
+        "organization": "Himalaya Capital Management LLC",
+        "decision_type": "original_investor_statement",
+        "security_or_case_ids": [],
+        "position_side": "only explicitly reported side; no short inferred from absence",
+        "horizon": "source/event/holding interval; no invented personal intended horizon",
+        "qualifiers": "See structured_data, exact locator and source-specific limitations."
+      },
+      "provenance_grades": [
+        "P2"
+      ]
+    },
+    {
+      "claim_id": "LL-F-TOOHARD",
+      "text": "Most opportunities belong in too-hard; concentrate research on genuinely understood ideas, not sector labels.",
+      "source_ids": [
+        "LL-S-COLUMBIA2013"
+      ],
+      "information_date": "2013",
+      "evidence_type": "original_investor_statement",
+      "known_public_by_2025_12_31": true,
+      "confidence": "high",
+      "structured_data": null,
+      "precise_locator": "Columbia printed p30, three-bucket yes/no/too-hard paragraph (rendered lines3389–3401).",
+      "evidence_record_ids": [
+        "LL-F-TOOHARD-E1"
+      ],
+      "timing_by_case": [],
+      "timing_labels": [
+        "TU"
+      ],
+      "timing_reference": "See timing_by_case; no security decision specified for standalone general-method/identity claims.",
+      "publication_availability_is_not_pretrade_proof": true,
+      "claim_kind": "direct_statement",
+      "scope": {
+        "speaker_or_reporter": "李录 / Li Lu / Himalaya Capital",
+        "organization": "Himalaya Capital Management LLC",
+        "decision_type": "original_investor_statement",
+        "security_or_case_ids": [],
+        "position_side": "only explicitly reported side; no short inferred from absence",
+        "horizon": "source/event/holding interval; no invented personal intended horizon",
+        "qualifiers": "See structured_data, exact locator and source-specific limitations."
+      },
+      "provenance_grades": [
+        "P2"
+      ]
+    },
+    {
+      "claim_id": "LL-F-OPPCOST",
+      "text": "Cash and existing holdings set a risk-adjusted opportunity-cost bar; geographic weights are not predetermined.",
+      "source_ids": [
+        "LL-S-COLUMBIA2013"
+      ],
+      "information_date": "2013",
+      "evidence_type": "original_investor_statement",
+      "known_public_by_2025_12_31": true,
+      "confidence": "high",
+      "structured_data": null,
+      "precise_locator": "Columbia printed pp28–29, portfolio/opportunity-cost discussion; p29 geographic allocations and cash paragraphs (rendered lines3267–3280).",
+      "evidence_record_ids": [
+        "LL-F-OPPCOST-E1"
+      ],
+      "timing_by_case": [],
+      "timing_labels": [
+        "TU"
+      ],
+      "timing_reference": "See timing_by_case; no security decision specified for standalone general-method/identity claims.",
+      "publication_availability_is_not_pretrade_proof": true,
+      "claim_kind": "direct_statement",
+      "scope": {
+        "speaker_or_reporter": "李录 / Li Lu / Himalaya Capital",
+        "organization": "Himalaya Capital Management LLC",
+        "decision_type": "original_investor_statement",
+        "security_or_case_ids": [],
+        "position_side": "only explicitly reported side; no short inferred from absence",
+        "horizon": "source/event/holding interval; no invented personal intended horizon",
+        "qualifiers": "See structured_data, exact locator and source-specific limitations."
+      },
+      "provenance_grades": [
+        "P2"
+      ]
+    },
+    {
+      "claim_id": "LL-F-BYD-THESIS",
+      "text": "2013 BYD explanation emphasizes engineer-led learning culture, demonstrated problem-solving, favorable environment and original safety margin.",
+      "source_ids": [
+        "LL-S-COLUMBIA2013"
+      ],
+      "information_date": "2013",
+      "evidence_type": "contemporary_postentry_and_retrospective_original_statement",
+      "known_public_by_2025_12_31": true,
+      "confidence": "high",
+      "structured_data": null,
+      "precise_locator": "Columbia printed p27, Wang/engineering organization and original margin-of-safety paragraph (lines2987–2999); p28 concrete problem-solving/can-do culture (3153–3161); p31 adaptive-culture/change discussion (3480–3505).",
+      "evidence_record_ids": [
+        "LL-F-BYD-THESIS-E1"
+      ],
+      "timing_by_case": [
+        {
+          "case_id": "LL-C-BYD",
+          "node_id": "LL-C-BYD-N2",
+          "timing_labels": [
+            "T1",
+            "T2"
+          ],
+          "reference_interval": "2013",
+          "note": "Public context, reported observation and original investor explanation are separately scoped; no original initial investor T0 verified."
+        }
+      ],
+      "timing_labels": [
+        "T1",
+        "T2"
+      ],
+      "timing_reference": "See timing_by_case; no security decision specified for standalone general-method/identity claims.",
+      "publication_availability_is_not_pretrade_proof": true,
+      "claim_kind": "direct_statement",
+      "scope": {
+        "speaker_or_reporter": "李录 / Li Lu / Himalaya Capital",
+        "organization": "Himalaya Capital Management LLC",
+        "decision_type": "contemporary_postentry_and_retrospective_original_statement",
+        "security_or_case_ids": [
+          "LL-C-BYD"
+        ],
+        "position_side": "only explicitly reported side; no short inferred from absence",
+        "horizon": "source/event/holding interval; no invented personal intended horizon",
+        "qualifiers": "See structured_data, exact locator and source-specific limitations."
+      },
+      "provenance_grades": [
+        "P2"
+      ]
+    },
+    {
+      "claim_id": "LL-F-SHORT-ERROR",
+      "text": "2013 interview calls earlier shorting a major mistake and says abandonment occurred nine years earlier; named security and monetary loss absent.",
+      "source_ids": [
+        "LL-S-COLUMBIA2013"
+      ],
+      "information_date": "2013",
+      "evidence_type": "retrospective_original_investor_statement",
+      "known_public_by_2025_12_31": true,
+      "confidence": "high",
+      "structured_data": {
+        "approx_stop_year_inferred": 2004,
+        "inference_basis": "2013 minus nine years; not an exact transaction date",
+        "named_security": null,
+        "realized_loss": null
+      },
+      "precise_locator": "Columbia printed p26: answer to whether Himalaya still shorts, nine-years-ago cessation and worst-mistake admission (rendered lines2879–2884).",
+      "evidence_record_ids": [
+        "LL-F-SHORT-ERROR-E1"
+      ],
+      "timing_by_case": [
+        {
+          "case_id": "LL-C-SHORTING",
+          "node_id": "LL-C-SHORTING-N1",
+          "timing_labels": [
+            "T2"
+          ],
+          "reference_interval": "before_approximately_2004",
+          "note": "Public context, reported observation and original investor explanation are separately scoped; no original initial investor T0 verified."
+        },
+        {
+          "case_id": "LL-C-SHORTING",
+          "node_id": "LL-C-SHORTING-N2",
+          "timing_labels": [
+            "T2"
+          ],
+          "reference_interval": "approximately_2004",
+          "note": "Public context, reported observation and original investor explanation are separately scoped; no original initial investor T0 verified."
+        },
+        {
+          "case_id": "LL-C-SHORTING",
+          "node_id": "LL-C-SHORTING-N3",
+          "timing_labels": [
+            "T2"
+          ],
+          "reference_interval": "2013",
+          "note": "Public context, reported observation and original investor explanation are separately scoped; no original initial investor T0 verified."
+        }
+      ],
+      "timing_labels": [
+        "T2"
+      ],
+      "timing_reference": "See timing_by_case; no security decision specified for standalone general-method/identity claims.",
+      "publication_availability_is_not_pretrade_proof": true,
+      "claim_kind": "direct_statement",
+      "scope": {
+        "speaker_or_reporter": "李录 / Li Lu / Himalaya Capital",
+        "organization": "Himalaya Capital Management LLC",
+        "decision_type": "retrospective_original_investor_statement",
+        "security_or_case_ids": [
+          "LL-C-SHORTING"
+        ],
+        "position_side": "only explicitly reported side; no short inferred from absence",
+        "horizon": "source/event/holding interval; no invented personal intended horizon",
+        "qualifiers": "See structured_data, exact locator and source-specific limitations."
+      },
+      "provenance_grades": [
+        "P2"
+      ]
+    },
+    {
+      "claim_id": "LL-F-SHORT-RISK",
+      "text": "Reasons include asymmetric loss, expensive borrowing, prolonged fraud survival and diversion from productive long research.",
+      "source_ids": [
+        "LL-S-COLUMBIA2013"
+      ],
+      "information_date": "2013",
+      "evidence_type": "original_investor_statement",
+      "known_public_by_2025_12_31": true,
+      "confidence": "high",
+      "structured_data": null,
+      "precise_locator": "Columbia printed pp26–27: three disadvantages of shorting, asymmetry/fraud survival/borrowing and diverted attention (rendered lines2891–2918 plus continuation).",
+      "evidence_record_ids": [
+        "LL-F-SHORT-RISK-E1"
+      ],
+      "timing_by_case": [
+        {
+          "case_id": "LL-C-SHORTING",
+          "node_id": "LL-C-SHORTING-N3",
+          "timing_labels": [
+            "T2"
+          ],
+          "reference_interval": "2013",
+          "note": "Public context, reported observation and original investor explanation are separately scoped; no original initial investor T0 verified."
+        }
+      ],
+      "timing_labels": [
+        "T2"
+      ],
+      "timing_reference": "See timing_by_case; no security decision specified for standalone general-method/identity claims.",
+      "publication_availability_is_not_pretrade_proof": true,
+      "claim_kind": "direct_statement",
+      "scope": {
+        "speaker_or_reporter": "李录 / Li Lu / Himalaya Capital",
+        "organization": "Himalaya Capital Management LLC",
+        "decision_type": "original_investor_statement",
+        "security_or_case_ids": [
+          "LL-C-SHORTING"
+        ],
+        "position_side": "only explicitly reported side; no short inferred from absence",
+        "horizon": "source/event/holding interval; no invented personal intended horizon",
+        "qualifiers": "See structured_data, exact locator and source-specific limitations."
+      },
+      "provenance_grades": [
+        "P2"
+      ]
+    },
+    {
+      "claim_id": "LL-F-SELL-OPPCOST",
+      "text": "A superior alternative is a reason to sell; long ownership does not impose a no-sale promise.",
+      "source_ids": [
+        "LL-S-COLUMBIA2013"
+      ],
+      "information_date": "2013",
+      "evidence_type": "original_investor_statement",
+      "known_public_by_2025_12_31": true,
+      "confidence": "high",
+      "structured_data": null,
+      "precise_locator": "Columbia printed p32: third occasion for selling, superior alternative and improving portfolio opportunity cost (rendered lines3599–3608).",
+      "evidence_record_ids": [
+        "LL-F-SELL-OPPCOST-E1"
+      ],
+      "timing_by_case": [],
+      "timing_labels": [
+        "TU"
+      ],
+      "timing_reference": "See timing_by_case; no security decision specified for standalone general-method/identity claims.",
+      "publication_availability_is_not_pretrade_proof": true,
+      "claim_kind": "direct_statement",
+      "scope": {
+        "speaker_or_reporter": "李录 / Li Lu / Himalaya Capital",
+        "organization": "Himalaya Capital Management LLC",
+        "decision_type": "original_investor_statement",
+        "security_or_case_ids": [],
+        "position_side": "only explicitly reported side; no short inferred from absence",
+        "horizon": "source/event/holding interval; no invented personal intended horizon",
+        "qualifiers": "See structured_data, exact locator and source-specific limitations."
+      },
+      "provenance_grades": [
+        "P2"
+      ]
+    },
+    {
+      "claim_id": "LL-F-BYD-2016",
+      "text": "2016 notice reports75,387,200 BYD H-shares, 8.24%ofH-class, through LL Group and Himalaya Capital Investors; Li Lu controls LL Group100%.",
+      "source_ids": [
+        "LL-S-BYD2016-INDIVIDUAL"
+      ],
+      "information_date": "2016-01-08",
+      "evidence_type": "ownership_regulatory_disclosure",
+      "known_public_by_2025_12_31": true,
+      "confidence": "high",
+      "structured_data": {
+        "shares": 75387200,
+        "h_class_pct": 8.24,
+        "h_class_outstanding": 915000000,
+        "control_chain": [
+          "Li Lu",
+          "LL Group, LLC",
+          "Himalaya Capital Investors, L.P. (formerly LL Investment Partners, L.P.)"
+        ],
+        "filed_date_field": "2016-01-12",
+        "serial": "IS20160122000136"
+      },
+      "precise_locator": "2016 HKEX individual notice boxes17–18 before/after holding and H-class percentage; box20 Li Lu100%→LL Group100%→Himalaya Capital Investors chain.",
+      "evidence_record_ids": [
+        "LL-F-BYD-2016-E1"
+      ],
+      "timing_by_case": [
+        {
+          "case_id": "LL-C-BYD",
+          "node_id": "LL-C-BYD-N3",
+          "timing_labels": [
+            "T1"
+          ],
+          "reference_interval": "2016-01-08",
+          "note": "Public context, reported observation and original investor explanation are separately scoped; no original initial investor T0 verified."
+        }
+      ],
+      "timing_labels": [
+        "T1"
+      ],
+      "timing_reference": "See timing_by_case; no security decision specified for standalone general-method/identity claims.",
+      "publication_availability_is_not_pretrade_proof": true,
+      "claim_kind": "regulatory_holding",
+      "scope": {
+        "speaker_or_reporter": "李录 / Li Lu / Himalaya Capital",
+        "organization": "Himalaya Capital Management LLC",
+        "decision_type": "ownership_regulatory_disclosure",
+        "security_or_case_ids": [
+          "LL-C-BYD"
+        ],
+        "position_side": "only explicitly reported side; no short inferred from absence",
+        "horizon": "source/event/holding interval; no invented personal intended horizon",
+        "qualifiers": "See structured_data, exact locator and source-specific limitations."
+      },
+      "provenance_grades": [
+        "P1"
+      ]
+    },
+    {
+      "claim_id": "LL-F-BYD-2016-ANOMALY",
+      "text": "2016 form’s event-share field 22,645,000 does not equal stated holding increase 2,264,500; only after-holding/control used as core evidence.",
+      "source_ids": [
+        "LL-S-BYD2016-INDIVIDUAL"
+      ],
+      "information_date": "2016-01-08",
+      "evidence_type": "source_internal_data_anomaly",
+      "known_public_by_2025_12_31": true,
+      "confidence": "high",
+      "structured_data": {
+        "reported_event_shares": 22645000,
+        "holding_before": 73122700,
+        "holding_after": 75387200,
+        "arithmetic_delta": 2264500
+      },
+      "precise_locator": "2016 HKEX individual notice box14 reported event-share field22645000 versus boxes17–18 before73122700/after75387200; arithmetic comparison is auditor calculation.",
+      "evidence_record_ids": [
+        "LL-F-BYD-2016-ANOMALY-E1"
+      ],
+      "timing_by_case": [
+        {
+          "case_id": "LL-C-BYD",
+          "node_id": "LL-C-BYD-N3",
+          "timing_labels": [
+            "T1"
+          ],
+          "reference_interval": "2016-01-08",
+          "note": "Public context, reported observation and original investor explanation are separately scoped; no original initial investor T0 verified."
+        }
+      ],
+      "timing_labels": [
+        "T1"
+      ],
+      "timing_reference": "See timing_by_case; no security decision specified for standalone general-method/identity claims.",
+      "publication_availability_is_not_pretrade_proof": true,
+      "claim_kind": "analyst_reconstruction",
+      "scope": {
+        "speaker_or_reporter": "李录 / Li Lu / Himalaya Capital",
+        "organization": "Himalaya Capital Management LLC",
+        "decision_type": "source_internal_data_anomaly",
+        "security_or_case_ids": [
+          "LL-C-BYD"
+        ],
+        "position_side": "only explicitly reported side; no short inferred from absence",
+        "horizon": "source/event/holding interval; no invented personal intended horizon",
+        "qualifiers": "See structured_data, exact locator and source-specific limitations."
+      },
+      "provenance_grades": [
+        "P1"
+      ]
+    },
+    {
+      "claim_id": "LL-F-BYD-2021",
+      "text": "July 8,2021 Himalaya sale 7,144,000 shares at averageHK$227.6229; holding73,650,600→66,506,600,6.35%ofH-class afterward.",
+      "source_ids": [
+        "LL-S-BYD2021-SALE"
+      ],
+      "information_date": "2021-07-08",
+      "evidence_type": "ownership_transaction_disclosure",
+      "known_public_by_2025_12_31": true,
+      "confidence": "high",
+      "structured_data": {
+        "sold_shares": 7144000,
+        "average_sale_price_hkd": 227.6229,
+        "holding_before": 73650600,
+        "holding_after": 66506600,
+        "h_class_pct_after": 6.35,
+        "estimated_gross_proceeds_hkd": 1626137997.6,
+        "proceeds_not_profit": true
+      },
+      "precise_locator": "2021 HKEX corporate notice box17 reported disposal7144000/averageHK227.6229; boxes18–19 before73650600/after66506600, after6.35%; July13 filing field.",
+      "evidence_record_ids": [
+        "LL-F-BYD-2021-E1"
+      ],
+      "timing_by_case": [
+        {
+          "case_id": "LL-C-BYD",
+          "node_id": "LL-C-BYD-N5",
+          "timing_labels": [
+            "T1"
+          ],
+          "reference_interval": "2021-07-08",
+          "note": "Public context, reported observation and original investor explanation are separately scoped; no original initial investor T0 verified."
+        }
+      ],
+      "timing_labels": [
+        "T1"
+      ],
+      "timing_reference": "See timing_by_case; no security decision specified for standalone general-method/identity claims.",
+      "publication_availability_is_not_pretrade_proof": true,
+      "claim_kind": "reported_transaction",
+      "scope": {
+        "speaker_or_reporter": "李录 / Li Lu / Himalaya Capital",
+        "organization": "Himalaya Capital Management LLC",
+        "decision_type": "ownership_transaction_disclosure",
+        "security_or_case_ids": [
+          "LL-C-BYD"
+        ],
+        "position_side": "only explicitly reported side; no short inferred from absence",
+        "horizon": "source/event/holding interval; no invented personal intended horizon",
+        "qualifiers": "See structured_data, exact locator and source-specific limitations."
+      },
+      "provenance_grades": [
+        "P1"
+      ]
+    },
+    {
+      "claim_id": "LL-F-BYD2019-INDEPENDENT",
+      "text": "BYD 2019 issuer record separately identifies Li Lu/Himalaya interests and Berkshire’s225m H-shares; these are distinct capital pools.",
+      "source_ids": [
+        "LL-S-BYD2019-AR"
+      ],
+      "information_date": "2019-12-31",
+      "evidence_type": "issuer_ownership_disclosure",
+      "known_public_by_2025_12_31": true,
+      "confidence": "medium_high_indexed_primary",
+      "structured_data": null,
+      "precise_locator": "BYD 2019 annual report printed pp41–42, substantial-shareholder table rows Li Lu and Berkshire plus controlled-corporation notes; indexed original only.",
+      "evidence_record_ids": [
+        "LL-F-BYD2019-INDEPENDENT-E1"
+      ],
+      "timing_by_case": [
+        {
+          "case_id": "LL-C-BYD",
+          "node_id": "LL-C-BYD-N4",
+          "timing_labels": [
+            "T1"
+          ],
+          "reference_interval": "2019-12-31",
+          "note": "Public context, reported observation and original investor explanation are separately scoped; no original initial investor T0 verified."
+        }
+      ],
+      "timing_labels": [
+        "T1"
+      ],
+      "timing_reference": "See timing_by_case; no security decision specified for standalone general-method/identity claims.",
+      "publication_availability_is_not_pretrade_proof": true,
+      "claim_kind": "regulatory_holding",
+      "scope": {
+        "speaker_or_reporter": "李录 / Li Lu / Himalaya Capital",
+        "organization": "Himalaya Capital Management LLC",
+        "decision_type": "issuer_ownership_disclosure",
+        "security_or_case_ids": [
+          "LL-C-BYD"
+        ],
+        "position_side": "only explicitly reported side; no short inferred from absence",
+        "horizon": "source/event/holding interval; no invented personal intended horizon",
+        "qualifiers": "See structured_data, exact locator and source-specific limitations."
+      },
+      "provenance_grades": [
+        "P1"
+      ]
+    },
+    {
+      "claim_id": "LL-F-Q226-SCOPE",
+      "text": "Himalaya Q2-2026 filing:8 rows, $3,702,921,098; CCO Paul Teng signs, not Li Lu.",
+      "source_ids": [
+        "LL-S-Q226-COVER",
+        "LL-S-Q226-INDEX"
+      ],
+      "information_date": "2026-06-30",
+      "evidence_type": "manager_regulatory_disclosure",
+      "known_public_by_2025_12_31": false,
+      "confidence": "high",
+      "structured_data": {
+        "entry_count": 8,
+        "reportable_market_value_usd": 3702921098,
+        "signer": "Paul Teng",
+        "signer_role": "Chief Compliance Officer"
+      },
+      "precise_locator": "Q2 2026 cover summaryPage tableEntryTotal8/tableValueTotal3702921098 and signatureBlock Paul Teng; paired index filing/report date fields.",
+      "evidence_record_ids": [
+        "LL-F-Q226-SCOPE-E1",
+        "LL-F-Q226-SCOPE-E2"
+      ],
+      "timing_by_case": [],
+      "timing_labels": [
+        "TU"
+      ],
+      "timing_reference": "See timing_by_case; no security decision specified for standalone general-method/identity claims.",
+      "publication_availability_is_not_pretrade_proof": true,
+      "claim_kind": "regulatory_holding",
+      "scope": {
+        "speaker_or_reporter": "reporting entity, not inferred individual trader",
+        "organization": "Himalaya Capital Management LLC",
+        "decision_type": "manager_regulatory_disclosure",
+        "security_or_case_ids": [],
+        "position_side": "only explicitly reported side; no short inferred from absence",
+        "horizon": "source/event/holding interval; no invented personal intended horizon",
+        "qualifiers": "See structured_data, exact locator and source-specific limitations."
+      },
+      "provenance_grades": [
+        "P1"
+      ]
+    },
+    {
+      "claim_id": "LL-F-Q226-POSITIONS",
+      "text": "Q2-2026 reports Alphabet A/C, Apple, Berkshire B, Crocs, East West, PDD ADS, Tencent MusicADS; BYD H-shares absent from this format.",
+      "source_ids": [
+        "LL-S-Q226-TABLE"
+      ],
+      "information_date": "2026-06-30",
+      "evidence_type": "manager_regulatory_disclosure",
+      "known_public_by_2025_12_31": false,
+      "confidence": "high",
+      "structured_data": null,
+      "precise_locator": "Q2 2026 information table all8 rows: Alphabet A02079K305/C02079K107, Apple037833100, BerkshireB084670702, Crocs227046109, EastWest27579R104, PDD ADS722304102, TencentMusic ADS88034P109; no BYD H-share row.",
+      "evidence_record_ids": [
+        "LL-F-Q226-POSITIONS-E1"
+      ],
+      "timing_by_case": [
+        {
+          "case_id": "LL-C-BYD",
+          "node_id": "LL-C-BYD-N6",
+          "timing_labels": [
+            "T1"
+          ],
+          "reference_interval": "2026-06-30",
+          "note": "Public context, reported observation and original investor explanation are separately scoped; no original initial investor T0 verified."
+        }
+      ],
+      "timing_labels": [
+        "T1"
+      ],
+      "timing_reference": "See timing_by_case; no security decision specified for standalone general-method/identity claims.",
+      "publication_availability_is_not_pretrade_proof": true,
+      "claim_kind": "regulatory_holding",
+      "scope": {
+        "speaker_or_reporter": "reporting entity, not inferred individual trader",
+        "organization": "Himalaya Capital Management LLC",
+        "decision_type": "manager_regulatory_disclosure",
+        "security_or_case_ids": [
+          "LL-C-BYD"
+        ],
+        "position_side": "only explicitly reported side; no short inferred from absence",
+        "horizon": "source/event/holding interval; no invented personal intended horizon",
+        "qualifiers": "See structured_data, exact locator and source-specific limitations."
+      },
+      "provenance_grades": [
+        "P1"
+      ]
+    },
+    {
+      "claim_id": "LL-F-Q425-AMEND",
+      "text": "Q4-2025 amendment 1 restates the table and corrects Alphabet A/C mapping; publicly filedFebruary 2026, hence ineligible forJanuary 2026 views.",
+      "source_ids": [
+        "LL-S-Q425-RESTATEMENT-INDEX",
+        "LL-S-Q425-RESTATEMENT-COVER",
+        "LL-S-Q425-RESTATEMENT-TABLE",
+        "LL-S-Q425-SUPERSEDED"
+      ],
+      "information_date": "2026-02-19",
+      "evidence_type": "regulatory_amendment",
+      "known_public_by_2025_12_31": false,
+      "confidence": "high",
+      "structured_data": {
+        "period": "2025-12-31",
+        "amendment_number": 1,
+        "amendment_type": "restatement",
+        "entries": 9,
+        "market_value_usd": 3568876223
+      },
+      "precise_locator": "Q4 2025 amendment1 cover isAmendment/amendmentTypeRESTATEMENT; amended table Alphabet C02079K107/A02079K305 rows versus superseded original; index Accepted2026-02-18 20:20:40/FilingDate2026-02-19/Report2025-12-31.",
+      "evidence_record_ids": [
+        "LL-F-Q425-AMEND-E1",
+        "LL-F-Q425-AMEND-E2",
+        "LL-F-Q425-AMEND-E3",
+        "LL-F-Q425-AMEND-E4"
+      ],
+      "timing_by_case": [],
+      "timing_labels": [
+        "TU"
+      ],
+      "timing_reference": "See timing_by_case; no security decision specified for standalone general-method/identity claims.",
+      "publication_availability_is_not_pretrade_proof": true,
+      "claim_kind": "issuer_reported_fact",
+      "scope": {
+        "speaker_or_reporter": "reporting entity, not inferred individual trader",
+        "organization": "Himalaya Capital Management LLC",
+        "decision_type": "regulatory_amendment",
+        "security_or_case_ids": [],
+        "position_side": "only explicitly reported side; no short inferred from absence",
+        "horizon": "source/event/holding interval; no invented personal intended horizon",
+        "qualifiers": "See structured_data, exact locator and source-specific limitations."
+      },
+      "provenance_grades": [
+        "P1"
+      ]
+    }
+  ],
+  "rules": [
+    {
+      "rule_id": "LL-R-01",
+      "name": "Epistemic audit before valuation",
+      "basis_claim_ids": [
+        "LL-F-HONESTY",
+        "LL-F-TOOHARD"
+      ],
+      "origin": "Auditor operationalization of cited investor evidence; checklist and scenarios are not quotations or claimed historical procedures.",
+      "operational_steps": [
+        "Separate known, unknown, irrelevant-to-thesis and potential unknown-unknown risks.",
+        "Write the strongest contrary explanation using its best evidence.",
+        "Reject a crucial assumption lacking a defensible evidence path rather than fill it with a sector stereotype."
+      ],
+      "fits": "Deeply understood businesses with honest uncertainty ranges",
+      "does_not_fit": "A fluent narrative masking an essential knowledge gap",
+      "benchmark_2026_start_eligible": true,
+      "hard_numeric_threshold": "Not established unless a cited claim explicitly supplies one.",
+      "basis_source_ids": [
+        "LL-S-COLUMBIA2013"
+      ],
+      "precutoff_evidence_records": [
+        {
+          "source_id": "LL-S-COLUMBIA2013",
+          "published_at": "2013-03",
+          "known_public_by_2025_12_31": true,
+          "access_grade": "A_direct_original_read"
+        }
+      ],
+      "strict_pre2026_eligible": true,
+      "precise_evidence_record_ids": [
+        "LL-F-HONESTY-E1",
+        "LL-F-TOOHARD-E1"
+      ],
+      "precise_claim_anchors": [
+        {
+          "claim_id": "LL-F-HONESTY",
+          "precise_locator": "Columbia Spring2013 interview printed p25, strongest-counterargument/knowledge paragraphs; printed pp31–32 intellectual-honesty four-category paragraphs (rendered lines3631–3637 and3740–3744)."
+        },
+        {
+          "claim_id": "LL-F-TOOHARD",
+          "precise_locator": "Columbia printed p30, three-bucket yes/no/too-hard paragraph (rendered lines3389–3401)."
+        }
+      ],
+      "method_vs_application_boundary": "Source-faithful mechanism below is separate from auditor operational_steps. Contemporary or retrospective case provenance does not become original pre-trade intent."
+    },
+    {
+      "rule_id": "LL-R-02",
+      "name": "Moat and adaptive culture",
+      "basis_claim_ids": [
+        "LL-F-BYD-THESIS"
+      ],
+      "origin": "Auditor operationalization of cited investor evidence; checklist and scenarios are not quotations or claimed historical procedures.",
+      "operational_steps": [
+        "Test concrete repeatable problem-solving, organizational learning, incentives and customer value.",
+        "Separate what was proved at the decision date from what management accomplished later.",
+        "Price the range of outcomes with a margin for mechanisms not yet understood."
+      ],
+      "fits": "Selected changing industries where investor competence is adequate",
+      "does_not_fit": "Excluding every technology business or treating policy support as a guaranteed moat",
+      "benchmark_2026_start_eligible": true,
+      "hard_numeric_threshold": "Not established unless a cited claim explicitly supplies one.",
+      "basis_source_ids": [
+        "LL-S-COLUMBIA2013"
+      ],
+      "precutoff_evidence_records": [
+        {
+          "source_id": "LL-S-COLUMBIA2013",
+          "published_at": "2013-03",
+          "known_public_by_2025_12_31": true,
+          "access_grade": "A_direct_original_read"
+        }
+      ],
+      "strict_pre2026_eligible": true,
+      "precise_evidence_record_ids": [
+        "LL-F-BYD-THESIS-E1"
+      ],
+      "precise_claim_anchors": [
+        {
+          "claim_id": "LL-F-BYD-THESIS",
+          "precise_locator": "Columbia printed p27, Wang/engineering organization and original margin-of-safety paragraph (lines2987–2999); p28 concrete problem-solving/can-do culture (3153–3161); p31 adaptive-culture/change discussion (3480–3505)."
+        }
+      ],
+      "method_vs_application_boundary": "Source-faithful mechanism below is separate from auditor operational_steps. Contemporary or retrospective case provenance does not become original pre-trade intent."
+    },
+    {
+      "rule_id": "LL-R-03",
+      "name": "Opportunity-cost portfolio construction",
+      "basis_claim_ids": [
+        "LL-F-OPPCOST",
+        "LL-F-SELL-OPPCOST"
+      ],
+      "origin": "Auditor operationalization of cited investor evidence; checklist and scenarios are not quotations or claimed historical procedures.",
+      "operational_steps": [
+        "Compare candidate risk-adjusted economics with cash and current holdings.",
+        "Explain the marginal improvement to the whole portfolio rather than chase a target country weight.",
+        "Reassess a holding when a superior alternative or new adverse evidence changes the comparison."
+      ],
+      "fits": "Patient concentrated research with long-duration compatible capital",
+      "does_not_fit": "Forced deployment, fixed geographic quota or never-sell dogma",
+      "benchmark_2026_start_eligible": true,
+      "hard_numeric_threshold": "Not established unless a cited claim explicitly supplies one.",
+      "basis_source_ids": [
+        "LL-S-COLUMBIA2013"
+      ],
+      "precutoff_evidence_records": [
+        {
+          "source_id": "LL-S-COLUMBIA2013",
+          "published_at": "2013-03",
+          "known_public_by_2025_12_31": true,
+          "access_grade": "A_direct_original_read"
+        }
+      ],
+      "strict_pre2026_eligible": true,
+      "precise_evidence_record_ids": [
+        "LL-F-OPPCOST-E1",
+        "LL-F-SELL-OPPCOST-E1"
+      ],
+      "precise_claim_anchors": [
+        {
+          "claim_id": "LL-F-OPPCOST",
+          "precise_locator": "Columbia printed pp28–29, portfolio/opportunity-cost discussion; p29 geographic allocations and cash paragraphs (rendered lines3267–3280)."
+        },
+        {
+          "claim_id": "LL-F-SELL-OPPCOST",
+          "precise_locator": "Columbia printed p32: third occasion for selling, superior alternative and improving portfolio opportunity cost (rendered lines3599–3608)."
+        }
+      ],
+      "method_vs_application_boundary": "Source-faithful mechanism below is separate from auditor operational_steps. Contemporary or retrospective case provenance does not become original pre-trade intent."
+    },
+    {
+      "rule_id": "LL-R-04",
+      "name": "Avoid strategy risk incompatible with the mandate",
+      "basis_claim_ids": [
+        "LL-F-SHORT-ERROR",
+        "LL-F-SHORT-RISK"
+      ],
+      "origin": "Auditor operationalization of cited investor evidence; checklist and scenarios are not quotations or claimed historical procedures.",
+      "operational_steps": [
+        "Separate being factually right from surviving until prices recognize it.",
+        "Stress unlimited-loss, borrow-cost/recall and attention costs when evaluating a short strategy.",
+        "Do not apply the mature long-owner method to the investor’s earlier long/short era without an explicit era tag."
+      ],
+      "fits": "Long business ownership compatible with understanding and loss capacity",
+      "does_not_fit": "Assuming past shorting practice is a current endorsed skill",
+      "benchmark_2026_start_eligible": true,
+      "hard_numeric_threshold": "Not established unless a cited claim explicitly supplies one.",
+      "basis_source_ids": [
+        "LL-S-COLUMBIA2013"
+      ],
+      "precutoff_evidence_records": [
+        {
+          "source_id": "LL-S-COLUMBIA2013",
+          "published_at": "2013-03",
+          "known_public_by_2025_12_31": true,
+          "access_grade": "A_direct_original_read"
+        }
+      ],
+      "strict_pre2026_eligible": true,
+      "precise_evidence_record_ids": [
+        "LL-F-SHORT-ERROR-E1",
+        "LL-F-SHORT-RISK-E1"
+      ],
+      "precise_claim_anchors": [
+        {
+          "claim_id": "LL-F-SHORT-ERROR",
+          "precise_locator": "Columbia printed p26: answer to whether Himalaya still shorts, nine-years-ago cessation and worst-mistake admission (rendered lines2879–2884)."
+        },
+        {
+          "claim_id": "LL-F-SHORT-RISK",
+          "precise_locator": "Columbia printed pp26–27: three disadvantages of shorting, asymmetry/fraud survival/borrowing and diverted attention (rendered lines2891–2918 plus continuation)."
+        }
+      ],
+      "method_vs_application_boundary": "Source-faithful mechanism below is separate from auditor operational_steps. Contemporary or retrospective case provenance does not become original pre-trade intent."
+    }
+  ],
+  "cases": [
+    {
+      "case_id": "LL-C-BYD",
+      "classification": "famous major-success candidate; large long holding/sale documented, exact investor return unknown",
+      "selection_reason": "China technology/manufacturing coverage with original specific-business reasoning and separately verified controlled-fund positions.",
+      "initial_pretrade_original_record": "Not located.2002 entry lead appears in unofficial 2010 lecture notes, not in the accepted 2013 interview’s date facts. Initial trade date, cost and private memo remain unknown.",
+      "business_asset_fit": "Engineer-led adaptive battery/vehicle business, Hong Kong H-share equity; not a generic bet that all ChineseEV firms win.",
+      "chain": [
+        {
+          "node_id": "LL-C-BYD-N1",
+          "event_date": "entry_date_unknown",
+          "publication_date": null,
+          "evidence_stage": "initial_original_record_missing",
+          "claim_ids": [],
+          "notes": "Do not claim 2013 interview itself proves a 2002 entry.",
+          "timing_labels": [
+            "TU"
+          ],
+          "timing_reference": "Actual initial investment decision for retrospective/missing evidence; bounded contemporaneous holding/transaction interval for current reports. Does not turn later filings into initial decision evidence.",
+          "investor_intent_T0_verified": false,
+          "publication_is_predecision_public_context": false,
+          "public_availability_cutoff_eligible": false
+        },
+        {
+          "node_id": "LL-C-BYD-N2",
+          "event_date": "2013",
+          "publication_date": "2013-03",
+          "evidence_stage": "contemporary_postentry_and_retrospective_thesis",
+          "claim_ids": [
+            "LL-F-BYD-THESIS"
+          ],
+          "notes": "Specific engineering/culture/safety-margin explanation; after initial investment.",
+          "timing_labels": [
+            "T1",
+            "T2"
+          ],
+          "timing_reference": "Actual initial investment decision for retrospective/missing evidence; bounded contemporaneous holding/transaction interval for current reports. Does not turn later filings into initial decision evidence.",
+          "investor_intent_T0_verified": false,
+          "publication_is_predecision_public_context": false,
+          "public_availability_cutoff_eligible": true
+        },
+        {
+          "node_id": "LL-C-BYD-N3",
+          "event_date": "2016-01-08",
+          "publication_date": "2016-01",
+          "evidence_stage": "controlled_fund_position",
+          "claim_ids": [
+            "LL-F-BYD-2016",
+            "LL-F-BYD-2016-ANOMALY"
+          ],
+          "notes": "Use verified after-holding/control; event-share field anomaly is not silently corrected.",
+          "timing_labels": [
+            "T1"
+          ],
+          "timing_reference": "Actual initial investment decision for retrospective/missing evidence; bounded contemporaneous holding/transaction interval for current reports. Does not turn later filings into initial decision evidence.",
+          "investor_intent_T0_verified": false,
+          "publication_is_predecision_public_context": false,
+          "public_availability_cutoff_eligible": true
+        },
+        {
+          "node_id": "LL-C-BYD-N4",
+          "event_date": "2019-12-31",
+          "publication_date": "2020-04-21",
+          "evidence_stage": "issuer_independent_ownership_crosscheck",
+          "claim_ids": [
+            "LL-F-BYD2019-INDEPENDENT"
+          ],
+          "notes": "Berkshire and Li Lu capital pools separately identified.",
+          "timing_labels": [
+            "T1"
+          ],
+          "timing_reference": "Actual initial investment decision for retrospective/missing evidence; bounded contemporaneous holding/transaction interval for current reports. Does not turn later filings into initial decision evidence.",
+          "investor_intent_T0_verified": false,
+          "publication_is_predecision_public_context": false,
+          "public_availability_cutoff_eligible": true
+        },
+        {
+          "node_id": "LL-C-BYD-N5",
+          "event_date": "2021-07-08",
+          "publication_date": "2021-07-13",
+          "evidence_stage": "actual_disclosed_sale_and_remaining_position",
+          "claim_ids": [
+            "LL-F-BYD-2021"
+          ],
+          "notes": null,
+          "timing_labels": [
+            "T1"
+          ],
+          "timing_reference": "Actual initial investment decision for retrospective/missing evidence; bounded contemporaneous holding/transaction interval for current reports. Does not turn later filings into initial decision evidence.",
+          "investor_intent_T0_verified": false,
+          "publication_is_predecision_public_context": false,
+          "public_availability_cutoff_eligible": true
+        },
+        {
+          "node_id": "LL-C-BYD-N6",
+          "event_date": "2026-06-30",
+          "publication_date": "2026-08-14",
+          "evidence_stage": "later_US_reporting_scope_check",
+          "claim_ids": [
+            "LL-F-Q226-POSITIONS"
+          ],
+          "notes": "BYD foreign-listing absence does not establish disposal.",
+          "timing_labels": [
+            "T1"
+          ],
+          "timing_reference": "Actual initial investment decision for retrospective/missing evidence; bounded contemporaneous holding/transaction interval for current reports. Does not turn later filings into initial decision evidence.",
+          "investor_intent_T0_verified": false,
+          "publication_is_predecision_public_context": false,
+          "public_availability_cutoff_eligible": false
+        }
+      ],
+      "outcome": "A substantial long-standing controlled-fund holding and 2021 sale are documented; gross proceeds of that sale are aboutHK$1.626bn. Without matched cost and full flows this is not verified realized profit or a fund IRR. Famous-success designation is retrospective, not a statistically tested strategy score.",
+      "attribution_boundary": "Berkshire’s225m-share BYD investment and disclosed returns cannot be used as Li Lu’s cost/return. Similar economic interests and influence do not merge the accounts.",
+      "auditor_test": "At an analogous decision date, test engineering execution and reinvestment economics using only then-public evidence. Check industry competition, capital requirements and governance; future EV success is unavailable to an earlier entry model.",
+      "linked_rule_ids": [
+        "LL-R-01",
+        "LL-R-02",
+        "LL-R-03"
+      ],
+      "accepted_for_coverage": true,
+      "case_scope": "investment/strategy case",
+      "original_initial_investor_pretrade_thesis_verified": false,
+      "timing_coverage": {
+        "case_id": "LL-C-BYD",
+        "investor_id": "LL",
+        "accepted": true,
+        "case_scope": "investment/strategy case",
+        "node_denominator": 6,
+        "node_label_incidence_counts_nonexclusive": {
+          "T0": 0,
+          "T1": 5,
+          "T2": 1,
+          "TU": 1
+        },
+        "has_T0": false,
+        "has_T1": true,
+        "has_T2": true,
+        "has_TU": true,
+        "original_initial_investor_T0_thesis_verified": false,
+        "full_trade_reconstruction": "not established",
+        "missing_initial_pretrade_evidence": true,
+        "T0_scope": null
+      }
+    },
+    {
+      "case_id": "LL-C-SHORTING",
+      "classification": "documented adverse strategy/counterexample, no named-security loss verified",
+      "selection_reason": "His own original 2013 interview provides the strategy error and transition; inventing a namedfailedshort would reduce evidence quality.",
+      "initial_pretrade_original_record": "Unknown. No specific security, borrowing agreement, transaction dates or loss ledger located.",
+      "chain": [
+        {
+          "node_id": "LL-C-SHORTING-N1",
+          "event_date": "before_approximately_2004",
+          "publication_date": "2013-03",
+          "evidence_stage": "retrospectively_reported_short_strategy",
+          "claim_ids": [
+            "LL-F-SHORT-ERROR"
+          ],
+          "notes": null,
+          "timing_labels": [
+            "T2"
+          ],
+          "timing_reference": "Actual initial investment decision for retrospective/missing evidence; bounded contemporaneous holding/transaction interval for current reports. Does not turn later filings into initial decision evidence.",
+          "investor_intent_T0_verified": false,
+          "publication_is_predecision_public_context": false,
+          "public_availability_cutoff_eligible": true
+        },
+        {
+          "node_id": "LL-C-SHORTING-N2",
+          "event_date": "approximately_2004",
+          "publication_date": "2013-03",
+          "evidence_stage": "retrospectively_reported_abandonment",
+          "claim_ids": [
+            "LL-F-SHORT-ERROR"
+          ],
+          "notes": "Year is inferred from nine years earlier; not a verified exact cessation date.",
+          "timing_labels": [
+            "T2"
+          ],
+          "timing_reference": "Actual initial investment decision for retrospective/missing evidence; bounded contemporaneous holding/transaction interval for current reports. Does not turn later filings into initial decision evidence.",
+          "investor_intent_T0_verified": false,
+          "publication_is_predecision_public_context": false,
+          "public_availability_cutoff_eligible": true
+        },
+        {
+          "node_id": "LL-C-SHORTING-N3",
+          "event_date": "2013",
+          "publication_date": "2013-03",
+          "evidence_stage": "original_public_error_diagnosis",
+          "claim_ids": [
+            "LL-F-SHORT-ERROR",
+            "LL-F-SHORT-RISK"
+          ],
+          "notes": null,
+          "timing_labels": [
+            "T2"
+          ],
+          "timing_reference": "Actual initial investment decision for retrospective/missing evidence; bounded contemporaneous holding/transaction interval for current reports. Does not turn later filings into initial decision evidence.",
+          "investor_intent_T0_verified": false,
+          "publication_is_predecision_public_context": false,
+          "public_availability_cutoff_eligible": true
+        }
+      ],
+      "outcome": "Adverse strategy self-assessment is documented; specific realized loss and a major monetary failure are unknown. This is not counted as an independently verified namedtrade loss.",
+      "position_crosscheck_limit": "13F excludes shorts. Later absence of a short book in13F cannot independently prove that he stopped shorting; the original interview is the relevant evidence.",
+      "auditor_test": "Before any short thesis, distinguish truth from timing and capital survival. A sophisticated business critique still fails if borrowing costs, duration or unlimited losses overwhelm capital.",
+      "linked_rule_ids": [
+        "LL-R-04"
+      ],
+      "accepted_for_coverage": true,
+      "case_scope": "investment/strategy case",
+      "original_initial_investor_pretrade_thesis_verified": false,
+      "timing_coverage": {
+        "case_id": "LL-C-SHORTING",
+        "investor_id": "LL",
+        "accepted": true,
+        "case_scope": "investment/strategy case",
+        "node_denominator": 3,
+        "node_label_incidence_counts_nonexclusive": {
+          "T0": 0,
+          "T1": 0,
+          "T2": 3,
+          "TU": 0
+        },
+        "has_T0": false,
+        "has_T1": false,
+        "has_T2": true,
+        "has_TU": false,
+        "original_initial_investor_T0_thesis_verified": false,
+        "full_trade_reconstruction": "not established",
+        "missing_initial_pretrade_evidence": true,
+        "T0_scope": null
+      }
+    }
+  ],
+  "statement_position_crosschecks": [
+    {
+      "check_id": "LL-X-01",
+      "status": "compatible_but_not_intent_proof",
+      "claim_ids": [
+        "LL-F-BYD-THESIS",
+        "LL-F-BYD-2016",
+        "LL-F-BYD-2021"
+      ],
+      "assessment": "Long holding and partialsale are compatible with business ownership and opportunity cost. Actual 2021 sale motive is not disclosed in the notification; price, flows, mandate, hedge or reallocation explanations remain hypotheses."
+    },
+    {
+      "check_id": "LL-X-02",
+      "status": "scope_explains_absence",
+      "claim_ids": [
+        "LL-F-BYD-2021",
+        "LL-F-Q226-POSITIONS"
+      ],
+      "assessment": "BYD H-shares need not appear inUS 13F. MissingUSrow does not establish zero global exposure."
+    },
+    {
+      "check_id": "LL-X-03",
+      "status": "stereotype_rejected",
+      "claim_ids": [
+        "LL-F-TOOHARD",
+        "LL-F-BYD-THESIS",
+        "LL-F-Q226-POSITIONS"
+      ],
+      "assessment": "AChina-only or anti-technology persona is incompatible with original methodology and reportedUS/ChinaADR classes. It does not follow that he endorses everycurrentreportedstock personally."
+    },
+    {
+      "check_id": "LL-X-04",
+      "status": "historical_data_corrected",
+      "claim_ids": [
+        "LL-F-Q425-AMEND"
+      ],
+      "assessment": "Use amended class mapping for audit comparisons; neither original nor amendedQ4table was public by 2025-12-31."
+    }
+  ],
+  "unknowns": [
+    "No verified initialBYD pre-trade memo or exact original cost basis.",
+    "2002 BYDentry remains an unofficiallecture-note lead here; not promoted to primary-verified fact.",
+    "Named short security, exact stop date and monetary loss unknown.",
+    "No audited full Himalaya return history or global portfolio reconstruction.",
+    "Actual 2021 BYDsale motivation unknown.",
+    "2016 HKEX eventsharefield versus holdingdelta discrepancy unresolved.",
+    "Official 2010/2015/2023/2024 CDN PDF fulltext access failed; no claims based on pretending these were read."
+  ],
+  "search_coverage": {
+    "bounded_window": "2026-10-13 session: officialEnglish/Chinese Himalaya pages/catalog; originalColumbiaSpring 2013 interview; readableHKEX 2016/2021 notices; issuer 2019 indexedextract; original/ amendedQ4-2025 andQ2-2026 SECtables; official 2024 speech 2026 uploadmetadata.",
+    "not_searched_exhaustively": [
+      "All global holdingsnotices",
+      "All private partner letters",
+      "Every Chinese blog retelling orlecture recording"
+    ],
+    "source_failures": [
+      "Official Himalaya CDNpublic PDFs returned access errors; originalColumbia publisher copy used for 2013.",
+      "BYD 2019 fullPDF exceedswebtool file-size limit.",
+      "Some legacyHKEXurlsfailed; successfulexact query URLs retained."
+    ]
+  },
+  "identity": {
+    "chinese_name": "李录",
+    "english_name": "Li Lu",
+    "entity_names": {
+      "adviser": "Himalaya Capital Management LLC",
+      "cik": "0001709323",
+      "crd": "157594",
+      "sec_registration": "801-72763",
+      "BYD_holder": "Himalaya Capital Investors, L.P. (formerly LL Investment Partners, L.P.)",
+      "control_entity": "LL Group, LLC"
+    },
+    "roles": "Founder and chairman of Himalaya; official biography states principal-fund management since 1997. The 2013 interview documents16years running Himalaya, independently consistent with that history.",
+    "basis_claim_ids": [
+      "LL-F-IDENTITY",
+      "LL-F-BYD-2016"
+    ],
+    "mandate_and_era": "Early long/short activity was abandoned around 2004 according to the 2013 interview. Later business-owner framework should not be imputed unchanged to the 1997 start. Current official mandate has geographic/business focus, not a rule of buying every Chinese company.",
+    "personal_vs_fund": "Controlled corporate beneficial interests and adviser reports do not equal Li Lu’s wholly personal capital or every decision he made."
+  },
+  "fit_and_no_fit": {
+    "fit": "Auditor interpretation: businesses allowing deep research into durable advantage, adaptive organization and trustworthy capital allocation. BYD demonstrates that significant technological change can fit when the specific competence and price argument are established.",
+    "no_fit": "Opaque technical or managerial facts crucial to valuation, short positions requiring timely market recognition, or a company justified only by geography/industrial-policy narrative. A learning culture is evidence to investigate, not proof of every future outcome.",
+    "basis_claim_ids": [
+      "LL-F-HONESTY",
+      "LL-F-TOOHARD",
+      "LL-F-BYD-THESIS",
+      "LL-F-SHORT-RISK",
+      "LL-F-OPPCOST"
+    ]
+  },
+  "disclosed_snapshot": {
+    "asof": "2026-06-30",
+    "filed": "2026-08-14",
+    "benchmark_2026_start_eligible": false,
+    "source_ids": [
+      "LL-S-Q226-TABLE",
+      "LL-S-Q226-COVER"
+    ],
+    "rows": [
+      {
+        "issuer": "Alphabet",
+        "class": "A",
+        "cusip": "02079K305",
+        "shares": 2543300,
+        "market_value_usd": 908899121
+      },
+      {
+        "issuer": "Alphabet",
+        "class": "C",
+        "cusip": "02079K107",
+        "shares": 2451300,
+        "market_value_usd": 866117829
+      },
+      {
+        "issuer": "Apple",
+        "class": "Common",
+        "cusip": "037833100",
+        "shares": 110600,
+        "market_value_usd": 32003216
+      },
+      {
+        "issuer": "Berkshire Hathaway",
+        "class": "B",
+        "cusip": "084670702",
+        "shares": 1108318,
+        "market_value_usd": 554591244
+      },
+      {
+        "issuer": "Crocs",
+        "class": "Common",
+        "cusip": "227046109",
+        "shares": 887093,
+        "market_value_usd": 107018900
+      },
+      {
+        "issuer": "East West Bancorp",
+        "class": "Common",
+        "cusip": "27579R104",
+        "shares": 2776351,
+        "market_value_usd": 358399151
+      },
+      {
+        "issuer": "PDD Holdings",
+        "class": "Sponsored ADS",
+        "cusip": "722304102",
+        "shares": 10761119,
+        "market_value_usd": 820858157
+      },
+      {
+        "issuer": "Tencent Music",
+        "class": "Sponsored ADS",
+        "cusip": "88034P109",
+        "shares": 6590836,
+        "market_value_usd": 55033481
+      }
+    ],
+    "row_count_not_issuer_count": "8classes,7issuers because Alphabet has two classes.",
+    "total_reportable_market_value_usd": 3702921098,
+    "row_sum_market_value_usd": 3702921099,
+    "row_sum_minus_cover_usd": 1,
+    "cover_row_reconciliation": "Published row values sum $1 above the cover total; preserve both, likely rounding but cause not independently established.",
+    "not_total_aum": true
+  },
+  "disclosure": {
+    "formats": [
+      "SEC 13FUS reportable holdings",
+      "HKEX substantial-interest notices",
+      "Issuer annual substantial-shareholder tables",
+      "Selective public speeches/interviews"
+    ],
+    "US_vs_global": "US 13F is only a slice; foreignBYD H-shares, cash, private positions and shorts are not reconstructible from it.8rows are7issuers.",
+    "lag": "Q2-2026 filedAug14; Q4-2025 restatedFeb19,2026. Neither is start 2026 decisioninformation.",
+    "attribution": "HKEXcontrolchain ties disclosedBYD beneficial interests to Li Lu-controlled entities. Manager-level13Fdiscretion and CCO signature do not prove a particular human decision or motive."
+  },
+  "delivery_status": "corrective_round1_final; pending independent re-review",
+  "completed_at_utc": "2026-10-13T17:07:22Z",
+  "source_availability_policy": "Strict historical method use requires both public availability by 2025-12-31 and an accepted original source. Current identity, mandate, holdings, amendments and late uploads are explicitly separate. Historical case results never become entry-time features.",
+  "original_works_provenance": [
+    {
+      "work": "2010 Chinese foreword to Poor Charlie’s Almanack",
+      "catalog_source_id": "LL-S-PUBLICATIONS",
+      "full_text_verified": false,
+      "use": "Original title/provenance lead only; no substantive rules extracted."
+    },
+    {
+      "work": "2015-10-23 Peking University speech",
+      "catalog_source_id": "LL-S-PUBLICATIONS",
+      "full_text_verified": false,
+      "use": "Original-source lead only."
+    },
+    {
+      "work": "文明、现代化、价值投资与中国, May 2020",
+      "catalog_source_id": "LL-S-PUBLICATIONS",
+      "full_text_verified": false,
+      "use": "Book bibliographic metadata only; no private upload or claimed full reading."
+    },
+    {
+      "work": "2023-11-30 Munger tribute and 2024-12-07 Chinese speech",
+      "catalog_source_id": "LL-S-PUBLICATIONS",
+      "full_text_verified": false,
+      "use": "Catalog/video publication-date audit only; no substantive rule extracted."
+    }
+  ],
+  "source_coverage_denominator": {
+    "unit": "listed source records only; search found/read counts are not a census of lifetime publications",
+    "total_found": 16,
+    "by_family": [
+      {
+        "source_family": "authorized_original_interview_transcript",
+        "found": 1,
+        "read_full_original": 1,
+        "read_substantive_excerpt_or_metadata_only": 0,
+        "not_original_verified_or_metadata_only": 0,
+        "full_original_unavailable_or_unreviewed": 0,
+        "source_ids": [
+          "LL-S-COLUMBIA2013"
+        ]
+      },
+      {
+        "source_family": "issuer_business_transaction_or_financial_report",
+        "found": 1,
+        "read_full_original": 0,
+        "read_substantive_excerpt_or_metadata_only": 1,
+        "not_original_verified_or_metadata_only": 0,
+        "full_original_unavailable_or_unreviewed": 1,
+        "source_ids": [
+          "LL-S-BYD2019-AR"
+        ]
+      },
+      {
+        "source_family": "official_fund_identity_mandate_page",
+        "found": 2,
+        "read_full_original": 2,
+        "read_substantive_excerpt_or_metadata_only": 0,
+        "not_original_verified_or_metadata_only": 0,
+        "full_original_unavailable_or_unreviewed": 0,
+        "source_ids": [
+          "LL-S-HOME-EN",
+          "LL-S-HOME-CN"
+        ]
+      },
+      {
+        "source_family": "official_original_works_catalog",
+        "found": 1,
+        "read_full_original": 1,
+        "read_substantive_excerpt_or_metadata_only": 0,
+        "not_original_verified_or_metadata_only": 0,
+        "full_original_unavailable_or_unreviewed": 0,
+        "source_ids": [
+          "LL-S-PUBLICATIONS"
+        ]
+      },
+      {
+        "source_family": "official_speech_video_metadata",
+        "found": 1,
+        "read_full_original": 0,
+        "read_substantive_excerpt_or_metadata_only": 0,
+        "not_original_verified_or_metadata_only": 1,
+        "full_original_unavailable_or_unreviewed": 1,
+        "source_ids": [
+          "LL-S-2024-VIDEO"
+        ]
+      },
+      {
+        "source_family": "regulator_beneficial_ownership_notification",
+        "found": 2,
+        "read_full_original": 2,
+        "read_substantive_excerpt_or_metadata_only": 0,
+        "not_original_verified_or_metadata_only": 0,
+        "full_original_unavailable_or_unreviewed": 0,
+        "source_ids": [
+          "LL-S-BYD2016-INDIVIDUAL",
+          "LL-S-BYD2021-SALE"
+        ]
+      },
+      {
+        "source_family": "regulator_manager_holdings_filing",
+        "found": 7,
+        "read_full_original": 7,
+        "read_substantive_excerpt_or_metadata_only": 0,
+        "not_original_verified_or_metadata_only": 0,
+        "full_original_unavailable_or_unreviewed": 0,
+        "source_ids": [
+          "LL-S-Q226-INDEX",
+          "LL-S-Q226-COVER",
+          "LL-S-Q226-TABLE",
+          "LL-S-Q425-RESTATEMENT-INDEX",
+          "LL-S-Q425-RESTATEMENT-COVER",
+          "LL-S-Q425-RESTATEMENT-TABLE",
+          "LL-S-Q425-SUPERSEDED"
+        ]
+      },
+      {
+        "source_family": "secondary_discovery_compilation",
+        "found": 1,
+        "read_full_original": 0,
+        "read_substantive_excerpt_or_metadata_only": 0,
+        "not_original_verified_or_metadata_only": 1,
+        "full_original_unavailable_or_unreviewed": 1,
+        "source_ids": [
+          "LL-S-2010-NOTES"
+        ]
+      }
+    ],
+    "catalog_fulltext_attempts_outside_registry": 4,
+    "catalog_attempts_note": "Four official catalog-linked 2010/2015/2023/2024 originals were unavailable for full-text reading; catalog record is counted once, these leads separately. The2020 book was metadata only, not a failed private/full-book hunt."
+  },
+  "rework_ledger": {
+    "task_id": "V2-B-fundamental",
+    "corrective_submission": 1,
+    "maximum_corrective_rounds": 3,
+    "review0_verdict": "PARTIAL",
+    "addresses": [
+      "F-01",
+      "F-02",
+      "F-03"
+    ],
+    "current_acceptance": "Corrective round1 submitted for independent re-review; no self-issued full gate pass."
+  }
+}

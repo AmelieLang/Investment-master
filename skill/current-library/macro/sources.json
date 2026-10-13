@@ -1,0 +1,1054 @@
+{
+  "as_of": "2026-10-13",
+  "source_count": 55,
+  "sources": [
+    {
+      "id": "COM-13F",
+      "title": "SEC: Frequently Asked Questions About Form 13F",
+      "url": "https://www.sec.gov/rules-regulations/staff-guidance/frequently-asked-questions-about-form-13f",
+      "date": "updated 2026-03-06",
+      "kind": "regulatory primary",
+      "access": "inspected",
+      "limits": "Read the FAQ with the contemporaneous form instructions; never infer a complete risk book.",
+      "locator": "",
+      "retrieved_at": "2026-10-13",
+      "source_date_semantics": "The date field may describe an original event/report. Use publication_visibility below for temporal decision-packet eligibility.",
+      "publication_visibility": {
+        "original_publication_or_filing_date": "2026-03-06",
+        "date_precision": "day",
+        "public_republication_date": "unknown where current author/firm page is a republication",
+        "eligibility_before_2026": "excluded_post_cutoff",
+        "provenance_caveat": "A dated original first-person source reproduced on a current host is not an immutable archive of every historical version."
+      }
+    },
+    {
+      "id": "DAL-01",
+      "title": "Bridgewater: Our Founder",
+      "url": "https://www.bridgewater.com/our-founder",
+      "date": "undated current page",
+      "kind": "firm primary",
+      "access": "inspected",
+      "limits": "Biography and current role, not an audited investment attribution ledger.",
+      "locator": "",
+      "retrieved_at": "2026-10-13",
+      "source_date_semantics": "The date field may describe an original event/report. Use publication_visibility below for temporal decision-packet eligibility.",
+      "publication_visibility": {
+        "original_publication_or_filing_date": null,
+        "date_precision": "unknown current page",
+        "eligibility_before_2026": "unverified_current_version_exclude_unless_replaced_by_dated_source",
+        "basis": "Original historical facts may predate cutoff, but this current webpage version has no authenticated pre-2026 publication date."
+      }
+    },
+    {
+      "id": "DAL-02",
+      "title": "Bridgewater: Completed Transition",
+      "url": "https://www.bridgewater.com/people/bridgewaters-completed-transition",
+      "date": "2022-10-04",
+      "kind": "firm primary",
+      "access": "inspected",
+      "limits": "Original client announcement of governance/control transition.",
+      "locator": "",
+      "retrieved_at": "2026-10-13",
+      "source_date_semantics": "The date field may describe an original event/report. Use publication_visibility below for temporal decision-packet eligibility.",
+      "publication_visibility": {
+        "original_publication_or_filing_date": "2022-10-04",
+        "date_precision": "day",
+        "public_republication_date": "unknown where current author/firm page is a republication",
+        "eligibility_before_2026": "eligible_dated_original_content",
+        "provenance_caveat": "A dated original first-person source reproduced on a current host is not an immutable archive of every historical version."
+      }
+    },
+    {
+      "id": "DAL-03",
+      "title": "Ray Dalio: Principles for Navigating Big Debt Crises",
+      "url": "https://www.bridgewater.com/big-debt-crises/principles-for-navigating-big-debt-crises-by-ray-dalio.pdf",
+      "date": "2018",
+      "kind": "author book on firm site",
+      "access": "selected sections inspected",
+      "limits": "Full PDF downloaded and text extracted; selected relevant sections, not every page reviewed. SHA256 7730b3be98d735950c28b1e47c8f9ca289b85d6c7588afdbd7c2cba63160ddb9.",
+      "locator": "Printed/PDF pp.9 and 13: How I Think about Credit and Debt; The Template for the Archetypal Long-Term/Big Debt Cycle | Printed/PDF p.12: Can Most Debt Crises Be Managed so There Aren’t Big Problems?; four-lever list and following balance discussion",
+      "retrieved_at": "2026-10-13",
+      "source_date_semantics": "The date field may describe an original event/report. Use publication_visibility below for temporal decision-packet eligibility.",
+      "publication_visibility": {
+        "original_publication_or_filing_date": null,
+        "latest_pre2026_bound": "2018-12-31",
+        "date_precision": "bounded year/month",
+        "basis": "Book dated 2018; exact public-release day not established here.",
+        "eligibility_before_2026": "eligible_bounded_original_content"
+      }
+    },
+    {
+      "id": "DAL-04",
+      "title": "Bridgewater: Understanding History, A Review of the 2008 Financial Crisis",
+      "url": "https://www.bridgewater.com/%20debt-crisis",
+      "date": "current retrospective timeline with dated 2007-2012 excerpts",
+      "kind": "firm republication of original research",
+      "access": "inspected dated selections",
+      "limits": "Original 2007/08 observation dates displayed; original client-distribution artifacts and immutable precrisis archive not obtained.",
+      "locator": "2007-02-05; 2007-07-26; 2008-01-31; 2008-04-02; 2008-08-18; 2008-09-15",
+      "retrieved_at": "2026-10-13",
+      "source_date_semantics": "The date field may describe an original event/report. Use publication_visibility below for temporal decision-packet eligibility.",
+      "publication_visibility": {
+        "original_publication_or_filing_date": null,
+        "date_precision": "unknown current page",
+        "eligibility_before_2026": "unverified_current_version_exclude_unless_replaced_by_dated_source",
+        "basis": "Original historical facts may predate cutoff, but this current webpage version has no authenticated pre-2026 publication date."
+      }
+    },
+    {
+      "id": "DAL-05",
+      "title": "Bridgewater: The All Weather Story",
+      "url": "https://www.bridgewater.com/resources/all-weather-story.pdf",
+      "date": "2012-01 (document cover)",
+      "kind": "firm primary",
+      "access": "inspected",
+      "limits": "Explains strategy design; does not publish a complete live institutional allocation formula.",
+      "locator": "Printed/PDF pp.5-6: Balancing Growth and Inflation; four-box diagram and equal-risk discussion",
+      "retrieved_at": "2026-10-13",
+      "source_date_semantics": "The date field may describe an original event/report. Use publication_visibility below for temporal decision-packet eligibility.",
+      "publication_visibility": {
+        "original_publication_or_filing_date": null,
+        "latest_pre2026_bound": "2012-01-31",
+        "date_precision": "document month",
+        "basis": "Cover explicitly dated January 2012; not inferred merely from copyright or URL.",
+        "eligibility_before_2026": "eligible_dated_document_month",
+        "provenance_caveat": "Current official copy inspected; immutable original distribution snapshot not obtained."
+      }
+    },
+    {
+      "id": "DAL-06",
+      "title": "Fortune: Bridgewater / Ray Dalio profile",
+      "url": "https://fortune.com/2009/03/19/bridgewater-ray-dalio/",
+      "date": "2009-03-19",
+      "kind": "contemporary secondary reporting",
+      "access": "inspected",
+      "limits": "Outcome corroboration, not independently audited fund statement; gross and net returns distinct.",
+      "locator": "",
+      "retrieved_at": "2026-10-13",
+      "source_date_semantics": "The date field may describe an original event/report. Use publication_visibility below for temporal decision-packet eligibility.",
+      "publication_visibility": {
+        "original_publication_or_filing_date": "2009-03-19",
+        "date_precision": "day",
+        "public_republication_date": "unknown where current author/firm page is a republication",
+        "eligibility_before_2026": "eligible_dated_original_content",
+        "provenance_caveat": "A dated original first-person source reproduced on a current host is not an immutable archive of every historical version."
+      }
+    },
+    {
+      "id": "DAL-07",
+      "title": "Ray Dalio Commentary: Our Performance",
+      "url": "https://www.gurufocus.com/news/1079552/ray-dalio-commentary-our-performance",
+      "date": "2020-03-19; letter described as sent 2020-03-18",
+      "kind": "first-person client-letter reproduction on third-party site",
+      "access": "inspected",
+      "limits": "Primary text via secondary host; original signed client letter not obtained. Estimates, strategy-specific volatility targets and net returns.",
+      "locator": "Post-letter disclosure beginning Bridgewater Daily Observations; second paragraph beginning Additionally",
+      "retrieved_at": "2026-10-13",
+      "source_date_semantics": "The date field may describe an original event/report. Use publication_visibility below for temporal decision-packet eligibility.",
+      "publication_visibility": {
+        "original_publication_or_filing_date": "2020-03-19",
+        "date_precision": "day",
+        "public_republication_date": "unknown where current author/firm page is a republication",
+        "eligibility_before_2026": "eligible_dated_original_content",
+        "provenance_caveat": "A dated original first-person source reproduced on a current host is not an immutable archive of every historical version."
+      }
+    },
+    {
+      "id": "DAL-08",
+      "title": "Reuters: Bridgewater hedge funds fall further on coronavirus market rout",
+      "url": "https://kfgo.com/2020/03/18/bridgewater-hedge-funds-fall-further-on-coronavirus-market-rout/",
+      "date": "2020-03-18",
+      "kind": "contemporary secondary with reporter viewing client note",
+      "access": "inspected",
+      "limits": "Independent journalistic corroboration, not a position ledger or audited performance report.",
+      "locator": "",
+      "retrieved_at": "2026-10-13",
+      "source_date_semantics": "The date field may describe an original event/report. Use publication_visibility below for temporal decision-packet eligibility.",
+      "publication_visibility": {
+        "original_publication_or_filing_date": "2020-03-18",
+        "date_precision": "day",
+        "public_republication_date": "unknown where current author/firm page is a republication",
+        "eligibility_before_2026": "eligible_dated_original_content",
+        "provenance_caveat": "A dated original first-person source reproduced on a current host is not an immutable archive of every historical version."
+      }
+    },
+    {
+      "id": "DAL-09",
+      "title": "Bridgewater: The Crisis Is Accelerating the New Paradigm",
+      "url": "https://www.bridgewater.com/research-and-insights/the-crisis-is-accelerating-the-new-paradigm",
+      "date": "2020-03-30",
+      "kind": "firm research primary",
+      "access": "inspected",
+      "limits": "After the March losses, not January predecision evidence.",
+      "locator": "",
+      "retrieved_at": "2026-10-13",
+      "source_date_semantics": "The date field may describe an original event/report. Use publication_visibility below for temporal decision-packet eligibility.",
+      "publication_visibility": {
+        "original_publication_or_filing_date": "2020-03-30",
+        "date_precision": "day",
+        "public_republication_date": "unknown where current author/firm page is a republication",
+        "eligibility_before_2026": "eligible_dated_original_content",
+        "provenance_caveat": "A dated original first-person source reproduced on a current host is not an immutable archive of every historical version."
+      }
+    },
+    {
+      "id": "DAL-10",
+      "title": "Bridgewater: Thinking Through the Wide Range of Possible Economic Outcomes",
+      "url": "https://www.bridgewater.com/thinking-through-the-wide-range-of-possible-economic-outcomes",
+      "date": "2020-04-27",
+      "kind": "firm research primary",
+      "access": "inspected",
+      "limits": "Post-shock risk framework, not a reconstructed pretrade letter.",
+      "locator": "End disclosure: paragraph beginning Additionally, following research-purpose paragraph | Opening body paragraphs on portfolio construction under uncertainty and cross-country scenario learning; before the first section on the economic shock’s follow-on effects",
+      "retrieved_at": "2026-10-13",
+      "source_date_semantics": "The date field may describe an original event/report. Use publication_visibility below for temporal decision-packet eligibility.",
+      "publication_visibility": {
+        "original_publication_or_filing_date": "2020-04-27",
+        "date_precision": "day",
+        "public_republication_date": "unknown where current author/firm page is a republication",
+        "eligibility_before_2026": "eligible_dated_original_content",
+        "provenance_caveat": "A dated original first-person source reproduced on a current host is not an immutable archive of every historical version."
+      }
+    },
+    {
+      "id": "DAL-11",
+      "title": "Reuters: Dalio denies net-bearish interpretation of reported puts",
+      "url": "https://finance.yahoo.com/news/1-ray-dalio-denies-report-175940028.html",
+      "date": "2019-11-22",
+      "kind": "contemporary secondary with direct statement",
+      "access": "inspected",
+      "limits": "Neither the full hedge book nor net risk independently disclosed.",
+      "locator": "",
+      "retrieved_at": "2026-10-13",
+      "source_date_semantics": "The date field may describe an original event/report. Use publication_visibility below for temporal decision-packet eligibility.",
+      "publication_visibility": {
+        "original_publication_or_filing_date": "2019-11-22",
+        "date_precision": "day",
+        "public_republication_date": "unknown where current author/firm page is a republication",
+        "eligibility_before_2026": "eligible_dated_original_content",
+        "provenance_caveat": "A dated original first-person source reproduced on a current host is not an immutable archive of every historical version."
+      }
+    },
+    {
+      "id": "DAL-12",
+      "title": "Ray Dalio: Cash Is Trash in 2020, CNBC interview clip/transcript mirror",
+      "url": "https://acquirersmultiple.com/2020/01/ray-dalio-cash-is-trash-in-2020/",
+      "date": "2020-01-23; interview 2020-01-21",
+      "kind": "third-party reproduction of public interview",
+      "access": "inspected",
+      "limits": "CNBC original page access denied; no bypass attempted. Qualified mirror, not authenticated January client-position decision.",
+      "locator": "",
+      "retrieved_at": "2026-10-13",
+      "source_date_semantics": "The date field may describe an original event/report. Use publication_visibility below for temporal decision-packet eligibility.",
+      "publication_visibility": {
+        "original_publication_or_filing_date": "2020-01-23",
+        "date_precision": "day",
+        "public_republication_date": "unknown where current author/firm page is a republication",
+        "eligibility_before_2026": "eligible_dated_original_content",
+        "provenance_caveat": "A dated original first-person source reproduced on a current host is not an immutable archive of every historical version."
+      }
+    },
+    {
+      "id": "DAL-13",
+      "title": "Ray Dalio: Principles for Dealing with the Changing World Order, publisher catalog",
+      "url": "https://www.simonandschuster.com/books/Principles-for-Dealing-with-the-Changing-World-Order/Ray-Dalio/Principles/9781982160272",
+      "date": "2021",
+      "kind": "official publisher catalog",
+      "access": "inventory only",
+      "limits": "Do not claim the full book was read.",
+      "locator": "",
+      "retrieved_at": "2026-10-13",
+      "source_date_semantics": "The date field may describe an original event/report. Use publication_visibility below for temporal decision-packet eligibility.",
+      "publication_visibility": {
+        "original_publication_or_filing_date": null,
+        "latest_pre2026_bound": "2021-12-31",
+        "date_precision": "bounded year/month",
+        "basis": "Catalog identifies 2021 book; inventory only.",
+        "eligibility_before_2026": "inventory_only_not_decision_evidence"
+      }
+    },
+    {
+      "id": "DAL-14",
+      "title": "Ray Dalio: How Countries Go Broke",
+      "url": "https://economicprinciples.org/downloads/How-Countries-Go-Broke.pdf",
+      "date": "2025",
+      "kind": "author-hosted book link",
+      "access": "inventory only",
+      "limits": "Link redirected in web retrieval; full contents not inspected.",
+      "locator": "",
+      "retrieved_at": "2026-10-13",
+      "source_date_semantics": "The date field may describe an original event/report. Use publication_visibility below for temporal decision-packet eligibility.",
+      "publication_visibility": {
+        "original_publication_or_filing_date": null,
+        "latest_pre2026_bound": "2025-12-31",
+        "date_precision": "bounded year/month",
+        "basis": "Catalog identifies 2025 book; inventory only, contents unreviewed.",
+        "eligibility_before_2026": "inventory_only_not_decision_evidence"
+      }
+    },
+    {
+      "id": "DAL-15",
+      "title": "Ray Dalio: Author inventory of economic-machine and other resources",
+      "url": "https://raydalio.substack.com/p/what-i-have-for-you",
+      "date": "undated catalog",
+      "kind": "author primary catalog",
+      "access": "inventory only",
+      "limits": "Catalog discovery only; original 2013 video and every linked resource not reviewed.",
+      "locator": "",
+      "retrieved_at": "2026-10-13",
+      "source_date_semantics": "The date field may describe an original event/report. Use publication_visibility below for temporal decision-packet eligibility.",
+      "publication_visibility": {
+        "original_publication_or_filing_date": null,
+        "date_precision": "unknown current page",
+        "eligibility_before_2026": "inventory_only_not_decision_evidence",
+        "basis": "Original historical facts may predate cutoff, but this current webpage version has no authenticated pre-2026 publication date."
+      }
+    },
+    {
+      "id": "DAL-16",
+      "title": "Congressional Record reproducing a contemporaneous 1982 Dalio view",
+      "url": "https://www.govinfo.gov/content/pkg/GPO-CRECB-1982-pt11/pdf/GPO-CRECB-1982-pt11-9-2.pdf",
+      "date": "1982-06-29",
+      "kind": "government record containing secondary news quotation",
+      "access": "search extract only",
+      "limits": "Large PDF exceeds web retrieval limit; cannot claim full-page inspection. Supplementary candidate only.",
+      "locator": "p.15299",
+      "retrieved_at": "2026-10-13",
+      "source_date_semantics": "The date field may describe an original event/report. Use publication_visibility below for temporal decision-packet eligibility.",
+      "publication_visibility": {
+        "original_publication_or_filing_date": "1982-06-29",
+        "date_precision": "day",
+        "public_republication_date": "unknown where current author/firm page is a republication",
+        "eligibility_before_2026": "eligible_dated_original_content",
+        "provenance_caveat": "A dated original first-person source reproduced on a current host is not an immutable archive of every historical version."
+      }
+    },
+    {
+      "id": "DAL-17",
+      "title": "Institutional Investor: The Education of Ray Dalio",
+      "url": "https://www.institutionalinvestor.com/article/2bsvvqs6ph9xpipo69jb4/portfolio/the-education-of-ray-dalio",
+      "date": "2017",
+      "kind": "edited first-person interview / secondary publication",
+      "access": "selected excerpts inspected",
+      "limits": "1982 mistake recounted decades later; not pretrade positions.",
+      "locator": "",
+      "retrieved_at": "2026-10-13",
+      "source_date_semantics": "The date field may describe an original event/report. Use publication_visibility below for temporal decision-packet eligibility.",
+      "publication_visibility": {
+        "original_publication_or_filing_date": null,
+        "latest_pre2026_bound": "2017-12-31",
+        "date_precision": "bounded year/month",
+        "basis": "2017 edited interview; exact publication day not established in this audit.",
+        "eligibility_before_2026": "eligible_bounded_original_content"
+      }
+    },
+    {
+      "id": "SOR-01",
+      "title": "George Soros: Books catalog",
+      "url": "https://www.georgesoros.com/books/",
+      "date": "current catalog",
+      "kind": "author primary catalog",
+      "access": "inspected catalog",
+      "limits": "Edition descriptions may contain later events; catalog date is not proof that all displayed text existed in the original edition.",
+      "locator": "",
+      "retrieved_at": "2026-10-13",
+      "source_date_semantics": "The date field may describe an original event/report. Use publication_visibility below for temporal decision-packet eligibility.",
+      "publication_visibility": {
+        "original_publication_or_filing_date": null,
+        "date_precision": "unknown current page",
+        "eligibility_before_2026": "unverified_current_version_exclude_unless_replaced_by_dated_source",
+        "basis": "Original historical facts may predate cutoff, but this current webpage version has no authenticated pre-2026 publication date."
+      }
+    },
+    {
+      "id": "SOR-02",
+      "title": "George Soros: The Alchemy of Finance, catalog entry",
+      "url": "https://www.georgesoros.com/1987/10/19/the_alchemy_of_finance/",
+      "date": "1987 catalog; expanded-edition description",
+      "kind": "author primary catalog",
+      "access": "inventory only",
+      "limits": "Description mentions 1992; full original 1987 text and 1985-86 real-time journal not authenticated/read in this audit.",
+      "locator": "",
+      "retrieved_at": "2026-10-13",
+      "source_date_semantics": "The date field may describe an original event/report. Use publication_visibility below for temporal decision-packet eligibility.",
+      "publication_visibility": {
+        "original_publication_or_filing_date": null,
+        "latest_pre2026_bound": "2017-12-31",
+        "date_precision": "bounded year/month",
+        "basis": "Expanded-edition description/current host not original 1987 full text; do not use as original-edition evidence.",
+        "eligibility_before_2026": "inventory_only_not_decision_evidence"
+      }
+    },
+    {
+      "id": "SOR-03",
+      "title": "George Soros: Financial Markets, CEU lecture transcript",
+      "url": "https://www.opensocietyfoundations.org/uploads/2b96bb8c-e2e1-4d88-9eea-badf16d0a2b8/george-soros-financial-markets-transcript.pdf",
+      "date": "2009-10-27",
+      "kind": "original public speech transcript on foundation site",
+      "access": "inspected",
+      "limits": "Includes retrospective crisis/trading examples, not a pre-2008 letter.",
+      "locator": "PDF pp.1-2: two cardinal principles; leverage pathways; negative and positive feedback | PDF p.2: trend/misconception tests and eventual reversal; paragraph following model examples on unpredictability | PDF p.5: 2008 personal volatility/oversized-position admission and following liquidity-preference paragraph",
+      "retrieved_at": "2026-10-13",
+      "source_date_semantics": "The date field may describe an original event/report. Use publication_visibility below for temporal decision-packet eligibility.",
+      "publication_visibility": {
+        "original_public_event_date": "2009-10-27",
+        "original_publication_or_filing_date": null,
+        "latest_pre2026_bound": "2012-12-31",
+        "date_precision": "lecture day / PDF copyright year",
+        "basis": "Original public lecture dated 2009; inspected OSF transcript bears 2012 copyright. Do not equate speech date with first publication of this PDF edition.",
+        "eligibility_before_2026": "eligible_bounded_original_content"
+      }
+    },
+    {
+      "id": "SOR-04",
+      "title": "George Soros: General Theory of Reflexivity, CEU transcript",
+      "url": "https://www.opensocietyfoundations.org/uploads/9ae17912-2262-4646-8ffc-d01afc934c36/george-soros-general-theory-of-reflexivity-transcript.pdf",
+      "date": "2009-10-26",
+      "kind": "original public speech transcript on foundation site",
+      "access": "inspected selections",
+      "limits": "General epistemology is not itself an executable investment system.",
+      "locator": "PDF p.4: core propositions defining fallibility and reflexivity",
+      "retrieved_at": "2026-10-13",
+      "source_date_semantics": "The date field may describe an original event/report. Use publication_visibility below for temporal decision-packet eligibility.",
+      "publication_visibility": {
+        "original_public_event_date": "2009-10-26",
+        "original_publication_or_filing_date": null,
+        "latest_pre2026_bound": "2012-12-31",
+        "date_precision": "lecture day / PDF copyright year",
+        "basis": "Original public lecture dated 2009; inspected OSF transcript bears 2012 copyright. Do not equate speech date with first publication of this PDF edition.",
+        "eligibility_before_2026": "eligible_bounded_original_content"
+      }
+    },
+    {
+      "id": "SOR-05",
+      "title": "George Soros: My Investments in Russia",
+      "url": "https://www.georgesoros.com/1997/08/21/my-investments-in-russia/",
+      "date": "1997-08-21",
+      "kind": "own-site republication of contemporary Moscow News essay",
+      "access": "inspected",
+      "limits": "POST-entry but PRE-crisis. Apparent erroneous $980 billion telecom amount excluded, not silently corrected.",
+      "locator": "Essay body paragraphs 1 and final paragraph: Nemtsov appointment and shareholder-rights expectations",
+      "retrieved_at": "2026-10-13",
+      "source_date_semantics": "The date field may describe an original event/report. Use publication_visibility below for temporal decision-packet eligibility.",
+      "publication_visibility": {
+        "original_publication_or_filing_date": "1997-08-21",
+        "date_precision": "day",
+        "public_republication_date": "unknown where current author/firm page is a republication",
+        "eligibility_before_2026": "eligible_dated_original_content",
+        "provenance_caveat": "A dated original first-person source reproduced on a current host is not an immutable archive of every historical version."
+      }
+    },
+    {
+      "id": "SOR-06",
+      "title": "George Soros: The Only Way for Russia to End Its Crisis",
+      "url": "https://www.georgesoros.com/1998/08/13/the-only-way-for-russia-to-end-its-crisis/",
+      "date": "1998-08-13",
+      "kind": "own-site republication of contemporary FT essay",
+      "access": "inspected",
+      "limits": "Policy/rescue proposal during crisis, not a trade instruction or proof of an exit.",
+      "locator": "Essay body paragraphs 3-4: budget program versus bank liquidity; margin-held debt and unavailable renewed credit",
+      "retrieved_at": "2026-10-13",
+      "source_date_semantics": "The date field may describe an original event/report. Use publication_visibility below for temporal decision-packet eligibility.",
+      "publication_visibility": {
+        "original_publication_or_filing_date": "1998-08-13",
+        "date_precision": "day",
+        "public_republication_date": "unknown where current author/firm page is a republication",
+        "eligibility_before_2026": "eligible_dated_original_content",
+        "provenance_caveat": "A dated original first-person source reproduced on a current host is not an immutable archive of every historical version."
+      }
+    },
+    {
+      "id": "SOR-07",
+      "title": "IMF Survey: Russian authorities August 17 statement",
+      "url": "https://www.imf.org/external/pubs/ft/survey/pdf/083198.pdf",
+      "date": "1998-08-31; reproduces 1998-08-17 statement",
+      "kind": "institutional primary event document",
+      "access": "selected extract inspected",
+      "limits": "Documents policy event, not Quantum positions or P&L.",
+      "locator": "",
+      "retrieved_at": "2026-10-13",
+      "source_date_semantics": "The date field may describe an original event/report. Use publication_visibility below for temporal decision-packet eligibility.",
+      "publication_visibility": {
+        "original_publication_or_filing_date": "1998-08-31",
+        "date_precision": "day",
+        "public_republication_date": "unknown where current author/firm page is a republication",
+        "eligibility_before_2026": "eligible_dated_original_content",
+        "provenance_caveat": "A dated original first-person source reproduced on a current host is not an immutable archive of every historical version."
+      }
+    },
+    {
+      "id": "SOR-08",
+      "title": "Irish Times: Soros funds face $2bn loss on Russian bonds",
+      "url": "https://www.irishtimes.com/business/soros-funds-face-2bn-loss-on-russian-bonds-1.187055",
+      "date": "1998-08-27",
+      "kind": "contemporary secondary quoting Druckenmiller admission",
+      "access": "inspected",
+      "limits": "Up to $2bn Quantum-group Russia loss reported, not an audited realized trade ledger; headline must not collapse all Russia assets into bonds.",
+      "locator": "",
+      "retrieved_at": "2026-10-13",
+      "source_date_semantics": "The date field may describe an original event/report. Use publication_visibility below for temporal decision-packet eligibility.",
+      "publication_visibility": {
+        "original_publication_or_filing_date": "1998-08-27",
+        "date_precision": "day",
+        "public_republication_date": "unknown where current author/firm page is a republication",
+        "eligibility_before_2026": "eligible_dated_original_content",
+        "provenance_caveat": "A dated original first-person source reproduced on a current host is not an immutable archive of every historical version."
+      }
+    },
+    {
+      "id": "SOR-09",
+      "title": "George Soros: Sterling Will Suffer If Britain Leaves EU",
+      "url": "https://www.georgesoros.com/2016/06/21/sterling-will-suffer-if-britain-leaves-eu/",
+      "date": "2016-06-21",
+      "kind": "own-site public essay",
+      "access": "inspected",
+      "limits": "Acknowledges 1992 profit retrospectively; Brexit scenario is not proof of a 2016 position.",
+      "locator": "",
+      "retrieved_at": "2026-10-13",
+      "source_date_semantics": "The date field may describe an original event/report. Use publication_visibility below for temporal decision-packet eligibility.",
+      "publication_visibility": {
+        "original_publication_or_filing_date": "2016-06-21",
+        "date_precision": "day",
+        "public_republication_date": "unknown where current author/firm page is a republication",
+        "eligibility_before_2026": "eligible_dated_original_content",
+        "provenance_caveat": "A dated original first-person source reproduced on a current host is not an immutable archive of every historical version."
+      }
+    },
+    {
+      "id": "SOR-10",
+      "title": "Soros Fund Management: Dawn Fitzpatrick biography",
+      "url": "https://sorosfundmgmt.com/about/leaders/dawn-fitzpatrick/",
+      "date": "current page",
+      "kind": "firm primary",
+      "access": "inspected",
+      "limits": "Current decision-making role; attribution for individual holdings still requires specific evidence.",
+      "locator": "",
+      "retrieved_at": "2026-10-13",
+      "source_date_semantics": "The date field may describe an original event/report. Use publication_visibility below for temporal decision-packet eligibility.",
+      "publication_visibility": {
+        "original_publication_or_filing_date": null,
+        "date_precision": "unknown current page",
+        "eligibility_before_2026": "unverified_current_version_exclude_unless_replaced_by_dated_source",
+        "basis": "Original historical facts may predate cutoff, but this current webpage version has no authenticated pre-2026 publication date."
+      }
+    },
+    {
+      "id": "SOR-11",
+      "title": "Quantum Endowment / Quantum Group investor letter",
+      "url": "https://media.ft.com/cms/e11bf598-b780-11e0-b95d-00144feabdc0.pdf",
+      "date": "2011-07-26",
+      "kind": "original investor-letter content hosted by FT",
+      "access": "inspected",
+      "limits": "Family-office transition and return of outside capital; provenance is public third-party host.",
+      "locator": "",
+      "retrieved_at": "2026-10-13",
+      "source_date_semantics": "The date field may describe an original event/report. Use publication_visibility below for temporal decision-packet eligibility.",
+      "publication_visibility": {
+        "original_publication_or_filing_date": "2011-07-26",
+        "date_precision": "day",
+        "public_republication_date": "unknown where current author/firm page is a republication",
+        "eligibility_before_2026": "eligible_dated_original_content",
+        "provenance_caveat": "A dated original first-person source reproduced on a current host is not an immutable archive of every historical version."
+      }
+    },
+    {
+      "id": "SOR-12",
+      "title": "Soros Fund Management: 2022 Climate Progress Report",
+      "url": "https://sorosfundmgmt.com/wp-content/uploads/2023/06/2022ClimateProgressReport.pdf",
+      "date": "2022 report / 2023 host",
+      "kind": "firm primary",
+      "access": "selected sections inspected",
+      "limits": "Self-description of family office; not its full risk book.",
+      "locator": "",
+      "retrieved_at": "2026-10-13",
+      "source_date_semantics": "The date field may describe an original event/report. Use publication_visibility below for temporal decision-packet eligibility.",
+      "publication_visibility": {
+        "original_publication_or_filing_date": null,
+        "latest_pre2026_bound": "2023-06-30",
+        "date_precision": "bounded year/month",
+        "basis": "2022 report in June 2023 host path; exact public day unverified.",
+        "eligibility_before_2026": "eligible_bounded_original_content"
+      }
+    },
+    {
+      "id": "SOR-13",
+      "title": "Open Society Foundations: SFM statement on Palantir investment",
+      "url": "https://www.opensocietyfoundations.org/newsroom/statement-from-soros-fund-management-on-palantir-investment",
+      "date": "2020-11-17",
+      "kind": "original firm statement on foundation site",
+      "access": "inspected",
+      "limits": "Own explanation; confirms historical PM agency and contractual/legal disposition constraints.",
+      "locator": "",
+      "retrieved_at": "2026-10-13",
+      "source_date_semantics": "The date field may describe an original event/report. Use publication_visibility below for temporal decision-packet eligibility.",
+      "publication_visibility": {
+        "original_publication_or_filing_date": "2020-11-17",
+        "date_precision": "day",
+        "public_republication_date": "unknown where current author/firm page is a republication",
+        "eligibility_before_2026": "eligible_dated_original_content",
+        "provenance_caveat": "A dated original first-person source reproduced on a current host is not an immutable archive of every historical version."
+      }
+    },
+    {
+      "id": "SOR-14",
+      "title": "SFM September 30, 2020 SEC 13F filing index",
+      "url": "https://www.sec.gov/Archives/edgar/data/1029160/000090266420003949/0000902664-20-003949-index.htm",
+      "date": "filed 2020-11-13; as of 2020-09-30",
+      "kind": "regulatory filing primary",
+      "access": "inspected",
+      "limits": "Filer CIK 1029160; institutional managed holdings, not personal Soros book.",
+      "locator": "",
+      "retrieved_at": "2026-10-13",
+      "source_date_semantics": "The date field may describe an original event/report. Use publication_visibility below for temporal decision-packet eligibility.",
+      "publication_visibility": {
+        "original_publication_or_filing_date": "2020-11-13",
+        "date_precision": "day",
+        "public_republication_date": "unknown where current author/firm page is a republication",
+        "eligibility_before_2026": "eligible_dated_original_content",
+        "provenance_caveat": "A dated original first-person source reproduced on a current host is not an immutable archive of every historical version."
+      }
+    },
+    {
+      "id": "SOR-15",
+      "title": "SFM September 30, 2020 SEC 13F information table",
+      "url": "https://www.sec.gov/Archives/edgar/data/1029160/000090266420003949/xslForm13F_X01/infotable.xml",
+      "date": "as of 2020-09-30",
+      "kind": "regulatory filing primary",
+      "access": "inspected Palantir row",
+      "limits": "Long reportable securities snapshot only.",
+      "locator": "",
+      "retrieved_at": "2026-10-13",
+      "source_date_semantics": "The date field may describe an original event/report. Use publication_visibility below for temporal decision-packet eligibility.",
+      "publication_visibility": {
+        "original_publication_or_filing_date": "2020-11-13",
+        "date_precision": "day",
+        "public_republication_date": "unknown where current author/firm page is a republication",
+        "eligibility_before_2026": "eligible_dated_original_content",
+        "provenance_caveat": "A dated original first-person source reproduced on a current host is not an immutable archive of every historical version."
+      }
+    },
+    {
+      "id": "SOR-16",
+      "title": "George Soros: Crisis of Global Capitalism, original chapter excerpt",
+      "url": "https://www.georgesoros.com/wp-content/uploads/2017/10/the_crisis_of_global_capitalism-chap-1-2017_10_05.pdf",
+      "date": "1998 book; posted 2017",
+      "kind": "author primary book excerpt",
+      "access": "chapter excerpt inspected",
+      "limits": "Only chapter excerpt, not full book.",
+      "locator": "",
+      "retrieved_at": "2026-10-13",
+      "source_date_semantics": "The date field may describe an original event/report. Use publication_visibility below for temporal decision-packet eligibility.",
+      "publication_visibility": {
+        "original_publication_or_filing_date": null,
+        "latest_pre2026_bound": "2017-10-31",
+        "date_precision": "bounded year/month",
+        "basis": "Original 1998 chapter excerpt posted under October 2017 author-site path.",
+        "eligibility_before_2026": "eligible_bounded_original_content"
+      }
+    },
+    {
+      "id": "EVT-GBP",
+      "title": "Bank of England: Operation of monetary policy, 1992 Q4 Bulletin",
+      "url": "https://www.bankofengland.co.uk/-/media/boe/files/quarterly-bulletin/1992/operation-of-monetary-policy-qb-1992-q4.pdf",
+      "date": "1992-12-01; reviews 1992-Q3",
+      "kind": "central-bank primary",
+      "access": "inspected relevant sterling chronology",
+      "limits": "Event/policy account, not fund ledger. Attributed Schlesinger comments were subsequently denied.",
+      "locator": "Bulletin printed pp.382-383 / PDF pp.1-2: Introduction and domestic-needs versus exchange-rate-commitment discussion",
+      "retrieved_at": "2026-10-13",
+      "source_date_semantics": "The date field may describe an original event/report. Use publication_visibility below for temporal decision-packet eligibility.",
+      "publication_visibility": {
+        "original_publication_or_filing_date": "1992-12-01",
+        "date_precision": "day",
+        "public_republication_date": "unknown where current author/firm page is a republication",
+        "eligibility_before_2026": "eligible_dated_original_content",
+        "provenance_caveat": "A dated original first-person source reproduced on a current host is not an immutable archive of every historical version."
+      }
+    },
+    {
+      "id": "EVT-HK",
+      "title": "HKMA Annual Report 1998, Economic and financial environment",
+      "url": "https://www.hkma.gov.hk/media/eng/publication-and-research/annual-report/1998/ch01.pdf",
+      "date": "1998 annual report",
+      "kind": "central-bank primary",
+      "access": "selected relevant passages inspected",
+      "limits": "Official intervention rationale; does not prove named Soros trades or losses.",
+      "locator": "",
+      "retrieved_at": "2026-10-13",
+      "source_date_semantics": "The date field may describe an original event/report. Use publication_visibility below for temporal decision-packet eligibility.",
+      "publication_visibility": {
+        "original_publication_or_filing_date": null,
+        "latest_pre2026_bound": "1999-12-31",
+        "date_precision": "bounded year/month",
+        "basis": "1998 annual report; actual release day not verified, conservative next-year bound.",
+        "eligibility_before_2026": "eligible_bounded_original_content"
+      }
+    },
+    {
+      "id": "EVT-HK2",
+      "title": "HKMA: Why We Intervened",
+      "url": "https://www.hkma.gov.hk/media/eng/publication-and-research/quarterly-bulletin/qb9811/qbfa01.pdf",
+      "date": "1998-11",
+      "kind": "central-bank primary",
+      "access": "selected relevant passages inspected",
+      "limits": "FX/equity/futures mechanisms distinct; government self-account is not neutral personal-trade attribution.",
+      "locator": "",
+      "retrieved_at": "2026-10-13",
+      "source_date_semantics": "The date field may describe an original event/report. Use publication_visibility below for temporal decision-packet eligibility.",
+      "publication_visibility": {
+        "original_publication_or_filing_date": null,
+        "latest_pre2026_bound": "1998-11-30",
+        "date_precision": "bounded year/month",
+        "basis": "Bulletin dated November 1998.",
+        "eligibility_before_2026": "eligible_bounded_original_content"
+      }
+    },
+    {
+      "id": "DRU-01",
+      "title": "Stanley Druckenmiller: Lost Tree Club speech",
+      "url": "https://covestreetcapital.com/wp-content/uploads/2015/03/Druckenmiller-_Speech.pdf",
+      "date": "2015-01-18",
+      "kind": "first-person speech transcript, third-party public host",
+      "access": "selected sections OCR / visual inspection",
+      "limits": "Scanned 48-page document. Selected pages 13-18, 21-23 and 38-40 checked via OCR or direct image inspection. No independently authenticated fund ledger. SHA256 5759ffd62681f0a28ee0fa02009b5173ce9c67f23d99ea411ef400c2f80a51d0.",
+      "locator": "Transcript pp.21-22: UK housing/recession versus Germany/reunification and linked-currency discussion | Transcript p.16 last paragraph continuing onto p.17 first paragraph: mentor’s central-bank/liquidity lesson | Transcript p.16: first of mentor’s two lessons, the 18-month forward situation | Transcript pp.13-14: concentration discussion and rare opportunity paragraph | Transcript pp.39-40: January 2000 exit, frustration at others’ gains, emotional re-entry and admission",
+      "retrieved_at": "2026-10-13",
+      "source_date_semantics": "The date field may describe an original event/report. Use publication_visibility below for temporal decision-packet eligibility.",
+      "publication_visibility": {
+        "original_public_event_date": "2015-01-18",
+        "original_publication_or_filing_date": null,
+        "latest_pre2026_bound": "2015-04-13",
+        "date_precision": "directly corroborated public-availability upper bound",
+        "reported_initial_posting_date": "2015-03-30",
+        "reported_posting_date_source_ids": [
+          "DRU-PUB-01"
+        ],
+        "independent_public_before_cutoff_source_ids": [
+          "DRU-PUB-02"
+        ],
+        "basis": "GitHub records a public text transcription created April 13, 2015; relevant passages match the reviewed scan. A contemporaneous April 13 report independently states Cove Street posting March 30. The /2015/03/ URL is no longer used as publication proof.",
+        "eligibility_before_2026": "eligible_public_availability_corroborated_original_content",
+        "provenance_caveat": "First-person 2015 speech via third-party transcript. No immutable 2015 snapshot of the exact currently downloaded PDF bytes obtained; preserved 2026 download hash is a current-content integrity check, not historical byte identity."
+      }
+    },
+    {
+      "id": "DRU-02",
+      "title": "Goldman Sachs: Talks at GS, Stanley Druckenmiller",
+      "url": "https://www.goldmansachs.com/insights/talks-at-gs/stanley-druckenmiller.html",
+      "date": "recorded 2021-01-21; posted 2021-02-03",
+      "kind": "original interview on host institution site",
+      "access": "selected content inspected",
+      "limits": "Public interview, not a dated position/risk report.",
+      "locator": "On his approach to risk management, both paragraphs; On his investment process, second paragraph | On his investment process, both paragraphs",
+      "retrieved_at": "2026-10-13",
+      "source_date_semantics": "The date field may describe an original event/report. Use publication_visibility below for temporal decision-packet eligibility.",
+      "publication_visibility": {
+        "original_publication_or_filing_date": "2021-02-03",
+        "date_precision": "day",
+        "public_republication_date": "unknown where current author/firm page is a republication",
+        "eligibility_before_2026": "eligible_dated_original_content",
+        "provenance_caveat": "A dated original first-person source reproduced on a current host is not an immutable archive of every historical version."
+      }
+    },
+    {
+      "id": "DRU-03",
+      "title": "Morgan Stanley: Hard Lessons, Stan Druckenmiller",
+      "url": "https://www.morganstanley.com/insights/videos/hard-lessons/duquesne-stan-druckenmiller-iliana-bouzali",
+      "date": "recorded 2026-01-30; posted 2026-02-27",
+      "kind": "original interview and transcript on host institution site",
+      "access": "inspected relevant transcript",
+      "limits": "Nvidia entry, sizing and profit are retrospective self-reports. Technical-effectiveness percentages are personal opinions, not measured backtests.",
+      "locator": "AI-investment narrative: interviewer asks about recognizing the opportunity’s scale; partner and specialist-network discussion preceding the initial purchase | Interview discussion of reduced reliance on technical analysis and market reaction to news; the following three answer paragraphs",
+      "retrieved_at": "2026-10-13",
+      "source_date_semantics": "The date field may describe an original event/report. Use publication_visibility below for temporal decision-packet eligibility.",
+      "publication_visibility": {
+        "original_publication_or_filing_date": "2026-02-27",
+        "date_precision": "day",
+        "public_republication_date": "unknown where current author/firm page is a republication",
+        "eligibility_before_2026": "excluded_post_cutoff",
+        "provenance_caveat": "A dated original first-person source reproduced on a current host is not an immutable archive of every historical version."
+      }
+    },
+    {
+      "id": "DRU-04",
+      "title": "NBIM: Inside the Mind of a Legendary Investor",
+      "url": "https://www.nbim.no/en/news-and-insights/podcast/2024/stan-druckenmiller-inside-the-mind-of-a-legendary-investor/",
+      "date": "2024",
+      "kind": "original host podcast catalog",
+      "access": "inventory only",
+      "limits": "Do not conflate with an April 2023 NBIM event; complete recording not inspected.",
+      "locator": "",
+      "retrieved_at": "2026-10-13",
+      "source_date_semantics": "The date field may describe an original event/report. Use publication_visibility below for temporal decision-packet eligibility.",
+      "publication_visibility": {
+        "original_publication_or_filing_date": null,
+        "latest_pre2026_bound": "2024-12-31",
+        "date_precision": "bounded year/month",
+        "basis": "Official podcast catalog identifies 2024.",
+        "eligibility_before_2026": "inventory_only_not_decision_evidence"
+      }
+    },
+    {
+      "id": "DRU-05",
+      "title": "Economic Club of New York: Druckenmiller transcript",
+      "url": "https://www.econclubny.org/documents/10184/109144/2019DruckenmillerTranscript.pdf",
+      "date": "2019-06-03",
+      "kind": "original public-event transcript",
+      "access": "search excerpts only",
+      "limits": "Full relevant investment passages not yet audited.",
+      "locator": "",
+      "retrieved_at": "2026-10-13",
+      "source_date_semantics": "The date field may describe an original event/report. Use publication_visibility below for temporal decision-packet eligibility.",
+      "publication_visibility": {
+        "original_publication_or_filing_date": "2019-06-03",
+        "date_precision": "day",
+        "public_republication_date": "unknown where current author/firm page is a republication",
+        "eligibility_before_2026": "eligible_dated_original_content",
+        "provenance_caveat": "A dated original first-person source reproduced on a current host is not an immutable archive of every historical version."
+      }
+    },
+    {
+      "id": "DRU-06",
+      "title": "Economic Club of New York: Druckenmiller transcript",
+      "url": "https://www.econclubny.org/documents/10184/109144/2020DruckenmillerTranscript.pdf",
+      "date": "2020-05-12",
+      "kind": "original public-event transcript",
+      "access": "inventory only",
+      "limits": "Mechanical web retrieval failed; not used as predecision evidence.",
+      "locator": "",
+      "retrieved_at": "2026-10-13",
+      "source_date_semantics": "The date field may describe an original event/report. Use publication_visibility below for temporal decision-packet eligibility.",
+      "publication_visibility": {
+        "original_publication_or_filing_date": "2020-05-12",
+        "date_precision": "day",
+        "public_republication_date": "unknown where current author/firm page is a republication",
+        "eligibility_before_2026": "inventory_only_not_decision_evidence",
+        "provenance_caveat": "A dated original first-person source reproduced on a current host is not an immutable archive of every historical version."
+      }
+    },
+    {
+      "id": "DRU-07",
+      "title": "Stanley Druckenmiller: The Endgame presentation",
+      "url": "https://covestreetcapital.com/wp-content/uploads/2016/07/The-Endgame-Presentation.pdf",
+      "date": "2016 Sohn presentation",
+      "kind": "first-person presentation on third-party host",
+      "access": "selected search excerpts / inventory",
+      "limits": "Full-slide audit not completed; not relied on for a specific position.",
+      "locator": "",
+      "retrieved_at": "2026-10-13",
+      "source_date_semantics": "The date field may describe an original event/report. Use publication_visibility below for temporal decision-packet eligibility.",
+      "publication_visibility": {
+        "original_publication_or_filing_date": null,
+        "latest_pre2026_bound": "2016-07-31",
+        "date_precision": "bounded year/month",
+        "basis": "2016 presentation, mirror under July 2016 path; inventory only.",
+        "eligibility_before_2026": "inventory_only_not_decision_evidence"
+      }
+    },
+    {
+      "id": "DRU-08",
+      "title": "Bloomberg: Druckenmiller says he could own Nvidia for years",
+      "url": "https://www.bloomberg.com/news/articles/2023-06-07/druckenmiller-says-he-could-own-nvidia-for-years-bloomberg-invest",
+      "date": "2023-06-07",
+      "kind": "contemporary event reporting with direct statements",
+      "access": "selected report inspected",
+      "limits": "Conditional public thesis during existing ownership; not an entry memo.",
+      "locator": "",
+      "retrieved_at": "2026-10-13",
+      "source_date_semantics": "The date field may describe an original event/report. Use publication_visibility below for temporal decision-packet eligibility.",
+      "publication_visibility": {
+        "original_publication_or_filing_date": "2023-06-07",
+        "date_precision": "day",
+        "public_republication_date": "unknown where current author/firm page is a republication",
+        "eligibility_before_2026": "eligible_dated_original_content",
+        "provenance_caveat": "A dated original first-person source reproduced on a current host is not an immutable archive of every historical version."
+      }
+    },
+    {
+      "id": "DRU-09",
+      "title": "WSJ tech-loss story reproduced in LBO-Talk archive",
+      "url": "https://mailman.lbo-talk.org/2000/2000-May/010724.html",
+      "date": "2000-05-22",
+      "kind": "third-party reproduction of contemporary reporting",
+      "access": "selected passages inspected",
+      "limits": "Original WSJ publication not independently retrieved. Anonymous descriptions of prior meetings are not authenticated pretrade documents.",
+      "locator": "",
+      "retrieved_at": "2026-10-13",
+      "source_date_semantics": "The date field may describe an original event/report. Use publication_visibility below for temporal decision-packet eligibility.",
+      "publication_visibility": {
+        "original_publication_or_filing_date": "2000-05-22",
+        "date_precision": "day",
+        "public_republication_date": "unknown where current author/firm page is a republication",
+        "eligibility_before_2026": "eligible_dated_original_content",
+        "provenance_caveat": "A dated original first-person source reproduced on a current host is not an immutable archive of every historical version."
+      }
+    },
+    {
+      "id": "DFO-22Q4",
+      "title": "Duquesne Family Office SEC 13F information table",
+      "url": "https://www.sec.gov/Archives/edgar/data/1536411/000153641123000003/xslForm13F_X02/form13f_20221231.xml",
+      "date": "2022-12-31",
+      "kind": "regulatory filing primary",
+      "access": "inspected Nvidia common and option rows",
+      "limits": "CIK 1536411. 2023/24 value fields appear thousand-scaled despite rendered nearest-dollar header; preserve raw fields and withhold dollar/weight normalization pending validation. Share quantities are reported units.",
+      "locator": "",
+      "retrieved_at": "2026-10-13",
+      "source_date_semantics": "The date field may describe an original event/report. Use publication_visibility below for temporal decision-packet eligibility.",
+      "publication_visibility": {
+        "original_publication_or_filing_date": "2023-02-14",
+        "date_precision": "day",
+        "public_republication_date": "unknown where current author/firm page is a republication",
+        "eligibility_before_2026": "eligible_dated_original_content",
+        "provenance_caveat": "A dated original first-person source reproduced on a current host is not an immutable archive of every historical version."
+      }
+    },
+    {
+      "id": "DFO-23Q1",
+      "title": "Duquesne Family Office SEC 13F information table",
+      "url": "https://www.sec.gov/Archives/edgar/data/1536411/000153641123000005/xslForm13F_X02/form13f_20230331.xml",
+      "date": "2023-03-31",
+      "kind": "regulatory filing primary",
+      "access": "inspected Nvidia common and option rows",
+      "limits": "CIK 1536411. 2023/24 value fields appear thousand-scaled despite rendered nearest-dollar header; preserve raw fields and withhold dollar/weight normalization pending validation. Share quantities are reported units.",
+      "locator": "",
+      "retrieved_at": "2026-10-13",
+      "source_date_semantics": "The date field may describe an original event/report. Use publication_visibility below for temporal decision-packet eligibility.",
+      "publication_visibility": {
+        "original_publication_or_filing_date": "2023-05-15",
+        "date_precision": "day",
+        "public_republication_date": "unknown where current author/firm page is a republication",
+        "eligibility_before_2026": "eligible_dated_original_content",
+        "provenance_caveat": "A dated original first-person source reproduced on a current host is not an immutable archive of every historical version."
+      }
+    },
+    {
+      "id": "DFO-23Q4",
+      "title": "Duquesne Family Office SEC 13F information table",
+      "url": "https://www.sec.gov/Archives/edgar/data/1536411/000153641124000002/xslForm13F_X02/form13f_20231231.xml",
+      "date": "2023-12-31",
+      "kind": "regulatory filing primary",
+      "access": "inspected Nvidia common and option rows",
+      "limits": "CIK 1536411. 2023/24 value fields appear thousand-scaled despite rendered nearest-dollar header; preserve raw fields and withhold dollar/weight normalization pending validation. Share quantities are reported units.",
+      "locator": "",
+      "retrieved_at": "2026-10-13",
+      "source_date_semantics": "The date field may describe an original event/report. Use publication_visibility below for temporal decision-packet eligibility.",
+      "publication_visibility": {
+        "original_publication_or_filing_date": "2024-02-14",
+        "date_precision": "day",
+        "public_republication_date": "unknown where current author/firm page is a republication",
+        "eligibility_before_2026": "eligible_dated_original_content",
+        "provenance_caveat": "A dated original first-person source reproduced on a current host is not an immutable archive of every historical version."
+      }
+    },
+    {
+      "id": "DFO-24Q1",
+      "title": "Duquesne Family Office SEC 13F information table",
+      "url": "https://www.sec.gov/Archives/edgar/data/1536411/000153641124000005/xslForm13F_X02/form13f_20240331.xml",
+      "date": "2024-03-31",
+      "kind": "regulatory filing primary",
+      "access": "inspected Nvidia common and option rows",
+      "limits": "CIK 1536411. 2023/24 value fields appear thousand-scaled despite rendered nearest-dollar header; preserve raw fields and withhold dollar/weight normalization pending validation. Share quantities are reported units.",
+      "locator": "",
+      "retrieved_at": "2026-10-13",
+      "source_date_semantics": "The date field may describe an original event/report. Use publication_visibility below for temporal decision-packet eligibility.",
+      "publication_visibility": {
+        "original_publication_or_filing_date": "2024-05-15",
+        "date_precision": "day",
+        "public_republication_date": "unknown where current author/firm page is a republication",
+        "eligibility_before_2026": "eligible_dated_original_content",
+        "provenance_caveat": "A dated original first-person source reproduced on a current host is not an immutable archive of every historical version."
+      }
+    },
+    {
+      "id": "DFO-24Q2",
+      "title": "Duquesne Family Office SEC 13F information table",
+      "url": "https://www.sec.gov/Archives/edgar/data/1536411/000153641124000007/xslForm13F_X02/form13f_20240630.xml",
+      "date": "2024-06-30",
+      "kind": "regulatory filing primary",
+      "access": "inspected Nvidia common and option rows",
+      "limits": "CIK 1536411. 2023/24 value fields appear thousand-scaled despite rendered nearest-dollar header; preserve raw fields and withhold dollar/weight normalization pending validation. Share quantities are reported units.",
+      "locator": "",
+      "retrieved_at": "2026-10-13",
+      "source_date_semantics": "The date field may describe an original event/report. Use publication_visibility below for temporal decision-packet eligibility.",
+      "publication_visibility": {
+        "original_publication_or_filing_date": "2024-08-14",
+        "date_precision": "day",
+        "public_republication_date": "unknown where current author/firm page is a republication",
+        "eligibility_before_2026": "eligible_dated_original_content",
+        "provenance_caveat": "A dated original first-person source reproduced on a current host is not an immutable archive of every historical version."
+      }
+    },
+    {
+      "id": "NVDA-SPLIT",
+      "title": "Nvidia 8-K documenting 10-for-1 split",
+      "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581024000144/nvda-20240607.htm",
+      "date": "2024-06-07",
+      "kind": "issuer regulatory filing primary",
+      "access": "inspected",
+      "limits": "Split-adjusted trading June 10, 2024; compare pre/post share quantities only after adjusting.",
+      "locator": "",
+      "retrieved_at": "2026-10-13",
+      "source_date_semantics": "The date field may describe an original event/report. Use publication_visibility below for temporal decision-packet eligibility.",
+      "publication_visibility": {
+        "original_publication_or_filing_date": "2024-06-07",
+        "date_precision": "day",
+        "public_republication_date": "unknown where current author/firm page is a republication",
+        "eligibility_before_2026": "eligible_dated_original_content",
+        "provenance_caveat": "A dated original first-person source reproduced on a current host is not an immutable archive of every historical version."
+      }
+    },
+    {
+      "id": "COM-13F-2017",
+      "title": "SEC: retained March 15, 2017 Form 13F FAQ",
+      "url": "https://www.sec.gov/files/divisions/investment/13ffaq.htm",
+      "date": "2017-03-15",
+      "kind": "regulatory primary, retained older version",
+      "access": "inspected relevant sections",
+      "limits": "Supports pre-2026 lag/long-only/coverage rules. Old value reporting and electronic procedures are obsolete; do not use those fields to normalize 2023/24 filings.",
+      "locator": "Questions 7, 25, 40, 41, 43 and 44",
+      "retrieved_at": "2026-10-13",
+      "source_date_semantics": "The date field may describe an original event/report. Use publication_visibility below for temporal decision-packet eligibility.",
+      "publication_visibility": {
+        "original_publication_or_filing_date": "2017-03-15",
+        "date_precision": "day",
+        "public_republication_date": "unknown where current author/firm page is a republication",
+        "eligibility_before_2026": "eligible_dated_original_content",
+        "provenance_caveat": "A dated original first-person source reproduced on a current host is not an immutable archive of every historical version."
+      }
+    },
+    {
+      "id": "DRU-PUB-01",
+      "title": "John Seward: Druckenmiller Joins Fed Bashers, This Will End Badly",
+      "url": "https://finance.yahoo.com/news/druckenmiller-joins-fed-bashers-end-211208803.html",
+      "date": "2015-04-13",
+      "kind": "contemporaneous secondary public-posting report",
+      "access": "indexed full-article extract inspected; direct open returned mechanical HTTP 429",
+      "limits": "Reports Cove Street posted a speech copy on March 30. Secondary date corroboration, not an immutable archive of the PDF bytes.",
+      "locator": "Opening paragraphs: January Lost Tree speech, followed by stated March 30 Cove Street posting",
+      "retrieved_at": "2026-10-13",
+      "source_date_semantics": "Public corroboration date, separate from the speech date.",
+      "publication_visibility": {
+        "original_publication_or_filing_date": "2015-04-13",
+        "date_precision": "day",
+        "eligibility_before_2026": "eligible_dated_public_availability_corroboration"
+      }
+    },
+    {
+      "id": "DRU-PUB-02",
+      "title": "GitHub Gist: original Lost Tree text transcription revision history",
+      "url": "https://gist.github.com/bluechoochoo/a034da52c64ac6fcb637/revisions",
+      "date": "2015-04-13",
+      "kind": "primary platform dated public revision record; transcript conversion is third-party",
+      "access": "creation/revision date and relevant transcript contents inspected",
+      "limits": "History dates initial creation and five revisions April 13, 2015. Text conversion may contain errors; selected method passages matched to scanned original, not substituted as original author publication.",
+      "locator": "Revision 6: created this gist Apr 13, 2015; revision 5 introduction links Cove Street PDF; initial transcript contains concentration, forward-change and liquidity passages",
+      "retrieved_at": "2026-10-13",
+      "source_date_semantics": "Public corroboration date, separate from the speech date.",
+      "publication_visibility": {
+        "original_publication_or_filing_date": "2015-04-13",
+        "date_precision": "day",
+        "eligibility_before_2026": "eligible_dated_public_availability_corroboration"
+      }
+    }
+  ]
+}

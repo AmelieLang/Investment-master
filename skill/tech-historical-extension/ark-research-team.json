@@ -1,0 +1,34 @@
+{
+  "schema_version": "technology-historical-extension-method/v1.0",
+  "method_id": "ark-research-team",
+  "display_attribution": "ARK research team: historical innovation supplement",
+  "identity_scope": "team_not_personal_Cathie",
+  "cutoff_utc": "2025-12-31T23:59:59Z",
+  "status": "bounded_candidate_pending_independent_Astra_acceptance",
+  "automatic_route_enabled": false,
+  "purpose": "Cost/demand/capability/adoption/value-capture and competitive-position mechanisms extend ARK beyond the existing Tesla-only historical anchors.",
+  "rule_ids": [
+    "ARK-X01",
+    "ARK-X02",
+    "ARK-X03",
+    "ARK-X04",
+    "ARK-X05",
+    "ARK-X06"
+  ],
+  "source_ids": [
+    "ARK-X-AI-DISRUPTION-20241001",
+    "ARK-X-BIG-IDEAS-2024",
+    "ARK-X-BIG-IDEAS-2025",
+    "ARK-X-SOFTWARE-20250729",
+    "ARK-X-WRIGHT-20190102"
+  ],
+  "native_numerical_algorithm_established": false,
+  "application_is_hypothetical": true,
+  "valuation_boundary": "No target price, stock view, portfolio decision, current holding, native score, probability or weight is produced. Independent valuation requires its own evidence and review.",
+  "missing_scope": [
+    "No recovered complete personal investment algorithm.",
+    "No immutable first-upload proof for every currently served source version.",
+    "No native position sizing, discount rate, universal buy/sell threshold or calibrated probability."
+  ],
+  "external_effects_authorized": false
+}

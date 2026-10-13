@@ -1,0 +1,944 @@
+{
+  "schema_version": "precise_rule_anchor_registry.v2.tech.1",
+  "task_id": "V2-B-technology",
+  "corrective_rework_round": 1,
+  "source_count": 40,
+  "rule_count": 20,
+  "rules": [
+    {
+      "investor_id": "cathie_wood_ark",
+      "rule_id": "ARK-R00",
+      "documented_rule": "A positive valuation thesis does not require holding until its target.",
+      "source_ids": [
+        "ARK-TESLA-20180822"
+      ],
+      "pre_2026_benchmark_eligible": true,
+      "evidence_time_class": "dated_pre_2026_method",
+      "evidence_anchors": [
+        {
+          "anchor_id": "ARK-R00-A1",
+          "source_id": "ARK-TESLA-20180822",
+          "source_url": "https://www.ark-invest.com/articles/analyst-research/tesla-private",
+          "source_publication_date": "2018-08-22",
+          "locator": {
+            "type": "html_footnote",
+            "footnote": 1,
+            "position": "After the assumptions bullet list and before the podcast section"
+          },
+          "supporting_paraphrase": "Positive assessment allows reduction before valuation target.",
+          "support_role": "direct_case_disclosure_qualification",
+          "native_attribution": "Cathie Wood / ARK",
+          "native_scope": "Tesla 2018 open letter only",
+          "verified_against_source_on": "2026-10-13",
+          "supplementary_html_text_line_range_at_retrieval": {
+            "start": 154,
+            "end": 156,
+            "caveat": "Retrieval-specific convenience; section/page/paragraph is the primary locator."
+          }
+        }
+      ],
+      "scope": "Tesla 2018 open-letter caveat",
+      "adaptation_boundary": "Evidence anchors authenticate the documented native principle only. Skill questions are independent auditor operationalization, not verbatim investor instructions or proof of historical use."
+    },
+    {
+      "investor_id": "cathie_wood_ark",
+      "rule_id": "ARK-R01",
+      "documented_rule": "Start with cost declines, demand elasticity and cross-industry platform adoption.",
+      "source_ids": [
+        "ARK-PROC"
+      ],
+      "pre_2026_benchmark_eligible": false,
+      "evidence_time_class": "audit_only_current_or_undated_method",
+      "evidence_anchors": [
+        {
+          "anchor_id": "ARK-R01-A1",
+          "source_id": "ARK-PROC",
+          "source_url": "https://www.ark-invest.com/investment-process",
+          "source_publication_date": null,
+          "locator": {
+            "type": "html_section",
+            "heading": "Top-Down: Sizing The Opportunity",
+            "paragraph": 1
+          },
+          "supporting_paraphrase": "Cost curves and demand elasticity identify disruption.",
+          "support_role": "direct_documented_process",
+          "native_attribution": "ARK Investment Management",
+          "native_scope": "Undated current organization process; historical packet excluded",
+          "verified_against_source_on": "2026-10-13",
+          "supplementary_html_text_line_range_at_retrieval": {
+            "start": 169,
+            "end": 171,
+            "caveat": "Retrieval-specific convenience; section/page/paragraph is the primary locator."
+          }
+        }
+      ],
+      "scope": "organization/current",
+      "adaptation_boundary": "Evidence anchors authenticate the documented native principle only. Skill questions are independent auditor operationalization, not verbatim investor instructions or proof of historical use."
+    },
+    {
+      "investor_id": "cathie_wood_ark",
+      "rule_id": "ARK-R02",
+      "documented_rule": "Translate adoption into five-year unit growth, costs, share count and valuation.",
+      "source_ids": [
+        "ARK-PROC"
+      ],
+      "pre_2026_benchmark_eligible": false,
+      "evidence_time_class": "audit_only_current_or_undated_method",
+      "evidence_anchors": [
+        {
+          "anchor_id": "ARK-R02-A1",
+          "source_id": "ARK-PROC",
+          "source_url": "https://www.ark-invest.com/investment-process",
+          "source_publication_date": null,
+          "locator": {
+            "type": "html_section",
+            "heading": "Bottom-Up: Stock Selection And Valuation",
+            "paragraph": 1
+          },
+          "supporting_paraphrase": "Five-year models include volumes, costs, adoption, shares and multiples.",
+          "support_role": "direct_documented_model_components",
+          "native_attribution": "ARK Investment Management",
+          "native_scope": "Undated current organization process; historical packet excluded",
+          "verified_against_source_on": "2026-10-13",
+          "supplementary_html_text_line_range_at_retrieval": {
+            "start": 172,
+            "end": 173,
+            "caveat": "Retrieval-specific convenience; section/page/paragraph is the primary locator."
+          }
+        }
+      ],
+      "scope": "organization/current",
+      "adaptation_boundary": "Evidence anchors authenticate the documented native principle only. Skill questions are independent auditor operationalization, not verbatim investor instructions or proof of historical use."
+    },
+    {
+      "investor_id": "cathie_wood_ark",
+      "rule_id": "ARK-R03",
+      "documented_rule": "Review research weekly; resize relative opportunity and changed thesis.",
+      "source_ids": [
+        "ARK-PROC"
+      ],
+      "pre_2026_benchmark_eligible": false,
+      "evidence_time_class": "audit_only_current_or_undated_method",
+      "evidence_anchors": [
+        {
+          "anchor_id": "ARK-R03-A1",
+          "source_id": "ARK-PROC",
+          "source_url": "https://www.ark-invest.com/investment-process",
+          "source_publication_date": null,
+          "locator": {
+            "type": "html_section",
+            "heading": "Bottom-Up: Portfolio and Risk Management",
+            "paragraphs": [
+              1,
+              2
+            ]
+          },
+          "supporting_paraphrase": "Weekly thesis review; relative opportunity and thesis changes drive resizing.",
+          "support_role": "direct_documented_monitoring_and_exit_process",
+          "native_attribution": "ARK Investment Management",
+          "native_scope": "Undated current organization process; historical packet excluded",
+          "verified_against_source_on": "2026-10-13",
+          "supplementary_html_text_line_range_at_retrieval": {
+            "start": 191,
+            "end": 193,
+            "caveat": "Retrieval-specific convenience; section/page/paragraph is the primary locator."
+          }
+        }
+      ],
+      "scope": "organization/current",
+      "adaptation_boundary": "Evidence anchors authenticate the documented native principle only. Skill questions are independent auditor operationalization, not verbatim investor instructions or proof of historical use."
+    },
+    {
+      "investor_id": "cathie_wood_ark",
+      "rule_id": "ARK-R04",
+      "documented_rule": "Tesla scenarios explicitly vary autonomous timing, production and capital efficiency.",
+      "source_ids": [
+        "ARK-TESLA-20220414"
+      ],
+      "pre_2026_benchmark_eligible": true,
+      "evidence_time_class": "dated_pre_2026_method",
+      "evidence_anchors": [
+        {
+          "anchor_id": "ARK-R04-A1",
+          "source_id": "ARK-TESLA-20220414",
+          "source_url": "https://www.ark-invest.com/articles/valuation-models/arks-tesla-model",
+          "source_publication_date": "2022-04-15",
+          "locator": {
+            "type": "html_model_table",
+            "heading": "Key Model Inputs",
+            "table_ordinal_within_section": 1,
+            "rows_by_topic": [
+              "Capital efficiency",
+              "Maximum production increase",
+              "Robotaxi launch year"
+            ]
+          },
+          "supporting_paraphrase": "Scenarios vary capital efficiency, production and autonomous launch.",
+          "support_role": "direct_case_specific_model_variables",
+          "native_attribution": "Tasha Keeney / ARK research team",
+          "native_scope": "April 2022 Tesla model, 2026 horizon",
+          "verified_against_source_on": "2026-10-13",
+          "supplementary_html_text_line_range_at_retrieval": {
+            "start": 178,
+            "end": 191,
+            "caveat": "Retrieval-specific convenience; section/page/paragraph is the primary locator."
+          }
+        },
+        {
+          "anchor_id": "ARK-R04-A2",
+          "source_id": "ARK-TESLA-20220414",
+          "source_url": "https://www.ark-invest.com/articles/valuation-models/arks-tesla-model",
+          "source_publication_date": "2022-04-15",
+          "locator": {
+            "type": "html_section",
+            "heading": "Autonomous Driving",
+            "paragraphs": [
+              3,
+              4,
+              5
+            ],
+            "qualification_locator": "Forecast warning immediately before the section; explanation beneath the scenario examples"
+          },
+          "supporting_paraphrase": "Results depend on launch timing and model assumptions.",
+          "support_role": "conditional_simulation_qualification_not_calibrated_probabilities",
+          "native_attribution": "Tasha Keeney / ARK research team",
+          "native_scope": "April 2022 Tesla model only",
+          "verified_against_source_on": "2026-10-13",
+          "supplementary_html_text_line_range_at_retrieval": {
+            "start": 190,
+            "end": 207,
+            "caveat": "Retrieval-specific convenience; section/page/paragraph is the primary locator."
+          }
+        }
+      ],
+      "scope": "Tesla 2022 model only",
+      "adaptation_boundary": "Evidence anchors authenticate the documented native principle only. Skill questions are independent auditor operationalization, not verbatim investor instructions or proof of historical use."
+    },
+    {
+      "investor_id": "ron_baron",
+      "rule_id": "BARON-R00",
+      "documented_rule": "Value future growth and profitability against the entry price.",
+      "source_ids": [
+        "BARON-NCSRS-20150630"
+      ],
+      "pre_2026_benchmark_eligible": true,
+      "evidence_time_class": "dated_pre_2026_method",
+      "evidence_anchors": [
+        {
+          "anchor_id": "BARON-R00-A1",
+          "source_id": "BARON-NCSRS-20150630",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1217673/000120928615000536/e108965.htm",
+          "source_publication_date": "2015-08-28",
+          "locator": {
+            "type": "sec_fund_report",
+            "printed_page": 3,
+            "fund_section": "Baron Partners Fund",
+            "heading": "MANAGEMENT’S DISCUSSION OF FUND PERFORMANCE",
+            "paragraph_locator": "Final paragraph before footnotes; corroborated by the third paragraph under this heading"
+          },
+          "supporting_paraphrase": "Entry value is assessed against future growth/profitability.",
+          "support_role": "direct_dated_fund_method",
+          "native_attribution": "Baron Partners Fund / BAMCO",
+          "native_scope": "June 2015 report, publicly filed August 28, 2015",
+          "verified_against_source_on": "2026-10-13",
+          "supplementary_html_text_line_range_at_retrieval": {
+            "start": 241,
+            "end": 255,
+            "caveat": "Retrieval-specific convenience; section/page/paragraph is the primary locator."
+          }
+        }
+      ],
+      "scope": "Baron Partners 2015 disclosure",
+      "adaptation_boundary": "Evidence anchors authenticate the documented native principle only. Skill questions are independent auditor operationalization, not verbatim investor instructions or proof of historical use."
+    },
+    {
+      "investor_id": "ron_baron",
+      "rule_id": "BARON-R01",
+      "documented_rule": "Screen secular growth, moat, management and price together.",
+      "source_ids": [
+        "BARON-PROC"
+      ],
+      "pre_2026_benchmark_eligible": false,
+      "evidence_time_class": "audit_only_current_or_undated_method",
+      "evidence_anchors": [
+        {
+          "anchor_id": "BARON-R01-A1",
+          "source_id": "BARON-PROC",
+          "source_url": "https://www.baroncapitalgroup.com/article/baron-capital-investment-approach",
+          "source_publication_date": null,
+          "locator": {
+            "type": "html_section",
+            "heading": "Research",
+            "numbered_steps": [
+              1,
+              2
+            ],
+            "paragraph_locator": "Step 1 paragraphs 1-2; step 2 paragraphs 1-3"
+          },
+          "supporting_paraphrase": "Secular opportunity, moat and management are screened.",
+          "support_role": "direct_documented_selection_criteria",
+          "native_attribution": "Baron Capital research/portfolio teams",
+          "native_scope": "Undated current firm process; not solely Ron; historical packet excluded",
+          "verified_against_source_on": "2026-10-13",
+          "supplementary_html_text_line_range_at_retrieval": {
+            "start": 48,
+            "end": 57,
+            "caveat": "Retrieval-specific convenience; section/page/paragraph is the primary locator."
+          }
+        },
+        {
+          "anchor_id": "BARON-R01-A2",
+          "source_id": "BARON-PROC",
+          "source_url": "https://www.baroncapitalgroup.com/article/baron-capital-investment-approach",
+          "source_publication_date": null,
+          "locator": {
+            "type": "html_subsection",
+            "heading": "Risk/return analysis",
+            "paragraph": 1
+          },
+          "supporting_paraphrase": "Four criteria explicitly include valuation.",
+          "support_role": "direct_documented_four_criteria",
+          "native_attribution": "Baron Capital portfolio managers",
+          "native_scope": "Undated current firm process; historical packet excluded",
+          "verified_against_source_on": "2026-10-13",
+          "supplementary_html_text_line_range_at_retrieval": {
+            "start": 108,
+            "end": 109,
+            "caveat": "Retrieval-specific convenience; section/page/paragraph is the primary locator."
+          }
+        }
+      ],
+      "scope": "organization/current",
+      "adaptation_boundary": "Evidence anchors authenticate the documented native principle only. Skill questions are independent auditor operationalization, not verbatim investor instructions or proof of historical use."
+    },
+    {
+      "investor_id": "ron_baron",
+      "rule_id": "BARON-R02",
+      "documented_rule": "Check primary counterparties, site operations and executive incentives.",
+      "source_ids": [
+        "BARON-PROC"
+      ],
+      "pre_2026_benchmark_eligible": false,
+      "evidence_time_class": "audit_only_current_or_undated_method",
+      "evidence_anchors": [
+        {
+          "anchor_id": "BARON-R02-A1",
+          "source_id": "BARON-PROC",
+          "source_url": "https://www.baroncapitalgroup.com/article/baron-capital-investment-approach",
+          "source_publication_date": null,
+          "locator": {
+            "type": "html_section",
+            "heading": "Research",
+            "numbered_step": 3,
+            "paragraphs_within_step": [
+              1,
+              2,
+              3
+            ]
+          },
+          "supporting_paraphrase": "Counterparty checks, visits and incentive review test theses.",
+          "support_role": "direct_documented_diligence_process",
+          "native_attribution": "Baron Capital research/portfolio teams",
+          "native_scope": "Undated current firm process; historical packet excluded",
+          "verified_against_source_on": "2026-10-13",
+          "supplementary_html_text_line_range_at_retrieval": {
+            "start": 59,
+            "end": 63,
+            "caveat": "Retrieval-specific convenience; section/page/paragraph is the primary locator."
+          }
+        }
+      ],
+      "scope": "organization/current",
+      "adaptation_boundary": "Evidence anchors authenticate the documented native principle only. Skill questions are independent auditor operationalization, not verbatim investor instructions or proof of historical use."
+    },
+    {
+      "investor_id": "ron_baron",
+      "rule_id": "BARON-R03",
+      "documented_rule": "Build five historical and five forecast years; normally seek 15% annual return.",
+      "source_ids": [
+        "BARON-PROC"
+      ],
+      "pre_2026_benchmark_eligible": false,
+      "evidence_time_class": "audit_only_current_or_undated_method",
+      "evidence_anchors": [
+        {
+          "anchor_id": "BARON-R03-A1",
+          "source_id": "BARON-PROC",
+          "source_url": "https://www.baroncapitalgroup.com/article/baron-capital-investment-approach",
+          "source_publication_date": null,
+          "locator": {
+            "type": "html_section",
+            "heading": "Research",
+            "numbered_step": 4,
+            "paragraph": 1,
+            "table_locator": "Revenue/cost/profitability/capital-structure table immediately following"
+          },
+          "supporting_paraphrase": "Models contain five historic and five forecast years.",
+          "support_role": "direct_documented_model_horizon",
+          "native_attribution": "Baron Capital research/portfolio teams",
+          "native_scope": "Undated current firm process; historical packet excluded",
+          "verified_against_source_on": "2026-10-13",
+          "supplementary_html_text_line_range_at_retrieval": {
+            "start": 65,
+            "end": 90,
+            "caveat": "Retrieval-specific convenience; section/page/paragraph is the primary locator."
+          }
+        },
+        {
+          "anchor_id": "BARON-R03-A2",
+          "source_id": "BARON-PROC",
+          "source_url": "https://www.baroncapitalgroup.com/article/baron-capital-investment-approach",
+          "source_publication_date": null,
+          "locator": {
+            "type": "html_section",
+            "heading": "Research",
+            "numbered_step": 5,
+            "paragraph": 1
+          },
+          "supporting_paraphrase": "Typically seek 15% annual return and stress scenarios.",
+          "support_role": "direct_stated_typical_hurdle_not_guarantee",
+          "native_attribution": "Baron Capital research/portfolio teams",
+          "native_scope": "Undated current firm process; historical packet excluded",
+          "verified_against_source_on": "2026-10-13",
+          "supplementary_html_text_line_range_at_retrieval": {
+            "start": 92,
+            "end": 94,
+            "caveat": "Retrieval-specific convenience; section/page/paragraph is the primary locator."
+          }
+        }
+      ],
+      "scope": "organization/current",
+      "adaptation_boundary": "Evidence anchors authenticate the documented native principle only. Skill questions are independent auditor operationalization, not verbatim investor instructions or proof of historical use."
+    },
+    {
+      "investor_id": "ron_baron",
+      "rule_id": "BARON-R04",
+      "documented_rule": "Start small, add with learning; balance conviction against risk and liquidity.",
+      "source_ids": [
+        "BARON-PROC"
+      ],
+      "pre_2026_benchmark_eligible": false,
+      "evidence_time_class": "audit_only_current_or_undated_method",
+      "evidence_anchors": [
+        {
+          "anchor_id": "BARON-R04-A1",
+          "source_id": "BARON-PROC",
+          "source_url": "https://www.baroncapitalgroup.com/article/baron-capital-investment-approach",
+          "source_publication_date": null,
+          "locator": {
+            "type": "html_subsection",
+            "heading": "Position Sizing",
+            "paragraph_locator": "Final prose paragraph, after the watch-list paragraph"
+          },
+          "supporting_paraphrase": "Start smaller; add with knowledge and thesis confirmation.",
+          "support_role": "direct_documented_position_development",
+          "native_attribution": "Baron Capital portfolio managers",
+          "native_scope": "Undated current firm process; historical packet excluded",
+          "verified_against_source_on": "2026-10-13",
+          "supplementary_html_text_line_range_at_retrieval": {
+            "start": 124,
+            "end": 130,
+            "caveat": "Retrieval-specific convenience; section/page/paragraph is the primary locator."
+          }
+        },
+        {
+          "anchor_id": "BARON-R04-A2",
+          "source_id": "BARON-PROC",
+          "source_url": "https://www.baroncapitalgroup.com/article/baron-capital-investment-approach",
+          "source_publication_date": null,
+          "locator": {
+            "type": "html_subsections",
+            "headings": [
+              "Risk/return analysis",
+              "Liquidity"
+            ],
+            "paragraphs": [
+              1,
+              1
+            ]
+          },
+          "supporting_paraphrase": "Size conviction relative to risk while retaining liquidity.",
+          "support_role": "direct_documented_risk_liquidity_constraints",
+          "native_attribution": "Baron Capital portfolio managers",
+          "native_scope": "Undated current firm process; historical packet excluded",
+          "verified_against_source_on": "2026-10-13",
+          "supplementary_html_text_line_range_at_retrieval": {
+            "start": 108,
+            "end": 123,
+            "caveat": "Retrieval-specific convenience; section/page/paragraph is the primary locator."
+          }
+        }
+      ],
+      "scope": "organization/current",
+      "adaptation_boundary": "Evidence anchors authenticate the documented native principle only. Skill questions are independent auditor operationalization, not verbatim investor instructions or proof of historical use."
+    },
+    {
+      "investor_id": "ron_baron",
+      "rule_id": "BARON-R05",
+      "documented_rule": "Partners seeks doubling business value over five-six years in a concentrated leveraged portfolio.",
+      "source_ids": [
+        "BARON-PARTNERS-Q12024"
+      ],
+      "pre_2026_benchmark_eligible": false,
+      "evidence_time_class": "audit_only_current_or_undated_method",
+      "evidence_anchors": [
+        {
+          "anchor_id": "BARON-R05-A1",
+          "source_id": "BARON-PARTNERS-Q12024",
+          "source_url": "https://www.baroncapitalgroup.com/article/quarterly-letter-baron-partners-fund-q1-2024",
+          "source_publication_date": null,
+          "locator": {
+            "type": "html_section",
+            "heading": "Investment Strategy and Portfolio Structure",
+            "paragraphs": [
+              1,
+              2,
+              3
+            ]
+          },
+          "supporting_paraphrase": "Target value doubling; concentrated portfolio uses leverage.",
+          "support_role": "direct_fund_specific_objective_and_structure",
+          "native_attribution": "Ron Baron and Michael Baron / Baron Partners Fund",
+          "native_scope": "Q1 2024 fund letter; exact publication day unknown, historical packet excluded",
+          "verified_against_source_on": "2026-10-13",
+          "supplementary_html_text_line_range_at_retrieval": {
+            "start": 140,
+            "end": 143,
+            "caveat": "Retrieval-specific convenience; section/page/paragraph is the primary locator."
+          }
+        }
+      ],
+      "scope": "Baron Partners Fund",
+      "adaptation_boundary": "Evidence anchors authenticate the documented native principle only. Skill questions are independent auditor operationalization, not verbatim investor instructions or proof of historical use."
+    },
+    {
+      "investor_id": "brad_gerstner_altimeter",
+      "rule_id": "ALT-R01",
+      "documented_rule": "Underwrite durable user/product strength alongside spending discipline.",
+      "source_ids": [
+        "ALT-META-20221024"
+      ],
+      "pre_2026_benchmark_eligible": true,
+      "evidence_time_class": "dated_pre_2026_method",
+      "evidence_anchors": [
+        {
+          "anchor_id": "ALT-R01-A1",
+          "source_id": "ALT-META-20221024",
+          "source_url": "https://medium.com/@alt.cap/time-to-get-fit-an-open-letter-from-altimeter-to-mark-zuckerberg-and-the-meta-board-of-392d94e80a18",
+          "source_publication_date": "2022-10-24",
+          "locator": {
+            "type": "html_letter",
+            "salutation": "Dear Mark",
+            "paragraph_locator": "First and fifth opening prose paragraphs after salutation; fourth prose paragraph under conclusion"
+          },
+          "supporting_paraphrase": "Founder/product support coexists with spending criticism.",
+          "support_role": "case_specific_rationale_for_independent_analytical_principle",
+          "native_attribution": "Brad Gerstner",
+          "native_scope": "Meta 2022 shareholder letter, not a universal Altimeter rulebook",
+          "verified_against_source_on": "2026-10-13",
+          "supplementary_html_text_line_range_at_retrieval": {
+            "start": 43,
+            "end": 48,
+            "caveat": "Retrieval-specific convenience; section/page/paragraph is the primary locator."
+          }
+        }
+      ],
+      "scope": "Meta 2022 letter",
+      "adaptation_boundary": "Evidence anchors authenticate the documented native principle only. Skill questions are independent auditor operationalization, not verbatim investor instructions or proof of historical use."
+    },
+    {
+      "investor_id": "brad_gerstner_altimeter",
+      "rule_id": "ALT-R02",
+      "documented_rule": "Distinguish measurable-return AI capex from uncertain long-horizon metaverse funding.",
+      "source_ids": [
+        "ALT-META-20221024"
+      ],
+      "pre_2026_benchmark_eligible": true,
+      "evidence_time_class": "dated_pre_2026_method",
+      "evidence_anchors": [
+        {
+          "anchor_id": "ALT-R02-A1",
+          "source_id": "ALT-META-20221024",
+          "source_url": "https://medium.com/@alt.cap/time-to-get-fit-an-open-letter-from-altimeter-to-mark-zuckerberg-and-the-meta-board-of-392d94e80a18",
+          "source_publication_date": "2022-10-24",
+          "locator": {
+            "type": "html_section",
+            "heading_prefix": "CAPEX",
+            "paragraph_locator": "Second paragraph on maintenance/AI investment; sixth paragraph on reduced capex until revenue accelerates"
+          },
+          "supporting_paraphrase": "Supports high-return AI investment with spending discipline.",
+          "support_role": "direct_case_specific_capital_allocation_rationale",
+          "native_attribution": "Brad Gerstner",
+          "native_scope": "Meta 2022 letter only",
+          "verified_against_source_on": "2026-10-13",
+          "supplementary_html_text_line_range_at_retrieval": {
+            "start": 75,
+            "end": 82,
+            "caveat": "Retrieval-specific convenience; section/page/paragraph is the primary locator."
+          }
+        },
+        {
+          "anchor_id": "ALT-R02-A2",
+          "source_id": "ALT-META-20221024",
+          "source_url": "https://medium.com/@alt.cap/time-to-get-fit-an-open-letter-from-altimeter-to-mark-zuckerberg-and-the-meta-board-of-392d94e80a18",
+          "source_publication_date": "2022-10-24",
+          "locator": {
+            "type": "html_section",
+            "heading_prefix": "Focusing the Metaverse",
+            "paragraph_locator": "Third paragraph on long duration; fifth and sixth paragraphs on spending cap, discrete targets and tangible ROI"
+          },
+          "supporting_paraphrase": "Bound uncertain projects; scale funding as ROI emerges.",
+          "support_role": "direct_case_specific_project_funding_qualification",
+          "native_attribution": "Brad Gerstner",
+          "native_scope": "Meta 2022 letter only",
+          "verified_against_source_on": "2026-10-13",
+          "supplementary_html_text_line_range_at_retrieval": {
+            "start": 83,
+            "end": 90,
+            "caveat": "Retrieval-specific convenience; section/page/paragraph is the primary locator."
+          }
+        }
+      ],
+      "scope": "Meta 2022 letter",
+      "adaptation_boundary": "Evidence anchors authenticate the documented native principle only. Skill questions are independent auditor operationalization, not verbatim investor instructions or proof of historical use."
+    },
+    {
+      "investor_id": "brad_gerstner_altimeter",
+      "rule_id": "ALT-R03",
+      "documented_rule": "Build an explicit expense/capex bridge to free cash flow and valuation.",
+      "source_ids": [
+        "ALT-META-20221024"
+      ],
+      "pre_2026_benchmark_eligible": true,
+      "evidence_time_class": "dated_pre_2026_method",
+      "evidence_anchors": [
+        {
+          "anchor_id": "ALT-R03-A1",
+          "source_id": "ALT-META-20221024",
+          "source_url": "https://medium.com/@alt.cap/time-to-get-fit-an-open-letter-from-altimeter-to-mark-zuckerberg-and-the-meta-board-of-392d94e80a18",
+          "source_publication_date": "2022-10-24",
+          "locator": {
+            "type": "html_letter_plan",
+            "locator": "Three-item numbered recommendation list immediately before the first spending-control section"
+          },
+          "supporting_paraphrase": "Expense, capex and metaverse reductions target doubled FCF.",
+          "support_role": "direct_case_specific_quantitative_plan",
+          "native_attribution": "Brad Gerstner",
+          "native_scope": "Meta 2022 letter only",
+          "verified_against_source_on": "2026-10-13",
+          "supplementary_html_text_line_range_at_retrieval": {
+            "start": 51,
+            "end": 54,
+            "caveat": "Retrieval-specific convenience; section/page/paragraph is the primary locator."
+          }
+        },
+        {
+          "anchor_id": "ALT-R03-A2",
+          "source_id": "ALT-META-20221024",
+          "source_url": "https://medium.com/@alt.cap/time-to-get-fit-an-open-letter-from-altimeter-to-mark-zuckerberg-and-the-meta-board-of-392d94e80a18",
+          "source_publication_date": "2022-10-24",
+          "locator": {
+            "type": "html_section",
+            "heading_prefix": "Conclusion",
+            "paragraphs": [
+              1,
+              2
+            ],
+            "additional_context_locator": "Fourth prose paragraph after salutation, P/E comparison"
+          },
+          "supporting_paraphrase": "Explicit savings bridge supports FCF; P/E supplies valuation context.",
+          "support_role": "direct_FCF_bridge_plus_valuation_context_not_full_pricing_algorithm",
+          "native_attribution": "Brad Gerstner",
+          "native_scope": "Meta 2022 letter only",
+          "verified_against_source_on": "2026-10-13",
+          "supplementary_html_text_line_range_at_retrieval": {
+            "start": 91,
+            "end": 94,
+            "caveat": "Retrieval-specific convenience; section/page/paragraph is the primary locator."
+          }
+        }
+      ],
+      "scope": "Meta 2022 letter",
+      "adaptation_boundary": "Evidence anchors authenticate the documented native principle only. Skill questions are independent auditor operationalization, not verbatim investor instructions or proof of historical use."
+    },
+    {
+      "investor_id": "brad_gerstner_altimeter",
+      "rule_id": "ALT-R04",
+      "documented_rule": "For a public transition, compare valuation, forecasts and aligned security terms.",
+      "source_ids": [
+        "ALT-GRAB-DECK-20210413"
+      ],
+      "pre_2026_benchmark_eligible": true,
+      "evidence_time_class": "dated_pre_2026_method",
+      "evidence_anchors": [
+        {
+          "anchor_id": "ALT-R04-A1",
+          "source_id": "ALT-GRAB-DECK-20210413",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1823340/000114036121012518/nt10022857x2_ex99-2.htm",
+          "source_publication_date": "2021-04-13",
+          "locator": {
+            "type": "transaction_deck_slides",
+            "slides": [
+              46,
+              53
+            ],
+            "topic_locator": "Transaction sources/uses and valuation; public peer forward-revenue valuation comparisons"
+          },
+          "supporting_paraphrase": "Forward peer metrics contextualize transaction valuation.",
+          "support_role": "direct_case_specific_transaction_valuation_method",
+          "native_attribution": "Grab and Altimeter Growth Corp. transaction presentation",
+          "native_scope": "April 2021 transaction, not a universal Gerstner policy",
+          "verified_against_source_on": "2026-10-13",
+          "supplementary_html_text_line_range_at_retrieval": {
+            "start": 373,
+            "end": 431,
+            "caveat": "Retrieval-specific convenience; section/page/paragraph is the primary locator."
+          }
+        },
+        {
+          "anchor_id": "ALT-R04-A2",
+          "source_id": "ALT-GRAB-DECK-20210413",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1823340/000114036121012518/nt10022857x2_ex99-2.htm",
+          "source_publication_date": "2021-04-13",
+          "locator": {
+            "type": "transaction_deck_slides",
+            "slides": [
+              51,
+              52,
+              59,
+              60
+            ],
+            "topic_locator": "Cap-table dilution; staged lock-up; post-intercompany financial forecasts"
+          },
+          "supporting_paraphrase": "Security terms and forecasts require separate reconciliation.",
+          "support_role": "disclosed_case_structures_support_independent_evaluation_not_native_alignment_rule",
+          "native_attribution": "Grab and Altimeter Growth Corp. transaction presentation",
+          "native_scope": "April 2021 transaction only",
+          "verified_against_source_on": "2026-10-13",
+          "supplementary_html_text_line_range_at_retrieval": {
+            "start": 417,
+            "end": 481,
+            "caveat": "Retrieval-specific convenience; section/page/paragraph is the primary locator."
+          }
+        }
+      ],
+      "scope": "Grab 2021 deck",
+      "adaptation_boundary": "Evidence anchors authenticate the documented native principle only. Skill questions are independent auditor operationalization, not verbatim investor instructions or proof of historical use."
+    },
+    {
+      "investor_id": "philippe_laffont_coatue",
+      "rule_id": "COATUE-R01",
+      "documented_rule": "Map the industry, addressable market, model quality and adoption/profit S-curve.",
+      "source_ids": [
+        "COATUE-CTEK-20260501"
+      ],
+      "pre_2026_benchmark_eligible": false,
+      "evidence_time_class": "audit_only_current_or_undated_method",
+      "evidence_anchors": [
+        {
+          "anchor_id": "COATUE-R01-A1",
+          "source_id": "COATUE-CTEK-20260501",
+          "source_url": "https://www.coatue.com/ctek/documents/Coatue_-_CTEK_Prospectus__May_1__2026_.pdf",
+          "source_publication_date": "2026-05-01",
+          "locator": {
+            "type": "pdf_section",
+            "pdf_page_zero_based": 25,
+            "pdf_page_one_based": 26,
+            "printed_page": 22,
+            "heading": "Public Assets",
+            "paragraph_locator": "Second Public Assets paragraph, beginning on prior printed page 21 and continuing on printed page 22; four enumerated tests",
+            "paragraph": 2
+          },
+          "supporting_paraphrase": "Industry maps, TAM, quality and S-curves guide selection.",
+          "support_role": "direct_current_fund_process",
+          "native_attribution": "Coatue Management LLC",
+          "native_scope": "CTEK May 1, 2026; historical packet excluded",
+          "verified_against_source_on": "2026-10-13",
+          "supplementary_html_text_line_range_at_retrieval": {
+            "start": 866,
+            "end": 873,
+            "caveat": "Retrieval-specific convenience; section/page/paragraph is the primary locator."
+          }
+        }
+      ],
+      "scope": "CTEK 2026 disclosed process",
+      "adaptation_boundary": "Evidence anchors authenticate the documented native principle only. Skill questions are independent auditor operationalization, not verbatim investor instructions or proof of historical use."
+    },
+    {
+      "investor_id": "philippe_laffont_coatue",
+      "rule_id": "COATUE-R02",
+      "documented_rule": "Use financial models, data, surveys and experts to inform targets and position size.",
+      "source_ids": [
+        "COATUE-CTEK-20260501"
+      ],
+      "pre_2026_benchmark_eligible": false,
+      "evidence_time_class": "audit_only_current_or_undated_method",
+      "evidence_anchors": [
+        {
+          "anchor_id": "COATUE-R02-A1",
+          "source_id": "COATUE-CTEK-20260501",
+          "source_url": "https://www.coatue.com/ctek/documents/Coatue_-_CTEK_Prospectus__May_1__2026_.pdf",
+          "source_publication_date": "2026-05-01",
+          "locator": {
+            "type": "pdf_subsection",
+            "pdf_page_zero_based": 27,
+            "pdf_page_one_based": 28,
+            "printed_page": 24,
+            "section": "COATUE OVERVIEW",
+            "heading": "Proprietary Data Science Capabilities",
+            "paragraph": 1
+          },
+          "supporting_paraphrase": "Mosaic data and models inform thesis, sizing and monitoring.",
+          "support_role": "direct_current_research_and_sizing_process",
+          "native_attribution": "Coatue Management LLC",
+          "native_scope": "CTEK May 1, 2026; historical packet excluded",
+          "verified_against_source_on": "2026-10-13",
+          "supplementary_html_text_line_range_at_retrieval": {
+            "start": 929,
+            "end": 936,
+            "caveat": "Retrieval-specific convenience; section/page/paragraph is the primary locator."
+          }
+        }
+      ],
+      "scope": "CTEK 2026 disclosed process",
+      "adaptation_boundary": "Evidence anchors authenticate the documented native principle only. Skill questions are independent auditor operationalization, not verbatim investor instructions or proof of historical use."
+    },
+    {
+      "investor_id": "philippe_laffont_coatue",
+      "rule_id": "COATUE-R03",
+      "documented_rule": "Actively resize exposures and cash as risk/reward changes.",
+      "source_ids": [
+        "COATUE-CTEK-20260501"
+      ],
+      "pre_2026_benchmark_eligible": false,
+      "evidence_time_class": "audit_only_current_or_undated_method",
+      "evidence_anchors": [
+        {
+          "anchor_id": "COATUE-R03-A1",
+          "source_id": "COATUE-CTEK-20260501",
+          "source_url": "https://www.coatue.com/ctek/documents/Coatue_-_CTEK_Prospectus__May_1__2026_.pdf",
+          "source_publication_date": "2026-05-01",
+          "locator": {
+            "type": "pdf_subsection",
+            "pdf_page_zero_based": 27,
+            "pdf_page_one_based": 28,
+            "printed_page": 24,
+            "section": "COATUE OVERVIEW",
+            "heading": "Risk Management",
+            "paragraph": 1
+          },
+          "supporting_paraphrase": "Active resizing and cash adjustments manage exposure.",
+          "support_role": "direct_current_exposure_management_process_no_numeric_stop",
+          "native_attribution": "Coatue Management LLC",
+          "native_scope": "CTEK May 1, 2026; historical packet excluded",
+          "verified_against_source_on": "2026-10-13",
+          "supplementary_html_text_line_range_at_retrieval": {
+            "start": 923,
+            "end": 928,
+            "caveat": "Retrieval-specific convenience; section/page/paragraph is the primary locator."
+          }
+        }
+      ],
+      "scope": "CTEK 2026 disclosed process",
+      "adaptation_boundary": "Evidence anchors authenticate the documented native principle only. Skill questions are independent auditor operationalization, not verbatim investor instructions or proof of historical use."
+    },
+    {
+      "investor_id": "philippe_laffont_coatue",
+      "rule_id": "COATUE-R04",
+      "documented_rule": "Analyze AI stack economics and adoption constraints, beyond model capability.",
+      "source_ids": [
+        "COATUE-AI-20231116"
+      ],
+      "pre_2026_benchmark_eligible": true,
+      "evidence_time_class": "dated_pre_2026_method",
+      "evidence_anchors": [
+        {
+          "anchor_id": "COATUE-R04-A1",
+          "source_id": "COATUE-AI-20231116",
+          "source_url": "https://www.coatue.com/blog/perspective/ai-the-coming-revolution-2023",
+          "source_publication_date": "2023-11-16",
+          "locator": {
+            "type": "html_numbered_section",
+            "numbered_section": 3,
+            "heading_topic": "AI-centric technology stack",
+            "paragraph_locator": "Opening paragraph and four layer bullets; compute/cloud bullet and immediately following inference-cost paragraph"
+          },
+          "supporting_paraphrase": "Layer interactions and compute economics shape AI opportunity.",
+          "support_role": "direct_team_research_framework",
+          "native_attribution": "Sri Viswanath and Vibhor Khanna",
+          "native_scope": "November 16, 2023 Coatue team paper; not personal Laffont authorship",
+          "verified_against_source_on": "2026-10-13",
+          "supplementary_html_text_line_range_at_retrieval": {
+            "start": 30,
+            "end": 38,
+            "caveat": "Retrieval-specific convenience; section/page/paragraph is the primary locator."
+          }
+        },
+        {
+          "anchor_id": "COATUE-R04-A2",
+          "source_id": "COATUE-AI-20231116",
+          "source_url": "https://www.coatue.com/blog/perspective/ai-the-coming-revolution-2023",
+          "source_publication_date": "2023-11-16",
+          "locator": {
+            "type": "html_numbered_section",
+            "numbered_section": 4,
+            "paragraph_locator": "Third prose paragraph; discussion of cost, deployment, security and scaling challenges"
+          },
+          "supporting_paraphrase": "Adoption depends on cost and deployment constraints.",
+          "support_role": "direct_team_research_qualification",
+          "native_attribution": "Sri Viswanath and Vibhor Khanna",
+          "native_scope": "November 16, 2023 Coatue team paper only",
+          "verified_against_source_on": "2026-10-13",
+          "supplementary_html_text_line_range_at_retrieval": {
+            "start": 39,
+            "end": 43,
+            "caveat": "Retrieval-specific convenience; section/page/paragraph is the primary locator."
+          }
+        }
+      ],
+      "scope": "Viswanath/Khanna 2023 paper",
+      "adaptation_boundary": "Evidence anchors authenticate the documented native principle only. Skill questions are independent auditor operationalization, not verbatim investor instructions or proof of historical use."
+    },
+    {
+      "investor_id": "philippe_laffont_coatue",
+      "rule_id": "COATUE-R05",
+      "documented_rule": "AI can support research; investment personnel remain decision-makers.",
+      "source_ids": [
+        "COATUE-CTEK-20260501"
+      ],
+      "pre_2026_benchmark_eligible": false,
+      "evidence_time_class": "audit_only_current_or_undated_method",
+      "evidence_anchors": [
+        {
+          "anchor_id": "COATUE-R05-A1",
+          "source_id": "COATUE-CTEK-20260501",
+          "source_url": "https://www.coatue.com/ctek/documents/Coatue_-_CTEK_Prospectus__May_1__2026_.pdf",
+          "source_publication_date": "2026-05-01",
+          "locator": {
+            "type": "pdf_subsection",
+            "pdf_page_zero_based": 27,
+            "pdf_page_one_based": 28,
+            "printed_page": 24,
+            "section": "COATUE OVERVIEW",
+            "heading": "Proprietary Data Science Capabilities",
+            "paragraph": 2,
+            "sentence_locator": "Final sentence, spanning two extracted lines"
+          },
+          "supporting_paraphrase": "AI supports research; personnel retain investment decisions.",
+          "support_role": "direct_current_human_decision_authority",
+          "native_attribution": "Coatue Management LLC",
+          "native_scope": "CTEK May 1, 2026; historical packet excluded",
+          "verified_against_source_on": "2026-10-13",
+          "supplementary_html_text_line_range_at_retrieval": {
+            "start": 937,
+            "end": 941,
+            "caveat": "Retrieval-specific convenience; section/page/paragraph is the primary locator."
+          }
+        }
+      ],
+      "scope": "CTEK 2026 disclosed process",
+      "adaptation_boundary": "Evidence anchors authenticate the documented native principle only. Skill questions are independent auditor operationalization, not verbatim investor instructions or proof of historical use."
+    }
+  ],
+  "scope_note": "Same sources, rules, historical allowlist and authorship. Locator-only provenance correction, plus two narrow documented-wording refinements and corrected Meta P/E paraphrase / NVDA arithmetic precision."
+}

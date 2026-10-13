@@ -1,0 +1,712 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:investment-master:individual-model-response:v0.1-draft",
+  "title": "One assigned lens per fresh independent model context; controller-owned metadata excluded",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": {
+      "const": "investment-master-individual-model-response/v0.1-draft"
+    },
+    "master_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "horizon": {
+      "type": "string",
+      "minLength": 1
+    },
+    "scope_status": {
+      "enum": [
+        "complete",
+        "bounded_partial",
+        "abstain"
+      ]
+    },
+    "analysis_status": {
+      "enum": [
+        "complete",
+        "partial",
+        "abstained"
+      ]
+    },
+    "abstention_reason": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "claims": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/claim"
+      }
+    },
+    "rule_results": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/ruleResult"
+      }
+    },
+    "quantitative_decision_outputs": {
+      "$ref": "#/$defs/quantitative"
+    },
+    "decision": {
+      "type": "object",
+      "properties": {
+        "conclusion": {
+          "enum": [
+            "initiate_long",
+            "do_not_initiate_long",
+            "watch",
+            "abstain",
+            "not_requested"
+          ]
+        },
+        "meaning": {
+          "const": "Hypothetical research conclusion; no order, investor endorsement or portfolio action."
+        },
+        "rationale_claim_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true
+        }
+      },
+      "required": [
+        "conclusion",
+        "meaning",
+        "rationale_claim_ids"
+      ],
+      "additionalProperties": false
+    },
+    "actual_ticker_evidence_check": {
+      "$ref": "#/$defs/actualTickerEvidence"
+    },
+    "limitations": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "uniqueItems": true
+    }
+  },
+  "required": [
+    "schema_version",
+    "master_id",
+    "horizon",
+    "scope_status",
+    "analysis_status",
+    "abstention_reason",
+    "claims",
+    "rule_results",
+    "quantitative_decision_outputs",
+    "decision",
+    "actual_ticker_evidence_check",
+    "limitations"
+  ],
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "analysis_status": {
+            "const": "abstained"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "scope_status": {
+            "const": "abstain"
+          },
+          "abstention_reason": {
+            "type": "string",
+            "minLength": 1
+          },
+          "decision": {
+            "properties": {
+              "conclusion": {
+                "const": "abstain"
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "analysis_status": {
+            "enum": [
+              "complete",
+              "partial"
+            ]
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "claims": {
+            "minItems": 1
+          },
+          "rule_results": {
+            "minItems": 1
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "decision": {
+            "properties": {
+              "conclusion": {
+                "enum": [
+                  "initiate_long",
+                  "do_not_initiate_long",
+                  "watch"
+                ]
+              }
+            }
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "analysis_status": {
+            "enum": [
+              "complete",
+              "partial"
+            ]
+          },
+          "decision": {
+            "properties": {
+              "rationale_claim_ids": {
+                "minItems": 1
+              }
+            }
+          }
+        }
+      }
+    }
+  ],
+  "$defs": {
+    "claim": {
+      "type": "object",
+      "properties": {
+        "claim_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "text": {
+          "type": "string",
+          "minLength": 1
+        },
+        "kind": {
+          "enum": [
+            "direct_statement",
+            "regulatory_holding",
+            "reported_transaction",
+            "inferred_method",
+            "analyst_reconstruction",
+            "hypothetical_application",
+            "valuation_assumption",
+            "calculation",
+            "realized_outcome"
+          ]
+        },
+        "timing": {
+          "enum": [
+            "T0",
+            "T1",
+            "T2",
+            "TU",
+            "not_applicable"
+          ]
+        },
+        "source_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true
+        },
+        "fact_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true
+        },
+        "inference_basis_claim_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true
+        },
+        "qualifiers": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true
+        },
+        "limits": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true
+        }
+      },
+      "required": [
+        "claim_id",
+        "text",
+        "kind",
+        "timing",
+        "source_ids",
+        "fact_ids",
+        "inference_basis_claim_ids",
+        "qualifiers",
+        "limits"
+      ],
+      "additionalProperties": false,
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "kind": {
+                "enum": [
+                  "direct_statement",
+                  "regulatory_holding",
+                  "reported_transaction",
+                  "realized_outcome"
+                ]
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "source_ids": {
+                "minItems": 1
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "kind": {
+                "const": "calculation"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "fact_ids": {
+                "minItems": 1
+              }
+            }
+          }
+        }
+      ]
+    },
+    "scenario": {
+      "type": "object",
+      "properties": {
+        "scenario_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "name": {
+          "enum": [
+            "bear",
+            "base",
+            "bull",
+            "other"
+          ]
+        },
+        "status": {
+          "enum": [
+            "computed",
+            "not_computable",
+            "missing",
+            "inapplicable"
+          ]
+        },
+        "calculation_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true
+        },
+        "value": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "quote_currency": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "security_unit": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "upside_fraction": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "return_measure": {
+          "enum": [
+            "dated_cash_flow_irr",
+            "geometric_approximation",
+            "not_computed",
+            "not_applicable"
+          ]
+        },
+        "annualized_return": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "assumption_claim_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true
+        },
+        "limits": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true
+        }
+      },
+      "required": [
+        "scenario_id",
+        "name",
+        "status",
+        "calculation_ids",
+        "value",
+        "quote_currency",
+        "security_unit",
+        "upside_fraction",
+        "return_measure",
+        "annualized_return",
+        "assumption_claim_ids",
+        "limits"
+      ],
+      "additionalProperties": false
+    },
+    "quantitative": {
+      "type": "object",
+      "properties": {
+        "status": {
+          "enum": [
+            "available",
+            "partial",
+            "missing",
+            "inapplicable"
+          ]
+        },
+        "market_price_fact_id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "scenarios": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/scenario"
+          }
+        },
+        "reverse_expectation_calculation_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true
+        },
+        "funding_downside_calculation_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true
+        },
+        "blocked_inputs": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true
+        },
+        "probability_statement": {
+          "const": "No model confidence is a calibrated probability; any scenario probabilities are explicit authored assumptions."
+        }
+      },
+      "required": [
+        "status",
+        "market_price_fact_id",
+        "scenarios",
+        "reverse_expectation_calculation_ids",
+        "funding_downside_calculation_ids",
+        "blocked_inputs",
+        "probability_statement"
+      ],
+      "additionalProperties": false
+    },
+    "ruleResult": {
+      "type": "object",
+      "properties": {
+        "rule_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "status": {
+          "enum": [
+            "supported",
+            "challenged",
+            "unresolved",
+            "inapplicable"
+          ]
+        },
+        "method_claim_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true
+        },
+        "company_fact_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true
+        },
+        "reason_claim_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true
+        },
+        "missing_inputs": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true
+        }
+      },
+      "required": [
+        "rule_id",
+        "status",
+        "method_claim_ids",
+        "company_fact_ids",
+        "reason_claim_ids",
+        "missing_inputs"
+      ],
+      "additionalProperties": false
+    },
+    "actualTickerEvidence": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "status": {
+          "enum": [
+            "matching_direct_statement",
+            "compatible_holding_only",
+            "no_matching_public_evidence",
+            "not_checked"
+          ]
+        },
+        "decision_cutoff_utc": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "actual_view_claim_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true
+        },
+        "holding_claim_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true
+        },
+        "source_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true
+        },
+        "publication_date_or_bound": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "available_by_cutoff": {
+          "enum": [
+            true,
+            false,
+            "unknown"
+          ]
+        },
+        "reported_entity": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "decision_attribution": {
+          "enum": [
+            "verified_personal_statement",
+            "verified_named_decision_maker",
+            "fund_or_team_only",
+            "unknown",
+            "not_applicable"
+          ]
+        },
+        "same_security_class_vehicle": {
+          "enum": [
+            true,
+            false,
+            "unknown"
+          ]
+        },
+        "application_label": {
+          "const": "Hypothetical method application unless a matching direct original statement establishes the actual view; holding alone is not endorsement."
+        },
+        "bounded_research_request": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "limitations": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true
+        }
+      },
+      "required": [
+        "status",
+        "decision_cutoff_utc",
+        "actual_view_claim_ids",
+        "holding_claim_ids",
+        "source_ids",
+        "publication_date_or_bound",
+        "available_by_cutoff",
+        "reported_entity",
+        "decision_attribution",
+        "same_security_class_vehicle",
+        "application_label",
+        "bounded_research_request",
+        "limitations"
+      ],
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "status": {
+                "const": "matching_direct_statement"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "actual_view_claim_ids": {
+                "minItems": 1
+              },
+              "source_ids": {
+                "minItems": 1
+              },
+              "publication_date_or_bound": {
+                "type": "string",
+                "minLength": 1
+              },
+              "available_by_cutoff": {
+                "const": true
+              },
+              "decision_attribution": {
+                "enum": [
+                  "verified_personal_statement",
+                  "verified_named_decision_maker"
+                ]
+              },
+              "same_security_class_vehicle": {
+                "const": true
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "status": {
+                "enum": [
+                  "no_matching_public_evidence",
+                  "not_checked"
+                ]
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "bounded_research_request": {
+                "type": "string",
+                "minLength": 1
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

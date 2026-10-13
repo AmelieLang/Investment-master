@@ -1,0 +1,170 @@
+{
+  "selection_design": "Purposive and retrospective, frozen before detailed reconstruction; not blind preregistration.",
+  "cases": [
+    {
+      "case_id": "L-C1",
+      "title": "AI bottleneck sequencing and disclosed practice",
+      "investor": "Leopold Aschenbrenner / SALP",
+      "case_type": "practice_alignment; not proven return success",
+      "selection_file": "candidate-cases.json",
+      "packet_A": {
+        "cutoff": "2024-06-04 public method release",
+        "available_evidence_ids": [
+          "L03"
+        ],
+        "retrospective_method_context_ids": [
+          "L01",
+          "L02"
+        ],
+        "known_then": "A forward AI/industrial-buildout scenario and investment-firm plan; no portfolio yet established here.",
+        "valuation_or_price": "Unknown; no security-specific fair-value or purchase packet found",
+        "alternatives_and_disconfirmers_kind": "Current research questions, not verified historical manager analysis or contemporaneous fact",
+        "alternatives_and_disconfirmers": [
+          "AI capability/adoption could stall",
+          "Supplier growth might not produce shareholder rent",
+          "Timing and financing could dominate ultimate technical correctness"
+        ],
+        "publication_caveat": "June 4 essay public existence confirmed by podcast; current essay paragraphs excluded from Packet A because sentence-level June 4 archive not obtained. L01/L02 are retrospective method context only; PDF revision June 6."
+      },
+      "packet_B": {
+        "manager_attribution": "SALP formal SOLE discretion; personal security-selection authorship unproved",
+        "trade_dates": "Unknown; later quarter-end observations are not exact entry dates",
+        "macro_method_timing": "T0 before September 2024 firm foundation",
+        "security_thesis_timing": "No security-specific T0 memo",
+        "practice_sources": [
+          "L10",
+          "L14",
+          "L15",
+          "L16"
+        ],
+        "issuer_sources": [
+          "L17",
+          "L18"
+        ],
+        "issuer_timing_caveat": "Issuer announcements precede the June 2026 observation but are not proved before SALP initial entry; do not relabel as pre-trade thesis."
+      },
+      "packet_C": {
+        "endpoint": "2026-06-30 holding observation, publicly filed 2026-08-14",
+        "metric": "Reported securities and instrument composition only",
+        "findings": [
+          "Bloom common/call exposure appears in December 2025 and June 2026 disclosures",
+          "June common shares in SanDisk and Micron together comprise 55.564645% of 13F reported value"
+        ],
+        "benchmark": "Not applicable to a practice-alignment test; no fund/trade return computed",
+        "realized_pnl": "Unknown",
+        "fund_return": "Unknown in this case",
+        "adverse_path": "Cannot derive a security-level holding-period drawdown from snapshots."
+      },
+      "packet_D": {
+        "assessment": "Thematic practice is consistent with constraint research; neither investment profitability nor forecasting causality established.",
+        "rival_explanations": [
+          "Different company catalyst or valuation rationale",
+          "Team rather than personal decisions",
+          "Unobserved foreign/private/short offsets",
+          "Investor inflows and market appreciation affect disclosed value growth"
+        ],
+        "research_lesson": "Check the linkage from system constraint to company economics and then price/financing separately.",
+        "invalidates_lesson": "Specific company exposure, contracts or value-capture evidence fails",
+        "next_decision": "Gather point-in-time fundamentals and valuation; abstain from an entry/target price if missing."
+      },
+      "evidence_gate": {
+        "macro_T0": true,
+        "security_specific_T0": false,
+        "exact_entry_exit": false,
+        "audited_realized_outcome": false,
+        "honest_practice_case_complete": true,
+        "deep_trade_reconstruction_complete": false
+      }
+    },
+    {
+      "case_id": "L-C2",
+      "title": "July 2026 financing stress versus prior survival intent",
+      "investor": "Leopold Aschenbrenner / SALP",
+      "case_type": "adverse risk/method case",
+      "selection_file": "candidate-cases.json",
+      "packet_A": {
+        "cutoff": "2026-07-28T23:59:59, timezone unspecified; conservative calendar-day gate",
+        "available_evidence_ids": [
+          "L03",
+          "L10",
+          "L11",
+          "L12",
+          "L13",
+          "L14",
+          "L15",
+          "L17",
+          "L18"
+        ],
+        "excluded_post_cutoff_evidence_ids": [
+          "L07",
+          "L16"
+        ],
+        "excluded_unverified_sentence_timing_ids": [
+          "L01",
+          "L02"
+        ],
+        "known_then": "Public 2024 survival/timing risk intent and latest publicly filed March 2026 securities report. Actual late-July financing and positions were not public in this corpus.",
+        "valuation_or_price": "No authenticated July trading/financing packet or point-in-time entry valuation",
+        "disconfirmers_kind": "Generic analyst risk checks, not known July events or verified SALP pre-event analysis",
+        "disconfirmers": [
+          "Potential correlated long and short-side moves",
+          "Collateral/liquidity stress",
+          "Thesis horizon exceeding financing horizon"
+        ],
+        "exclusion_rule": "June 30 holdings were not published until August 14; they may support later reconstruction, never public foreknowledge at July cutoff."
+      },
+      "packet_B": {
+        "actual_action_interval": "Letter says Wednesday night/Thursday morning; mapped to July 29–30, 2026 from publication week, not an independently time-stamped trade ledger",
+        "risk_statement_timing": "L03 T0 broad risk intent, June 4, 2024",
+        "outcome_communication_timing": "L07 T2, published July 31, 2026; exact issuance/time unknown",
+        "june_holdings_role": "L16 dated retrospective regulatory observation, released after event",
+        "attribution": "Letter presented as Aschenbrenner signed communication; original authentication not obtained. Citadel counterparty is contemporaneous journalist reporting, not the reproduced letter’s own named counterparty."
+      },
+      "packet_C": {
+        "endpoint": "Interim state in letter published 2026-07-31; no audited final month-end endpoint",
+        "metric": "Manager-reported unaudited net MTD loss −67%; net YTD +80%",
+        "benchmark": "None used; no alpha or comparative performance claim",
+        "realized_pnl": "Unknown at individual-security level",
+        "dollar_loss": "Not established; no AUM/NAV conflation",
+        "maximum_drawdown": "Not established; MTD loss is not necessarily peak-to-trough drawdown",
+        "continued_status": "Letter says hybrid fund continued; does not verify present operations.",
+        "evidence_ids": [
+          "L07"
+        ]
+      },
+      "packet_D": {
+        "assessment": "Apparent tension between prior survival intent and reported financing vulnerability; subsequent risk redesign is dated corrective action.",
+        "not_established": [
+          "Exact leverage ratio",
+          "Which lender/term triggered which sale",
+          "Decomposition of stock/short/foreign/private losses",
+          "That the AGI thesis was false",
+          "That the fund was permanently bankrupt or fully liquidated",
+          "That funded long options remove option-price loss or all portfolio risk"
+        ],
+        "rival_explanations": [
+          "Unforeseen liquidity/correlation and lender terms",
+          "Model and process failures not documented",
+          "Changing holdings and offsets absent from 13F"
+        ],
+        "research_lesson": "A long-horizon thesis needs financing, liquidation and liquidity resilience; technical insight alone does not establish an investable risk structure.",
+        "invalidates_lesson": "Independent primary evidence contradicts the reproduced financing account",
+        "next_decision": "Require financing/option terms and audited outcomes before reconstructing exact causal P&L or copying the risk structure."
+      },
+      "evidence_gate": {
+        "broad_pre_event_risk_intent_T0": true,
+        "full_pretrade_valuation_or_risk_policy": false,
+        "independently_audited_return": false,
+        "honest_adverse_case_complete": true,
+        "full_causal_trade_reconstruction_complete": false
+      }
+    }
+  ],
+  "counts": {
+    "selected": 2,
+    "macro_method_T0": 2,
+    "security_specific_purchase_T0": 0,
+    "audited_realized_success": 0,
+    "adverse_manager_reported_case": 1
+  }
+}

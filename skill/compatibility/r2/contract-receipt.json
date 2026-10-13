@@ -1,0 +1,49 @@
+{
+  "schema_version": "r2-contract-receipt.v1",
+  "boundary": "Preserved bytes; references outside the strict R2 object only. No adapter execution by this bundle.",
+  "adapter_contract_label": "adapter_result_v1_1",
+  "wire_schema_version": "offline-alpha-dawn/v1.1",
+  "source_acceptance": "previously accepted R2; new wrapper source acceptance pending",
+  "files": [
+    {
+      "path": "schema/request.v1.json",
+      "sha256": "ea2576167e6e94733e1f797e26bd504d28acfc0e5ff05161f6e2e6d3a68e2891",
+      "unchanged": true
+    },
+    {
+      "path": "schema/result.v1.json",
+      "sha256": "fc8bb7b49786f9e4a1221f26062bcd0999395eee7705f47dcf75b85835018cc8",
+      "unchanged": true
+    },
+    {
+      "path": "method-manifest.json",
+      "sha256": "7e9b187ec37c358e3b5b3e8ce7ccc0836c220873ecc4f10d3bd5418713456589",
+      "unchanged": true
+    },
+    {
+      "path": "config/anchors.v1.json",
+      "sha256": "e1ce5d705f4bce0452c986ced8d8c50794f080b05bc5bbc03f95bc9828dc2f73",
+      "unchanged": true
+    },
+    {
+      "path": "config/requirements.v1.json",
+      "sha256": "e0282dc19558e67c82f30e62eb0aa27575b948b4dec268bd1241bdd4bde89648",
+      "unchanged": true
+    },
+    {
+      "path": "config/observation-window.v1.json",
+      "sha256": "c71a3e50483387392759e6feaad51207f8a56f4395928e3c962c67fb9320e15a",
+      "unchanged": true
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "83a2c370b7a30045643a5c3236b27aa4ea6c0f3dee54672297be9320fa4a7cc3",
+      "unchanged": true
+    },
+    {
+      "path": "NOTICE.md",
+      "sha256": "fe6e89e0eba7c65772fc698b074e9537e80e57a853c569888ea08d7099c47b06",
+      "unchanged": true
+    }
+  ]
+}

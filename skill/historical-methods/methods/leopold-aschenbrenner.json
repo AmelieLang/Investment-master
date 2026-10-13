@@ -1,0 +1,116 @@
+{
+  "schema_version": "historical-method-facts/v0.1-draft",
+  "master_id": "leopold-aschenbrenner",
+  "display_attribution": "Leopold Aschenbrenner; emerging broad thematic and funding-risk questions",
+  "identity_scope": "emerging_individual",
+  "decision_information_cutoff_utc": "2025-12-31T23:59:59Z",
+  "eligibility": {
+    "status": "bounded_candidate_pending_review",
+    "independent_source_acceptance": "accepted_bounded_upstream_source_content",
+    "automatic_route_enabled": false,
+    "assembled_export_acceptance": "pending_separate_review"
+  },
+  "method_facts": [
+    {
+      "rule_id": "L-R1",
+      "documented_method_fact": "Capability scenario before security selection",
+      "source_ids": [
+        "L03"
+      ],
+      "source_specific_locators": {
+        "L03": "00:07:11; 00:19:42"
+      },
+      "documented_scope": "Broad original interview method/risk intent; no security-specific memo, numerical threshold or execution evidence.",
+      "original_language_terms": [],
+      "precutoff_publication_eligible_candidate": true,
+      "independent_acceptance": "pending_sanitized_export_review",
+      "application_is_hypothetical": true
+    },
+    {
+      "rule_id": "L-R2",
+      "documented_method_fact": "Map industrial constraints and economic beneficiaries",
+      "source_ids": [
+        "L03"
+      ],
+      "source_specific_locators": {
+        "L03": "04:10:58–04:14:46"
+      },
+      "documented_scope": "Broad original interview method/risk intent; no security-specific memo, numerical threshold or execution evidence.",
+      "original_language_terms": [],
+      "precutoff_publication_eligible_candidate": true,
+      "independent_acceptance": "pending_sanitized_export_review",
+      "application_is_hypothetical": true
+    },
+    {
+      "rule_id": "L-R3",
+      "documented_method_fact": "Sequence material business exposure rather than buy an AI label",
+      "source_ids": [
+        "L03"
+      ],
+      "source_specific_locators": {
+        "L03": "04:10:58–04:14:46"
+      },
+      "documented_scope": "Broad original interview method/risk intent; no security-specific memo, numerical threshold or execution evidence.",
+      "original_language_terms": [],
+      "precutoff_publication_eligible_candidate": true,
+      "independent_acceptance": "pending_sanitized_export_review",
+      "application_is_hypothetical": true
+    },
+    {
+      "rule_id": "L-R4",
+      "documented_method_fact": "Survive several mistaken timing calls and unforeseen events",
+      "source_ids": [
+        "L03"
+      ],
+      "source_specific_locators": {
+        "L03": "04:10:58; 04:14:46"
+      },
+      "documented_scope": "Broad original interview method/risk intent; no security-specific memo, numerical threshold or execution evidence.",
+      "original_language_terms": [],
+      "precutoff_publication_eligible_candidate": true,
+      "independent_acceptance": "pending_sanitized_export_review",
+      "application_is_hypothetical": true
+    },
+    {
+      "rule_id": "L-R5",
+      "documented_method_fact": "Include financial/regulatory consequences of an AI growth regime",
+      "source_ids": [
+        "L03"
+      ],
+      "source_specific_locators": {
+        "L03": "04:14:09"
+      },
+      "documented_scope": "Broad original interview method/risk intent; no security-specific memo, numerical threshold or execution evidence.",
+      "original_language_terms": [],
+      "precutoff_publication_eligible_candidate": true,
+      "independent_acceptance": "pending_sanitized_export_review",
+      "application_is_hypothetical": true
+    }
+  ],
+  "original_sources": [
+    {
+      "source_id": "L03",
+      "original_public_url": "https://www.dwarkesh.com/p/leopold-aschenbrenner",
+      "title": "Original Dwarkesh interview with Leopold Aschenbrenner",
+      "original_author_or_speaker": "Leopold Aschenbrenner interviewed by original publisher",
+      "provenance": "P2",
+      "publication_date_or_latest_public_bound": "2024-06-04",
+      "publication_proof": "Original interview publication explicitly dated June 4, 2024; exact cited speaker segment. No later webpage edits are imported.",
+      "precise_locator": "04:10:58–04:14:46; 04:18:10; introduction",
+      "content_scope": "Short method fact/paraphrase only; no full source text, holding table or case/outcome narrative.",
+      "independent_acceptance": "pending",
+      "source_record_sha256": "59cbef72021ec71455a3e2c48a79921f14ed80b03d4673f37c6d2edb603d2392"
+    }
+  ],
+  "application_scope": [
+    "AI capability/industrial-constraint scenarios",
+    "Survival through uncertain timing"
+  ],
+  "corpus_limits": [
+    "Original interview only in this strict portable subset; mutable essay-page revisions are not transported.",
+    "No security-specific pre-trade memo, verified stock target or audited realized-success record established.",
+    "Emerging thematic/risk extension, not an established master."
+  ],
+  "native_numerical_algorithm_established": false,
+  "authorship_boundary": "Method facts are faithful bounded paraphrases. Any application checklist, thresholds, weights, forecasts, probabilities or decision conclusion is independent research design and must not be attributed to the investor."
+}

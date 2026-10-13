@@ -1,0 +1,528 @@
+{
+  "cutoff": "2026-01-01T00:00:00Z",
+  "classification_scope": "Method/source eligibility only. This file does not select the benchmark equities or claim a pre-registered model.",
+  "post_cutoff_exclusions": [
+    "DRU-03: original interview published 2026-02-27, including retrospective Nvidia entry/profit and changed technical-signal opinion",
+    "COM-13F: current 2026-03-06 FAQ update; use retained 2017 FAQ only for unchanged lag/coverage"
+  ],
+  "undated_current_version_exclusions": [
+    "DAL-01",
+    "DAL-04",
+    "DAL-15",
+    "SOR-01",
+    "SOR-10"
+  ],
+  "modules": [
+    {
+      "module": "ray_dalio_bridgewater",
+      "rules": [
+        {
+          "id": "DAL-R1",
+          "cutoff": "2026-01-01T00:00:00Z",
+          "status": "eligible_pre2026_native_principle_with_audit_adaptation",
+          "eligible_source_ids": [
+            "DAL-03"
+          ],
+          "excluded_or_uncertain_source_ids": [],
+          "reason": "Use the dated eligible sources only; prospective implementation must be frozen before outcome review.",
+          "evidence_anchors": [
+            {
+              "source_id": "DAL-03",
+              "url": "https://www.bridgewater.com/big-debt-crises/principles-for-navigating-big-debt-crises-by-ray-dalio.pdf",
+              "locator_type": "pdf_page_and_section",
+              "locator": "Printed/PDF pp.9 and 13: How I Think about Credit and Debt; The Template for the Archetypal Long-Term/Big Debt Cycle",
+              "supporting_paraphrase": "Repayment depends on what credit produces; debt service outgrowing income creates stress.",
+              "supports": "native_principle",
+              "does_not_authenticate": "Audit action, input checklist and invalidation workflow remain analyst-adapted.",
+              "pdf_pages_1_based": [
+                9,
+                13
+              ]
+            }
+          ]
+        },
+        {
+          "id": "DAL-R2",
+          "cutoff": "2026-01-01T00:00:00Z",
+          "status": "eligible_pre2026_native_principle_with_audit_adaptation",
+          "eligible_source_ids": [
+            "DAL-03"
+          ],
+          "excluded_or_uncertain_source_ids": [],
+          "reason": "Use the dated eligible sources only; prospective implementation must be frozen before outcome review.",
+          "evidence_anchors": [
+            {
+              "source_id": "DAL-03",
+              "url": "https://www.bridgewater.com/big-debt-crises/principles-for-navigating-big-debt-crises-by-ray-dalio.pdf",
+              "locator_type": "pdf_page_and_section",
+              "locator": "Printed/PDF p.12: Can Most Debt Crises Be Managed so There Aren’t Big Problems?; four-lever list and following balance discussion",
+              "supporting_paraphrase": "Different policy levers redistribute losses and have differing inflation and growth effects.",
+              "supports": "native_principle",
+              "does_not_authenticate": "Audit action, input checklist and invalidation workflow remain analyst-adapted.",
+              "pdf_pages_1_based": [
+                12
+              ]
+            }
+          ]
+        },
+        {
+          "id": "DAL-R3",
+          "cutoff": "2026-01-01T00:00:00Z",
+          "status": "eligible_pre2026_native_principle_with_audit_adaptation",
+          "eligible_source_ids": [
+            "DAL-05"
+          ],
+          "excluded_or_uncertain_source_ids": [],
+          "reason": "Use the dated eligible sources only; prospective implementation must be frozen before outcome review.",
+          "document_month": "2012-01",
+          "evidence_anchors": [
+            {
+              "source_id": "DAL-05",
+              "url": "https://www.bridgewater.com/resources/all-weather-story.pdf",
+              "locator_type": "pdf_page_and_section",
+              "locator": "Printed/PDF pp.5-6: Balancing Growth and Inflation; four-box diagram and equal-risk discussion",
+              "supporting_paraphrase": "Growth and inflation surprises require balanced risk, rather than equal capital allocations.",
+              "supports": "native_principle",
+              "does_not_authenticate": "Audit action, input checklist and invalidation workflow remain analyst-adapted.",
+              "pdf_pages_1_based": [
+                5,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "id": "DAL-R4",
+          "cutoff": "2026-01-01T00:00:00Z",
+          "status": "eligible_pre2026_native_principle_with_audit_adaptation",
+          "eligible_source_ids": [
+            "DAL-07",
+            "COM-13F-2017"
+          ],
+          "excluded_or_uncertain_source_ids": [
+            "COM-13F"
+          ],
+          "reason": "Use the dated eligible sources only; prospective implementation must be frozen before outcome review.",
+          "evidence_anchors": [
+            {
+              "source_id": "DAL-07",
+              "url": "https://www.gurufocus.com/news/1079552/ray-dalio-commentary-our-performance",
+              "locator_type": "web_section_and_paragraph",
+              "locator": "Post-letter disclosure beginning Bridgewater Daily Observations; second paragraph beginning Additionally",
+              "supporting_paraphrase": "Client restrictions, rebalancing and costs can separate positions from research conclusions.",
+              "supports": "firm_disclosure_supporting_native_principle",
+              "does_not_authenticate": "Audit action, input checklist and invalidation workflow remain analyst-adapted."
+            },
+            {
+              "source_id": "DAL-10",
+              "url": "https://www.bridgewater.com/thinking-through-the-wide-range-of-possible-economic-outcomes",
+              "locator_type": "web_section_and_paragraph",
+              "locator": "End disclosure: paragraph beginning Additionally, following research-purpose paragraph",
+              "supporting_paraphrase": "Original firm research repeats the distinction between expressed analysis and actual client positions.",
+              "supports": "firm_disclosure_corroboration",
+              "does_not_authenticate": "Audit action, input checklist and invalidation workflow remain analyst-adapted."
+            }
+          ]
+        },
+        {
+          "id": "DAL-R5",
+          "cutoff": "2026-01-01T00:00:00Z",
+          "status": "eligible_pre2026_native_principle_with_audit_adaptation",
+          "eligible_source_ids": [
+            "DAL-10",
+            "DAL-08"
+          ],
+          "excluded_or_uncertain_source_ids": [],
+          "reason": "Use the dated eligible sources only; prospective implementation must be frozen before outcome review.",
+          "evidence_anchors": [
+            {
+              "source_id": "DAL-10",
+              "url": "https://www.bridgewater.com/thinking-through-the-wide-range-of-possible-economic-outcomes",
+              "locator_type": "web_section_and_paragraph",
+              "locator": "Opening body paragraphs on portfolio construction under uncertainty and cross-country scenario learning; before the first section on the economic shock’s follow-on effects",
+              "supporting_paraphrase": "Wide uncertainty calls for positions based on understood links and multiple plausible outcomes.",
+              "supports": "firm_research_supporting_native_principle",
+              "does_not_authenticate": "Audit action, input checklist and invalidation workflow remain analyst-adapted.",
+              "native_attribution": "Greg Jensen, Jason Rotenberg, Matthew Karasz and Kate Dunbar; Bridgewater team research, not assumed Dalio sole authorship"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "module": "george_soros_quantum",
+      "rules": [
+        {
+          "id": "SOR-R1",
+          "cutoff": "2026-01-01T00:00:00Z",
+          "status": "eligible_pre2026_native_principle_with_audit_adaptation",
+          "eligible_source_ids": [
+            "SOR-03"
+          ],
+          "excluded_or_uncertain_source_ids": [],
+          "reason": "Use the dated eligible sources only; prospective implementation must be frozen before outcome review.",
+          "evidence_anchors": [
+            {
+              "source_id": "SOR-03",
+              "url": "https://www.opensocietyfoundations.org/uploads/2b96bb8c-e2e1-4d88-9eea-badf16d0a2b8/george-soros-financial-markets-transcript.pdf",
+              "locator_type": "pdf_page_and_section",
+              "locator": "PDF pp.1-2: two cardinal principles; leverage pathways; negative and positive feedback",
+              "supporting_paraphrase": "Market pricing can alter fundamentals through leveraged financing and reinforcing feedback.",
+              "supports": "native_principle",
+              "does_not_authenticate": "Audit action, input checklist and invalidation workflow remain analyst-adapted.",
+              "pdf_pages_1_based": [
+                1,
+                2
+              ]
+            }
+          ]
+        },
+        {
+          "id": "SOR-R2",
+          "cutoff": "2026-01-01T00:00:00Z",
+          "status": "eligible_pre2026_native_principle_with_audit_adaptation",
+          "eligible_source_ids": [
+            "SOR-03",
+            "SOR-04",
+            "SOR-16"
+          ],
+          "excluded_or_uncertain_source_ids": [],
+          "reason": "Use the dated eligible sources only; prospective implementation must be frozen before outcome review.",
+          "evidence_anchors": [
+            {
+              "source_id": "SOR-04",
+              "url": "https://www.opensocietyfoundations.org/uploads/9ae17912-2262-4646-8ffc-d01afc934c36/george-soros-general-theory-of-reflexivity-transcript.pdf",
+              "locator_type": "pdf_page_and_section",
+              "locator": "PDF p.4: core propositions defining fallibility and reflexivity",
+              "supporting_paraphrase": "Participants have partial, distorted views that can themselves change the situation.",
+              "supports": "native_principle",
+              "does_not_authenticate": "Audit action, input checklist and invalidation workflow remain analyst-adapted.",
+              "pdf_pages_1_based": [
+                4
+              ]
+            },
+            {
+              "source_id": "SOR-03",
+              "url": "https://www.opensocietyfoundations.org/uploads/2b96bb8c-e2e1-4d88-9eea-badf16d0a2b8/george-soros-financial-markets-transcript.pdf",
+              "locator_type": "pdf_page_and_section",
+              "locator": "PDF p.2: trend/misconception tests and eventual reversal; paragraph following model examples on unpredictability",
+              "supporting_paraphrase": "Reinforcing trends face tests; intervention can interrupt their sequence and timing.",
+              "supports": "native_principle",
+              "does_not_authenticate": "Audit action, input checklist and invalidation workflow remain analyst-adapted.",
+              "pdf_pages_1_based": [
+                2
+              ]
+            }
+          ]
+        },
+        {
+          "id": "SOR-R3",
+          "cutoff": "2026-01-01T00:00:00Z",
+          "status": "eligible_pre2026_native_principle_with_audit_adaptation",
+          "eligible_source_ids": [
+            "SOR-03"
+          ],
+          "excluded_or_uncertain_source_ids": [],
+          "reason": "Use the dated eligible sources only; prospective implementation must be frozen before outcome review.",
+          "evidence_anchors": [
+            {
+              "source_id": "SOR-03",
+              "url": "https://www.opensocietyfoundations.org/uploads/2b96bb8c-e2e1-4d88-9eea-badf16d0a2b8/george-soros-financial-markets-transcript.pdf",
+              "locator_type": "pdf_page_and_section",
+              "locator": "PDF p.5: 2008 personal volatility/oversized-position admission and following liquidity-preference paragraph",
+              "supporting_paraphrase": "Correct direction did not prevent oversized positions and forced unfavorable reductions.",
+              "supports": "native_principle",
+              "does_not_authenticate": "Audit action, input checklist and invalidation workflow remain analyst-adapted.",
+              "pdf_pages_1_based": [
+                5
+              ]
+            }
+          ]
+        },
+        {
+          "id": "SOR-R4",
+          "cutoff": "2026-01-01T00:00:00Z",
+          "status": "eligible_pre2026_native_principle_with_audit_adaptation",
+          "eligible_source_ids": [
+            "EVT-GBP",
+            "DRU-01"
+          ],
+          "excluded_or_uncertain_source_ids": [],
+          "reason": "Use the dated eligible sources only; prospective implementation must be frozen before outcome review.",
+          "publication_provenance_source_ids": [
+            "DRU-PUB-01",
+            "DRU-PUB-02"
+          ],
+          "public_availability_verified_by": "2015-04-13, with March 30 posting independently reported; no URL-derived publication assumption",
+          "evidence_anchors": [
+            {
+              "source_id": "DRU-01",
+              "url": "https://covestreetcapital.com/wp-content/uploads/2015/03/Druckenmiller-_Speech.pdf",
+              "locator_type": "pdf_page_and_section",
+              "locator": "Transcript pp.21-22: UK housing/recession versus Germany/reunification and linked-currency discussion",
+              "supporting_paraphrase": "Druckenmiller describes divergent policy needs constrained by linked exchange rates.",
+              "supports": "case_derived_principle_not_an_authenticated_universal_Soros_rule",
+              "does_not_authenticate": "Audit action, input checklist and invalidation workflow remain analyst-adapted.",
+              "pdf_pages_1_based": [
+                21,
+                22
+              ]
+            },
+            {
+              "source_id": "EVT-GBP",
+              "url": "https://www.bankofengland.co.uk/-/media/boe/files/quarterly-bulletin/1992/operation-of-monetary-policy-qb-1992-q4.pdf",
+              "locator_type": "pdf_page_and_section",
+              "locator": "Bulletin printed pp.382-383 / PDF pp.1-2: Introduction and domestic-needs versus exchange-rate-commitment discussion",
+              "supporting_paraphrase": "BoE documents the conflict between domestic monetary objectives and exchange-rate defense.",
+              "supports": "independent_event_mechanism_corroboration",
+              "does_not_authenticate": "Audit action, input checklist and invalidation workflow remain analyst-adapted.",
+              "pdf_pages_1_based": [
+                1,
+                2
+              ]
+            }
+          ]
+        },
+        {
+          "id": "SOR-R5",
+          "cutoff": "2026-01-01T00:00:00Z",
+          "status": "eligible_pre2026_native_principle_with_audit_adaptation",
+          "eligible_source_ids": [
+            "SOR-05",
+            "SOR-06",
+            "SOR-07"
+          ],
+          "excluded_or_uncertain_source_ids": [],
+          "reason": "Use the dated eligible sources only; prospective implementation must be frozen before outcome review.",
+          "evidence_anchors": [
+            {
+              "source_id": "SOR-05",
+              "url": "https://www.georgesoros.com/1997/08/21/my-investments-in-russia/",
+              "locator_type": "web_section_and_paragraph",
+              "locator": "Essay body paragraphs 1 and final paragraph: Nemtsov appointment and shareholder-rights expectations",
+              "supporting_paraphrase": "The invested reform thesis depended on improved legal protection for shareholders.",
+              "supports": "case_evidence_for_audit_derived_lesson",
+              "does_not_authenticate": "Audit action, input checklist and invalidation workflow remain analyst-adapted."
+            },
+            {
+              "source_id": "SOR-06",
+              "url": "https://www.georgesoros.com/1998/08/13/the-only-way-for-russia-to-end-its-crisis/",
+              "locator_type": "web_section_and_paragraph",
+              "locator": "Essay body paragraphs 3-4: budget program versus bank liquidity; margin-held debt and unavailable renewed credit",
+              "supporting_paraphrase": "Banking and fiscal requirements conflicted; assumed bond funding failed.",
+              "supports": "case_evidence_for_audit_derived_lesson",
+              "does_not_authenticate": "Audit action, input checklist and invalidation workflow remain analyst-adapted."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "module": "stanley_druckenmiller_duquesne",
+      "rules": [
+        {
+          "id": "DRU-R1",
+          "cutoff": "2026-01-01T00:00:00Z",
+          "status": "eligible_pre2026_native_principle_with_audit_adaptation",
+          "eligible_source_ids": [
+            "DRU-01"
+          ],
+          "excluded_or_uncertain_source_ids": [],
+          "reason": "Use the dated eligible sources only; prospective implementation must be frozen before outcome review.",
+          "publication_provenance_source_ids": [
+            "DRU-PUB-01",
+            "DRU-PUB-02"
+          ],
+          "public_availability_verified_by": "2015-04-13, with March 30 posting independently reported; no URL-derived publication assumption",
+          "evidence_anchors": [
+            {
+              "source_id": "DRU-01",
+              "url": "https://covestreetcapital.com/wp-content/uploads/2015/03/Druckenmiller-_Speech.pdf",
+              "locator_type": "pdf_page_and_section",
+              "locator": "Transcript p.16 last paragraph continuing onto p.17 first paragraph: mentor’s central-bank/liquidity lesson",
+              "supporting_paraphrase": "Broad-market conditions require attention to central banks and liquidity, beyond earnings.",
+              "supports": "native_principle",
+              "does_not_authenticate": "Audit action, input checklist and invalidation workflow remain analyst-adapted.",
+              "pdf_pages_1_based": [
+                16,
+                17
+              ]
+            }
+          ]
+        },
+        {
+          "id": "DRU-R7",
+          "cutoff": "2026-01-01T00:00:00Z",
+          "status": "eligible_pre2026_native_principle_with_audit_adaptation",
+          "eligible_source_ids": [
+            "DRU-01"
+          ],
+          "excluded_or_uncertain_source_ids": [],
+          "reason": "2015 speech p.16 visually inspected; not dependent on the 2026 interview.",
+          "publication_provenance_source_ids": [
+            "DRU-PUB-01",
+            "DRU-PUB-02"
+          ],
+          "public_availability_verified_by": "2015-04-13, with March 30 posting independently reported; no URL-derived publication assumption",
+          "evidence_anchors": [
+            {
+              "source_id": "DRU-01",
+              "url": "https://covestreetcapital.com/wp-content/uploads/2015/03/Druckenmiller-_Speech.pdf",
+              "locator_type": "pdf_page_and_section",
+              "locator": "Transcript p.16: first of mentor’s two lessons, the 18-month forward situation",
+              "supporting_paraphrase": "Present earnings are insufficient; envision how conditions will change ahead.",
+              "supports": "native_principle",
+              "does_not_authenticate": "Audit action, input checklist and invalidation workflow remain analyst-adapted.",
+              "pdf_pages_1_based": [
+                16
+              ]
+            }
+          ]
+        },
+        {
+          "id": "DRU-R2",
+          "cutoff": "2026-01-01T00:00:00Z",
+          "status": "eligible_pre2026_native_principle_with_audit_adaptation",
+          "eligible_source_ids": [
+            "DRU-01",
+            "DRU-02"
+          ],
+          "excluded_or_uncertain_source_ids": [],
+          "reason": "Use the dated eligible sources only; prospective implementation must be frozen before outcome review.",
+          "publication_provenance_source_ids": [
+            "DRU-PUB-01",
+            "DRU-PUB-02"
+          ],
+          "public_availability_verified_by": "2015-04-13, with March 30 posting independently reported; no URL-derived publication assumption",
+          "evidence_anchors": [
+            {
+              "source_id": "DRU-01",
+              "url": "https://covestreetcapital.com/wp-content/uploads/2015/03/Druckenmiller-_Speech.pdf",
+              "locator_type": "pdf_page_and_section",
+              "locator": "Transcript pp.13-14: concentration discussion and rare opportunity paragraph",
+              "supporting_paraphrase": "Rare, compelling opportunities motivate concentration with close attention to the position.",
+              "supports": "native_principle",
+              "does_not_authenticate": "Audit action, input checklist and invalidation workflow remain analyst-adapted.",
+              "pdf_pages_1_based": [
+                13,
+                14
+              ]
+            },
+            {
+              "source_id": "DRU-02",
+              "url": "https://www.goldmansachs.com/insights/talks-at-gs/stanley-druckenmiller.html",
+              "locator_type": "web_named_section",
+              "locator": "On his approach to risk management, both paragraphs; On his investment process, second paragraph",
+              "supporting_paraphrase": "Focused concentration and the ability to change direction are separate disciplines.",
+              "supports": "native_principle",
+              "does_not_authenticate": "Audit action, input checklist and invalidation workflow remain analyst-adapted."
+            }
+          ]
+        },
+        {
+          "id": "DRU-R3",
+          "cutoff": "2026-01-01T00:00:00Z",
+          "status": "eligible_pre2026_native_principle_with_audit_adaptation",
+          "eligible_source_ids": [
+            "DRU-02"
+          ],
+          "excluded_or_uncertain_source_ids": [],
+          "reason": "Use the dated eligible sources only; prospective implementation must be frozen before outcome review.",
+          "evidence_anchors": [
+            {
+              "source_id": "DRU-02",
+              "url": "https://www.goldmansachs.com/insights/talks-at-gs/stanley-druckenmiller.html",
+              "locator_type": "web_named_section",
+              "locator": "On his investment process, both paragraphs",
+              "supporting_paraphrase": "Liquid currencies and bonds enable flexibility and avoiding dangerous opportunities.",
+              "supports": "native_principle",
+              "does_not_authenticate": "Audit action, input checklist and invalidation workflow remain analyst-adapted."
+            }
+          ]
+        },
+        {
+          "id": "DRU-R4",
+          "cutoff": "2026-01-01T00:00:00Z",
+          "status": "exclude_rule_from_beginning_2026_method_packet",
+          "eligible_source_ids": [
+            "DFO-22Q4"
+          ],
+          "excluded_or_uncertain_source_ids": [
+            "DRU-03"
+          ],
+          "reason": "Native proposition in this audit relies on the 2026 interview; historical SEC holdings alone do not supply its method.",
+          "evidence_anchors": [
+            {
+              "source_id": "DRU-03",
+              "url": "https://www.morganstanley.com/insights/videos/hard-lessons/duquesne-stan-druckenmiller-iliana-bouzali",
+              "locator_type": "web_transcript_topic",
+              "locator": "AI-investment narrative: interviewer asks about recognizing the opportunity’s scale; partner and specialist-network discussion preceding the initial purchase",
+              "supporting_paraphrase": "Trusted specialist input helped him recognize an AI investment opportunity.",
+              "supports": "native_principle_post_cutoff_only",
+              "does_not_authenticate": "Audit action, input checklist and invalidation workflow remain analyst-adapted.",
+              "transcript_location_hint": "First transcript occurrence, paragraphs corresponding to rendered lines 247-255; locate by question, not unstable line numbers",
+              "public_date": "2026-02-27"
+            }
+          ]
+        },
+        {
+          "id": "DRU-R5",
+          "cutoff": "2026-01-01T00:00:00Z",
+          "status": "exclude_rule_from_beginning_2026_method_packet",
+          "eligible_source_ids": [],
+          "excluded_or_uncertain_source_ids": [
+            "DRU-03"
+          ],
+          "reason": "Native proposition in this audit relies on the 2026 interview; historical SEC holdings alone do not supply its method.",
+          "evidence_anchors": [
+            {
+              "source_id": "DRU-03",
+              "url": "https://www.morganstanley.com/insights/videos/hard-lessons/duquesne-stan-druckenmiller-iliana-bouzali",
+              "locator_type": "web_transcript_topic",
+              "locator": "Interview discussion of reduced reliance on technical analysis and market reaction to news; the following three answer paragraphs",
+              "supporting_paraphrase": "He reports less reliance on technical/news-response signals as competitors adopted them.",
+              "supports": "native_principle_post_cutoff_only",
+              "does_not_authenticate": "Audit action, input checklist and invalidation workflow remain analyst-adapted.",
+              "transcript_location_hint": "First transcript occurrence, paragraphs corresponding to rendered lines 266-271",
+              "public_date": "2026-02-27"
+            }
+          ]
+        },
+        {
+          "id": "DRU-R6",
+          "cutoff": "2026-01-01T00:00:00Z",
+          "status": "eligible_pre2026_native_principle_with_audit_adaptation",
+          "eligible_source_ids": [
+            "DRU-01",
+            "DRU-09"
+          ],
+          "excluded_or_uncertain_source_ids": [],
+          "reason": "Use the dated eligible sources only; prospective implementation must be frozen before outcome review.",
+          "publication_provenance_source_ids": [
+            "DRU-PUB-01",
+            "DRU-PUB-02"
+          ],
+          "public_availability_verified_by": "2015-04-13, with March 30 posting independently reported; no URL-derived publication assumption",
+          "evidence_anchors": [
+            {
+              "source_id": "DRU-01",
+              "url": "https://covestreetcapital.com/wp-content/uploads/2015/03/Druckenmiller-_Speech.pdf",
+              "locator_type": "pdf_page_and_section",
+              "locator": "Transcript pp.39-40: January 2000 exit, frustration at others’ gains, emotional re-entry and admission",
+              "supporting_paraphrase": "Emotional re-entry overrode discipline he says he already understood.",
+              "supports": "first_person_case_derived_principle",
+              "does_not_authenticate": "Audit action, input checklist and invalidation workflow remain analyst-adapted.",
+              "pdf_pages_1_based": [
+                39,
+                40
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "benchmark_data_warning": "The latest holdings available at beginning 2026 generally precede Q4 2025 reports. Never backdate a filing, an amended filing, a transcript or revised fundamental data to its report/event date.",
+  "rework_round": 1,
+  "lost_tree_temporal_provenance": "2015-04-13 public transcription and dated contemporaneous report corroborate availability; March 30 posting is reported rather than inferred from URL."
+}
