@@ -6,9 +6,11 @@ The reviewed source-only checkpoint is preserved under [skill/](skill/), with al
 
 Research catalogue: [frozen top20 comparison and finterm supplement](research/catalogue-review/README.md).
 
+Stage handoff: [Investment-master V2 phase report](research/phase-handoff/Investment-master-V2-phase-handoff.zh-CN.md).
+
 Source archive: `investment-master-public-source-projection-v1.zip`, SHA-256 `c2675e5abf8db00d636ca1e99217628bda2ddb1271015f6077cda8b1eb9fab1e`.
 
-Historical replay execution and actual historical opinions remain in progress. No completed backtests, financial performance results, investor endorsements, or activated chatbot are claimed.
+Historical data is accepted for five securities and held for fourteen; there are zero actual V2 opinions; the final runtime and adapter were not accepted after the three-round limit; no completed backtest or activation is claimed. No completed backtests, financial performance results, investor endorsements, or activated chatbot are claimed.
 
 Source and future eligible results must retain their attribution and applicable rights. FMP publication rights remain unresolved; raw FMP data and FMP-derived financial outcomes are excluded.
 
