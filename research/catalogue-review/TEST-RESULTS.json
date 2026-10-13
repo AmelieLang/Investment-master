@@ -1,0 +1,758 @@
+{
+  "schema_version": "catalogue-recap-test-results.v1",
+  "status": "PASS",
+  "checks": 185,
+  "passed": 185,
+  "source_aware_comparison": true,
+  "tests": [
+    {
+      "check": "21 distinct reviewed repositories",
+      "passed": true
+    },
+    {
+      "check": "exact 20 plus separate finterm supplement",
+      "passed": true
+    },
+    {
+      "check": "popularity ranks one through twenty",
+      "passed": true
+    },
+    {
+      "check": "sampled stars descending",
+      "passed": true
+    },
+    {
+      "check": "finterm separate discovered-universe rank 29",
+      "passed": true
+    },
+    {
+      "check": "snapshot window exact",
+      "passed": true
+    },
+    {
+      "check": "all 21 original quality ranks recompute",
+      "passed": true
+    },
+    {
+      "check": "18 license-eligible ranks recompute",
+      "passed": true
+    },
+    {
+      "check": "frozen finalists equal top three license-eligible",
+      "passed": true
+    },
+    {
+      "check": "three distinct research-versus-reuse gates preserved",
+      "passed": true
+    },
+    {
+      "check": "virattt/ai-hedge-fund criterion scores and 100-point formula",
+      "passed": true
+    },
+    {
+      "check": "virattt/ai-hedge-fund complete criterion rationale and covered roster",
+      "passed": true
+    },
+    {
+      "check": "virattt/ai-hedge-fund exact pinned public source URLs",
+      "passed": true
+    },
+    {
+      "check": "virattt/ai-hedge-fund representative is a substantive file",
+      "passed": true
+    },
+    {
+      "check": "virattt/ai-hedge-fund no C5 or returns outcomes republished",
+      "passed": true
+    },
+    {
+      "check": "xbtlin/ai-berkshire criterion scores and 100-point formula",
+      "passed": true
+    },
+    {
+      "check": "xbtlin/ai-berkshire complete criterion rationale and covered roster",
+      "passed": true
+    },
+    {
+      "check": "xbtlin/ai-berkshire exact pinned public source URLs",
+      "passed": true
+    },
+    {
+      "check": "xbtlin/ai-berkshire representative is a substantive file",
+      "passed": true
+    },
+    {
+      "check": "xbtlin/ai-berkshire no C5 or returns outcomes republished",
+      "passed": true
+    },
+    {
+      "check": "wbh604/UZI-Skill criterion scores and 100-point formula",
+      "passed": true
+    },
+    {
+      "check": "wbh604/UZI-Skill complete criterion rationale and covered roster",
+      "passed": true
+    },
+    {
+      "check": "wbh604/UZI-Skill exact pinned public source URLs",
+      "passed": true
+    },
+    {
+      "check": "wbh604/UZI-Skill representative is a substantive file",
+      "passed": true
+    },
+    {
+      "check": "wbh604/UZI-Skill no C5 or returns outcomes republished",
+      "passed": true
+    },
+    {
+      "check": "tradermonty/claude-trading-skills criterion scores and 100-point formula",
+      "passed": true
+    },
+    {
+      "check": "tradermonty/claude-trading-skills complete criterion rationale and covered roster",
+      "passed": true
+    },
+    {
+      "check": "tradermonty/claude-trading-skills exact pinned public source URLs",
+      "passed": true
+    },
+    {
+      "check": "tradermonty/claude-trading-skills representative is a substantive file",
+      "passed": true
+    },
+    {
+      "check": "tradermonty/claude-trading-skills no C5 or returns outcomes republished",
+      "passed": true
+    },
+    {
+      "check": "questflowai/investorskills criterion scores and 100-point formula",
+      "passed": true
+    },
+    {
+      "check": "questflowai/investorskills complete criterion rationale and covered roster",
+      "passed": true
+    },
+    {
+      "check": "questflowai/investorskills exact pinned public source URLs",
+      "passed": true
+    },
+    {
+      "check": "questflowai/investorskills representative is a substantive file",
+      "passed": true
+    },
+    {
+      "check": "questflowai/investorskills no C5 or returns outcomes republished",
+      "passed": true
+    },
+    {
+      "check": "agi-now/buffett-skills criterion scores and 100-point formula",
+      "passed": true
+    },
+    {
+      "check": "agi-now/buffett-skills complete criterion rationale and covered roster",
+      "passed": true
+    },
+    {
+      "check": "agi-now/buffett-skills exact pinned public source URLs",
+      "passed": true
+    },
+    {
+      "check": "agi-now/buffett-skills representative is a substantive file",
+      "passed": true
+    },
+    {
+      "check": "agi-now/buffett-skills no C5 or returns outcomes republished",
+      "passed": true
+    },
+    {
+      "check": "AlphaGBM/investment-masters criterion scores and 100-point formula",
+      "passed": true
+    },
+    {
+      "check": "AlphaGBM/investment-masters complete criterion rationale and covered roster",
+      "passed": true
+    },
+    {
+      "check": "AlphaGBM/investment-masters exact pinned public source URLs",
+      "passed": true
+    },
+    {
+      "check": "AlphaGBM/investment-masters representative is a substantive file",
+      "passed": true
+    },
+    {
+      "check": "AlphaGBM/investment-masters no C5 or returns outcomes republished",
+      "passed": true
+    },
+    {
+      "check": "alchaincyf/munger-skill criterion scores and 100-point formula",
+      "passed": true
+    },
+    {
+      "check": "alchaincyf/munger-skill complete criterion rationale and covered roster",
+      "passed": true
+    },
+    {
+      "check": "alchaincyf/munger-skill exact pinned public source URLs",
+      "passed": true
+    },
+    {
+      "check": "alchaincyf/munger-skill representative is a substantive file",
+      "passed": true
+    },
+    {
+      "check": "alchaincyf/munger-skill no C5 or returns outcomes republished",
+      "passed": true
+    },
+    {
+      "check": "monarchjuno/vibe-investing criterion scores and 100-point formula",
+      "passed": true
+    },
+    {
+      "check": "monarchjuno/vibe-investing complete criterion rationale and covered roster",
+      "passed": true
+    },
+    {
+      "check": "monarchjuno/vibe-investing exact pinned public source URLs",
+      "passed": true
+    },
+    {
+      "check": "monarchjuno/vibe-investing representative is a substantive file",
+      "passed": true
+    },
+    {
+      "check": "monarchjuno/vibe-investing no C5 or returns outcomes republished",
+      "passed": true
+    },
+    {
+      "check": "LLMQuant/skills criterion scores and 100-point formula",
+      "passed": true
+    },
+    {
+      "check": "LLMQuant/skills complete criterion rationale and covered roster",
+      "passed": true
+    },
+    {
+      "check": "LLMQuant/skills exact pinned public source URLs",
+      "passed": true
+    },
+    {
+      "check": "LLMQuant/skills representative is a substantive file",
+      "passed": true
+    },
+    {
+      "check": "LLMQuant/skills no C5 or returns outcomes republished",
+      "passed": true
+    },
+    {
+      "check": "will2025btc/buffett-perspective criterion scores and 100-point formula",
+      "passed": true
+    },
+    {
+      "check": "will2025btc/buffett-perspective complete criterion rationale and covered roster",
+      "passed": true
+    },
+    {
+      "check": "will2025btc/buffett-perspective exact pinned public source URLs",
+      "passed": true
+    },
+    {
+      "check": "will2025btc/buffett-perspective representative is a substantive file",
+      "passed": true
+    },
+    {
+      "check": "will2025btc/buffett-perspective no C5 or returns outcomes republished",
+      "passed": true
+    },
+    {
+      "check": "kangarooking/buffett-letters-skill criterion scores and 100-point formula",
+      "passed": true
+    },
+    {
+      "check": "kangarooking/buffett-letters-skill complete criterion rationale and covered roster",
+      "passed": true
+    },
+    {
+      "check": "kangarooking/buffett-letters-skill exact pinned public source URLs",
+      "passed": true
+    },
+    {
+      "check": "kangarooking/buffett-letters-skill representative is a substantive file",
+      "passed": true
+    },
+    {
+      "check": "kangarooking/buffett-letters-skill no C5 or returns outcomes republished",
+      "passed": true
+    },
+    {
+      "check": "lanfuli/aleabito-serenity-skills criterion scores and 100-point formula",
+      "passed": true
+    },
+    {
+      "check": "lanfuli/aleabito-serenity-skills complete criterion rationale and covered roster",
+      "passed": true
+    },
+    {
+      "check": "lanfuli/aleabito-serenity-skills exact pinned public source URLs",
+      "passed": true
+    },
+    {
+      "check": "lanfuli/aleabito-serenity-skills representative is a substantive file",
+      "passed": true
+    },
+    {
+      "check": "lanfuli/aleabito-serenity-skills no C5 or returns outcomes republished",
+      "passed": true
+    },
+    {
+      "check": "freenowill/stock-fish criterion scores and 100-point formula",
+      "passed": true
+    },
+    {
+      "check": "freenowill/stock-fish complete criterion rationale and covered roster",
+      "passed": true
+    },
+    {
+      "check": "freenowill/stock-fish exact pinned public source URLs",
+      "passed": true
+    },
+    {
+      "check": "freenowill/stock-fish representative is a substantive file",
+      "passed": true
+    },
+    {
+      "check": "freenowill/stock-fish no C5 or returns outcomes republished",
+      "passed": true
+    },
+    {
+      "check": "MichaelRochonnn/buffett-investment-research criterion scores and 100-point formula",
+      "passed": true
+    },
+    {
+      "check": "MichaelRochonnn/buffett-investment-research complete criterion rationale and covered roster",
+      "passed": true
+    },
+    {
+      "check": "MichaelRochonnn/buffett-investment-research exact pinned public source URLs",
+      "passed": true
+    },
+    {
+      "check": "MichaelRochonnn/buffett-investment-research representative is a substantive file",
+      "passed": true
+    },
+    {
+      "check": "MichaelRochonnn/buffett-investment-research no C5 or returns outcomes republished",
+      "passed": true
+    },
+    {
+      "check": "AskRoundtable/expert-skills criterion scores and 100-point formula",
+      "passed": true
+    },
+    {
+      "check": "AskRoundtable/expert-skills complete criterion rationale and covered roster",
+      "passed": true
+    },
+    {
+      "check": "AskRoundtable/expert-skills exact pinned public source URLs",
+      "passed": true
+    },
+    {
+      "check": "AskRoundtable/expert-skills representative is a substantive file",
+      "passed": true
+    },
+    {
+      "check": "AskRoundtable/expert-skills no C5 or returns outcomes republished",
+      "passed": true
+    },
+    {
+      "check": "kangarooking/poor-charlies-almanack-skill criterion scores and 100-point formula",
+      "passed": true
+    },
+    {
+      "check": "kangarooking/poor-charlies-almanack-skill complete criterion rationale and covered roster",
+      "passed": true
+    },
+    {
+      "check": "kangarooking/poor-charlies-almanack-skill exact pinned public source URLs",
+      "passed": true
+    },
+    {
+      "check": "kangarooking/poor-charlies-almanack-skill representative is a substantive file",
+      "passed": true
+    },
+    {
+      "check": "kangarooking/poor-charlies-almanack-skill no C5 or returns outcomes republished",
+      "passed": true
+    },
+    {
+      "check": "Wechat-ggGitHub/investment-masters-skill criterion scores and 100-point formula",
+      "passed": true
+    },
+    {
+      "check": "Wechat-ggGitHub/investment-masters-skill complete criterion rationale and covered roster",
+      "passed": true
+    },
+    {
+      "check": "Wechat-ggGitHub/investment-masters-skill exact pinned public source URLs",
+      "passed": true
+    },
+    {
+      "check": "Wechat-ggGitHub/investment-masters-skill representative is a substantive file",
+      "passed": true
+    },
+    {
+      "check": "Wechat-ggGitHub/investment-masters-skill no C5 or returns outcomes republished",
+      "passed": true
+    },
+    {
+      "check": "videGavin/serenity-analyst criterion scores and 100-point formula",
+      "passed": true
+    },
+    {
+      "check": "videGavin/serenity-analyst complete criterion rationale and covered roster",
+      "passed": true
+    },
+    {
+      "check": "videGavin/serenity-analyst exact pinned public source URLs",
+      "passed": true
+    },
+    {
+      "check": "videGavin/serenity-analyst representative is a substantive file",
+      "passed": true
+    },
+    {
+      "check": "videGavin/serenity-analyst no C5 or returns outcomes republished",
+      "passed": true
+    },
+    {
+      "check": "LI-Jialu/investor-panel-skill criterion scores and 100-point formula",
+      "passed": true
+    },
+    {
+      "check": "LI-Jialu/investor-panel-skill complete criterion rationale and covered roster",
+      "passed": true
+    },
+    {
+      "check": "LI-Jialu/investor-panel-skill exact pinned public source URLs",
+      "passed": true
+    },
+    {
+      "check": "LI-Jialu/investor-panel-skill representative is a substantive file",
+      "passed": true
+    },
+    {
+      "check": "LI-Jialu/investor-panel-skill no C5 or returns outcomes republished",
+      "passed": true
+    },
+    {
+      "check": "finterm-ai/investment-skills criterion scores and 100-point formula",
+      "passed": true
+    },
+    {
+      "check": "finterm-ai/investment-skills complete criterion rationale and covered roster",
+      "passed": true
+    },
+    {
+      "check": "finterm-ai/investment-skills exact pinned public source URLs",
+      "passed": true
+    },
+    {
+      "check": "finterm-ai/investment-skills representative is a substantive file",
+      "passed": true
+    },
+    {
+      "check": "finterm-ai/investment-skills no C5 or returns outcomes republished",
+      "passed": true
+    },
+    {
+      "check": "CSV covers all 21 projects in same order",
+      "passed": true
+    },
+    {
+      "check": "CSV scalar scores agree",
+      "passed": true
+    },
+    {
+      "check": "CSV full investor roster agrees",
+      "passed": true
+    },
+    {
+      "check": "readable main table has exactly 20 ranked rows",
+      "passed": true
+    },
+    {
+      "check": "details cover all 21 with four criterion sections each",
+      "passed": true
+    },
+    {
+      "check": "C5 and authentic historical views are distinct",
+      "passed": true
+    },
+    {
+      "check": "bounded historical view coverage does not imply disagreement",
+      "passed": true
+    },
+    {
+      "check": "accepted replay coverage and conditions exact",
+      "passed": true
+    },
+    {
+      "check": "source only and no V2 outcome claim",
+      "passed": true
+    },
+    {
+      "check": "same V1 V2 repository scope",
+      "passed": true
+    },
+    {
+      "check": "V2 structural counts not investor validity",
+      "passed": true
+    },
+    {
+      "check": "projection gap explicitly recorded",
+      "passed": true
+    },
+    {
+      "check": "publication scan absolute workspace locator",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "publication scan absolute user locator",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "publication scan windows user locator",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "publication scan private chat-service link",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "publication scan private attachment identifier",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "publication scan room message identifier",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "publication scan credential shaped key",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "publication scan contact email",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "no private PDFs provider payloads or raw model outputs",
+      "passed": true
+    },
+    {
+      "check": "15 exact source hashes and no raw sources copied",
+      "passed": true
+    },
+    {
+      "check": "original projection complete byte-preservation report",
+      "passed": true
+    },
+    {
+      "check": "S01 accepted input bytes hash match",
+      "passed": true
+    },
+    {
+      "check": "S02 accepted input bytes hash match",
+      "passed": true
+    },
+    {
+      "check": "S03 accepted input bytes hash match",
+      "passed": true
+    },
+    {
+      "check": "S04 accepted input bytes hash match",
+      "passed": true
+    },
+    {
+      "check": "S05 accepted input bytes hash match",
+      "passed": true
+    },
+    {
+      "check": "S06 accepted input bytes hash match",
+      "passed": true
+    },
+    {
+      "check": "S07 accepted input bytes hash match",
+      "passed": true
+    },
+    {
+      "check": "S08 accepted input bytes hash match",
+      "passed": true
+    },
+    {
+      "check": "S09 accepted input bytes hash match",
+      "passed": true
+    },
+    {
+      "check": "S10 accepted input bytes hash match",
+      "passed": true
+    },
+    {
+      "check": "S11 accepted input bytes hash match",
+      "passed": true
+    },
+    {
+      "check": "S12 accepted input bytes hash match",
+      "passed": true
+    },
+    {
+      "check": "S13 accepted input bytes hash match",
+      "passed": true
+    },
+    {
+      "check": "S14 accepted input bytes hash match",
+      "passed": true
+    },
+    {
+      "check": "S15 accepted input bytes hash match",
+      "passed": true
+    },
+    {
+      "check": "source corpus matches accepted metadata-corrected hash",
+      "passed": true
+    },
+    {
+      "check": "V1 T1 and T2 accepted completion basis",
+      "passed": true
+    },
+    {
+      "check": "exact source row order",
+      "passed": true
+    },
+    {
+      "check": "virattt/ai-hedge-fund exact accepted fields after disclosed redactions",
+      "passed": true
+    },
+    {
+      "check": "xbtlin/ai-berkshire exact accepted fields after disclosed redactions",
+      "passed": true
+    },
+    {
+      "check": "wbh604/UZI-Skill exact accepted fields after disclosed redactions",
+      "passed": true
+    },
+    {
+      "check": "tradermonty/claude-trading-skills exact accepted fields after disclosed redactions",
+      "passed": true
+    },
+    {
+      "check": "questflowai/investorskills exact accepted fields after disclosed redactions",
+      "passed": true
+    },
+    {
+      "check": "agi-now/buffett-skills exact accepted fields after disclosed redactions",
+      "passed": true
+    },
+    {
+      "check": "AlphaGBM/investment-masters exact accepted fields after disclosed redactions",
+      "passed": true
+    },
+    {
+      "check": "alchaincyf/munger-skill exact accepted fields after disclosed redactions",
+      "passed": true
+    },
+    {
+      "check": "monarchjuno/vibe-investing exact accepted fields after disclosed redactions",
+      "passed": true
+    },
+    {
+      "check": "LLMQuant/skills exact accepted fields after disclosed redactions",
+      "passed": true
+    },
+    {
+      "check": "will2025btc/buffett-perspective exact accepted fields after disclosed redactions",
+      "passed": true
+    },
+    {
+      "check": "kangarooking/buffett-letters-skill exact accepted fields after disclosed redactions",
+      "passed": true
+    },
+    {
+      "check": "lanfuli/aleabito-serenity-skills exact accepted fields after disclosed redactions",
+      "passed": true
+    },
+    {
+      "check": "freenowill/stock-fish exact accepted fields after disclosed redactions",
+      "passed": true
+    },
+    {
+      "check": "MichaelRochonnn/buffett-investment-research exact accepted fields after disclosed redactions",
+      "passed": true
+    },
+    {
+      "check": "AskRoundtable/expert-skills exact accepted fields after disclosed redactions",
+      "passed": true
+    },
+    {
+      "check": "kangarooking/poor-charlies-almanack-skill exact accepted fields after disclosed redactions",
+      "passed": true
+    },
+    {
+      "check": "Wechat-ggGitHub/investment-masters-skill exact accepted fields after disclosed redactions",
+      "passed": true
+    },
+    {
+      "check": "videGavin/serenity-analyst exact accepted fields after disclosed redactions",
+      "passed": true
+    },
+    {
+      "check": "LI-Jialu/investor-panel-skill exact accepted fields after disclosed redactions",
+      "passed": true
+    },
+    {
+      "check": "finterm-ai/investment-skills exact accepted fields after disclosed redactions",
+      "passed": true
+    },
+    {
+      "check": "exact frozen membership pins and popularity",
+      "passed": true
+    },
+    {
+      "check": "same V1 V2 exact commit pins",
+      "passed": true
+    },
+    {
+      "check": "missing original scored catalogue fields verified",
+      "passed": true
+    },
+    {
+      "check": "existing full projection still matches original public inventory",
+      "passed": true
+    },
+    {
+      "check": "scoring anchors reproduced exactly",
+      "passed": true
+    },
+    {
+      "check": "V1 public link matches existing verified receipt",
+      "passed": true
+    },
+    {
+      "check": "all candidate file hashes match",
+      "passed": true
+    },
+    {
+      "check": "candidate manifest complete",
+      "passed": true
+    }
+  ],
+  "scope": "Static coverage and data-provenance tests only; no model native runtime public-site fetch or backtest executed"
+}

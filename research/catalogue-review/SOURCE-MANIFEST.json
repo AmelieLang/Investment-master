@@ -1,0 +1,163 @@
+{
+  "schema_version": "catalogue-recap-source-manifest.v1",
+  "input_records": [
+    {
+      "source_id": "S01",
+      "source_record_name": "source21-consolidated.json",
+      "source_kind": "accepted V1 research record",
+      "sha256": "589739118b3ba1d0e9fa5123065389051e11bffa6aa9b5de966a186a0b93d6f1",
+      "bytes": 169136,
+      "purpose": "Accepted 21-row subjective source scores and evidence rationales",
+      "source_bytes_republished": false
+    },
+    {
+      "source_id": "S02",
+      "source_record_name": "frozen-top20.json",
+      "source_kind": "accepted V1 research record",
+      "sha256": "a71f3482f44ca3f68b087a54238dda27d2633919dcd3d1d11f2da4fcc83fbdf9",
+      "bytes": 34504,
+      "purpose": "Frozen core membership and popularity order",
+      "source_bytes_republished": false
+    },
+    {
+      "source_id": "S03",
+      "source_record_name": "scoring-rubric.md",
+      "source_kind": "accepted V1 research record",
+      "sha256": "637b52171f376adcfbe8fdb8e6c3ec4ea26b421535a661e5269c41f6e8f62467",
+      "bytes": 12370,
+      "purpose": "Criterion anchors formula gates and separate C5 definition",
+      "source_bytes_republished": false
+    },
+    {
+      "source_id": "S04",
+      "source_record_name": "T1-metadata-correction1.json",
+      "source_kind": "accepted V1 research record",
+      "sha256": "8875b1c576163425e6259209f19ebf4511a92501e5e9d5841e64b2c626b32cbb",
+      "bytes": 1447,
+      "purpose": "Accepted metadata-only rank correction",
+      "source_bytes_republished": false
+    },
+    {
+      "source_id": "S05",
+      "source_record_name": "acceptance-ledger.json",
+      "source_kind": "accepted V1 research record",
+      "sha256": "be6a9ad12ad66e0d1654307da30d15333b5ba121b72ea23001dd20053f139fd6",
+      "bytes": 28324,
+      "purpose": "V1 inventory replay and final-handoff acceptance state",
+      "source_bytes_republished": false
+    },
+    {
+      "source_id": "S06",
+      "source_record_name": "historical-benchmark-protocol.md",
+      "source_kind": "accepted V1 research record",
+      "sha256": "da9d849f17c0414231012d9ca8a611bec0f2448c23e02d17a8a138d323f840d1",
+      "bytes": 13571,
+      "purpose": "Fixed comparable replay and authenticity design",
+      "source_bytes_republished": false
+    },
+    {
+      "source_id": "S07",
+      "source_record_name": "benchmark-run-approval.json",
+      "source_kind": "accepted V1 research record",
+      "sha256": "8237fec2953581e99eefecd6d6e8202963af59fb8546ebc5ac957b722bd6dcab",
+      "bytes": 6441,
+      "purpose": "Frozen condition composition and backend limitations",
+      "source_bytes_republished": false
+    },
+    {
+      "source_id": "S08",
+      "source_record_name": "T2-empirical-selection-acceptance.json",
+      "source_kind": "accepted V1 research record",
+      "sha256": "9003a986088a468208ef4146b54deecc2bdce3454e794441b50e3a8571166797",
+      "bytes": 10383,
+      "purpose": "Accepted V1 replay status and interpretation only",
+      "source_bytes_republished": false
+    },
+    {
+      "source_id": "S09",
+      "source_record_name": "T2-authenticity-acceptance.json",
+      "source_kind": "accepted V1 research record",
+      "sha256": "f0094d059b4ef43833296a77414a2cd61114ca695f6fa9547f710235145185cd",
+      "bytes": 5835,
+      "purpose": "Separate bounded historical-view evidence coverage",
+      "source_bytes_republished": false
+    },
+    {
+      "source_id": "S10",
+      "source_record_name": "T3-remote-pr-verified.json",
+      "source_kind": "accepted V1 research record",
+      "sha256": "da5269ffc9525e86fa14c60aa753f0269c75a5b2ece2e4fbb87a19a1005971bf",
+      "bytes": 517,
+      "purpose": "Previously verified V1 draft PR URL and exact head",
+      "source_bytes_republished": false
+    },
+    {
+      "source_id": "S11",
+      "source_record_name": "T3-publication-copy-acceptance.json",
+      "source_kind": "accepted V1 research record",
+      "sha256": "2be2945efdc0780df4614fcf40ec8e9cbca01e1579454c0b48a34605f8dccc27",
+      "bytes": 3846,
+      "purpose": "V1 isolated source publication receipt",
+      "source_bytes_republished": false
+    },
+    {
+      "source_id": "S12",
+      "source_record_name": "canonical-source-catalogue.json",
+      "source_kind": "existing V2 public projection record",
+      "sha256": "07cc5dc056370fc4b0aa236997e6f1a9d24e52c9b58ab86fe6416118e472dded",
+      "bytes": 1075834,
+      "purpose": "V2 expanded structural inventory and count definitions",
+      "source_bytes_republished": false
+    },
+    {
+      "source_id": "S13",
+      "source_record_name": "project-adoption-coverage.json",
+      "source_kind": "existing V2 public projection record",
+      "sha256": "8462de41026ca93f675feeccea0714e11de558c9742de1dcd8a3edd4fd43465a",
+      "bytes": 7493,
+      "purpose": "V2 21-project mechanism-adoption coverage",
+      "source_bytes_republished": false
+    },
+    {
+      "source_id": "S14",
+      "source_record_name": "README.md",
+      "source_kind": "existing V2 public projection record",
+      "sha256": "9fc40df2e16eda0250f583db1623a395334dd1cf4deb7d554d6e5dc1acdded8d",
+      "bytes": 2583,
+      "purpose": "Current source-only publication limits",
+      "source_bytes_republished": false
+    },
+    {
+      "source_id": "S15",
+      "source_record_name": "PUBLIC-MANIFEST.json",
+      "source_kind": "existing V2 public projection record",
+      "sha256": "8e7c4acdc5d24d9dda27023f79615a03a7e7ba542cfa409b49ae665d00dd7acf",
+      "bytes": 34235,
+      "purpose": "Existing complete public projection byte inventory",
+      "source_bytes_republished": false
+    }
+  ],
+  "locator_policy": "Source record basenames and exact hashes are provided without absolute paths; upstream evidence links are preserved in catalogue.json. Original input files are not included.",
+  "transformations": [
+    {
+      "operation": "omit",
+      "fields": [
+        "runtime_constraints",
+        "actual_run_status",
+        "empirical_C5"
+      ],
+      "reason": "Avoid private execution details and obsolete pre-run status; publish no empirical score values"
+    },
+    {
+      "operation": "display_redaction",
+      "field": "implemented_masters",
+      "rule": "Public pseudonym is displayed as Serenity without an account handle"
+    },
+    {
+      "operation": "display_redaction",
+      "field": "material_gaps",
+      "rule": "An author-specific absolute installation path, a placeholder contact address and provider labels are replaced by generic descriptions; no financial-provider data is copied"
+    }
+  ],
+  "acceptance_basis": "Accepted V1 T1 and T2 records plus static accepted V2 structural inventory. This new recap still needs independent review."
+}

@@ -4,6 +4,8 @@ Research repository for the Investment-master Skill and two planned historical r
 
 The reviewed source-only checkpoint is preserved under [skill/](skill/), with all 192 files and internal relative paths unchanged. Start with [SKILL.md](skill/SKILL.md); [PUBLICATION.md](skill/PUBLICATION.md) documents verification and scope, and [PUBLIC-MANIFEST.json](skill/PUBLIC-MANIFEST.json) hashes the current source inventory. Packaging metadata inside the checkpoint retains its historical pre-publication state.
 
+Research catalogue: [frozen top20 comparison and finterm supplement](research/catalogue-review/README.md).
+
 Source archive: `investment-master-public-source-projection-v1.zip`, SHA-256 `c2675e5abf8db00d636ca1e99217628bda2ddb1271015f6077cda8b1eb9fab1e`.
 
 Historical replay execution and actual historical opinions remain in progress. No completed backtests, financial performance results, investor endorsements, or activated chatbot are claimed.
