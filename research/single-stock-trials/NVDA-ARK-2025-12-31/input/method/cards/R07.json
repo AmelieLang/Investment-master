@@ -1,0 +1,47 @@
+{
+  "schema_version": "historical-finterm-procedural-card/v0.1-candidate",
+  "transport_status": "candidate_pending_exact_content_acceptance",
+  "card_id": "R07",
+  "title": "Monitor Assumptions, Change Indicators, and Invalidation Conditions",
+  "intent": [
+    "financial-analysis",
+    "memo-review",
+    "thesis-evaluation"
+  ],
+  "origin_label": "Finterm MIT editorial procedural framework, retrospective implementation under test; not proof of a native investor algorithm.",
+  "historical_source_fact_ids_if_any": [],
+  "source_repository": "finterm-ai/investment-skills",
+  "source_pin": "7235d3411601036cc79137fa0aec0d587f2c8e19",
+  "source_path": "vendor/finterm/references/07-risk-monitoring.md",
+  "source_file_sha256": "d5a61603a98bf09a99f16e8545da69474a685f963c693511f01e5fc7297ecad1",
+  "selected_fragment_sha256": "9edc14dc7115ae156867d768b56aa1f92af9e35d28465fde75f96b2bf1bc0be9",
+  "source_fragment_locator": {
+    "line_start_1_based": 165,
+    "line_end_1_based": 179,
+    "sha256": "9edc14dc7115ae156867d768b56aa1f92af9e35d28465fde75f96b2bf1bc0be9",
+    "bytes": 925
+  },
+  "procedural_question": "Which observations would strengthen, weaken, revise, or retire\n  each material assumption?",
+  "guidance": "Maintain a compact assumption register with evidence-linked indicators\n  and invalidation conditions; update from decision-relevant evidence rather than\n  undirected news or quotes.",
+  "applicability": "Ongoing monitoring, periodic thesis review, or material new operating,\n  governance, financing, or industry evidence.",
+  "procedural_actions": "Register assumptions, indicators, and cadence; classify new\n  evidence; mark assumptions strengthened, weakened, revised, retired, or unresolved.",
+  "output_contract": "A thesis-monitoring register with dated evidence, status changes, and\n  blocked conclusions.",
+  "limits": "Indicators can be noisy or lagging and no update automatically produces a\n  buy, sell, or hold action.",
+  "required_questions": [
+    "Which observations would strengthen, weaken, revise, or retire\n  each material assumption?"
+  ],
+  "falsifiers_and_contrary_checks": {
+    "standalone_falsifier_field_in_original": false,
+    "preserved_original_action_text": "Register assumptions, indicators, and cadence; classify new\n  evidence; mark assumptions strengthened, weakened, revised, retired, or unresolved.",
+    "preserved_original_limit_text": "Indicators can be noisy or lagging and no update automatically produces a\n  buy, sell, or hold action.",
+    "interpretation": "Use these exact original action/limit tests; this projection supplies no invented card-specific falsifier or calibrated probability."
+  },
+  "evidence_scope": "Only admitted supplied immutable historical evidence and explicitly labelled frozen assumptions. Any generic request to search, compare, classify new evidence or monitor is confined to that packet; no live retrieval or later-data monitoring is authorized.",
+  "procedural_fragment_verbatim": "### R07 — Monitor Assumptions, Change Indicators, and Invalidation Conditions\n\n- **Decision question:** Which observations would strengthen, weaken, revise, or retire\n  each material assumption?\n- **Guidance:** Maintain a compact assumption register with evidence-linked indicators\n  and invalidation conditions; update from decision-relevant evidence rather than\n  undirected news or quotes.\n- **Use when:** Ongoing monitoring, periodic thesis review, or material new operating,\n  governance, financing, or industry evidence.\n- **Analytical actions:** Register assumptions, indicators, and cadence; classify new\n  evidence; mark assumptions strengthened, weakened, revised, retired, or unresolved.\n- **Output:** A thesis-monitoring register with dated evidence, status changes, and\n  blocked conclusions.\n- **Limits:** Indicators can be noisy or lagging and no update automatically produces a\n  buy, sell, or hold action.\n",
+  "projection_limits": [
+    "Editorial guidance only; not an authenticated native Buffett or other master algorithm.",
+    "No source-basis or corroboration factual claims are transported.",
+    "No company fact, dated company example, holding, case result, prior opinion or actual outcome is included.",
+    "Absent prerequisites leave the corresponding branch unresolved."
+  ]
+}

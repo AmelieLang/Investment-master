@@ -1,0 +1,35 @@
+{
+  "source_id": "ARK-X-WRIGHT-20190102",
+  "title": "Moore’s Law Isn’t Dead: It’s Wrong - Long Live Wright’s Law",
+  "original_public_url": "https://www.ark-invest.com/articles/analyst-research/wrights-law-2",
+  "original_author_or_speaker": "Brett Winton / ARK research",
+  "provenance": "P1",
+  "publication_date_shown": "2019-01-02",
+  "publication_date_precision": "day",
+  "retrieval_date": "2026-10-13",
+  "decision_cutoff_utc": "2025-12-31T23:59:59Z",
+  "publication_proof": {
+    "primary_locator": "Original article header, date and byline.",
+    "evidence": "Official article visibly dates itself January 02, 2019 and names Brett Winton.",
+    "date_is_not": "A 2026 retrieval time or an inferred trade date."
+  },
+  "historical_version_status": "dated_original_edition_retrieved_currently; exact historical bytes not archive-pinned",
+  "first_public_upload_time_independently_verified": false,
+  "source_limits": [
+    "Public original statements establish the author/team stated analytical ideas, not that the ideas are correct or were applied to every investment.",
+    "A dated source is eligible relative to this replay cutoff; no actual stock-entry timing or personal position is inferred.",
+    "HTML read successfully through the public web reader; raw HTML fetch returned HTTP 403, so no raw HTML byte hash is claimed.",
+    "Current header/navigation and author biography are not historical evidence."
+  ],
+  "copyright_reuse": {
+    "status": "Copyrighted first-party research; no source-wide open redistribution license established.",
+    "retained_content": "Bibliographic facts, very short authentication anchors and independently written analytical questions only.",
+    "excluded": "No full report, source graphics, source tables, workbook, code, native scoring matrix or weight reproduction.",
+    "ARK_CC_boundary": "Any ARK CC BY-NC 4.0 model license is source-specific. It is not MIT and does not authorize commercial reuse. No ARK valuation model or workbook is accessed, adapted or exported here."
+  },
+  "source_fact_scope": "Bibliographic/publication/author identity and accepted selected qualitative method anchors only; no company evidence or stock stance.",
+  "source_acceptance_receipt_sha256": "503a17ff02fe440fa99b8359892af39726da5fc0d325209137edb9b8c19de15b",
+  "exact_source_record_sha256": "6ba9ebe385cd0fd5f9ea70222587529d1646bfcde1352ef51d1f6800b0688b91",
+  "transport_status": "candidate_pending_exact_content_acceptance",
+  "historical_source_acceptance": "PASS_BOUNDED_METHOD_SOURCE_WITH_VERSION_LIMITS"
+}

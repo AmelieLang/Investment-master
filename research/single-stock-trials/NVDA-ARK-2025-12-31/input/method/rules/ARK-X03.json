@@ -1,0 +1,98 @@
+{
+  "rule_id": "ARK-X03",
+  "method_id": "ark-research-team",
+  "documented_native_fact": "ARK compares AI cost at similar capability and discusses multiple performance measures rather than treating a single test as complete capability.",
+  "documented_scope": "Dated AI research; Downing/Soja Big Ideas 2024 and Downing 2025.",
+  "evidence_anchors": [
+    {
+      "source_id": "ARK-X-BIG-IDEAS-2024",
+      "precise_locator": {
+        "printed_page": 30,
+        "pdf_page_1_based": 30,
+        "figure_topics": [
+          "Capability contrasts across test categories",
+          "Multi-dimensional evaluation table"
+        ]
+      },
+      "supporting_paraphrase": "Performance varies by task and evaluation dimension.",
+      "support_role": "direct_documented_method"
+    },
+    {
+      "source_id": "ARK-X-SOFTWARE-20250729",
+      "precise_locator": {
+        "html_heading": "As Costs Plummet, Intelligence Is Exploding",
+        "paragraph_topic": "Minimum cost at the specified coding-performance threshold",
+        "retrieval_specific_web_text_lines": [
+          125,
+          135
+        ],
+        "line_number_caveat": "Convenience coordinates of this retrieval only. Original heading/topic locator is primary."
+      },
+      "supporting_paraphrase": "Compares inference pricing at a fixed capability threshold.",
+      "support_role": "direct_documented_method"
+    },
+    {
+      "source_id": "ARK-X-SOFTWARE-20250729",
+      "precise_locator": {
+        "html_heading": "Industry Implications",
+        "paragraph": 1,
+        "retrieval_specific_web_text_lines": [
+          148,
+          149
+        ],
+        "line_number_caveat": "Convenience coordinates of this retrieval only. Original heading/topic locator is primary."
+      },
+      "supporting_paraphrase": "Benchmarks are imperfect indicators of deployed performance.",
+      "support_role": "direct_qualification"
+    }
+  ],
+  "native_numeric_scoring_weights_established": false,
+  "application_design": {
+    "authorship": "Independent auditor operationalization; not an investor quotation, recovered personal algorithm or claim of historical use.",
+    "required_quantitative_inputs": [
+      "Task-success rate on comparable real workflows",
+      "Cost per successful completed task, including retries and human review",
+      "Latency, context limits, reliability and security requirements",
+      "Benchmark definitions and test dates"
+    ],
+    "research_checks": [
+      "Match service quality before comparing economic cost.",
+      "Test actual task productivity and customer willingness to pay."
+    ],
+    "falsifiers_or_contrary_mechanisms": [
+      "Benchmark gains do not reduce deployed cost or reliably complete the required workflow.",
+      "Retries, integration, risk controls or human supervision erase apparent savings."
+    ],
+    "application_limits": [
+      "The article’s benchmark threshold is an example, not a universal investment cutoff.",
+      "Training costs, API prices, hardware capital costs and total deployed costs cannot be substituted for one another."
+    ]
+  },
+  "schema_version": "historical-technology-rule-projection/v0.1-candidate",
+  "transport_status": "candidate_pending_exact_content_acceptance",
+  "source_acceptance": "PASS_BOUNDED_METHOD_SOURCE_WITH_VERSION_LIMITS",
+  "source_acceptance_receipt_sha256": "503a17ff02fe440fa99b8359892af39726da5fc0d325209137edb9b8c19de15b",
+  "cutoff_utc": "2025-12-31T23:59:59Z",
+  "source_rule_record_path": "rule-anchors.json#/rules/2",
+  "source_rule_file_sha256": "168ed229213562eed61bf8393d789aded542d0c8045d5d38386165f7c353c169",
+  "origin_separation": {
+    "documented_native_fact": "Bounded reconstruction of the accepted original qualitative source statement.",
+    "application_design": "Independent auditor operationalization; not an investor quotation, recovered personal algorithm or claim of historical use."
+  },
+  "applies_scope": "Dated AI research; Downing/Soja Big Ideas 2024 and Downing 2025.",
+  "excluded_scope": [
+    "The article’s benchmark threshold is an example, not a universal investment cutoff.",
+    "Training costs, API prices, hardware capital costs and total deployed costs cannot be substituted for one another.",
+    "No actual statement, holding, stock recommendation or forecast for a target security is established.",
+    "No universal buy/sell threshold, discount rate, position sizing, numeric master weight or probability is recovered."
+  ],
+  "source_record_paths": {
+    "ARK-X-BIG-IDEAS-2024": "worker/addon/sources/ark-x-big-ideas-2024.json",
+    "ARK-X-SOFTWARE-20250729": "worker/addon/sources/ark-x-software-20250729.json"
+  },
+  "required_inputs_must_be_admitted": true,
+  "automatic_route_enabled": false,
+  "display_attribution": "ARK research team / named authors at each source; no personal Cathie Wood authorship established.",
+  "perspective_identity_boundary": "ARK research-team and associated Cathie perspective may not count as independent views on the same security.",
+  "temporal_version_caveat": "Dated-original qualitative method reconstruction only. Exact historical PDF bytes and first upload are not archive-pinned. Big Ideas edition cover/report existence do not prove that the currently retrieved version equals its first edition. No numerical forecasts, network weights or source tables are admitted."
+}

@@ -1,0 +1,47 @@
+{
+  "schema_version": "historical-finterm-procedural-card/v0.1-candidate",
+  "transport_status": "candidate_pending_exact_content_acceptance",
+  "card_id": "F02",
+  "title": "Estimate Owner Earnings After All Real Costs",
+  "intent": [
+    "financial-analysis",
+    "memo-review",
+    "thesis-evaluation"
+  ],
+  "origin_label": "Finterm MIT editorial procedural framework, retrospective implementation under test; not proof of a native investor algorithm.",
+  "historical_source_fact_ids_if_any": [],
+  "source_repository": "finterm-ai/investment-skills",
+  "source_pin": "7235d3411601036cc79137fa0aec0d587f2c8e19",
+  "source_path": "vendor/finterm/references/04-financial-reality.md",
+  "source_file_sha256": "4a9f62a3c91f16f23c812411a849d3180e0361a1b69755ce84d9f60619e2e767",
+  "selected_fragment_sha256": "ccdeb79c309c21882cae634de334eee209740ae3488ac44086f5fef0fcf91ecf",
+  "source_fragment_locator": {
+    "line_start_1_based": 51,
+    "line_end_1_based": 65,
+    "sha256": "ccdeb79c309c21882cae634de334eee209740ae3488ac44086f5fef0fcf91ecf",
+    "bytes": 928
+  },
+  "procedural_question": "How much cash can owners remove without weakening competitive\n  position or unit volume?",
+  "guidance": "Restore noncash charges only when they are not economic depletion and\n  subtract maintenance capital, required working capital, compensation, and recurring\n  costs; use supported ranges.",
+  "applicability": "Cash removability or distributable earning power matters to valuation,\n  reinvestment, or payout analysis.",
+  "procedural_actions": "Show every adjustment; estimate maintenance capital and\n  working capital across a representative period; sensitize judgmental components.",
+  "output_contract": "A reconciled owner-earnings range with assumptions, sensitivities, and\n  blocked components.",
+  "limits": "Maintenance and growth overlap and depreciation or amortization may\n  misstate depletion; unbounded material needs leave the result unresolved.",
+  "required_questions": [
+    "How much cash can owners remove without weakening competitive\n  position or unit volume?"
+  ],
+  "falsifiers_and_contrary_checks": {
+    "standalone_falsifier_field_in_original": false,
+    "preserved_original_action_text": "Show every adjustment; estimate maintenance capital and\n  working capital across a representative period; sensitize judgmental components.",
+    "preserved_original_limit_text": "Maintenance and growth overlap and depreciation or amortization may\n  misstate depletion; unbounded material needs leave the result unresolved.",
+    "interpretation": "Use these exact original action/limit tests; this projection supplies no invented card-specific falsifier or calibrated probability."
+  },
+  "evidence_scope": "Only admitted supplied immutable historical evidence and explicitly labelled frozen assumptions. Any generic request to search, compare, classify new evidence or monitor is confined to that packet; no live retrieval or later-data monitoring is authorized.",
+  "procedural_fragment_verbatim": "### F02 — Estimate Owner Earnings After All Real Costs\n\n- **Decision question:** How much cash can owners remove without weakening competitive\n  position or unit volume?\n- **Guidance:** Restore noncash charges only when they are not economic depletion and\n  subtract maintenance capital, required working capital, compensation, and recurring\n  costs; use supported ranges.\n- **Use when:** Cash removability or distributable earning power matters to valuation,\n  reinvestment, or payout analysis.\n- **Analytical actions:** Show every adjustment; estimate maintenance capital and\n  working capital across a representative period; sensitize judgmental components.\n- **Output:** A reconciled owner-earnings range with assumptions, sensitivities, and\n  blocked components.\n- **Limits:** Maintenance and growth overlap and depreciation or amortization may\n  misstate depletion; unbounded material needs leave the result unresolved.\n",
+  "projection_limits": [
+    "Editorial guidance only; not an authenticated native Buffett or other master algorithm.",
+    "No source-basis or corroboration factual claims are transported.",
+    "No company fact, dated company example, holding, case result, prior opinion or actual outcome is included.",
+    "Absent prerequisites leave the corresponding branch unresolved."
+  ]
+}

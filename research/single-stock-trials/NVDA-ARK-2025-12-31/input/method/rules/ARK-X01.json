@@ -1,0 +1,76 @@
+{
+  "rule_id": "ARK-X01",
+  "method_id": "ark-research-team",
+  "documented_native_fact": "ARK describes disruptive platforms by steep cost declines, cross-sector reach and capacity to enable additional innovation.",
+  "documented_scope": "General platform identification; Brett Winton’s published framework, not Cathie Wood’s individual rule set.",
+  "evidence_anchors": [
+    {
+      "source_id": "ARK-X-AI-DISRUPTION-20241001",
+      "precise_locator": {
+        "printed_page": 4,
+        "pdf_page_1_based": 4,
+        "section_topic": "Disruptive technology definition",
+        "paragraphs": "Three intrinsic-property paragraphs after the introductory definition"
+      },
+      "supporting_paraphrase": "Uses cost, sector reach and enabling-platform properties.",
+      "support_role": "direct_documented_method"
+    },
+    {
+      "source_id": "ARK-X-AI-DISRUPTION-20241001",
+      "precise_locator": {
+        "printed_page": 17,
+        "pdf_page_1_based": 17,
+        "section_topic": "Conclusion",
+        "paragraphs": "Second and third substantive paragraphs"
+      },
+      "supporting_paraphrase": "Incumbent displacement is possible, not inevitable.",
+      "support_role": "direct_qualification"
+    }
+  ],
+  "native_numeric_scoring_weights_established": false,
+  "application_design": {
+    "authorship": "Independent auditor operationalization; not an investor quotation, recovered personal algorithm or claim of historical use.",
+    "required_quantitative_inputs": [
+      "Quality-adjusted cost history and service price",
+      "Number and revenue share of distinct addressable use cases/sectors",
+      "Active independent developers, deployed complements and paid adoption"
+    ],
+    "research_checks": [
+      "Document which of the three properties is evidenced and which is only a forecast.",
+      "Tie enabling platforms to the actual company’s attainable economics."
+    ],
+    "falsifiers_or_contrary_mechanisms": [
+      "Cost declines stall or performance does not meet customer requirements.",
+      "Platform complements fail to gain paying adoption; incumbents preserve customer access or economics."
+    ],
+    "application_limits": [
+      "A platform-level property does not select a security or establish its value capture.",
+      "No automatic technology-sector eligibility; absence of an input is missing evidence, not a positive score."
+    ]
+  },
+  "schema_version": "historical-technology-rule-projection/v0.1-candidate",
+  "transport_status": "candidate_pending_exact_content_acceptance",
+  "source_acceptance": "PASS_BOUNDED_METHOD_SOURCE_WITH_VERSION_LIMITS",
+  "source_acceptance_receipt_sha256": "503a17ff02fe440fa99b8359892af39726da5fc0d325209137edb9b8c19de15b",
+  "cutoff_utc": "2025-12-31T23:59:59Z",
+  "source_rule_record_path": "rule-anchors.json#/rules/0",
+  "source_rule_file_sha256": "168ed229213562eed61bf8393d789aded542d0c8045d5d38386165f7c353c169",
+  "origin_separation": {
+    "documented_native_fact": "Bounded reconstruction of the accepted original qualitative source statement.",
+    "application_design": "Independent auditor operationalization; not an investor quotation, recovered personal algorithm or claim of historical use."
+  },
+  "applies_scope": "General platform identification; Brett Winton’s published framework, not Cathie Wood’s individual rule set.",
+  "excluded_scope": [
+    "A platform-level property does not select a security or establish its value capture.",
+    "No automatic technology-sector eligibility; absence of an input is missing evidence, not a positive score.",
+    "No actual statement, holding, stock recommendation or forecast for a target security is established.",
+    "No universal buy/sell threshold, discount rate, position sizing, numeric master weight or probability is recovered."
+  ],
+  "source_record_paths": {
+    "ARK-X-AI-DISRUPTION-20241001": "worker/addon/sources/ark-x-ai-disruption-20241001.json"
+  },
+  "required_inputs_must_be_admitted": true,
+  "automatic_route_enabled": false,
+  "display_attribution": "ARK research team / named authors at each source; no personal Cathie Wood authorship established.",
+  "perspective_identity_boundary": "ARK research-team and associated Cathie perspective may not count as independent views on the same security."
+}

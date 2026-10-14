@@ -1,0 +1,41 @@
+{
+  "review_id": "NVDA-ARK-single-static-independent-review-v1",
+  "reviewed_at_utc": "2026-10-14T04:20:22.311843+00:00",
+  "reviewer_task": "/root/plan_single_stock_trial",
+  "overall_status": "pass",
+  "scope": "This newly authorized manual NVDA/ARK-inspired static demonstration only; not original benchmark, runtime, UI, full ARK numerical replication or prospective leakage-free certification.",
+  "files_sha256": {
+    "input/worker-bundle.md": "b70b1385650032fdb5c107a2620a08d92651eb2de6853cc8b7e222b0ad52e2c3",
+    "input/input-manifest.json": "2e76f83bb3c1cd4ec16d7922962df04258746b9bf81373fd9d2f986e2d82053a",
+    "output/raw-opinion.md": "33965ccfdc211b6e1b4e77a4c272af4314579edcd7d936f133da5519af155370",
+    "output/scenarios.json": "c6cba25a031389be684263a21587fa31e10bc0cd7931b290a8c3b202bbd596c9"
+  },
+  "checks": {
+    "input_manifest_files_verified": 27,
+    "input_manifest_hash_mismatches": 0,
+    "output_hashes_match_parent_handoff": true,
+    "nine_selected_cards_and_three_rules_match": true,
+    "historical_financial_baseline_and_ttm_bridge": "pass; revenue187.142bn, owner-attributable NI99.198bn, period-end shares24.305bn and quarterly diluted shares24.483bn match frozen facts; source IDs and periods retained",
+    "independent_scenario_arithmetic": "48 recomputed annual projection and terminal/return/hurdle values passed; no discrepancies",
+    "score_total": "pass;2+1+1+1+0=5 of10, explicitly analyst-designed ordinal screen",
+    "root_arithmetic_review": "Parent separately reports58 checks passed in audit/arithmetic-review.json; not substituted for this reviewer’s48 recomputations",
+    "source_links": "All output source_urls occur in frozen worker-bundle; no external/current/outcome sources opened in this audit",
+    "historical_attribution": "Four named authors, publication dates and propositions match frozen historical sidecar rendering; statements are not treated as issuer facts or cutoff recommendations",
+    "holdings": "ARK Investment Management LLC2025-09-30 report/2025-11-12 filing,1,165,661 common shares,CUSIP67066G104 and XML row115 match; manager aggregation, staleness and no net/current exposure inference are explicit",
+    "assumption_transparency": "Revenue growth,margins,net share changes,PE,12% return hurdle and falsification thresholds explicitly analyst-defined, not ARK forecasts or rules",
+    "valuation_labels": "Future2028-12-31 price targets separated from three-year price CAGR and present required-return price hurdle; no DCF,FCFF,owner earnings or current intrinsic-value claim",
+    "time_and_denominator_limits": "66-day baseline/terminal alignment simplification disclosed;24.483bn quarterly diluted denominator used only as future proxy; no reconstructed historical TTM EPS/PE",
+    "runtime_claims": "Records parent-confirmed native gpt-6.1-sol invocation settings, while disclosing absent provider runtime attestation; does not claim old framework acceptance"
+  },
+  "method_application_status": "partial; qualitative ARK mechanisms applied, numerical learning curves/deployed-task comparisons and cash-value branches remain unsupported or abstained",
+  "mandatory_corrections": [],
+  "retained_limits": [
+    "Scenario PE values20/30/38, revenue trajectories and margins are illustrative, not independently calibrated fair-value bounds or probability coverage.",
+    "Cash affordability of bull-case net share reduction is unproven and disclosed.",
+    "Quality-adjusted cost, paid-adoption elasticity and durable capture remain missing; the successful demonstration does not validate these investment propositions.",
+    "Retrospective later-trained model and source version limitations preclude prospective or guaranteed no-leakage certification.",
+    "Read-scope statements and native invocation settings rely partly on worker/parent provenance; this artifact does not provide provider-level model attestation."
+  ],
+  "raw_output_modified": false,
+  "recommendation": "Deliver the static result with its conditional assumptions and limitations. No corrective model rerun required."
+}

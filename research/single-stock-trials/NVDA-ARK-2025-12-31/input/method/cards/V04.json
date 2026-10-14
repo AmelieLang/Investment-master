@@ -1,0 +1,47 @@
+{
+  "schema_version": "historical-finterm-procedural-card/v0.1-candidate",
+  "transport_status": "candidate_pending_exact_content_acceptance",
+  "card_id": "V04",
+  "title": "Value Growth Only Through Incremental Capital Economics",
+  "intent": [
+    "financial-analysis",
+    "memo-review",
+    "thesis-evaluation"
+  ],
+  "origin_label": "Finterm MIT editorial procedural framework, retrospective implementation under test; not proof of a native investor algorithm.",
+  "historical_source_fact_ids_if_any": [],
+  "source_repository": "finterm-ai/investment-skills",
+  "source_pin": "7235d3411601036cc79137fa0aec0d587f2c8e19",
+  "source_path": "vendor/finterm/references/05-valuation.md",
+  "source_file_sha256": "03a9395e0c4563d96d865638e953894a842f0475495c0f7e0e4d7d2428f1abca",
+  "selected_fragment_sha256": "75d76c7de8e26e8d11b0f36be5335d37440e5f25e1358c489224563ec2761b3a",
+  "source_fragment_locator": {
+    "line_start_1_based": 96,
+    "line_end_1_based": 108,
+    "sha256": "75d76c7de8e26e8d11b0f36be5335d37440e5f25e1358c489224563ec2761b3a",
+    "bytes": 827
+  },
+  "procedural_question": "Does projected growth increase future owner cash after funding\n  its capital requirements?",
+  "guidance": "Credit growth only through supported changes in owner cash and\n  incremental returns; reduce expectations for capital hunger or return decay.",
+  "applicability": "Growth contributes materially to valuation or thesis.",
+  "procedural_actions": "Reconcile growth with incremental capital and owner cash;\n  compare returns with opportunity cost; sensitize scale, runway, and funding.",
+  "output_contract": "A growth-value bridge separating revenue growth, required capital,\n  incremental return, and owner-cash contribution.",
+  "limits": "Future returns are unobserved; unbounded funding or incremental returns\n  leave growth value unresolved.",
+  "required_questions": [
+    "Does projected growth increase future owner cash after funding\n  its capital requirements?"
+  ],
+  "falsifiers_and_contrary_checks": {
+    "standalone_falsifier_field_in_original": false,
+    "preserved_original_action_text": "Reconcile growth with incremental capital and owner cash;\n  compare returns with opportunity cost; sensitize scale, runway, and funding.",
+    "preserved_original_limit_text": "Future returns are unobserved; unbounded funding or incremental returns\n  leave growth value unresolved.",
+    "interpretation": "Use these exact original action/limit tests; this projection supplies no invented card-specific falsifier or calibrated probability."
+  },
+  "evidence_scope": "Only admitted supplied immutable historical evidence and explicitly labelled frozen assumptions. Any generic request to search, compare, classify new evidence or monitor is confined to that packet; no live retrieval or later-data monitoring is authorized.",
+  "procedural_fragment_verbatim": "### V04 — Value Growth Only Through Incremental Capital Economics\n\n- **Decision question:** Does projected growth increase future owner cash after funding\n  its capital requirements?\n- **Guidance:** Credit growth only through supported changes in owner cash and\n  incremental returns; reduce expectations for capital hunger or return decay.\n- **Use when:** Growth contributes materially to valuation or thesis.\n- **Analytical actions:** Reconcile growth with incremental capital and owner cash;\n  compare returns with opportunity cost; sensitize scale, runway, and funding.\n- **Output:** A growth-value bridge separating revenue growth, required capital,\n  incremental return, and owner-cash contribution.\n- **Limits:** Future returns are unobserved; unbounded funding or incremental returns\n  leave growth value unresolved.\n",
+  "projection_limits": [
+    "Editorial guidance only; not an authenticated native Buffett or other master algorithm.",
+    "No source-basis or corroboration factual claims are transported.",
+    "No company fact, dated company example, holding, case result, prior opinion or actual outcome is included.",
+    "Absent prerequisites leave the corresponding branch unresolved."
+  ]
+}

@@ -15,3 +15,9 @@ Historical data is accepted for five securities and held for fourteen; there are
 Source and future eligible results must retain their attribution and applicable rights. FMP publication rights remain unresolved; raw FMP data and FMP-derived financial outcomes are excluded.
 
 Original software licenses and research attributions remain in the source tree. Their scopes differ; see [THIRD-PARTY-NOTICES.md](skill/THIRD-PARTY-NOTICES.md). This repository makes no blanket MIT claim over third-party publications or data.
+
+## Latest manual trial (2026-10-14)
+
+One separate manual static [NVDA + ARK trial](research/single-stock-trials/NVDA-ARK-2025-12-31/README.md) was completed on 2026-10-14. It used an extracted subset of nine procedural cards from the [finterm framework](https://github.com/AmelieLang/Investment-master/blob/12472e955a58bd873338ac068088df5cd25ee014/skill/vendor/finterm/SKILL.md) and three selected [ARK method rules](https://github.com/AmelieLang/Investment-master/blob/12472e955a58bd873338ac068088df5cd25ee014/skill/tech-historical-extension/ark-research-team.json), within the research scope of the [Skill entrypoint](https://github.com/AmelieLang/Investment-master/blob/12472e955a58bd873338ac068088df5cd25ee014/skill/SKILL.md). A separate, explicit analyst-created earnings/P-E scenario calculation produced the numerical outputs; it did not execute the old full runtime or replicate ARK's complete quantitative model.
+
+The earlier phase-status paragraph remains the preserved historical snapshot; this new static case is counted separately. No complete benchmark, runtime/UI acceptance, runtime activation, trades or deployment is claimed.

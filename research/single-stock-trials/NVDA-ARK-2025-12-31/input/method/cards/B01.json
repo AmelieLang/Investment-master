@@ -1,0 +1,47 @@
+{
+  "schema_version": "historical-finterm-procedural-card/v0.1-candidate",
+  "transport_status": "candidate_pending_exact_content_acceptance",
+  "card_id": "B01",
+  "title": "Map How the Business Earns and Converts a Dollar",
+  "intent": [
+    "financial-analysis",
+    "memo-review",
+    "thesis-evaluation"
+  ],
+  "origin_label": "Finterm MIT editorial procedural framework, retrospective implementation under test; not proof of a native investor algorithm.",
+  "historical_source_fact_ids_if_any": [],
+  "source_repository": "finterm-ai/investment-skills",
+  "source_pin": "7235d3411601036cc79137fa0aec0d587f2c8e19",
+  "source_path": "vendor/finterm/references/02-business-economics.md",
+  "source_file_sha256": "839e3d8a80441f13a0f33eb4e19d8b175f97effa3c80a9abac0405ee8eb94afc",
+  "selected_fragment_sha256": "5309e9dceb496ba4859d0647e5f8669f45b2394f144629108aa9866c2a16a759",
+  "source_fragment_locator": {
+    "line_start_1_based": 28,
+    "line_end_1_based": 42,
+    "sha256": "5309e9dceb496ba4859d0647e5f8669f45b2394f144629108aa9866c2a16a759",
+    "bytes": 919
+  },
+  "procedural_question": "How does a customer dollar become revenue, operating cash,\n  required reinvestment, and distributable owner cash?",
+  "guidance": "Build a causal model from transaction and unit economics through working\n  capital, maintenance, growth funding, and owner cash, then reconcile it to reported\n  totals.",
+  "applicability": "Initial analysis, a changed business model, unexplained cash conversion,\n  or a forecast with unclear operating mechanics.",
+  "procedural_actions": "Map revenue drivers, unit economics, and costs; trace required\n  and optional reinvestment; reconcile to reported cash and segments.",
+  "output_contract": "A one-page business-model map and dollar-conversion bridge with explicit\n  gaps.",
+  "limits": "A coherent map does not prove durability or value; unresolved segment,\n  unit, or reinvestment data leave the map unresolved.",
+  "required_questions": [
+    "How does a customer dollar become revenue, operating cash,\n  required reinvestment, and distributable owner cash?"
+  ],
+  "falsifiers_and_contrary_checks": {
+    "standalone_falsifier_field_in_original": false,
+    "preserved_original_action_text": "Map revenue drivers, unit economics, and costs; trace required\n  and optional reinvestment; reconcile to reported cash and segments.",
+    "preserved_original_limit_text": "A coherent map does not prove durability or value; unresolved segment,\n  unit, or reinvestment data leave the map unresolved.",
+    "interpretation": "Use these exact original action/limit tests; this projection supplies no invented card-specific falsifier or calibrated probability."
+  },
+  "evidence_scope": "Only admitted supplied immutable historical evidence and explicitly labelled frozen assumptions. Any generic request to search, compare, classify new evidence or monitor is confined to that packet; no live retrieval or later-data monitoring is authorized.",
+  "procedural_fragment_verbatim": "### B01 — Map How the Business Earns and Converts a Dollar\n\n- **Decision question:** How does a customer dollar become revenue, operating cash,\n  required reinvestment, and distributable owner cash?\n- **Guidance:** Build a causal model from transaction and unit economics through working\n  capital, maintenance, growth funding, and owner cash, then reconcile it to reported\n  totals.\n- **Use when:** Initial analysis, a changed business model, unexplained cash conversion,\n  or a forecast with unclear operating mechanics.\n- **Analytical actions:** Map revenue drivers, unit economics, and costs; trace required\n  and optional reinvestment; reconcile to reported cash and segments.\n- **Output:** A one-page business-model map and dollar-conversion bridge with explicit\n  gaps.\n- **Limits:** A coherent map does not prove durability or value; unresolved segment,\n  unit, or reinvestment data leave the map unresolved.\n",
+  "projection_limits": [
+    "Editorial guidance only; not an authenticated native Buffett or other master algorithm.",
+    "No source-basis or corroboration factual claims are transported.",
+    "No company fact, dated company example, holding, case result, prior opinion or actual outcome is included.",
+    "Absent prerequisites leave the corresponding branch unresolved."
+  ]
+}

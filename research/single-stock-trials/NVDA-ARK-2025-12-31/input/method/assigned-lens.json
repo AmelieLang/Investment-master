@@ -1,0 +1,70 @@
+{
+  "schema_version": "assigned-view-lens-subset/v0.1-review0",
+  "status": "candidate_pending_root_and_independent_review_final_packet_binding_pending",
+  "view_id": "NVDA-US::CUSTOM-1::ark-research-team",
+  "security_id": "NVDA-US",
+  "slot": 1,
+  "master_id": "ark-research-team",
+  "method_id": "ark-research-team",
+  "attribution_family": "ark",
+  "display_attribution": "Cathie Wood-associated ARK perspective; method authors: ARK research team (Brett Winton, Frank Downing and named section coauthors)",
+  "associated_requested_master_id": "cathie-wood",
+  "mechanism_id": "NVDA-US-M1",
+  "material_job": "Quality-adjusted compute cost, capability and demand elasticity",
+  "application_question": "Which comparable-capability deployment costs and cumulative production effects support paid compute demand, and do lower costs expand volume or transfer savings away from NVIDIA? Hardware, API price and end-to-end task cost remain distinct.",
+  "selected_rule_ids": [
+    "ARK-X01",
+    "ARK-X02",
+    "ARK-X03"
+  ],
+  "rule_application_boundary": [
+    {
+      "rule_id": "ARK-X01",
+      "documented_scope": "General platform identification; Brett Winton’s published framework, not Cathie Wood’s individual rule set.",
+      "application_scope": null,
+      "use_here": "Question only about quality-adjusted compute cost, capability and demand elasticity. Follow this rule’s positive/excluded scope and the explicit missing-evidence gate; do not infer a numeric algorithm or personal endorsement."
+    },
+    {
+      "rule_id": "ARK-X02",
+      "documented_scope": "General technology-cost forecasting; ARK research author attribution.",
+      "application_scope": null,
+      "use_here": "Question only about quality-adjusted compute cost, capability and demand elasticity. Follow this rule’s positive/excluded scope and the explicit missing-evidence gate; do not infer a numeric algorithm or personal endorsement."
+    },
+    {
+      "rule_id": "ARK-X03",
+      "documented_scope": "Dated AI research; Downing/Soja Big Ideas 2024 and Downing 2025.",
+      "application_scope": null,
+      "use_here": "Question only about quality-adjusted compute cost, capability and demand elasticity. Follow this rule’s positive/excluded scope and the explicit missing-evidence gate; do not infer a numeric algorithm or personal endorsement."
+    }
+  ],
+  "distinctive_falsification_test": "Require comparable deployed-task capability/cost, actual paid adoption and retained vendor economics. Falling feature prices, task failures, copying or customer capture can invalidate growth-to-value transfer.",
+  "competence_limits": [
+    "Hardware/software compatibility, competing accelerators and export permissions require technical and regulatory evidence; management platform claims are not independent moat proof.",
+    "No recovered complete personal investment algorithm.",
+    "No immutable first-upload proof for every currently served source version.",
+    "No native position sizing, discount rate, universal buy/sell threshold or calibrated probability.",
+    "Team attribution only: no personal Cathie authorship established. ARK/Cathie are one family.",
+    "Big Ideas exact historical bytes and first-upload timing are unproven. Only accepted qualitative anchors are allowed; no forecast quantities, weights, source matrix or page 9.",
+    "ARK-X06 has lower temporal certainty and is not selected in these routes."
+  ],
+  "missing_evidence": [
+    "Quality-adjusted capability and total deployed cost on comparable dated tasks",
+    "Paid adoption, customer savings, retention/pricing and company-specific capture",
+    "Actual data rights/competitive alternatives and cash/funding/dilution bridge"
+  ],
+  "specific_gap": null,
+  "source_route_status": "bounded_fit_candidate_missing_quantitative_prerequisites",
+  "conditional_behavior": "Preserve the assigned name, scope and gap. Return partial/abstention for essential missing evidence; never substitute a persona or fabricate numeric precision.",
+  "method_identity_source_sha256": "afc7c53bb3d8445e189234705c3cb337ab2ae3aec0433e4a85cd92200b43d82d",
+  "native_numerical_algorithm_established": false,
+  "authorship_boundary": "No target price, stock view, portfolio decision, current holding, native score, probability or weight is produced. Independent valuation requires its own evidence and review.",
+  "design_company_fact_ids": [
+    "NVDA-US-ROUTING-P1",
+    "NVDA-US-ROUTING-P2",
+    "NVDA-US-ROUTING-P4",
+    "NVDA-US-ROUTING-P5"
+  ],
+  "final_company_packet_source_fact_bindings": [],
+  "company_packet_binding_status": "pending",
+  "transport_boundary": "Assigned lens and selected rule IDs only; no competing candidates, sibling view content/conclusions, route matrices, entire method module, current dossier, holding, case result or outcome. Design fact IDs are placeholders and not final source-fact bindings. No opinion execution permitted until external acceptance and all remaining gates pass."
+}

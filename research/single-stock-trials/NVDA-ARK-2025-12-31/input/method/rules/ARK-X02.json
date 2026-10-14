@@ -1,0 +1,87 @@
+{
+  "rule_id": "ARK-X02",
+  "method_id": "ark-research-team",
+  "documented_native_fact": "Winton forecasts technology costs from cumulative production and learning rates, then requires historical unit data and demand response.",
+  "documented_scope": "General technology-cost forecasting; ARK research author attribution.",
+  "evidence_anchors": [
+    {
+      "source_id": "ARK-X-WRIGHT-20190102",
+      "precise_locator": {
+        "html_section": "Article body",
+        "paragraph_topics": [
+          "Forecast costs from production, following first graph",
+          "Historical data requirement, following second graph",
+          "Second challenge: anticipated demand, after industrial-robot graphs"
+        ],
+        "retrieval_specific_web_text_lines": [
+          124,
+          136
+        ],
+        "line_number_caveat": "Convenience coordinates of this retrieval only. Original heading/topic locator is primary."
+      },
+      "supporting_paraphrase": "Cost projection needs production history, learning and price elasticity.",
+      "support_role": "direct_documented_method"
+    },
+    {
+      "source_id": "ARK-X-BIG-IDEAS-2024",
+      "precise_locator": {
+        "printed_page": 27,
+        "pdf_page_1_based": 27,
+        "figure_topic": "Training hardware and software cost versus cumulative compute units"
+      },
+      "supporting_paraphrase": "Separates hardware and algorithmic cost contributions.",
+      "support_role": "dated_specific_application"
+    }
+  ],
+  "native_numeric_scoring_weights_established": false,
+  "application_design": {
+    "authorship": "Independent auditor operationalization; not an investor quotation, recovered personal algorithm or claim of historical use.",
+    "required_quantitative_inputs": [
+      "Cumulative production on a stable quality-adjusted unit basis",
+      "Unit production cost and selling price at matching dates",
+      "Learning-rate estimate and uncertainty",
+      "Demand sensitivity, capacity growth, utilization and financing needs"
+    ],
+    "research_checks": [
+      "Fit a learning relationship to observed comparable data; keep price distinct from manufacturing cost.",
+      "Model slower cumulative-volume growth and weaker demand elasticity separately.",
+      "Track whether incremental cost improvement is retained in margin or passed to buyers."
+    ],
+    "falsifiers_or_contrary_mechanisms": [
+      "Learning fit breaks under architecture shifts or input scarcity.",
+      "Production does not double as expected; cheaper pricing fails to unlock adoption.",
+      "Price competition transfers savings away from equity owners."
+    ],
+    "application_limits": [
+      "Do not reuse any ARK forecast rate for a new company or copy its model.",
+      "Sparse production history is insufficient-data; time alone does not justify automatic cost improvement."
+    ]
+  },
+  "schema_version": "historical-technology-rule-projection/v0.1-candidate",
+  "transport_status": "candidate_pending_exact_content_acceptance",
+  "source_acceptance": "PASS_BOUNDED_METHOD_SOURCE_WITH_VERSION_LIMITS",
+  "source_acceptance_receipt_sha256": "503a17ff02fe440fa99b8359892af39726da5fc0d325209137edb9b8c19de15b",
+  "cutoff_utc": "2025-12-31T23:59:59Z",
+  "source_rule_record_path": "rule-anchors.json#/rules/1",
+  "source_rule_file_sha256": "168ed229213562eed61bf8393d789aded542d0c8045d5d38386165f7c353c169",
+  "origin_separation": {
+    "documented_native_fact": "Bounded reconstruction of the accepted original qualitative source statement.",
+    "application_design": "Independent auditor operationalization; not an investor quotation, recovered personal algorithm or claim of historical use."
+  },
+  "applies_scope": "General technology-cost forecasting; ARK research author attribution.",
+  "excluded_scope": [
+    "Do not reuse any ARK forecast rate for a new company or copy its model.",
+    "Sparse production history is insufficient-data; time alone does not justify automatic cost improvement.",
+    "No actual statement, holding, stock recommendation or forecast for a target security is established.",
+    "No universal buy/sell threshold, discount rate, position sizing, numeric master weight or probability is recovered."
+  ],
+  "source_record_paths": {
+    "ARK-X-BIG-IDEAS-2024": "worker/addon/sources/ark-x-big-ideas-2024.json",
+    "ARK-X-WRIGHT-20190102": "worker/addon/sources/ark-x-wright-20190102.json"
+  },
+  "required_inputs_must_be_admitted": true,
+  "automatic_route_enabled": false,
+  "display_attribution": "ARK research team / named authors at each source; no personal Cathie Wood authorship established.",
+  "perspective_identity_boundary": "ARK research-team and associated Cathie perspective may not count as independent views on the same security.",
+  "temporal_version_caveat": "Dated-original qualitative method reconstruction only. Exact historical PDF bytes and first upload are not archive-pinned. Big Ideas edition cover/report existence do not prove that the currently retrieved version equals its first edition. No numerical forecasts, network weights or source tables are admitted."
+}

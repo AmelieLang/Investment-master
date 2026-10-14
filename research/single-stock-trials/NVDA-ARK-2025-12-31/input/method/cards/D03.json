@@ -1,0 +1,47 @@
+{
+  "schema_version": "historical-finterm-procedural-card/v0.1-candidate",
+  "transport_status": "candidate_pending_exact_content_acceptance",
+  "card_id": "D03",
+  "title": "Invert the Thesis and Seek Disconfirming Evidence",
+  "intent": [
+    "financial-analysis",
+    "memo-review",
+    "thesis-evaluation"
+  ],
+  "origin_label": "Finterm MIT editorial procedural framework, retrospective implementation under test; not proof of a native investor algorithm.",
+  "historical_source_fact_ids_if_any": [],
+  "source_repository": "finterm-ai/investment-skills",
+  "source_pin": "7235d3411601036cc79137fa0aec0d587f2c8e19",
+  "source_path": "vendor/finterm/references/01-decision-posture.md",
+  "source_file_sha256": "2b61a70670c826c4e1d952ea55bb53eeb39ed39d95179164d2ea8f6aa56edb3d",
+  "selected_fragment_sha256": "c99eefc0167e10cc7c412a4b1313bf2034e00c4cb39dcaff2729e2fdf982064a",
+  "source_fragment_locator": {
+    "line_start_1_based": 78,
+    "line_end_1_based": 92,
+    "sha256": "c99eefc0167e10cc7c412a4b1313bf2034e00c4cb39dcaff2729e2fdf982064a",
+    "bytes": 875
+  },
+  "procedural_question": "What evidence, mechanism, or outcome would make the preferred\n  thesis wrong?",
+  "guidance": "Convert decisive claims into falsifiable propositions, develop the\n  strongest contrary account, and predeclare evidence that would weaken, revise, or\n  reject each claim.",
+  "applicability": "Before accepting a thesis or memo conclusion, and after material new\n  evidence.",
+  "procedural_actions": "Restate claims so they can fail; search for the strongest\n  contrary explanation; record invalidation conditions and missing evidence.",
+  "output_contract": "A rebuttal ledger linking each claim to counterevidence, alternate\n  mechanisms, and an unresolved or invalidation condition.",
+  "limits": "Inversion can become performative skepticism or hindsight; absence of\n  disconfirmation is not confirmation.",
+  "required_questions": [
+    "What evidence, mechanism, or outcome would make the preferred\n  thesis wrong?"
+  ],
+  "falsifiers_and_contrary_checks": {
+    "standalone_falsifier_field_in_original": false,
+    "preserved_original_action_text": "Restate claims so they can fail; search for the strongest\n  contrary explanation; record invalidation conditions and missing evidence.",
+    "preserved_original_limit_text": "Inversion can become performative skepticism or hindsight; absence of\n  disconfirmation is not confirmation.",
+    "interpretation": "Use these exact original action/limit tests; this projection supplies no invented card-specific falsifier or calibrated probability."
+  },
+  "evidence_scope": "Only admitted supplied immutable historical evidence and explicitly labelled frozen assumptions. Any generic request to search, compare, classify new evidence or monitor is confined to that packet; no live retrieval or later-data monitoring is authorized.",
+  "procedural_fragment_verbatim": "### D03 — Invert the Thesis and Seek Disconfirming Evidence\n\n- **Decision question:** What evidence, mechanism, or outcome would make the preferred\n  thesis wrong?\n- **Guidance:** Convert decisive claims into falsifiable propositions, develop the\n  strongest contrary account, and predeclare evidence that would weaken, revise, or\n  reject each claim.\n- **Use when:** Before accepting a thesis or memo conclusion, and after material new\n  evidence.\n- **Analytical actions:** Restate claims so they can fail; search for the strongest\n  contrary explanation; record invalidation conditions and missing evidence.\n- **Output:** A rebuttal ledger linking each claim to counterevidence, alternate\n  mechanisms, and an unresolved or invalidation condition.\n- **Limits:** Inversion can become performative skepticism or hindsight; absence of\n  disconfirmation is not confirmation.\n",
+  "projection_limits": [
+    "Editorial guidance only; not an authenticated native Buffett or other master algorithm.",
+    "No source-basis or corroboration factual claims are transported.",
+    "No company fact, dated company example, holding, case result, prior opinion or actual outcome is included.",
+    "Absent prerequisites leave the corresponding branch unresolved."
+  ]
+}
