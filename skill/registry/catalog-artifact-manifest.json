@@ -1,0 +1,53 @@
+{
+  "schema_version": "catalog-artifact-manifest.v1",
+  "task_id": "V2-A-catalogue",
+  "rework_round": 1,
+  "review_addressed": "V2-A-catalogue-review-0",
+  "acceptance_status": "pending_independent_review_1",
+  "artifacts": [
+    {
+      "relative_path": "master-registry.json",
+      "sha256": "a3f15cbc5bdd37c23ddf02c31a83df002edb551967210748f00ff39341909d79"
+    },
+    {
+      "relative_path": "master-registry.md",
+      "sha256": "6e5c5ac14f2a2aae50a715f7a82a65533345a7ff227696c35df06eb0b291d35a"
+    },
+    {
+      "relative_path": "feature-transfer-matrix.json",
+      "sha256": "ab01fff0e15942d409178be4a23d186d4581beee68106a118b3a16938f8f5848"
+    },
+    {
+      "relative_path": "feature-transfer-matrix.md",
+      "sha256": "c09aac93ebed08033f96a47e3df2e7c4f5aea070ab953965cb97be0206e7fe87"
+    },
+    {
+      "relative_path": "popularity-baseline-setup.json",
+      "sha256": "c547fdf9260e9def2ff53264f96f64332705cb20c4b519f78a75f72dc2e4c078"
+    },
+    {
+      "relative_path": "catalog-qa.json",
+      "sha256": "0447218a432830e1f6830dee6b6ea845501fa73ed76e24de2e459bb06f8490b1"
+    },
+    {
+      "relative_path": "source-name-reconciliation.json",
+      "sha256": "f15a6f41ce33b13ed75fee4e180e40ca694b59782f14affcb9f903498b12862c"
+    }
+  ],
+  "preserved_gates": {
+    "new_pinned_git_blobs": 133,
+    "implementation_files": 162,
+    "baseline_exports": 19,
+    "MIT_notices": 18
+  },
+  "resolved_defects": [
+    {
+      "id": "CAT-R0-01",
+      "evidence": "source-name-reconciliation.json and saved source-scoped aliases; all original occurrences and all 25 flagged labels explicitly resolve"
+    },
+    {
+      "id": "CAT-R0-02",
+      "evidence": "F39 justified redundancy assessment with three pinned source locators; feature-origin repository union is 21/21"
+    }
+  ]
+}

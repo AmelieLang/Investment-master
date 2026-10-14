@@ -1,0 +1,17 @@
+{
+  "schema": "meta-self-verification-addendum.v1",
+  "created_at_UTC": "2026-10-14T05:00:37.876960+00:00",
+  "original_report_unchanged": true,
+  "original_report_sha256": "1b4b8e6361fc91feba176e3d68270b9a319d5185777a127171753217afd253c3",
+  "calculation_verification": "All scenario EPS, future prices, CAGRs and original freeze hashes verified; all three required outputs are 0444.",
+  "corrections": [
+    {
+      "location": "Main report step 1, Q3 revenue YoY presentation",
+      "original_text": "总收入同比增26.24%",
+      "corrected_text": "总收入同比增26.25%",
+      "exact_calculated_percent": 26.246027248761973,
+      "reason": "Presentation rounding typo. Calculations JSON already contains the correct independent result.",
+      "effect": "No thesis, assumptions, common-grid calculation or Watch verdict changes."
+    }
+  ]
+}

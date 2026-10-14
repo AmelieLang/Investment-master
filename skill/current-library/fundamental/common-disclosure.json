@@ -1,0 +1,63 @@
+{
+  "schema_version": "2.0",
+  "research_asof": "2026-10-13",
+  "benchmark_information_cutoff": "2025-12-31",
+  "sources": [
+    {
+      "source_id": "GOV-S-13F",
+      "title": "SEC Form 13F frequently asked questions",
+      "url": "https://www.sec.gov/rules-regulations/staff-guidance/frequently-asked-questions-about-form-13f",
+      "author_or_issuer": "US Securities and Exchange Commission",
+      "published_at": "unknown_current_guidance",
+      "event_or_information_date": null,
+      "access_grade": "A_direct_original_read",
+      "known_public_by_2025_12_31": false,
+      "benchmark_2026_start_eligible": false,
+      "locator": "FAQ 39–43 and filing schedule",
+      "limitation": "Current compliance guidance is an audit reference, not a beginning-2026 investor view; historical applicability should be frozen to the benchmark date.",
+      "accessed_on": "2026-10-13",
+      "source_family": "regulator_reporting_guidance",
+      "provenance_grade": "P1",
+      "provenance_limitation": "Provenance is authority for the reported statement/fact, not truth certainty, private motive or audited investment performance.",
+      "publication_date": "unknown_current_guidance",
+      "event_date": null,
+      "archive_or_upload_date": null,
+      "retrieved_at_utc": "2026-10-13T17:07:22Z",
+      "access_status": "read_original_text",
+      "coverage_count_unit": "one listed source record, not one entire lifetime source family",
+      "found": true,
+      "read_substantive": true,
+      "read_full_original": true,
+      "full_original_unavailable_or_unreviewed": false
+    }
+  ],
+  "reporting_boundaries": [
+    "13F is generally a quarter-end report filed within 45 days, subject to calendar rules. As of 2026-10-13, the normal Q 3 report is not yet due; Q 2 is the latest ordinary completed reporting cycle, not a live portfolio.",
+    "Reportable US-listed positions and eligible ADRs can appear; foreign-listed shares, cash, private businesses and many other instruments are outside this view.",
+    "Short stock is omitted and must not be netted against the long holding. Written options are excluded; eligible held puts/calls may appear and must be read by instrument column.",
+    "Small exempt positions, confidential treatment and later amendments can make the public table incomplete. Use the restated report where supplied.",
+    "Reported investment discretion is at manager/entity level. A share-count change does not identify its human decision maker, transaction day, price, hedge, cash flow or motive.",
+    "A 13F market-value denominator is not total investor wealth or fund assets. It cannot establish realized P&L, IRR, cost basis or complete portfolio weights."
+  ],
+  "research_controls": [
+    "Freeze publication availability, not the date printed in the speech title. A 2024 speech first verified as uploaded in 2026 is not automatically available at the 2026-start cutoff.",
+    "Only information demonstrably public by 2025-12-31 may enter the beginning-2026 evidence set. Later holdings, restatements and interviews belong in an explicitly separate audit/outcome layer.",
+    "Evaluate a statement at its original business, instrument, investor role, era and capital constraints. A copied current manager portfolio is not that person’s historical recommendation.",
+    "For each investment, separate business result, mark-to-market appreciation, realized return, decision quality and investor attribution. Missing links remain missing.",
+    "Alternative explanations such as client flows, mandate limits, delegation, hedges, taxes or option assignment are hypotheses unless independently evidenced."
+  ],
+  "provenance_legend": {
+    "P1": "Original investor writing/verified account or original regulator/fund/company disclosure, only for facts actually established.",
+    "P2": "Authorized original-publisher transcript, verified original archive or producer-account republication; recollections remain retrospective and access completeness is separate.",
+    "S1": "Reputable contemporaneous independent report; none used as accepted evidence here.",
+    "S2": "Later secondary compilation, attendee notes, biography, translation or analytical reconstruction; discovery only here.",
+    "U": "Unverified attribution or unavailable original; not promoted into accepted investor intent."
+  },
+  "case_timing_legend": {
+    "T0": "Demonstrably public before the actual decision; public business context is separately distinguished from investor intent.",
+    "T1": "Contemporaneous statement/report within specified decision or holding-observation interval; not proved pre-trade.",
+    "T2": "Later retrospective explanation of an earlier decision.",
+    "TU": "Publication/event relationship to the actual decision unknown, or initial evidence missing. General method claims without a particular security decision remain TU for that relation."
+  },
+  "timing_count_policy": "T-labels are independent of provenance and historical-publication eligibility. A node may have more than one label if it combines a current observation with a retrospective explanation; counts are nonexclusive and denominators are explicit. No timing label establishes investment intent by itself."
+}

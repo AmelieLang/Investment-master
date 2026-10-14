@@ -1,0 +1,605 @@
+{
+  "schema_version": "investor-research-v2-dossier/1",
+  "canonical_id": "leopold_aschenbrenner",
+  "display_name": "Leopold Aschenbrenner",
+  "aliases": [
+    "Leopold",
+    "Situational Awareness LP founder",
+    "利奥波德·阿申布伦纳"
+  ],
+  "classification": "requested_extension_emerging_thematic_manager_and_financing_risk_case",
+  "established_master_status": false,
+  "identity": {
+    "role": "Former OpenAI Superalignment researcher; founder of SALP",
+    "source_ids": [
+      "L04",
+      "L06",
+      "L20"
+    ],
+    "age": "Reported 24 on June 8, 2026; exact date of birth/current age not established",
+    "career_periods": [
+      {
+        "period": "Before June 2024",
+        "role": "OpenAI Superalignment; prior economic-growth research",
+        "source_ids": [
+          "L06"
+        ]
+      },
+      {
+        "period": "June 4, 2024",
+        "role": "Public AI thesis and announcement of an investment firm",
+        "source_ids": [
+          "L01",
+          "L02",
+          "L03"
+        ]
+      },
+      {
+        "period": "September 2024 founding",
+        "role": "Situational Awareness LP",
+        "source_ids": [
+          "L04"
+        ]
+      },
+      {
+        "period": "2024 Q4–2026 Q2 observed",
+        "role": "Manager with public 13F disclosures",
+        "source_ids": [
+          "L10",
+          "L11",
+          "L12",
+          "L13",
+          "L14",
+          "L15",
+          "L16"
+        ]
+      },
+      {
+        "period": "Letter published July 31, 2026",
+        "role": "Reports continuing hybrid public/private fund and risk redesign",
+        "source_ids": [
+          "L07"
+        ]
+      }
+    ],
+    "current_mandate_status": "Official site remains accessible; present NAV, risk policy and operating status are not independently established."
+  },
+  "status": {
+    "dossier_returned": true,
+    "source_minimum_met": true,
+    "dated_snapshot_minimum_met": true,
+    "statement_practice_pair_minimum_met": true,
+    "research_ready_scope": "Bounded thematic/financing-risk questions with sourced limits",
+    "security_specific_pretrade_case_complete": false,
+    "implementation_ready": false,
+    "independent_review": "pending",
+    "does_not_amend_frozen_ten_person_roster": true
+  },
+  "method_rules": [
+    {
+      "rule_id": "L-R1",
+      "kind": "direct_method",
+      "mechanism": "Capability scenario before security selection",
+      "source_ids": [
+        "L01",
+        "L03"
+      ],
+      "locators": [
+        "Essay I: Counting the OOMs / The data wall / The next four years; interview 00:07:11 / 00:19:42"
+      ],
+      "timing": "T0 at broad thesis level before firm formation; no verified security-level pre-trade memo",
+      "necessary_inputs": [
+        "Compute/capex evidence",
+        "Algorithmic efficiency and economically useful capability tests",
+        "Competing data-wall and adoption scenarios"
+      ],
+      "falsifiers": [
+        "Scaling/capability extrapolation fails",
+        "Data/algorithmic obstacles persist",
+        "Useful task automation/adoption arrives materially later"
+      ],
+      "limits": "Scenario framework only; cannot produce a target price or audited probability."
+    },
+    {
+      "rule_id": "L-R2",
+      "kind": "direct_method_and_bounded_interpretation",
+      "mechanism": "Map industrial constraints and economic beneficiaries",
+      "source_ids": [
+        "L02",
+        "L03"
+      ],
+      "locators": [
+        "IIIa Power/Chips; interview 04:10:58–04:14:46"
+      ],
+      "timing": "T0 broad thesis",
+      "necessary_inputs": [
+        "Power connection/delivery dates",
+        "Compute and memory capacity",
+        "Customer demand and contract terms",
+        "Business-specific margins/capex/dilution"
+      ],
+      "falsifiers": [
+        "Bottleneck eases without durable supplier profits",
+        "Buyer economics do not support planned demand"
+      ],
+      "limits": "The last two falsifiers are research-adapter tests, not published Aschenbrenner numerical rules. AI exposure is not automatically a moat."
+    },
+    {
+      "rule_id": "L-R3",
+      "kind": "direct_method",
+      "mechanism": "Sequence material business exposure rather than buy an AI label",
+      "source_ids": [
+        "L03"
+      ],
+      "locators": [
+        "04:10:58–04:14:46"
+      ],
+      "timing": "T0 broad method",
+      "necessary_inputs": [
+        "AI revenue contribution",
+        "Position in supply chain",
+        "Timing of incremental demand versus existing business"
+      ],
+      "falsifiers": [
+        "Revenue sensitivity is too small or delayed",
+        "A new bottleneck or competitor shifts value capture"
+      ],
+      "limits": "No published rebalancing schedule, threshold or demonstrated 100x return."
+    },
+    {
+      "rule_id": "L-R4",
+      "kind": "direct_risk_intent",
+      "mechanism": "Survive several mistaken timing calls and unforeseen events",
+      "source_ids": [
+        "L03"
+      ],
+      "locators": [
+        "04:10:58; 04:14:46"
+      ],
+      "timing": "T0 risk intent before firm formation",
+      "necessary_inputs": [
+        "Liquidity and financing resilience",
+        "Stress correlations",
+        "Loss absorption over the required holding horizon"
+      ],
+      "falsifiers": [
+        "Funding/collateral forces exit before the thesis can be evaluated"
+      ],
+      "limits": "No claim that a particular leverage ceiling, stop loss, cash reserve or stress model was published or actually used."
+    },
+    {
+      "rule_id": "L-R5",
+      "kind": "direct_scenario",
+      "mechanism": "Include financial/regulatory consequences of an AI growth regime",
+      "source_ids": [
+        "L03"
+      ],
+      "locators": [
+        "04:10:58–04:14:46; especially 04:14:09"
+      ],
+      "timing": "T0 broad scenario",
+      "necessary_inputs": [
+        "Discount-rate and financing sensitivity",
+        "Nationalization/property-rights scenario",
+        "Tail-risk instrument details"
+      ],
+      "falsifiers": [
+        "Growth does not create the hypothesized rates or policy response"
+      ],
+      "limits": "Bond-short and tail scenarios are discussion, not evidence of an executed SALP trade or a recommendation to short bonds."
+    },
+    {
+      "rule_id": "L-R6",
+      "kind": "firm_method_description",
+      "mechanism": "Combine AI macro/technology economics with individual-company analysis",
+      "source_ids": [
+        "L05"
+      ],
+      "locators": [
+        "About first paragraph"
+      ],
+      "timing": "TU website publication date unknown",
+      "necessary_inputs": [
+        "Company fundamentals",
+        "Technological/economic context"
+      ],
+      "falsifiers": [
+        "Company evidence conflicts with the assumed thematic beneficiary"
+      ],
+      "limits": "Undated firm wording cannot enter a dated historical packet as proven pre-trade evidence. Exact valuation models remain unavailable."
+    },
+    {
+      "rule_id": "L-R7",
+      "kind": "dated_risk_redesign_statement",
+      "mechanism": "Post-stress financed-position removal and fully paid public book",
+      "source_ids": [
+        "L07"
+      ],
+      "locators": [
+        "Wednesday night/Thursday morning; continuation paragraphs"
+      ],
+      "timing": "T2 relative to July stress; prospective policy at letter date",
+      "necessary_inputs": [
+        "Later financing disclosure",
+        "Later compatible holdings and audited NAV"
+      ],
+      "falsifiers": [
+        "Later evidence shows financing or forced-liquidation vulnerability returned"
+      ],
+      "limits": "This was a dated manager report and intention. It is not verified present policy or proof the redesign succeeded."
+    }
+  ],
+  "decision_sequence": [
+    {
+      "step": 1,
+      "action": "Define competing AI capability/adoption paths and their timing",
+      "source_rule_ids": [
+        "L-R1"
+      ],
+      "kind": "faithful_method_interpretation"
+    },
+    {
+      "step": 2,
+      "action": "Map constraints, revenue exposure and sequence of beneficiaries",
+      "source_rule_ids": [
+        "L-R2",
+        "L-R3"
+      ],
+      "kind": "faithful_method_interpretation"
+    },
+    {
+      "step": 3,
+      "action": "Test company-specific value capture and price against fundamental scenarios",
+      "source_rule_ids": [
+        "L-R6"
+      ],
+      "kind": "research_adapter; detailed valuation framework is our design, not verified native formula"
+    },
+    {
+      "step": 4,
+      "action": "Check that financing and liquidity can survive wrong timing calls",
+      "source_rule_ids": [
+        "L-R4"
+      ],
+      "kind": "faithful_risk_intent; quantitative stress protocol is adapter design"
+    },
+    {
+      "step": 5,
+      "action": "Keep rates/policy and tail-risk scenarios distinct from company growth thesis",
+      "source_rule_ids": [
+        "L-R5"
+      ],
+      "kind": "faithful_method_interpretation"
+    },
+    {
+      "step": 6,
+      "action": "Compare dated disclosures with statements using instrument and publication boundaries",
+      "source_rule_ids": [],
+      "source_ids": [
+        "L08",
+        "L19"
+      ],
+      "kind": "evidence-audit adapter, not investor-native investment rule"
+    }
+  ],
+  "valuation_mechanism": "Macro-to-company scenario reasoning is documented; intrinsic-value formulas, probabilities, target multiples, entry prices and sell triggers are not. Refuse a target price when those inputs are missing.",
+  "portfolio_mechanism": "Dated disclosures show changing stock/call/put structure and concentration; full global/public/private/short and financing book unavailable. July risk change is dated self-report, not verified ongoing policy.",
+  "necessary_data": [
+    "Point-in-time AI demand/capex and commercial adoption",
+    "Company exposure, margins, cash flow, balance sheet, capex, dilution and valuation",
+    "Power/memory/compute availability and contract timing",
+    "Security class, instrument terms, expiry, liquidity and financing",
+    "Comparable dated holdings and audited performance if any return is claimed"
+  ],
+  "modern_relevance": {
+    "eligible_for": [
+      "AI compute/memory/power supply-chain research",
+      "High-reinvestment/pre-profit infrastructure with verified company data",
+      "Cross-sector bottleneck and financing survival challenge"
+    ],
+    "exclusions": [
+      "All-technology stock selection by label",
+      "Established-master/alpha credential",
+      "Mechanical recreation of proprietary SALP trades",
+      "NAV/performance/leverage reconstruction from 13F alone",
+      "Sovereign bond or private venture pricing without instrument-specific inputs"
+    ],
+    "complementary_challenge": "Cash-flow/valuation, cyclicality, leverage/liquidity and economic-rent analysis; the thematic thesis is not price discipline."
+  },
+  "holdings_chronology": [
+    {
+      "source_id": "L10",
+      "period_end": "2024-12-31",
+      "filing_date": "2025-02-12",
+      "signature_date": "02-11-2025",
+      "accepted_at_edgar": null,
+      "disclosed_value_usd": 254813765,
+      "entry_count": 6,
+      "reconciliation": "exact",
+      "raw_row_sum_difference_usd": 0,
+      "information_table_url": "https://www.sec.gov/Archives/edgar/data/2045724/000093583625000120/infotable.xml"
+    },
+    {
+      "source_id": "L11",
+      "period_end": "2025-03-31",
+      "filing_date": "2025-05-14",
+      "signature_date": "05-14-2025",
+      "accepted_at_edgar": null,
+      "disclosed_value_usd": 1005567727,
+      "entry_count": 12,
+      "reconciliation": "exact",
+      "raw_row_sum_difference_usd": 0,
+      "information_table_url": "https://www.sec.gov/Archives/edgar/data/2045724/000204572425000002/SALP13fq1.xml"
+    },
+    {
+      "source_id": "L12",
+      "period_end": "2025-06-30",
+      "filing_date": "2025-08-14",
+      "signature_date": "08-14-2025",
+      "accepted_at_edgar": null,
+      "disclosed_value_usd": 2123023762,
+      "entry_count": 9,
+      "reconciliation": "exact",
+      "raw_row_sum_difference_usd": 0,
+      "information_table_url": "https://www.sec.gov/Archives/edgar/data/2045724/000204572425000006/Salpform13fq2.xml"
+    },
+    {
+      "source_id": "L13",
+      "period_end": "2025-09-30",
+      "filing_date": "2025-11-14",
+      "signature_date": "11-14-2025",
+      "accepted_at_edgar": null,
+      "disclosed_value_usd": 4138368748,
+      "entry_count": 28,
+      "reconciliation": "exact",
+      "raw_row_sum_difference_usd": 0,
+      "information_table_url": "https://www.sec.gov/Archives/edgar/data/2045724/000204572425000008/SALP13FinfotableQ3.xml"
+    },
+    {
+      "source_id": "L14",
+      "period_end": "2025-12-31",
+      "filing_date": "2026-02-11",
+      "signature_date": "02-11-2026",
+      "accepted_at_edgar": null,
+      "disclosed_value_usd": 5516758344,
+      "entry_count": 29,
+      "reconciliation": "one_dollar_rounding_scale_difference",
+      "raw_row_sum_difference_usd": 1,
+      "information_table_url": "https://www.sec.gov/Archives/edgar/data/2045724/000204572426000002/SALP_13FQ425.xml"
+    },
+    {
+      "source_id": "L15",
+      "period_end": "2026-03-31",
+      "filing_date": "2026-05-18",
+      "signature_date": "2026-05-15",
+      "accepted_at_edgar": "2026-05-15T18:33:35",
+      "disclosed_value_usd": 13676657577,
+      "entry_count": 42,
+      "reconciliation": "exact",
+      "raw_row_sum_difference_usd": 0,
+      "information_table_url": "https://www.sec.gov/Archives/edgar/data/2045724/000204572426000008/salp13fq1xml.xml"
+    },
+    {
+      "source_id": "L16",
+      "period_end": "2026-06-30",
+      "filing_date": "2026-08-14",
+      "signature_date": "08-14-2026",
+      "accepted_at_edgar": null,
+      "disclosed_value_usd": 20242292228,
+      "entry_count": 26,
+      "reconciliation": "exact",
+      "raw_row_sum_difference_usd": 0,
+      "information_table_url": "https://www.sec.gov/Archives/edgar/data/2045724/000093583626000418/form13fInfoTable.xml"
+    }
+  ],
+  "statement_practice_pairs": [
+    {
+      "pair_id": "L-P1",
+      "statement_rule_ids": [
+        "L-R2"
+      ],
+      "statement_source_ids": [
+        "L02",
+        "L03"
+      ],
+      "practice_source_ids": [
+        "L14",
+        "L16",
+        "L17"
+      ],
+      "security": "BLOOM ENERGY CORP COM CL A (CUSIP 093712107), common shares and calls kept separate",
+      "decision_maker": "SALP holds formal SOLE discretion; Aschenbrenner is founder and thesis speaker, but individual stock-selection authorship is not established",
+      "period": "Statement 2024-06-04; holdings 2025-12-31 and 2026-06-30",
+      "comparison_validity": "Comparable broad thematic scope, company and long side; cannot compare a security-specific price thesis that was not found",
+      "outcome": "consistent",
+      "finding": "The disclosed Bloom stock/call positions fit the power-constraint research theme and the issuer confirms AI data-center exposure.",
+      "alternative_explanations": [
+        "Other SALP investment-team input",
+        "Non-AI power economics",
+        "Different catalysts or valuation thesis"
+      ],
+      "unresolved": "No authenticated purchase valuation or trade ledger; thematic fit is not return proof."
+    },
+    {
+      "pair_id": "L-P2",
+      "statement_rule_ids": [
+        "L-R4"
+      ],
+      "statement_source_ids": [
+        "L03"
+      ],
+      "practice_source_ids": [
+        "L07"
+      ],
+      "security": "Fund-wide financing and long/short public portfolio, not a single security",
+      "decision_maker": "Aschenbrenner speaks both in original interview and reproduced manager letter; reproducer authenticity boundary retained",
+      "period": "Public risk intent 2024-06-04; adverse episode around 2026-07-29/30; letter published 2026-07-31",
+      "comparison_validity": "Same speaker and survival objective; a stated intention is not a promised numerical constraint",
+      "outcome": "apparent_tension",
+      "finding": "The reported financing-threatening episode tests the earlier survival intent; the letter acknowledges a need for more resilience.",
+      "alternative_explanations": [
+        "Unforeseen spread/correlation/liquidity moves",
+        "Financing terms or stress assumptions not public",
+        "Positions changed since disclosed snapshots"
+      ],
+      "unresolved": "Precise leverage, covenants, lender chronology and loss attribution cannot be reconstructed; not evidence of dishonesty or wrong AGI thesis."
+    },
+    {
+      "pair_id": "L-P3",
+      "statement_rule_ids": [
+        "L-R3"
+      ],
+      "statement_source_ids": [
+        "L03"
+      ],
+      "practice_source_ids": [
+        "L15",
+        "L16",
+        "L19"
+      ],
+      "security": "Q1 puts and stock/call holdings; Q2 substantially different reportable mix",
+      "decision_maker": "SALP manager, not automatically personal trade",
+      "period": "2026-03-31 versus 2026-06-30",
+      "comparison_validity": "Not comparable as net bullish/bearish conviction: underlying option report values are not delta/NAV; global/private/short stock book missing",
+      "outcome": "not_comparable",
+      "finding": "Large reported puts neither disprove the broad AI thesis nor establish a bearish net AI portfolio.",
+      "alternative_explanations": [
+        "Hedges",
+        "Relative-value long/short structure",
+        "Timing trades",
+        "Foreign/private longs absent from 13F"
+      ],
+      "unresolved": "Put strikes, expiries, premiums, delta, short equity positions and aggregate net exposure are missing."
+    }
+  ],
+  "contradictions_uncertainties": [
+    {
+      "id": "G01",
+      "severity": "high",
+      "topic": "Security-level pre-trade reconstruction",
+      "status": "unresolved",
+      "evidence": "Public 2024 method precedes firm formation, but no authenticated security-specific initial trade memo or execution ledger located.",
+      "consequence": "No claim of verified pre-trade rationale or realized success for a selected security."
+    },
+    {
+      "id": "G02",
+      "severity": "high",
+      "topic": "Complete portfolio, leverage and financing",
+      "status": "unresolved",
+      "evidence": "13F excludes important assets and liabilities; option terms/delta and prime-broker agreements absent.",
+      "consequence": "No total NAV, gross/net leverage ratio or exact liquidation mechanism reproduced."
+    },
+    {
+      "id": "G03",
+      "severity": "high",
+      "topic": "July performance and present status",
+      "status": "bounded_self_report",
+      "evidence": "L07 is reproduced letter; interim net −67% MTD/+80% YTD are unaudited. Current status not established.",
+      "consequence": "No audited return, final July result, exact dollar loss or permanent shutdown claim."
+    },
+    {
+      "id": "G04",
+      "severity": "medium",
+      "topic": "Timing of website and essay revisions",
+      "status": "partly_resolved",
+      "evidence": "June 4 public essay release is established by original interview; PDF updated June 6. Firm method webpages have no publication date.",
+      "consequence": "TU website statements excluded from dated decision packets; no certification that every current essay sentence appeared on June 4."
+    },
+    {
+      "id": "G05",
+      "severity": "medium",
+      "topic": "Fund versus individual attribution",
+      "status": "bounded",
+      "evidence": "13F states SOLE for SALP; publisher identifies founder/CIO, but no trade decision authorship ledger.",
+      "consequence": "Holdings attributed to SALP; personal decisions only when speaker evidence establishes them."
+    },
+    {
+      "id": "G06",
+      "severity": "low",
+      "topic": "December 2025 value reconciliation",
+      "status": "disclosed",
+      "evidence": "Cover 5,516,758,344; table rows sum to 5,516,758,345, a one-dollar difference.",
+      "consequence": "Preserve raw data and cover denominator; classify rounding-scale discrepancy, no material portfolio error inferred."
+    },
+    {
+      "id": "G07",
+      "severity": "medium",
+      "topic": "AI thesis is not fair value",
+      "status": "structural_limit",
+      "evidence": "No published intrinsic-value, multiple, scenario-weight, position or sell-threshold specification found in scoped sources.",
+      "consequence": "Use as a thematic research/risk lens, not an executable target-price/return engine."
+    },
+    {
+      "id": "G08",
+      "severity": "medium",
+      "topic": "Outcome-selection bias",
+      "status": "disclosed",
+      "evidence": "July stress was known before candidate freeze; 2 selected cases are purposive. Success candidate is practice alignment with no proven P&L.",
+      "consequence": "No success rate, alpha, repeatability or established-master ranking."
+    },
+    {
+      "id": "G09",
+      "severity": "low",
+      "topic": "Q1 acceptance versus filing date",
+      "status": "resolved_fields_separate",
+      "evidence": "EDGAR accepted 2026-05-15 18:33:35; signed May 15; filing/effectiveness May 18.",
+      "consequence": "No inferred UTC timezone or late-filing accusation; conservative publication date May 18."
+    },
+    {
+      "id": "G10",
+      "severity": "medium",
+      "topic": "Book edition",
+      "status": "outside_this_dossier",
+      "evidence": "User confirmed Duan and Leopold, not a specific Duan book edition.",
+      "consequence": "Identity artifacts preserve edition uncertainty."
+    }
+  ],
+  "coverage_denominator": {
+    "scope": "Three investor method sources, three firm/self-description sources, one reproduced investor letter, seven listed SEC 13F filings, SEC feed/guidance and two issuer checks, plus age reporting. Not lifetime or private source completeness.",
+    "substantive_method_items_scoped_read": 3,
+    "firm_and_self_description_items_read": 3,
+    "13f_filings_found_and_parsed": 7,
+    "compatible_snapshots_available": 7,
+    "statement_practice_pairs_tested": 3,
+    "direct_original_july_letter_files_authenticated": 0,
+    "private_portfolio_or_financing_documents_read": 0,
+    "case_candidates": 5,
+    "cases_selected": 2,
+    "security_specific_verified_T0_purchase_memos": 0,
+    "unavailable_targets": [
+      "Original Business Insider page failed; lawful AOL syndication read",
+      "Reuters July report failed; not used as documentary proof",
+      "Contemporaneous archive verifying every present essay sentence not obtained"
+    ],
+    "no_completeness_claim": "Does not cover all investor communications, clients, trades or assets."
+  },
+  "bounded_search_log": [
+    {
+      "scope": "Identity/method",
+      "action": "Read official biography, firm homepage/About, June 2024 essays and original podcast investment/risk section",
+      "result": "Original broad method and risk intent found; exact valuation and quantitative portfolio controls not found"
+    },
+    {
+      "scope": "Practice",
+      "action": "Retrieved SEC submissions feed and every listed 13F cover/table in it",
+      "result": "Seven snapshots; raw row reconciliation and instrument segregation completed"
+    },
+    {
+      "scope": "July event",
+      "action": "Searched original/contemporaneous reports and read Business Insider syndicated investor-letter reproduction",
+      "result": "Dated self-report found; original signed file/audited final performance unavailable"
+    },
+    {
+      "scope": "Holdings classification",
+      "action": "Read first-party Bloom and Micron announcements",
+      "result": "Business connection supports bounded thematic pairing; motivations and returns remain unknown"
+    }
+  ],
+  "case_study_paths": [
+    "candidate-cases.json",
+    "deep-cases.json"
+  ],
+  "source_register": "sources.json",
+  "raw_holdings": "holdings-snapshots.json",
+  "prepared_at_utc": "2026-10-13T16:27:00Z"
+}

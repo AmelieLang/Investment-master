@@ -1,0 +1,67 @@
+{
+  "schema_version": "catalogue-recap-candidate-manifest.v1",
+  "status": "Unpublished candidate awaiting independent review",
+  "index_scope": "All candidate files except this manifest and TEST-RESULTS.json; reports are intentionally excluded to avoid self-referential verification",
+  "files": [
+    {
+      "path": "COMPARABLE-TESTS.md",
+      "bytes": 5365,
+      "sha256": "1e231bf95c63e8ff408f176d54e6e0bb3d4af3dc0061b4cdfa0f1d3fdc9b24aa"
+    },
+    {
+      "path": "DETAILED-REVIEWS.md",
+      "bytes": 89737,
+      "sha256": "a7f2cb28497d2bae8f14744d1c98777924f6a80f6bbfc82dae49c5379ef6910a"
+    },
+    {
+      "path": "PROJECTION-COVERAGE-AUDIT.json",
+      "bytes": 1038,
+      "sha256": "cbe9d16ea7afce791c4382cdb6e376b9ac6d8bde7f9de3c4520ba46f5fc7890b"
+    },
+    {
+      "path": "PROJECTION-PRESERVATION.json",
+      "bytes": 38789,
+      "sha256": "c877aebaa1286557de0eff254cd7125a96632a1c9c1c1685c68be2dcdd098e85"
+    },
+    {
+      "path": "README.md",
+      "bytes": 13362,
+      "sha256": "c4f3b383a2a2517601e048ad95579e3be269f31725d65766acb2e17f8557c147"
+    },
+    {
+      "path": "REVIEW-STATUS.md",
+      "bytes": 2010,
+      "sha256": "b4c674691d27564fad026c388072419e3f87edaf63938913ff590e653c355a5c"
+    },
+    {
+      "path": "SCORING-METHOD.md",
+      "bytes": 5142,
+      "sha256": "50259e7321afc4c2b4c92e34cda570e57443ee8a3f6811d00926930ff0e187ed"
+    },
+    {
+      "path": "SOURCE-MANIFEST.json",
+      "bytes": 6665,
+      "sha256": "57c02c8a46595176fd5604d96173cce5256670f44494db8a546395780b3eeb1f"
+    },
+    {
+      "path": "catalogue.json",
+      "bytes": 146997,
+      "sha256": "8127082fdc802474a2a5fdb5675f02936fc4359bd14dc3fed15e4b082f4ca4a3"
+    },
+    {
+      "path": "tools/build_recap.py",
+      "bytes": 33452,
+      "sha256": "df6104788eee223ceec3dc8c1dfc60f3f8741e0f2195ed82d7ac98b9a45ac1bd"
+    },
+    {
+      "path": "tools/test_recap.py",
+      "bytes": 12866,
+      "sha256": "0c6fd7c78f31729a9e29cd89dfb88ef71650811102ce7d5aca6b8a190539c978"
+    },
+    {
+      "path": "top20-and-supplement.csv",
+      "bytes": 9120,
+      "sha256": "d9012e5a6f71faf024ad16fab859dbab37f41b3827f2d3b4bf82c1cc8fe9c138"
+    }
+  ]
+}

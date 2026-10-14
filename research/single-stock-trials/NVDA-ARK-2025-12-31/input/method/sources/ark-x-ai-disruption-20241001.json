@@ -1,0 +1,40 @@
+{
+  "source_id": "ARK-X-AI-DISRUPTION-20241001",
+  "title": "Is AI Truly Disruptive?",
+  "original_public_url": "https://assets.arkinvest.com/media-8e522a83-1b23-4d58-a202-792712f8d2d3/83a277d3-70f2-467e-a492-33b08e4bea90/ARK-Invest_Is%20AI%20Truly%20Disruptive_09302024%20%281%29.pdf",
+  "original_author_or_speaker": "Brett Winton / ARK research",
+  "provenance": "P1",
+  "publication_date_shown": "2024-10-01",
+  "publication_date_precision": "day",
+  "retrieval_date": "2026-10-13",
+  "decision_cutoff_utc": "2025-12-31T23:59:59Z",
+  "publication_proof": {
+    "primary_locator": "PDF page 1 cover: published date and named author.",
+    "corroboration_url": "https://www.ark-invest.com/white-papers",
+    "corroboration_locator": "Official catalogue entry identifies Oct. 01, 2024, Brett Winton.",
+    "evidence": "Cover and official catalogue agree. PDF metadata creation September 30, 2024 is consistent but not publication proof."
+  },
+  "historical_version_status": "dated_original_edition_retrieved_currently; exact historical bytes not archive-pinned",
+  "first_public_upload_time_independently_verified": false,
+  "source_limits": [
+    "Public original statements establish the author/team stated analytical ideas, not that the ideas are correct or were applied to every investment.",
+    "A dated source is eligible relative to this replay cutoff; no actual stock-entry timing or personal position is inferred."
+  ],
+  "copyright_reuse": {
+    "status": "Copyrighted first-party research; no source-wide open redistribution license established.",
+    "retained_content": "Bibliographic facts, very short authentication anchors and independently written analytical questions only.",
+    "excluded": "No full report, source graphics, source tables, workbook, code, native scoring matrix or weight reproduction.",
+    "ARK_CC_boundary": "Any ARK CC BY-NC 4.0 model license is source-specific. It is not MIT and does not authorize commercial reuse. No ARK valuation model or workbook is accessed, adapted or exported here."
+  },
+  "source_fact_scope": "Bibliographic/publication/author identity and accepted selected qualitative method anchors only; no company evidence or stock stance.",
+  "source_acceptance_receipt_sha256": "503a17ff02fe440fa99b8359892af39726da5fc0d325209137edb9b8c19de15b",
+  "exact_source_record_sha256": "d1aaeabc18851aa12aaac866f9672453056c7829063e51da367ccaf35a734da2",
+  "transport_status": "candidate_pending_exact_content_acceptance",
+  "historical_source_acceptance": "PASS_BOUNDED_METHOD_SOURCE_WITH_VERSION_LIMITS",
+  "inspection_receipt": {
+    "retrieved_bytes_sha256": "402bfd978dd57fcca66427db39b3f2c0eaed4b2bfd4433e2748a4ae93b9a99ea",
+    "retrieved_bytes": 1224436,
+    "raw_file_in_deliverable": false,
+    "hash_proves": "The bytes read in this audit, not their historical public-availability date."
+  }
+}

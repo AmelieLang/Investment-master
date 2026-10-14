@@ -1,0 +1,58 @@
+{
+  "rework_round": 1,
+  "checks": [
+    {
+      "test": "17 rule records",
+      "passed": true
+    },
+    {
+      "test": "all 17 rules have precise evidence anchors",
+      "passed": true
+    },
+    {
+      "test": "every anchor source is declared in its rule",
+      "passed": true
+    },
+    {
+      "test": "15 historical eligible / 2 exclusions preserved",
+      "passed": true
+    },
+    {
+      "test": "Lost Tree bound supported independently, not URL-only",
+      "passed": true
+    },
+    {
+      "test": "All Weather visible January document month",
+      "passed": true
+    },
+    {
+      "test": "Palantir coexistence proposition compatible and affirmative",
+      "passed": true
+    },
+    {
+      "test": "new personal Soros buy inference rejected",
+      "passed": true
+    },
+    {
+      "test": "Palantir inconsistency accusation prohibited",
+      "passed": true
+    },
+    {
+      "test": "source IDs remain unique",
+      "passed": true
+    },
+    {
+      "test": "passed raw PDF integrity hashes preserved",
+      "passed": true
+    },
+    {
+      "test": "unchanged passed artifact: candidate-cases.json",
+      "passed": true
+    },
+    {
+      "test": "unchanged passed artifact: common-audit-rules.json",
+      "passed": true
+    }
+  ],
+  "all_passed": true
+}

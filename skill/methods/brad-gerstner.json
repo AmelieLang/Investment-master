@@ -1,0 +1,1022 @@
+{
+  "schema_version": "investment-master-method/v0.1-draft",
+  "master_id": "brad-gerstner",
+  "catalogue_entity_id": "brad-gerstner",
+  "display_name": "Brad Gerstner / Altimeter",
+  "classification": "core_dossier",
+  "source_stream": "tech",
+  "source_acceptance": "accepted",
+  "implementation_ready": false,
+  "identity_and_mandate_record": {
+    "person": "Brad Gerstner",
+    "organization": "Altimeter Capital Management LP",
+    "role": "Founder/CEO in original 2020/2021 filings and self-supplied May 2026 speaker biography; sole managing principal in 2023 adviser filing.",
+    "role_evidence_dates": [
+      "2020 S-1",
+      "2021-04-13",
+      "2023-02-14",
+      "2026-05-04 engagement"
+    ],
+    "current_role_precision": "2026 speaker self-report supports founder/CEO title as of engagement; independently verified current adviser officer roster not recovered.",
+    "source_ids": [
+      "ALT-S1-2020",
+      "ALT-GRAB-VIDEO-20210413",
+      "ALT-13GA-20230214",
+      "ALT-ROLE-2026-SPEAKER"
+    ],
+    "organization_start": "2008",
+    "decision_attribution": "Meta letter directly authored by Gerstner. Sponsor transaction promoted by Gerstner; manager 13F and legal control do not prove he originated/placed every trade."
+  },
+  "scope": {
+    "strong": [
+      "Dated case-bounded spending/capex/cash bridge",
+      "Security terms in a public transition"
+    ],
+    "conditional": [
+      "Mechanism transfer when same economics and data are shown"
+    ],
+    "not_established": [
+      "Every technology stock as a fit",
+      "Meta cost cuts or Grab terms transplanted into unrelated businesses"
+    ],
+    "historical_status": "Case-bounded dated rules only; no current generic process backfill."
+  },
+  "rules": [
+    {
+      "rule_id": "ALT-R01",
+      "method_fact": "Underwrite durable user/product strength alongside spending discipline.",
+      "method_fact_origin": "Organization/team/case scope as recorded; not a claimed exact personal algorithm.",
+      "source_ids": [
+        "ALT-META-20221024"
+      ],
+      "claim_ids": [],
+      "our_design_questions": [
+        "Separate franchise impairment from optional-project spending.",
+        "Identify which cost reductions protect product/customer advantage and which could destroy it."
+      ],
+      "required_inputs": [
+        "Product/customer durability and governance evidence",
+        "Expense/capex/stock-compensation/cash-flow bridge",
+        "Project-level funding needs, milestones and return assumptions",
+        "For a public transition only: actual entitlement/promote/warrant/redemption/lockup terms"
+      ],
+      "falsifiers": [
+        "Cost cuts or investment assumptions destroy the franchise rather than improve cash",
+        "Actual spending/dilution removes the implied per-share opportunity",
+        "Case-specific transaction terms are missing or not applicable"
+      ],
+      "limits": [
+        "Meta 2022 letter",
+        "case_specific_public_thesis",
+        "independent research synthesis, not investor quotation or claimed exact algorithm",
+        "Required-input checklist and falsification tests are independent application design, not claimed investor-native rules or thresholds."
+      ],
+      "historical_eligibility": {
+        "status": "candidate_eligible_pending_review",
+        "eligible_source_ids": [
+          "ALT-META-20221024"
+        ],
+        "reason": "dated_pre_2026_method; independent acceptance remains pending."
+      },
+      "original_record": {
+        "rule_id": "ALT-R01",
+        "documented_rule": "Underwrite durable user/product strength alongside spending discipline.",
+        "source_ids": [
+          "ALT-META-20221024"
+        ],
+        "precision": "case_specific_public_thesis",
+        "scope": "Meta 2022 letter",
+        "skill_adaptation": {
+          "authorship": "independent research synthesis, not investor quotation or claimed exact algorithm",
+          "questions": [
+            "Separate franchise impairment from optional-project spending.",
+            "Identify which cost reductions protect product/customer advantage and which could destroy it."
+          ]
+        },
+        "pre_2026_benchmark_eligible": true,
+        "evidence_time_class": "dated_pre_2026_method",
+        "evidence_anchors": [
+          {
+            "anchor_id": "ALT-R01-A1",
+            "source_id": "ALT-META-20221024",
+            "source_url": "https://medium.com/@alt.cap/time-to-get-fit-an-open-letter-from-altimeter-to-mark-zuckerberg-and-the-meta-board-of-392d94e80a18",
+            "source_publication_date": "2022-10-24",
+            "locator": {
+              "type": "html_letter",
+              "salutation": "Dear Mark",
+              "paragraph_locator": "First and fifth opening prose paragraphs after salutation; fourth prose paragraph under conclusion"
+            },
+            "supporting_paraphrase": "Founder/product support coexists with spending criticism.",
+            "support_role": "case_specific_rationale_for_independent_analytical_principle",
+            "native_attribution": "Brad Gerstner",
+            "native_scope": "Meta 2022 shareholder letter, not a universal Altimeter rulebook",
+            "verified_against_source_on": "2026-10-13",
+            "supplementary_html_text_line_range_at_retrieval": {
+              "start": 43,
+              "end": 48,
+              "caveat": "Retrieval-specific convenience; section/page/paragraph is the primary locator."
+            }
+          }
+        ],
+        "auditor_adaptation_boundary": "Evidence anchors authenticate the documented native principle only. Skill questions are independent auditor operationalization, not verbatim investor instructions or proof of historical use."
+      }
+    },
+    {
+      "rule_id": "ALT-R02",
+      "method_fact": "Distinguish measurable-return AI capex from uncertain long-horizon metaverse funding.",
+      "method_fact_origin": "Organization/team/case scope as recorded; not a claimed exact personal algorithm.",
+      "source_ids": [
+        "ALT-META-20221024"
+      ],
+      "claim_ids": [],
+      "our_design_questions": [
+        "Require project-level cash need, milestone, expected return and termination trigger.",
+        "Show maintenance versus growth investment as a range, not an unsupported precise fact."
+      ],
+      "required_inputs": [
+        "Product/customer durability and governance evidence",
+        "Expense/capex/stock-compensation/cash-flow bridge",
+        "Project-level funding needs, milestones and return assumptions",
+        "For a public transition only: actual entitlement/promote/warrant/redemption/lockup terms"
+      ],
+      "falsifiers": [
+        "Cost cuts or investment assumptions destroy the franchise rather than improve cash",
+        "Actual spending/dilution removes the implied per-share opportunity",
+        "Case-specific transaction terms are missing or not applicable"
+      ],
+      "limits": [
+        "Meta 2022 letter",
+        "case_specific_public_thesis",
+        "independent research synthesis, not investor quotation or claimed exact algorithm",
+        "Required-input checklist and falsification tests are independent application design, not claimed investor-native rules or thresholds."
+      ],
+      "historical_eligibility": {
+        "status": "candidate_eligible_pending_review",
+        "eligible_source_ids": [
+          "ALT-META-20221024"
+        ],
+        "reason": "dated_pre_2026_method; independent acceptance remains pending."
+      },
+      "original_record": {
+        "rule_id": "ALT-R02",
+        "documented_rule": "Distinguish measurable-return AI capex from uncertain long-horizon metaverse funding.",
+        "source_ids": [
+          "ALT-META-20221024"
+        ],
+        "precision": "case_specific_public_thesis",
+        "scope": "Meta 2022 letter",
+        "skill_adaptation": {
+          "authorship": "independent research synthesis, not investor quotation or claimed exact algorithm",
+          "questions": [
+            "Require project-level cash need, milestone, expected return and termination trigger.",
+            "Show maintenance versus growth investment as a range, not an unsupported precise fact."
+          ]
+        },
+        "pre_2026_benchmark_eligible": true,
+        "evidence_time_class": "dated_pre_2026_method",
+        "evidence_anchors": [
+          {
+            "anchor_id": "ALT-R02-A1",
+            "source_id": "ALT-META-20221024",
+            "source_url": "https://medium.com/@alt.cap/time-to-get-fit-an-open-letter-from-altimeter-to-mark-zuckerberg-and-the-meta-board-of-392d94e80a18",
+            "source_publication_date": "2022-10-24",
+            "locator": {
+              "type": "html_section",
+              "heading_prefix": "CAPEX",
+              "paragraph_locator": "Second paragraph on maintenance/AI investment; sixth paragraph on reduced capex until revenue accelerates"
+            },
+            "supporting_paraphrase": "Supports high-return AI investment with spending discipline.",
+            "support_role": "direct_case_specific_capital_allocation_rationale",
+            "native_attribution": "Brad Gerstner",
+            "native_scope": "Meta 2022 letter only",
+            "verified_against_source_on": "2026-10-13",
+            "supplementary_html_text_line_range_at_retrieval": {
+              "start": 75,
+              "end": 82,
+              "caveat": "Retrieval-specific convenience; section/page/paragraph is the primary locator."
+            }
+          },
+          {
+            "anchor_id": "ALT-R02-A2",
+            "source_id": "ALT-META-20221024",
+            "source_url": "https://medium.com/@alt.cap/time-to-get-fit-an-open-letter-from-altimeter-to-mark-zuckerberg-and-the-meta-board-of-392d94e80a18",
+            "source_publication_date": "2022-10-24",
+            "locator": {
+              "type": "html_section",
+              "heading_prefix": "Focusing the Metaverse",
+              "paragraph_locator": "Third paragraph on long duration; fifth and sixth paragraphs on spending cap, discrete targets and tangible ROI"
+            },
+            "supporting_paraphrase": "Bound uncertain projects; scale funding as ROI emerges.",
+            "support_role": "direct_case_specific_project_funding_qualification",
+            "native_attribution": "Brad Gerstner",
+            "native_scope": "Meta 2022 letter only",
+            "verified_against_source_on": "2026-10-13",
+            "supplementary_html_text_line_range_at_retrieval": {
+              "start": 83,
+              "end": 90,
+              "caveat": "Retrieval-specific convenience; section/page/paragraph is the primary locator."
+            }
+          }
+        ],
+        "auditor_adaptation_boundary": "Evidence anchors authenticate the documented native principle only. Skill questions are independent auditor operationalization, not verbatim investor instructions or proof of historical use."
+      }
+    },
+    {
+      "rule_id": "ALT-R03",
+      "method_fact": "Build an explicit expense/capex bridge to free cash flow and valuation.",
+      "method_fact_origin": "Organization/team/case scope as recorded; not a claimed exact personal algorithm.",
+      "source_ids": [
+        "ALT-META-20221024"
+      ],
+      "claim_ids": [],
+      "our_design_questions": [
+        "Bridge GAAP profit, stock compensation, cash taxes and capex to owner cash flow.",
+        "Score recommendations separately from what management actually did."
+      ],
+      "required_inputs": [
+        "Product/customer durability and governance evidence",
+        "Expense/capex/stock-compensation/cash-flow bridge",
+        "Project-level funding needs, milestones and return assumptions",
+        "For a public transition only: actual entitlement/promote/warrant/redemption/lockup terms"
+      ],
+      "falsifiers": [
+        "Cost cuts or investment assumptions destroy the franchise rather than improve cash",
+        "Actual spending/dilution removes the implied per-share opportunity",
+        "Case-specific transaction terms are missing or not applicable"
+      ],
+      "limits": [
+        "Meta 2022 letter",
+        "case_specific_public_thesis",
+        "independent research synthesis, not investor quotation or claimed exact algorithm",
+        "Required-input checklist and falsification tests are independent application design, not claimed investor-native rules or thresholds."
+      ],
+      "historical_eligibility": {
+        "status": "candidate_eligible_pending_review",
+        "eligible_source_ids": [
+          "ALT-META-20221024"
+        ],
+        "reason": "dated_pre_2026_method; independent acceptance remains pending."
+      },
+      "original_record": {
+        "rule_id": "ALT-R03",
+        "documented_rule": "Build an explicit expense/capex bridge to free cash flow and valuation.",
+        "source_ids": [
+          "ALT-META-20221024"
+        ],
+        "precision": "case_specific_public_thesis",
+        "scope": "Meta 2022 letter",
+        "skill_adaptation": {
+          "authorship": "independent research synthesis, not investor quotation or claimed exact algorithm",
+          "questions": [
+            "Bridge GAAP profit, stock compensation, cash taxes and capex to owner cash flow.",
+            "Score recommendations separately from what management actually did."
+          ]
+        },
+        "pre_2026_benchmark_eligible": true,
+        "evidence_time_class": "dated_pre_2026_method",
+        "evidence_anchors": [
+          {
+            "anchor_id": "ALT-R03-A1",
+            "source_id": "ALT-META-20221024",
+            "source_url": "https://medium.com/@alt.cap/time-to-get-fit-an-open-letter-from-altimeter-to-mark-zuckerberg-and-the-meta-board-of-392d94e80a18",
+            "source_publication_date": "2022-10-24",
+            "locator": {
+              "type": "html_letter_plan",
+              "locator": "Three-item numbered recommendation list immediately before the first spending-control section"
+            },
+            "supporting_paraphrase": "Expense, capex and metaverse reductions target doubled FCF.",
+            "support_role": "direct_case_specific_quantitative_plan",
+            "native_attribution": "Brad Gerstner",
+            "native_scope": "Meta 2022 letter only",
+            "verified_against_source_on": "2026-10-13",
+            "supplementary_html_text_line_range_at_retrieval": {
+              "start": 51,
+              "end": 54,
+              "caveat": "Retrieval-specific convenience; section/page/paragraph is the primary locator."
+            }
+          },
+          {
+            "anchor_id": "ALT-R03-A2",
+            "source_id": "ALT-META-20221024",
+            "source_url": "https://medium.com/@alt.cap/time-to-get-fit-an-open-letter-from-altimeter-to-mark-zuckerberg-and-the-meta-board-of-392d94e80a18",
+            "source_publication_date": "2022-10-24",
+            "locator": {
+              "type": "html_section",
+              "heading_prefix": "Conclusion",
+              "paragraphs": [
+                1,
+                2
+              ],
+              "additional_context_locator": "Fourth prose paragraph after salutation, P/E comparison"
+            },
+            "supporting_paraphrase": "Explicit savings bridge supports FCF; P/E supplies valuation context.",
+            "support_role": "direct_FCF_bridge_plus_valuation_context_not_full_pricing_algorithm",
+            "native_attribution": "Brad Gerstner",
+            "native_scope": "Meta 2022 letter only",
+            "verified_against_source_on": "2026-10-13",
+            "supplementary_html_text_line_range_at_retrieval": {
+              "start": 91,
+              "end": 94,
+              "caveat": "Retrieval-specific convenience; section/page/paragraph is the primary locator."
+            }
+          }
+        ],
+        "auditor_adaptation_boundary": "Evidence anchors authenticate the documented native principle only. Skill questions are independent auditor operationalization, not verbatim investor instructions or proof of historical use."
+      }
+    },
+    {
+      "rule_id": "ALT-R04",
+      "method_fact": "For a public transition, compare valuation, forecasts and aligned security terms.",
+      "method_fact_origin": "Organization/team/case scope as recorded; not a claimed exact personal algorithm.",
+      "source_ids": [
+        "ALT-GRAB-DECK-20210413"
+      ],
+      "claim_ids": [],
+      "our_design_questions": [
+        "Normalize old and new metric definitions before comparing projections.",
+        "Evaluate sponsor promote, warrant dilution, redemption/cash conditions and lockup separately.",
+        "Ask how unit economics survive subsidies falling and rates rising."
+      ],
+      "required_inputs": [
+        "Product/customer durability and governance evidence",
+        "Expense/capex/stock-compensation/cash-flow bridge",
+        "Project-level funding needs, milestones and return assumptions",
+        "For a public transition only: actual entitlement/promote/warrant/redemption/lockup terms"
+      ],
+      "falsifiers": [
+        "Cost cuts or investment assumptions destroy the franchise rather than improve cash",
+        "Actual spending/dilution removes the implied per-share opportunity",
+        "Case-specific transaction terms are missing or not applicable"
+      ],
+      "limits": [
+        "Grab 2021 deck",
+        "case_specific_transaction_method",
+        "independent research synthesis, not investor quotation or claimed exact algorithm",
+        "Required-input checklist and falsification tests are independent application design, not claimed investor-native rules or thresholds."
+      ],
+      "historical_eligibility": {
+        "status": "candidate_eligible_pending_review",
+        "eligible_source_ids": [
+          "ALT-GRAB-DECK-20210413"
+        ],
+        "reason": "dated_pre_2026_method; independent acceptance remains pending."
+      },
+      "original_record": {
+        "rule_id": "ALT-R04",
+        "documented_rule": "For a public transition, compare valuation, forecasts and aligned security terms.",
+        "source_ids": [
+          "ALT-GRAB-DECK-20210413"
+        ],
+        "precision": "case_specific_transaction_method",
+        "scope": "Grab 2021 deck",
+        "skill_adaptation": {
+          "authorship": "independent research synthesis, not investor quotation or claimed exact algorithm",
+          "questions": [
+            "Normalize old and new metric definitions before comparing projections.",
+            "Evaluate sponsor promote, warrant dilution, redemption/cash conditions and lockup separately.",
+            "Ask how unit economics survive subsidies falling and rates rising."
+          ]
+        },
+        "pre_2026_benchmark_eligible": true,
+        "evidence_time_class": "dated_pre_2026_method",
+        "evidence_anchors": [
+          {
+            "anchor_id": "ALT-R04-A1",
+            "source_id": "ALT-GRAB-DECK-20210413",
+            "source_url": "https://www.sec.gov/Archives/edgar/data/1823340/000114036121012518/nt10022857x2_ex99-2.htm",
+            "source_publication_date": "2021-04-13",
+            "locator": {
+              "type": "transaction_deck_slides",
+              "slides": [
+                46,
+                53
+              ],
+              "topic_locator": "Transaction sources/uses and valuation; public peer forward-revenue valuation comparisons"
+            },
+            "supporting_paraphrase": "Forward peer metrics contextualize transaction valuation.",
+            "support_role": "direct_case_specific_transaction_valuation_method",
+            "native_attribution": "Grab and Altimeter Growth Corp. transaction presentation",
+            "native_scope": "April 2021 transaction, not a universal Gerstner policy",
+            "verified_against_source_on": "2026-10-13",
+            "supplementary_html_text_line_range_at_retrieval": {
+              "start": 373,
+              "end": 431,
+              "caveat": "Retrieval-specific convenience; section/page/paragraph is the primary locator."
+            }
+          },
+          {
+            "anchor_id": "ALT-R04-A2",
+            "source_id": "ALT-GRAB-DECK-20210413",
+            "source_url": "https://www.sec.gov/Archives/edgar/data/1823340/000114036121012518/nt10022857x2_ex99-2.htm",
+            "source_publication_date": "2021-04-13",
+            "locator": {
+              "type": "transaction_deck_slides",
+              "slides": [
+                51,
+                52,
+                59,
+                60
+              ],
+              "topic_locator": "Cap-table dilution; staged lock-up; post-intercompany financial forecasts"
+            },
+            "supporting_paraphrase": "Security terms and forecasts require separate reconciliation.",
+            "support_role": "disclosed_case_structures_support_independent_evaluation_not_native_alignment_rule",
+            "native_attribution": "Grab and Altimeter Growth Corp. transaction presentation",
+            "native_scope": "April 2021 transaction only",
+            "verified_against_source_on": "2026-10-13",
+            "supplementary_html_text_line_range_at_retrieval": {
+              "start": 417,
+              "end": 481,
+              "caveat": "Retrieval-specific convenience; section/page/paragraph is the primary locator."
+            }
+          }
+        ],
+        "auditor_adaptation_boundary": "Evidence anchors authenticate the documented native principle only. Skill questions are independent auditor operationalization, not verbatim investor instructions or proof of historical use."
+      }
+    }
+  ],
+  "source_records": [
+    {
+      "source_id": "ALT-HOME",
+      "title": "Altimeter official home",
+      "original_url": "https://www.altimeter.com/",
+      "published_date": null,
+      "report_period": null,
+      "authors": [
+        "Altimeter"
+      ],
+      "source_type": "first_party",
+      "retrieved_date": "2026-10-13",
+      "date_precision": "publication_date_not_shown",
+      "evidence_notes": [],
+      "locator": null,
+      "facts": {
+        "mandate": "Technology-focused funds spanning public and private markets; founder-oriented, long-term partnership through growth and transition to public markets."
+      },
+      "pre_2026_eligibility": {
+        "cutoff_utc": "2025-12-31T23:59:59Z",
+        "known_publication_before_cutoff": false,
+        "method_source_eligible": false,
+        "eligibility_reason": "Excluded: publication/revision day unknown or current mutable version not pinned.",
+        "historical_packet_scope": "Only information contained in the verified dated source. No later holdings, current role facts or subsequent outcomes may be appended as if known then."
+      },
+      "rule_anchor_ids": []
+    },
+    {
+      "source_id": "ALT-S1-2020",
+      "title": "Altimeter Growth Corp. S-1 management section",
+      "original_url": "https://www.sec.gov/Archives/edgar/data/1823340/000114036120020275/nt10014830x2_s1.htm",
+      "published_date": null,
+      "report_period": null,
+      "authors": [
+        "Altimeter Growth Corp."
+      ],
+      "source_type": "sponsor_sec_s1",
+      "retrieved_date": "2026-10-13",
+      "date_precision": "publication_date_not_shown",
+      "evidence_notes": [
+        "2020 filing; exact filing day not verified in this audit."
+      ],
+      "locator": null,
+      "facts": {
+        "identity": "Brad Gerstner founded Altimeter in 2008 and served as CEO; responsible for investment strategy.",
+        "scope": "Management authority for the SPAC is not proof he personally originated every adviser holding."
+      },
+      "pre_2026_eligibility": {
+        "cutoff_utc": "2025-12-31T23:59:59Z",
+        "known_publication_before_cutoff": false,
+        "method_source_eligible": false,
+        "eligibility_reason": "Excluded: publication/revision day unknown or current mutable version not pinned.",
+        "historical_packet_scope": "Only information contained in the verified dated source. No later holdings, current role facts or subsequent outcomes may be appended as if known then."
+      },
+      "rule_anchor_ids": []
+    },
+    {
+      "source_id": "ALT-13GA-20230214",
+      "title": "Altimeter Confluent Schedule 13G/A control description",
+      "original_url": "https://www.sec.gov/Archives/edgar/data/1541617/000154161723000004/confluent13gover5-dec22.pdf",
+      "published_date": "2023-02-14",
+      "report_period": null,
+      "authors": [
+        "Altimeter Capital Management LP",
+        "Brad Gerstner"
+      ],
+      "source_type": "manager_sec_13ga",
+      "retrieved_date": "2026-10-13",
+      "date_precision": "day",
+      "evidence_notes": [
+        "Accession 0001541617-23-000004. Cover event date says 2023 but ownership text says 2022; do not use that inconsistent cover date as a position timing observation."
+      ],
+      "locator": "PDF page 5, item 2(a)",
+      "facts": {
+        "authority": "Gerstner sole managing principal of the adviser/general partners; beneficial ownership aggregates funds, not personal economic ownership."
+      },
+      "pre_2026_eligibility": {
+        "cutoff_utc": "2025-12-31T23:59:59Z",
+        "known_publication_before_cutoff": true,
+        "method_source_eligible": false,
+        "eligibility_reason": "Dated before cutoff, but this source supplies identity, holdings or historical outcomes rather than operational method.",
+        "historical_packet_scope": "Only information contained in the verified dated source. No later holdings, current role facts or subsequent outcomes may be appended as if known then."
+      },
+      "rule_anchor_ids": []
+    },
+    {
+      "source_id": "ALT-META-20221024",
+      "title": "Time to get fit: open letter to Mark Zuckerberg and Meta board",
+      "original_url": "https://medium.com/@alt.cap/time-to-get-fit-an-open-letter-from-altimeter-to-mark-zuckerberg-and-the-meta-board-of-392d94e80a18",
+      "published_date": "2022-10-24",
+      "report_period": null,
+      "authors": [
+        "Brad Gerstner"
+      ],
+      "source_type": "first_party_open_letter",
+      "retrieved_date": "2026-10-13",
+      "date_precision": "day",
+      "evidence_notes": [],
+      "locator": null,
+      "facts": {
+        "status": "Existing long-term shareholder; supportive of founder/product leadership, critical of excess spending.",
+        "plan": "Reduce headcount expense at least 20%; cap annual capex at $25B, $5B below $30B; limit metaverse spending to $5B/year.",
+        "FCF_target": "Approximately $40B in 2023 versus roughly $20B, via people/capex/metaverse expense discipline.",
+        "valuation": "P/E declined from 23x to 12x, less than half the average P/E of big-tech peers. The letter does not specify forward earnings or a decade-average 23x.",
+        "distinction": "Supports high-return AI investment; demands measured returns and bounded funding for uncertain, long-dated projects.",
+        "attribution": "Public request, not proof Meta management followed the letter or trades occurred on publication date."
+      },
+      "pre_2026_eligibility": {
+        "cutoff_utc": "2025-12-31T23:59:59Z",
+        "known_publication_before_cutoff": true,
+        "method_source_eligible": true,
+        "eligibility_reason": "Dated before cutoff; method is case/fund/team-specific, not a universal personal trading rule.",
+        "historical_packet_scope": "Only information contained in the verified dated source. No later holdings, current role facts or subsequent outcomes may be appended as if known then."
+      },
+      "rule_anchor_ids": [
+        "ALT-R01-A1",
+        "ALT-R02-A1",
+        "ALT-R02-A2",
+        "ALT-R03-A1",
+        "ALT-R03-A2"
+      ]
+    },
+    {
+      "source_id": "ALT-13F-20220930",
+      "title": "Altimeter 13F information table, Q3 2022",
+      "original_url": "https://www.sec.gov/Archives/edgar/data/1541617/000154161722000020/xslForm13F_X01/alt13f3q22.xml",
+      "published_date": "2022-11-14",
+      "report_period": "2022-09-30",
+      "authors": [
+        "Altimeter Capital Management LP"
+      ],
+      "source_type": "manager_sec_13f",
+      "retrieved_date": "2026-10-13",
+      "date_precision": "day",
+      "evidence_notes": [
+        "Accession 0001541617-22-000020; accepted 2022-11-14 16:24:02 ET. Became public after the Meta letter. USD thousands."
+      ],
+      "locator": null,
+      "facts": {
+        "META": {
+          "shares": 2346976,
+          "raw_value": 318438,
+          "value_unit": "USD_thousands",
+          "normalized_usd": 318438000
+        },
+        "GRAB_common": {
+          "shares": 2714995,
+          "raw_value": 7140,
+          "value_unit": "USD_thousands",
+          "normalized_usd": 7140000
+        },
+        "GRAB_warrants": {
+          "shares_or_units": 3502000,
+          "raw_value": 1751,
+          "value_unit": "USD_thousands",
+          "normalized_usd": 1751000
+        }
+      },
+      "pre_2026_eligibility": {
+        "cutoff_utc": "2025-12-31T23:59:59Z",
+        "known_publication_before_cutoff": true,
+        "method_source_eligible": false,
+        "eligibility_reason": "Dated before cutoff, but this source supplies identity, holdings or historical outcomes rather than operational method.",
+        "historical_packet_scope": "Only information contained in the verified dated source. No later holdings, current role facts or subsequent outcomes may be appended as if known then."
+      },
+      "rule_anchor_ids": []
+    },
+    {
+      "source_id": "ALT-13F-20221231",
+      "title": "Altimeter 13F information table, Q4 2022",
+      "original_url": "https://www.sec.gov/Archives/edgar/data/1541617/000154161723000003/xslForm13F_X02/alt13f4q22.xml",
+      "published_date": "2023-02-14",
+      "report_period": "2022-12-31",
+      "authors": [
+        "Altimeter Capital Management LP"
+      ],
+      "source_type": "manager_sec_13f",
+      "retrieved_date": "2026-10-13",
+      "date_precision": "day",
+      "evidence_notes": [
+        "Accession 0001541617-23-000003. Header says nearest dollar, but values appear legacy thousand-scaled. No silent repair. Dollar-value analysis quarantined pending original correction or reconciliation."
+      ],
+      "locator": null,
+      "facts": {
+        "META": {
+          "shares": 1994476,
+          "raw_value": 240015,
+          "declared_value_unit": "USD",
+          "normalized_usd": null,
+          "quality": "implausible value/share; unit inconsistency"
+        },
+        "GRAB_common": "No common-stock line in this information table.",
+        "GRAB_warrants": {
+          "shares_or_units": 3502000,
+          "raw_value": 1882,
+          "declared_value_unit": "USD",
+          "normalized_usd": null,
+          "quality": "unit inconsistency"
+        }
+      },
+      "pre_2026_eligibility": {
+        "cutoff_utc": "2025-12-31T23:59:59Z",
+        "known_publication_before_cutoff": true,
+        "method_source_eligible": false,
+        "eligibility_reason": "Dated before cutoff, but this source supplies identity, holdings or historical outcomes rather than operational method.",
+        "historical_packet_scope": "Only information contained in the verified dated source. No later holdings, current role facts or subsequent outcomes may be appended as if known then."
+      },
+      "rule_anchor_ids": []
+    },
+    {
+      "source_id": "ALT-13F-20231231",
+      "title": "Altimeter 13F information table, Q4 2023",
+      "original_url": "https://www.sec.gov/Archives/edgar/data/1541617/000154161724000004/xslForm13F_X02/4q2313f.xml",
+      "published_date": "2024-02-14",
+      "report_period": "2023-12-31",
+      "authors": [
+        "Altimeter Capital Management LP"
+      ],
+      "source_type": "manager_sec_13f",
+      "retrieved_date": "2026-10-13",
+      "date_precision": "day",
+      "evidence_notes": [
+        "Accession 0001541617-24-000004. USD."
+      ],
+      "locator": null,
+      "facts": {
+        "META": {
+          "shares": 2404781,
+          "value_usd": 851196283
+        },
+        "GRAB_warrants": {
+          "shares_or_units": 3502000,
+          "value_usd": 787775
+        }
+      },
+      "pre_2026_eligibility": {
+        "cutoff_utc": "2025-12-31T23:59:59Z",
+        "known_publication_before_cutoff": true,
+        "method_source_eligible": false,
+        "eligibility_reason": "Dated before cutoff, but this source supplies identity, holdings or historical outcomes rather than operational method.",
+        "historical_packet_scope": "Only information contained in the verified dated source. No later holdings, current role facts or subsequent outcomes may be appended as if known then."
+      },
+      "rule_anchor_ids": []
+    },
+    {
+      "source_id": "ALT-GRAB-DEAL-20210413",
+      "title": "Grab and Altimeter announce proposed combination",
+      "original_url": "https://investors.grab.com/news-and-events/news-details/2021/Grab-the-Leading-Superapp-for-Deliveries-Mobility-and-Financial-Services-in-Southeast-Asia-Plans-to-Go-Public-in-Partnership-with-Altimeter/default.aspx",
+      "published_date": "2021-04-13",
+      "report_period": null,
+      "authors": [
+        "Grab",
+        "Altimeter Growth Corp."
+      ],
+      "source_type": "issuer_sponsor_announcement",
+      "retrieved_date": "2026-10-13",
+      "date_precision": "day",
+      "evidence_notes": [],
+      "locator": null,
+      "facts": {
+        "valuation_pro_forma_equity_usd_billion": 39.6,
+        "PIPE_usd_billion": 4.0,
+        "Altimeter_managed_funds_PIPE_usd_million": 750,
+        "sponsor_terms": "Three-year lockup of sponsor promote shares; 10% sponsor promote donated. This is not a three-year lockup of every PIPE share.",
+        "claim": "Founder-led Southeast Asian superapp, cross-service flywheel, long-term partner."
+      },
+      "pre_2026_eligibility": {
+        "cutoff_utc": "2025-12-31T23:59:59Z",
+        "known_publication_before_cutoff": true,
+        "method_source_eligible": false,
+        "eligibility_reason": "Dated before cutoff, but this source supplies identity, holdings or historical outcomes rather than operational method.",
+        "historical_packet_scope": "Only information contained in the verified dated source. No later holdings, current role facts or subsequent outcomes may be appended as if known then."
+      },
+      "rule_anchor_ids": []
+    },
+    {
+      "source_id": "ALT-GRAB-DECK-20210413",
+      "title": "Grab-Altimeter original investor presentation",
+      "original_url": "https://www.sec.gov/Archives/edgar/data/1823340/000114036121012518/nt10022857x2_ex99-2.htm",
+      "published_date": "2021-04-13",
+      "report_period": null,
+      "authors": [
+        "Grab",
+        "Altimeter Growth Corp."
+      ],
+      "source_type": "sponsor_sec_transaction_deck",
+      "retrieved_date": "2026-10-13",
+      "date_precision": "day",
+      "evidence_notes": [
+        "Contemporary pre-deal-completion projections; after negotiations/commitment. Not a recovered private investment-committee memo."
+      ],
+      "locator": "Presentation page 59, 2023 forecasts and valuation sections",
+      "facts": {
+        "2023_forecasts": {
+          "GMV_usd_billion": 34.2,
+          "monthly_transacting_users_million": 43,
+          "adjusted_net_revenue_usd_billion": 4.5,
+          "adjusted_EBITDA_after_regional_costs_usd_billion": 0.5
+        },
+        "valuation_method": "Forward adjusted revenue comparisons to public peers, regional growth/TAM and segment leadership.",
+        "metric_caution": "Original adjusted net revenue and EBITDA definitions require a bridge to later IFRS revenue and updated adjusted EBITDA; direct headline subtraction is invalid.",
+        "PIPE_common_price_usd": 10.0
+      },
+      "pre_2026_eligibility": {
+        "cutoff_utc": "2025-12-31T23:59:59Z",
+        "known_publication_before_cutoff": true,
+        "method_source_eligible": true,
+        "eligibility_reason": "Dated before cutoff; method is case/fund/team-specific, not a universal personal trading rule.",
+        "historical_packet_scope": "Only information contained in the verified dated source. No later holdings, current role facts or subsequent outcomes may be appended as if known then."
+      },
+      "rule_anchor_ids": [
+        "ALT-R04-A1",
+        "ALT-R04-A2"
+      ]
+    },
+    {
+      "source_id": "ALT-GRAB-VIDEO-20210413",
+      "title": "Brad Gerstner original Grab transaction video transcript",
+      "original_url": "https://www.sec.gov/Archives/edgar/data/1823340/000114036121012518/nt10022857x2_ex99-8.htm",
+      "published_date": "2021-04-13",
+      "report_period": null,
+      "authors": [
+        "Brad Gerstner"
+      ],
+      "source_type": "sponsor_sec_transaction_transcript",
+      "retrieved_date": "2026-10-13",
+      "date_precision": "day",
+      "evidence_notes": [],
+      "locator": null,
+      "facts": {
+        "identity": "Introduces himself as Altimeter founder/CEO.",
+        "thesis": "Founder-led platform, long-term partnership and public-market transition; promotional statement rather than independent downside valuation."
+      },
+      "pre_2026_eligibility": {
+        "cutoff_utc": "2025-12-31T23:59:59Z",
+        "known_publication_before_cutoff": true,
+        "method_source_eligible": true,
+        "eligibility_reason": "Dated before cutoff; method is case/fund/team-specific, not a universal personal trading rule.",
+        "historical_packet_scope": "Only information contained in the verified dated source. No later holdings, current role facts or subsequent outcomes may be appended as if known then."
+      },
+      "rule_anchor_ids": []
+    },
+    {
+      "source_id": "META-10K-2023",
+      "title": "Meta Platforms 2023 Form 10-K",
+      "original_url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680124000012/meta-20231231.htm",
+      "published_date": "2024-02-02",
+      "report_period": "2023-12-31",
+      "authors": [
+        "Meta Platforms Inc."
+      ],
+      "source_type": "issuer_sec_10k",
+      "retrieved_date": "2026-10-13",
+      "date_precision": "day",
+      "evidence_notes": [
+        "Accession 0001326801-24-000012, accepted 2024-02-01 19:39 ET; filing date 2024-02-02. Original stock-return graph visually inspected, without extracting exact unlabeled graph values."
+      ],
+      "locator": null,
+      "facts": {
+        "FCF_usd_million": {
+          "2022": 18439,
+          "2023": 43010
+        },
+        "headcount_2023": 67317,
+        "headcount_yoy_pct": -22,
+        "capex_including_finance_leases_2023_usd_billion": 28.1,
+        "Reality_Labs_2023_usd_million": {
+          "expenses": 18016,
+          "operating_loss": 16120
+        },
+        "stock_graph": "Large 2023 recovery following 2022 decline; issuer series includes reinvested distributions and comparative index series.",
+        "comparability": "Headcount is not headcount expense. Reality Labs expenses/loss are not the letter's exact investment metric."
+      },
+      "pre_2026_eligibility": {
+        "cutoff_utc": "2025-12-31T23:59:59Z",
+        "known_publication_before_cutoff": true,
+        "method_source_eligible": false,
+        "eligibility_reason": "Dated before cutoff, but this source supplies identity, holdings or historical outcomes rather than operational method.",
+        "historical_packet_scope": "Only information contained in the verified dated source. No later holdings, current role facts or subsequent outcomes may be appended as if known then."
+      },
+      "rule_anchor_ids": []
+    },
+    {
+      "source_id": "GRAB-CLOSE-20211201",
+      "title": "Grab completes Altimeter combination",
+      "original_url": "https://investors.grab.com/news-and-events/news-details/2021/Grab-to-Trade-on-Nasdaq-Following-Successful-Business-Combination-with-Altimeter/default.aspx",
+      "published_date": "2021-12-01",
+      "report_period": null,
+      "authors": [
+        "Grab"
+      ],
+      "source_type": "issuer_announcement",
+      "retrieved_date": "2026-10-13",
+      "date_precision": "day",
+      "evidence_notes": [],
+      "locator": null,
+      "facts": {
+        "completion_date": "2021-12-01",
+        "expected_first_trading_date": "2021-12-02",
+        "approved_date": "2021-11-30",
+        "PIPE": "$4.0B PIPE including $750M led by Altimeter-managed funds; no individual account lot/cost/realization verification."
+      },
+      "pre_2026_eligibility": {
+        "cutoff_utc": "2025-12-31T23:59:59Z",
+        "known_publication_before_cutoff": true,
+        "method_source_eligible": false,
+        "eligibility_reason": "Dated before cutoff, but this source supplies identity, holdings or historical outcomes rather than operational method.",
+        "historical_packet_scope": "Only information contained in the verified dated source. No later holdings, current role facts or subsequent outcomes may be appended as if known then."
+      },
+      "rule_anchor_ids": []
+    },
+    {
+      "source_id": "GRAB-RESULTS-2023",
+      "title": "Grab full-year 2023 results",
+      "original_url": "https://investors.grab.com/news-and-events/news-details/2024/Grab-Reports-Fourth-Quarter-and-Full-Year-2023-Results-and-Announces-Inaugural-Share-Repurchase-Program-of-Up-to-500-Million/default.aspx",
+      "published_date": "2024-02-22",
+      "report_period": "2023-12-31",
+      "authors": [
+        "Grab Holdings Limited"
+      ],
+      "source_type": "issuer_results",
+      "retrieved_date": "2026-10-13",
+      "date_precision": "day",
+      "evidence_notes": [],
+      "locator": null,
+      "facts": {
+        "revenue_usd_million": {
+          "2022": 1433,
+          "2023": 2359
+        },
+        "loss_usd_million": {
+          "2022": 1740,
+          "2023": 485
+        },
+        "group_adjusted_EBITDA_usd_million": {
+          "2022": -793,
+          "2023": -22
+        },
+        "GMV_2023_usd_million": 20983,
+        "MTU_2023_million": 35.5,
+        "context": "Strong loss reduction and improving profitability; original forecast confidence must still be challenged. GMV/MTU and adjusted metric definition changes need reconciliation."
+      },
+      "pre_2026_eligibility": {
+        "cutoff_utc": "2025-12-31T23:59:59Z",
+        "known_publication_before_cutoff": true,
+        "method_source_eligible": false,
+        "eligibility_reason": "Dated before cutoff, but this source supplies identity, holdings or historical outcomes rather than operational method.",
+        "historical_packet_scope": "Only information contained in the verified dated source. No later holdings, current role facts or subsequent outcomes may be appended as if known then."
+      },
+      "rule_anchor_ids": []
+    },
+    {
+      "source_id": "COM-SEC13F",
+      "title": "SEC: Frequently Asked Questions About Form 13F",
+      "original_url": "https://www.sec.gov/rules-regulations/staff-guidance/frequently-asked-questions-about-form-13f",
+      "published_date": "2026-03-06",
+      "report_period": null,
+      "authors": [],
+      "source_type": "regulator_guidance",
+      "retrieved_date": "2026-10-13",
+      "date_precision": "day",
+      "evidence_notes": [
+        "Current page update; last-reviewed 2026-09-28. Earlier original-page date 2023-05-24."
+      ],
+      "locator": null,
+      "facts": {
+        "coverage": "Quarter-end covered long securities under investment discretion; generally U.S.-exchange stocks/ADRs and certain options, warrants and convertibles.",
+        "lag": "Quarterly filing due within 45 days, subject to applicable calendar rules.",
+        "excluded": "Short positions and written options; foreign-only listed stocks, private investments, cash and many other assets. Long/short positions must not be netted.",
+        "omissions": "Small holdings may be omitted only if both under 10,000 shares and under $200,000; confidential treatment can delay disclosure.",
+        "aggregation": "A manager filing can aggregate several accounts or other included managers. Sole discretion does not identify the individual who selected a position."
+      },
+      "pre_2026_eligibility": {
+        "cutoff_utc": "2025-12-31T23:59:59Z",
+        "known_publication_before_cutoff": false,
+        "method_source_eligible": false,
+        "eligibility_reason": "Excluded: published during 2026, after decision cutoff.",
+        "historical_packet_scope": "Only information contained in the verified dated source. No later holdings, current role facts or subsequent outcomes may be appended as if known then."
+      },
+      "rule_anchor_ids": []
+    },
+    {
+      "source_id": "ALT-ROLE-2026-SPEAKER",
+      "title": "Brad Gerstner, 2026 Milken conference speaker biography",
+      "original_url": "https://milkeninstitute.org/events/global-conference-2026/speakers/brad-gerstner",
+      "published_date": null,
+      "report_period": null,
+      "authors": [
+        "Brad Gerstner, self-supplied biography hosted by Milken Institute"
+      ],
+      "source_type": "first_person_speaker_biography",
+      "retrieved_date": "2026-10-13",
+      "date_precision": "publication_date_not_shown",
+      "evidence_notes": [
+        "Panel engagement 2026-05-04. Milken explicitly says speaker biographies are self-provided and represent role at engagement, not independently verified. Investment success claims in biography are not core case evidence."
+      ],
+      "locator": "Speaker role and disclaimer",
+      "facts": {
+        "role": "Founder and CEO of Altimeter, self-reported for 2026-05-04 engagement."
+      },
+      "pre_2026_eligibility": {
+        "cutoff_utc": "2025-12-31T23:59:59Z",
+        "known_publication_before_cutoff": false,
+        "method_source_eligible": false,
+        "eligibility_reason": "2026 engagement/unknown exact publication date; identity audit only.",
+        "historical_packet_scope": "Do not use in the beginning-2026 method packet."
+      },
+      "rule_anchor_ids": []
+    }
+  ],
+  "evidence_artifacts": [
+    {
+      "path": "current-library/tech/cathie_wood_ark.json",
+      "sha256": "e56d8044ece4e69c2c4dae6d8286ffbe19fe1f04d8eb453923f34aae8bda6613",
+      "content_kind": "current evidence including holdings/cases/limits; forbidden to historical workers"
+    },
+    {
+      "path": "current-library/tech/ron_baron.json",
+      "sha256": "efe40af15b4a1df5ed4bca095487eb08faeb93dedaf660aa33a80dc4d94cf35f",
+      "content_kind": "current evidence including holdings/cases/limits; forbidden to historical workers"
+    },
+    {
+      "path": "current-library/tech/brad_gerstner_altimeter.json",
+      "sha256": "7ad642aa3fafca608f7a24d22843999359840acabe35d952aff6ed2d5c6d2025",
+      "content_kind": "current evidence including holdings/cases/limits; forbidden to historical workers"
+    },
+    {
+      "path": "current-library/tech/philippe_laffont_coatue.json",
+      "sha256": "098981fdd9979a116a018a70c9636b87bfff9387f0d449be57c5e011a8e9f5ca",
+      "content_kind": "current evidence including holdings/cases/limits; forbidden to historical workers"
+    },
+    {
+      "path": "current-library/tech/sources.json",
+      "sha256": "3fb2e0b0cc42f28fd0ed142aecfcda6baa592c873ce727d4452265f9c70d8c7c",
+      "content_kind": "current evidence including holdings/cases/limits; forbidden to historical workers"
+    },
+    {
+      "path": "current-library/tech/common_disclosure.json",
+      "sha256": "1e643242dd12a3b29fcc27a4be8c7aaffe24e859a071772647ce7d9d73a8f5dd",
+      "content_kind": "current evidence including holdings/cases/limits; forbidden to historical workers"
+    },
+    {
+      "path": "current-library/tech/case_selection.json",
+      "sha256": "972a2a3852cb3ebed141191e9e699b249cdd917872bac240cf25c90648284cb9",
+      "content_kind": "current evidence including holdings/cases/limits; forbidden to historical workers"
+    },
+    {
+      "path": "current-library/tech/qa_report.json",
+      "sha256": "1cea819cb614d0f2a0367b8bc5599ee0917138ca954a382134534c9a3611aec3",
+      "content_kind": "current evidence including holdings/cases/limits; forbidden to historical workers"
+    },
+    {
+      "path": "current-library/tech/rule_anchors.json",
+      "sha256": "160bc8ba0b50b15e89bcdd26f4da4565a7df3fe2c8f7c411a4d9c33e8e1a7ba0",
+      "content_kind": "current evidence including holdings/cases/limits; forbidden to historical workers"
+    },
+    {
+      "path": "current-library/tech/pre_2026_rule_anchors.json",
+      "sha256": "940260bd4c8f0630dc9fb3cd18824b39dac0c4283724659a046050d3b4f1af0a",
+      "content_kind": "current evidence including holdings/cases/limits; forbidden to historical workers"
+    }
+  ],
+  "corpus_limits": [
+    "Not a scan of all lifetime content, all interviews, all transactions or all fund portfolios.",
+    "Purposive famous-success selection paired with adverse/counterexample evidence, recorded before detailed writeups. Not a predictive backtest, hit rate or representative sample.",
+    "Third-party holdings aggregators as core proof",
+    "Persona quotations without operational evidence",
+    "Paywalled/private investment-committee papers unavailable to this audit",
+    "Social media feeds/podcast lifetime transcripts",
+    "Private fund audited return histories not publicly recovered"
+  ],
+  "normalization": {
+    "original_dossier_path": "tech/brad_gerstner_altimeter.json",
+    "original_dossier_sha256": "7ad642aa3fafca608f7a24d22843999359840acabe35d952aff6ed2d5c6d2025",
+    "field_mapping": {
+      "method_fact": "/process_rules/*/documented_rule",
+      "our_design_questions": "/process_rules/*/skill_adaptation/questions",
+      "sources": "/source_ids joins tech/sources.json object keys",
+      "historical_eligibility": "/process_rules/*/pre_2026_benchmark_eligible and source-level /pre_2026_eligibility",
+      "independently_authored_requirements": "required_inputs/falsifiers derive from the material mechanism and retained source-specific scope; these supplement raw evidence and are explicitly non-native."
+    },
+    "raw_evidence_preserved": true,
+    "source_audit_receipt_sha256": "e44ad83dfdb4b25dd4bbe3965a3a239d547d9ccb023308aa86799ae324afcb3a"
+  }
+}

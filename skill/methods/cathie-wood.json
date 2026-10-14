@@ -1,0 +1,939 @@
+{
+  "schema_version": "investment-master-method/v0.1-draft",
+  "master_id": "cathie-wood",
+  "catalogue_entity_id": "cathie-wood",
+  "display_name": "Cathie Wood / ARK",
+  "classification": "core_dossier",
+  "source_stream": "tech",
+  "source_acceptance": "accepted",
+  "implementation_ready": false,
+  "identity_and_mandate_record": {
+    "person": "Cathie Wood",
+    "organization": "ARK Investment Management LLC",
+    "role": "Founder; CIO and portfolio manager with final investment approval; ARKK day-to-day PM",
+    "role_evidence_dates": [
+      "2025-11-30",
+      "2026-10-13 retrieval of undated current process"
+    ],
+    "source_ids": [
+      "ARK-FAQ",
+      "ARK-PROC",
+      "ARK-PROSPECTUS-20251130"
+    ],
+    "organization_start": "2014-01 adviser registration",
+    "decision_attribution": "Research is team-produced; final portfolio approval is Wood. Do not assign every analyst valuation to her authorship or every manager filing to one ETF."
+  },
+  "scope": {
+    "strong": [
+      "Current organization innovation/adoption scenario research"
+    ],
+    "conditional": [
+      "Historical case-bounded technology scenarios with price/funding bridge"
+    ],
+    "not_established": [
+      "Generic technology enthusiasm",
+      "Model percentile as calibrated probability",
+      "All analyst model assumptions as Wood personal authorship"
+    ],
+    "historical_status": "Most current general ARK process rules are undated and ineligible; dated Tesla-model methods remain case-specific. Current GitHub master and revised 2021 commentary excluded unless a pre-cutoff version is pinned."
+  },
+  "rules": [
+    {
+      "rule_id": "ARK-R00",
+      "method_fact": "A positive valuation thesis does not require holding until its target.",
+      "method_fact_origin": "Organization/team/case scope as recorded; not a claimed exact personal algorithm.",
+      "source_ids": [
+        "ARK-TESLA-20180822"
+      ],
+      "claim_ids": [],
+      "our_design_questions": [
+        "What has changed in funding, competition, regulation or portfolio liquidity since underwriting?",
+        "Is the same expected return still attractive after updated price and share count?"
+      ],
+      "required_inputs": [
+        "Dated adoption/unit/cost evidence appropriate to the source-specific platform",
+        "Production, margins, capital efficiency, financing and diluted shares",
+        "Source-specific scenario horizon and all optional-business assumptions",
+        "Price and correlated funding/liquidity downside"
+      ],
+      "falsifiers": [
+        "Adoption, unit economics or delivery timing materially misses the assumed path",
+        "Dilution/funding or competitive price pressure removes per-share value",
+        "Case-specific optionality is unavailable or irrelevant to the analysed business"
+      ],
+      "limits": [
+        "Tesla 2018 open-letter caveat",
+        "dated_case_disclosure",
+        "Independent synthesis, not exact investor algorithm",
+        "Required-input checklist and falsification tests are independent application design, not claimed investor-native rules or thresholds."
+      ],
+      "historical_eligibility": {
+        "status": "candidate_eligible_pending_review",
+        "eligible_source_ids": [
+          "ARK-TESLA-20180822"
+        ],
+        "reason": "dated_pre_2026_method; independent acceptance remains pending."
+      },
+      "original_record": {
+        "rule_id": "ARK-R00",
+        "documented_rule": "A positive valuation thesis does not require holding until its target.",
+        "source_ids": [
+          "ARK-TESLA-20180822"
+        ],
+        "precision": "dated_case_disclosure",
+        "scope": "Tesla 2018 open-letter caveat",
+        "skill_adaptation": {
+          "authorship": "Independent synthesis, not exact investor algorithm",
+          "questions": [
+            "What has changed in funding, competition, regulation or portfolio liquidity since underwriting?",
+            "Is the same expected return still attractive after updated price and share count?"
+          ]
+        },
+        "pre_2026_benchmark_eligible": true,
+        "evidence_time_class": "dated_pre_2026_method",
+        "evidence_anchors": [
+          {
+            "anchor_id": "ARK-R00-A1",
+            "source_id": "ARK-TESLA-20180822",
+            "source_url": "https://www.ark-invest.com/articles/analyst-research/tesla-private",
+            "source_publication_date": "2018-08-22",
+            "locator": {
+              "type": "html_footnote",
+              "footnote": 1,
+              "position": "After the assumptions bullet list and before the podcast section"
+            },
+            "supporting_paraphrase": "Positive assessment allows reduction before valuation target.",
+            "support_role": "direct_case_disclosure_qualification",
+            "native_attribution": "Cathie Wood / ARK",
+            "native_scope": "Tesla 2018 open letter only",
+            "verified_against_source_on": "2026-10-13",
+            "supplementary_html_text_line_range_at_retrieval": {
+              "start": 154,
+              "end": 156,
+              "caveat": "Retrieval-specific convenience; section/page/paragraph is the primary locator."
+            }
+          }
+        ],
+        "auditor_adaptation_boundary": "Evidence anchors authenticate the documented native principle only. Skill questions are independent auditor operationalization, not verbatim investor instructions or proof of historical use."
+      }
+    },
+    {
+      "rule_id": "ARK-R01",
+      "method_fact": "Start with cost declines, demand elasticity and cross-industry platform adoption.",
+      "method_fact_origin": "Organization/team/case scope as recorded; not a claimed exact personal algorithm.",
+      "source_ids": [
+        "ARK-PROC"
+      ],
+      "claim_ids": [],
+      "our_design_questions": [
+        "Which input cost demonstrably falls, and what independent customer behavior validates resulting demand?",
+        "What fails if learning curves flatten or competition passes savings to customers?"
+      ],
+      "required_inputs": [
+        "Dated adoption/unit/cost evidence appropriate to the source-specific platform",
+        "Production, margins, capital efficiency, financing and diluted shares",
+        "Source-specific scenario horizon and all optional-business assumptions",
+        "Price and correlated funding/liquidity downside"
+      ],
+      "falsifiers": [
+        "Adoption, unit economics or delivery timing materially misses the assumed path",
+        "Dilution/funding or competitive price pressure removes per-share value",
+        "Case-specific optionality is unavailable or irrelevant to the analysed business"
+      ],
+      "limits": [
+        "organization/current",
+        "documented_process",
+        "independent research synthesis, not investor quotation or claimed exact algorithm",
+        "Required-input checklist and falsification tests are independent application design, not claimed investor-native rules or thresholds."
+      ],
+      "historical_eligibility": {
+        "status": "excluded",
+        "eligible_source_ids": [],
+        "reason": "audit_only_current_or_undated_method; independent acceptance remains pending."
+      },
+      "original_record": {
+        "rule_id": "ARK-R01",
+        "documented_rule": "Start with cost declines, demand elasticity and cross-industry platform adoption.",
+        "source_ids": [
+          "ARK-PROC"
+        ],
+        "precision": "documented_process",
+        "scope": "organization/current",
+        "skill_adaptation": {
+          "authorship": "independent research synthesis, not investor quotation or claimed exact algorithm",
+          "questions": [
+            "Which input cost demonstrably falls, and what independent customer behavior validates resulting demand?",
+            "What fails if learning curves flatten or competition passes savings to customers?"
+          ]
+        },
+        "pre_2026_benchmark_eligible": false,
+        "evidence_time_class": "audit_only_current_or_undated_method",
+        "evidence_anchors": [
+          {
+            "anchor_id": "ARK-R01-A1",
+            "source_id": "ARK-PROC",
+            "source_url": "https://www.ark-invest.com/investment-process",
+            "source_publication_date": null,
+            "locator": {
+              "type": "html_section",
+              "heading": "Top-Down: Sizing The Opportunity",
+              "paragraph": 1
+            },
+            "supporting_paraphrase": "Cost curves and demand elasticity identify disruption.",
+            "support_role": "direct_documented_process",
+            "native_attribution": "ARK Investment Management",
+            "native_scope": "Undated current organization process; historical packet excluded",
+            "verified_against_source_on": "2026-10-13",
+            "supplementary_html_text_line_range_at_retrieval": {
+              "start": 169,
+              "end": 171,
+              "caveat": "Retrieval-specific convenience; section/page/paragraph is the primary locator."
+            }
+          }
+        ],
+        "auditor_adaptation_boundary": "Evidence anchors authenticate the documented native principle only. Skill questions are independent auditor operationalization, not verbatim investor instructions or proof of historical use."
+      }
+    },
+    {
+      "rule_id": "ARK-R02",
+      "method_fact": "Translate adoption into five-year unit growth, costs, share count and valuation.",
+      "method_fact_origin": "Organization/team/case scope as recorded; not a claimed exact personal algorithm.",
+      "source_ids": [
+        "ARK-PROC"
+      ],
+      "claim_ids": [],
+      "our_design_questions": [
+        "Show current business, optional business and terminal multiple separately.",
+        "Bridge enterprise value to equity after all expected dilution and financing needs."
+      ],
+      "required_inputs": [
+        "Dated adoption/unit/cost evidence appropriate to the source-specific platform",
+        "Production, margins, capital efficiency, financing and diluted shares",
+        "Source-specific scenario horizon and all optional-business assumptions",
+        "Price and correlated funding/liquidity downside"
+      ],
+      "falsifiers": [
+        "Adoption, unit economics or delivery timing materially misses the assumed path",
+        "Dilution/funding or competitive price pressure removes per-share value",
+        "Case-specific optionality is unavailable or irrelevant to the analysed business"
+      ],
+      "limits": [
+        "organization/current",
+        "documented_process",
+        "independent research synthesis, not investor quotation or claimed exact algorithm",
+        "Required-input checklist and falsification tests are independent application design, not claimed investor-native rules or thresholds."
+      ],
+      "historical_eligibility": {
+        "status": "excluded",
+        "eligible_source_ids": [],
+        "reason": "audit_only_current_or_undated_method; independent acceptance remains pending."
+      },
+      "original_record": {
+        "rule_id": "ARK-R02",
+        "documented_rule": "Translate adoption into five-year unit growth, costs, share count and valuation.",
+        "source_ids": [
+          "ARK-PROC"
+        ],
+        "precision": "documented_process",
+        "scope": "organization/current",
+        "skill_adaptation": {
+          "authorship": "independent research synthesis, not investor quotation or claimed exact algorithm",
+          "questions": [
+            "Show current business, optional business and terminal multiple separately.",
+            "Bridge enterprise value to equity after all expected dilution and financing needs."
+          ]
+        },
+        "pre_2026_benchmark_eligible": false,
+        "evidence_time_class": "audit_only_current_or_undated_method",
+        "evidence_anchors": [
+          {
+            "anchor_id": "ARK-R02-A1",
+            "source_id": "ARK-PROC",
+            "source_url": "https://www.ark-invest.com/investment-process",
+            "source_publication_date": null,
+            "locator": {
+              "type": "html_section",
+              "heading": "Bottom-Up: Stock Selection And Valuation",
+              "paragraph": 1
+            },
+            "supporting_paraphrase": "Five-year models include volumes, costs, adoption, shares and multiples.",
+            "support_role": "direct_documented_model_components",
+            "native_attribution": "ARK Investment Management",
+            "native_scope": "Undated current organization process; historical packet excluded",
+            "verified_against_source_on": "2026-10-13",
+            "supplementary_html_text_line_range_at_retrieval": {
+              "start": 172,
+              "end": 173,
+              "caveat": "Retrieval-specific convenience; section/page/paragraph is the primary locator."
+            }
+          }
+        ],
+        "auditor_adaptation_boundary": "Evidence anchors authenticate the documented native principle only. Skill questions are independent auditor operationalization, not verbatim investor instructions or proof of historical use."
+      }
+    },
+    {
+      "rule_id": "ARK-R03",
+      "method_fact": "Review research weekly; resize relative opportunity and changed thesis.",
+      "method_fact_origin": "Organization/team/case scope as recorded; not a claimed exact personal algorithm.",
+      "source_ids": [
+        "ARK-PROC"
+      ],
+      "claim_ids": [],
+      "our_design_questions": [
+        "Record the new observable that changed conviction before changing the forecast.",
+        "Test common duration, liquidity and funding risks across apparently different themes."
+      ],
+      "required_inputs": [
+        "Dated adoption/unit/cost evidence appropriate to the source-specific platform",
+        "Production, margins, capital efficiency, financing and diluted shares",
+        "Source-specific scenario horizon and all optional-business assumptions",
+        "Price and correlated funding/liquidity downside"
+      ],
+      "falsifiers": [
+        "Adoption, unit economics or delivery timing materially misses the assumed path",
+        "Dilution/funding or competitive price pressure removes per-share value",
+        "Case-specific optionality is unavailable or irrelevant to the analysed business"
+      ],
+      "limits": [
+        "organization/current",
+        "documented_process",
+        "independent research synthesis, not investor quotation or claimed exact algorithm",
+        "Required-input checklist and falsification tests are independent application design, not claimed investor-native rules or thresholds."
+      ],
+      "historical_eligibility": {
+        "status": "excluded",
+        "eligible_source_ids": [],
+        "reason": "audit_only_current_or_undated_method; independent acceptance remains pending."
+      },
+      "original_record": {
+        "rule_id": "ARK-R03",
+        "documented_rule": "Review research weekly; resize relative opportunity and changed thesis.",
+        "source_ids": [
+          "ARK-PROC"
+        ],
+        "precision": "documented_process",
+        "scope": "organization/current",
+        "skill_adaptation": {
+          "authorship": "independent research synthesis, not investor quotation or claimed exact algorithm",
+          "questions": [
+            "Record the new observable that changed conviction before changing the forecast.",
+            "Test common duration, liquidity and funding risks across apparently different themes."
+          ]
+        },
+        "pre_2026_benchmark_eligible": false,
+        "evidence_time_class": "audit_only_current_or_undated_method",
+        "evidence_anchors": [
+          {
+            "anchor_id": "ARK-R03-A1",
+            "source_id": "ARK-PROC",
+            "source_url": "https://www.ark-invest.com/investment-process",
+            "source_publication_date": null,
+            "locator": {
+              "type": "html_section",
+              "heading": "Bottom-Up: Portfolio and Risk Management",
+              "paragraphs": [
+                1,
+                2
+              ]
+            },
+            "supporting_paraphrase": "Weekly thesis review; relative opportunity and thesis changes drive resizing.",
+            "support_role": "direct_documented_monitoring_and_exit_process",
+            "native_attribution": "ARK Investment Management",
+            "native_scope": "Undated current organization process; historical packet excluded",
+            "verified_against_source_on": "2026-10-13",
+            "supplementary_html_text_line_range_at_retrieval": {
+              "start": 191,
+              "end": 193,
+              "caveat": "Retrieval-specific convenience; section/page/paragraph is the primary locator."
+            }
+          }
+        ],
+        "auditor_adaptation_boundary": "Evidence anchors authenticate the documented native principle only. Skill questions are independent auditor operationalization, not verbatim investor instructions or proof of historical use."
+      }
+    },
+    {
+      "rule_id": "ARK-R04",
+      "method_fact": "Tesla scenarios explicitly vary autonomous timing, production and capital efficiency.",
+      "method_fact_origin": "Organization/team/case scope as recorded; not a claimed exact personal algorithm.",
+      "source_ids": [
+        "ARK-TESLA-20220414"
+      ],
+      "claim_ids": [],
+      "our_design_questions": [
+        "Report a no-autonomy value separately.",
+        "Stress correlated bad outcomes, including funding pressure during delayed adoption.",
+        "A simulated percentile is conditional on assumptions, not a demonstrated real-world success probability."
+      ],
+      "required_inputs": [
+        "Dated adoption/unit/cost evidence appropriate to the source-specific platform",
+        "Production, margins, capital efficiency, financing and diluted shares",
+        "Source-specific scenario horizon and all optional-business assumptions",
+        "Price and correlated funding/liquidity downside"
+      ],
+      "falsifiers": [
+        "Adoption, unit economics or delivery timing materially misses the assumed path",
+        "Dilution/funding or competitive price pressure removes per-share value",
+        "Case-specific optionality is unavailable or irrelevant to the analysed business"
+      ],
+      "limits": [
+        "Tesla 2022 model only",
+        "case_specific_model",
+        "independent research synthesis, not investor quotation or claimed exact algorithm",
+        "Required-input checklist and falsification tests are independent application design, not claimed investor-native rules or thresholds."
+      ],
+      "historical_eligibility": {
+        "status": "candidate_eligible_pending_review",
+        "eligible_source_ids": [
+          "ARK-TESLA-20220414"
+        ],
+        "reason": "dated_pre_2026_method; independent acceptance remains pending."
+      },
+      "original_record": {
+        "rule_id": "ARK-R04",
+        "documented_rule": "Tesla scenarios explicitly vary autonomous timing, production and capital efficiency.",
+        "source_ids": [
+          "ARK-TESLA-20220414"
+        ],
+        "precision": "case_specific_model",
+        "scope": "Tesla 2022 model only",
+        "skill_adaptation": {
+          "authorship": "independent research synthesis, not investor quotation or claimed exact algorithm",
+          "questions": [
+            "Report a no-autonomy value separately.",
+            "Stress correlated bad outcomes, including funding pressure during delayed adoption.",
+            "A simulated percentile is conditional on assumptions, not a demonstrated real-world success probability."
+          ]
+        },
+        "pre_2026_benchmark_eligible": true,
+        "evidence_time_class": "dated_pre_2026_method",
+        "evidence_anchors": [
+          {
+            "anchor_id": "ARK-R04-A1",
+            "source_id": "ARK-TESLA-20220414",
+            "source_url": "https://www.ark-invest.com/articles/valuation-models/arks-tesla-model",
+            "source_publication_date": "2022-04-15",
+            "locator": {
+              "type": "html_model_table",
+              "heading": "Key Model Inputs",
+              "table_ordinal_within_section": 1,
+              "rows_by_topic": [
+                "Capital efficiency",
+                "Maximum production increase",
+                "Robotaxi launch year"
+              ]
+            },
+            "supporting_paraphrase": "Scenarios vary capital efficiency, production and autonomous launch.",
+            "support_role": "direct_case_specific_model_variables",
+            "native_attribution": "Tasha Keeney / ARK research team",
+            "native_scope": "April 2022 Tesla model, 2026 horizon",
+            "verified_against_source_on": "2026-10-13",
+            "supplementary_html_text_line_range_at_retrieval": {
+              "start": 178,
+              "end": 191,
+              "caveat": "Retrieval-specific convenience; section/page/paragraph is the primary locator."
+            }
+          },
+          {
+            "anchor_id": "ARK-R04-A2",
+            "source_id": "ARK-TESLA-20220414",
+            "source_url": "https://www.ark-invest.com/articles/valuation-models/arks-tesla-model",
+            "source_publication_date": "2022-04-15",
+            "locator": {
+              "type": "html_section",
+              "heading": "Autonomous Driving",
+              "paragraphs": [
+                3,
+                4,
+                5
+              ],
+              "qualification_locator": "Forecast warning immediately before the section; explanation beneath the scenario examples"
+            },
+            "supporting_paraphrase": "Results depend on launch timing and model assumptions.",
+            "support_role": "conditional_simulation_qualification_not_calibrated_probabilities",
+            "native_attribution": "Tasha Keeney / ARK research team",
+            "native_scope": "April 2022 Tesla model only",
+            "verified_against_source_on": "2026-10-13",
+            "supplementary_html_text_line_range_at_retrieval": {
+              "start": 190,
+              "end": 207,
+              "caveat": "Retrieval-specific convenience; section/page/paragraph is the primary locator."
+            }
+          }
+        ],
+        "auditor_adaptation_boundary": "Evidence anchors authenticate the documented native principle only. Skill questions are independent auditor operationalization, not verbatim investor instructions or proof of historical use."
+      }
+    }
+  ],
+  "source_records": [
+    {
+      "source_id": "ARK-PROC",
+      "title": "ARK investment process",
+      "original_url": "https://www.ark-invest.com/investment-process",
+      "published_date": null,
+      "report_period": null,
+      "authors": [
+        "ARK Investment Management"
+      ],
+      "source_type": "first_party",
+      "retrieved_date": "2026-10-13",
+      "date_precision": "publication_date_not_shown",
+      "evidence_notes": [
+        "Undated current process, not evidence every step governed every historical decision."
+      ],
+      "locator": null,
+      "facts": {
+        "research": "Top-down innovation cost curves and demand elasticity; open expert/crowd feedback; bottom-up five-year models; weekly research/portfolio meetings.",
+        "valuation": "Unit growth, adoption, costs, penetration, share count and future valuation multiples.",
+        "risk": "Rebalance relative opportunity; exit or resize after thesis change, unsuitable metrics or loss of innovation leadership.",
+        "authority": "Cathie Wood, CIO and portfolio manager, has final approval and accountability; themed analysts and Brett Winton support research."
+      },
+      "pre_2026_eligibility": {
+        "cutoff_utc": "2025-12-31T23:59:59Z",
+        "known_publication_before_cutoff": false,
+        "method_source_eligible": false,
+        "eligibility_reason": "Excluded: publication/revision day unknown or current mutable version not pinned.",
+        "historical_packet_scope": "Only information contained in the verified dated source. No later holdings, current role facts or subsequent outcomes may be appended as if known then."
+      },
+      "rule_anchor_ids": [
+        "ARK-R01-A1",
+        "ARK-R02-A1",
+        "ARK-R03-A1"
+      ]
+    },
+    {
+      "source_id": "ARK-FAQ",
+      "title": "ARK frequently asked questions",
+      "original_url": "https://www.ark-invest.com/faq",
+      "published_date": null,
+      "report_period": null,
+      "authors": [],
+      "source_type": "first_party",
+      "retrieved_date": "2026-10-13",
+      "date_precision": "publication_date_not_shown",
+      "evidence_notes": [],
+      "locator": null,
+      "facts": {
+        "identity": "Cathie Wood registered ARK as an investment adviser in January 2014.",
+        "vehicles": "ETF, separately managed account and other public/private vehicle offerings vary by jurisdiction and product."
+      },
+      "pre_2026_eligibility": {
+        "cutoff_utc": "2025-12-31T23:59:59Z",
+        "known_publication_before_cutoff": false,
+        "method_source_eligible": false,
+        "eligibility_reason": "Excluded: publication/revision day unknown or current mutable version not pinned.",
+        "historical_packet_scope": "Only information contained in the verified dated source. No later holdings, current role facts or subsequent outcomes may be appended as if known then."
+      },
+      "rule_anchor_ids": []
+    },
+    {
+      "source_id": "ARK-DAILY",
+      "title": "Where can I download the latest ETF holdings?",
+      "original_url": "https://helpcenter.ark-funds.com/where-can-i-download-the-latest-etf-holdings",
+      "published_date": null,
+      "report_period": null,
+      "authors": [],
+      "source_type": "first_party",
+      "retrieved_date": "2026-10-13",
+      "date_precision": "publication_date_not_shown",
+      "evidence_notes": [],
+      "locator": null,
+      "facts": {
+        "coverage": "Official ETF holdings updated at each trading-day end; latest-file availability does not itself establish a historical archive."
+      },
+      "pre_2026_eligibility": {
+        "cutoff_utc": "2025-12-31T23:59:59Z",
+        "known_publication_before_cutoff": false,
+        "method_source_eligible": false,
+        "eligibility_reason": "Excluded: publication/revision day unknown or current mutable version not pinned.",
+        "historical_packet_scope": "Only information contained in the verified dated source. No later holdings, current role facts or subsequent outcomes may be appended as if known then."
+      },
+      "rule_anchor_ids": []
+    },
+    {
+      "source_id": "ARK-TRADES",
+      "title": "ARK trade notifications",
+      "original_url": "https://www.ark-funds.com/ark-trade-notifications",
+      "published_date": null,
+      "report_period": null,
+      "authors": [],
+      "source_type": "first_party",
+      "retrieved_date": "2026-10-13",
+      "date_precision": "publication_date_not_shown",
+      "evidence_notes": [
+        "The live page includes a T+2 settlement statement; this audit does not adopt that possibly stale operational detail."
+      ],
+      "locator": null,
+      "facts": {
+        "limitations": "Trade files follow full execution at day end but are unofficial and unreconciled; they exclude IPO/secondary-offering transactions and ETF creation/redemption activity. Upload time is not exact execution time; additional files may follow."
+      },
+      "pre_2026_eligibility": {
+        "cutoff_utc": "2025-12-31T23:59:59Z",
+        "known_publication_before_cutoff": false,
+        "method_source_eligible": false,
+        "eligibility_reason": "Excluded: publication/revision day unknown or current mutable version not pinned.",
+        "historical_packet_scope": "Only information contained in the verified dated source. No later holdings, current role facts or subsequent outcomes may be appended as if known then."
+      },
+      "rule_anchor_ids": []
+    },
+    {
+      "source_id": "ARK-PROSPECTUS-20251130",
+      "title": "ARK Innovation ETF summary prospectus",
+      "original_url": "https://assets.ark-funds.com/media-12243148-2a3e-4996-9763-260f93905eb9/43f4ba54-a65f-44d9-b18c-c911a1d6e3e4/ARK%20Innovation%20ETF%20Summary%20Prospectus.pdf",
+      "published_date": "2025-11-30",
+      "report_period": null,
+      "authors": [
+        "ARK ETF Trust"
+      ],
+      "source_type": "fund_prospectus",
+      "retrieved_date": "2026-10-13",
+      "date_precision": "day",
+      "evidence_notes": [
+        "Return chart visually checked in locally rendered page; not inferred from OCR."
+      ],
+      "locator": "Investment strategy and portfolio manager; printed page 11, PDF page 12 for chart",
+      "facts": {
+        "mandate": "Active, non-diversified capital-appreciation equity ETF; normally at least 65% in domestic/foreign equities relevant to disruptive innovation.",
+        "manager": "Wood responsible for day-to-day portfolio management since inception.",
+        "calendar_returns_pct": {
+          "2020": 152.51,
+          "2021": -23.36,
+          "2022": -66.99,
+          "2023": 67.82,
+          "2024": 8.36
+        },
+        "worst_quarter_pct": -39.69,
+        "worst_quarter_ending": "2022-06-30",
+        "five_year_annualized_through_20241231_pct": {
+          "ARKK_before_tax": 3.05,
+          "SP500": 14.53
+        },
+        "turnover_latest_fiscal_year_pct": 43,
+        "management_fee_pct": 0.75
+      },
+      "pre_2026_eligibility": {
+        "cutoff_utc": "2025-12-31T23:59:59Z",
+        "known_publication_before_cutoff": true,
+        "method_source_eligible": true,
+        "eligibility_reason": "Dated before cutoff; method is case/fund/team-specific, not a universal personal trading rule.",
+        "historical_packet_scope": "Only information contained in the verified dated source. No later holdings, current role facts or subsequent outcomes may be appended as if known then."
+      },
+      "rule_anchor_ids": []
+    },
+    {
+      "source_id": "ARK-TESLA-20180822",
+      "title": "An open letter opposing taking Tesla private",
+      "original_url": "https://www.ark-invest.com/articles/analyst-research/tesla-private",
+      "published_date": "2018-08-22",
+      "report_period": null,
+      "authors": [
+        "Cathie Wood"
+      ],
+      "source_type": "first_party",
+      "retrieved_date": "2026-10-13",
+      "date_precision": "day",
+      "evidence_notes": [],
+      "locator": null,
+      "facts": {
+        "status": "Already a shareholder; opposed proposed $420 go-private price.",
+        "valuation": "Five-year $700-$4,000 pre-split range. Bull scenario shifts profit toward an autonomous mobility network with much higher margins.",
+        "scope": "Model covered cars and certain robotaxi networks, excluded several additional markets, and contemplated substantial dilution.",
+        "team": "Brett Winton, Tasha Keeney and Sam Korus had developed the evolving model over four years.",
+        "exit_caveat": "Positive thesis permits reduction/liquidation before target, including changed markets, flows, fundamentals or regulation.",
+        "split_basis": "Prices before August 2020 five-for-one and August 2022 three-for-one splits."
+      },
+      "pre_2026_eligibility": {
+        "cutoff_utc": "2025-12-31T23:59:59Z",
+        "known_publication_before_cutoff": true,
+        "method_source_eligible": true,
+        "eligibility_reason": "Dated before cutoff; method is case/fund/team-specific, not a universal personal trading rule.",
+        "historical_packet_scope": "Only information contained in the verified dated source. No later holdings, current role facts or subsequent outcomes may be appended as if known then."
+      },
+      "rule_anchor_ids": [
+        "ARK-R00-A1"
+      ]
+    },
+    {
+      "source_id": "ARK-TESLA-20220414",
+      "title": "ARK Tesla valuation model, 2026 horizon",
+      "original_url": "https://www.ark-invest.com/articles/valuation-models/arks-tesla-model",
+      "published_date": "2022-04-15",
+      "report_period": null,
+      "authors": [
+        "Tasha Keeney"
+      ],
+      "source_type": "first_party",
+      "retrieved_date": "2026-10-13",
+      "date_precision": "day",
+      "evidence_notes": [
+        "Article date April 15; text and GitHub version identify model release April 14. Prices precede August 2022 three-for-one split."
+      ],
+      "locator": null,
+      "facts": {
+        "release_date": "2022-04-14",
+        "target_year": 2026,
+        "pre_split_prices_usd": {
+          "expected": 4600,
+          "bear_25th_percentile": 2900,
+          "bull_75th_percentile": 5800
+        },
+        "method": "One million Monte Carlo runs, 38 inputs; robotaxi assumptions contribute roughly 60% of expected equity value and over half of modeled 2026 EBITDA.",
+        "sensitivity": "Autonomous launch timing, penetration, production, margins and capital efficiency; probabilities are model assumptions, not independently calibrated frequencies."
+      },
+      "pre_2026_eligibility": {
+        "cutoff_utc": "2025-12-31T23:59:59Z",
+        "known_publication_before_cutoff": true,
+        "method_source_eligible": true,
+        "eligibility_reason": "Dated before cutoff; method is case/fund/team-specific, not a universal personal trading rule.",
+        "historical_packet_scope": "Only information contained in the verified dated source. No later holdings, current role facts or subsequent outcomes may be appended as if known then."
+      },
+      "rule_anchor_ids": [
+        "ARK-R04-A1",
+        "ARK-R04-A2"
+      ]
+    },
+    {
+      "source_id": "ARK-GITHUB-TESLA",
+      "title": "ARK official Tesla valuation model repository",
+      "original_url": "https://github.com/ARKInvest/ARK-Invest-Tesla-Valuation-Model",
+      "published_date": null,
+      "report_period": null,
+      "authors": [
+        "Sam Korus",
+        "Tasha Keeney",
+        "Brett Winton"
+      ],
+      "source_type": "first_party_open_research_repository",
+      "retrieved_date": "2026-10-13",
+      "date_precision": "publication_date_not_shown",
+      "evidence_notes": [
+        "Read README only; no workbook or repository code executed. Current master is mutable; no commit was pinned in this research."
+      ],
+      "locator": null,
+      "facts": {
+        "versions": {
+          "V1": "2019-05-22",
+          "V4": "2020-03-25",
+          "V5": "2021-03-19",
+          "V6": "2022-04-14",
+          "V7": "2023-04-20",
+          "V8": "2024-06-12"
+        },
+        "limitations": "README warns independent-input simulation omits capital-market reflexivity and can give narrower ranges than a broader manual view.",
+        "license": "README explicitly uses Creative Commons Attribution-NonCommercial 4.0; commercial use requires written permission. Not MIT."
+      },
+      "pre_2026_eligibility": {
+        "cutoff_utc": "2025-12-31T23:59:59Z",
+        "known_publication_before_cutoff": false,
+        "method_source_eligible": false,
+        "eligibility_reason": "Excluded: publication/revision day unknown or current mutable version not pinned.",
+        "historical_packet_scope": "Only information contained in the verified dated source. No later holdings, current role facts or subsequent outcomes may be appended as if known then."
+      },
+      "rule_anchor_ids": []
+    },
+    {
+      "source_id": "ARK-INNOVATION-20211218",
+      "title": "Innovation stocks are not in a bubble: they are in deep value territory",
+      "original_url": "https://www.ark-invest.com/articles/market-commentary/innovation-stocks-are-not-in-a-bubble",
+      "published_date": "2021-12-18",
+      "report_period": null,
+      "authors": [
+        "Cathie Wood"
+      ],
+      "source_type": "first_party",
+      "retrieved_date": "2026-10-13",
+      "date_precision": "day",
+      "evidence_notes": [
+        "Official live page date is December 18. An unchanged original snapshot was not recovered. Footnote says original return statement was revised to clarify it referred broadly to strategies, not one fund/product."
+      ],
+      "locator": null,
+      "facts": {
+        "thesis": "Inflation/discount-rate fears had depressed innovation equities; Wood expected deflation and viewed them as deep value.",
+        "forecast": "Broad-strategy five-year compounded annual return expectation of 30%-40%, subject to later clarification.",
+        "horizon_status": "Five years from late 2021 ends in late 2026; incomplete on this audit date."
+      },
+      "pre_2026_eligibility": {
+        "cutoff_utc": "2025-12-31T23:59:59Z",
+        "known_publication_before_cutoff": false,
+        "method_source_eligible": false,
+        "eligibility_reason": "Excluded: publication/revision day unknown or current mutable version not pinned.",
+        "historical_packet_scope": "Only information contained in the verified dated source. No later holdings, current role facts or subsequent outcomes may be appended as if known then."
+      },
+      "rule_anchor_ids": []
+    },
+    {
+      "source_id": "ARK-13F-20201231",
+      "title": "ARK 13F information table, Q4 2020",
+      "original_url": "https://www.sec.gov/Archives/edgar/data/1697748/000110465921021679/xslForm13F_X01/infotable.xml",
+      "published_date": "2021-02-12",
+      "report_period": "2020-12-31",
+      "authors": [
+        "ARK Investment Management LLC"
+      ],
+      "source_type": "manager_sec_13f",
+      "retrieved_date": "2026-10-13",
+      "date_precision": "day",
+      "evidence_notes": [
+        "Accession 0001104659-21-021679; accepted 2021-02-12 13:58:34 ET. Values in thousands of dollars."
+      ],
+      "locator": null,
+      "facts": {
+        "TSLA": {
+          "shares": 4134226,
+          "raw_value": 2917399,
+          "value_unit": "USD_thousands",
+          "normalized_usd": 2917399000
+        },
+        "scope": "Manager aggregate, not ARKK-only.",
+        "split_basis": "Share counts after 2020 five-for-one, before 2022 three-for-one Tesla split."
+      },
+      "pre_2026_eligibility": {
+        "cutoff_utc": "2025-12-31T23:59:59Z",
+        "known_publication_before_cutoff": true,
+        "method_source_eligible": false,
+        "eligibility_reason": "Dated before cutoff, but this source supplies identity, holdings or historical outcomes rather than operational method.",
+        "historical_packet_scope": "Only information contained in the verified dated source. No later holdings, current role facts or subsequent outcomes may be appended as if known then."
+      },
+      "rule_anchor_ids": []
+    },
+    {
+      "source_id": "TSLA-10K-2020",
+      "title": "Tesla 2020 Form 10-K",
+      "original_url": "https://www.sec.gov/Archives/edgar/data/1318605/000156459021004599/tsla-10k_20201231.htm",
+      "published_date": "2021-02-08",
+      "report_period": "2020-12-31",
+      "authors": [
+        "Tesla Inc."
+      ],
+      "source_type": "issuer_sec_10k",
+      "retrieved_date": "2026-10-13",
+      "date_precision": "day",
+      "evidence_notes": [
+        "Original HTML downloaded and text inspected. Optional stock-performance image not verified; no exact Tesla security return claimed from this report."
+      ],
+      "locator": null,
+      "facts": {
+        "revenue_usd_million": {
+          "2018": 21461,
+          "2019": 24578,
+          "2020": 31536
+        },
+        "net_income_common_usd_million": {
+          "2019": -862,
+          "2020": 721
+        }
+      },
+      "pre_2026_eligibility": {
+        "cutoff_utc": "2025-12-31T23:59:59Z",
+        "known_publication_before_cutoff": true,
+        "method_source_eligible": false,
+        "eligibility_reason": "Dated before cutoff, but this source supplies identity, holdings or historical outcomes rather than operational method.",
+        "historical_packet_scope": "Only information contained in the verified dated source. No later holdings, current role facts or subsequent outcomes may be appended as if known then."
+      },
+      "rule_anchor_ids": []
+    },
+    {
+      "source_id": "COM-SEC13F",
+      "title": "SEC: Frequently Asked Questions About Form 13F",
+      "original_url": "https://www.sec.gov/rules-regulations/staff-guidance/frequently-asked-questions-about-form-13f",
+      "published_date": "2026-03-06",
+      "report_period": null,
+      "authors": [],
+      "source_type": "regulator_guidance",
+      "retrieved_date": "2026-10-13",
+      "date_precision": "day",
+      "evidence_notes": [
+        "Current page update; last-reviewed 2026-09-28. Earlier original-page date 2023-05-24."
+      ],
+      "locator": null,
+      "facts": {
+        "coverage": "Quarter-end covered long securities under investment discretion; generally U.S.-exchange stocks/ADRs and certain options, warrants and convertibles.",
+        "lag": "Quarterly filing due within 45 days, subject to applicable calendar rules.",
+        "excluded": "Short positions and written options; foreign-only listed stocks, private investments, cash and many other assets. Long/short positions must not be netted.",
+        "omissions": "Small holdings may be omitted only if both under 10,000 shares and under $200,000; confidential treatment can delay disclosure.",
+        "aggregation": "A manager filing can aggregate several accounts or other included managers. Sole discretion does not identify the individual who selected a position."
+      },
+      "pre_2026_eligibility": {
+        "cutoff_utc": "2025-12-31T23:59:59Z",
+        "known_publication_before_cutoff": false,
+        "method_source_eligible": false,
+        "eligibility_reason": "Excluded: published during 2026, after decision cutoff.",
+        "historical_packet_scope": "Only information contained in the verified dated source. No later holdings, current role facts or subsequent outcomes may be appended as if known then."
+      },
+      "rule_anchor_ids": []
+    }
+  ],
+  "evidence_artifacts": [
+    {
+      "path": "current-library/tech/cathie_wood_ark.json",
+      "sha256": "e56d8044ece4e69c2c4dae6d8286ffbe19fe1f04d8eb453923f34aae8bda6613",
+      "content_kind": "current evidence including holdings/cases/limits; forbidden to historical workers"
+    },
+    {
+      "path": "current-library/tech/ron_baron.json",
+      "sha256": "efe40af15b4a1df5ed4bca095487eb08faeb93dedaf660aa33a80dc4d94cf35f",
+      "content_kind": "current evidence including holdings/cases/limits; forbidden to historical workers"
+    },
+    {
+      "path": "current-library/tech/brad_gerstner_altimeter.json",
+      "sha256": "7ad642aa3fafca608f7a24d22843999359840acabe35d952aff6ed2d5c6d2025",
+      "content_kind": "current evidence including holdings/cases/limits; forbidden to historical workers"
+    },
+    {
+      "path": "current-library/tech/philippe_laffont_coatue.json",
+      "sha256": "098981fdd9979a116a018a70c9636b87bfff9387f0d449be57c5e011a8e9f5ca",
+      "content_kind": "current evidence including holdings/cases/limits; forbidden to historical workers"
+    },
+    {
+      "path": "current-library/tech/sources.json",
+      "sha256": "3fb2e0b0cc42f28fd0ed142aecfcda6baa592c873ce727d4452265f9c70d8c7c",
+      "content_kind": "current evidence including holdings/cases/limits; forbidden to historical workers"
+    },
+    {
+      "path": "current-library/tech/common_disclosure.json",
+      "sha256": "1e643242dd12a3b29fcc27a4be8c7aaffe24e859a071772647ce7d9d73a8f5dd",
+      "content_kind": "current evidence including holdings/cases/limits; forbidden to historical workers"
+    },
+    {
+      "path": "current-library/tech/case_selection.json",
+      "sha256": "972a2a3852cb3ebed141191e9e699b249cdd917872bac240cf25c90648284cb9",
+      "content_kind": "current evidence including holdings/cases/limits; forbidden to historical workers"
+    },
+    {
+      "path": "current-library/tech/qa_report.json",
+      "sha256": "1cea819cb614d0f2a0367b8bc5599ee0917138ca954a382134534c9a3611aec3",
+      "content_kind": "current evidence including holdings/cases/limits; forbidden to historical workers"
+    },
+    {
+      "path": "current-library/tech/rule_anchors.json",
+      "sha256": "160bc8ba0b50b15e89bcdd26f4da4565a7df3fe2c8f7c411a4d9c33e8e1a7ba0",
+      "content_kind": "current evidence including holdings/cases/limits; forbidden to historical workers"
+    },
+    {
+      "path": "current-library/tech/pre_2026_rule_anchors.json",
+      "sha256": "940260bd4c8f0630dc9fb3cd18824b39dac0c4283724659a046050d3b4f1af0a",
+      "content_kind": "current evidence including holdings/cases/limits; forbidden to historical workers"
+    }
+  ],
+  "corpus_limits": [
+    "Not a scan of all lifetime content, all interviews, all transactions or all fund portfolios.",
+    "Purposive famous-success selection paired with adverse/counterexample evidence, recorded before detailed writeups. Not a predictive backtest, hit rate or representative sample.",
+    "Third-party holdings aggregators as core proof",
+    "Persona quotations without operational evidence",
+    "Paywalled/private investment-committee papers unavailable to this audit",
+    "Social media feeds/podcast lifetime transcripts",
+    "Private fund audited return histories not publicly recovered"
+  ],
+  "normalization": {
+    "original_dossier_path": "tech/cathie_wood_ark.json",
+    "original_dossier_sha256": "e56d8044ece4e69c2c4dae6d8286ffbe19fe1f04d8eb453923f34aae8bda6613",
+    "field_mapping": {
+      "method_fact": "/process_rules/*/documented_rule",
+      "our_design_questions": "/process_rules/*/skill_adaptation/questions",
+      "sources": "/source_ids joins tech/sources.json object keys",
+      "historical_eligibility": "/process_rules/*/pre_2026_benchmark_eligible and source-level /pre_2026_eligibility",
+      "independently_authored_requirements": "required_inputs/falsifiers derive from the material mechanism and retained source-specific scope; these supplement raw evidence and are explicitly non-native."
+    },
+    "raw_evidence_preserved": true,
+    "source_audit_receipt_sha256": "e44ad83dfdb4b25dd4bbe3965a3a239d547d9ccb023308aa86799ae324afcb3a"
+  }
+}

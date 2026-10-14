@@ -1,0 +1,27 @@
+{
+  "schema_version": "catalogue-projection-coverage-audit.v1",
+  "projection": "Existing source-only public bundle supplied for read-only inspection",
+  "exact_requested_catalogue_present": false,
+  "present": [
+    "21-repository structural catalogue",
+    "Investor/source identity inventory",
+    "162 indexed implementation source files",
+    "39-feature synthesis adoption inventory with 21-project coverage",
+    "Source pins and license gates"
+  ],
+  "absent": [
+    "Readable frozen top20 project table",
+    "Sampled stars and popularity ranks",
+    "Accepted static C1-C4 scores",
+    "Static source-base and source-quality ranks",
+    "Per-criterion scored comparison rationales",
+    "V1 comparable-test recap with separate C5 and authentic-view limits"
+  ],
+  "observed_missing_exact_field_names": [
+    "source_score_100",
+    "raw_source_quality_rank",
+    "criteria_evidence",
+    "popularity_rank_top20"
+  ],
+  "candidate_remedy": "Separate recap files only; no existing accepted input or public projection is edited"
+}

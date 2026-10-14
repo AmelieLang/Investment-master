@@ -1,0 +1,2304 @@
+{
+  "schema_version": "normalization-receipt/v1",
+  "stream_final_notifications": [
+    "macro final from root",
+    "tech worker final manifest",
+    "Leopold root final allowlist",
+    "catalogue worker corrective round 1 final",
+    "macro worker corrective round 1 final",
+    "tech worker corrective round 1 final",
+    "fundamental worker final",
+    "fundamental corrective round 1 final and independent bounded acceptance"
+  ],
+  "input_evidence_artifacts": [
+    {
+      "stream": "macro",
+      "source_path": "macro/dalio.json",
+      "original_sha256": "34193462000cc56fd4b625c8caf5bd9d6d765a1719228558484c4d18b42d63c5",
+      "portable_path": "current-library/macro/dalio.json",
+      "portable_sha256": "34193462000cc56fd4b625c8caf5bd9d6d765a1719228558484c4d18b42d63c5",
+      "evidence_preservation": "All substantive method/source/holding/case/search records preserved; privacy/cache omissions listed separately.",
+      "independent_source_acceptance": "accepted_bounded_source_audit"
+    },
+    {
+      "stream": "macro",
+      "source_path": "macro/soros.json",
+      "original_sha256": "f23c1efc21e831ead2ed69477a13c51096d57bd3966d55f49a4fc8c950738284",
+      "portable_path": "current-library/macro/soros.json",
+      "portable_sha256": "f23c1efc21e831ead2ed69477a13c51096d57bd3966d55f49a4fc8c950738284",
+      "evidence_preservation": "All substantive method/source/holding/case/search records preserved; privacy/cache omissions listed separately.",
+      "independent_source_acceptance": "accepted_bounded_source_audit"
+    },
+    {
+      "stream": "macro",
+      "source_path": "macro/druckenmiller.json",
+      "original_sha256": "7a1fd864543722bb4f05876906a75151ed6fcf27dedf4e213aed7b15af6d8941",
+      "portable_path": "current-library/macro/druckenmiller.json",
+      "portable_sha256": "7a1fd864543722bb4f05876906a75151ed6fcf27dedf4e213aed7b15af6d8941",
+      "evidence_preservation": "All substantive method/source/holding/case/search records preserved; privacy/cache omissions listed separately.",
+      "independent_source_acceptance": "accepted_bounded_source_audit"
+    },
+    {
+      "stream": "macro",
+      "source_path": "macro/sources.json",
+      "original_sha256": "9ade79aac0adaa40a968d16a735ab5bf68df627f8be3a3d2845e6fa99b17cf89",
+      "portable_path": "current-library/macro/sources.json",
+      "portable_sha256": "9ade79aac0adaa40a968d16a735ab5bf68df627f8be3a3d2845e6fa99b17cf89",
+      "evidence_preservation": "All substantive method/source/holding/case/search records preserved; privacy/cache omissions listed separately.",
+      "independent_source_acceptance": "accepted_bounded_source_audit"
+    },
+    {
+      "stream": "macro",
+      "source_path": "macro/common-audit-rules.json",
+      "original_sha256": "d04d3dff923788144937e8d025855368b0c6c26f7f8e3c3b27563f0275a8e573",
+      "portable_path": "current-library/macro/common-audit-rules.json",
+      "portable_sha256": "d04d3dff923788144937e8d025855368b0c6c26f7f8e3c3b27563f0275a8e573",
+      "evidence_preservation": "All substantive method/source/holding/case/search records preserved; privacy/cache omissions listed separately.",
+      "independent_source_acceptance": "accepted_bounded_source_audit"
+    },
+    {
+      "stream": "macro",
+      "source_path": "macro/method-cutoff-2026.json",
+      "original_sha256": "da1a3c4060446ef95283fd1e103a58951fd444dc15d552dfa345262fd6b3bd44",
+      "portable_path": "current-library/macro/method-cutoff-2026.json",
+      "portable_sha256": "da1a3c4060446ef95283fd1e103a58951fd444dc15d552dfa345262fd6b3bd44",
+      "evidence_preservation": "All substantive method/source/holding/case/search records preserved; privacy/cache omissions listed separately.",
+      "independent_source_acceptance": "accepted_bounded_source_audit"
+    },
+    {
+      "stream": "macro",
+      "source_path": "macro/candidate-cases.json",
+      "original_sha256": "4e200a41f3131991642126ecb63af9e0a82d4ca3d33ab07296c336229b6e16ff",
+      "portable_path": "current-library/macro/candidate-cases.json",
+      "portable_sha256": "3ee31ff1c7603c31e300586da623c130eb2c7ea9ef232ec1a1d6a2f3c358d417",
+      "evidence_preservation": "All substantive method/source/holding/case/search records preserved; privacy/cache omissions listed separately.",
+      "independent_source_acceptance": "accepted_bounded_source_audit"
+    },
+    {
+      "stream": "macro",
+      "source_path": "macro/rework1-tests.json",
+      "original_sha256": "9ac348c80adf247f6befd429db10adea23333c595fd325277fd93bd304acb4fd",
+      "portable_path": "current-library/macro/rework1-tests.json",
+      "portable_sha256": "9ac348c80adf247f6befd429db10adea23333c595fd325277fd93bd304acb4fd",
+      "evidence_preservation": "All substantive method/source/holding/case/search records preserved; privacy/cache omissions listed separately.",
+      "independent_source_acceptance": "accepted_bounded_source_audit"
+    },
+    {
+      "stream": "tech",
+      "source_path": "tech/cathie_wood_ark.json",
+      "original_sha256": "e56d8044ece4e69c2c4dae6d8286ffbe19fe1f04d8eb453923f34aae8bda6613",
+      "portable_path": "current-library/tech/cathie_wood_ark.json",
+      "portable_sha256": "e56d8044ece4e69c2c4dae6d8286ffbe19fe1f04d8eb453923f34aae8bda6613",
+      "evidence_preservation": "All substantive method/source/holding/case/search records preserved; privacy/cache omissions listed separately.",
+      "independent_source_acceptance": "accepted_bounded_source_audit"
+    },
+    {
+      "stream": "tech",
+      "source_path": "tech/ron_baron.json",
+      "original_sha256": "efe40af15b4a1df5ed4bca095487eb08faeb93dedaf660aa33a80dc4d94cf35f",
+      "portable_path": "current-library/tech/ron_baron.json",
+      "portable_sha256": "efe40af15b4a1df5ed4bca095487eb08faeb93dedaf660aa33a80dc4d94cf35f",
+      "evidence_preservation": "All substantive method/source/holding/case/search records preserved; privacy/cache omissions listed separately.",
+      "independent_source_acceptance": "accepted_bounded_source_audit"
+    },
+    {
+      "stream": "tech",
+      "source_path": "tech/brad_gerstner_altimeter.json",
+      "original_sha256": "7ad642aa3fafca608f7a24d22843999359840acabe35d952aff6ed2d5c6d2025",
+      "portable_path": "current-library/tech/brad_gerstner_altimeter.json",
+      "portable_sha256": "7ad642aa3fafca608f7a24d22843999359840acabe35d952aff6ed2d5c6d2025",
+      "evidence_preservation": "All substantive method/source/holding/case/search records preserved; privacy/cache omissions listed separately.",
+      "independent_source_acceptance": "accepted_bounded_source_audit"
+    },
+    {
+      "stream": "tech",
+      "source_path": "tech/philippe_laffont_coatue.json",
+      "original_sha256": "098981fdd9979a116a018a70c9636b87bfff9387f0d449be57c5e011a8e9f5ca",
+      "portable_path": "current-library/tech/philippe_laffont_coatue.json",
+      "portable_sha256": "098981fdd9979a116a018a70c9636b87bfff9387f0d449be57c5e011a8e9f5ca",
+      "evidence_preservation": "All substantive method/source/holding/case/search records preserved; privacy/cache omissions listed separately.",
+      "independent_source_acceptance": "accepted_bounded_source_audit"
+    },
+    {
+      "stream": "tech",
+      "source_path": "tech/sources.json",
+      "original_sha256": "3fb2e0b0cc42f28fd0ed142aecfcda6baa592c873ce727d4452265f9c70d8c7c",
+      "portable_path": "current-library/tech/sources.json",
+      "portable_sha256": "3fb2e0b0cc42f28fd0ed142aecfcda6baa592c873ce727d4452265f9c70d8c7c",
+      "evidence_preservation": "All substantive method/source/holding/case/search records preserved; privacy/cache omissions listed separately.",
+      "independent_source_acceptance": "accepted_bounded_source_audit"
+    },
+    {
+      "stream": "tech",
+      "source_path": "tech/common_disclosure.json",
+      "original_sha256": "1e643242dd12a3b29fcc27a4be8c7aaffe24e859a071772647ce7d9d73a8f5dd",
+      "portable_path": "current-library/tech/common_disclosure.json",
+      "portable_sha256": "1e643242dd12a3b29fcc27a4be8c7aaffe24e859a071772647ce7d9d73a8f5dd",
+      "evidence_preservation": "All substantive method/source/holding/case/search records preserved; privacy/cache omissions listed separately.",
+      "independent_source_acceptance": "accepted_bounded_source_audit"
+    },
+    {
+      "stream": "tech",
+      "source_path": "tech/case_selection.json",
+      "original_sha256": "d66b2f79609d4847bb40537396ed1d772eaf840350a8a27e0003777ef74035cd",
+      "portable_path": "current-library/tech/case_selection.json",
+      "portable_sha256": "972a2a3852cb3ebed141191e9e699b249cdd917872bac240cf25c90648284cb9",
+      "evidence_preservation": "All substantive method/source/holding/case/search records preserved; privacy/cache omissions listed separately.",
+      "independent_source_acceptance": "accepted_bounded_source_audit"
+    },
+    {
+      "stream": "tech",
+      "source_path": "tech/qa_report.json",
+      "original_sha256": "1cea819cb614d0f2a0367b8bc5599ee0917138ca954a382134534c9a3611aec3",
+      "portable_path": "current-library/tech/qa_report.json",
+      "portable_sha256": "1cea819cb614d0f2a0367b8bc5599ee0917138ca954a382134534c9a3611aec3",
+      "evidence_preservation": "All substantive method/source/holding/case/search records preserved; privacy/cache omissions listed separately.",
+      "independent_source_acceptance": "accepted_bounded_source_audit"
+    },
+    {
+      "stream": "tech",
+      "source_path": "tech/rule_anchors.json",
+      "original_sha256": "160bc8ba0b50b15e89bcdd26f4da4565a7df3fe2c8f7c411a4d9c33e8e1a7ba0",
+      "portable_path": "current-library/tech/rule_anchors.json",
+      "portable_sha256": "160bc8ba0b50b15e89bcdd26f4da4565a7df3fe2c8f7c411a4d9c33e8e1a7ba0",
+      "evidence_preservation": "All substantive method/source/holding/case/search records preserved; privacy/cache omissions listed separately.",
+      "independent_source_acceptance": "accepted_bounded_source_audit"
+    },
+    {
+      "stream": "tech",
+      "source_path": "tech/pre_2026_rule_anchors.json",
+      "original_sha256": "940260bd4c8f0630dc9fb3cd18824b39dac0c4283724659a046050d3b4f1af0a",
+      "portable_path": "current-library/tech/pre_2026_rule_anchors.json",
+      "portable_sha256": "940260bd4c8f0630dc9fb3cd18824b39dac0c4283724659a046050d3b4f1af0a",
+      "evidence_preservation": "All substantive method/source/holding/case/search records preserved; privacy/cache omissions listed separately.",
+      "independent_source_acceptance": "accepted_bounded_source_audit"
+    },
+    {
+      "stream": "leopold",
+      "source_path": "leopold/dossier.json",
+      "original_sha256": "470d1b2e53425e646966ac8e53fc5b11fe5557a1f7a1c08d49a780770ec57350",
+      "portable_path": "current-library/leopold/dossier.json",
+      "portable_sha256": "12463eac6b4456c6fa198842b0d43e200a81bf139aa655b42b85a279e88dfcc5",
+      "evidence_preservation": "All substantive method/source/holding/case/search records preserved; privacy/cache omissions listed separately.",
+      "independent_source_acceptance": "accepted_bounded_source_audit"
+    },
+    {
+      "stream": "leopold",
+      "source_path": "leopold/sources.json",
+      "original_sha256": "c3d2423067cd7e32a87f6e94858ad512b74267e91f250d325fe729f3e8724128",
+      "portable_path": "current-library/leopold/sources.json",
+      "portable_sha256": "c3d2423067cd7e32a87f6e94858ad512b74267e91f250d325fe729f3e8724128",
+      "evidence_preservation": "All substantive method/source/holding/case/search records preserved; privacy/cache omissions listed separately.",
+      "independent_source_acceptance": "accepted_bounded_source_audit"
+    },
+    {
+      "stream": "leopold",
+      "source_path": "leopold/holdings-snapshots.json",
+      "original_sha256": "8e5310ebb483bbef442c0a3a8f9028de94aef293d849da02bbe7a3a3014c7438",
+      "portable_path": "current-library/leopold/holdings-snapshots.json",
+      "portable_sha256": "8e5310ebb483bbef442c0a3a8f9028de94aef293d849da02bbe7a3a3014c7438",
+      "evidence_preservation": "All substantive method/source/holding/case/search records preserved; privacy/cache omissions listed separately.",
+      "independent_source_acceptance": "accepted_bounded_source_audit"
+    },
+    {
+      "stream": "leopold",
+      "source_path": "leopold/statement-practice-pairs.json",
+      "original_sha256": "9acfa85e405c5a15ee8f74e41988bd8cbeca2f641fe339ff098bc31594fbc43e",
+      "portable_path": "current-library/leopold/statement-practice-pairs.json",
+      "portable_sha256": "9acfa85e405c5a15ee8f74e41988bd8cbeca2f641fe339ff098bc31594fbc43e",
+      "evidence_preservation": "All substantive method/source/holding/case/search records preserved; privacy/cache omissions listed separately.",
+      "independent_source_acceptance": "accepted_bounded_source_audit"
+    },
+    {
+      "stream": "leopold",
+      "source_path": "leopold/contradictions-uncertainties.json",
+      "original_sha256": "c041e3b4e21e13163a74566eb83fe0f9fe8fa26714e0a2ed4d0d8ae6bbf46db3",
+      "portable_path": "current-library/leopold/contradictions-uncertainties.json",
+      "portable_sha256": "c041e3b4e21e13163a74566eb83fe0f9fe8fa26714e0a2ed4d0d8ae6bbf46db3",
+      "evidence_preservation": "All substantive method/source/holding/case/search records preserved; privacy/cache omissions listed separately.",
+      "independent_source_acceptance": "accepted_bounded_source_audit"
+    },
+    {
+      "stream": "leopold",
+      "source_path": "leopold/candidate-cases.json",
+      "original_sha256": "7f3a316e58b50132d92d12c8e506757f6be9777fd7540f239a8dd3c41530867c",
+      "portable_path": "current-library/leopold/candidate-cases.json",
+      "portable_sha256": "f387340607506db102cbf55ee601876617356578226562c6635fa03e6bab8ea6",
+      "evidence_preservation": "All substantive method/source/holding/case/search records preserved; privacy/cache omissions listed separately.",
+      "independent_source_acceptance": "accepted_bounded_source_audit"
+    },
+    {
+      "stream": "leopold",
+      "source_path": "leopold/deep-cases.json",
+      "original_sha256": "e1405251cfb29e6870e30579636ee38ba9b1a17d2965183769d5e1dc56946e13",
+      "portable_path": "current-library/leopold/deep-cases.json",
+      "portable_sha256": "e1405251cfb29e6870e30579636ee38ba9b1a17d2965183769d5e1dc56946e13",
+      "evidence_preservation": "All substantive method/source/holding/case/search records preserved; privacy/cache omissions listed separately.",
+      "independent_source_acceptance": "accepted_bounded_source_audit"
+    },
+    {
+      "stream": "leopold",
+      "source_path": "leopold/self-validation.json",
+      "original_sha256": "88864ee32a179e0945ce5453ff805c37c7865df9796471e85f21ca50aa4053bf",
+      "portable_path": "current-library/leopold/self-validation.json",
+      "portable_sha256": "a12064894840780fa9866bf465a2c69c36180845a9e491cfe9ba699b3a5232f4",
+      "evidence_preservation": "All substantive method/source/holding/case/search records preserved; privacy/cache omissions listed separately.",
+      "independent_source_acceptance": "accepted_bounded_source_audit"
+    },
+    {
+      "stream": "fundamental",
+      "source_path": "fundamental/buffett-berkshire.json",
+      "original_sha256": "84cf6fa72f8e11dad346d0bd057133b4f1e24b8c067f49f665d2bc5243b91ddc",
+      "portable_path": "current-library/fundamental/buffett-berkshire.json",
+      "portable_sha256": "84cf6fa72f8e11dad346d0bd057133b4f1e24b8c067f49f665d2bc5243b91ddc",
+      "evidence_preservation": "All substantive method/source/holding/case/search records preserved; privacy/cache omissions listed separately.",
+      "independent_source_acceptance": "accepted_bounded_source_audit"
+    },
+    {
+      "stream": "fundamental",
+      "source_path": "fundamental/duan-yongping.json",
+      "original_sha256": "322bc3f334315d1758b1a8c9a879744c7ee1a59caa49b3d177dee56d77d0d5a3",
+      "portable_path": "current-library/fundamental/duan-yongping.json",
+      "portable_sha256": "f945663d41d31fadc32a39049d6eb90ba2e6c8751bc54cfd6ef4cb1e764ee749",
+      "evidence_preservation": "All substantive method/source/holding/case/search records preserved; privacy/cache omissions listed separately.",
+      "independent_source_acceptance": "accepted_bounded_source_audit"
+    },
+    {
+      "stream": "fundamental",
+      "source_path": "fundamental/li-lu-himalaya.json",
+      "original_sha256": "eeb098aa6eca3e3c9fb4e4a50afc5bb8c55d165d4be10328f9a31afa2f8c7602",
+      "portable_path": "current-library/fundamental/li-lu-himalaya.json",
+      "portable_sha256": "eeb098aa6eca3e3c9fb4e4a50afc5bb8c55d165d4be10328f9a31afa2f8c7602",
+      "evidence_preservation": "All substantive method/source/holding/case/search records preserved; privacy/cache omissions listed separately.",
+      "independent_source_acceptance": "accepted_bounded_source_audit"
+    },
+    {
+      "stream": "fundamental",
+      "source_path": "fundamental/sources.json",
+      "original_sha256": "f32e5c97d02aac1f155acbd6807190072dccb662013493ce16117b3f130c7fc9",
+      "portable_path": "current-library/fundamental/sources.json",
+      "portable_sha256": "347dfccb1bcc08ece97e8fae25004624ed19427f74be095d6e8df04ff52c01c4",
+      "evidence_preservation": "All substantive method/source/holding/case/search records preserved; privacy/cache omissions listed separately.",
+      "independent_source_acceptance": "accepted_bounded_source_audit"
+    },
+    {
+      "stream": "fundamental",
+      "source_path": "fundamental/claims.json",
+      "original_sha256": "a1cddf12b31eacd540a3910ec675a4e0978d0b2bbbf5f61355b1a8ccea2b4d48",
+      "portable_path": "current-library/fundamental/claims.json",
+      "portable_sha256": "a1cddf12b31eacd540a3910ec675a4e0978d0b2bbbf5f61355b1a8ccea2b4d48",
+      "evidence_preservation": "All substantive method/source/holding/case/search records preserved; privacy/cache omissions listed separately.",
+      "independent_source_acceptance": "accepted_bounded_source_audit"
+    },
+    {
+      "stream": "fundamental",
+      "source_path": "fundamental/rules.json",
+      "original_sha256": "047da361a6d088253080e577bec0cbb2c0307bf1dcd551068acb2d6fb57ad664",
+      "portable_path": "current-library/fundamental/rules.json",
+      "portable_sha256": "047da361a6d088253080e577bec0cbb2c0307bf1dcd551068acb2d6fb57ad664",
+      "evidence_preservation": "All substantive method/source/holding/case/search records preserved; privacy/cache omissions listed separately.",
+      "independent_source_acceptance": "accepted_bounded_source_audit"
+    },
+    {
+      "stream": "fundamental",
+      "source_path": "fundamental/candidate-cases.json",
+      "original_sha256": "a8b25f1764d77767357b26fe4b60fb26ae746e2db4e3621128ad16f2101c9810",
+      "portable_path": "current-library/fundamental/candidate-cases.json",
+      "portable_sha256": "a8b25f1764d77767357b26fe4b60fb26ae746e2db4e3621128ad16f2101c9810",
+      "evidence_preservation": "All substantive method/source/holding/case/search records preserved; privacy/cache omissions listed separately.",
+      "independent_source_acceptance": "accepted_bounded_source_audit"
+    },
+    {
+      "stream": "fundamental",
+      "source_path": "fundamental/common-disclosure.json",
+      "original_sha256": "010762733e7e840717ff4e24570fe724503bae052b1eb440e5c0832d95c7f8bf",
+      "portable_path": "current-library/fundamental/common-disclosure.json",
+      "portable_sha256": "010762733e7e840717ff4e24570fe724503bae052b1eb440e5c0832d95c7f8bf",
+      "evidence_preservation": "All substantive method/source/holding/case/search records preserved; privacy/cache omissions listed separately.",
+      "independent_source_acceptance": "accepted_bounded_source_audit"
+    },
+    {
+      "stream": "fundamental",
+      "source_path": "fundamental/benchmark-2026-start-export.json",
+      "original_sha256": "b3ec8a7c99f9153c4c11f8a416d6259cbf026d24fc8dcd304fba9a00023994d8",
+      "portable_path": "current-library/fundamental/benchmark-2026-start-export.json",
+      "portable_sha256": "b3ec8a7c99f9153c4c11f8a416d6259cbf026d24fc8dcd304fba9a00023994d8",
+      "evidence_preservation": "All substantive method/source/holding/case/search records preserved; privacy/cache omissions listed separately.",
+      "independent_source_acceptance": "accepted_bounded_source_audit"
+    },
+    {
+      "stream": "fundamental",
+      "source_path": "fundamental/validation.json",
+      "original_sha256": "3a369863e7aff4163ca3798589caf0fffd66df453ad701a397db19c056a4799b",
+      "portable_path": "current-library/fundamental/validation.json",
+      "portable_sha256": "b952c5a55fd09dfc80fd69eb32875893b5be18137aecfa3bade24cb416a2c5ce",
+      "evidence_preservation": "All substantive method/source/holding/case/search records preserved; privacy/cache omissions listed separately.",
+      "independent_source_acceptance": "accepted_bounded_source_audit"
+    },
+    {
+      "stream": "fundamental",
+      "source_path": "fundamental/historical-method-packet.json",
+      "original_sha256": "b2863fe599e89eccbec50531d9e82332f0022d3d952475f3c8aeb9b3857a6704",
+      "portable_path": "current-library/fundamental/historical-method-packet.json",
+      "portable_sha256": "b2863fe599e89eccbec50531d9e82332f0022d3d952475f3c8aeb9b3857a6704",
+      "evidence_preservation": "All substantive method/source/holding/case/search records preserved; privacy/cache omissions listed separately.",
+      "independent_source_acceptance": "accepted_bounded_source_audit"
+    },
+    {
+      "stream": "fundamental",
+      "source_path": "fundamental/evidence-map.json",
+      "original_sha256": "67db822bc7070febc61ae35adce32ee43f42e28d56abffd8e317fea4330e1dc5",
+      "portable_path": "current-library/fundamental/evidence-map.json",
+      "portable_sha256": "67db822bc7070febc61ae35adce32ee43f42e28d56abffd8e317fea4330e1dc5",
+      "evidence_preservation": "All substantive method/source/holding/case/search records preserved; privacy/cache omissions listed separately.",
+      "independent_source_acceptance": "accepted_bounded_source_audit"
+    },
+    {
+      "stream": "fundamental",
+      "source_path": "fundamental/case-coverage.json",
+      "original_sha256": "25a030cab303cab527071c4c7e111972e4d534535560409cf78969a5a426943d",
+      "portable_path": "current-library/fundamental/case-coverage.json",
+      "portable_sha256": "25a030cab303cab527071c4c7e111972e4d534535560409cf78969a5a426943d",
+      "evidence_preservation": "All substantive method/source/holding/case/search records preserved; privacy/cache omissions listed separately.",
+      "independent_source_acceptance": "accepted_bounded_source_audit"
+    },
+    {
+      "stream": "fundamental",
+      "source_path": "fundamental/corrective-submission-1.json",
+      "original_sha256": "baca1e71e9529130dfc127d2d206e421733573e3b6a009b545eda38f1ee150b8",
+      "portable_path": "current-library/fundamental/corrective-submission-1.json",
+      "portable_sha256": "8cdc440ce5507da247cc9be636f3243defa1c99ab50ec59155eb9833dfa5790f",
+      "evidence_preservation": "All substantive method/source/holding/case/search records preserved; privacy/cache omissions listed separately.",
+      "independent_source_acceptance": "accepted_bounded_source_audit"
+    }
+  ],
+  "portable_omissions": [
+    {
+      "json_pointer": "/leopold/dossier.json/identity/confirmation_message_id",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/leopold/dossier.json/identity/exact_user_confirmation",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/leopold/candidate-cases.json/identity_confirmation_message_id",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/leopold/self-validation.json/command",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/fundamental/validation.json/validation_command",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/fundamental/corrective-submission-1.json/validation_command",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/0/implementations/0/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/1/implementations/0/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/1/implementations/0/roster_source/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/2/implementations/0/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/2/implementations/0/roster_source/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/3/implementations/0/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/3/implementations/0/roster_source/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/4/implementations/0/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/4/implementations/0/roster_source/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/5/implementations/0/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/5/implementations/0/roster_source/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/6/implementations/0/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/6/implementations/0/roster_source/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/7/implementations/0/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/7/implementations/0/roster_source/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/8/implementations/0/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/8/implementations/0/roster_source/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/9/implementations/0/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/9/implementations/0/roster_source/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/10/implementations/0/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/10/implementations/0/roster_source/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/11/implementations/0/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/11/implementations/0/roster_source/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/12/implementations/0/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/13/implementations/0/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/14/implementations/0/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/15/implementations/0/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/16/implementations/0/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/17/implementations/0/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/18/implementations/0/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/19/implementations/0/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/20/implementations/0/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/21/implementations/0/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/22/implementations/0/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/23/implementations/0/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/24/implementations/0/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/25/implementations/0/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/26/implementations/0/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/27/implementations/0/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/27/implementations/1/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/27/implementations/2/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/28/implementations/0/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/28/implementations/1/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/28/implementations/1/roster_source/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/28/implementations/2/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/28/implementations/3/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/28/implementations/4/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/28/implementations/5/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/28/implementations/6/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/29/implementations/0/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/29/implementations/1/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/29/implementations/2/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/29/implementations/3/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/29/implementations/4/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/30/implementations/0/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/30/implementations/0/roster_source/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/31/implementations/0/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/31/implementations/0/roster_source/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/32/implementations/0/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/33/implementations/0/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/34/implementations/0/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/34/implementations/1/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/34/implementations/1/roster_source/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/34/implementations/2/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/34/implementations/3/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/34/implementations/4/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/34/implementations/5/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/35/implementations/0/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/35/implementations/0/roster_source/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/36/implementations/0/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/36/implementations/1/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/36/implementations/1/roster_source/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/36/implementations/2/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/36/implementations/3/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/36/implementations/4/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/36/implementations/5/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/36/implementations/6/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/36/implementations/7/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/36/implementations/8/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/36/implementations/9/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/36/implementations/10/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/37/implementations/0/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/38/implementations/0/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/39/implementations/0/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/39/implementations/0/roster_source/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/39/implementations/1/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/40/implementations/0/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/41/implementations/0/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/42/implementations/0/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/42/implementations/0/roster_source/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/43/implementations/0/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/44/implementations/0/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/44/implementations/1/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/44/implementations/2/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/44/implementations/3/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/45/implementations/0/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/45/implementations/1/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/45/implementations/1/roster_source/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/46/implementations/0/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/46/implementations/1/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/46/implementations/1/roster_source/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/46/implementations/2/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/46/implementations/3/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/46/implementations/4/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/47/implementations/0/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/48/implementations/0/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/48/implementations/0/roster_source/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/49/implementations/0/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/49/implementations/1/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/49/implementations/1/roster_source/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/50/implementations/0/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/50/implementations/1/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/50/implementations/1/roster_source/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/50/implementations/2/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/50/implementations/3/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/50/implementations/4/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/51/implementations/0/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/51/implementations/1/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/51/implementations/1/roster_source/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/51/implementations/2/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/51/implementations/3/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/51/implementations/4/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/51/implementations/5/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/52/implementations/0/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/53/implementations/0/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/53/implementations/1/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/53/implementations/1/roster_source/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/54/implementations/0/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/54/implementations/0/roster_source/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/55/implementations/0/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/55/implementations/1/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/55/implementations/1/roster_source/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/55/implementations/2/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/55/implementations/3/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/56/implementations/0/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/56/implementations/1/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/57/implementations/0/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/57/implementations/1/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/57/implementations/1/roster_source/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/57/implementations/2/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/57/implementations/3/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/58/implementations/0/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/58/implementations/0/roster_source/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/58/implementations/1/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/59/implementations/0/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/60/implementations/0/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/60/implementations/1/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/60/implementations/2/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/61/implementations/0/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/62/implementations/0/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/63/implementations/0/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/63/implementations/0/roster_source/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/64/implementations/0/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/64/implementations/1/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/64/implementations/1/roster_source/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/64/implementations/2/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/65/implementations/0/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/65/implementations/1/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/65/implementations/1/roster_source/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/65/implementations/2/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/65/implementations/3/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/65/implementations/4/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/66/implementations/0/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/66/implementations/1/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/66/implementations/2/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/67/implementations/0/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/67/implementations/1/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/67/implementations/2/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/68/implementations/0/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/68/implementations/0/roster_source/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/68/implementations/1/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/69/implementations/0/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/69/implementations/1/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/70/implementations/0/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/70/implementations/1/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/70/implementations/1/roster_source/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/71/implementations/0/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/72/implementations/0/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/72/implementations/1/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/72/implementations/1/roster_source/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/72/implementations/2/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/72/implementations/3/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/72/implementations/4/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/72/implementations/5/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/72/implementations/6/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/72/implementations/7/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/72/implementations/8/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/73/implementations/0/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/73/implementations/0/roster_source/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/74/implementations/0/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/74/implementations/0/roster_source/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/74/implementations/1/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/74/implementations/2/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/74/implementations/3/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/74/implementations/4/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/75/implementations/0/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/76/implementations/0/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/77/implementations/0/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/78/implementations/0/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/79/implementations/0/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/79/implementations/1/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/79/implementations/2/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/80/implementations/0/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/80/implementations/1/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/80/implementations/1/roster_source/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/80/implementations/2/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/80/implementations/3/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/80/implementations/4/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/81/implementations/0/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/82/implementations/0/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/82/implementations/1/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/82/implementations/1/roster_source/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/82/implementations/2/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/83/implementations/0/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/84/implementations/0/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/84/implementations/1/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/84/implementations/1/roster_source/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/84/implementations/2/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/84/implementations/3/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/84/implementations/4/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/84/implementations/5/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/84/implementations/6/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/84/implementations/7/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/85/implementations/0/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/86/implementations/0/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/87/implementations/0/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/87/implementations/0/roster_source/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/88/implementations/0/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/89/implementations/0/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/89/implementations/1/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/89/implementations/1/roster_source/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/89/implementations/2/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/89/implementations/3/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/89/implementations/4/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/89/implementations/5/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/89/implementations/6/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/89/implementations/7/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/89/implementations/8/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/89/implementations/9/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/89/implementations/10/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/89/implementations/11/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/89/implementations/12/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/89/implementations/13/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/89/implementations/14/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/90/implementations/0/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/90/implementations/1/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/90/implementations/1/roster_source/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/90/implementations/2/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/91/implementations/0/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/92/implementations/0/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/92/implementations/0/roster_source/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/93/implementations/0/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/93/implementations/0/roster_source/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/94/implementations/0/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/94/implementations/1/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/94/implementations/1/roster_source/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/94/implementations/2/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/95/implementations/0/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/95/implementations/0/roster_source/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/96/implementations/0/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/97/implementations/0/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/98/implementations/0/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/99/implementations/0/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/100/implementations/0/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/101/implementations/0/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/102/implementations/0/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/102/implementations/1/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/102/implementations/1/roster_source/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/102/implementations/2/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/102/implementations/3/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/102/implementations/4/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/103/implementations/0/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/103/implementations/0/roster_source/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/104/implementations/0/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/104/implementations/0/roster_source/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/105/implementations/0/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/105/implementations/0/roster_source/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/106/implementations/0/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/106/implementations/0/roster_source/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/107/implementations/0/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/107/implementations/0/roster_source/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/108/implementations/0/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/108/implementations/0/roster_source/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/109/implementations/0/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/109/implementations/0/roster_source/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/110/implementations/0/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/110/implementations/0/roster_source/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/111/implementations/0/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/111/implementations/0/roster_source/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/112/implementations/0/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/112/implementations/0/roster_source/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/113/implementations/0/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/113/implementations/0/roster_source/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/114/implementations/0/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/114/implementations/0/roster_source/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/115/implementations/0/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/115/implementations/0/roster_source/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/116/implementations/0/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/116/implementations/0/roster_source/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/117/implementations/0/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/117/implementations/0/roster_source/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/118/implementations/0/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/118/implementations/0/roster_source/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/119/implementations/0/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/119/implementations/0/roster_source/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/entities/120/implementations/0/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/repositories_and_license_reuse/0/pinned_license_evidence/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/repositories_and_license_reuse/1/pinned_license_evidence/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/repositories_and_license_reuse/2/pinned_license_evidence/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/repositories_and_license_reuse/3/pinned_license_evidence/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/repositories_and_license_reuse/4/pinned_license_evidence/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/repositories_and_license_reuse/5/pinned_license_evidence/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/repositories_and_license_reuse/6/pinned_license_evidence/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/repositories_and_license_reuse/7/pinned_license_evidence/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/repositories_and_license_reuse/8/pinned_license_evidence/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/repositories_and_license_reuse/9/pinned_license_evidence/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/repositories_and_license_reuse/10/pinned_license_evidence/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/repositories_and_license_reuse/11/pinned_license_evidence/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/repositories_and_license_reuse/12/pinned_license_evidence/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/repositories_and_license_reuse/13/pinned_license_evidence/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/repositories_and_license_reuse/14/pinned_license_evidence/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/repositories_and_license_reuse/15/pinned_license_evidence/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/repositories_and_license_reuse/16/pinned_license_evidence/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/repositories_and_license_reuse/17/pinned_license_evidence/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/repositories_and_license_reuse/18/pinned_license_evidence/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/repositories_and_license_reuse/19/pinned_license_evidence/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/master-registry.json/repositories_and_license_reuse/20/pinned_license_evidence/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/feature-transfer-matrix.json/features/0/origins/0/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/feature-transfer-matrix.json/features/0/license_reuse/0/evidence/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/feature-transfer-matrix.json/features/1/origins/0/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/feature-transfer-matrix.json/features/1/origins/1/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/feature-transfer-matrix.json/features/1/license_reuse/0/evidence/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/feature-transfer-matrix.json/features/2/origins/0/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/feature-transfer-matrix.json/features/2/license_reuse/0/evidence/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/feature-transfer-matrix.json/features/3/origins/0/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/feature-transfer-matrix.json/features/3/origins/1/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/feature-transfer-matrix.json/features/3/license_reuse/0/evidence/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/feature-transfer-matrix.json/features/3/license_reuse/1/evidence/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/feature-transfer-matrix.json/features/4/origins/0/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/feature-transfer-matrix.json/features/4/origins/1/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/feature-transfer-matrix.json/features/4/license_reuse/0/evidence/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/feature-transfer-matrix.json/features/4/license_reuse/1/evidence/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/feature-transfer-matrix.json/features/5/origins/0/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/feature-transfer-matrix.json/features/5/origins/1/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/feature-transfer-matrix.json/features/5/license_reuse/0/evidence/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/feature-transfer-matrix.json/features/5/license_reuse/1/evidence/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/feature-transfer-matrix.json/features/6/origins/0/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/feature-transfer-matrix.json/features/6/origins/1/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/feature-transfer-matrix.json/features/6/license_reuse/0/evidence/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/feature-transfer-matrix.json/features/7/origins/0/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/feature-transfer-matrix.json/features/7/origins/1/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/feature-transfer-matrix.json/features/7/license_reuse/0/evidence/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/feature-transfer-matrix.json/features/8/origins/0/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/feature-transfer-matrix.json/features/8/origins/1/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/feature-transfer-matrix.json/features/8/license_reuse/0/evidence/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/feature-transfer-matrix.json/features/9/origins/0/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/feature-transfer-matrix.json/features/9/origins/1/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/feature-transfer-matrix.json/features/9/license_reuse/0/evidence/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/feature-transfer-matrix.json/features/10/origins/0/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/feature-transfer-matrix.json/features/10/origins/1/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/feature-transfer-matrix.json/features/10/license_reuse/0/evidence/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/feature-transfer-matrix.json/features/10/license_reuse/1/evidence/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/feature-transfer-matrix.json/features/11/origins/0/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/feature-transfer-matrix.json/features/11/origins/1/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/feature-transfer-matrix.json/features/11/license_reuse/0/evidence/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/feature-transfer-matrix.json/features/11/license_reuse/1/evidence/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/feature-transfer-matrix.json/features/12/origins/0/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/feature-transfer-matrix.json/features/12/origins/1/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/feature-transfer-matrix.json/features/12/license_reuse/0/evidence/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/feature-transfer-matrix.json/features/12/license_reuse/1/evidence/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/feature-transfer-matrix.json/features/13/origins/0/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/feature-transfer-matrix.json/features/13/origins/1/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/feature-transfer-matrix.json/features/13/license_reuse/0/evidence/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/feature-transfer-matrix.json/features/13/license_reuse/1/evidence/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/feature-transfer-matrix.json/features/14/origins/0/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/feature-transfer-matrix.json/features/14/origins/1/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/feature-transfer-matrix.json/features/14/license_reuse/0/evidence/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/feature-transfer-matrix.json/features/14/license_reuse/1/evidence/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/feature-transfer-matrix.json/features/15/origins/0/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/feature-transfer-matrix.json/features/15/origins/1/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/feature-transfer-matrix.json/features/15/license_reuse/0/evidence/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/feature-transfer-matrix.json/features/16/origins/0/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/feature-transfer-matrix.json/features/16/origins/1/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/feature-transfer-matrix.json/features/16/license_reuse/0/evidence/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/feature-transfer-matrix.json/features/17/origins/0/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/feature-transfer-matrix.json/features/17/origins/1/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/feature-transfer-matrix.json/features/17/license_reuse/0/evidence/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/feature-transfer-matrix.json/features/18/origins/0/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/feature-transfer-matrix.json/features/18/origins/1/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/feature-transfer-matrix.json/features/18/origins/2/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/feature-transfer-matrix.json/features/18/license_reuse/0/evidence/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/feature-transfer-matrix.json/features/19/origins/0/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/feature-transfer-matrix.json/features/19/origins/1/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/feature-transfer-matrix.json/features/19/license_reuse/0/evidence/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/feature-transfer-matrix.json/features/19/license_reuse/1/evidence/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/feature-transfer-matrix.json/features/20/origins/0/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/feature-transfer-matrix.json/features/20/origins/1/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/feature-transfer-matrix.json/features/20/license_reuse/0/evidence/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/feature-transfer-matrix.json/features/20/license_reuse/1/evidence/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/feature-transfer-matrix.json/features/21/origins/0/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/feature-transfer-matrix.json/features/21/origins/1/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/feature-transfer-matrix.json/features/21/license_reuse/0/evidence/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/feature-transfer-matrix.json/features/21/license_reuse/1/evidence/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/feature-transfer-matrix.json/features/22/origins/0/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/feature-transfer-matrix.json/features/22/origins/1/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/feature-transfer-matrix.json/features/22/license_reuse/0/evidence/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/feature-transfer-matrix.json/features/22/license_reuse/1/evidence/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/feature-transfer-matrix.json/features/23/origins/0/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/feature-transfer-matrix.json/features/23/origins/1/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/feature-transfer-matrix.json/features/23/license_reuse/0/evidence/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/feature-transfer-matrix.json/features/23/license_reuse/1/evidence/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/feature-transfer-matrix.json/features/24/origins/0/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/feature-transfer-matrix.json/features/24/origins/1/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/feature-transfer-matrix.json/features/24/license_reuse/0/evidence/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/feature-transfer-matrix.json/features/24/license_reuse/1/evidence/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/feature-transfer-matrix.json/features/25/origins/0/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/feature-transfer-matrix.json/features/25/license_reuse/0/evidence/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/feature-transfer-matrix.json/features/26/origins/0/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/feature-transfer-matrix.json/features/26/origins/1/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/feature-transfer-matrix.json/features/26/license_reuse/0/evidence/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/feature-transfer-matrix.json/features/27/origins/0/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/feature-transfer-matrix.json/features/27/origins/1/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/feature-transfer-matrix.json/features/27/license_reuse/0/evidence/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/feature-transfer-matrix.json/features/28/origins/0/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/feature-transfer-matrix.json/features/28/origins/1/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/feature-transfer-matrix.json/features/28/license_reuse/0/evidence/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/feature-transfer-matrix.json/features/29/origins/0/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/feature-transfer-matrix.json/features/29/license_reuse/0/evidence/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/feature-transfer-matrix.json/features/30/origins/0/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/feature-transfer-matrix.json/features/30/origins/1/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/feature-transfer-matrix.json/features/30/license_reuse/0/evidence/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/feature-transfer-matrix.json/features/31/origins/0/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/feature-transfer-matrix.json/features/31/origins/1/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/feature-transfer-matrix.json/features/31/license_reuse/0/evidence/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/feature-transfer-matrix.json/features/31/license_reuse/1/evidence/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/feature-transfer-matrix.json/features/32/origins/0/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/feature-transfer-matrix.json/features/32/origins/1/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/feature-transfer-matrix.json/features/32/origins/2/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/feature-transfer-matrix.json/features/32/license_reuse/0/evidence/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/feature-transfer-matrix.json/features/33/origins/0/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/feature-transfer-matrix.json/features/33/origins/1/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/feature-transfer-matrix.json/features/33/origins/2/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/feature-transfer-matrix.json/features/33/license_reuse/0/evidence/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/feature-transfer-matrix.json/features/33/license_reuse/1/evidence/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/feature-transfer-matrix.json/features/34/origins/0/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/feature-transfer-matrix.json/features/34/origins/1/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/feature-transfer-matrix.json/features/34/origins/2/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/feature-transfer-matrix.json/features/34/license_reuse/0/evidence/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/feature-transfer-matrix.json/features/34/license_reuse/1/evidence/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/feature-transfer-matrix.json/features/34/license_reuse/2/evidence/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/feature-transfer-matrix.json/features/35/origins/0/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/feature-transfer-matrix.json/features/35/origins/1/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/feature-transfer-matrix.json/features/35/license_reuse/0/evidence/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/feature-transfer-matrix.json/features/35/license_reuse/1/evidence/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/feature-transfer-matrix.json/features/36/origins/0/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/feature-transfer-matrix.json/features/36/license_reuse/0/evidence/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/feature-transfer-matrix.json/features/37/origins/0/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/feature-transfer-matrix.json/features/37/origins/1/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/feature-transfer-matrix.json/features/37/origins/2/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/feature-transfer-matrix.json/features/37/origins/3/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/feature-transfer-matrix.json/features/37/license_reuse/0/evidence/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/feature-transfer-matrix.json/features/37/license_reuse/1/evidence/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/feature-transfer-matrix.json/features/37/license_reuse/2/evidence/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/feature-transfer-matrix.json/features/37/license_reuse/3/evidence/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/feature-transfer-matrix.json/features/38/origins/0/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/feature-transfer-matrix.json/features/38/origins/1/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/feature-transfer-matrix.json/features/38/origins/2/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/catalog/feature-transfer-matrix.json/features/38/license_reuse/0/evidence/local",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/confirmation_message_id",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "json_pointer": "/exact_user_confirmation",
+      "reason": "Portable public evidence bundle excludes private authorization or machine-only cache locator; public evidence identity/locator/hash retained."
+    },
+    {
+      "field_keys": [
+        "reuse_receipt",
+        "discovery_receipt"
+      ],
+      "reason": "New fundamental cross-stream machine-local receipt values converted to stable portable provenance IDs; public accession/source records retained.",
+      "affected_portable_artifacts": [
+        "methods/duan-yongping.json",
+        "current-library/fundamental/duan-yongping.json",
+        "current-library/fundamental/sources.json"
+      ]
+    },
+    {
+      "json_pointer": "/leopold/candidate-cases.json/identity_confirmation_message_id",
+      "reason": "Private user authorization identifier omitted; confirmed public identity evidence preserved."
+    },
+    {
+      "json_pointer": "/leopold/self-validation.json/command",
+      "reason": "Machine-local worker validation command omitted; validation report/results retained."
+    }
+  ],
+  "semantic_evidence_loss": "None intended: all substantive raw JSON evidence retained in current-library; normalized modules are supplementary views. Private authorization and internal cache locators omitted only.",
+  "source_acceptance": "pending",
+  "execution_status": "Documentation/schema serialization only; no upstream code or model runs."
+}

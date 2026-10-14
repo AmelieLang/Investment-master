@@ -1,0 +1,513 @@
+{
+  "schema_version": "nvda-ark-manual-static-opinion.v1",
+  "generated_at_utc": "2026-10-14T04:18:23.957271+00:00",
+  "invocation": {
+    "task_name": "/root/run_nvda_ark_trial",
+    "agent_id": "/root/run_nvda_ark_trial",
+    "separate_numeric_agent_id": null,
+    "requested_model": "gpt-6.1-sol",
+    "reasoning_effort": "xhigh",
+    "fork_turns": "none",
+    "native_spawn_settings_confirmed_by_parent": true,
+    "spawn_time_utc": "2026-10-14T04:12:23Z",
+    "provider_runtime_model_attestation": null,
+    "input_sha256": {
+      "worker-bundle.md": "b70b1385650032fdb5c107a2620a08d92651eb2de6853cc8b7e222b0ad52e2c3",
+      "input-manifest.json": "2e76f83bb3c1cd4ec16d7922962df04258746b9bf81373fd9d2f986e2d82053a"
+    },
+    "read_scope": [
+      "input/worker-bundle.md",
+      "input/input-manifest.json"
+    ],
+    "fresh_opinion_not_runtime_acceptance": true
+  },
+  "cutoff_utc": "2025-12-31T23:59:59Z",
+  "security_id": "NVDA-US",
+  "ordinary_share_currency": "USD",
+  "financial_currency": "USD",
+  "financial_flow_unit": "billion",
+  "share_count_unit": "billion ordinary diluted-equivalent shares",
+  "method": {
+    "attribution": "ARK research team-inspired independent analysis; not ARK or Cathie Wood actual valuation/recommendation",
+    "cards": [
+      "B01",
+      "B04",
+      "S10",
+      "B05",
+      "F02",
+      "V04",
+      "V05",
+      "D03",
+      "R07"
+    ],
+    "rules": [
+      "ARK-X01",
+      "ARK-X02",
+      "ARK-X03"
+    ],
+    "native_ark_scoring": false,
+    "native_ark_probabilities": false,
+    "rule_status": {
+      "ARK-X01": "partial qualitative platform assessment; required quantitative inputs missing",
+      "ARK-X02": "abstained numerical learning-curve fit; cumulative units, cost and rate missing",
+      "ARK-X03": "partial quality-matching questions; deployed-task quantitative comparison abstained"
+    },
+    "owner_cash_valuation": null,
+    "enterprise_fcff_valuation": null,
+    "intrinsic_value_usd": null
+  },
+  "facts": {
+    "ttm_start": "2024-10-28",
+    "ttm_end": "2025-10-26",
+    "ttm_revenue_usd_bn": 187.142,
+    "ttm_revenue_fact_id": "NVDA-US-r1-2025-10-26-revenue",
+    "ttm_owner_attributable_net_income_usd_bn": 99.198,
+    "ttm_net_income_fact_id": "NVDA-US-r1-2025-10-26-attributable_net_income",
+    "ttm_margin": 0.5300680766476793,
+    "ttm_margin_fact_id": "NVDA-US-r1-2025-10-26-net_margin",
+    "period_end_shares_bn": 24.305,
+    "period_end_shares_fact_id": "NVDA-US-0001045810-25-000230-62",
+    "quarter_diluted_weighted_average_shares_bn": 24.483,
+    "quarter_diluted_share_fact_id": "NVDA-US-0001045810-25-000230-38",
+    "admitted_ttm_diluted_denominator": null,
+    "historical_ttm_eps": null,
+    "historical_ttm_pe": null,
+    "entry_price_usd": 186.5,
+    "entry_price_date": "2025-12-31",
+    "entry_price_fact_id": "NVDA-US-decision-market-price",
+    "fy2024_revenue_usd_bn": 60.922,
+    "fy2025_revenue_usd_bn": 130.497,
+    "fy2025_revenue_yoy_derived": 1.142034076359936,
+    "fy2025_net_income_usd_bn": 72.88,
+    "fy2025_margin_derived": 0.5584802715771243
+  },
+  "projection_convention": {
+    "forecast_starting_diluted_share_proxy_bn": 24.483,
+    "proxy_is_not_ttm_eps_denominator": true,
+    "financial_projection_years": 3,
+    "financial_projection_dates": [
+      "2026-10-26",
+      "2027-10-26",
+      "2028-10-26"
+    ],
+    "normalized_annual_windows_not_reported_fiscal_periods": true,
+    "holding_period_start": "2025-12-31",
+    "future_price_target_date": "2028-12-31",
+    "holding_period_calendar_years": 3,
+    "terminal_earnings_to_target_date_alignment_gap_days": 66,
+    "decision_baseline_alignment_gap_days": 66,
+    "alignment_assumption": "Carry latest October TTM baseline into December decision with no unsupported update; project three normalized 12-month windows ending October 2028, then use that trailing run-rate EPS for December 2028 price without a 66-day earnings bridge. This is a disclosed simplification, not an exact fiscal/calendar estimate.",
+    "dividends_in_return": false,
+    "transaction_costs_in_return": false,
+    "taxes_in_return": false
+  },
+  "formulas": {
+    "revenue_t": "revenue_(t-1) * (1 + revenue_growth_rate_t)",
+    "owner_attributable_net_income_t": "revenue_t * owner_net_income_margin_t",
+    "forecast_diluted_shares_t": "forecast_diluted_shares_(t-1) * (1 + net_diluted_share_growth_rate_t)",
+    "forecast_eps_t": "owner_attributable_net_income_t / forecast_diluted_shares_t",
+    "future_share_price": "forecast_eps_year3 * terminal_pe",
+    "price_only_cumulative_return": "future_share_price / entry_price - 1",
+    "price_only_cagr": "(future_share_price / entry_price) ** (1 / holding_period_calendar_years) - 1",
+    "illustrative_present_required_return_hurdle": "future_share_price / (1 + analyst_required_return) ** holding_period_calendar_years",
+    "score_total": "sum(component.score); equal weight only for this self-designed ordinal evidence screen"
+  },
+  "analyst_assumptions": {
+    "all_scenario_inputs_independent_not_ark_forecasts": true,
+    "required_return": 0.12,
+    "required_return_status": "self-selected illustrative annual price-return hurdle, not ARK discount rate or estimated cost of equity",
+    "required_future_price_to_meet_hurdle_usd": 262.01907200000005,
+    "scenario_weights": null,
+    "buy_sell_score_threshold": null,
+    "scenario_ranges_not_probability_coverage": true,
+    "pe_not_peer_benchmarked": true
+  },
+  "scenarios": {
+    "bear": {
+      "label_zh": "熊市",
+      "revenue_growth_rates": [
+        0.05,
+        0.08,
+        0.1
+      ],
+      "owner_net_income_margins": [
+        0.45,
+        0.42,
+        0.4
+      ],
+      "forecast_diluted_share_growth_rates": [
+        0.01,
+        0.01,
+        0.01
+      ],
+      "terminal_pe": 20,
+      "rationale_zh": "算力需求继续增长但客户变现不足、订单正常化与替代竞争压低NVIDIA增速和利润率；股权薪酬等使净稀释每年1%；成熟化和周期风险令终值PE降到20。",
+      "annual_projections": [
+        {
+          "projection_year": 1,
+          "normalized_period_start": "2025-10-27",
+          "normalized_period_end": "2026-10-26",
+          "revenue_usd_bn": 196.4991,
+          "owner_attributable_net_income_usd_bn": 88.424595,
+          "forecast_diluted_shares_bn": 24.72783,
+          "forecast_eps_usd": 3.575914061201488
+        },
+        {
+          "projection_year": 2,
+          "normalized_period_start": "2026-10-27",
+          "normalized_period_end": "2027-10-26",
+          "revenue_usd_bn": 212.219028,
+          "owner_attributable_net_income_usd_bn": 89.13199176,
+          "forecast_diluted_shares_bn": 24.975108300000002,
+          "forecast_eps_usd": 3.568833043258515
+        },
+        {
+          "projection_year": 3,
+          "normalized_period_start": "2027-10-27",
+          "normalized_period_end": "2028-10-26",
+          "revenue_usd_bn": 233.44093080000002,
+          "owner_attributable_net_income_usd_bn": 93.37637232000002,
+          "forecast_diluted_shares_bn": 25.224859383000002,
+          "forecast_eps_usd": 3.7017598751384884
+        }
+      ],
+      "future_share_price_usd": 74.03519750276976,
+      "price_only_cumulative_return": -0.6030284316205374,
+      "price_only_cagr": -0.2650578857628906,
+      "illustrative_present_required_return_hurdle_usd": 52.69679122543628,
+      "scenario_probability": null
+    },
+    "base": {
+      "label_zh": "基准",
+      "revenue_growth_rates": [
+        0.3,
+        0.25,
+        0.2
+      ],
+      "owner_net_income_margins": [
+        0.52,
+        0.5,
+        0.5
+      ],
+      "forecast_diluted_share_growth_rates": [
+        0,
+        0,
+        0
+      ],
+      "terminal_pe": 30,
+      "rationale_zh": "付费部署继续扩张，巨大收入基数令增速逐年下降；竞争与产品转换把净利率收敛到50%；回购与稀释刚好抵销，终值PE30体现仍有增长但溢价降温。",
+      "annual_projections": [
+        {
+          "projection_year": 1,
+          "normalized_period_start": "2025-10-27",
+          "normalized_period_end": "2026-10-26",
+          "revenue_usd_bn": 243.2846,
+          "owner_attributable_net_income_usd_bn": 126.50799200000002,
+          "forecast_diluted_shares_bn": 24.483,
+          "forecast_eps_usd": 5.167176898255933
+        },
+        {
+          "projection_year": 2,
+          "normalized_period_start": "2026-10-27",
+          "normalized_period_end": "2027-10-26",
+          "revenue_usd_bn": 304.10575,
+          "owner_attributable_net_income_usd_bn": 152.052875,
+          "forecast_diluted_shares_bn": 24.483,
+          "forecast_eps_usd": 6.210549156557612
+        },
+        {
+          "projection_year": 3,
+          "normalized_period_start": "2027-10-27",
+          "normalized_period_end": "2028-10-26",
+          "revenue_usd_bn": 364.9269,
+          "owner_attributable_net_income_usd_bn": 182.46345,
+          "forecast_diluted_shares_bn": 24.483,
+          "forecast_eps_usd": 7.452658987869134
+        }
+      ],
+      "future_share_price_usd": 223.57976963607402,
+      "price_only_cumulative_return": 0.19881914013980717,
+      "price_only_cagr": 0.062309885103012386,
+      "illustrative_present_required_return_hurdle_usd": 159.13966383763008,
+      "scenario_probability": null
+    },
+    "bull": {
+      "label_zh": "牛市",
+      "revenue_growth_rates": [
+        0.45,
+        0.35,
+        0.25
+      ],
+      "owner_net_income_margins": [
+        0.54,
+        0.55,
+        0.55
+      ],
+      "forecast_diluted_share_growth_rates": [
+        -0.005,
+        -0.005,
+        -0.005
+      ],
+      "terminal_pe": 38,
+      "rationale_zh": "较低的质量调整部署成本充分激发需求，系统与软件保留价值、利润率升至55%；经济上可负担的回购超过股权稀释，每年净股数减少0.5%；持续成长使市场愿意给PE38。所有条件均未在输入中获定量证实。",
+      "annual_projections": [
+        {
+          "projection_year": 1,
+          "normalized_period_start": "2025-10-27",
+          "normalized_period_end": "2026-10-26",
+          "revenue_usd_bn": 271.35589999999996,
+          "owner_attributable_net_income_usd_bn": 146.532186,
+          "forecast_diluted_shares_bn": 24.360585,
+          "forecast_eps_usd": 6.0151341193161
+        },
+        {
+          "projection_year": 2,
+          "normalized_period_start": "2026-10-27",
+          "normalized_period_end": "2027-10-26",
+          "revenue_usd_bn": 366.33046499999995,
+          "owner_attributable_net_income_usd_bn": 201.48175575,
+          "forecast_diluted_shares_bn": 24.238782075,
+          "forecast_eps_usd": 8.312371270411695
+        },
+        {
+          "projection_year": 3,
+          "normalized_period_start": "2027-10-27",
+          "normalized_period_end": "2028-10-26",
+          "revenue_usd_bn": 457.91308124999995,
+          "owner_attributable_net_income_usd_bn": 251.8521946875,
+          "forecast_diluted_shares_bn": 24.117588164625,
+          "forecast_eps_usd": 10.442677475391578
+        }
+      ],
+      "future_share_price_usd": 396.82174406487997,
+      "price_only_cumulative_return": 1.127730531178981,
+      "price_only_cagr": 0.2861912235242794,
+      "illustrative_present_required_return_hurdle_usd": 282.4498793282502,
+      "scenario_probability": null
+    }
+  },
+  "sensitivity_base_other_inputs_held_fixed": {
+    "terminal_pe_values": [
+      25,
+      30,
+      35
+    ],
+    "future_prices_for_pe_values": [
+      186.31647469672833,
+      223.57976963607402,
+      260.8430645754197
+    ],
+    "terminal_net_margin_values": [
+      0.45,
+      0.5,
+      0.55
+    ],
+    "future_prices_for_margin_values": [
+      201.22179267246662,
+      223.57976963607402,
+      245.93774659968142
+    ],
+    "annual_net_dilution_alternative": 0.01,
+    "future_price_with_alternative_dilution": 217.0043216847057
+  },
+  "self_designed_score": {
+    "range_per_component": [
+      0,
+      2
+    ],
+    "maximum_total": 10,
+    "interpretation_zh": "0=未获支持或入场条件不满足；1=部分事实支持但决定性前提缺失；2=相关命题有明确支持。证据等级为粗略判断，非官方ARK评分、胜率、估值模型或可校准风险指标。",
+    "components": [
+      {
+        "id": "platform_relevance",
+        "label_zh": "平台与跨行业相关性",
+        "score": 2,
+        "rationale_zh": "GPU、网络与软件平台及已实现收入规模，足以支持相关性；2分不等于质量调整成本下降已被证实。"
+      },
+      {
+        "id": "paid_demand_durability",
+        "label_zh": "付费需求持久性",
+        "score": 1,
+        "rationale_zh": "年度收入增长有事实支持；真实任务采用、续用、价格弹性与客户回报缺失。"
+      },
+      {
+        "id": "retained_economics",
+        "label_zh": "供应商保留经济利益",
+        "score": 1,
+        "rationale_zh": "TTM净利率53.0068%显示当前会计盈利捕获；长期定价和可分配现金证据不足。"
+      },
+      {
+        "id": "moat_resilience",
+        "label_zh": "护城河抗替代性",
+        "score": 1,
+        "rationale_zh": "平台整合与软件互补具有因果合理性；缺少2025年独立性能、迁移成本与竞争比较。"
+      },
+      {
+        "id": "entry_price_cushion",
+        "label_zh": "入场价格缓冲",
+        "score": 0,
+        "rationale_zh": "基准未来价格223.58对应年化6.23%，低于自主12%要求回报；熊市下行约60.30%。"
+      }
+    ],
+    "total": 5
+  },
+  "card_application_status": {
+    "B01": {
+      "status": "partial",
+      "result_zh": "完成客户预算→GPU/网络/软件平台收入→会计净利润的因果图；现金转换、维护投资、必要营运资本及其他索取权桥缺失。"
+    },
+    "B04": {
+      "status": "partial",
+      "result_zh": "整合降低瓶颈、开发者工具减少迁移摩擦作为假设；没有独立量化成本、迁移、网络密度或竞争绕行证据，不能确认耐久护城河。"
+    },
+    "S10": {
+      "status": "partial",
+      "result_zh": "依赖客户付费回报、技术兼容、外包制造和出口许可；技术替代与预算转移使长期经济性不能被当前材料严格界定。"
+    },
+    "B05": {
+      "status": "partial",
+      "result_zh": "高会计利润率与外包制造不证明低资本需求；研发、供货承诺、库存和客户周期可能吞噬现金，特许经营/资本陷阱二分结论暂缓。"
+    },
+    "F02": {
+      "status": "abstained",
+      "result_zh": "无法建立经济补偿、维护资本、必要营运资本与可移除现金桥；不计算owner earnings、FCFE或FCFF。"
+    },
+    "V04": {
+      "status": "partial",
+      "result_zh": "仅展示条件收入→净利润增长，不声称增量资本回报或增长的内在价值已确定。"
+    },
+    "V05": {
+      "status": "completed_conditional",
+      "result_zh": "公开全部自主情景假设、PE与利润率敏感性、缺失输入以及价格目标和现时门槛的区别；不赋概率。"
+    },
+    "D03": {
+      "status": "completed_ex_ante",
+      "result_zh": "提出订单重复/客户回报差、成本下降被客户或竞争者吸收、持续替代和利润侵蚀等反证路径；无后见观察。"
+    },
+    "R07": {
+      "status": "completed_ex_ante_only",
+      "result_zh": "列出未来每季度应检查的指标与触发器；本次只设计、不读取截止日以后资料，也未实际启动监控。"
+    }
+  },
+  "falsification_register": [
+    {
+      "id": "demand",
+      "cadence": "quarterly_if_separately_authorized",
+      "threshold": {
+        "consecutive_quarters": 2,
+        "year_over_year_revenue_growth_below": 0.15
+      },
+      "test_zh": "连续两个季度同比收入增速低于15%，同时客户部署或付费采用没有改善；撤回基准初期30%增长假设。数值为自主预设，不是截至日观察。"
+    },
+    {
+      "id": "margin",
+      "cadence": "quarterly_if_separately_authorized",
+      "threshold": {
+        "consecutive_quarters": 2,
+        "owner_net_income_margin_below": 0.45
+      },
+      "test_zh": "连续两个季度归属净利率低于45%，且不能由可核实的一次性事项解释；基准终值50%利润率需重估。"
+    },
+    {
+      "id": "substitution",
+      "cadence": "quarterly_if_separately_authorized",
+      "threshold": null,
+      "test_zh": "同真实任务、成功率、延迟与可靠性要求下，竞争/自研方案更低总部署成本，且发生实质采购迁移；平台护城河主张失效或降级。"
+    },
+    {
+      "id": "elasticity",
+      "cadence": "quarterly_if_separately_authorized",
+      "threshold": null,
+      "test_zh": "API或硬件降价未增加成功任务量、付费采用与NVDA收入/利润；停止把降价直接转成收入增长。"
+    },
+    {
+      "id": "shares",
+      "cadence": "annual_if_separately_authorized",
+      "threshold": {
+        "annual_net_dilution_above": 0.01
+      },
+      "test_zh": "年净稀释超过1%或回购依赖不可持续融资；基准股数不变和牛市股数下降假设失效。"
+    },
+    {
+      "id": "supply_export_cash",
+      "cadence": "quarterly_if_separately_authorized",
+      "threshold": null,
+      "test_zh": "出口许可、供货转换、不可撤销承诺/库存或现金转换出现实质不利变化；复核净利润可持续性，并继续暂停owner-cash估值。"
+    }
+  ],
+  "historical_statements": [
+    {
+      "fact_id": "ARK-TS-E001::NVDA-US",
+      "author": "Cathie Wood",
+      "publication_date": "2024-03-07",
+      "url": "https://www.ark-invest.com/articles/market-commentary/the-journey-from-monetary-shock-to-an-innovation-led-economic-boom",
+      "proposition_zh": "重复订货、供给追上需求、软件变现不足可能造成支出暂停与库存修正；AMD和客户自研芯片竞争。"
+    },
+    {
+      "fact_id": "ARK-TS-E003::NVDA-US",
+      "author": "James Wang",
+      "publication_date": "2017-09-27",
+      "url": "https://www.ark-invest.com/articles/analyst-research/gpu-tpu-nvidia",
+      "proposition_zh": "框架支持优势；领导地位取决于对手未能证明显著独立测试优势。"
+    },
+    {
+      "fact_id": "ARK-TS-E009::NVDA-US",
+      "author": "Brett Winton",
+      "publication_date": "2024-03-25",
+      "url": "https://www.ark-invest.com/newsletters/issue-408",
+      "proposition_zh": "集成Blackwell可降低瓶颈并受益于需求，同时周期和对手要求持续创新。"
+    },
+    {
+      "fact_id": "ARK-TS-E010::NVDA-US",
+      "author": "Frank Downing, reporting Jensen Huang/NVIDIA assertions",
+      "publication_date": "2025-03-23",
+      "url": "https://www.ark-invest.com/newsletters/issue-456",
+      "proposition_zh": "转述推理算力、Dynamo效率与产品路线图，未独立验证。"
+    }
+  ],
+  "lagged_13f": {
+    "manager": "ARK Investment Management LLC",
+    "report_date": "2025-09-30",
+    "filing_date": "2025-11-12",
+    "shares_common": 1165661,
+    "cusip": "67066G104",
+    "locator": "XML infoTable[115]",
+    "url": "https://www.sec.gov/Archives/edgar/data/1697748/000110465925110217/infotable.xml",
+    "comparison_result": "insufficient_matched_actor_date_decision_scope_to_test_words_actions_alignment",
+    "not_inferred": [
+      "ARKK-only exposure",
+      "Cathie personal ownership",
+      "current Dec31 holdings",
+      "net direction",
+      "weight",
+      "cost basis",
+      "recommendation",
+      "contradiction"
+    ]
+  },
+  "opinion_zh": "以186.50美元决策价，新资金倾向等待；独立基准情景约6.23%年化价格回报，未达到自主12%门槛。条件目标可用于压力测试，但缺失可移除现金与部署经济性，不形成严格内在价值或确定买卖结论。",
+  "source_urls": {
+    "annual_2025": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000023/nvda-20250126.htm",
+    "quarter_2025_10_26": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000230/nvda-20251026.htm",
+    "annual_2024": "https://www.sec.gov/Archives/edgar/data/1045810/000104581024000029/nvda-20240128.htm",
+    "price": "https://www.briefing.com/after-hours-report/archive/2025/12/31/quiet-afterhours-session-ahead-of-the-new-year-caci-intl-awarded-us-space-force-task-order",
+    "ark_x01": "https://assets.arkinvest.com/media-8e522a83-1b23-4d58-a202-792712f8d2d3/83a277d3-70f2-467e-a492-33b08e4bea90/ARK-Invest_Is%20AI%20Truly%20Disruptive_09302024%20%281%29.pdf",
+    "ark_x02": "https://www.ark-invest.com/articles/analyst-research/wrights-law-2",
+    "ark_x03": "https://www.ark-invest.com/articles/analyst-research/ai-will-determine-the-future-of-software-and-cloud-spending",
+    "ark_bigideas2024": "https://assets.arkinvest.com/media-8e522a83-1b23-4d58-a202-792712f8d2d3/8cea086f-21b4-47bf-8ac6-666b96a84a04/ARK-Invest_Big-Ideas-2024.pdf",
+    "wood2024": "https://www.ark-invest.com/articles/market-commentary/the-journey-from-monetary-shock-to-an-innovation-led-economic-boom",
+    "wang2017": "https://www.ark-invest.com/articles/analyst-research/gpu-tpu-nvidia",
+    "winton2024": "https://www.ark-invest.com/newsletters/issue-408",
+    "downing2025": "https://www.ark-invest.com/newsletters/issue-456",
+    "ark13f": "https://www.sec.gov/Archives/edgar/data/1697748/000110465925110217/infotable.xml"
+  },
+  "limitations": [
+    "Later-trained retrospective model cannot attest prospective or guaranteed leakage-free reasoning.",
+    "No live sources or post-cutoff outcomes read.",
+    "Exact historical method bytes and first upload not independently pinned.",
+    "No complete owner-cash or enterprise-FCFF bridge.",
+    "No admitted TTM diluted share denominator.",
+    "Future PE, margins, revenue and diluted shares are independent assumptions, not source forecasts.",
+    "Old candidate activation/runtime gates are not attested by this manual trial."
+  ]
+}

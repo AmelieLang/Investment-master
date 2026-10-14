@@ -1,0 +1,875 @@
+{
+  "schema_version": "investment-master-method/v0.1-draft",
+  "master_id": "leopold-aschenbrenner",
+  "catalogue_entity_id": null,
+  "display_name": "Leopold Aschenbrenner",
+  "classification": "requested_extension_emerging",
+  "source_stream": "leopold",
+  "source_acceptance": "accepted",
+  "implementation_ready": false,
+  "identity_and_mandate_record": {
+    "role": "Former OpenAI Superalignment researcher; founder of SALP",
+    "source_ids": [
+      "L04",
+      "L06",
+      "L20"
+    ],
+    "age": "Reported 24 on June 8, 2026; exact date of birth/current age not established",
+    "career_periods": [
+      {
+        "period": "Before June 2024",
+        "role": "OpenAI Superalignment; prior economic-growth research",
+        "source_ids": [
+          "L06"
+        ]
+      },
+      {
+        "period": "June 4, 2024",
+        "role": "Public AI thesis and announcement of an investment firm",
+        "source_ids": [
+          "L01",
+          "L02",
+          "L03"
+        ]
+      },
+      {
+        "period": "September 2024 founding",
+        "role": "Situational Awareness LP",
+        "source_ids": [
+          "L04"
+        ]
+      },
+      {
+        "period": "2024 Q4–2026 Q2 observed",
+        "role": "Manager with public 13F disclosures",
+        "source_ids": [
+          "L10",
+          "L11",
+          "L12",
+          "L13",
+          "L14",
+          "L15",
+          "L16"
+        ]
+      },
+      {
+        "period": "Letter published July 31, 2026",
+        "role": "Reports continuing hybrid public/private fund and risk redesign",
+        "source_ids": [
+          "L07"
+        ]
+      }
+    ],
+    "current_mandate_status": "Official site remains accessible; present NAV, risk policy and operating status are not independently established."
+  },
+  "scope": {
+    "strong": [
+      "Emerging AI capability/industrial-constraint thesis",
+      "Funding survival and uncertain timing questions"
+    ],
+    "conditional": [
+      "Company-specific value capture only with independent evidence"
+    ],
+    "not_established": [
+      "Established master status",
+      "Verified security pre-trade memo",
+      "Audited realized success or a proven 100x algorithm"
+    ],
+    "historical_status": "Emerging broad thematic/risk questions only; not an established personal stock algorithm."
+  },
+  "rules": [
+    {
+      "rule_id": "L-R1",
+      "method_fact": "Capability scenario before security selection",
+      "method_fact_origin": "direct_method",
+      "source_ids": [
+        "L01",
+        "L03"
+      ],
+      "claim_ids": [],
+      "our_design_questions": [],
+      "required_inputs": [
+        "Compute/capex evidence",
+        "Algorithmic efficiency and economically useful capability tests",
+        "Competing data-wall and adoption scenarios"
+      ],
+      "falsifiers": [
+        "Scaling/capability extrapolation fails",
+        "Data/algorithmic obstacles persist",
+        "Useful task automation/adoption arrives materially later"
+      ],
+      "limits": [
+        "T0 at broad thesis level before firm formation; no verified security-level pre-trade memo",
+        "Scenario framework only; cannot produce a target price or audited probability."
+      ],
+      "historical_eligibility": {
+        "status": "candidate_eligible_pending_review",
+        "eligible_source_ids": [
+          "L01",
+          "L03"
+        ],
+        "reason": "Dated broad method/risk intent only; exact security-level valuation and execution unknown."
+      },
+      "original_record": {
+        "rule_id": "L-R1",
+        "kind": "direct_method",
+        "mechanism": "Capability scenario before security selection",
+        "source_ids": [
+          "L01",
+          "L03"
+        ],
+        "locators": [
+          "Essay I: Counting the OOMs / The data wall / The next four years; interview 00:07:11 / 00:19:42"
+        ],
+        "timing": "T0 at broad thesis level before firm formation; no verified security-level pre-trade memo",
+        "necessary_inputs": [
+          "Compute/capex evidence",
+          "Algorithmic efficiency and economically useful capability tests",
+          "Competing data-wall and adoption scenarios"
+        ],
+        "falsifiers": [
+          "Scaling/capability extrapolation fails",
+          "Data/algorithmic obstacles persist",
+          "Useful task automation/adoption arrives materially later"
+        ],
+        "limits": "Scenario framework only; cannot produce a target price or audited probability."
+      }
+    },
+    {
+      "rule_id": "L-R2",
+      "method_fact": "Map industrial constraints and economic beneficiaries",
+      "method_fact_origin": "direct_method_and_bounded_interpretation",
+      "source_ids": [
+        "L02",
+        "L03"
+      ],
+      "claim_ids": [],
+      "our_design_questions": [],
+      "required_inputs": [
+        "Power connection/delivery dates",
+        "Compute and memory capacity",
+        "Customer demand and contract terms",
+        "Business-specific margins/capex/dilution"
+      ],
+      "falsifiers": [
+        "Bottleneck eases without durable supplier profits",
+        "Buyer economics do not support planned demand"
+      ],
+      "limits": [
+        "T0 broad thesis",
+        "The last two falsifiers are research-adapter tests, not published Aschenbrenner numerical rules. AI exposure is not automatically a moat."
+      ],
+      "historical_eligibility": {
+        "status": "candidate_eligible_pending_review",
+        "eligible_source_ids": [
+          "L02",
+          "L03"
+        ],
+        "reason": "Dated broad method/risk intent only; exact security-level valuation and execution unknown."
+      },
+      "original_record": {
+        "rule_id": "L-R2",
+        "kind": "direct_method_and_bounded_interpretation",
+        "mechanism": "Map industrial constraints and economic beneficiaries",
+        "source_ids": [
+          "L02",
+          "L03"
+        ],
+        "locators": [
+          "IIIa Power/Chips; interview 04:10:58–04:14:46"
+        ],
+        "timing": "T0 broad thesis",
+        "necessary_inputs": [
+          "Power connection/delivery dates",
+          "Compute and memory capacity",
+          "Customer demand and contract terms",
+          "Business-specific margins/capex/dilution"
+        ],
+        "falsifiers": [
+          "Bottleneck eases without durable supplier profits",
+          "Buyer economics do not support planned demand"
+        ],
+        "limits": "The last two falsifiers are research-adapter tests, not published Aschenbrenner numerical rules. AI exposure is not automatically a moat."
+      }
+    },
+    {
+      "rule_id": "L-R3",
+      "method_fact": "Sequence material business exposure rather than buy an AI label",
+      "method_fact_origin": "direct_method",
+      "source_ids": [
+        "L03"
+      ],
+      "claim_ids": [],
+      "our_design_questions": [],
+      "required_inputs": [
+        "AI revenue contribution",
+        "Position in supply chain",
+        "Timing of incremental demand versus existing business"
+      ],
+      "falsifiers": [
+        "Revenue sensitivity is too small or delayed",
+        "A new bottleneck or competitor shifts value capture"
+      ],
+      "limits": [
+        "T0 broad method",
+        "No published rebalancing schedule, threshold or demonstrated 100x return."
+      ],
+      "historical_eligibility": {
+        "status": "candidate_eligible_pending_review",
+        "eligible_source_ids": [
+          "L03"
+        ],
+        "reason": "Dated broad method/risk intent only; exact security-level valuation and execution unknown."
+      },
+      "original_record": {
+        "rule_id": "L-R3",
+        "kind": "direct_method",
+        "mechanism": "Sequence material business exposure rather than buy an AI label",
+        "source_ids": [
+          "L03"
+        ],
+        "locators": [
+          "04:10:58–04:14:46"
+        ],
+        "timing": "T0 broad method",
+        "necessary_inputs": [
+          "AI revenue contribution",
+          "Position in supply chain",
+          "Timing of incremental demand versus existing business"
+        ],
+        "falsifiers": [
+          "Revenue sensitivity is too small or delayed",
+          "A new bottleneck or competitor shifts value capture"
+        ],
+        "limits": "No published rebalancing schedule, threshold or demonstrated 100x return."
+      }
+    },
+    {
+      "rule_id": "L-R4",
+      "method_fact": "Survive several mistaken timing calls and unforeseen events",
+      "method_fact_origin": "direct_risk_intent",
+      "source_ids": [
+        "L03"
+      ],
+      "claim_ids": [],
+      "our_design_questions": [],
+      "required_inputs": [
+        "Liquidity and financing resilience",
+        "Stress correlations",
+        "Loss absorption over the required holding horizon"
+      ],
+      "falsifiers": [
+        "Funding/collateral forces exit before the thesis can be evaluated"
+      ],
+      "limits": [
+        "T0 risk intent before firm formation",
+        "No claim that a particular leverage ceiling, stop loss, cash reserve or stress model was published or actually used."
+      ],
+      "historical_eligibility": {
+        "status": "candidate_eligible_pending_review",
+        "eligible_source_ids": [
+          "L03"
+        ],
+        "reason": "Dated broad method/risk intent only; exact security-level valuation and execution unknown."
+      },
+      "original_record": {
+        "rule_id": "L-R4",
+        "kind": "direct_risk_intent",
+        "mechanism": "Survive several mistaken timing calls and unforeseen events",
+        "source_ids": [
+          "L03"
+        ],
+        "locators": [
+          "04:10:58; 04:14:46"
+        ],
+        "timing": "T0 risk intent before firm formation",
+        "necessary_inputs": [
+          "Liquidity and financing resilience",
+          "Stress correlations",
+          "Loss absorption over the required holding horizon"
+        ],
+        "falsifiers": [
+          "Funding/collateral forces exit before the thesis can be evaluated"
+        ],
+        "limits": "No claim that a particular leverage ceiling, stop loss, cash reserve or stress model was published or actually used."
+      }
+    },
+    {
+      "rule_id": "L-R5",
+      "method_fact": "Include financial/regulatory consequences of an AI growth regime",
+      "method_fact_origin": "direct_scenario",
+      "source_ids": [
+        "L03"
+      ],
+      "claim_ids": [],
+      "our_design_questions": [],
+      "required_inputs": [
+        "Discount-rate and financing sensitivity",
+        "Nationalization/property-rights scenario",
+        "Tail-risk instrument details"
+      ],
+      "falsifiers": [
+        "Growth does not create the hypothesized rates or policy response"
+      ],
+      "limits": [
+        "T0 broad scenario",
+        "Bond-short and tail scenarios are discussion, not evidence of an executed SALP trade or a recommendation to short bonds."
+      ],
+      "historical_eligibility": {
+        "status": "candidate_eligible_pending_review",
+        "eligible_source_ids": [
+          "L03"
+        ],
+        "reason": "Dated broad method/risk intent only; exact security-level valuation and execution unknown."
+      },
+      "original_record": {
+        "rule_id": "L-R5",
+        "kind": "direct_scenario",
+        "mechanism": "Include financial/regulatory consequences of an AI growth regime",
+        "source_ids": [
+          "L03"
+        ],
+        "locators": [
+          "04:10:58–04:14:46; especially 04:14:09"
+        ],
+        "timing": "T0 broad scenario",
+        "necessary_inputs": [
+          "Discount-rate and financing sensitivity",
+          "Nationalization/property-rights scenario",
+          "Tail-risk instrument details"
+        ],
+        "falsifiers": [
+          "Growth does not create the hypothesized rates or policy response"
+        ],
+        "limits": "Bond-short and tail scenarios are discussion, not evidence of an executed SALP trade or a recommendation to short bonds."
+      }
+    },
+    {
+      "rule_id": "L-R6",
+      "method_fact": "Combine AI macro/technology economics with individual-company analysis",
+      "method_fact_origin": "firm_method_description",
+      "source_ids": [
+        "L05"
+      ],
+      "claim_ids": [],
+      "our_design_questions": [],
+      "required_inputs": [
+        "Company fundamentals",
+        "Technological/economic context"
+      ],
+      "falsifiers": [
+        "Company evidence conflicts with the assumed thematic beneficiary"
+      ],
+      "limits": [
+        "TU website publication date unknown",
+        "Undated firm wording cannot enter a dated historical packet as proven pre-trade evidence. Exact valuation models remain unavailable."
+      ],
+      "historical_eligibility": {
+        "status": "excluded",
+        "eligible_source_ids": [],
+        "reason": "Unknown-date or later method; excluded from historical export."
+      },
+      "original_record": {
+        "rule_id": "L-R6",
+        "kind": "firm_method_description",
+        "mechanism": "Combine AI macro/technology economics with individual-company analysis",
+        "source_ids": [
+          "L05"
+        ],
+        "locators": [
+          "About first paragraph"
+        ],
+        "timing": "TU website publication date unknown",
+        "necessary_inputs": [
+          "Company fundamentals",
+          "Technological/economic context"
+        ],
+        "falsifiers": [
+          "Company evidence conflicts with the assumed thematic beneficiary"
+        ],
+        "limits": "Undated firm wording cannot enter a dated historical packet as proven pre-trade evidence. Exact valuation models remain unavailable."
+      }
+    },
+    {
+      "rule_id": "L-R7",
+      "method_fact": "Post-stress financed-position removal and fully paid public book",
+      "method_fact_origin": "dated_risk_redesign_statement",
+      "source_ids": [
+        "L07"
+      ],
+      "claim_ids": [],
+      "our_design_questions": [],
+      "required_inputs": [
+        "Later financing disclosure",
+        "Later compatible holdings and audited NAV"
+      ],
+      "falsifiers": [
+        "Later evidence shows financing or forced-liquidation vulnerability returned"
+      ],
+      "limits": [
+        "T2 relative to July stress; prospective policy at letter date",
+        "This was a dated manager report and intention. It is not verified present policy or proof the redesign succeeded."
+      ],
+      "historical_eligibility": {
+        "status": "excluded",
+        "eligible_source_ids": [],
+        "reason": "Unknown-date or later method; excluded from historical export."
+      },
+      "original_record": {
+        "rule_id": "L-R7",
+        "kind": "dated_risk_redesign_statement",
+        "mechanism": "Post-stress financed-position removal and fully paid public book",
+        "source_ids": [
+          "L07"
+        ],
+        "locators": [
+          "Wednesday night/Thursday morning; continuation paragraphs"
+        ],
+        "timing": "T2 relative to July stress; prospective policy at letter date",
+        "necessary_inputs": [
+          "Later financing disclosure",
+          "Later compatible holdings and audited NAV"
+        ],
+        "falsifiers": [
+          "Later evidence shows financing or forced-liquidation vulnerability returned"
+        ],
+        "limits": "This was a dated manager report and intention. It is not verified present policy or proof the redesign succeeded."
+      }
+    }
+  ],
+  "source_records": [
+    {
+      "source_id": "L01",
+      "title": "Situational Awareness I: From GPT-4 to AGI",
+      "url": "https://situational-awareness.ai/from-gpt-4-to-agi/",
+      "source_family": "original_investor_essay",
+      "provenance": "P1",
+      "publication_date": "2024-06-04",
+      "event_date": "2024-06-04",
+      "archive_upload_date": null,
+      "retrieved_at_utc": "2026-10-13T16:27:00Z",
+      "locator": "Counting the OOMs; The data wall; The next four years",
+      "faithful_paraphrase": "Projects AI capability from compute, algorithmic efficiency and agent-enabling improvements; acknowledges data and extrapolation uncertainty.",
+      "does_not_establish": "A forecast, not validated AGI timing, equity valuation or fund performance. June 4 public availability is evidenced by L03; PDF revision dated June 6.",
+      "access_status": "scoped_read",
+      "publication_date_basis": "L03 demonstrates essay-series public release on June 4, not the exact availability date of every current webpage sentence.",
+      "related_original_pdf": {
+        "url": "https://situational-awareness.ai/wp-content/uploads/2024/06/situationalawareness.pdf",
+        "printed_revision_date": "2024-06-06",
+        "scope_read": "PDF pp. 1–3, 7, 19, 26, 38, 75, 83–86",
+        "archive_upload_date": null,
+        "limitation": "Downloaded original author PDF and revision statement verified; no independently dated contemporaneous archive obtained.",
+        "locator": "PDF p. 2 revision/public-information disclaimer; pp. 7/19/26/38 method sections"
+      },
+      "reuse_scope": "Source-linked original synthesis and factual extraction; no permission to redistribute full copyrighted source content inferred."
+    },
+    {
+      "source_id": "L02",
+      "title": "Situational Awareness IIIa: Racing to the Trillion-Dollar Cluster",
+      "url": "https://situational-awareness.ai/racing-to-the-trillion-dollar-cluster/",
+      "source_family": "original_investor_essay",
+      "provenance": "P1",
+      "publication_date": "2024-06-04",
+      "event_date": "2024-06-04",
+      "archive_upload_date": null,
+      "retrieved_at_utc": "2026-10-13T16:27:00Z",
+      "locator": "AI revenue; Power; Chips",
+      "faithful_paraphrase": "Connects AI investment with electricity, chips, memory and packaging constraints.",
+      "does_not_establish": "Does not identify SALP entry prices, exact securities, financing or investment returns. Later website edits cannot be excluded without contemporaneous archive; original PDF has June 6 revision.",
+      "access_status": "scoped_read",
+      "publication_date_basis": "L03 demonstrates essay-series public release on June 4, not the exact availability date of every current webpage sentence.",
+      "related_original_pdf": {
+        "url": "https://situational-awareness.ai/wp-content/uploads/2024/06/situationalawareness.pdf",
+        "printed_revision_date": "2024-06-06",
+        "scope_read": "PDF pp. 1–3, 7, 19, 26, 38, 75, 83–86",
+        "archive_upload_date": null,
+        "limitation": "Downloaded original author PDF and revision statement verified; no independently dated contemporaneous archive obtained.",
+        "locator": "PDF pp. 75/83–86 industrial-capacity sections"
+      },
+      "reuse_scope": "Source-linked original synthesis and factual extraction; no permission to redistribute full copyrighted source content inferred."
+    },
+    {
+      "source_id": "L03",
+      "title": "Original Dwarkesh interview with Leopold Aschenbrenner",
+      "url": "https://www.dwarkesh.com/p/leopold-aschenbrenner",
+      "source_family": "original_investor_interview",
+      "provenance": "P2",
+      "publication_date": "2024-06-04",
+      "event_date": "2024-06-04",
+      "archive_upload_date": null,
+      "retrieved_at_utc": "2026-10-13T16:27:00Z",
+      "locator": "04:10:58–04:14:46; 04:18:10; introduction",
+      "faithful_paraphrase": "Says AI exposure must be sequenced; surviving wrong calls is essential; flags real-rate and unforeseen-event risks.",
+      "does_not_establish": "Edited publisher transcript of original interview, not a trade ledger or enforceable risk policy. No published numerical leverage/position/stop thresholds.",
+      "access_status": "scoped_read",
+      "reuse_scope": "Source-linked original synthesis and factual extraction; no permission to redistribute full copyrighted source content inferred."
+    },
+    {
+      "source_id": "L04",
+      "title": "Situational Awareness LP official homepage",
+      "url": "https://situationalawarenesslp.com/",
+      "source_family": "firm_description",
+      "provenance": "P1",
+      "publication_date": null,
+      "event_date": null,
+      "archive_upload_date": null,
+      "retrieved_at_utc": "2026-10-13T16:27:00Z",
+      "locator": "Opening paragraph; approach paragraphs",
+      "faithful_paraphrase": "Names Aschenbrenner as founder in September 2024 and describes long-term AI investing across sectors.",
+      "does_not_establish": "Undated current wording is TU for historical decisions; no proof of current NAV or continuing strategy after July.",
+      "access_status": "fully_read",
+      "reuse_scope": "Source-linked original synthesis and factual extraction; no permission to redistribute full copyrighted source content inferred."
+    },
+    {
+      "source_id": "L05",
+      "title": "Situational Awareness LP official About",
+      "url": "https://situationalawarenesslp.com/about",
+      "source_family": "firm_description",
+      "provenance": "P1",
+      "publication_date": null,
+      "event_date": null,
+      "archive_upload_date": null,
+      "retrieved_at_utc": "2026-10-13T16:27:00Z",
+      "locator": "About, first two paragraphs",
+      "faithful_paraphrase": "Describes macro AI research and technological/economic analysis informing company selection.",
+      "does_not_establish": "No exact valuation formula, buy/sell thresholds, complete risk controls or individual authorship of every trade.",
+      "access_status": "fully_read",
+      "reuse_scope": "Source-linked original synthesis and factual extraction; no permission to redistribute full copyrighted source content inferred."
+    },
+    {
+      "source_id": "L06",
+      "title": "Leopold Aschenbrenner biography",
+      "url": "https://situational-awareness.ai/leopold-aschenbrenner/",
+      "source_family": "investor_self_description",
+      "provenance": "P1",
+      "publication_date": null,
+      "event_date": null,
+      "archive_upload_date": null,
+      "retrieved_at_utc": "2026-10-13T16:27:00Z",
+      "locator": "About, paragraphs 1–2",
+      "faithful_paraphrase": "Identifies prior OpenAI Superalignment work and an AGI-focused investment firm.",
+      "does_not_establish": "Self-description, not audited investment skill or exact birth date.",
+      "access_status": "fully_read",
+      "reuse_scope": "Source-linked original synthesis and factual extraction; no permission to redistribute full copyrighted source content inferred."
+    },
+    {
+      "source_id": "L07",
+      "title": "Business Insider reproduction of July investor letter, via AOL",
+      "url": "https://www.aol.ca/articles/let-down-month-read-leopold-191821000.html",
+      "source_family": "contemporaneous_report_with_reproduced_letter",
+      "provenance": "S1",
+      "publication_date": "2026-07-31",
+      "event_date": "2026-07-31",
+      "archive_upload_date": null,
+      "retrieved_at_utc": "2026-10-13T16:27:00Z",
+      "locator": "Dear Partners; Wednesday night/Thursday morning paragraph; interim performance paragraph",
+      "faithful_paraphrase": "Reports block deleveraging, closed shorts, a funded public book, continued hybrid operation, and unaudited interim net MTD −67% / YTD +80%.",
+      "does_not_establish": "Original signed letter and independent audit not obtained; publication is not exact letter-issuance time. Does not establish present NAV/status or counterparty in letter itself.",
+      "access_status": "reproduced_letter_fully_read",
+      "reuse_scope": "Source-linked original synthesis and factual extraction; no permission to redistribute full copyrighted source content inferred."
+    },
+    {
+      "source_id": "L08",
+      "title": "SEC Form 13F FAQ",
+      "url": "https://www.sec.gov/rules-regulations/staff-guidance/frequently-asked-questions-about-form-13f",
+      "source_family": "regulatory_guidance",
+      "provenance": "P1",
+      "publication_date": null,
+      "event_date": null,
+      "archive_upload_date": null,
+      "retrieved_at_utc": "2026-10-13T16:27:00Z",
+      "locator": "FAQ 25, 40–44, 45",
+      "faithful_paraphrase": "Explains quarter-end filing lag and omissions of short positions and foreign-exchange-only securities.",
+      "does_not_establish": "Not an investment-performance statement or complete exposure report.",
+      "access_status": "scoped_read",
+      "reuse_scope": "Source-linked original synthesis and factual extraction; no permission to redistribute full copyrighted source content inferred."
+    },
+    {
+      "source_id": "L09",
+      "title": "SEC SALP submissions index",
+      "url": "https://data.sec.gov/submissions/CIK0002045724.json",
+      "source_family": "regulatory_filing",
+      "provenance": "P1",
+      "publication_date": null,
+      "event_date": null,
+      "archive_upload_date": null,
+      "retrieved_at_utc": "2026-10-13T16:27:00Z",
+      "locator": "filings.recent: forms, filing dates, report dates and accession numbers",
+      "faithful_paraphrase": "Lists seven 13F-HR reports from 2024 Q4 through 2026 Q2 in the retrieved feed.",
+      "does_not_establish": "Current feed is a bounded source denominator, not all private or global disclosures.",
+      "access_status": "fully_parsed",
+      "reuse_scope": "Source-linked original synthesis and factual extraction; no permission to redistribute full copyrighted source content inferred."
+    },
+    {
+      "source_id": "L17",
+      "title": "Bloom Energy / Oracle onsite data-center power announcement",
+      "url": "https://investor.bloomenergy.com/press-releases/press-release-details/2025/Oracle-and-Bloom-Energy-Collaborate-to-Deliver-Power-to-Data-Centers-at-the-Speed-of-AI/default.aspx",
+      "source_family": "issuer_statement",
+      "provenance": "P1",
+      "publication_date": "2025-07-24",
+      "event_date": "2025-07-24",
+      "archive_upload_date": null,
+      "retrieved_at_utc": "2026-10-13T16:27:00Z",
+      "locator": "Announcement opening; forward-looking-statement warning",
+      "faithful_paraphrase": "Confirms Bloom markets onsite fuel-cell power for AI data centers.",
+      "does_not_establish": "Issuer claims and projected deployment do not prove SALP motivation, economic rent capture or execution success.",
+      "access_status": "scoped_read",
+      "reuse_scope": "Source-linked original synthesis and factual extraction; no permission to redistribute full copyrighted source content inferred."
+    },
+    {
+      "source_id": "L18",
+      "title": "Micron SOCAMM2 data-center memory announcement",
+      "url": "https://investors.micron.com/news/press-release/2026/Micron-Sets-New-Benchmark-With-the-Worlds-First-High-Capacity-256GB-LPDRAM-SOCAMM2-for-Data-Center-Infrastructure-03-03-2026/default.aspx",
+      "source_family": "issuer_statement",
+      "provenance": "P1",
+      "publication_date": "2026-03-03",
+      "event_date": "2026-03-03",
+      "archive_upload_date": null,
+      "retrieved_at_utc": "2026-10-13T16:27:00Z",
+      "locator": "Opening; memory capacity/bandwidth/power constraints; test footnotes",
+      "faithful_paraphrase": "Confirms Micron develops memory for AI and broader compute workloads.",
+      "does_not_establish": "Product performance claims rely on specified internal tests; no SALP thesis, valuation or P&L proof.",
+      "access_status": "scoped_read",
+      "reuse_scope": "Source-linked original synthesis and factual extraction; no permission to redistribute full copyrighted source content inferred."
+    },
+    {
+      "source_id": "L19",
+      "title": "SEC Form 13F instructions",
+      "url": "https://www.sec.gov/info/edgar/forms/form13f.pdf",
+      "source_family": "regulatory_guidance",
+      "provenance": "P1",
+      "publication_date": null,
+      "event_date": null,
+      "archive_upload_date": null,
+      "retrieved_at_utc": "2026-10-13T16:27:00Z",
+      "locator": "PDF pp. 6–8, Special Instructions 8, 10, 11",
+      "faithful_paraphrase": "Options columns describe the underlying securities; formal discretion is at reporting-manager level.",
+      "does_not_establish": "Option reported values are not premiums, delta exposures or NAV; SOLE does not prove Aschenbrenner personally selected each line.",
+      "access_status": "scoped_read",
+      "reuse_scope": "Source-linked original synthesis and factual extraction; no permission to redistribute full copyrighted source content inferred."
+    },
+    {
+      "source_id": "L20",
+      "title": "WSJ: The 24-Year-Old AI Wiz Who Counts Jane Street as an Investor",
+      "url": "https://www.wsj.com/finance/stocks/the-24-year-old-ai-wiz-who-counts-jane-street-as-an-investor-1c30d751",
+      "source_family": "contemporaneous_journalism",
+      "provenance": "S1",
+      "publication_date": "2026-06-08",
+      "event_date": "2026-06-08",
+      "archive_upload_date": null,
+      "retrieved_at_utc": "2026-10-13T16:27:00Z",
+      "locator": "Headline and public opening",
+      "faithful_paraphrase": "Describes Aschenbrenner as 24 at that reporting date.",
+      "does_not_establish": "Not an official birth-date record or proof of exact present age.",
+      "access_status": "public_excerpt_read",
+      "reuse_scope": "Source-linked original synthesis and factual extraction; no permission to redistribute full copyrighted source content inferred."
+    },
+    {
+      "source_id": "L10",
+      "title": "SALP Form 13F, 2024-12-31",
+      "url": "https://www.sec.gov/Archives/edgar/data/2045724/000093583625000120/xslForm13F_X02/primary_doc.xml",
+      "source_family": "regulatory_filing",
+      "provenance": "P1",
+      "publication_date": "2025-02-12",
+      "event_date": "2024-12-31",
+      "archive_upload_date": null,
+      "retrieved_at_utc": "2026-10-13T16:27:00Z",
+      "locator": "Cover: period, signature, value/entry totals; information table: issuer/CUSIP/class/putCall/shares/discretion",
+      "faithful_paraphrase": "Records the specified reportable holdings at quarter end.",
+      "does_not_establish": "Not full capital, NAV, leverage, motivation, cost basis, realized P&L or performance.",
+      "access_status": "fully_parsed",
+      "information_table_url": "https://www.sec.gov/Archives/edgar/data/2045724/000093583625000120/infotable.xml",
+      "signature_date_as_printed": "02-11-2025",
+      "temporal_status": "T1 observation; publication is later than report date",
+      "accepted_at_edgar": null,
+      "accepted_timezone": null,
+      "reuse_scope": "Source-linked original synthesis and factual extraction; no permission to redistribute full copyrighted source content inferred."
+    },
+    {
+      "source_id": "L11",
+      "title": "SALP Form 13F, 2025-03-31",
+      "url": "https://www.sec.gov/Archives/edgar/data/2045724/000204572425000002/xslForm13F_X02/primary_doc.xml",
+      "source_family": "regulatory_filing",
+      "provenance": "P1",
+      "publication_date": "2025-05-14",
+      "event_date": "2025-03-31",
+      "archive_upload_date": null,
+      "retrieved_at_utc": "2026-10-13T16:27:00Z",
+      "locator": "Cover: period, signature, value/entry totals; information table: issuer/CUSIP/class/putCall/shares/discretion",
+      "faithful_paraphrase": "Records the specified reportable holdings at quarter end.",
+      "does_not_establish": "Not full capital, NAV, leverage, motivation, cost basis, realized P&L or performance.",
+      "access_status": "fully_parsed",
+      "information_table_url": "https://www.sec.gov/Archives/edgar/data/2045724/000204572425000002/SALP13fq1.xml",
+      "signature_date_as_printed": "05-14-2025",
+      "temporal_status": "T1 observation; publication is later than report date",
+      "accepted_at_edgar": null,
+      "accepted_timezone": null,
+      "reuse_scope": "Source-linked original synthesis and factual extraction; no permission to redistribute full copyrighted source content inferred."
+    },
+    {
+      "source_id": "L12",
+      "title": "SALP Form 13F, 2025-06-30",
+      "url": "https://www.sec.gov/Archives/edgar/data/2045724/000204572425000006/xslForm13F_X02/primary_doc.xml",
+      "source_family": "regulatory_filing",
+      "provenance": "P1",
+      "publication_date": "2025-08-14",
+      "event_date": "2025-06-30",
+      "archive_upload_date": null,
+      "retrieved_at_utc": "2026-10-13T16:27:00Z",
+      "locator": "Cover: period, signature, value/entry totals; information table: issuer/CUSIP/class/putCall/shares/discretion",
+      "faithful_paraphrase": "Records the specified reportable holdings at quarter end.",
+      "does_not_establish": "Not full capital, NAV, leverage, motivation, cost basis, realized P&L or performance.",
+      "access_status": "fully_parsed",
+      "information_table_url": "https://www.sec.gov/Archives/edgar/data/2045724/000204572425000006/Salpform13fq2.xml",
+      "signature_date_as_printed": "08-14-2025",
+      "temporal_status": "T1 observation; publication is later than report date",
+      "accepted_at_edgar": null,
+      "accepted_timezone": null,
+      "reuse_scope": "Source-linked original synthesis and factual extraction; no permission to redistribute full copyrighted source content inferred."
+    },
+    {
+      "source_id": "L13",
+      "title": "SALP Form 13F, 2025-09-30",
+      "url": "https://www.sec.gov/Archives/edgar/data/2045724/000204572425000008/xslForm13F_X02/primary_doc.xml",
+      "source_family": "regulatory_filing",
+      "provenance": "P1",
+      "publication_date": "2025-11-14",
+      "event_date": "2025-09-30",
+      "archive_upload_date": null,
+      "retrieved_at_utc": "2026-10-13T16:27:00Z",
+      "locator": "Cover: period, signature, value/entry totals; information table: issuer/CUSIP/class/putCall/shares/discretion",
+      "faithful_paraphrase": "Records the specified reportable holdings at quarter end.",
+      "does_not_establish": "Not full capital, NAV, leverage, motivation, cost basis, realized P&L or performance.",
+      "access_status": "fully_parsed",
+      "information_table_url": "https://www.sec.gov/Archives/edgar/data/2045724/000204572425000008/SALP13FinfotableQ3.xml",
+      "signature_date_as_printed": "11-14-2025",
+      "temporal_status": "T1 observation; publication is later than report date",
+      "accepted_at_edgar": null,
+      "accepted_timezone": null,
+      "reuse_scope": "Source-linked original synthesis and factual extraction; no permission to redistribute full copyrighted source content inferred."
+    },
+    {
+      "source_id": "L14",
+      "title": "SALP Form 13F, 2025-12-31",
+      "url": "https://www.sec.gov/Archives/edgar/data/2045724/000204572426000002/xslForm13F_X02/primary_doc.xml",
+      "source_family": "regulatory_filing",
+      "provenance": "P1",
+      "publication_date": "2026-02-11",
+      "event_date": "2025-12-31",
+      "archive_upload_date": null,
+      "retrieved_at_utc": "2026-10-13T16:27:00Z",
+      "locator": "Cover: period, signature, value/entry totals; information table: issuer/CUSIP/class/putCall/shares/discretion",
+      "faithful_paraphrase": "Records the specified reportable holdings at quarter end.",
+      "does_not_establish": "Not full capital, NAV, leverage, motivation, cost basis, realized P&L or performance.",
+      "access_status": "fully_parsed",
+      "information_table_url": "https://www.sec.gov/Archives/edgar/data/2045724/000204572426000002/SALP_13FQ425.xml",
+      "signature_date_as_printed": "02-11-2026",
+      "temporal_status": "T1 observation; publication is later than report date",
+      "accepted_at_edgar": null,
+      "accepted_timezone": null,
+      "reuse_scope": "Source-linked original synthesis and factual extraction; no permission to redistribute full copyrighted source content inferred."
+    },
+    {
+      "source_id": "L15",
+      "title": "SALP Form 13F, 2026-03-31",
+      "url": "https://www.sec.gov/Archives/edgar/data/2045724/000204572426000008/xslForm13F_X02/primary_doc.xml",
+      "source_family": "regulatory_filing",
+      "provenance": "P1",
+      "publication_date": "2026-05-18",
+      "event_date": "2026-03-31",
+      "archive_upload_date": null,
+      "retrieved_at_utc": "2026-10-13T16:27:00Z",
+      "locator": "Cover: period, signature, value/entry totals; information table: issuer/CUSIP/class/putCall/shares/discretion",
+      "faithful_paraphrase": "Records the specified reportable holdings at quarter end.",
+      "does_not_establish": "Not full capital, NAV, leverage, motivation, cost basis, realized P&L or performance.",
+      "access_status": "fully_parsed",
+      "information_table_url": "https://www.sec.gov/Archives/edgar/data/2045724/000204572426000008/salp13fq1xml.xml",
+      "signature_date_as_printed": "2026-05-15",
+      "temporal_status": "T1 observation; publication is later than report date",
+      "accepted_at_edgar": "2026-05-15T18:33:35",
+      "accepted_timezone": "SEC index does not print timezone; do not relabel as UTC",
+      "reuse_scope": "Source-linked original synthesis and factual extraction; no permission to redistribute full copyrighted source content inferred."
+    },
+    {
+      "source_id": "L16",
+      "title": "SALP Form 13F, 2026-06-30",
+      "url": "https://www.sec.gov/Archives/edgar/data/2045724/000093583626000418/xslForm13F_X02/primary_doc.xml",
+      "source_family": "regulatory_filing",
+      "provenance": "P1",
+      "publication_date": "2026-08-14",
+      "event_date": "2026-06-30",
+      "archive_upload_date": null,
+      "retrieved_at_utc": "2026-10-13T16:27:00Z",
+      "locator": "Cover: period, signature, value/entry totals; information table: issuer/CUSIP/class/putCall/shares/discretion",
+      "faithful_paraphrase": "Records the specified reportable holdings at quarter end.",
+      "does_not_establish": "Not full capital, NAV, leverage, motivation, cost basis, realized P&L or performance.",
+      "access_status": "fully_parsed",
+      "information_table_url": "https://www.sec.gov/Archives/edgar/data/2045724/000093583626000418/form13fInfoTable.xml",
+      "signature_date_as_printed": "08-14-2026",
+      "temporal_status": "T1 observation; publication is later than report date",
+      "accepted_at_edgar": null,
+      "accepted_timezone": null,
+      "reuse_scope": "Source-linked original synthesis and factual extraction; no permission to redistribute full copyrighted source content inferred."
+    }
+  ],
+  "evidence_artifacts": [
+    {
+      "path": "current-library/leopold/dossier.json",
+      "sha256": "12463eac6b4456c6fa198842b0d43e200a81bf139aa655b42b85a279e88dfcc5",
+      "content_kind": "current evidence including holdings/cases/limits; forbidden to historical workers"
+    },
+    {
+      "path": "current-library/leopold/sources.json",
+      "sha256": "c3d2423067cd7e32a87f6e94858ad512b74267e91f250d325fe729f3e8724128",
+      "content_kind": "current evidence including holdings/cases/limits; forbidden to historical workers"
+    },
+    {
+      "path": "current-library/leopold/holdings-snapshots.json",
+      "sha256": "8e5310ebb483bbef442c0a3a8f9028de94aef293d849da02bbe7a3a3014c7438",
+      "content_kind": "current evidence including holdings/cases/limits; forbidden to historical workers"
+    },
+    {
+      "path": "current-library/leopold/statement-practice-pairs.json",
+      "sha256": "9acfa85e405c5a15ee8f74e41988bd8cbeca2f641fe339ff098bc31594fbc43e",
+      "content_kind": "current evidence including holdings/cases/limits; forbidden to historical workers"
+    },
+    {
+      "path": "current-library/leopold/contradictions-uncertainties.json",
+      "sha256": "c041e3b4e21e13163a74566eb83fe0f9fe8fa26714e0a2ed4d0d8ae6bbf46db3",
+      "content_kind": "current evidence including holdings/cases/limits; forbidden to historical workers"
+    },
+    {
+      "path": "current-library/leopold/candidate-cases.json",
+      "sha256": "f387340607506db102cbf55ee601876617356578226562c6635fa03e6bab8ea6",
+      "content_kind": "current evidence including holdings/cases/limits; forbidden to historical workers"
+    },
+    {
+      "path": "current-library/leopold/deep-cases.json",
+      "sha256": "e1405251cfb29e6870e30579636ee38ba9b1a17d2965183769d5e1dc56946e13",
+      "content_kind": "current evidence including holdings/cases/limits; forbidden to historical workers"
+    },
+    {
+      "path": "current-library/leopold/self-validation.json",
+      "sha256": "a12064894840780fa9866bf465a2c69c36180845a9e491cfe9ba699b3a5232f4",
+      "content_kind": "current evidence including holdings/cases/limits; forbidden to historical workers"
+    }
+  ],
+  "corpus_limits": [
+    "{\"scope\": \"Three investor method sources, three firm/self-description sources, one reproduced investor letter, seven listed SEC 13F filings, SEC feed/guidance and two issuer checks, plus age reporting. Not lifetime or private source completeness.\", \"substantive_method_items_scoped_read\": 3, \"firm_and_self_description_items_read\": 3, \"13f_filings_found_and_parsed\": 7, \"compatible_snapshots_available\": 7, \"statement_practice_pairs_tested\": 3, \"direct_original_july_letter_files_authenticated\": 0, \"private_portfolio_or_financing_documents_read\": 0, \"case_candidates\": 5, \"cases_selected\": 2, \"security_specific_verified_T0_purchase_memos\": 0, \"unavailable_targets\": [\"Original Business Insider page failed; lawful AOL syndication read\", \"Reuters July report failed; not used as documentary proof\", \"Contemporaneous archive verifying every present essay sentence not obtained\"], \"no_completeness_claim\": \"Does not cover all investor communications, clients, trades or assets.\"}",
+    "[{\"scope\": \"Identity/method\", \"action\": \"Read official biography, firm homepage/About, June 2024 essays and original podcast investment/risk section\", \"result\": \"Original broad method and risk intent found; exact valuation and quantitative portfolio controls not found\"}, {\"scope\": \"Practice\", \"action\": \"Retrieved SEC submissions feed and every listed 13F cover/table in it\", \"result\": \"Seven snapshots; raw row reconciliation and instrument segregation completed\"}, {\"scope\": \"July event\", \"action\": \"Searched original/contemporaneous reports and read Business Insider syndicated investor-letter reproduction\", \"result\": \"Dated self-report found; original signed file/audited final performance unavailable\"}, {\"scope\": \"Holdings classification\", \"action\": \"Read first-party Bloom and Micron announcements\", \"result\": \"Business connection supports bounded thematic pairing; motivations and returns remain unknown\"}]",
+    "No security-specific pre-trade memo or audited realized-success chain established."
+  ],
+  "normalization": {
+    "original_dossier_path": "leopold/dossier.json",
+    "original_dossier_sha256": "470d1b2e53425e646966ac8e53fc5b11fe5557a1f7a1c08d49a780770ec57350",
+    "field_mapping": {
+      "method_fact": "/method_rules/*/mechanism",
+      "required_inputs": "/method_rules/*/necessary_inputs",
+      "falsifiers": "/method_rules/*/falsifiers",
+      "sources": "leopold/sources.json /sources",
+      "identity": "/identity, private authorization fields omitted"
+    },
+    "raw_evidence_preserved": true,
+    "source_audit_receipt_sha256": "9801b033a8efbc2abcc913f8f7ec71aa6ba78d5859b5b6138ff46e28c8db7940"
+  }
+}

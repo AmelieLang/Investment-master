@@ -1,0 +1,50 @@
+{
+  "schema_version": "investment-master-public-source-projection.v1",
+  "projection_version": "1.0-source-only",
+  "generated_at_utc": "2026-10-13T18:42:00Z",
+  "destination_repository": "AmelieLang/Investment-master",
+  "artifact_state": "local source-only packaging candidate awaiting independent projection acceptance; no remote publication performed",
+  "accepted_source_snapshot": "skill-bundle-snapshots/source-integration-rework2-v1.1-review",
+  "immutable_source_manifest_sha256": "583f7cb49ae1725afca280808a9f28c278a03c5d14e64b0521378827a08518af",
+  "archived_original_manifest": "provenance/accepted-source-bundle-manifest.json",
+  "archived_original_manifest_scope": "Original accepted snapshot bytes only. It is historical provenance and does not index this public projection.",
+  "public_inventory": "PUBLIC-MANIFEST.json",
+  "hash_map": "provenance/source-to-public-hashes.json",
+  "applied_locator_transforms": "provenance/locator-transforms.json",
+  "audit_inputs_sha256": {
+    "report.json": "17adc3f907d39f8924d6281fc0660e8f2c08f9dcef94d37dcce345aa5cf2135d",
+    "proposed-redaction-manifest.json": "4dd3d21a5cb959fafb70d3023a13b74f25709a7bbe3c94b793eac76ab93be1ab",
+    "minimal-allowlist.json": "1beb82f1a125031de43049461d7a03ad8c517ba9abb9e99ef63079c04caad124",
+    "quotation-inventory.json": "a642de4b7bd02b9f31c54b3446dea4e01e5108acafa4e972b83d866a96470ad4",
+    "input-hashes.json": "1374e308f0c2d5c7dd4d1e42d3a1d2ffba8cf2397d2bf2e47cf61c6262df50fc",
+    "projection-verification.json": "1b3cb1b3684890a3f4be80c790129dfdc8aba840f61fb5e62cbb953a1166c3ad"
+  },
+  "audited_input_file_count": 181,
+  "source_root_counts": {
+    "skill-bundle-snapshots/source-integration-rework2-v1.1-review": 160,
+    "tech-historical-extension": 17,
+    "benchmark/baseline-method-sources": 4
+  },
+  "locator_replacements": 13,
+  "source_files_changed": 6,
+  "source_files_content_unchanged": 175,
+  "historical_methods_files_changed": 0,
+  "accepted_research_files_mutated": false,
+  "research_rework_counters_changed": false,
+  "native_baseline_code_included": false,
+  "no_financial_outcome_dataset_or_result_included": true,
+  "FMP_release_gate": "Exclude all raw FMP payloads and FMP-derived numeric outcomes, summaries and displays. Redistribution rights remain unresolved; this projection includes no such data.",
+  "FMP_terms_url": "https://site.financialmodelingprep.com/terms-of-service",
+  "source_attribution_boundary": "Independent issuer observations retain their original provenance; no FMP-origin value is relabelled as independently sourced.",
+  "excluded_materials": [
+    "Private paths and personal tax identifiers",
+    "Credentials and authentication files",
+    "Private collaboration links",
+    "Raw or FMP-derived financial results",
+    "Full books, reports, transcripts, images and downloaded source attachments",
+    "ARK workbooks, model code and reproduced formula/layout expression",
+    "Native baseline code not enumerated in the audited allowlist"
+  ],
+  "license_scope": "Exact upstream licenses and source attributions retained. No new blanket license for third-party publications or data is asserted.",
+  "scope_limit": "Separate packaging projection only; original investment rules, source claims, historical methods, activation gates and research acceptance remain unchanged."
+}

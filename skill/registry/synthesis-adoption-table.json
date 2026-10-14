@@ -1,0 +1,2957 @@
+{
+  "schema_version": "feature-transfer-matrix.v2.1",
+  "built_at_utc": "2026-10-13T16:15:00Z",
+  "backbone": "finterm-ai/investment-skills",
+  "scope": "Traceable source-only adaptation specifications across the original frozen twenty core plus finterm. No upstream program installed or executed by this worker. No external writes.",
+  "feature_count": 39,
+  "decision_counts": {
+    "keep": 1,
+    "rewrite": 36,
+    "exclude": 1,
+    "redundant_no_adoption": 1
+  },
+  "critical_rules": [
+    "Valuation, relative pricing, technical setup, macro context and portfolio risk are separate output channels.",
+    "A method fit needs instrument/business mechanisms, evidenced prerequisites and validated method claims; labels or holdings are insufficient.",
+    "MIT grants do not automatically clear third-party quotations, social archives, training data or credentials.",
+    "Reverse DCF is a proposed new solver, not a discovered native upstream implementation.",
+    "All new source-only investor profiles stay inactive pending independent primary-source verification; core dossier workers must be merged separately."
+  ],
+  "features": [
+    {
+      "id": "F01",
+      "feature": "Evidence-bounded card router",
+      "origins": [
+        {
+          "repo": "finterm-ai/investment-skills",
+          "commit": "7235d3411601036cc79137fa0aec0d587f2c8e19",
+          "path": "skills/buffett-investment-framework/SKILL.md",
+          "url": "https://github.com/finterm-ai/investment-skills/blob/7235d3411601036cc79137fa0aec0d587f2c8e19/skills/buffett-investment-framework/SKILL.md#L44",
+          "sha256": "4e68fa9add83b8a688dc185e12ae0619d93214e28905a3676ddc2823f49cf4bf",
+          "locator": {
+            "needle": "Route Five",
+            "lines": [
+              44
+            ]
+          }
+        }
+      ],
+      "investor_or_method": [
+        "Buffett-inspired editorial framework"
+      ],
+      "analytical_channel": "primary-source-verification",
+      "asset_business_fit": [
+        "financial-analysis",
+        "memo-review",
+        "thesis-evaluation"
+      ],
+      "what_finterm_already_covers": "Already has 65 cards, 5-12-card ordinary load, evidence-triggered overlays, supported/challenged/unresolved results.",
+      "proposed_adaptation": "Keep this as the evidence/output spine. Add separate instrument, lifecycle and business-mechanism gates; external masters remain optional research modules.",
+      "license_reuse": [
+        {
+          "repo": "finterm-ai/investment-skills",
+          "status": "verified_mit",
+          "license_name": "MIT（LICENSE已核验）",
+          "evidence": {
+            "repo": "finterm-ai/investment-skills",
+            "commit": "7235d3411601036cc79137fa0aec0d587f2c8e19",
+            "path": "LICENSE",
+            "url": "https://github.com/finterm-ai/investment-skills/blob/7235d3411601036cc79137fa0aec0d587f2c8e19/LICENSE",
+            "source_snapshot_present": true,
+            "sha256": "65a8de9eb5762941fbeb77d3380d3fdf587cef7317c8a945d7c9ee0dccc56fec",
+            "blob_sha": "2db886705cbe711a6478cc559312b1969760c7df"
+          },
+          "decision": "Direct software/text adaptation permitted subject to preserving MIT copyright and permission notice; independently clear third-party quoted/corpus material, data, APIs and trademarks."
+        }
+      ],
+      "evidence_needs_and_missing_data": [
+        "Primary company evidence, precise question and horizon, triggered mechanisms"
+      ],
+      "decision": "keep",
+      "keep_exclude_rewrite_rationale": "Strongest bounded research backbone; it is a router, not an intrinsic-value calculator or investment score.",
+      "excluded_defaults_or_known_bugs": [],
+      "acceptance_tests": [
+        "Card count equals selected IDs",
+        "No automatic load from industry/name alone",
+        "Missing prerequisite blocks only the affected branch"
+      ],
+      "primary_original_method_verification": {
+        "status": "required_before_authentic_investor_routing"
+      },
+      "implementation_status": "design_specification_only_no_upstream_code_execution"
+    },
+    {
+      "id": "F02",
+      "feature": "Point-in-time snapshot and exact prompt receipts",
+      "origins": [
+        {
+          "repo": "virattt/ai-hedge-fund",
+          "commit": "78b779c1389e2d1452dc29606d2c4126d859b964",
+          "path": "hedge_fund/signals/llm_agent.py",
+          "url": "https://github.com/virattt/ai-hedge-fund/blob/78b779c1389e2d1452dc29606d2c4126d859b964/hedge_fund/signals/llm_agent.py#L82",
+          "sha256": "d97c29b7212119425d2301d98bbaa81a8b2bdad6247267e72b3bde5f3d32a753",
+          "locator": {
+            "needle": "record =",
+            "lines": [
+              82
+            ]
+          }
+        },
+        {
+          "repo": "virattt/ai-hedge-fund",
+          "commit": "78b779c1389e2d1452dc29606d2c4126d859b964",
+          "path": "hedge_fund/features/snapshot.py",
+          "url": "https://github.com/virattt/ai-hedge-fund/blob/78b779c1389e2d1452dc29606d2c4126d859b964/hedge_fund/features/snapshot.py#L5",
+          "sha256": "13822cc5eb5d2618fbbb31a13688fd801cff21e40cb9728328ddeb677f7859ed",
+          "locator": {
+            "needle": "filing",
+            "lines": [
+              5,
+              11,
+              12,
+              38,
+              73,
+              81,
+              113,
+              114
+            ]
+          }
+        }
+      ],
+      "investor_or_method": [
+        "Five native investor agents"
+      ],
+      "analytical_channel": "primary-source-verification",
+      "asset_business_fit": [
+        "Public-equity fundamentals",
+        "Historical evaluation"
+      ],
+      "what_finterm_already_covers": "F01 financial receipt and D03 fact/inference discipline; no same native data-cache/LLM replay engine.",
+      "proposed_adaptation": "Keep immutable entity+as-of packet, filing date and period, input hash, exact prompt/model/settings, raw response, parse outcome and data-field coverage.",
+      "license_reuse": [
+        {
+          "repo": "virattt/ai-hedge-fund",
+          "status": "verified_mit",
+          "license_name": "MIT",
+          "evidence": {
+            "repo": "virattt/ai-hedge-fund",
+            "commit": "78b779c1389e2d1452dc29606d2c4126d859b964",
+            "path": "LICENSE",
+            "url": "https://github.com/virattt/ai-hedge-fund/blob/78b779c1389e2d1452dc29606d2c4126d859b964/LICENSE",
+            "source_snapshot_present": true,
+            "sha256": "6cb192c4a37c69c84459d2e1b3da7af51b06d91e35be521c898107bdae18e2a4",
+            "blob_sha": "6ed5ed19cfc0ec1448fca7e6b6be72abaa2b8b85"
+          },
+          "decision": "Direct software/text adaptation permitted subject to preserving MIT copyright and permission notice; independently clear third-party quoted/corpus material, data, APIs and trademarks."
+        }
+      ],
+      "evidence_needs_and_missing_data": [
+        "Actual filing timestamps and vintage data; restatements; semantic metric coverage"
+      ],
+      "decision": "rewrite",
+      "keep_exclude_rewrite_rationale": "Useful reproducibility architecture; avoid pretending row count proves required-data completeness.",
+      "excluded_defaults_or_known_bugs": [
+        "MIN_PERIODS row count does not prove metric coverage",
+        "Modern sector metadata approximation in a historical run"
+      ],
+      "acceptance_tests": [
+        "Filing after cutoff excluded",
+        "Missing cash/debt/share count remains missing",
+        "Exact snapshot hash changes with revised input"
+      ],
+      "primary_original_method_verification": {
+        "status": "required_before_authentic_investor_routing"
+      },
+      "implementation_status": "design_specification_only_no_upstream_code_execution"
+    },
+    {
+      "id": "F03",
+      "feature": "Auditable quantitative DCF and EV-to-equity bridge",
+      "origins": [
+        {
+          "repo": "wbh604/UZI-Skill",
+          "commit": "650788c54a9b2e042bf7f983f16dbf8d727fce1d",
+          "path": "skills/deep-analysis/scripts/lib/fin_models.py",
+          "url": "https://github.com/wbh604/UZI-Skill/blob/650788c54a9b2e042bf7f983f16dbf8d727fce1d/skills/deep-analysis/scripts/lib/fin_models.py#L75",
+          "sha256": "e2f46ca1c6a6d2415ecd317456d5e00a5bc7203da9cb198955a19ddb1651afe1",
+          "locator": {
+            "needle": "def compute_dcf",
+            "lines": [
+              75
+            ]
+          }
+        }
+      ],
+      "investor_or_method": [
+        "Authored finance model, not a unique investor"
+      ],
+      "analytical_channel": "intrinsic-valuation",
+      "asset_business_fit": [
+        "Nonfinancial operating businesses with estimable FCFF"
+      ],
+      "what_finterm_already_covers": "V01-V06 ask for value bridge, normalized base, growth and sensitivity; no deterministic DCF executor.",
+      "proposed_adaptation": "Independently implement unit-aware FCFF discounted at WACC and explicit equity bridge; show all assumptions, terminal proportion and sensitivities. Offer FCFE/owner-economics only under separately documented consistent models.",
+      "license_reuse": [
+        {
+          "repo": "wbh604/UZI-Skill",
+          "status": "verified_mit",
+          "license_name": "MIT",
+          "evidence": {
+            "repo": "wbh604/UZI-Skill",
+            "commit": "650788c54a9b2e042bf7f983f16dbf8d727fce1d",
+            "path": "LICENSE",
+            "url": "https://github.com/wbh604/UZI-Skill/blob/650788c54a9b2e042bf7f983f16dbf8d727fce1d/LICENSE",
+            "source_snapshot_present": true,
+            "sha256": "78bebb5232741327c31b0da4f5bbd570dc59ab3c3230582a4d1b4650238a7d58",
+            "blob_sha": "6156f7acbc6de6c59e39fb109389a2b3822c4ac4"
+          },
+          "decision": "Direct software/text adaptation permitted subject to preserving MIT copyright and permission notice; independently clear third-party quoted/corpus material, data, APIs and trademarks."
+        }
+      ],
+      "evidence_needs_and_missing_data": [
+        "Currency, unit scale, fiscal period, EBIT/tax, capex, depreciation, noncash working-capital changes, debt/cash/claims, diluted shares, risk inputs"
+      ],
+      "decision": "rewrite",
+      "keep_exclude_rewrite_rationale": "Transfer calculation transparency, not unsafe defaults. Bank, insurer, distressed and resource-asset valuation require different mechanics.",
+      "excluded_defaults_or_known_bugs": [
+        "A-share risk-free/ERP defaults applied outside market",
+        "Overrides not passed into compute_wacc",
+        "Missing debt/cash interpreted as EV≈equity",
+        "Missing shares defaulted to one",
+        "Generic growth and terminal defaults"
+      ],
+      "acceptance_tests": [
+        "Zero debt is distinguishable from missing debt",
+        "Explicit equity bridge balances",
+        "WACC > terminal growth",
+        "Currency/unit invariance",
+        "No bank/insurer FCFF shortcut"
+      ],
+      "primary_original_method_verification": {
+        "status": "required_before_authentic_investor_routing"
+      },
+      "implementation_status": "design_specification_only_no_upstream_code_execution"
+    },
+    {
+      "id": "F04",
+      "feature": "Reverse DCF / implied-expectations worksheet",
+      "origins": [
+        {
+          "repo": "wbh604/UZI-Skill",
+          "commit": "650788c54a9b2e042bf7f983f16dbf8d727fce1d",
+          "path": "skills/deep-analysis/scripts/lib/fin_models.py",
+          "url": "https://github.com/wbh604/UZI-Skill/blob/650788c54a9b2e042bf7f983f16dbf8d727fce1d/skills/deep-analysis/scripts/lib/fin_models.py#L75",
+          "sha256": "e2f46ca1c6a6d2415ecd317456d5e00a5bc7203da9cb198955a19ddb1651afe1",
+          "locator": {
+            "needle": "def compute_dcf",
+            "lines": [
+              75
+            ]
+          }
+        },
+        {
+          "repo": "LLMQuant/skills",
+          "commit": "1918237467c2dff4cc97a18ebc0892dfd46e8129",
+          "path": "skills/llmquant-investor-lenses/workflows/aswath-damodaran.md",
+          "url": "https://github.com/LLMQuant/skills/blob/1918237467c2dff4cc97a18ebc0892dfd46e8129/skills/llmquant-investor-lenses/workflows/aswath-damodaran.md#L55",
+          "sha256": "a68b378e320102af7b50b15172dc9b9f2282ff6d24dd0b6b4327f69aad67e4a6",
+          "locator": {
+            "needle": "Story Consistency",
+            "lines": [
+              55
+            ]
+          }
+        }
+      ],
+      "investor_or_method": [
+        "Damodaran-style valuation consistency; new solver extension"
+      ],
+      "analytical_channel": "intrinsic-valuation",
+      "asset_business_fit": [
+        "Priced nonfinancial operating companies with a defensible forward model"
+      ],
+      "what_finterm_already_covers": "V04-V06 test growth assumptions, price/value and sensitivity; reviewed source does not contain a verified native reverse-DCF solver.",
+      "proposed_adaptation": "New independent solver: hold a disclosed model constant and solve one expectation implied by current enterprise/equity value. Return a feasible range or non-identification; compare with evidence and consensus.",
+      "license_reuse": [
+        {
+          "repo": "LLMQuant/skills",
+          "status": "verified_mit",
+          "license_name": "MIT（LICENSE已核验）",
+          "evidence": {
+            "repo": "LLMQuant/skills",
+            "commit": "1918237467c2dff4cc97a18ebc0892dfd46e8129",
+            "path": "LICENSE",
+            "url": "https://github.com/LLMQuant/skills/blob/1918237467c2dff4cc97a18ebc0892dfd46e8129/LICENSE",
+            "source_snapshot_present": true,
+            "sha256": "f3c604822718f53bde05c001af1b0c0849faff4e89907aaadcff93fb55711f83",
+            "blob_sha": "42a84dffe650cab37d8556121fc56314be9da242"
+          },
+          "decision": "Direct software/text adaptation permitted subject to preserving MIT copyright and permission notice; independently clear third-party quoted/corpus material, data, APIs and trademarks."
+        },
+        {
+          "repo": "wbh604/UZI-Skill",
+          "status": "verified_mit",
+          "license_name": "MIT",
+          "evidence": {
+            "repo": "wbh604/UZI-Skill",
+            "commit": "650788c54a9b2e042bf7f983f16dbf8d727fce1d",
+            "path": "LICENSE",
+            "url": "https://github.com/wbh604/UZI-Skill/blob/650788c54a9b2e042bf7f983f16dbf8d727fce1d/LICENSE",
+            "source_snapshot_present": true,
+            "sha256": "78bebb5232741327c31b0da4f5bbd570dc59ab3c3230582a4d1b4650238a7d58",
+            "blob_sha": "6156f7acbc6de6c59e39fb109389a2b3822c4ac4"
+          },
+          "decision": "Direct software/text adaptation permitted subject to preserving MIT copyright and permission notice; independently clear third-party quoted/corpus material, data, APIs and trademarks."
+        }
+      ],
+      "evidence_needs_and_missing_data": [
+        "Same full DCF prerequisites plus contemporaneous market value and independently documented consensus assumptions"
+      ],
+      "decision": "rewrite",
+      "keep_exclude_rewrite_rationale": "A new capability derived from valuation logic, not an upstream feature/code reuse claim.",
+      "excluded_defaults_or_known_bugs": [
+        "Solving simultaneously for growth, margin and discount rate as if uniquely identified",
+        "LLMQuant revenue-growth/ROIC shortcut"
+      ],
+      "acceptance_tests": [
+        "Forward/reverse round trip",
+        "No feasible solution reported honestly",
+        "Sensitivity and multiple solutions disclosed"
+      ],
+      "primary_original_method_verification": {
+        "status": "limited_primary_formula_verification_completed",
+        "urls": [
+          "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/valquestions/growth.htm",
+          "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/project/prques.htm"
+        ],
+        "limits": "Only growth/reinvestment relation and stable-growth wording verified; no full investor dossier."
+      },
+      "implementation_status": "design_specification_only_no_upstream_code_execution"
+    },
+    {
+      "id": "F05",
+      "feature": "Narrative translated into numerical drivers",
+      "origins": [
+        {
+          "repo": "LLMQuant/skills",
+          "commit": "1918237467c2dff4cc97a18ebc0892dfd46e8129",
+          "path": "skills/llmquant-investor-lenses/workflows/aswath-damodaran.md",
+          "url": "https://github.com/LLMQuant/skills/blob/1918237467c2dff4cc97a18ebc0892dfd46e8129/skills/llmquant-investor-lenses/workflows/aswath-damodaran.md#L43",
+          "sha256": "a68b378e320102af7b50b15172dc9b9f2282ff6d24dd0b6b4327f69aad67e4a6",
+          "locator": {
+            "needle": "Narrative + Numbers",
+            "lines": [
+              43
+            ]
+          }
+        },
+        {
+          "repo": "monarchjuno/vibe-investing",
+          "commit": "15954a68fcf9c5368955f935a899e9c80ad48d5c",
+          "path": "skills/investor-personas/aswath-damodaran/SKILL.md",
+          "url": "https://github.com/monarchjuno/vibe-investing/blob/15954a68fcf9c5368955f935a899e9c80ad48d5c/skills/investor-personas/aswath-damodaran/SKILL.md",
+          "sha256": "d64f9fb77b76d2cc59a8415817df7866d6583d8607ff77c51f5cddd5028a7221"
+        }
+      ],
+      "investor_or_method": [
+        "Aswath Damodaran source-only lens"
+      ],
+      "analytical_channel": "narrative-and-variant-view",
+      "asset_business_fit": [
+        "Operating businesses with credible business-driver evidence"
+      ],
+      "what_finterm_already_covers": "B01/B06/B07 and V04 already require mechanisms, incremental returns and growth logic.",
+      "proposed_adaptation": "Add claim-to-driver links: units/customer cohorts → revenue; competition/pricing → margins; growth → incremental capital; risks → discount/cash-flow scenarios. Separate valuation from peer pricing.",
+      "license_reuse": [
+        {
+          "repo": "LLMQuant/skills",
+          "status": "verified_mit",
+          "license_name": "MIT（LICENSE已核验）",
+          "evidence": {
+            "repo": "LLMQuant/skills",
+            "commit": "1918237467c2dff4cc97a18ebc0892dfd46e8129",
+            "path": "LICENSE",
+            "url": "https://github.com/LLMQuant/skills/blob/1918237467c2dff4cc97a18ebc0892dfd46e8129/LICENSE",
+            "source_snapshot_present": true,
+            "sha256": "f3c604822718f53bde05c001af1b0c0849faff4e89907aaadcff93fb55711f83",
+            "blob_sha": "42a84dffe650cab37d8556121fc56314be9da242"
+          },
+          "decision": "Direct software/text adaptation permitted subject to preserving MIT copyright and permission notice; independently clear third-party quoted/corpus material, data, APIs and trademarks."
+        },
+        {
+          "repo": "monarchjuno/vibe-investing",
+          "status": "verified_mit",
+          "license_name": "MIT",
+          "evidence": {
+            "repo": "monarchjuno/vibe-investing",
+            "commit": "15954a68fcf9c5368955f935a899e9c80ad48d5c",
+            "path": "LICENSE",
+            "url": "https://github.com/monarchjuno/vibe-investing/blob/15954a68fcf9c5368955f935a899e9c80ad48d5c/LICENSE",
+            "source_snapshot_present": true,
+            "sha256": "66f12bda4587293c2f4a3d3dad4d9f7f01a46eccb10e1bd4f8d155862dce3d5d",
+            "blob_sha": "d479d45bc8b8105c304d702dcd8fdbfb4784e502"
+          },
+          "decision": "Direct software/text adaptation permitted subject to preserving MIT copyright and permission notice; independently clear third-party quoted/corpus material, data, APIs and trademarks."
+        }
+      ],
+      "evidence_needs_and_missing_data": [
+        "Unit economics, cohort/capacity data, margin bridge, reinvestment, risk and terminal competition"
+      ],
+      "decision": "rewrite",
+      "keep_exclude_rewrite_rationale": "Unique story/numbers consistency is useful; source formulas and automatic trading bands must be independently corrected.",
+      "excluded_defaults_or_known_bugs": [
+        "Reinvestment = revenue growth / ROIC as a universal formula",
+        "Terminal value compared with risk-free rate",
+        "Fixed ±25% buy/sell labels",
+        "Upstream voice imitation"
+      ],
+      "acceptance_tests": [
+        "Operating-income growth and revenue growth not conflated",
+        "Reinvestment rate dimensionless and justified",
+        "Terminal growth distinguished from terminal monetary value"
+      ],
+      "primary_original_method_verification": {
+        "status": "required_before_authentic_investor_routing"
+      },
+      "implementation_status": "design_specification_only_no_upstream_code_execution"
+    },
+    {
+      "id": "F06",
+      "feature": "Thesis versus consensus / variant-view ledger",
+      "origins": [
+        {
+          "repo": "AlphaGBM/investment-masters",
+          "commit": "b1a304fca0f28c365f5821f4f7e36935dd4d4c2e",
+          "path": "masters/ackman.md",
+          "url": "https://github.com/AlphaGBM/investment-masters/blob/b1a304fca0f28c365f5821f4f7e36935dd4d4c2e/masters/ackman.md#L38",
+          "sha256": "25e29b635cee5a2a60e137e6c774c93873374adb9a78e3c605c594afc3c09a7d",
+          "locator": {
+            "needle": "Variant Perception",
+            "lines": [
+              38
+            ]
+          }
+        },
+        {
+          "repo": "questflowai/investorskills",
+          "commit": "2844d7809a73c01e769c8c1c7ae8189788db4d9e",
+          "path": "skills/fengliu-reverse-weakhand/invest.md",
+          "url": "https://github.com/questflowai/investorskills/blob/2844d7809a73c01e769c8c1c7ae8189788db4d9e/skills/fengliu-reverse-weakhand/invest.md#L94",
+          "sha256": "51b2ed447647623685073445bf9db6ab5042c6f11b0057500f830b135ddedc2f",
+          "locator": {
+            "needle": "consensusDivergence",
+            "lines": [
+              94
+            ]
+          }
+        }
+      ],
+      "investor_or_method": [
+        "Bill Ackman; Feng Liu; authored template"
+      ],
+      "analytical_channel": "narrative-and-variant-view",
+      "asset_business_fit": [
+        "Public-equity thesis evaluation"
+      ],
+      "what_finterm_already_covers": "D03/R07 provide counterevidence and invalidation but no explicit consensus-estimate ledger.",
+      "proposed_adaptation": "Require a dated market/consensus claim, our differing mechanism, evidence for the difference, catalyst/recognition path, and price-implied expectations. Distinguish differentiated from merely unpopular.",
+      "license_reuse": [
+        {
+          "repo": "AlphaGBM/investment-masters",
+          "status": "verified_mit",
+          "license_name": "MIT",
+          "evidence": {
+            "repo": "AlphaGBM/investment-masters",
+            "commit": "b1a304fca0f28c365f5821f4f7e36935dd4d4c2e",
+            "path": "LICENSE",
+            "url": "https://github.com/AlphaGBM/investment-masters/blob/b1a304fca0f28c365f5821f4f7e36935dd4d4c2e/LICENSE",
+            "source_snapshot_present": true,
+            "sha256": "3c1cef48a2edd49227253f9ad56e1db8a42e34c08691090e91c9495083e49afb",
+            "blob_sha": "4a6985d175f844e30c9d4ca6f9f2f7440a5d5fdf"
+          },
+          "decision": "Direct software/text adaptation permitted subject to preserving MIT copyright and permission notice; independently clear third-party quoted/corpus material, data, APIs and trademarks."
+        },
+        {
+          "repo": "questflowai/investorskills",
+          "status": "verified_mit",
+          "license_name": "MIT（LICENSE已核验）",
+          "evidence": {
+            "repo": "questflowai/investorskills",
+            "commit": "2844d7809a73c01e769c8c1c7ae8189788db4d9e",
+            "path": "LICENSE",
+            "url": "https://github.com/questflowai/investorskills/blob/2844d7809a73c01e769c8c1c7ae8189788db4d9e/LICENSE",
+            "source_snapshot_present": true,
+            "sha256": "6748aeae289a10dcd5a49038b723b7ad92633f051dc6be76add6796d33987fc4",
+            "blob_sha": "bc4c98b9054b37400de3ce6ee75a47d209dd610f"
+          },
+          "decision": "Direct software/text adaptation permitted subject to preserving MIT copyright and permission notice; independently clear third-party quoted/corpus material, data, APIs and trademarks."
+        }
+      ],
+      "evidence_needs_and_missing_data": [
+        "Consensus source/date and distribution; original company facts; price-implied model; failure triggers"
+      ],
+      "decision": "rewrite",
+      "keep_exclude_rewrite_rationale": "Adds an explicit comparison object; analyst target price or price drawdown alone is not variant insight.",
+      "excluded_defaults_or_known_bugs": [
+        "UZI upside_to_target as proxy for independent expectation gap"
+      ],
+      "acceptance_tests": [
+        "No sourced consensus → consensus unknown",
+        "Variant claim can be falsified"
+      ],
+      "primary_original_method_verification": {
+        "status": "required_before_authentic_investor_routing"
+      },
+      "implementation_status": "design_specification_only_no_upstream_code_execution"
+    },
+    {
+      "id": "F07",
+      "feature": "Full cash-flow IRR and reconciliation gates",
+      "origins": [
+        {
+          "repo": "xbtlin/ai-berkshire",
+          "commit": "ab56abcb31ef8e3a92d925f1b18fb339341ac9d3",
+          "path": "tools/terminal_value.py",
+          "url": "https://github.com/xbtlin/ai-berkshire/blob/ab56abcb31ef8e3a92d925f1b18fb339341ac9d3/tools/terminal_value.py",
+          "sha256": "311a3eb0ff00facabb8d1f86b341aef14bf8c5e64c8ebce2d110fe11f3ea38de"
+        },
+        {
+          "repo": "xbtlin/ai-berkshire",
+          "commit": "ab56abcb31ef8e3a92d925f1b18fb339341ac9d3",
+          "path": "tools/financial_rigor.py",
+          "url": "https://github.com/xbtlin/ai-berkshire/blob/ab56abcb31ef8e3a92d925f1b18fb339341ac9d3/tools/financial_rigor.py",
+          "sha256": "dee5c9de8c2dd71f1fd1cd7467dda6e5315ffa98132b82ce393b3e3e8c74fce7"
+        }
+      ],
+      "investor_or_method": [
+        "Authored financial-rigor utility"
+      ],
+      "analytical_channel": "intrinsic-valuation",
+      "asset_business_fit": [
+        "Contracted/forecastable equity payouts with dated cash flows"
+      ],
+      "what_finterm_already_covers": "V05/V06 demand an explicit value bridge and sensitivities.",
+      "proposed_adaptation": "Use dated cash-flow IRR/XIRR or disclose a geometric-return approximation; consistent units and tolerance; fail nonzero on a failed reconciliation.",
+      "license_reuse": [
+        {
+          "repo": "xbtlin/ai-berkshire",
+          "status": "verified_mit",
+          "license_name": "MIT",
+          "evidence": {
+            "repo": "xbtlin/ai-berkshire",
+            "commit": "ab56abcb31ef8e3a92d925f1b18fb339341ac9d3",
+            "path": "LICENSE",
+            "url": "https://github.com/xbtlin/ai-berkshire/blob/ab56abcb31ef8e3a92d925f1b18fb339341ac9d3/LICENSE",
+            "source_snapshot_present": true,
+            "sha256": "81b843bec8a087f4c20e5be8ad744cfe1a169dc0b4f0147cbe61e6cd3da39981",
+            "blob_sha": "99190759ce42f15f7ab6ede217e4b88f4924e67e"
+          },
+          "decision": "Direct software/text adaptation permitted subject to preserving MIT copyright and permission notice; independently clear third-party quoted/corpus material, data, APIs and trademarks."
+        }
+      ],
+      "evidence_needs_and_missing_data": [
+        "Payout schedule, terminal value, dates, currency, share changes; explicit tolerance"
+      ],
+      "decision": "rewrite",
+      "keep_exclude_rewrite_rationale": "Useful rigor protocol; existing tests and defaults intentionally tolerate a severe mismatch.",
+      "excluded_defaults_or_known_bugs": [
+        "Ignored False verification return",
+        "2% code tolerance versus 1% workflow",
+        "Claimed Decimal precision while float used",
+        "Payout yield added to annualized terminal capital gain as full IRR"
+      ],
+      "acceptance_tests": [
+        "Gross mismatch fails",
+        "Equal tolerance across docs and code",
+        "Known multiple/no-IRR cases handled"
+      ],
+      "primary_original_method_verification": {
+        "status": "required_before_authentic_investor_routing"
+      },
+      "implementation_status": "design_specification_only_no_upstream_code_execution"
+    },
+    {
+      "id": "F08",
+      "feature": "Business identity and evidence/output contract",
+      "origins": [
+        {
+          "repo": "monarchjuno/vibe-investing",
+          "commit": "15954a68fcf9c5368955f935a899e9c80ad48d5c",
+          "path": "skills/fundamental-analysis/company-analysis/references/output-contract.md",
+          "url": "https://github.com/monarchjuno/vibe-investing/blob/15954a68fcf9c5368955f935a899e9c80ad48d5c/skills/fundamental-analysis/company-analysis/references/output-contract.md",
+          "sha256": "3621858225290a77d5a79bd5652a16fb18fd160d2ef1f4afecd15a3457fe63ad"
+        },
+        {
+          "repo": "monarchjuno/vibe-investing",
+          "commit": "15954a68fcf9c5368955f935a899e9c80ad48d5c",
+          "path": "skills/fundamental-analysis/company-analysis/references/data-integrity-and-deal-radar.md",
+          "url": "https://github.com/monarchjuno/vibe-investing/blob/15954a68fcf9c5368955f935a899e9c80ad48d5c/skills/fundamental-analysis/company-analysis/references/data-integrity-and-deal-radar.md",
+          "sha256": "16c9eff37040d91bdd7bae868c1f24156069889398a37b5cc9b4a00474b60bbe"
+        }
+      ],
+      "investor_or_method": [
+        "Authored company-analysis orchestration"
+      ],
+      "analytical_channel": "primary-source-verification",
+      "asset_business_fit": [
+        "Ambiguous companies, share classes, cross-listed entities"
+      ],
+      "what_finterm_already_covers": "Question/scope and evidence receipt already covered.",
+      "proposed_adaptation": "Verify legal entity, exchange, share class, currency and acquisition perimeter before collecting facts. Keep dates, unresolved sections and fact-versus-interpretation explicit.",
+      "license_reuse": [
+        {
+          "repo": "monarchjuno/vibe-investing",
+          "status": "verified_mit",
+          "license_name": "MIT",
+          "evidence": {
+            "repo": "monarchjuno/vibe-investing",
+            "commit": "15954a68fcf9c5368955f935a899e9c80ad48d5c",
+            "path": "LICENSE",
+            "url": "https://github.com/monarchjuno/vibe-investing/blob/15954a68fcf9c5368955f935a899e9c80ad48d5c/LICENSE",
+            "source_snapshot_present": true,
+            "sha256": "66f12bda4587293c2f4a3d3dad4d9f7f01a46eccb10e1bd4f8d155862dce3d5d",
+            "blob_sha": "d479d45bc8b8105c304d702dcd8fdbfb4784e502"
+          },
+          "decision": "Direct software/text adaptation permitted subject to preserving MIT copyright and permission notice; independently clear third-party quoted/corpus material, data, APIs and trademarks."
+        }
+      ],
+      "evidence_needs_and_missing_data": [
+        "Ticker/CIK/LEI mapping, legal identity, issuer filings"
+      ],
+      "decision": "rewrite",
+      "keep_exclude_rewrite_rationale": "Complementary source-integration contract.",
+      "excluded_defaults_or_known_bugs": [
+        "Silently resolving an ambiguous company from a fuzzy name"
+      ],
+      "acceptance_tests": [
+        "Duplicate names cause clarification",
+        "Parent/subsidiary and share classes separated"
+      ],
+      "primary_original_method_verification": {
+        "status": "required_before_authentic_investor_routing"
+      },
+      "implementation_status": "design_specification_only_no_upstream_code_execution"
+    },
+    {
+      "id": "F09",
+      "feature": "Explainable method-rule results without fake confidence",
+      "origins": [
+        {
+          "repo": "wbh604/UZI-Skill",
+          "commit": "650788c54a9b2e042bf7f983f16dbf8d727fce1d",
+          "path": "skills/deep-analysis/scripts/lib/investor_evaluator.py",
+          "url": "https://github.com/wbh604/UZI-Skill/blob/650788c54a9b2e042bf7f983f16dbf8d727fce1d/skills/deep-analysis/scripts/lib/investor_evaluator.py",
+          "sha256": "cb864650377239dcda76417970d02131b47b513f3dd7fa6f6230371bf020dd26"
+        },
+        {
+          "repo": "wbh604/UZI-Skill",
+          "commit": "650788c54a9b2e042bf7f983f16dbf8d727fce1d",
+          "path": "skills/deep-analysis/scripts/lib/investor_criteria.py",
+          "url": "https://github.com/wbh604/UZI-Skill/blob/650788c54a9b2e042bf7f983f16dbf8d727fce1d/skills/deep-analysis/scripts/lib/investor_criteria.py",
+          "sha256": "9ee4f4c2f14c5fb63289a02c01be58ac9944c5a4c139fc9a7539de10f8dda64f"
+        }
+      ],
+      "investor_or_method": [
+        "Runtime rule engine"
+      ],
+      "analytical_channel": "primary-source-verification",
+      "asset_business_fit": [
+        "Only independently validated rule sets with typed data"
+      ],
+      "what_finterm_already_covers": "Component-level findings already supported; no calibrated overall investment score.",
+      "proposed_adaptation": "Return pass/fail/unresolved with required fields, units, source and rationale. Coverage denominator is all material required fields; optional score anchors are authored and empirically tested.",
+      "license_reuse": [
+        {
+          "repo": "wbh604/UZI-Skill",
+          "status": "verified_mit",
+          "license_name": "MIT",
+          "evidence": {
+            "repo": "wbh604/UZI-Skill",
+            "commit": "650788c54a9b2e042bf7f983f16dbf8d727fce1d",
+            "path": "LICENSE",
+            "url": "https://github.com/wbh604/UZI-Skill/blob/650788c54a9b2e042bf7f983f16dbf8d727fce1d/LICENSE",
+            "source_snapshot_present": true,
+            "sha256": "78bebb5232741327c31b0da4f5bbd570dc59ab3c3230582a4d1b4650238a7d58",
+            "blob_sha": "6156f7acbc6de6c59e39fb109389a2b3822c4ac4"
+          },
+          "decision": "Direct software/text adaptation permitted subject to preserving MIT copyright and permission notice; independently clear third-party quoted/corpus material, data, APIs and trademarks."
+        }
+      ],
+      "evidence_needs_and_missing_data": [
+        "Per-rule prerequisites, relevance, attribution and test fixtures"
+      ],
+      "decision": "rewrite",
+      "keep_exclude_rewrite_rationale": "Useful explainability; high-weight proxy voting is not an authentic expert panel.",
+      "excluded_defaults_or_known_bugs": [
+        "Confidence denominator len(rules) while missing rules excluded from weight total",
+        "Missing fields default to zero/true",
+        "Known-holding/override signals",
+        "Labels disagree with predicates: five-year/ten-year and 60-day/52-week mismatches"
+      ],
+      "acceptance_tests": [
+        "Missing required datum → unresolved",
+        "No persona holding overrides",
+        "Label and predicate same horizon"
+      ],
+      "primary_original_method_verification": {
+        "status": "required_before_authentic_investor_routing"
+      },
+      "implementation_status": "design_specification_only_no_upstream_code_execution"
+    },
+    {
+      "id": "F10",
+      "feature": "Historical forecasts and postmortem ledger",
+      "origins": [
+        {
+          "repo": "freenowill/stock-fish",
+          "commit": "f1feea00238ba39804551d144e5a9ac7ee88f443",
+          "path": "memory/masters/accuracy.py",
+          "url": "https://github.com/freenowill/stock-fish/blob/f1feea00238ba39804551d144e5a9ac7ee88f443/memory/masters/accuracy.py",
+          "sha256": "1151d7dc344278106eda5e4ca6cd830d6b0c643826d47e7ad4a4d6e29816e7e6"
+        },
+        {
+          "repo": "freenowill/stock-fish",
+          "commit": "f1feea00238ba39804551d144e5a9ac7ee88f443",
+          "path": "analysis/agents/cio_prompts.py",
+          "url": "https://github.com/freenowill/stock-fish/blob/f1feea00238ba39804551d144e5a9ac7ee88f443/analysis/agents/cio_prompts.py",
+          "sha256": "bdd4bf02b56e090bd10c1f52d183778bbd37ff9887d2e3598472a945946c357c"
+        }
+      ],
+      "investor_or_method": [
+        "Authored multi-analyst orchestration"
+      ],
+      "analytical_channel": "primary-source-verification",
+      "asset_business_fit": [
+        "Longitudinal thesis tracking"
+      ],
+      "what_finterm_already_covers": "R07 monitors invalidation; no outcome-forecast ledger.",
+      "proposed_adaptation": "Record claim/forecast before outcome, horizon, probability where supported, base rate, falsifier and outcome source; assess calibration separately from reasoning fidelity.",
+      "license_reuse": [
+        {
+          "repo": "freenowill/stock-fish",
+          "status": "verified_mit",
+          "license_name": "MIT",
+          "evidence": {
+            "repo": "freenowill/stock-fish",
+            "commit": "f1feea00238ba39804551d144e5a9ac7ee88f443",
+            "path": "LICENSE",
+            "url": "https://github.com/freenowill/stock-fish/blob/f1feea00238ba39804551d144e5a9ac7ee88f443/LICENSE",
+            "source_snapshot_present": true,
+            "sha256": "36da1f9abc77fe8c11dd6eb49ffd3f1b4871d282738555ed3bb3ac838738d6c8",
+            "blob_sha": "fc97cc7f60cb3e71b7eae292e3c54442f2494d3b"
+          },
+          "decision": "Direct software/text adaptation permitted subject to preserving MIT copyright and permission notice; independently clear third-party quoted/corpus material, data, APIs and trademarks."
+        }
+      ],
+      "evidence_needs_and_missing_data": [
+        "Timestamped forecast, outcome window, split-adjusted prices, exchange calendar and claim-specific realized evidence"
+      ],
+      "decision": "rewrite",
+      "keep_exclude_rewrite_rationale": "Useful learning loop; short-term price direction does not authenticate master reasoning.",
+      "excluded_defaults_or_known_bugs": [
+        "14/90/365-day direction accuracy called investor fidelity",
+        "Forced exact short-term price targets",
+        "value or 50 discards valid zero percentile"
+      ],
+      "acceptance_tests": [
+        "Zero percentile retained",
+        "Nontrading-day horizons resolved",
+        "Outcome unseen when forecast frozen"
+      ],
+      "primary_original_method_verification": {
+        "status": "required_before_authentic_investor_routing"
+      },
+      "implementation_status": "design_specification_only_no_upstream_code_execution"
+    },
+    {
+      "id": "F11",
+      "feature": "Lynch business-category-dependent underwriting",
+      "origins": [
+        {
+          "repo": "questflowai/investorskills",
+          "commit": "2844d7809a73c01e769c8c1c7ae8189788db4d9e",
+          "path": "skills/lynch-growth/invest.md",
+          "url": "https://github.com/questflowai/investorskills/blob/2844d7809a73c01e769c8c1c7ae8189788db4d9e/skills/lynch-growth/invest.md",
+          "sha256": "0f1f7bf8b43f9e214edce54a64f0f83a91e064102ab8be793f01686b7cad4fe3"
+        },
+        {
+          "repo": "virattt/ai-hedge-fund",
+          "commit": "78b779c1389e2d1452dc29606d2c4126d859b964",
+          "path": "hedge_fund/signals/lynch.py",
+          "url": "https://github.com/virattt/ai-hedge-fund/blob/78b779c1389e2d1452dc29606d2c4126d859b964/hedge_fund/signals/lynch.py",
+          "sha256": "51ed7b27df87eefea7264e621c9abd40e58d1cfc3aa30f561e8225b5a4e32b14"
+        }
+      ],
+      "investor_or_method": [
+        "Peter Lynch"
+      ],
+      "analytical_channel": "business-quality",
+      "asset_business_fit": [
+        "Slow growers, stalwarts, fast growers, cyclicals, turnarounds, asset plays where facts support the category"
+      ],
+      "what_finterm_already_covers": "B01/V02/V03 support method fit; no complete Lynch category workflow.",
+      "proposed_adaptation": "Classify from economics, not sector; select category-specific earnings, survival, asset, cycle and valuation evidence; use consistent PEG units only where growth quality justifies it.",
+      "license_reuse": [
+        {
+          "repo": "questflowai/investorskills",
+          "status": "verified_mit",
+          "license_name": "MIT（LICENSE已核验）",
+          "evidence": {
+            "repo": "questflowai/investorskills",
+            "commit": "2844d7809a73c01e769c8c1c7ae8189788db4d9e",
+            "path": "LICENSE",
+            "url": "https://github.com/questflowai/investorskills/blob/2844d7809a73c01e769c8c1c7ae8189788db4d9e/LICENSE",
+            "source_snapshot_present": true,
+            "sha256": "6748aeae289a10dcd5a49038b723b7ad92633f051dc6be76add6796d33987fc4",
+            "blob_sha": "bc4c98b9054b37400de3ce6ee75a47d209dd610f"
+          },
+          "decision": "Direct software/text adaptation permitted subject to preserving MIT copyright and permission notice; independently clear third-party quoted/corpus material, data, APIs and trademarks."
+        },
+        {
+          "repo": "virattt/ai-hedge-fund",
+          "status": "verified_mit",
+          "license_name": "MIT",
+          "evidence": {
+            "repo": "virattt/ai-hedge-fund",
+            "commit": "78b779c1389e2d1452dc29606d2c4126d859b964",
+            "path": "LICENSE",
+            "url": "https://github.com/virattt/ai-hedge-fund/blob/78b779c1389e2d1452dc29606d2c4126d859b964/LICENSE",
+            "source_snapshot_present": true,
+            "sha256": "6cb192c4a37c69c84459d2e1b3da7af51b06d91e35be521c898107bdae18e2a4",
+            "blob_sha": "6ed5ed19cfc0ec1448fca7e6b6be72abaa2b8b85"
+          },
+          "decision": "Direct software/text adaptation permitted subject to preserving MIT copyright and permission notice; independently clear third-party quoted/corpus material, data, APIs and trademarks."
+        }
+      ],
+      "evidence_needs_and_missing_data": [
+        "Multi-year earnings, balance sheet, cyclicality, units/segments, growth durability"
+      ],
+      "decision": "rewrite",
+      "keep_exclude_rewrite_rationale": "Category logic avoids one valuation multiple for every business.",
+      "excluded_defaults_or_known_bugs": [
+        "PEG×100 error in Wechat module",
+        "Revenue growth substituted for stable earnings growth",
+        "Fixed category label without evidence"
+      ],
+      "acceptance_tests": [
+        "Cyclical peak earnings not treated as cheap fast grower"
+      ],
+      "primary_original_method_verification": {
+        "status": "required_before_authentic_investor_routing"
+      },
+      "implementation_status": "design_specification_only_no_upstream_code_execution"
+    },
+    {
+      "id": "F12",
+      "feature": "Graham net-current-asset and basket discipline",
+      "origins": [
+        {
+          "repo": "questflowai/investorskills",
+          "commit": "2844d7809a73c01e769c8c1c7ae8189788db4d9e",
+          "path": "skills/graham-net-net/invest.md",
+          "url": "https://github.com/questflowai/investorskills/blob/2844d7809a73c01e769c8c1c7ae8189788db4d9e/skills/graham-net-net/invest.md",
+          "sha256": "c0b2e28d396ae096dac448d96e5a19570a4eed99ab2d386c517f83a07c132d22"
+        },
+        {
+          "repo": "virattt/ai-hedge-fund",
+          "commit": "78b779c1389e2d1452dc29606d2c4126d859b964",
+          "path": "hedge_fund/signals/graham.py",
+          "url": "https://github.com/virattt/ai-hedge-fund/blob/78b779c1389e2d1452dc29606d2c4126d859b964/hedge_fund/signals/graham.py",
+          "sha256": "a95a149607fc02c4efacf5310933874f54fdd232be09adfe850ff52106ba655f"
+        }
+      ],
+      "investor_or_method": [
+        "Benjamin Graham"
+      ],
+      "analytical_channel": "intrinsic-valuation",
+      "asset_business_fit": [
+        "Asset-rich nonfinancial businesses with realizable current assets"
+      ],
+      "what_finterm_already_covers": "V02/S12 allow asset-value and special-instrument checks.",
+      "proposed_adaptation": "Independently compute adjusted net-current-asset value after all relevant liabilities/claims and liquidity haircuts; show liquidation uncertainty and basket/implementation risks separately.",
+      "license_reuse": [
+        {
+          "repo": "questflowai/investorskills",
+          "status": "verified_mit",
+          "license_name": "MIT（LICENSE已核验）",
+          "evidence": {
+            "repo": "questflowai/investorskills",
+            "commit": "2844d7809a73c01e769c8c1c7ae8189788db4d9e",
+            "path": "LICENSE",
+            "url": "https://github.com/questflowai/investorskills/blob/2844d7809a73c01e769c8c1c7ae8189788db4d9e/LICENSE",
+            "source_snapshot_present": true,
+            "sha256": "6748aeae289a10dcd5a49038b723b7ad92633f051dc6be76add6796d33987fc4",
+            "blob_sha": "bc4c98b9054b37400de3ce6ee75a47d209dd610f"
+          },
+          "decision": "Direct software/text adaptation permitted subject to preserving MIT copyright and permission notice; independently clear third-party quoted/corpus material, data, APIs and trademarks."
+        },
+        {
+          "repo": "virattt/ai-hedge-fund",
+          "status": "verified_mit",
+          "license_name": "MIT",
+          "evidence": {
+            "repo": "virattt/ai-hedge-fund",
+            "commit": "78b779c1389e2d1452dc29606d2c4126d859b964",
+            "path": "LICENSE",
+            "url": "https://github.com/virattt/ai-hedge-fund/blob/78b779c1389e2d1452dc29606d2c4126d859b964/LICENSE",
+            "source_snapshot_present": true,
+            "sha256": "6cb192c4a37c69c84459d2e1b3da7af51b06d91e35be521c898107bdae18e2a4",
+            "blob_sha": "6ed5ed19cfc0ec1448fca7e6b6be72abaa2b8b85"
+          },
+          "decision": "Direct software/text adaptation permitted subject to preserving MIT copyright and permission notice; independently clear third-party quoted/corpus material, data, APIs and trademarks."
+        }
+      ],
+      "evidence_needs_and_missing_data": [
+        "Current-asset realization, liabilities, preferred/minority claims, diluted shares, liquidity"
+      ],
+      "decision": "rewrite",
+      "keep_exclude_rewrite_rationale": "Distinct asset-value method, not a Buffett quality screen.",
+      "excluded_defaults_or_known_bugs": [
+        "Generic PE/PB threshold used as universal Graham valuation",
+        "Paul Graham mistakenly merged with Benjamin"
+      ],
+      "acceptance_tests": [
+        "Bank/insurer current assets excluded",
+        "Off-balance obligations included"
+      ],
+      "primary_original_method_verification": {
+        "status": "required_before_authentic_investor_routing"
+      },
+      "implementation_status": "design_specification_only_no_upstream_code_execution"
+    },
+    {
+      "id": "F13",
+      "feature": "Fisher scuttlebutt verification",
+      "origins": [
+        {
+          "repo": "LI-Jialu/investor-panel-skill",
+          "commit": "858ede0115f7387dd0ad825a563deec09d29bd1d",
+          "path": "skills/investor-panel/references/people/phil-fisher.md",
+          "url": "https://github.com/LI-Jialu/investor-panel-skill/blob/858ede0115f7387dd0ad825a563deec09d29bd1d/skills/investor-panel/references/people/phil-fisher.md",
+          "sha256": "f22f764f2cbe68588183ad2b8a9110dfe5e11f431efa8166eb64547fb6cd2af6"
+        },
+        {
+          "repo": "monarchjuno/vibe-investing",
+          "commit": "15954a68fcf9c5368955f935a899e9c80ad48d5c",
+          "path": "skills/investor-personas/phil-fisher/SKILL.md",
+          "url": "https://github.com/monarchjuno/vibe-investing/blob/15954a68fcf9c5368955f935a899e9c80ad48d5c/skills/investor-personas/phil-fisher/SKILL.md",
+          "sha256": "7a98973ef1b33fb7f06096c8dac68ab94cac0d421c5fe0f4d966ad9ae21dfce7"
+        }
+      ],
+      "investor_or_method": [
+        "Philip Fisher"
+      ],
+      "analytical_channel": "business-quality",
+      "asset_business_fit": [
+        "Innovation/customer/channel-dependent operating businesses"
+      ],
+      "what_finterm_already_covers": "B02/M01-M08/B07 already ask about competitive mechanisms and management.",
+      "proposed_adaptation": "Independently build triangulated customer, competitor, supplier and employee question maps; separate anecdote, corroboration and measurable results.",
+      "license_reuse": [
+        {
+          "repo": "LI-Jialu/investor-panel-skill",
+          "status": "not_found",
+          "license_name": "未发现LICENSE；GitHub license=null",
+          "evidence": {
+            "repo": "LI-Jialu/investor-panel-skill",
+            "commit": "858ede0115f7387dd0ad825a563deec09d29bd1d",
+            "path": "LICENSE",
+            "url": "https://github.com/LI-Jialu/investor-panel-skill/blob/858ede0115f7387dd0ad825a563deec09d29bd1d/LICENSE",
+            "source_snapshot_present": false
+          },
+          "decision": "Do not copy or redistribute source text/code. README MIT claim is not a verified license grant. Use independently written, primary-sourced concepts only, or obtain author permission."
+        },
+        {
+          "repo": "monarchjuno/vibe-investing",
+          "status": "verified_mit",
+          "license_name": "MIT",
+          "evidence": {
+            "repo": "monarchjuno/vibe-investing",
+            "commit": "15954a68fcf9c5368955f935a899e9c80ad48d5c",
+            "path": "LICENSE",
+            "url": "https://github.com/monarchjuno/vibe-investing/blob/15954a68fcf9c5368955f935a899e9c80ad48d5c/LICENSE",
+            "source_snapshot_present": true,
+            "sha256": "66f12bda4587293c2f4a3d3dad4d9f7f01a46eccb10e1bd4f8d155862dce3d5d",
+            "blob_sha": "d479d45bc8b8105c304d702dcd8fdbfb4784e502"
+          },
+          "decision": "Direct software/text adaptation permitted subject to preserving MIT copyright and permission notice; independently clear third-party quoted/corpus material, data, APIs and trademarks."
+        }
+      ],
+      "evidence_needs_and_missing_data": [
+        "Attributed sources, dates, incentives, conflict disclosures, company operating evidence"
+      ],
+      "decision": "rewrite",
+      "keep_exclude_rewrite_rationale": "Research design is useful; LI-Jialu has no verified reuse license, so independently write rather than copy.",
+      "excluded_defaults_or_known_bugs": [],
+      "acceptance_tests": [
+        "Anonymous/anecdotal channel check never becomes a filed fact"
+      ],
+      "primary_original_method_verification": {
+        "status": "required_before_authentic_investor_routing"
+      },
+      "implementation_status": "design_specification_only_no_upstream_code_execution"
+    },
+    {
+      "id": "F14",
+      "feature": "Scale economies shared, not margin maximization",
+      "origins": [
+        {
+          "repo": "questflowai/investorskills",
+          "commit": "2844d7809a73c01e769c8c1c7ae8189788db4d9e",
+          "path": "skills/nick-sleep-scale-economies/invest.md",
+          "url": "https://github.com/questflowai/investorskills/blob/2844d7809a73c01e769c8c1c7ae8189788db4d9e/skills/nick-sleep-scale-economies/invest.md",
+          "sha256": "be29f052559c50ddd476291849fcafac5241c79cac56db4d9100337176c880fe"
+        },
+        {
+          "repo": "LI-Jialu/investor-panel-skill",
+          "commit": "858ede0115f7387dd0ad825a563deec09d29bd1d",
+          "path": "skills/investor-panel/references/people/nick-sleep.md",
+          "url": "https://github.com/LI-Jialu/investor-panel-skill/blob/858ede0115f7387dd0ad825a563deec09d29bd1d/skills/investor-panel/references/people/nick-sleep.md",
+          "sha256": "8375452cd01f9b9e20d3691b481f2882a57e299fc4ccea632f58d614e250afb8"
+        }
+      ],
+      "investor_or_method": [
+        "Nick Sleep and Qais Zakaria co-attributed"
+      ],
+      "analytical_channel": "business-quality",
+      "asset_business_fit": [
+        "Retail, logistics, platform or subscription models where scale benefits reach customers"
+      ],
+      "what_finterm_already_covers": "B06/S08/S10 analyze reinvestment/customer economics.",
+      "proposed_adaptation": "Track scale cost savings passed into customer value, retention/usage and reinvestment, with evidence that loyalty and returns persist. Treat low current margins as a question to reconcile, not automatic weakness.",
+      "license_reuse": [
+        {
+          "repo": "LI-Jialu/investor-panel-skill",
+          "status": "not_found",
+          "license_name": "未发现LICENSE；GitHub license=null",
+          "evidence": {
+            "repo": "LI-Jialu/investor-panel-skill",
+            "commit": "858ede0115f7387dd0ad825a563deec09d29bd1d",
+            "path": "LICENSE",
+            "url": "https://github.com/LI-Jialu/investor-panel-skill/blob/858ede0115f7387dd0ad825a563deec09d29bd1d/LICENSE",
+            "source_snapshot_present": false
+          },
+          "decision": "Do not copy or redistribute source text/code. README MIT claim is not a verified license grant. Use independently written, primary-sourced concepts only, or obtain author permission."
+        },
+        {
+          "repo": "questflowai/investorskills",
+          "status": "verified_mit",
+          "license_name": "MIT（LICENSE已核验）",
+          "evidence": {
+            "repo": "questflowai/investorskills",
+            "commit": "2844d7809a73c01e769c8c1c7ae8189788db4d9e",
+            "path": "LICENSE",
+            "url": "https://github.com/questflowai/investorskills/blob/2844d7809a73c01e769c8c1c7ae8189788db4d9e/LICENSE",
+            "source_snapshot_present": true,
+            "sha256": "6748aeae289a10dcd5a49038b723b7ad92633f051dc6be76add6796d33987fc4",
+            "blob_sha": "bc4c98b9054b37400de3ce6ee75a47d209dd610f"
+          },
+          "decision": "Direct software/text adaptation permitted subject to preserving MIT copyright and permission notice; independently clear third-party quoted/corpus material, data, APIs and trademarks."
+        }
+      ],
+      "evidence_needs_and_missing_data": [
+        "Price/value trends, cohorts, cost curve, retention, reinvestment, competitive response"
+      ],
+      "decision": "rewrite",
+      "keep_exclude_rewrite_rationale": "Adds a specific causal mechanism. Nomad letters needed for original claim mapping.",
+      "excluded_defaults_or_known_bugs": [
+        "Any low-margin growth business labeled scale-economies-shared"
+      ],
+      "acceptance_tests": [
+        "Subsidized unprofitable growth is distinguished from productive scale investment"
+      ],
+      "primary_original_method_verification": {
+        "status": "required_before_authentic_investor_routing"
+      },
+      "implementation_status": "design_specification_only_no_upstream_code_execution"
+    },
+    {
+      "id": "F15",
+      "feature": "Quality-compounding reinvestment discipline",
+      "origins": [
+        {
+          "repo": "LI-Jialu/investor-panel-skill",
+          "commit": "858ede0115f7387dd0ad825a563deec09d29bd1d",
+          "path": "skills/investor-panel/references/people/terry-smith.md",
+          "url": "https://github.com/LI-Jialu/investor-panel-skill/blob/858ede0115f7387dd0ad825a563deec09d29bd1d/skills/investor-panel/references/people/terry-smith.md",
+          "sha256": "0ced82e925d17e6bea79ace6d69303e2a2a3161a1734e5ea306f0403aecc8852"
+        },
+        {
+          "repo": "questflowai/investorskills",
+          "commit": "2844d7809a73c01e769c8c1c7ae8189788db4d9e",
+          "path": "skills/hohn-concentrated-quality/invest.md",
+          "url": "https://github.com/questflowai/investorskills/blob/2844d7809a73c01e769c8c1c7ae8189788db4d9e/skills/hohn-concentrated-quality/invest.md",
+          "sha256": "d05888dadcde4d508ba320191289a3e1e62bdab8f431b22d6aa033726da37b2d"
+        }
+      ],
+      "investor_or_method": [
+        "Terry Smith; Christopher Hohn"
+      ],
+      "analytical_channel": "business-quality",
+      "asset_business_fit": [
+        "Cash-generative durable operating franchises"
+      ],
+      "what_finterm_already_covers": "B02/B06/F06/C03 cover quality and incremental returns.",
+      "proposed_adaptation": "Add durable capital returns, pricing/cash conversion and reinvestment runway checks; primary-source verify separate Smith/Hohn emphasis and shareholder-engagement mechanics.",
+      "license_reuse": [
+        {
+          "repo": "LI-Jialu/investor-panel-skill",
+          "status": "not_found",
+          "license_name": "未发现LICENSE；GitHub license=null",
+          "evidence": {
+            "repo": "LI-Jialu/investor-panel-skill",
+            "commit": "858ede0115f7387dd0ad825a563deec09d29bd1d",
+            "path": "LICENSE",
+            "url": "https://github.com/LI-Jialu/investor-panel-skill/blob/858ede0115f7387dd0ad825a563deec09d29bd1d/LICENSE",
+            "source_snapshot_present": false
+          },
+          "decision": "Do not copy or redistribute source text/code. README MIT claim is not a verified license grant. Use independently written, primary-sourced concepts only, or obtain author permission."
+        },
+        {
+          "repo": "questflowai/investorskills",
+          "status": "verified_mit",
+          "license_name": "MIT（LICENSE已核验）",
+          "evidence": {
+            "repo": "questflowai/investorskills",
+            "commit": "2844d7809a73c01e769c8c1c7ae8189788db4d9e",
+            "path": "LICENSE",
+            "url": "https://github.com/questflowai/investorskills/blob/2844d7809a73c01e769c8c1c7ae8189788db4d9e/LICENSE",
+            "source_snapshot_present": true,
+            "sha256": "6748aeae289a10dcd5a49038b723b7ad92633f051dc6be76add6796d33987fc4",
+            "blob_sha": "bc4c98b9054b37400de3ce6ee75a47d209dd610f"
+          },
+          "decision": "Direct software/text adaptation permitted subject to preserving MIT copyright and permission notice; independently clear third-party quoted/corpus material, data, APIs and trademarks."
+        }
+      ],
+      "evidence_needs_and_missing_data": [
+        "ROIC normalization, capital intensity, conversion, leverage, reinvestment opportunities"
+      ],
+      "decision": "rewrite",
+      "keep_exclude_rewrite_rationale": "Method distinctions matter; no-license LI profile cannot be copied.",
+      "excluded_defaults_or_known_bugs": [
+        "Historical ROIC alone proves future compounding"
+      ],
+      "acceptance_tests": [],
+      "primary_original_method_verification": {
+        "status": "required_before_authentic_investor_routing"
+      },
+      "implementation_status": "design_specification_only_no_upstream_code_execution"
+    },
+    {
+      "id": "F16",
+      "feature": "Balance-sheet baskets and global survival-based contrarianism",
+      "origins": [
+        {
+          "repo": "questflowai/investorskills",
+          "commit": "2844d7809a73c01e769c8c1c7ae8189788db4d9e",
+          "path": "skills/schloss-cigar-butt/invest.md",
+          "url": "https://github.com/questflowai/investorskills/blob/2844d7809a73c01e769c8c1c7ae8189788db4d9e/skills/schloss-cigar-butt/invest.md",
+          "sha256": "6b3fd9374bdf6522fc5eaa131cfcc07cc7085432593d0b0b7354773c323135b8"
+        },
+        {
+          "repo": "questflowai/investorskills",
+          "commit": "2844d7809a73c01e769c8c1c7ae8189788db4d9e",
+          "path": "skills/templeton-max-pessimism/invest.md",
+          "url": "https://github.com/questflowai/investorskills/blob/2844d7809a73c01e769c8c1c7ae8189788db4d9e/skills/templeton-max-pessimism/invest.md",
+          "sha256": "8f1d8b0f81fcdbea32047cfa5307602f1ce707719ba7a0aa44b1b1a9951941aa"
+        }
+      ],
+      "investor_or_method": [
+        "Walter Schloss; John Templeton"
+      ],
+      "analytical_channel": "intrinsic-valuation",
+      "asset_business_fit": [
+        "Neglected asset bargains or crisis-discounted global companies"
+      ],
+      "what_finterm_already_covers": "V03/R01/R02 can normalize and test survival.",
+      "proposed_adaptation": "Keep distinct branches: diversified tangible-asset bargains versus global pessimism with normalized earnings and country/funding survival. Neither is generic single-name concentration.",
+      "license_reuse": [
+        {
+          "repo": "questflowai/investorskills",
+          "status": "verified_mit",
+          "license_name": "MIT（LICENSE已核验）",
+          "evidence": {
+            "repo": "questflowai/investorskills",
+            "commit": "2844d7809a73c01e769c8c1c7ae8189788db4d9e",
+            "path": "LICENSE",
+            "url": "https://github.com/questflowai/investorskills/blob/2844d7809a73c01e769c8c1c7ae8189788db4d9e/LICENSE",
+            "source_snapshot_present": true,
+            "sha256": "6748aeae289a10dcd5a49038b723b7ad92633f051dc6be76add6796d33987fc4",
+            "blob_sha": "bc4c98b9054b37400de3ce6ee75a47d209dd610f"
+          },
+          "decision": "Direct software/text adaptation permitted subject to preserving MIT copyright and permission notice; independently clear third-party quoted/corpus material, data, APIs and trademarks."
+        }
+      ],
+      "evidence_needs_and_missing_data": [
+        "Asset quality, liabilities, liquidity, normalized cycle economics, country/currency restrictions"
+      ],
+      "decision": "rewrite",
+      "keep_exclude_rewrite_rationale": "Useful missing specialties with different risk controls.",
+      "excluded_defaults_or_known_bugs": [
+        "Cheap multiple or pessimism alone establishes survival"
+      ],
+      "acceptance_tests": [],
+      "primary_original_method_verification": {
+        "status": "required_before_authentic_investor_routing"
+      },
+      "implementation_status": "design_specification_only_no_upstream_code_execution"
+    },
+    {
+      "id": "F17",
+      "feature": "Special-situation event and forced-selling map",
+      "origins": [
+        {
+          "repo": "questflowai/investorskills",
+          "commit": "2844d7809a73c01e769c8c1c7ae8189788db4d9e",
+          "path": "skills/greenblatt-special-situations/invest.md",
+          "url": "https://github.com/questflowai/investorskills/blob/2844d7809a73c01e769c8c1c7ae8189788db4d9e/skills/greenblatt-special-situations/invest.md",
+          "sha256": "a47ee3d78b2b4e97c59d54809cab535a0ad62c12ee3e7a2cff039cd177c676bc"
+        },
+        {
+          "repo": "questflowai/investorskills",
+          "commit": "2844d7809a73c01e769c8c1c7ae8189788db4d9e",
+          "path": "skills/icahn-activist/invest.md",
+          "url": "https://github.com/questflowai/investorskills/blob/2844d7809a73c01e769c8c1c7ae8189788db4d9e/skills/icahn-activist/invest.md",
+          "sha256": "17f9a63d1b0439118671abb7e058964557ca9ca37ec63ffac18094b0d5552c0d"
+        }
+      ],
+      "investor_or_method": [
+        "Joel Greenblatt; Carl Icahn"
+      ],
+      "analytical_channel": "distressed-credit-structure",
+      "asset_business_fit": [
+        "Spinoffs, restructurings, asset sales, governance events"
+      ],
+      "what_finterm_already_covers": "C09/S12 cover transactions and instrument mechanics.",
+      "proposed_adaptation": "Map security entitlement, separation liabilities, forced holders, insider incentives, voting rights, event timing and standalone value. Keep Magic Formula screens a separately sourced strategy.",
+      "license_reuse": [
+        {
+          "repo": "questflowai/investorskills",
+          "status": "verified_mit",
+          "license_name": "MIT（LICENSE已核验）",
+          "evidence": {
+            "repo": "questflowai/investorskills",
+            "commit": "2844d7809a73c01e769c8c1c7ae8189788db4d9e",
+            "path": "LICENSE",
+            "url": "https://github.com/questflowai/investorskills/blob/2844d7809a73c01e769c8c1c7ae8189788db4d9e/LICENSE",
+            "source_snapshot_present": true,
+            "sha256": "6748aeae289a10dcd5a49038b723b7ad92633f051dc6be76add6796d33987fc4",
+            "blob_sha": "bc4c98b9054b37400de3ce6ee75a47d209dd610f"
+          },
+          "decision": "Direct software/text adaptation permitted subject to preserving MIT copyright and permission notice; independently clear third-party quoted/corpus material, data, APIs and trademarks."
+        }
+      ],
+      "evidence_needs_and_missing_data": [
+        "Transaction documents, votes, capital structure, taxes, debt, event probabilities"
+      ],
+      "decision": "rewrite",
+      "keep_exclude_rewrite_rationale": "Makes catalyst mechanics auditable; investor-name label does not make an event executable.",
+      "excluded_defaults_or_known_bugs": [],
+      "acceptance_tests": [
+        "Proposed transaction not assumed completed",
+        "Rights and security claims reconciled"
+      ],
+      "primary_original_method_verification": {
+        "status": "required_before_authentic_investor_routing"
+      },
+      "implementation_status": "design_specification_only_no_upstream_code_execution"
+    },
+    {
+      "id": "F18",
+      "feature": "Distressed fulcrum security and recovery waterfall",
+      "origins": [
+        {
+          "repo": "questflowai/investorskills",
+          "commit": "2844d7809a73c01e769c8c1c7ae8189788db4d9e",
+          "path": "skills/tepper-distressed-macro/invest.md",
+          "url": "https://github.com/questflowai/investorskills/blob/2844d7809a73c01e769c8c1c7ae8189788db4d9e/skills/tepper-distressed-macro/invest.md",
+          "sha256": "a98c5f4a48fa4edd729c092423b63efa5dfbe1da5842fc2772be7c627e075457"
+        },
+        {
+          "repo": "questflowai/investorskills",
+          "commit": "2844d7809a73c01e769c8c1c7ae8189788db4d9e",
+          "path": "skills/klarman-deep-value/invest.md",
+          "url": "https://github.com/questflowai/investorskills/blob/2844d7809a73c01e769c8c1c7ae8189788db4d9e/skills/klarman-deep-value/invest.md",
+          "sha256": "f50faeaf8d5e7d7185e2af67cffa39cfba826a89c840c7af7ff1a1c6b92d9f93"
+        }
+      ],
+      "investor_or_method": [
+        "David Tepper; Seth Klarman"
+      ],
+      "analytical_channel": "distressed-credit-structure",
+      "asset_business_fit": [
+        "Credit, preferreds and distressed capital structures"
+      ],
+      "what_finterm_already_covers": "R02/R03/S12 ask financing and nonlinear instrument questions.",
+      "proposed_adaptation": "Separate operating enterprise value from claim recoveries; model priority, covenants, collateral, maturities, restructuring costs, dilution and legal waterfall. No generic equity DCF substitute.",
+      "license_reuse": [
+        {
+          "repo": "questflowai/investorskills",
+          "status": "verified_mit",
+          "license_name": "MIT（LICENSE已核验）",
+          "evidence": {
+            "repo": "questflowai/investorskills",
+            "commit": "2844d7809a73c01e769c8c1c7ae8189788db4d9e",
+            "path": "LICENSE",
+            "url": "https://github.com/questflowai/investorskills/blob/2844d7809a73c01e769c8c1c7ae8189788db4d9e/LICENSE",
+            "source_snapshot_present": true,
+            "sha256": "6748aeae289a10dcd5a49038b723b7ad92633f051dc6be76add6796d33987fc4",
+            "blob_sha": "bc4c98b9054b37400de3ce6ee75a47d209dd610f"
+          },
+          "decision": "Direct software/text adaptation permitted subject to preserving MIT copyright and permission notice; independently clear third-party quoted/corpus material, data, APIs and trademarks."
+        }
+      ],
+      "evidence_needs_and_missing_data": [
+        "Debt agreements, priority/collateral, liquidation/reorganization cases, liquidity, legal jurisdiction"
+      ],
+      "decision": "rewrite",
+      "keep_exclude_rewrite_rationale": "Distinct asset specialty and bounded instrument competence.",
+      "excluded_defaults_or_known_bugs": [
+        "Policy backstop assumed certain",
+        "Common stock chosen by company-name affinity"
+      ],
+      "acceptance_tests": [
+        "Senior claims paid before junior claims",
+        "Recovery never exceeds claim without explicit participating terms"
+      ],
+      "primary_original_method_verification": {
+        "status": "required_before_authentic_investor_routing"
+      },
+      "implementation_status": "design_specification_only_no_upstream_code_execution"
+    },
+    {
+      "id": "F19",
+      "feature": "Forensic accounting challenger",
+      "origins": [
+        {
+          "repo": "questflowai/investorskills",
+          "commit": "2844d7809a73c01e769c8c1c7ae8189788db4d9e",
+          "path": "skills/einhorn-forensic-short/invest.md",
+          "url": "https://github.com/questflowai/investorskills/blob/2844d7809a73c01e769c8c1c7ae8189788db4d9e/skills/einhorn-forensic-short/invest.md",
+          "sha256": "6748235618596df8c0cde1e1370da337c4e29cb00045b35d778ed5cafcd95b1b"
+        },
+        {
+          "repo": "questflowai/investorskills",
+          "commit": "2844d7809a73c01e769c8c1c7ae8189788db4d9e",
+          "path": "skills/muddy-waters-forensic/invest.md",
+          "url": "https://github.com/questflowai/investorskills/blob/2844d7809a73c01e769c8c1c7ae8189788db4d9e/skills/muddy-waters-forensic/invest.md",
+          "sha256": "2c22c1ca23370507b4b9d167fd1e381dfc4893c713948b1fe9e5f02018fec0f6"
+        },
+        {
+          "repo": "questflowai/investorskills",
+          "commit": "2844d7809a73c01e769c8c1c7ae8189788db4d9e",
+          "path": "skills/spruce-point-accounting-short/invest.md",
+          "url": "https://github.com/questflowai/investorskills/blob/2844d7809a73c01e769c8c1c7ae8189788db4d9e/skills/spruce-point-accounting-short/invest.md",
+          "sha256": "3171993867fa947ddea8cc6865f84541c474e4c28a745e1babd02f3f98ae1ff2"
+        }
+      ],
+      "investor_or_method": [
+        "David Einhorn; Carson Block/Muddy Waters; Spruce Point"
+      ],
+      "analytical_channel": "business-quality",
+      "asset_business_fit": [
+        "Material accrual/non-GAAP/related-party/channel questions"
+      ],
+      "what_finterm_already_covers": "F01/F05/M05/D03 already reconcile facts and incentives.",
+      "proposed_adaptation": "Add cash-versus-profit/accrual bridge, related-party graph and independently corroborated allegation ledger. Short implementation is a separate branch with borrow, recalls, squeeze and losses.",
+      "license_reuse": [
+        {
+          "repo": "questflowai/investorskills",
+          "status": "verified_mit",
+          "license_name": "MIT（LICENSE已核验）",
+          "evidence": {
+            "repo": "questflowai/investorskills",
+            "commit": "2844d7809a73c01e769c8c1c7ae8189788db4d9e",
+            "path": "LICENSE",
+            "url": "https://github.com/questflowai/investorskills/blob/2844d7809a73c01e769c8c1c7ae8189788db4d9e/LICENSE",
+            "source_snapshot_present": true,
+            "sha256": "6748aeae289a10dcd5a49038b723b7ad92633f051dc6be76add6796d33987fc4",
+            "blob_sha": "bc4c98b9054b37400de3ce6ee75a47d209dd610f"
+          },
+          "decision": "Direct software/text adaptation permitted subject to preserving MIT copyright and permission notice; independently clear third-party quoted/corpus material, data, APIs and trademarks."
+        }
+      ],
+      "evidence_needs_and_missing_data": [
+        "Filings/notes, counterparties, legal disclosures, cash verification, borrow terms only if execution studied"
+      ],
+      "decision": "rewrite",
+      "keep_exclude_rewrite_rationale": "Useful challenger; third-party accusation is evidence to test, not verified fact.",
+      "excluded_defaults_or_known_bugs": [
+        "Short report allegations copied as facts",
+        "Neutral/failed quality test becomes a short recommendation"
+      ],
+      "acceptance_tests": [
+        "Accusation/response/fact statuses separate",
+        "Borrow costs and unlimited-loss risk not omitted"
+      ],
+      "primary_original_method_verification": {
+        "status": "required_before_authentic_investor_routing"
+      },
+      "implementation_status": "design_specification_only_no_upstream_code_execution"
+    },
+    {
+      "id": "F20",
+      "feature": "Insurance float with reserve and funding checks",
+      "origins": [
+        {
+          "repo": "questflowai/investorskills",
+          "commit": "2844d7809a73c01e769c8c1c7ae8189788db4d9e",
+          "path": "skills/watsa-insurance-float/invest.md",
+          "url": "https://github.com/questflowai/investorskills/blob/2844d7809a73c01e769c8c1c7ae8189788db4d9e/skills/watsa-insurance-float/invest.md",
+          "sha256": "4497aca4fd1e38ae186932184e677ad2ade93778f0890608dd2729f7e8484d3a"
+        },
+        {
+          "repo": "kangarooking/buffett-letters-skill",
+          "commit": "5b1fbe1d93f155fcf4acf236841bf8e1b5951c91",
+          "path": "float-thinking/SKILL.md",
+          "url": "https://github.com/kangarooking/buffett-letters-skill/blob/5b1fbe1d93f155fcf4acf236841bf8e1b5951c91/float-thinking/SKILL.md",
+          "sha256": "3a6a3984b657fbfcd9d7512f47e8a90eca912642c984631d637b2be291c91412"
+        }
+      ],
+      "investor_or_method": [
+        "Prem Watsa; Buffett-inspired float toolkit"
+      ],
+      "analytical_channel": "distressed-credit-structure",
+      "asset_business_fit": [
+        "P&C insurance with float, reserves and investable assets"
+      ],
+      "what_finterm_already_covers": "S01-S06 already cover amount/cost/duration/reserves/tails/transfer chain in more detail.",
+      "proposed_adaptation": "Mostly retain finterm. Add independent Watsa source mapping where genuinely different, with investment portfolio/hedge exposures distinct from underwriting.",
+      "license_reuse": [
+        {
+          "repo": "kangarooking/buffett-letters-skill",
+          "status": "verified_mit",
+          "license_name": "MIT",
+          "evidence": {
+            "repo": "kangarooking/buffett-letters-skill",
+            "commit": "5b1fbe1d93f155fcf4acf236841bf8e1b5951c91",
+            "path": "LICENSE",
+            "url": "https://github.com/kangarooking/buffett-letters-skill/blob/5b1fbe1d93f155fcf4acf236841bf8e1b5951c91/LICENSE",
+            "source_snapshot_present": true,
+            "sha256": "1126322e2cc8d165adc4c792eeb195717de2bcc7b39be1ce77959d78e87ef685",
+            "blob_sha": "14fac913ccf80234b1848540089a3bbcb6e5283d"
+          },
+          "decision": "Direct software/text adaptation permitted subject to preserving MIT copyright and permission notice; independently clear third-party quoted/corpus material, data, APIs and trademarks."
+        },
+        {
+          "repo": "questflowai/investorskills",
+          "status": "verified_mit",
+          "license_name": "MIT（LICENSE已核验）",
+          "evidence": {
+            "repo": "questflowai/investorskills",
+            "commit": "2844d7809a73c01e769c8c1c7ae8189788db4d9e",
+            "path": "LICENSE",
+            "url": "https://github.com/questflowai/investorskills/blob/2844d7809a73c01e769c8c1c7ae8189788db4d9e/LICENSE",
+            "source_snapshot_present": true,
+            "sha256": "6748aeae289a10dcd5a49038b723b7ad92633f051dc6be76add6796d33987fc4",
+            "blob_sha": "bc4c98b9054b37400de3ce6ee75a47d209dd610f"
+          },
+          "decision": "Direct software/text adaptation permitted subject to preserving MIT copyright and permission notice; independently clear third-party quoted/corpus material, data, APIs and trademarks."
+        }
+      ],
+      "evidence_needs_and_missing_data": [
+        "Accident-year reserve triangles, underwriting profit/loss, float components/duration, solvency, restricted capital"
+      ],
+      "decision": "rewrite",
+      "keep_exclude_rewrite_rationale": "Do not add duplicate weaker float rules.",
+      "excluded_defaults_or_known_bugs": [
+        "Total claims/service cost divided by float",
+        "Universal combined-ratio 100-107 cutoff",
+        "Float treated as free equity"
+      ],
+      "acceptance_tests": [
+        "Funding-cost interpretation reconciles to underwriting loss",
+        "Reserve uncertainty remains explicit"
+      ],
+      "primary_original_method_verification": {
+        "status": "required_before_authentic_investor_routing"
+      },
+      "implementation_status": "design_specification_only_no_upstream_code_execution"
+    },
+    {
+      "id": "F21",
+      "feature": "Growth duration and unit economics",
+      "origins": [
+        {
+          "repo": "questflowai/investorskills",
+          "commit": "2844d7809a73c01e769c8c1c7ae8189788db4d9e",
+          "path": "skills/coleman-tiger-growth/invest.md",
+          "url": "https://github.com/questflowai/investorskills/blob/2844d7809a73c01e769c8c1c7ae8189788db4d9e/skills/coleman-tiger-growth/invest.md",
+          "sha256": "23c4234b4c7572cd25032c646cdbab68f405ffe255645ccb0d2447b59a8e73b1"
+        },
+        {
+          "repo": "wbh604/UZI-Skill",
+          "commit": "650788c54a9b2e042bf7f983f16dbf8d727fce1d",
+          "path": "skills/deep-analysis/scripts/lib/investor_criteria.py",
+          "url": "https://github.com/wbh604/UZI-Skill/blob/650788c54a9b2e042bf7f983f16dbf8d727fce1d/skills/deep-analysis/scripts/lib/investor_criteria.py#L761",
+          "sha256": "9ee4f4c2f14c5fb63289a02c01be58ac9944c5a4c139fc9a7539de10f8dda64f",
+          "locator": {
+            "needle": "GURLEY_RULES",
+            "lines": [
+              761,
+              1117
+            ]
+          }
+        }
+      ],
+      "investor_or_method": [
+        "Chase Coleman; Bill Gurley source proxies"
+      ],
+      "analytical_channel": "business-quality",
+      "asset_business_fit": [
+        "Platforms, marketplaces and subscription business models"
+      ],
+      "what_finterm_already_covers": "B06/S10 cover reinvestment, networks and obsolescence.",
+      "proposed_adaptation": "Route by actual retention/payback/take-rate/network mechanism and growth duration; require growth-to-cash-flow bridge. Verify public statements separately from fund holdings.",
+      "license_reuse": [
+        {
+          "repo": "questflowai/investorskills",
+          "status": "verified_mit",
+          "license_name": "MIT（LICENSE已核验）",
+          "evidence": {
+            "repo": "questflowai/investorskills",
+            "commit": "2844d7809a73c01e769c8c1c7ae8189788db4d9e",
+            "path": "LICENSE",
+            "url": "https://github.com/questflowai/investorskills/blob/2844d7809a73c01e769c8c1c7ae8189788db4d9e/LICENSE",
+            "source_snapshot_present": true,
+            "sha256": "6748aeae289a10dcd5a49038b723b7ad92633f051dc6be76add6796d33987fc4",
+            "blob_sha": "bc4c98b9054b37400de3ce6ee75a47d209dd610f"
+          },
+          "decision": "Direct software/text adaptation permitted subject to preserving MIT copyright and permission notice; independently clear third-party quoted/corpus material, data, APIs and trademarks."
+        },
+        {
+          "repo": "wbh604/UZI-Skill",
+          "status": "verified_mit",
+          "license_name": "MIT",
+          "evidence": {
+            "repo": "wbh604/UZI-Skill",
+            "commit": "650788c54a9b2e042bf7f983f16dbf8d727fce1d",
+            "path": "LICENSE",
+            "url": "https://github.com/wbh604/UZI-Skill/blob/650788c54a9b2e042bf7f983f16dbf8d727fce1d/LICENSE",
+            "source_snapshot_present": true,
+            "sha256": "78bebb5232741327c31b0da4f5bbd570dc59ab3c3230582a4d1b4650238a7d58",
+            "blob_sha": "6156f7acbc6de6c59e39fb109389a2b3822c4ac4"
+          },
+          "decision": "Direct software/text adaptation permitted subject to preserving MIT copyright and permission notice; independently clear third-party quoted/corpus material, data, APIs and trademarks."
+        }
+      ],
+      "evidence_needs_and_missing_data": [
+        "Cohorts, contribution margin, CAC/payback, retention, take rate, market growth and capital needs"
+      ],
+      "decision": "rewrite",
+      "keep_exclude_rewrite_rationale": "Useful growth specialization; do not equate SaaS/AI industry keywords with investor fit.",
+      "excluded_defaults_or_known_bugs": [
+        "Keyword-matching industry whitelist called expert judgment",
+        "No-profitability-path narrative treated as moat"
+      ],
+      "acceptance_tests": [
+        "Marketplace volume and company revenue distinguished",
+        "Growth requires funded reinvestment"
+      ],
+      "primary_original_method_verification": {
+        "status": "required_before_authentic_investor_routing"
+      },
+      "implementation_status": "design_specification_only_no_upstream_code_execution"
+    },
+    {
+      "id": "F22",
+      "feature": "Innovation adoption and cost-curve underwriting",
+      "origins": [
+        {
+          "repo": "questflowai/investorskills",
+          "commit": "2844d7809a73c01e769c8c1c7ae8189788db4d9e",
+          "path": "skills/cathie-wood-innovation/invest.md",
+          "url": "https://github.com/questflowai/investorskills/blob/2844d7809a73c01e769c8c1c7ae8189788db4d9e/skills/cathie-wood-innovation/invest.md",
+          "sha256": "c156d7de70f6880f0b2a1abc35a4d920eb8ebf6cca5ca94585d15488e26e3506"
+        },
+        {
+          "repo": "AlphaGBM/investment-masters",
+          "commit": "b1a304fca0f28c365f5821f4f7e36935dd4d4c2e",
+          "path": "masters/ark.md",
+          "url": "https://github.com/AlphaGBM/investment-masters/blob/b1a304fca0f28c365f5821f4f7e36935dd4d4c2e/masters/ark.md",
+          "sha256": "dfc03ae271b931995b8a5440acd9d53aa1a1d5d65f67be1810083f20d83125dc"
+        }
+      ],
+      "investor_or_method": [
+        "Cathie Wood"
+      ],
+      "analytical_channel": "narrative-and-variant-view",
+      "asset_business_fit": [
+        "Emergent products with measurable adoption and cost curves"
+      ],
+      "what_finterm_already_covers": "B07/S10/V04 cover structural change, obsolescence and growth.",
+      "proposed_adaptation": "Add adoption scenarios, technological substitution, unit-cost curves, commercial execution and funding/dilution tests; dates and primary technical/company evidence are mandatory.",
+      "license_reuse": [
+        {
+          "repo": "AlphaGBM/investment-masters",
+          "status": "verified_mit",
+          "license_name": "MIT",
+          "evidence": {
+            "repo": "AlphaGBM/investment-masters",
+            "commit": "b1a304fca0f28c365f5821f4f7e36935dd4d4c2e",
+            "path": "LICENSE",
+            "url": "https://github.com/AlphaGBM/investment-masters/blob/b1a304fca0f28c365f5821f4f7e36935dd4d4c2e/LICENSE",
+            "source_snapshot_present": true,
+            "sha256": "3c1cef48a2edd49227253f9ad56e1db8a42e34c08691090e91c9495083e49afb",
+            "blob_sha": "4a6985d175f844e30c9d4ca6f9f2f7440a5d5fdf"
+          },
+          "decision": "Direct software/text adaptation permitted subject to preserving MIT copyright and permission notice; independently clear third-party quoted/corpus material, data, APIs and trademarks."
+        },
+        {
+          "repo": "questflowai/investorskills",
+          "status": "verified_mit",
+          "license_name": "MIT（LICENSE已核验）",
+          "evidence": {
+            "repo": "questflowai/investorskills",
+            "commit": "2844d7809a73c01e769c8c1c7ae8189788db4d9e",
+            "path": "LICENSE",
+            "url": "https://github.com/questflowai/investorskills/blob/2844d7809a73c01e769c8c1c7ae8189788db4d9e/LICENSE",
+            "source_snapshot_present": true,
+            "sha256": "6748aeae289a10dcd5a49038b723b7ad92633f051dc6be76add6796d33987fc4",
+            "blob_sha": "bc4c98b9054b37400de3ce6ee75a47d209dd610f"
+          },
+          "decision": "Direct software/text adaptation permitted subject to preserving MIT copyright and permission notice; independently clear third-party quoted/corpus material, data, APIs and trademarks."
+        }
+      ],
+      "evidence_needs_and_missing_data": [
+        "Adoption cohorts, cost curve, addressable demand, profitability bridge, dilution and competing technologies"
+      ],
+      "decision": "rewrite",
+      "keep_exclude_rewrite_rationale": "Requires dedicated primary dossier before authentic Wood routing.",
+      "excluded_defaults_or_known_bugs": [
+        "Large TAM automatically justifies valuation",
+        "Static ARK holdings equated with full research thesis"
+      ],
+      "acceptance_tests": [],
+      "primary_original_method_verification": {
+        "status": "required_before_authentic_investor_routing"
+      },
+      "implementation_status": "design_specification_only_no_upstream_code_execution"
+    },
+    {
+      "id": "F23",
+      "feature": "Macro regimes and portfolio exposure map",
+      "origins": [
+        {
+          "repo": "questflowai/investorskills",
+          "commit": "2844d7809a73c01e769c8c1c7ae8189788db4d9e",
+          "path": "skills/dalio-principles-allweather/invest.md",
+          "url": "https://github.com/questflowai/investorskills/blob/2844d7809a73c01e769c8c1c7ae8189788db4d9e/skills/dalio-principles-allweather/invest.md",
+          "sha256": "e0bacdaf66f83bb3fb81e64854d8c1d75b10712f0acb4961fa079c5bb5f2549b"
+        },
+        {
+          "repo": "AlphaGBM/investment-masters",
+          "commit": "b1a304fca0f28c365f5821f4f7e36935dd4d4c2e",
+          "path": "masters/bridgewater.md",
+          "url": "https://github.com/AlphaGBM/investment-masters/blob/b1a304fca0f28c365f5821f4f7e36935dd4d4c2e/masters/bridgewater.md",
+          "sha256": "0a10b6eb65e6714276d12329be3e608a3a05cdd19d4264e01480f3ab3775792c"
+        }
+      ],
+      "investor_or_method": [
+        "Ray Dalio"
+      ],
+      "analytical_channel": "macro-context",
+      "asset_business_fit": [
+        "Multi-asset portfolios with actual growth/inflation exposures"
+      ],
+      "what_finterm_already_covers": "R02/R05 consider financing/inflation but no risk-balanced allocation engine.",
+      "proposed_adaptation": "Describe growth/inflation surprises and estimated asset exposures; require dated covariance/volatility/liquidity and liabilities before risk budget. Any portfolio sizing remains separately authorized.",
+      "license_reuse": [
+        {
+          "repo": "AlphaGBM/investment-masters",
+          "status": "verified_mit",
+          "license_name": "MIT",
+          "evidence": {
+            "repo": "AlphaGBM/investment-masters",
+            "commit": "b1a304fca0f28c365f5821f4f7e36935dd4d4c2e",
+            "path": "LICENSE",
+            "url": "https://github.com/AlphaGBM/investment-masters/blob/b1a304fca0f28c365f5821f4f7e36935dd4d4c2e/LICENSE",
+            "source_snapshot_present": true,
+            "sha256": "3c1cef48a2edd49227253f9ad56e1db8a42e34c08691090e91c9495083e49afb",
+            "blob_sha": "4a6985d175f844e30c9d4ca6f9f2f7440a5d5fdf"
+          },
+          "decision": "Direct software/text adaptation permitted subject to preserving MIT copyright and permission notice; independently clear third-party quoted/corpus material, data, APIs and trademarks."
+        },
+        {
+          "repo": "questflowai/investorskills",
+          "status": "verified_mit",
+          "license_name": "MIT（LICENSE已核验）",
+          "evidence": {
+            "repo": "questflowai/investorskills",
+            "commit": "2844d7809a73c01e769c8c1c7ae8189788db4d9e",
+            "path": "LICENSE",
+            "url": "https://github.com/questflowai/investorskills/blob/2844d7809a73c01e769c8c1c7ae8189788db4d9e/LICENSE",
+            "source_snapshot_present": true,
+            "sha256": "6748aeae289a10dcd5a49038b723b7ad92633f051dc6be76add6796d33987fc4",
+            "blob_sha": "bc4c98b9054b37400de3ce6ee75a47d209dd610f"
+          },
+          "decision": "Direct software/text adaptation permitted subject to preserving MIT copyright and permission notice; independently clear third-party quoted/corpus material, data, APIs and trademarks."
+        }
+      ],
+      "evidence_needs_and_missing_data": [
+        "Vintage macro/rate data, exposures, covariance regime, liquidity, leverage, user mandate"
+      ],
+      "decision": "rewrite",
+      "keep_exclude_rewrite_rationale": "Macro context is not a single-company DCF or a default All Weather allocation.",
+      "excluded_defaults_or_known_bugs": [
+        "Fixed allocation inferred as universally correct",
+        "13F mistaken for complete Bridgewater portfolio"
+      ],
+      "acceptance_tests": [
+        "Asset weight differs from risk contribution",
+        "Regime uncertainty shown"
+      ],
+      "primary_original_method_verification": {
+        "status": "required_before_authentic_investor_routing"
+      },
+      "implementation_status": "design_specification_only_no_upstream_code_execution"
+    },
+    {
+      "id": "F24",
+      "feature": "Reflexive narrative/financing feedback",
+      "origins": [
+        {
+          "repo": "questflowai/investorskills",
+          "commit": "2844d7809a73c01e769c8c1c7ae8189788db4d9e",
+          "path": "skills/soros-reflexivity/invest.md",
+          "url": "https://github.com/questflowai/investorskills/blob/2844d7809a73c01e769c8c1c7ae8189788db4d9e/skills/soros-reflexivity/invest.md",
+          "sha256": "acc6ef5a17fdd0743f2ff1547a8bc9d6487fd513cad8c6737da396eb00744ef8"
+        },
+        {
+          "repo": "AlphaGBM/investment-masters",
+          "commit": "b1a304fca0f28c365f5821f4f7e36935dd4d4c2e",
+          "path": "masters/soros.md",
+          "url": "https://github.com/AlphaGBM/investment-masters/blob/b1a304fca0f28c365f5821f4f7e36935dd4d4c2e/masters/soros.md",
+          "sha256": "869ada9c5296fab2d8b718fa275a0181372b6b79cd6a47c63376e212c1c7351e"
+        }
+      ],
+      "investor_or_method": [
+        "George Soros"
+      ],
+      "analytical_channel": "macro-context",
+      "asset_business_fit": [
+        "Feedback-sensitive assets, credit/FX/policy/financing contexts"
+      ],
+      "what_finterm_already_covers": "B07/R02/R03 cover structural/funding change without a complete reflexivity loop.",
+      "proposed_adaptation": "Map beliefs→prices/financing→real-world action→fundamentals→belief revisions; identify breakpoints and contradictory data. Separate security price feedback from intrinsic value.",
+      "license_reuse": [
+        {
+          "repo": "AlphaGBM/investment-masters",
+          "status": "verified_mit",
+          "license_name": "MIT",
+          "evidence": {
+            "repo": "AlphaGBM/investment-masters",
+            "commit": "b1a304fca0f28c365f5821f4f7e36935dd4d4c2e",
+            "path": "LICENSE",
+            "url": "https://github.com/AlphaGBM/investment-masters/blob/b1a304fca0f28c365f5821f4f7e36935dd4d4c2e/LICENSE",
+            "source_snapshot_present": true,
+            "sha256": "3c1cef48a2edd49227253f9ad56e1db8a42e34c08691090e91c9495083e49afb",
+            "blob_sha": "4a6985d175f844e30c9d4ca6f9f2f7440a5d5fdf"
+          },
+          "decision": "Direct software/text adaptation permitted subject to preserving MIT copyright and permission notice; independently clear third-party quoted/corpus material, data, APIs and trademarks."
+        },
+        {
+          "repo": "questflowai/investorskills",
+          "status": "verified_mit",
+          "license_name": "MIT（LICENSE已核验）",
+          "evidence": {
+            "repo": "questflowai/investorskills",
+            "commit": "2844d7809a73c01e769c8c1c7ae8189788db4d9e",
+            "path": "LICENSE",
+            "url": "https://github.com/questflowai/investorskills/blob/2844d7809a73c01e769c8c1c7ae8189788db4d9e/LICENSE",
+            "source_snapshot_present": true,
+            "sha256": "6748aeae289a10dcd5a49038b723b7ad92633f051dc6be76add6796d33987fc4",
+            "blob_sha": "bc4c98b9054b37400de3ce6ee75a47d209dd610f"
+          },
+          "decision": "Direct software/text adaptation permitted subject to preserving MIT copyright and permission notice; independently clear third-party quoted/corpus material, data, APIs and trademarks."
+        }
+      ],
+      "evidence_needs_and_missing_data": [
+        "Dated narrative/positioning, policy, funding terms, cross-asset confirmation, real activity"
+      ],
+      "decision": "rewrite",
+      "keep_exclude_rewrite_rationale": "Authentic Soros claims need core dossier; feedback is not magical prediction.",
+      "excluded_defaults_or_known_bugs": [],
+      "acceptance_tests": [
+        "Causal links require evidence",
+        "Crowding unsupported → unknown"
+      ],
+      "primary_original_method_verification": {
+        "status": "required_before_authentic_investor_routing"
+      },
+      "implementation_status": "design_specification_only_no_upstream_code_execution"
+    },
+    {
+      "id": "F25",
+      "feature": "Druckenmiller inflection plus macro/price confirmation",
+      "origins": [
+        {
+          "repo": "virattt/ai-hedge-fund",
+          "commit": "78b779c1389e2d1452dc29606d2c4126d859b964",
+          "path": "hedge_fund/signals/druckenmiller.py",
+          "url": "https://github.com/virattt/ai-hedge-fund/blob/78b779c1389e2d1452dc29606d2c4126d859b964/hedge_fund/signals/druckenmiller.py",
+          "sha256": "7128960ad1cb48dd1bd375dbd5f13fc494c6d41ecb93de4b8d0a7de3bcb5efb9"
+        },
+        {
+          "repo": "tradermonty/claude-trading-skills",
+          "commit": "d92c667b332b9fd64c58f30945485b2269999c3d",
+          "path": "skills/stanley-druckenmiller-investment/SKILL.md",
+          "url": "https://github.com/tradermonty/claude-trading-skills/blob/d92c667b332b9fd64c58f30945485b2269999c3d/skills/stanley-druckenmiller-investment/SKILL.md",
+          "sha256": "8048d1134f922cfbdf085e44188fcb3c1743ce6b6c5e505fea404ad699e92aa0"
+        }
+      ],
+      "investor_or_method": [
+        "Stanley Druckenmiller"
+      ],
+      "analytical_channel": "macro-context",
+      "asset_business_fit": [
+        "Multi-asset inflections or company earnings changes with relevant context"
+      ],
+      "what_finterm_already_covers": "B07/R02 provide change/financing context; no full macro/trend system.",
+      "proposed_adaptation": "Expose the narrow native fundamentals-only lens separately from a primary-verified macro/liquidity/price-confirmation extension. Require market-specific evidence and risk-budget constraints.",
+      "license_reuse": [
+        {
+          "repo": "tradermonty/claude-trading-skills",
+          "status": "verified_mit",
+          "license_name": "MIT",
+          "evidence": {
+            "repo": "tradermonty/claude-trading-skills",
+            "commit": "d92c667b332b9fd64c58f30945485b2269999c3d",
+            "path": "LICENSE",
+            "url": "https://github.com/tradermonty/claude-trading-skills/blob/d92c667b332b9fd64c58f30945485b2269999c3d/LICENSE",
+            "source_snapshot_present": true,
+            "sha256": "87c93cde8c3a000c19b0c790cd4f7a4e4cb8da5bc6b11e0939bf6df99e245d15",
+            "blob_sha": "f04a7bced8bb1f03ce92fbdc6912594b0c37d3c0"
+          },
+          "decision": "Direct software/text adaptation permitted subject to preserving MIT copyright and permission notice; independently clear third-party quoted/corpus material, data, APIs and trademarks."
+        },
+        {
+          "repo": "virattt/ai-hedge-fund",
+          "status": "verified_mit",
+          "license_name": "MIT",
+          "evidence": {
+            "repo": "virattt/ai-hedge-fund",
+            "commit": "78b779c1389e2d1452dc29606d2c4126d859b964",
+            "path": "LICENSE",
+            "url": "https://github.com/virattt/ai-hedge-fund/blob/78b779c1389e2d1452dc29606d2c4126d859b964/LICENSE",
+            "source_snapshot_present": true,
+            "sha256": "6cb192c4a37c69c84459d2e1b3da7af51b06d91e35be521c898107bdae18e2a4",
+            "blob_sha": "6ed5ed19cfc0ec1448fca7e6b6be72abaa2b8b85"
+          },
+          "decision": "Direct software/text adaptation permitted subject to preserving MIT copyright and permission notice; independently clear third-party quoted/corpus material, data, APIs and trademarks."
+        }
+      ],
+      "evidence_needs_and_missing_data": [
+        "Policy/liquidity/rates/earnings revision, prices/volume, cross-assets, positioning"
+      ],
+      "decision": "rewrite",
+      "keep_exclude_rewrite_rationale": "Do not call a fundamentals-only prompt a complete macro method.",
+      "excluded_defaults_or_known_bugs": [
+        "Immediate 15-20% position recommendation from stock score",
+        "Known holdings override independent reasoning"
+      ],
+      "acceptance_tests": [
+        "Fundamentals-only route explicitly names absent macro inputs"
+      ],
+      "primary_original_method_verification": {
+        "status": "required_before_authentic_investor_routing"
+      },
+      "implementation_status": "design_specification_only_no_upstream_code_execution"
+    },
+    {
+      "id": "F26",
+      "feature": "Bond duration, real yield and credit compensation",
+      "origins": [
+        {
+          "repo": "questflowai/investorskills",
+          "commit": "2844d7809a73c01e769c8c1c7ae8189788db4d9e",
+          "path": "skills/gundlach-bonds/invest.md",
+          "url": "https://github.com/questflowai/investorskills/blob/2844d7809a73c01e769c8c1c7ae8189788db4d9e/skills/gundlach-bonds/invest.md",
+          "sha256": "2b7b9d1e143648f8b7dfb4806f3a4698afa8c1b1355ab4a3d6f99e6cc130fdde"
+        }
+      ],
+      "investor_or_method": [
+        "Jeffrey Gundlach source-only"
+      ],
+      "analytical_channel": "distressed-credit-structure",
+      "asset_business_fit": [
+        "Bonds/rates/credit, not generic company equities"
+      ],
+      "what_finterm_already_covers": "S12/R02 cover duration and obligations in general; no bond pricing/curve engine.",
+      "proposed_adaptation": "Separate coupon/yield conventions, maturity, duration/convexity, spread, default/recovery and currency/inflation. Corporate issuer research complements the bond instrument model.",
+      "license_reuse": [
+        {
+          "repo": "questflowai/investorskills",
+          "status": "verified_mit",
+          "license_name": "MIT（LICENSE已核验）",
+          "evidence": {
+            "repo": "questflowai/investorskills",
+            "commit": "2844d7809a73c01e769c8c1c7ae8189788db4d9e",
+            "path": "LICENSE",
+            "url": "https://github.com/questflowai/investorskills/blob/2844d7809a73c01e769c8c1c7ae8189788db4d9e/LICENSE",
+            "source_snapshot_present": true,
+            "sha256": "6748aeae289a10dcd5a49038b723b7ad92633f051dc6be76add6796d33987fc4",
+            "blob_sha": "bc4c98b9054b37400de3ce6ee75a47d209dd610f"
+          },
+          "decision": "Direct software/text adaptation permitted subject to preserving MIT copyright and permission notice; independently clear third-party quoted/corpus material, data, APIs and trademarks."
+        }
+      ],
+      "evidence_needs_and_missing_data": [
+        "Coupon schedule, clean/dirty price, curve/day count, calls, credit spreads, liquidity, recovery"
+      ],
+      "decision": "rewrite",
+      "keep_exclude_rewrite_rationale": "Bond specialty needs instruments and current data, not ordinary PE screening.",
+      "excluded_defaults_or_known_bugs": [],
+      "acceptance_tests": [
+        "Clean/dirty price reconciled",
+        "Callable option risk not ignored",
+        "Yield and expected return separated"
+      ],
+      "primary_original_method_verification": {
+        "status": "required_before_authentic_investor_routing"
+      },
+      "implementation_status": "design_specification_only_no_upstream_code_execution"
+    },
+    {
+      "id": "F27",
+      "feature": "Risk and position limits independent of thesis",
+      "origins": [
+        {
+          "repo": "tradermonty/claude-trading-skills",
+          "commit": "d92c667b332b9fd64c58f30945485b2269999c3d",
+          "path": "skills/position-sizer/SKILL.md",
+          "url": "https://github.com/tradermonty/claude-trading-skills/blob/d92c667b332b9fd64c58f30945485b2269999c3d/skills/position-sizer/SKILL.md",
+          "sha256": "0fca15a0976e1ba8f864fc52a16e26cf0afbf13c5b7d6f231e6ced75e9694f37"
+        },
+        {
+          "repo": "tradermonty/claude-trading-skills",
+          "commit": "d92c667b332b9fd64c58f30945485b2269999c3d",
+          "path": "skills/futures-position-sizer/SKILL.md",
+          "url": "https://github.com/tradermonty/claude-trading-skills/blob/d92c667b332b9fd64c58f30945485b2269999c3d/skills/futures-position-sizer/SKILL.md",
+          "sha256": "ab288bfc8edcfa171062f9f5b62fffa28af7504ba1fc191bd32e6e52890a07a5"
+        }
+      ],
+      "investor_or_method": [
+        "Authored risk utilities; futures specialty"
+      ],
+      "analytical_channel": "portfolio-risk",
+      "asset_business_fit": [
+        "User-authorized exposure planning with actual instrument mechanics"
+      ],
+      "what_finterm_already_covers": "R01-R03 investigate owner harm/forced sale; skill explicitly has no position-size authority.",
+      "proposed_adaptation": "As a separate optional research module, use stop/risk budget/contract multiplier/tick/currency and correlation stress to describe exposure constraints. No orders or portfolio changes.",
+      "license_reuse": [
+        {
+          "repo": "tradermonty/claude-trading-skills",
+          "status": "verified_mit",
+          "license_name": "MIT",
+          "evidence": {
+            "repo": "tradermonty/claude-trading-skills",
+            "commit": "d92c667b332b9fd64c58f30945485b2269999c3d",
+            "path": "LICENSE",
+            "url": "https://github.com/tradermonty/claude-trading-skills/blob/d92c667b332b9fd64c58f30945485b2269999c3d/LICENSE",
+            "source_snapshot_present": true,
+            "sha256": "87c93cde8c3a000c19b0c790cd4f7a4e4cb8da5bc6b11e0939bf6df99e245d15",
+            "blob_sha": "f04a7bced8bb1f03ce92fbdc6912594b0c37d3c0"
+          },
+          "decision": "Direct software/text adaptation permitted subject to preserving MIT copyright and permission notice; independently clear third-party quoted/corpus material, data, APIs and trademarks."
+        }
+      ],
+      "evidence_needs_and_missing_data": [
+        "Authorized user mandate, account equity/risk budget, liquidity, contract specs, gaps, FX, correlated exposure"
+      ],
+      "decision": "rewrite",
+      "keep_exclude_rewrite_rationale": "Useful deterministic risk mechanics; preserve finterm authority boundary.",
+      "excluded_defaults_or_known_bugs": [
+        "Thesis score directly sets position size",
+        "Futures notional confused with margin or cash risk"
+      ],
+      "acceptance_tests": [
+        "Contract/tick units correct",
+        "Gap risk exceeds nominal stop acknowledged"
+      ],
+      "primary_original_method_verification": {
+        "status": "required_before_authentic_investor_routing"
+      },
+      "implementation_status": "design_specification_only_no_upstream_code_execution"
+    },
+    {
+      "id": "F28",
+      "feature": "CAN SLIM and VCP technical entries",
+      "origins": [
+        {
+          "repo": "tradermonty/claude-trading-skills",
+          "commit": "d92c667b332b9fd64c58f30945485b2269999c3d",
+          "path": "skills/canslim-screener/SKILL.md",
+          "url": "https://github.com/tradermonty/claude-trading-skills/blob/d92c667b332b9fd64c58f30945485b2269999c3d/skills/canslim-screener/SKILL.md",
+          "sha256": "e2450caba7335e0d18b5fa2df8c0f72249199a83afa747cb888853fe58276504"
+        },
+        {
+          "repo": "tradermonty/claude-trading-skills",
+          "commit": "d92c667b332b9fd64c58f30945485b2269999c3d",
+          "path": "skills/vcp-screener/SKILL.md",
+          "url": "https://github.com/tradermonty/claude-trading-skills/blob/d92c667b332b9fd64c58f30945485b2269999c3d/skills/vcp-screener/SKILL.md",
+          "sha256": "7b817ba7ec2b084c419663fd4401030902cefd6c29400957485c34f2eb3ab6da"
+        }
+      ],
+      "investor_or_method": [
+        "William O'Neil",
+        "Mark Minervini"
+      ],
+      "analytical_channel": "technical-entry",
+      "asset_business_fit": [
+        "Liquid listed growth shares with correctly adjusted OHLCV and market trend"
+      ],
+      "what_finterm_already_covers": "D04 keeps price action separate from business value; native finterm excludes market timing.",
+      "proposed_adaptation": "A separately labeled technical-setup appendix with trigger, invalidation, market direction, relative strength and liquidity; no intrinsic-value implication or execution.",
+      "license_reuse": [
+        {
+          "repo": "tradermonty/claude-trading-skills",
+          "status": "verified_mit",
+          "license_name": "MIT",
+          "evidence": {
+            "repo": "tradermonty/claude-trading-skills",
+            "commit": "d92c667b332b9fd64c58f30945485b2269999c3d",
+            "path": "LICENSE",
+            "url": "https://github.com/tradermonty/claude-trading-skills/blob/d92c667b332b9fd64c58f30945485b2269999c3d/LICENSE",
+            "source_snapshot_present": true,
+            "sha256": "87c93cde8c3a000c19b0c790cd4f7a4e4cb8da5bc6b11e0939bf6df99e245d15",
+            "blob_sha": "f04a7bced8bb1f03ce92fbdc6912594b0c37d3c0"
+          },
+          "decision": "Direct software/text adaptation permitted subject to preserving MIT copyright and permission notice; independently clear third-party quoted/corpus material, data, APIs and trademarks."
+        }
+      ],
+      "evidence_needs_and_missing_data": [
+        "OHLCV/corporate actions, earnings vintage, relative-strength universe, breadth and sponsorship timing"
+      ],
+      "decision": "rewrite",
+      "keep_exclude_rewrite_rationale": "Keep technical evidence independent of fair value and business quality.",
+      "excluded_defaults_or_known_bugs": [
+        "Authored CAN SLIM weights treated as original investor standard",
+        "Current-universe survivorship in historical test",
+        "15-20% automatic sizing"
+      ],
+      "acceptance_tests": [
+        "Historical constituents frozen",
+        "52-week/60-day horizon consistent",
+        "Breakout does not change intrinsic value"
+      ],
+      "primary_original_method_verification": {
+        "status": "required_before_authentic_investor_routing"
+      },
+      "implementation_status": "design_specification_only_no_upstream_code_execution"
+    },
+    {
+      "id": "F29",
+      "feature": "Episodic pivot catalyst + reaction",
+      "origins": [
+        {
+          "repo": "tradermonty/claude-trading-skills",
+          "commit": "d92c667b332b9fd64c58f30945485b2269999c3d",
+          "path": "skills/stockbee-episodic-pivot-analyzer/SKILL.md",
+          "url": "https://github.com/tradermonty/claude-trading-skills/blob/d92c667b332b9fd64c58f30945485b2269999c3d/skills/stockbee-episodic-pivot-analyzer/SKILL.md",
+          "sha256": "b5eac42930c85f6225ee29f731a2cb477161564a16f511d5169db57920f98d6d"
+        },
+        {
+          "repo": "tradermonty/claude-trading-skills",
+          "commit": "d92c667b332b9fd64c58f30945485b2269999c3d",
+          "path": "skills/stockbee-momentum-burst-screener/SKILL.md",
+          "url": "https://github.com/tradermonty/claude-trading-skills/blob/d92c667b332b9fd64c58f30945485b2269999c3d/skills/stockbee-momentum-burst-screener/SKILL.md",
+          "sha256": "cfa25c366847d6b2ef0014d65c277dbfc0c295a481a5afe9b752bc1ee31848f6"
+        }
+      ],
+      "investor_or_method": [
+        "Pradeep Bonde / Stockbee"
+      ],
+      "analytical_channel": "technical-entry",
+      "asset_business_fit": [
+        "Event-driven liquid stock setups"
+      ],
+      "what_finterm_already_covers": "B07/R07 test structural change/invalidation; no Day-1 technical classification.",
+      "proposed_adaptation": "Separate catalyst veracity/importance from gap/volume/reaction quality and risk to event low. Label actionable/watch states as authored research states, not orders or fair value.",
+      "license_reuse": [
+        {
+          "repo": "tradermonty/claude-trading-skills",
+          "status": "verified_mit",
+          "license_name": "MIT",
+          "evidence": {
+            "repo": "tradermonty/claude-trading-skills",
+            "commit": "d92c667b332b9fd64c58f30945485b2269999c3d",
+            "path": "LICENSE",
+            "url": "https://github.com/tradermonty/claude-trading-skills/blob/d92c667b332b9fd64c58f30945485b2269999c3d/LICENSE",
+            "source_snapshot_present": true,
+            "sha256": "87c93cde8c3a000c19b0c790cd4f7a4e4cb8da5bc6b11e0939bf6df99e245d15",
+            "blob_sha": "f04a7bced8bb1f03ce92fbdc6912594b0c37d3c0"
+          },
+          "decision": "Direct software/text adaptation permitted subject to preserving MIT copyright and permission notice; independently clear third-party quoted/corpus material, data, APIs and trademarks."
+        }
+      ],
+      "evidence_needs_and_missing_data": [
+        "Actual dated release, event timestamp, OHLCV, float/liquidity and unaffected historical tape"
+      ],
+      "decision": "rewrite",
+      "keep_exclude_rewrite_rationale": "Previously missed dedicated method package; initial source-only status.",
+      "excluded_defaults_or_known_bugs": [
+        "News narrative alone implies durable value",
+        "Post-event price data leaks into earlier decision"
+      ],
+      "acceptance_tests": [
+        "Catalyst missing → watch/unresolved",
+        "Technical state not buy instruction"
+      ],
+      "primary_original_method_verification": {
+        "status": "required_before_authentic_investor_routing"
+      },
+      "implementation_status": "design_specification_only_no_upstream_code_execution"
+    },
+    {
+      "id": "F30",
+      "feature": "Dividend sustainability and sector-specific metrics",
+      "origins": [
+        {
+          "repo": "tradermonty/claude-trading-skills",
+          "commit": "d92c667b332b9fd64c58f30945485b2269999c3d",
+          "path": "skills/kanchi-dividend-sop/SKILL.md",
+          "url": "https://github.com/tradermonty/claude-trading-skills/blob/d92c667b332b9fd64c58f30945485b2269999c3d/skills/kanchi-dividend-sop/SKILL.md",
+          "sha256": "db744243980e9ed11533e6a257a49492ae792bf3b309de0fb8b0712c413df513"
+        }
+      ],
+      "investor_or_method": [
+        "Kanchi pseudonymous method"
+      ],
+      "analytical_channel": "business-quality",
+      "asset_business_fit": [
+        "Income-oriented equities with sector-specific payout economics"
+      ],
+      "what_finterm_already_covers": "C04/F02/F03/S07-S09 cover payouts and specialized economics.",
+      "proposed_adaptation": "Separate payout affordability and balance-sheet resilience from technical pullback planning; use REIT AFFO, bank capital, regulated utilities and ordinary FCF appropriately. Retain mandatory missing-gate behavior.",
+      "license_reuse": [
+        {
+          "repo": "tradermonty/claude-trading-skills",
+          "status": "verified_mit",
+          "license_name": "MIT",
+          "evidence": {
+            "repo": "tradermonty/claude-trading-skills",
+            "commit": "d92c667b332b9fd64c58f30945485b2269999c3d",
+            "path": "LICENSE",
+            "url": "https://github.com/tradermonty/claude-trading-skills/blob/d92c667b332b9fd64c58f30945485b2269999c3d/LICENSE",
+            "source_snapshot_present": true,
+            "sha256": "87c93cde8c3a000c19b0c790cd4f7a4e4cb8da5bc6b11e0939bf6df99e245d15",
+            "blob_sha": "f04a7bced8bb1f03ce92fbdc6912594b0c37d3c0"
+          },
+          "decision": "Direct software/text adaptation permitted subject to preserving MIT copyright and permission notice; independently clear third-party quoted/corpus material, data, APIs and trademarks."
+        }
+      ],
+      "evidence_needs_and_missing_data": [
+        "Dividend history, FCF/AFFO/capital, debt/covenants, reinvestment, taxes only if needed"
+      ],
+      "decision": "rewrite",
+      "keep_exclude_rewrite_rationale": "Useful workflow state machine, not verified Kanchi identity or universal US adaptation.",
+      "excluded_defaults_or_known_bugs": [
+        "PER×PBR applied to every US sector",
+        "High yield equals safety",
+        "Missing event scan assumed clean"
+      ],
+      "acceptance_tests": [
+        "Missing yield gate blocks pass",
+        "Missing event scan stays skipped/review"
+      ],
+      "primary_original_method_verification": {
+        "status": "required_before_authentic_investor_routing"
+      },
+      "implementation_status": "design_specification_only_no_upstream_code_execution"
+    },
+    {
+      "id": "F31",
+      "feature": "Turtle/Seykota systematic volatility and trend rules",
+      "origins": [
+        {
+          "repo": "questflowai/investorskills",
+          "commit": "2844d7809a73c01e769c8c1c7ae8189788db4d9e",
+          "path": "skills/turtle-trading/invest.md",
+          "url": "https://github.com/questflowai/investorskills/blob/2844d7809a73c01e769c8c1c7ae8189788db4d9e/skills/turtle-trading/invest.md",
+          "sha256": "2e31118bc385e9f5eb5598084c16d127e5c1a1400a3846391a86e28aa328293d"
+        },
+        {
+          "repo": "questflowai/investorskills",
+          "commit": "2844d7809a73c01e769c8c1c7ae8189788db4d9e",
+          "path": "skills/seykota-systematic-trend/invest.md",
+          "url": "https://github.com/questflowai/investorskills/blob/2844d7809a73c01e769c8c1c7ae8189788db4d9e/skills/seykota-systematic-trend/invest.md",
+          "sha256": "340dc552129f1e0b830c97a74c2efebf717de5908d8f5340411b9583d4fa619e"
+        }
+      ],
+      "investor_or_method": [
+        "Richard Dennis/Turtle Traders; Ed Seykota"
+      ],
+      "analytical_channel": "technical-entry",
+      "asset_business_fit": [
+        "Tradable futures/FX/commodities with contract and roll data"
+      ],
+      "what_finterm_already_covers": "Outside native finterm timing/portfolio scope.",
+      "proposed_adaptation": "Keep a separate system-research adapter for rule-defined breakout, volatility unit, correlation/portfolio heat and systematic exit. Commodity futures economics are not mining-company owner earnings.",
+      "license_reuse": [
+        {
+          "repo": "questflowai/investorskills",
+          "status": "verified_mit",
+          "license_name": "MIT（LICENSE已核验）",
+          "evidence": {
+            "repo": "questflowai/investorskills",
+            "commit": "2844d7809a73c01e769c8c1c7ae8189788db4d9e",
+            "path": "LICENSE",
+            "url": "https://github.com/questflowai/investorskills/blob/2844d7809a73c01e769c8c1c7ae8189788db4d9e/LICENSE",
+            "source_snapshot_present": true,
+            "sha256": "6748aeae289a10dcd5a49038b723b7ad92633f051dc6be76add6796d33987fc4",
+            "blob_sha": "bc4c98b9054b37400de3ce6ee75a47d209dd610f"
+          },
+          "decision": "Direct software/text adaptation permitted subject to preserving MIT copyright and permission notice; independently clear third-party quoted/corpus material, data, APIs and trademarks."
+        }
+      ],
+      "evidence_needs_and_missing_data": [
+        "Contract multipliers, rolls, limit moves, settlement, ATR window, costs, leverage/risk mandate"
+      ],
+      "decision": "rewrite",
+      "keep_exclude_rewrite_rationale": "Specialty index only until original rules and complete simulations verified.",
+      "excluded_defaults_or_known_bugs": [
+        "Same breakout parameters across all instruments without evidence",
+        "Turtle collective counted as an individual"
+      ],
+      "acceptance_tests": [
+        "Roll-adjustment invariance",
+        "Margin/leverage/portfolio heat explicit"
+      ],
+      "primary_original_method_verification": {
+        "status": "required_before_authentic_investor_routing"
+      },
+      "implementation_status": "design_specification_only_no_upstream_code_execution"
+    },
+    {
+      "id": "F32",
+      "feature": "Factor/quant research with no secret-strategy claims",
+      "origins": [
+        {
+          "repo": "AlphaGBM/investment-masters",
+          "commit": "b1a304fca0f28c365f5821f4f7e36935dd4d4c2e",
+          "path": "masters/aqr.md",
+          "url": "https://github.com/AlphaGBM/investment-masters/blob/b1a304fca0f28c365f5821f4f7e36935dd4d4c2e/masters/aqr.md",
+          "sha256": "977db62e3b552dc89fcd9bfd4db16093ff10d7ddf9c34bce36a75ce66df79048"
+        },
+        {
+          "repo": "questflowai/investorskills",
+          "commit": "2844d7809a73c01e769c8c1c7ae8189788db4d9e",
+          "path": "skills/simons-quant/invest.md",
+          "url": "https://github.com/questflowai/investorskills/blob/2844d7809a73c01e769c8c1c7ae8189788db4d9e/skills/simons-quant/invest.md",
+          "sha256": "1bda722f94c5e3107b52bd95014223c160aaf548e9448f412fa4808c9b271ae3"
+        }
+      ],
+      "investor_or_method": [
+        "Cliff Asness; Jim Simons research-proxy"
+      ],
+      "analytical_channel": "portfolio-risk",
+      "asset_business_fit": [
+        "Cross-sectional/portfolio research with point-in-time panels"
+      ],
+      "what_finterm_already_covers": "D03 questions evidence; no validated factor research engine.",
+      "proposed_adaptation": "Use published factor definitions, robust OOS/purged evaluation, costs, neutralization and decay monitoring. Distinguish general research discipline from unknown proprietary Renaissance/Shaw/High-Flyer models.",
+      "license_reuse": [
+        {
+          "repo": "AlphaGBM/investment-masters",
+          "status": "verified_mit",
+          "license_name": "MIT",
+          "evidence": {
+            "repo": "AlphaGBM/investment-masters",
+            "commit": "b1a304fca0f28c365f5821f4f7e36935dd4d4c2e",
+            "path": "LICENSE",
+            "url": "https://github.com/AlphaGBM/investment-masters/blob/b1a304fca0f28c365f5821f4f7e36935dd4d4c2e/LICENSE",
+            "source_snapshot_present": true,
+            "sha256": "3c1cef48a2edd49227253f9ad56e1db8a42e34c08691090e91c9495083e49afb",
+            "blob_sha": "4a6985d175f844e30c9d4ca6f9f2f7440a5d5fdf"
+          },
+          "decision": "Direct software/text adaptation permitted subject to preserving MIT copyright and permission notice; independently clear third-party quoted/corpus material, data, APIs and trademarks."
+        },
+        {
+          "repo": "questflowai/investorskills",
+          "status": "verified_mit",
+          "license_name": "MIT（LICENSE已核验）",
+          "evidence": {
+            "repo": "questflowai/investorskills",
+            "commit": "2844d7809a73c01e769c8c1c7ae8189788db4d9e",
+            "path": "LICENSE",
+            "url": "https://github.com/questflowai/investorskills/blob/2844d7809a73c01e769c8c1c7ae8189788db4d9e/LICENSE",
+            "source_snapshot_present": true,
+            "sha256": "6748aeae289a10dcd5a49038b723b7ad92633f051dc6be76add6796d33987fc4",
+            "blob_sha": "bc4c98b9054b37400de3ce6ee75a47d209dd610f"
+          },
+          "decision": "Direct software/text adaptation permitted subject to preserving MIT copyright and permission notice; independently clear third-party quoted/corpus material, data, APIs and trademarks."
+        }
+      ],
+      "evidence_needs_and_missing_data": [
+        "Vintage cross-sectional panel, delisted names, factor definitions, transaction costs and OOS protocols"
+      ],
+      "decision": "rewrite",
+      "keep_exclude_rewrite_rationale": "A named persona does not reveal a private quant strategy.",
+      "excluded_defaults_or_known_bugs": [
+        "Renaissance public 13F treated as Medallion trades",
+        "Biographical success as model validation"
+      ],
+      "acceptance_tests": [
+        "Costs and turnover included",
+        "No holdings leakage",
+        "Factors and attribution independently sourced"
+      ],
+      "primary_original_method_verification": {
+        "status": "required_before_authentic_investor_routing"
+      },
+      "implementation_status": "design_specification_only_no_upstream_code_execution"
+    },
+    {
+      "id": "F33",
+      "feature": "Crypto token economics and on-chain evidence",
+      "origins": [
+        {
+          "repo": "questflowai/investorskills",
+          "commit": "2844d7809a73c01e769c8c1c7ae8189788db4d9e",
+          "path": "skills/placeholder-token-networks/invest.md",
+          "url": "https://github.com/questflowai/investorskills/blob/2844d7809a73c01e769c8c1c7ae8189788db4d9e/skills/placeholder-token-networks/invest.md",
+          "sha256": "be242436cb2f4bf73bdfc4a6e69c5d20de865feb2516b18d2ec0b3ffab5ac476"
+        },
+        {
+          "repo": "questflowai/investorskills",
+          "commit": "2844d7809a73c01e769c8c1c7ae8189788db4d9e",
+          "path": "skills/willy-woo-onchain/invest.md",
+          "url": "https://github.com/questflowai/investorskills/blob/2844d7809a73c01e769c8c1c7ae8189788db4d9e/skills/willy-woo-onchain/invest.md",
+          "sha256": "9dee28a58a7e9e6038f6fc45cadd25e954947424fc0a2ce30f0698388a1437d8"
+        },
+        {
+          "repo": "questflowai/investorskills",
+          "commit": "2844d7809a73c01e769c8c1c7ae8189788db4d9e",
+          "path": "skills/grayscale-crypto-sectors/invest.md",
+          "url": "https://github.com/questflowai/investorskills/blob/2844d7809a73c01e769c8c1c7ae8189788db4d9e/skills/grayscale-crypto-sectors/invest.md",
+          "sha256": "ecee1fb12150ca22a802e71bc5e46725d86a2ec833990cedb55eeeeedf1ee3eb"
+        }
+      ],
+      "investor_or_method": [
+        "Placeholder; Willy Woo; Grayscale organization frameworks"
+      ],
+      "analytical_channel": "narrative-and-variant-view",
+      "asset_business_fit": [
+        "Crypto tokens/networks, only when explicitly in scope"
+      ],
+      "what_finterm_already_covers": "D09/S12 may classify speculation/instrument risk; no token valuation engine.",
+      "proposed_adaptation": "Separate protocol usage from token-holder value capture, dilution/unlocks, governance, custody, oracle/bridge risks, wash activity and definition/vintage of on-chain data. No company-equity DCF by default.",
+      "license_reuse": [
+        {
+          "repo": "questflowai/investorskills",
+          "status": "verified_mit",
+          "license_name": "MIT（LICENSE已核验）",
+          "evidence": {
+            "repo": "questflowai/investorskills",
+            "commit": "2844d7809a73c01e769c8c1c7ae8189788db4d9e",
+            "path": "LICENSE",
+            "url": "https://github.com/questflowai/investorskills/blob/2844d7809a73c01e769c8c1c7ae8189788db4d9e/LICENSE",
+            "source_snapshot_present": true,
+            "sha256": "6748aeae289a10dcd5a49038b723b7ad92633f051dc6be76add6796d33987fc4",
+            "blob_sha": "bc4c98b9054b37400de3ce6ee75a47d209dd610f"
+          },
+          "decision": "Direct software/text adaptation permitted subject to preserving MIT copyright and permission notice; independently clear third-party quoted/corpus material, data, APIs and trademarks."
+        }
+      ],
+      "evidence_needs_and_missing_data": [
+        "Token rights/supply schedules, contract docs, chain data provenance, flows, unlocks, fee routing, liquidity"
+      ],
+      "decision": "rewrite",
+      "keep_exclude_rewrite_rationale": "Organizational and pseudonymous frameworks remain separate and unvalidated; protocol utility need not accrue to token holders.",
+      "excluded_defaults_or_known_bugs": [
+        "Network users or social mindshare equals token cash flow",
+        "Unverified wallet cohorts treated as identified people"
+      ],
+      "acceptance_tests": [
+        "Gross protocol fees differ from token-holder distributions",
+        "Token unlock dilution visible"
+      ],
+      "primary_original_method_verification": {
+        "status": "required_before_authentic_investor_routing"
+      },
+      "implementation_status": "design_specification_only_no_upstream_code_execution"
+    },
+    {
+      "id": "F34",
+      "feature": "Venture/startup PMF and network mechanisms",
+      "origins": [
+        {
+          "repo": "questflowai/investorskills",
+          "commit": "2844d7809a73c01e769c8c1c7ae8189788db4d9e",
+          "path": "skills/yc-early-pmf/invest.md",
+          "url": "https://github.com/questflowai/investorskills/blob/2844d7809a73c01e769c8c1c7ae8189788db4d9e/skills/yc-early-pmf/invest.md",
+          "sha256": "42e0fde0621ef70287bd146571da4fa3c4cfc9560d0a9a924c7ef901101d1969"
+        },
+        {
+          "repo": "questflowai/investorskills",
+          "commit": "2844d7809a73c01e769c8c1c7ae8189788db4d9e",
+          "path": "skills/founders-fund-contrarian/invest.md",
+          "url": "https://github.com/questflowai/investorskills/blob/2844d7809a73c01e769c8c1c7ae8189788db4d9e/skills/founders-fund-contrarian/invest.md",
+          "sha256": "7e39dca2598df1a55c5686946f521ab53b5f78857a8cce3a4df0ba8287a26e6d"
+        },
+        {
+          "repo": "AskRoundtable/expert-skills",
+          "commit": "a7ea0121e88d6fcbf6ffc57833b0cac7cf9cab74",
+          "path": "skills/expert-graham/SKILL.md",
+          "url": "https://github.com/AskRoundtable/expert-skills/blob/a7ea0121e88d6fcbf6ffc57833b0cac7cf9cab74/skills/expert-graham/SKILL.md",
+          "sha256": "a5053c474d22c20a5df9a63a39c67fa934189c30a05bd783bd09ebc754daafc1"
+        }
+      ],
+      "investor_or_method": [
+        "Y Combinator; Founders Fund; Paul Graham"
+      ],
+      "analytical_channel": "business-quality",
+      "asset_business_fit": [
+        "Private/startup businesses or PMF-dependent segments"
+      ],
+      "what_finterm_already_covers": "B01/B06/S10 cover models and reinvestment; no venture ownership/dilution-return mechanics.",
+      "proposed_adaptation": "Review retention/user pull, learning speed, burn/runway, defensible secret and network capture; separately model dilution, financing preference and exit liquidity if valuation requested.",
+      "license_reuse": [
+        {
+          "repo": "AskRoundtable/expert-skills",
+          "status": "verified_mit",
+          "license_name": "MIT",
+          "evidence": {
+            "repo": "AskRoundtable/expert-skills",
+            "commit": "a7ea0121e88d6fcbf6ffc57833b0cac7cf9cab74",
+            "path": "LICENSE",
+            "url": "https://github.com/AskRoundtable/expert-skills/blob/a7ea0121e88d6fcbf6ffc57833b0cac7cf9cab74/LICENSE",
+            "source_snapshot_present": true,
+            "sha256": "ac4a43fe97a71e017b73027772f60c7e5ae5e537acc6f2ef7353628716e273d2",
+            "blob_sha": "ba7ebf2aab599d9a487361eac2b7a879d314f043"
+          },
+          "decision": "Direct software/text adaptation permitted subject to preserving MIT copyright and permission notice; independently clear third-party quoted/corpus material, data, APIs and trademarks."
+        },
+        {
+          "repo": "questflowai/investorskills",
+          "status": "verified_mit",
+          "license_name": "MIT（LICENSE已核验）",
+          "evidence": {
+            "repo": "questflowai/investorskills",
+            "commit": "2844d7809a73c01e769c8c1c7ae8189788db4d9e",
+            "path": "LICENSE",
+            "url": "https://github.com/questflowai/investorskills/blob/2844d7809a73c01e769c8c1c7ae8189788db4d9e/LICENSE",
+            "source_snapshot_present": true,
+            "sha256": "6748aeae289a10dcd5a49038b723b7ad92633f051dc6be76add6796d33987fc4",
+            "blob_sha": "bc4c98b9054b37400de3ce6ee75a47d209dd610f"
+          },
+          "decision": "Direct software/text adaptation permitted subject to preserving MIT copyright and permission notice; independently clear third-party quoted/corpus material, data, APIs and trademarks."
+        }
+      ],
+      "evidence_needs_and_missing_data": [
+        "Cohorts, burn/runway, capital structure, private terms, market/customer evidence"
+      ],
+      "decision": "rewrite",
+      "keep_exclude_rewrite_rationale": "Business evidence can transfer; Paul Graham is not Benjamin Graham.",
+      "excluded_defaults_or_known_bugs": [
+        "Startup PMF lens applied to any mature cheap stock",
+        "Company valuation without preferred-share terms"
+      ],
+      "acceptance_tests": [],
+      "primary_original_method_verification": {
+        "status": "required_before_authentic_investor_routing"
+      },
+      "implementation_status": "design_specification_only_no_upstream_code_execution"
+    },
+    {
+      "id": "F35",
+      "feature": "Inversion/incentives/objectivity challenger",
+      "origins": [
+        {
+          "repo": "kangarooking/poor-charlies-almanack-skill",
+          "commit": "d477e516920995b6e54d66c7441f17048188303a",
+          "path": "dual-track-analysis/SKILL.md",
+          "url": "https://github.com/kangarooking/poor-charlies-almanack-skill/blob/d477e516920995b6e54d66c7441f17048188303a/dual-track-analysis/SKILL.md",
+          "sha256": "7f5facf222860e7ca81106cd8b9ee3157a3693019d86ad49ab2c7af00d957c02"
+        },
+        {
+          "repo": "AskRoundtable/expert-skills",
+          "commit": "a7ea0121e88d6fcbf6ffc57833b0cac7cf9cab74",
+          "path": "skills/expert-engine/references/epistemic-audit.md",
+          "url": "https://github.com/AskRoundtable/expert-skills/blob/a7ea0121e88d6fcbf6ffc57833b0cac7cf9cab74/skills/expert-engine/references/epistemic-audit.md",
+          "sha256": "885a238974c2013c9630d51c13d75f96941e603851f4e87105970435ef11b2ae"
+        },
+        {
+          "repo": "alchaincyf/munger-skill",
+          "commit": "12d582ce4a97bcfff1cac032ecef436406feb1c2",
+          "path": "SKILL.md",
+          "url": "https://github.com/alchaincyf/munger-skill/blob/12d582ce4a97bcfff1cac032ecef436406feb1c2/SKILL.md",
+          "sha256": "b9ff8a0e91bd64a51f5ab4b4fab3daad0ae99574193dbfcf37003f14e21f97b1"
+        }
+      ],
+      "investor_or_method": [
+        "Charlie Munger-inspired challenger"
+      ],
+      "analytical_channel": "primary-source-verification",
+      "asset_business_fit": [
+        "Investment memos and consequential claims"
+      ],
+      "what_finterm_already_covers": "D03/M03/R01/R07 already include inversion, incentives, counterevidence and invalidation.",
+      "proposed_adaptation": "Use compact failure-mechanism/actor-incentive audits and a pause when evidence or scope fails. Preserve uncertainty; no mandatory jargon, invented counterarguments or first-person investor claims.",
+      "license_reuse": [
+        {
+          "repo": "AskRoundtable/expert-skills",
+          "status": "verified_mit",
+          "license_name": "MIT",
+          "evidence": {
+            "repo": "AskRoundtable/expert-skills",
+            "commit": "a7ea0121e88d6fcbf6ffc57833b0cac7cf9cab74",
+            "path": "LICENSE",
+            "url": "https://github.com/AskRoundtable/expert-skills/blob/a7ea0121e88d6fcbf6ffc57833b0cac7cf9cab74/LICENSE",
+            "source_snapshot_present": true,
+            "sha256": "ac4a43fe97a71e017b73027772f60c7e5ae5e537acc6f2ef7353628716e273d2",
+            "blob_sha": "ba7ebf2aab599d9a487361eac2b7a879d314f043"
+          },
+          "decision": "Direct software/text adaptation permitted subject to preserving MIT copyright and permission notice; independently clear third-party quoted/corpus material, data, APIs and trademarks."
+        },
+        {
+          "repo": "alchaincyf/munger-skill",
+          "status": "verified_mit",
+          "license_name": "MIT",
+          "evidence": {
+            "repo": "alchaincyf/munger-skill",
+            "commit": "12d582ce4a97bcfff1cac032ecef436406feb1c2",
+            "path": "LICENSE",
+            "url": "https://github.com/alchaincyf/munger-skill/blob/12d582ce4a97bcfff1cac032ecef436406feb1c2/LICENSE",
+            "source_snapshot_present": true,
+            "sha256": "d0952e801d7484cc5344f41cc0378567d20a3c996b784eb97460287adde9ab37",
+            "blob_sha": "b95c3fcf6bcd81713196a8523188be50fa712edf"
+          },
+          "decision": "Direct software/text adaptation permitted subject to preserving MIT copyright and permission notice; independently clear third-party quoted/corpus material, data, APIs and trademarks."
+        },
+        {
+          "repo": "kangarooking/poor-charlies-almanack-skill",
+          "status": "verified_mit",
+          "license_name": "MIT",
+          "evidence": {
+            "repo": "kangarooking/poor-charlies-almanack-skill",
+            "commit": "d477e516920995b6e54d66c7441f17048188303a",
+            "path": "LICENSE",
+            "url": "https://github.com/kangarooking/poor-charlies-almanack-skill/blob/d477e516920995b6e54d66c7441f17048188303a/LICENSE",
+            "source_snapshot_present": true,
+            "sha256": "1126322e2cc8d165adc4c792eeb195717de2bcc7b39be1ce77959d78e87ef685",
+            "blob_sha": "14fac913ccf80234b1848540089a3bbcb6e5283d"
+          },
+          "decision": "Direct software/text adaptation permitted subject to preserving MIT copyright and permission notice; independently clear third-party quoted/corpus material, data, APIs and trademarks."
+        }
+      ],
+      "evidence_needs_and_missing_data": [
+        "Named assumptions/actors, incentives and independent contrary evidence"
+      ],
+      "decision": "rewrite",
+      "keep_exclude_rewrite_rationale": "Useful reviewer overlay; do not duplicate weaker arbitrary quotas.",
+      "excluded_defaults_or_known_bugs": [
+        "Five failure paths / three counterarguments / two bias pauses as authentic standards",
+        "Terminology smoke-test rewarded over reasoning",
+        "Presentation rules suppressing qualifications",
+        "Unverified +18%-41% improvement"
+      ],
+      "acceptance_tests": [
+        "Can return fewer counterarguments when evidence thin",
+        "Unresolved evidence remains visible"
+      ],
+      "primary_original_method_verification": {
+        "status": "required_before_authentic_investor_routing"
+      },
+      "implementation_status": "design_specification_only_no_upstream_code_execution"
+    },
+    {
+      "id": "F36",
+      "feature": "Bottleneck thesis with non-transitive customer verification",
+      "origins": [
+        {
+          "repo": "lanfuli/aleabito-serenity-skills",
+          "commit": "bb71df12a7529b96178f85c2f66b6b5d57a704f6",
+          "path": "skills/serenity-method/SKILL.md",
+          "url": "https://github.com/lanfuli/aleabito-serenity-skills/blob/bb71df12a7529b96178f85c2f66b6b5d57a704f6/skills/serenity-method/SKILL.md",
+          "sha256": "54b277981776b48c7b46ceb7363b21cc47f1b7e804d04346f4840b384051f930"
+        },
+        {
+          "repo": "videGavin/serenity-analyst",
+          "commit": "3475c9ade62efc69774c2785589c1a75fe031c13",
+          "path": "references/supply_chain_graph.json",
+          "url": "https://github.com/videGavin/serenity-analyst/blob/3475c9ade62efc69774c2785589c1a75fe031c13/references/supply_chain_graph.json",
+          "sha256": "bb2d031fef633ee51055b68d880c5cc02d40c5b76cd946ea1c0a67d3e2944cf5"
+        }
+      ],
+      "investor_or_method": [
+        "Serenity pseudonym"
+      ],
+      "analytical_channel": "business-quality",
+      "asset_business_fit": [
+        "Supply-chain bottleneck hypotheses with independently verified customers/capacity"
+      ],
+      "what_finterm_already_covers": "B02/B07/S10 test moat and change but no specialized chain evidence ledger.",
+      "proposed_adaptation": "Treat posts/themes as leads. Verify each supplier/customer edge and economic importance separately with contracts/filings/customer corroboration; show capacity, qualification, substitutes and dilution.",
+      "license_reuse": [
+        {
+          "repo": "lanfuli/aleabito-serenity-skills",
+          "status": "verified_mit",
+          "license_name": "MIT",
+          "evidence": {
+            "repo": "lanfuli/aleabito-serenity-skills",
+            "commit": "bb71df12a7529b96178f85c2f66b6b5d57a704f6",
+            "path": "LICENSE",
+            "url": "https://github.com/lanfuli/aleabito-serenity-skills/blob/bb71df12a7529b96178f85c2f66b6b5d57a704f6/LICENSE",
+            "source_snapshot_present": true,
+            "sha256": "999d61a9dcd6baa2de43a0eaf23f8b34d7f3c5c24cb2d3a4719ddd0454d4c858",
+            "blob_sha": "9104739b4843d650e0702d5b3e69aa0e13ea4905"
+          },
+          "decision": "Direct software/text adaptation permitted subject to preserving MIT copyright and permission notice; independently clear third-party quoted/corpus material, data, APIs and trademarks."
+        },
+        {
+          "repo": "videGavin/serenity-analyst",
+          "status": "verified_mit",
+          "license_name": "MIT",
+          "evidence": {
+            "repo": "videGavin/serenity-analyst",
+            "commit": "3475c9ade62efc69774c2785589c1a75fe031c13",
+            "path": "LICENSE",
+            "url": "https://github.com/videGavin/serenity-analyst/blob/3475c9ade62efc69774c2785589c1a75fe031c13/LICENSE",
+            "source_snapshot_present": true,
+            "sha256": "95d038ec1b782dfb912fc0a7a224b636129407d126c446de53fe381f31f33ffc",
+            "blob_sha": "9568fe7d38c4363d19f470841733b1e43b9fb7ba"
+          },
+          "decision": "Direct software/text adaptation permitted subject to preserving MIT copyright and permission notice; independently clear third-party quoted/corpus material, data, APIs and trademarks."
+        }
+      ],
+      "evidence_needs_and_missing_data": [
+        "Attributed dated primary links for each edge, revenues versus pipeline/bookings, customer orders, capacity and substitutions"
+      ],
+      "decision": "rewrite",
+      "keep_exclude_rewrite_rationale": "Transfer lanfuli evidence gate; keep videGavin graph as unverified hypothesis nodes only.",
+      "excluded_defaults_or_known_bugs": [
+        "Tweet-only graph called confirmed supply edges",
+        "Multi-hop implication treated as actual orders",
+        "Revenue +77% confused with pipeline +77%",
+        "Tiny cap automatically implies institutional inability",
+        "Unverified Serenity biography"
+      ],
+      "acceptance_tests": [
+        "Every edge has evidence state",
+        "Supply-chain adjacency never proves revenue",
+        "Pipeline/bookings/revenue separated"
+      ],
+      "primary_original_method_verification": {
+        "status": "required_before_authentic_investor_routing"
+      },
+      "implementation_status": "design_specification_only_no_upstream_code_execution"
+    },
+    {
+      "id": "F37",
+      "feature": "Research-lead radar with true historical vintage",
+      "origins": [
+        {
+          "repo": "lanfuli/aleabito-serenity-skills",
+          "commit": "bb71df12a7529b96178f85c2f66b6b5d57a704f6",
+          "path": "skills/serenity-radar/scripts/radar.js",
+          "url": "https://github.com/lanfuli/aleabito-serenity-skills/blob/bb71df12a7529b96178f85c2f66b6b5d57a704f6/skills/serenity-radar/scripts/radar.js",
+          "sha256": "674c2c63ac5e1988b1d6a74c19ac562723737581918eb6159cd13a792e23af4e"
+        }
+      ],
+      "investor_or_method": [
+        "Authored Serenity theme radar"
+      ],
+      "analytical_channel": "primary-source-verification",
+      "asset_business_fit": [
+        "Lead generation from dated posts/events"
+      ],
+      "what_finterm_already_covers": "R07 monitoring exists but no social theme lead module.",
+      "proposed_adaptation": "Use dated lead counts/shares with correct denominator and frozen taxonomy; clearly label idea generation and require independent company underwriting.",
+      "license_reuse": [
+        {
+          "repo": "lanfuli/aleabito-serenity-skills",
+          "status": "verified_mit",
+          "license_name": "MIT",
+          "evidence": {
+            "repo": "lanfuli/aleabito-serenity-skills",
+            "commit": "bb71df12a7529b96178f85c2f66b6b5d57a704f6",
+            "path": "LICENSE",
+            "url": "https://github.com/lanfuli/aleabito-serenity-skills/blob/bb71df12a7529b96178f85c2f66b6b5d57a704f6/LICENSE",
+            "source_snapshot_present": true,
+            "sha256": "999d61a9dcd6baa2de43a0eaf23f8b34d7f3c5c24cb2d3a4719ddd0454d4c858",
+            "blob_sha": "9104739b4843d650e0702d5b3e69aa0e13ea4905"
+          },
+          "decision": "Direct software/text adaptation permitted subject to preserving MIT copyright and permission notice; independently clear third-party quoted/corpus material, data, APIs and trademarks."
+        }
+      ],
+      "evidence_needs_and_missing_data": [
+        "Post timestamp, complete corpus provenance, theme version, denominator, removed/revised posts"
+      ],
+      "decision": "rewrite",
+      "keep_exclude_rewrite_rationale": "Useful narrow lead channel; theme intensity is not value or verified demand.",
+      "excluded_defaults_or_known_bugs": [
+        "Raw count delta called mention-share change",
+        "Later-learned taxonomy used for earlier date",
+        "Automatic follow/imessage scripts and public writes"
+      ],
+      "acceptance_tests": [
+        "Changing total post volume cannot fake share rotation",
+        "As-of date and taxonomy version fixed"
+      ],
+      "primary_original_method_verification": {
+        "status": "required_before_authentic_investor_routing"
+      },
+      "implementation_status": "design_specification_only_no_upstream_code_execution"
+    },
+    {
+      "id": "F38",
+      "feature": "Licensing and known-error exclusion boundary",
+      "origins": [
+        {
+          "repo": "agi-now/buffett-skills",
+          "commit": "aeeae92c22c4770cd1277a35d37294c9c2435475",
+          "path": "skills/buffett/SKILL.md",
+          "url": "https://github.com/agi-now/buffett-skills/blob/aeeae92c22c4770cd1277a35d37294c9c2435475/skills/buffett/SKILL.md",
+          "sha256": "2bee0edbfdc6d2a02cc76a6a8cd5965265a8cde2ef57382627decf2c84abbf90"
+        },
+        {
+          "repo": "Wechat-ggGitHub/investment-masters-skill",
+          "commit": "0f99e98f49f3ffb050134195829f7569c554b450",
+          "path": "SKILL.md",
+          "url": "https://github.com/Wechat-ggGitHub/investment-masters-skill/blob/0f99e98f49f3ffb050134195829f7569c554b450/SKILL.md",
+          "sha256": "f3778676f0bcf47a3d9667cc2dafa7773965375d94539568f6d19db22d350f3b"
+        },
+        {
+          "repo": "will2025btc/buffett-perspective",
+          "commit": "e18afcfc208f0cb144dfc2a11276e2eaafb9bdbd",
+          "path": "SKILL.md",
+          "url": "https://github.com/will2025btc/buffett-perspective/blob/e18afcfc208f0cb144dfc2a11276e2eaafb9bdbd/SKILL.md",
+          "sha256": "c90dab5d02beeabc3c5b5fe1307eceddde75815f70d386b1fd23cc7bc803135c"
+        },
+        {
+          "repo": "LI-Jialu/investor-panel-skill",
+          "commit": "858ede0115f7387dd0ad825a563deec09d29bd1d",
+          "path": "skills/investor-panel/references/output-contract.md",
+          "url": "https://github.com/LI-Jialu/investor-panel-skill/blob/858ede0115f7387dd0ad825a563deec09d29bd1d/skills/investor-panel/references/output-contract.md",
+          "sha256": "0fcf7fc389f1b5008e5f50cfdc7dfcd6440942d4eb9cf71d3a3a38d16f990ba7"
+        }
+      ],
+      "investor_or_method": [
+        "Repository adapters and persona modules"
+      ],
+      "analytical_channel": "primary-source-verification",
+      "asset_business_fit": [
+        "All reusable text/code/corpora"
+      ],
+      "what_finterm_already_covers": "Finterm has MIT license and source lineage.",
+      "proposed_adaptation": "Exclude direct copying from the three unlicensed/unverified-license repositories. Independently write required concepts from cleared primary sources; reject unsupported identities, formula claims and voice mimicry.",
+      "license_reuse": [
+        {
+          "repo": "LI-Jialu/investor-panel-skill",
+          "status": "not_found",
+          "license_name": "未发现LICENSE；GitHub license=null",
+          "evidence": {
+            "repo": "LI-Jialu/investor-panel-skill",
+            "commit": "858ede0115f7387dd0ad825a563deec09d29bd1d",
+            "path": "LICENSE",
+            "url": "https://github.com/LI-Jialu/investor-panel-skill/blob/858ede0115f7387dd0ad825a563deec09d29bd1d/LICENSE",
+            "source_snapshot_present": false
+          },
+          "decision": "Do not copy or redistribute source text/code. README MIT claim is not a verified license grant. Use independently written, primary-sourced concepts only, or obtain author permission."
+        },
+        {
+          "repo": "Wechat-ggGitHub/investment-masters-skill",
+          "status": "readme_claim_only",
+          "license_name": "README声称MIT，但无LICENSE且GitHub license=null",
+          "evidence": {
+            "repo": "Wechat-ggGitHub/investment-masters-skill",
+            "commit": "0f99e98f49f3ffb050134195829f7569c554b450",
+            "path": "LICENSE",
+            "url": "https://github.com/Wechat-ggGitHub/investment-masters-skill/blob/0f99e98f49f3ffb050134195829f7569c554b450/LICENSE",
+            "source_snapshot_present": false
+          },
+          "decision": "Do not copy or redistribute source text/code. README MIT claim is not a verified license grant. Use independently written, primary-sourced concepts only, or obtain author permission."
+        },
+        {
+          "repo": "agi-now/buffett-skills",
+          "status": "not_found",
+          "license_name": "未发现LICENSE；GitHub license=null",
+          "evidence": {
+            "repo": "agi-now/buffett-skills",
+            "commit": "aeeae92c22c4770cd1277a35d37294c9c2435475",
+            "path": "LICENSE",
+            "url": "https://github.com/agi-now/buffett-skills/blob/aeeae92c22c4770cd1277a35d37294c9c2435475/LICENSE",
+            "source_snapshot_present": false
+          },
+          "decision": "Do not copy or redistribute source text/code. README MIT claim is not a verified license grant. Use independently written, primary-sourced concepts only, or obtain author permission."
+        },
+        {
+          "repo": "will2025btc/buffett-perspective",
+          "status": "verified_mit",
+          "license_name": "MIT",
+          "evidence": {
+            "repo": "will2025btc/buffett-perspective",
+            "commit": "e18afcfc208f0cb144dfc2a11276e2eaafb9bdbd",
+            "path": "LICENSE",
+            "url": "https://github.com/will2025btc/buffett-perspective/blob/e18afcfc208f0cb144dfc2a11276e2eaafb9bdbd/LICENSE",
+            "source_snapshot_present": true,
+            "sha256": "1126322e2cc8d165adc4c792eeb195717de2bcc7b39be1ce77959d78e87ef685",
+            "blob_sha": "14fac913ccf80234b1848540089a3bbcb6e5283d"
+          },
+          "decision": "Direct software/text adaptation permitted subject to preserving MIT copyright and permission notice; independently clear third-party quoted/corpus material, data, APIs and trademarks."
+        }
+      ],
+      "evidence_needs_and_missing_data": [
+        "Verified license file at exact pin; third-party corpus licenses; original claim references"
+      ],
+      "decision": "exclude",
+      "keep_exclude_rewrite_rationale": "Conceptual inspiration does not provide copying permission or authentic investor attribution.",
+      "excluded_defaults_or_known_bugs": [
+        "agi-now no LICENSE",
+        "LI-Jialu no LICENSE",
+        "Wechat README-only MIT claim",
+        "Wechat PEG×100",
+        "Universal See's 10% annual price-increase claim",
+        "First-person investor voice imitation"
+      ],
+      "acceptance_tests": [
+        "No unlicensed copied code/text in release",
+        "MIT notices preserved when reuse occurs",
+        "Corpus quotes/archives cleared separately"
+      ],
+      "primary_original_method_verification": {
+        "status": "required_before_authentic_investor_routing"
+      },
+      "implementation_status": "design_specification_only_no_upstream_code_execution"
+    },
+    {
+      "id": "F39",
+      "feature": "Noncompensatory competence/fragility gates and explanation-first memo",
+      "origins": [
+        {
+          "repo": "MichaelRochonnn/buffett-investment-research",
+          "commit": "a3a1e9ff5ff5807333ffeb75a314ee093afd95a0",
+          "path": "SKILL.md",
+          "url": "https://github.com/MichaelRochonnn/buffett-investment-research/blob/a3a1e9ff5ff5807333ffeb75a314ee093afd95a0/SKILL.md#L52",
+          "sha256": "072793d3fb87cc7023a17cec2f63e8adf5a54c0d02150be45ff1e9399fdd9192",
+          "locator": {
+            "needle": "## Hard Filters",
+            "lines": [
+              52
+            ]
+          }
+        },
+        {
+          "repo": "MichaelRochonnn/buffett-investment-research",
+          "commit": "a3a1e9ff5ff5807333ffeb75a314ee093afd95a0",
+          "path": "references/framework.md",
+          "url": "https://github.com/MichaelRochonnn/buffett-investment-research/blob/a3a1e9ff5ff5807333ffeb75a314ee093afd95a0/references/framework.md#L21",
+          "sha256": "e7d303e71cd87ebe39cebfb0479e3257b2fed208804e9a861b88811155c3ebc2",
+          "locator": {
+            "needle": "A high total does not override a hard-filter failure.",
+            "lines": [
+              21
+            ]
+          }
+        },
+        {
+          "repo": "MichaelRochonnn/buffett-investment-research",
+          "commit": "a3a1e9ff5ff5807333ffeb75a314ee093afd95a0",
+          "path": "references/memo-template.md",
+          "url": "https://github.com/MichaelRochonnn/buffett-investment-research/blob/a3a1e9ff5ff5807333ffeb75a314ee093afd95a0/references/memo-template.md#L127",
+          "sha256": "a5f2cf920726dda615e0129171a7b8b2b4cd62cab0e39855fbbe95d0ffea730e",
+          "locator": {
+            "needle": "## Good Failure Modes",
+            "lines": [
+              127
+            ]
+          }
+        }
+      ],
+      "investor_or_method": [
+        "MichaelRochonnn authored Buffett-style company-research workflow"
+      ],
+      "analytical_channel": "primary-source-verification",
+      "asset_business_fit": [
+        "Company research/memo review with actual competence, balance-sheet and business-model evidence"
+      ],
+      "what_finterm_already_covers": "D01 competence/estimability, D03 evidence boundaries, F02 owner-economics bridge, B02 moat mechanisms, R01/R02 permanent harm and fragility, and per-branch unresolved output already provide richer evidence-bounded coverage.",
+      "proposed_adaptation": "No separate adopted engine. Retain finterm’s existing noncompensatory evidence/competence/fragility gates and explanation-first findings. This source is accounted for as redundant conceptual reinforcement, not a missing feature or native numerical valuation implementation.",
+      "license_reuse": [
+        {
+          "repo": "MichaelRochonnn/buffett-investment-research",
+          "status": "verified_mit",
+          "license_name": "MIT",
+          "evidence": {
+            "repo": "MichaelRochonnn/buffett-investment-research",
+            "commit": "a3a1e9ff5ff5807333ffeb75a314ee093afd95a0",
+            "path": "LICENSE",
+            "url": "https://github.com/MichaelRochonnn/buffett-investment-research/blob/a3a1e9ff5ff5807333ffeb75a314ee093afd95a0/LICENSE",
+            "source_snapshot_present": true,
+            "sha256": "87a5b415d44470d169abea94b838917c674fbf4c59656360b641fcd1cf699fa5",
+            "blob_sha": "2a851100c288ababbf7e1b5260e3e019afd1cd45"
+          },
+          "decision": "Direct software/text adaptation permitted subject to preserving MIT copyright and permission notice; independently clear third-party quoted/corpus material, data, APIs and trademarks."
+        }
+      ],
+      "evidence_needs_and_missing_data": [
+        "Exact legal entity and dated primary company filings",
+        "Explicit competence limits and financing obligations",
+        "Owner-earnings normalization assumptions and adverse evidence"
+      ],
+      "decision": "redundant_no_adoption",
+      "keep_exclude_rewrite_rationale": "Useful fail-before-score and insufficient-evidence mechanics are already supplied more precisely by finterm. Its unanchored seven 0-5 ratings, recommendation bands, and unsafe SEC helper do not add a calibrated score or independent calculation capability.",
+      "excluded_defaults_or_known_bugs": [
+        "Seven 0-5 dimensions lack anchors/weights; never synthesize a calibrated investment score",
+        "Hardcoded local helper path",
+        "SEC helper lacks as-of/duration/same-accession reconciliation and may overlap debt or default missing components to zero",
+        "Fuzzy entity selection and mismatched fiscal-period cash-flow components",
+        "Generic recommendation bands do not replace analytical dispositions"
+      ],
+      "acceptance_tests": [
+        "Hard evidence/competence failure cannot be outweighed by a high soft score",
+        "Missing company-period/debt/cash-flow inputs remain unresolved",
+        "No duplicated weaker reviewer or unsafe SEC helper imported"
+      ],
+      "primary_original_method_verification": {
+        "status": "not_deep_audited_source_only; original Buffett dossier remains separate"
+      },
+      "implementation_status": "assessed_redundant_design_record_no_upstream_code_execution"
+    }
+  ],
+  "repository_accounting": {
+    "expected_repositories": 21,
+    "accounted_repositories": 21,
+    "missing_repositories": [],
+    "covered_repositories": [
+      "AlphaGBM/investment-masters",
+      "AskRoundtable/expert-skills",
+      "LI-Jialu/investor-panel-skill",
+      "LLMQuant/skills",
+      "MichaelRochonnn/buffett-investment-research",
+      "Wechat-ggGitHub/investment-masters-skill",
+      "agi-now/buffett-skills",
+      "alchaincyf/munger-skill",
+      "finterm-ai/investment-skills",
+      "freenowill/stock-fish",
+      "kangarooking/buffett-letters-skill",
+      "kangarooking/poor-charlies-almanack-skill",
+      "lanfuli/aleabito-serenity-skills",
+      "monarchjuno/vibe-investing",
+      "questflowai/investorskills",
+      "tradermonty/claude-trading-skills",
+      "videGavin/serenity-analyst",
+      "virattt/ai-hedge-fund",
+      "wbh604/UZI-Skill",
+      "will2025btc/buffett-perspective",
+      "xbtlin/ai-berkshire"
+    ],
+    "meaning": "Every audited project has at least one exact-source adaptation, exclusion or redundancy assessment; adoption of every repository is not required."
+  },
+  "review_rework": {
+    "task_id": "V2-A-catalogue",
+    "rework_round": 1,
+    "maximum_corrective_rounds": 3,
+    "review_addressed": "V2-A-catalogue-review-0",
+    "status": "ready_for_independent_review_1",
+    "defects_addressed": [
+      "CAT-R0-01",
+      "CAT-R0-02"
+    ]
+  },
+  "assembly_acceptance": "pending_independent_source_and_implementation_review",
+  "execution": "No upstream code or new mathematical engine executed."
+}

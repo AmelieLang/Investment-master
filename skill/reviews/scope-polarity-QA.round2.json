@@ -1,0 +1,337 @@
+{
+  "schema_version": "scope-polarity-static-QA/v1",
+  "corrective_rework_round": 2,
+  "status": "passed_static_normalization_checks_only",
+  "accepted_original_method_packet_sha256": "b2863fe599e89eccbec50531d9e82332f0022d3d952475f3c8aeb9b3857a6704",
+  "positive_rule_count": 13,
+  "negative_fixture_count": 65,
+  "negative_fixture_results": [
+    {
+      "rule_id": "WB-R-01",
+      "mutation": "unlabeled_concatenation",
+      "status": "rejected_as_expected"
+    },
+    {
+      "rule_id": "WB-R-01",
+      "mutation": "reversed_fields",
+      "status": "rejected_as_expected"
+    },
+    {
+      "rule_id": "WB-R-01",
+      "mutation": "missing_exclusion",
+      "status": "rejected_as_expected"
+    },
+    {
+      "rule_id": "WB-R-01",
+      "mutation": "positive_as_exclusion",
+      "status": "rejected_as_expected"
+    },
+    {
+      "rule_id": "WB-R-01",
+      "mutation": "reversed_rendering",
+      "status": "rejected_as_expected"
+    },
+    {
+      "rule_id": "WB-R-02",
+      "mutation": "unlabeled_concatenation",
+      "status": "rejected_as_expected"
+    },
+    {
+      "rule_id": "WB-R-02",
+      "mutation": "reversed_fields",
+      "status": "rejected_as_expected"
+    },
+    {
+      "rule_id": "WB-R-02",
+      "mutation": "missing_exclusion",
+      "status": "rejected_as_expected"
+    },
+    {
+      "rule_id": "WB-R-02",
+      "mutation": "positive_as_exclusion",
+      "status": "rejected_as_expected"
+    },
+    {
+      "rule_id": "WB-R-02",
+      "mutation": "reversed_rendering",
+      "status": "rejected_as_expected"
+    },
+    {
+      "rule_id": "WB-R-03",
+      "mutation": "unlabeled_concatenation",
+      "status": "rejected_as_expected"
+    },
+    {
+      "rule_id": "WB-R-03",
+      "mutation": "reversed_fields",
+      "status": "rejected_as_expected"
+    },
+    {
+      "rule_id": "WB-R-03",
+      "mutation": "missing_exclusion",
+      "status": "rejected_as_expected"
+    },
+    {
+      "rule_id": "WB-R-03",
+      "mutation": "positive_as_exclusion",
+      "status": "rejected_as_expected"
+    },
+    {
+      "rule_id": "WB-R-03",
+      "mutation": "reversed_rendering",
+      "status": "rejected_as_expected"
+    },
+    {
+      "rule_id": "WB-R-04",
+      "mutation": "unlabeled_concatenation",
+      "status": "rejected_as_expected"
+    },
+    {
+      "rule_id": "WB-R-04",
+      "mutation": "reversed_fields",
+      "status": "rejected_as_expected"
+    },
+    {
+      "rule_id": "WB-R-04",
+      "mutation": "missing_exclusion",
+      "status": "rejected_as_expected"
+    },
+    {
+      "rule_id": "WB-R-04",
+      "mutation": "positive_as_exclusion",
+      "status": "rejected_as_expected"
+    },
+    {
+      "rule_id": "WB-R-04",
+      "mutation": "reversed_rendering",
+      "status": "rejected_as_expected"
+    },
+    {
+      "rule_id": "WB-R-05",
+      "mutation": "unlabeled_concatenation",
+      "status": "rejected_as_expected"
+    },
+    {
+      "rule_id": "WB-R-05",
+      "mutation": "reversed_fields",
+      "status": "rejected_as_expected"
+    },
+    {
+      "rule_id": "WB-R-05",
+      "mutation": "missing_exclusion",
+      "status": "rejected_as_expected"
+    },
+    {
+      "rule_id": "WB-R-05",
+      "mutation": "positive_as_exclusion",
+      "status": "rejected_as_expected"
+    },
+    {
+      "rule_id": "WB-R-05",
+      "mutation": "reversed_rendering",
+      "status": "rejected_as_expected"
+    },
+    {
+      "rule_id": "DYP-R-01",
+      "mutation": "unlabeled_concatenation",
+      "status": "rejected_as_expected"
+    },
+    {
+      "rule_id": "DYP-R-01",
+      "mutation": "reversed_fields",
+      "status": "rejected_as_expected"
+    },
+    {
+      "rule_id": "DYP-R-01",
+      "mutation": "missing_exclusion",
+      "status": "rejected_as_expected"
+    },
+    {
+      "rule_id": "DYP-R-01",
+      "mutation": "positive_as_exclusion",
+      "status": "rejected_as_expected"
+    },
+    {
+      "rule_id": "DYP-R-01",
+      "mutation": "reversed_rendering",
+      "status": "rejected_as_expected"
+    },
+    {
+      "rule_id": "DYP-R-02",
+      "mutation": "unlabeled_concatenation",
+      "status": "rejected_as_expected"
+    },
+    {
+      "rule_id": "DYP-R-02",
+      "mutation": "reversed_fields",
+      "status": "rejected_as_expected"
+    },
+    {
+      "rule_id": "DYP-R-02",
+      "mutation": "missing_exclusion",
+      "status": "rejected_as_expected"
+    },
+    {
+      "rule_id": "DYP-R-02",
+      "mutation": "positive_as_exclusion",
+      "status": "rejected_as_expected"
+    },
+    {
+      "rule_id": "DYP-R-02",
+      "mutation": "reversed_rendering",
+      "status": "rejected_as_expected"
+    },
+    {
+      "rule_id": "DYP-R-03",
+      "mutation": "unlabeled_concatenation",
+      "status": "rejected_as_expected"
+    },
+    {
+      "rule_id": "DYP-R-03",
+      "mutation": "reversed_fields",
+      "status": "rejected_as_expected"
+    },
+    {
+      "rule_id": "DYP-R-03",
+      "mutation": "missing_exclusion",
+      "status": "rejected_as_expected"
+    },
+    {
+      "rule_id": "DYP-R-03",
+      "mutation": "positive_as_exclusion",
+      "status": "rejected_as_expected"
+    },
+    {
+      "rule_id": "DYP-R-03",
+      "mutation": "reversed_rendering",
+      "status": "rejected_as_expected"
+    },
+    {
+      "rule_id": "DYP-R-04",
+      "mutation": "unlabeled_concatenation",
+      "status": "rejected_as_expected"
+    },
+    {
+      "rule_id": "DYP-R-04",
+      "mutation": "reversed_fields",
+      "status": "rejected_as_expected"
+    },
+    {
+      "rule_id": "DYP-R-04",
+      "mutation": "missing_exclusion",
+      "status": "rejected_as_expected"
+    },
+    {
+      "rule_id": "DYP-R-04",
+      "mutation": "positive_as_exclusion",
+      "status": "rejected_as_expected"
+    },
+    {
+      "rule_id": "DYP-R-04",
+      "mutation": "reversed_rendering",
+      "status": "rejected_as_expected"
+    },
+    {
+      "rule_id": "LL-R-01",
+      "mutation": "unlabeled_concatenation",
+      "status": "rejected_as_expected"
+    },
+    {
+      "rule_id": "LL-R-01",
+      "mutation": "reversed_fields",
+      "status": "rejected_as_expected"
+    },
+    {
+      "rule_id": "LL-R-01",
+      "mutation": "missing_exclusion",
+      "status": "rejected_as_expected"
+    },
+    {
+      "rule_id": "LL-R-01",
+      "mutation": "positive_as_exclusion",
+      "status": "rejected_as_expected"
+    },
+    {
+      "rule_id": "LL-R-01",
+      "mutation": "reversed_rendering",
+      "status": "rejected_as_expected"
+    },
+    {
+      "rule_id": "LL-R-02",
+      "mutation": "unlabeled_concatenation",
+      "status": "rejected_as_expected"
+    },
+    {
+      "rule_id": "LL-R-02",
+      "mutation": "reversed_fields",
+      "status": "rejected_as_expected"
+    },
+    {
+      "rule_id": "LL-R-02",
+      "mutation": "missing_exclusion",
+      "status": "rejected_as_expected"
+    },
+    {
+      "rule_id": "LL-R-02",
+      "mutation": "positive_as_exclusion",
+      "status": "rejected_as_expected"
+    },
+    {
+      "rule_id": "LL-R-02",
+      "mutation": "reversed_rendering",
+      "status": "rejected_as_expected"
+    },
+    {
+      "rule_id": "LL-R-03",
+      "mutation": "unlabeled_concatenation",
+      "status": "rejected_as_expected"
+    },
+    {
+      "rule_id": "LL-R-03",
+      "mutation": "reversed_fields",
+      "status": "rejected_as_expected"
+    },
+    {
+      "rule_id": "LL-R-03",
+      "mutation": "missing_exclusion",
+      "status": "rejected_as_expected"
+    },
+    {
+      "rule_id": "LL-R-03",
+      "mutation": "positive_as_exclusion",
+      "status": "rejected_as_expected"
+    },
+    {
+      "rule_id": "LL-R-03",
+      "mutation": "reversed_rendering",
+      "status": "rejected_as_expected"
+    },
+    {
+      "rule_id": "LL-R-04",
+      "mutation": "unlabeled_concatenation",
+      "status": "rejected_as_expected"
+    },
+    {
+      "rule_id": "LL-R-04",
+      "mutation": "reversed_fields",
+      "status": "rejected_as_expected"
+    },
+    {
+      "rule_id": "LL-R-04",
+      "mutation": "missing_exclusion",
+      "status": "rejected_as_expected"
+    },
+    {
+      "rule_id": "LL-R-04",
+      "mutation": "positive_as_exclusion",
+      "status": "rejected_as_expected"
+    },
+    {
+      "rule_id": "LL-R-04",
+      "mutation": "reversed_rendering",
+      "status": "rejected_as_expected"
+    }
+  ],
+  "normalization_boundary": "Author-adapted fit/exclusion scope is explicitly separate from original investor-method facts; current source and historical transport acceptance remain distinct.",
+  "implementation_boundary": "This is a local assembly content/shape/semantic comparison test, not a production semantic validator, model call or financial calculation."
+}

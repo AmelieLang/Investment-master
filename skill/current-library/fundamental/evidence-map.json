@@ -1,0 +1,2183 @@
+{
+  "schema_version": "2.1",
+  "provenance_legend": {
+    "P1": "Original investor writing/verified account or original regulator/fund/company disclosure, only for facts actually established.",
+    "P2": "Authorized original-publisher transcript, verified original archive or producer-account republication; recollections remain retrospective and access completeness is separate.",
+    "S1": "Reputable contemporaneous independent report; none used as accepted evidence here.",
+    "S2": "Later secondary compilation, attendee notes, biography, translation or analytical reconstruction; discovery only here.",
+    "U": "Unverified attribution or unavailable original; not promoted into accepted investor intent."
+  },
+  "timing_legend": {
+    "T0": "Demonstrably public before the actual decision; public business context is separately distinguished from investor intent.",
+    "T1": "Contemporaneous statement/report within specified decision or holding-observation interval; not proved pre-trade.",
+    "T2": "Later retrospective explanation of an earlier decision.",
+    "TU": "Publication/event relationship to the actual decision unknown, or initial evidence missing. General method claims without a particular security decision remain TU for that relation."
+  },
+  "records": [
+    {
+      "evidence_record_id": "WB-F-VALUE-E1",
+      "claim_id": "WB-F-VALUE",
+      "source_id": "WB-S-OWNERS1999",
+      "precise_locator": "Owner manual, Intrinsic Value appendix: opening discounted-cash definition paragraph and subsequent estimate-sensitivity/book-value discussion.",
+      "supporting_faithful_paraphrase": "Intrinsic value discounts extractable future cash; estimates change with cash forecasts and interest rates. Book value is insufficient.",
+      "provenance_grade": "P1",
+      "source_family": "original_investor_shareholder_writing",
+      "access_status": "read_original_text",
+      "timing_labels": [
+        "TU"
+      ],
+      "timing_by_case": [],
+      "event_date": null,
+      "publication_date": "1999-01",
+      "archive_or_upload_date": null,
+      "retrieved_at_utc": "2026-10-13T17:07:22Z",
+      "known_public_by_2025_12_31": true,
+      "limitation": "Supports only the identified published statement or reported fact. Does not establish private intent, a complete portfolio, execution cost or investment P&L.",
+      "independent_review_0_reference": "V2-B-fundamental-review-0.json; reuse of verified anchors is labelled, not a new reviewer endorsement."
+    },
+    {
+      "evidence_record_id": "WB-F-CAPITAL-E1",
+      "claim_id": "WB-F-CAPITAL",
+      "source_id": "WB-S-OWNERS1999",
+      "precise_locator": "Owner manual principle 7 (debt), principle 9 (five-year retention test), principle 11 (controlled-business retention and exceptions).",
+      "supporting_faithful_paraphrase": "The manual favors conservative debt and tests retained earnings over rolling five years; controlled-business sale policy differs from securities.",
+      "provenance_grade": "P1",
+      "source_family": "original_investor_shareholder_writing",
+      "access_status": "read_original_text",
+      "timing_labels": [
+        "TU"
+      ],
+      "timing_by_case": [],
+      "event_date": null,
+      "publication_date": "1999-01",
+      "archive_or_upload_date": null,
+      "retrieved_at_utc": "2026-10-13T17:07:22Z",
+      "known_public_by_2025_12_31": true,
+      "limitation": "Supports only the identified published statement or reported fact. Does not establish private intent, a complete portfolio, execution cost or investment P&L.",
+      "independent_review_0_reference": "V2-B-fundamental-review-0.json; reuse of verified anchors is labelled, not a new reviewer endorsement."
+    },
+    {
+      "evidence_record_id": "WB-F-SECRECY-E1",
+      "claim_id": "WB-F-SECRECY",
+      "source_id": "WB-S-OWNERS1999",
+      "precise_locator": "Owner manual principle 13, security-idea disclosure paragraph.",
+      "supporting_faithful_paraphrase": "The manual declines security-idea disclosure beyond legal obligations.",
+      "provenance_grade": "P1",
+      "source_family": "original_investor_shareholder_writing",
+      "access_status": "read_original_text",
+      "timing_labels": [
+        "TU"
+      ],
+      "timing_by_case": [],
+      "event_date": null,
+      "publication_date": "1999-01",
+      "archive_or_upload_date": null,
+      "retrieved_at_utc": "2026-10-13T17:07:22Z",
+      "known_public_by_2025_12_31": true,
+      "limitation": "Supports only the identified published statement or reported fact. Does not establish private intent, a complete portfolio, execution cost or investment P&L.",
+      "independent_review_0_reference": "V2-B-fundamental-review-0.json; reuse of verified anchors is labelled, not a new reviewer endorsement."
+    },
+    {
+      "evidence_record_id": "WB-F-OWNEREARNINGS-E1",
+      "claim_id": "WB-F-OWNEREARNINGS",
+      "source_id": "WB-S-1986",
+      "precise_locator": "1986 letter Appendix, paragraph defining owner earnings as (a)+(b)-(c), including following incremental-working-capital sentence and maintenance-estimate caveat.",
+      "supporting_faithful_paraphrase": "Owner earnings deduct competitive maintenance capital expenditure and required incremental working capital from earnings plus noncash charges. Maintenance needs require estimation.",
+      "provenance_grade": "P1",
+      "source_family": "original_investor_shareholder_writing",
+      "access_status": "read_original_text",
+      "timing_labels": [
+        "TU"
+      ],
+      "timing_by_case": [],
+      "event_date": "1986-12-31",
+      "publication_date": "1987-02-27",
+      "archive_or_upload_date": null,
+      "retrieved_at_utc": "2026-10-13T17:07:22Z",
+      "known_public_by_2025_12_31": true,
+      "limitation": "Supports only the identified published statement or reported fact. Does not establish private intent, a complete portfolio, execution cost or investment P&L.",
+      "independent_review_0_reference": "V2-B-fundamental-review-0.json; reuse of verified anchors is labelled, not a new reviewer endorsement."
+    },
+    {
+      "evidence_record_id": "WB-F-CIRCLE-E1",
+      "claim_id": "WB-F-CIRCLE",
+      "source_id": "WB-S-1996",
+      "precise_locator": "1996 letter Common Stock Investments, paragraph specifying an understandable business at a rational price and next paragraph on circle-of-competence boundaries.",
+      "supporting_faithful_paraphrase": "Understandable durable economics at rational prices matter; competence boundaries need not encompass every industry.",
+      "provenance_grade": "P1",
+      "source_family": "original_investor_shareholder_writing",
+      "access_status": "read_original_text",
+      "timing_labels": [
+        "TU"
+      ],
+      "timing_by_case": [],
+      "event_date": "1996-12-31",
+      "publication_date": "1997-02-28",
+      "archive_or_upload_date": null,
+      "retrieved_at_utc": "2026-10-13T17:07:22Z",
+      "known_public_by_2025_12_31": true,
+      "limitation": "Supports only the identified published statement or reported fact. Does not establish private intent, a complete portfolio, execution cost or investment P&L.",
+      "independent_review_0_reference": "V2-B-fundamental-review-0.json; reuse of verified anchors is labelled, not a new reviewer endorsement."
+    },
+    {
+      "evidence_record_id": "WB-F-IBMTHESIS-E1",
+      "claim_id": "WB-F-IBMTHESIS",
+      "source_id": "WB-S-2011",
+      "precise_locator": "2011 letter printed pp6–7 (PDF pages5–6): Share Repurchases/IBM illustration, 63.9m/5.5% paragraph and hypothetical fifth-year $20bn paragraph; cost also printed p4 highlights.",
+      "supporting_faithful_paraphrase": "2011 IBM stake: 63.9m shares, $10.9bn cost, 5.5%. Thesis coupled future earnings with buybacks; the $20bn earnings example was hypothetical.",
+      "provenance_grade": "P1",
+      "source_family": "original_investor_shareholder_writing",
+      "access_status": "read_original_text",
+      "timing_labels": [
+        "T1"
+      ],
+      "timing_by_case": [
+        {
+          "case_id": "WB-C-IBM",
+          "node_id": "WB-C-IBM-N1",
+          "timing_labels": [
+            "T1"
+          ],
+          "reference_interval": "2011",
+          "note": "Public context, reported observation and original investor explanation are separately scoped; no original initial investor T0 verified."
+        }
+      ],
+      "event_date": "2011-12-31",
+      "publication_date": "2012-02-25",
+      "archive_or_upload_date": null,
+      "retrieved_at_utc": "2026-10-13T17:07:22Z",
+      "known_public_by_2025_12_31": true,
+      "limitation": "Written after initial IBM purchases, not a pre-entry memo.",
+      "independent_review_0_reference": "V2-B-fundamental-review-0.json; reuse of verified anchors is labelled, not a new reviewer endorsement."
+    },
+    {
+      "evidence_record_id": "WB-F-LIQUIDITY2011-E1",
+      "claim_id": "WB-F-LIQUIDITY2011",
+      "source_id": "WB-S-2011",
+      "precise_locator": "2011 letter printed p18/PDF page17, currency-based investments, working/absolute-liquidity paragraph (rendered lines777–782); printed p6/PDF page5, Share Repurchases, cash-equivalent condition paragraph (lines237–242).",
+      "supporting_faithful_paraphrase": "2011 letter distinguishes a $20bn working liquidity level and $10bn absolute minimum, principally held in Treasury bills; separately, own-share repurchases were barred when cash-equivalent holdings were below $20bn. These are era-specific and purpose-specific constraints.",
+      "provenance_grade": "P1",
+      "source_family": "original_investor_shareholder_writing",
+      "access_status": "read_original_text",
+      "timing_labels": [
+        "TU"
+      ],
+      "timing_by_case": [],
+      "event_date": "2011-12-31",
+      "publication_date": "2012-02-25",
+      "archive_or_upload_date": null,
+      "retrieved_at_utc": "2026-10-13T17:07:22Z",
+      "known_public_by_2025_12_31": true,
+      "limitation": "Written after initial IBM purchases, not a pre-entry memo.",
+      "independent_review_0_reference": "V2-B-fundamental-review-0.json; reuse of verified anchors is labelled, not a new reviewer endorsement."
+    },
+    {
+      "evidence_record_id": "WB-F-AAPL-Q116-E1",
+      "claim_id": "WB-F-AAPL-Q116",
+      "source_id": "WB-S-APPLE2016-13F",
+      "precise_locator": "Q1 2016 information table: APPLE INC COM, CUSIP 037833100, 9,811,747 SH; header VALUE (x$1000). Paired index: Filing Date 2016-05-16 and Period of Report 2016-03-31.",
+      "supporting_faithful_paraphrase": "Q 1 2016 13F reports 9,811,747 Apple shares, $1,069,382 thousand quarter-end value. It does not name the human buyer.",
+      "provenance_grade": "P1",
+      "source_family": "regulator_manager_holdings_filing",
+      "access_status": "read_original_text",
+      "timing_labels": [
+        "T1"
+      ],
+      "timing_by_case": [
+        {
+          "case_id": "WB-C-APPLE",
+          "node_id": "WB-C-APPLE-N1",
+          "timing_labels": [
+            "T1"
+          ],
+          "reference_interval": "2016-03-31",
+          "note": "Public context, reported observation and original investor explanation are separately scoped; no original initial investor T0 verified."
+        }
+      ],
+      "event_date": "2016-03-31",
+      "publication_date": "2016-05-16",
+      "archive_or_upload_date": null,
+      "retrieved_at_utc": "2026-10-13T17:07:22Z",
+      "known_public_by_2025_12_31": true,
+      "limitation": "Supports only the identified published statement or reported fact. Does not establish private intent, a complete portfolio, execution cost or investment P&L.",
+      "independent_review_0_reference": "V2-B-fundamental-review-0.json; reuse of verified anchors is labelled, not a new reviewer endorsement."
+    },
+    {
+      "evidence_record_id": "WB-F-AAPL-Q116-E2",
+      "claim_id": "WB-F-AAPL-Q116",
+      "source_id": "WB-S-APPLE2016-INDEX",
+      "precise_locator": "Q1 2016 information table: APPLE INC COM, CUSIP 037833100, 9,811,747 SH; header VALUE (x$1000). Paired index: Filing Date 2016-05-16 and Period of Report 2016-03-31.",
+      "supporting_faithful_paraphrase": "Filing index establishes actual publication/report dates only; quantities and reasoning are supported by other linked sources.",
+      "provenance_grade": "P1",
+      "source_family": "regulator_manager_holdings_filing",
+      "access_status": "read_original_text",
+      "timing_labels": [
+        "T1"
+      ],
+      "timing_by_case": [
+        {
+          "case_id": "WB-C-APPLE",
+          "node_id": "WB-C-APPLE-N1",
+          "timing_labels": [
+            "T1"
+          ],
+          "reference_interval": "2016-03-31",
+          "note": "Public context, reported observation and original investor explanation are separately scoped; no original initial investor T0 verified."
+        }
+      ],
+      "event_date": "2016-03-31",
+      "publication_date": "2016-05-16",
+      "archive_or_upload_date": null,
+      "retrieved_at_utc": "2026-10-13T17:07:22Z",
+      "known_public_by_2025_12_31": true,
+      "limitation": "Supports only the identified published statement or reported fact. Does not establish private intent, a complete portfolio, execution cost or investment P&L.",
+      "independent_review_0_reference": "V2-B-fundamental-review-0.json; reuse of verified anchors is labelled, not a new reviewer endorsement."
+    },
+    {
+      "evidence_record_id": "WB-F-AAPL-2016-E1",
+      "claim_id": "WB-F-AAPL-2016",
+      "source_id": "WB-S-2016",
+      "precise_locator": "2016 letter printed p19: Investments table Apple common row, Cost/Market columns and footnote excluding pension holdings.",
+      "supporting_faithful_paraphrase": "Year-end 2016 Apple table: 61,242,652 shares; $6.747bn cost; $7.093bn value; pension holdings excluded.",
+      "provenance_grade": "P1",
+      "source_family": "original_investor_shareholder_writing",
+      "access_status": "read_original_text",
+      "timing_labels": [
+        "T1"
+      ],
+      "timing_by_case": [
+        {
+          "case_id": "WB-C-APPLE",
+          "node_id": "WB-C-APPLE-N2",
+          "timing_labels": [
+            "T1"
+          ],
+          "reference_interval": "2016-12-31",
+          "note": "Public context, reported observation and original investor explanation are separately scoped; no original initial investor T0 verified."
+        }
+      ],
+      "event_date": "2016-12-31",
+      "publication_date": "2017-02-25",
+      "archive_or_upload_date": null,
+      "retrieved_at_utc": "2026-10-13T17:07:22Z",
+      "known_public_by_2025_12_31": true,
+      "limitation": "Supports only the identified published statement or reported fact. Does not establish private intent, a complete portfolio, execution cost or investment P&L.",
+      "independent_review_0_reference": "V2-B-fundamental-review-0.json; reuse of verified anchors is labelled, not a new reviewer endorsement."
+    },
+    {
+      "evidence_record_id": "WB-F-DEPUTIES2016-E1",
+      "claim_id": "WB-F-DEPUTIES2016",
+      "source_id": "WB-S-2016",
+      "precise_locator": "2016 letter printed p19: immediately following investment table, paragraph naming Todd Combs/Ted Weschler and independent portfolio authority.",
+      "supporting_faithful_paraphrase": "Ted Weschler and Todd Combs each independently managed over $10bn; Buffett could learn trades afterward.",
+      "provenance_grade": "P1",
+      "source_family": "original_investor_shareholder_writing",
+      "access_status": "read_original_text",
+      "timing_labels": [
+        "T1"
+      ],
+      "timing_by_case": [
+        {
+          "case_id": "WB-C-APPLE",
+          "node_id": "WB-C-APPLE-N2",
+          "timing_labels": [
+            "T1"
+          ],
+          "reference_interval": "2016-12-31",
+          "note": "Public context, reported observation and original investor explanation are separately scoped; no original initial investor T0 verified."
+        }
+      ],
+      "event_date": "2016-12-31",
+      "publication_date": "2017-02-25",
+      "archive_or_upload_date": null,
+      "retrieved_at_utc": "2026-10-13T17:07:22Z",
+      "known_public_by_2025_12_31": true,
+      "limitation": "Supports only the identified published statement or reported fact. Does not establish private intent, a complete portfolio, execution cost or investment P&L.",
+      "independent_review_0_reference": "V2-B-fundamental-review-0.json; reuse of verified anchors is labelled, not a new reviewer endorsement."
+    },
+    {
+      "evidence_record_id": "WB-F-AAPL-2017-E1",
+      "claim_id": "WB-F-AAPL-2017",
+      "source_id": "WB-S-2017",
+      "precise_locator": "2017 letter printed p9/PDF page8: marketable-equity table Apple common row and pension-exclusion footnote.",
+      "supporting_faithful_paraphrase": "Year-end 2017 Apple: 166,713,209 shares; $20.961bn cost; $28.213bn value. Pension holdings excluded.",
+      "provenance_grade": "P1",
+      "source_family": "original_investor_shareholder_writing",
+      "access_status": "read_original_text",
+      "timing_labels": [
+        "T1"
+      ],
+      "timing_by_case": [
+        {
+          "case_id": "WB-C-APPLE",
+          "node_id": "WB-C-APPLE-N4",
+          "timing_labels": [
+            "T1"
+          ],
+          "reference_interval": "2017-12-31",
+          "note": "Public context, reported observation and original investor explanation are separately scoped; no original initial investor T0 verified."
+        }
+      ],
+      "event_date": "2017-12-31",
+      "publication_date": "2018-02-24",
+      "archive_or_upload_date": null,
+      "retrieved_at_utc": "2026-10-13T17:07:22Z",
+      "known_public_by_2025_12_31": true,
+      "limitation": "Supports only the identified published statement or reported fact. Does not establish private intent, a complete portfolio, execution cost or investment P&L.",
+      "independent_review_0_reference": "V2-B-fundamental-review-0.json; reuse of verified anchors is labelled, not a new reviewer endorsement."
+    },
+    {
+      "evidence_record_id": "WB-F-TECHFIT-E1",
+      "claim_id": "WB-F-TECHFIT",
+      "source_id": "WB-S-CNBC2017-MEETING",
+      "precise_locator": "CNBC 2017 meeting afternoon session, section 12, Apple consumer-behavior/technology discussion; URL seek position start=6532.87 seconds. Original indexed transcript, full recording unlistened.",
+      "supporting_faithful_paraphrase": "In 2017 Buffett explained Apple through consumer behavior while acknowledging technology change and possible mistakes.",
+      "provenance_grade": "P2",
+      "source_family": "authorized_original_interview_archive",
+      "access_status": "original_indexed_extract_or_metadata_only",
+      "timing_labels": [
+        "T1"
+      ],
+      "timing_by_case": [
+        {
+          "case_id": "WB-C-APPLE",
+          "node_id": "WB-C-APPLE-N3",
+          "timing_labels": [
+            "T1"
+          ],
+          "reference_interval": "2017-05-06",
+          "note": "Public context, reported observation and original investor explanation are separately scoped; no original initial investor T0 verified."
+        }
+      ],
+      "event_date": null,
+      "publication_date": "2017-05-06",
+      "archive_or_upload_date": null,
+      "retrieved_at_utc": "2026-10-13T17:07:22Z",
+      "known_public_by_2025_12_31": true,
+      "limitation": "Indexed original transcript read; recording not listened to.",
+      "independent_review_0_reference": "V2-B-fundamental-review-0.json; reuse of verified anchors is labelled, not a new reviewer endorsement."
+    },
+    {
+      "evidence_record_id": "WB-F-AAPL-SCALE-E1",
+      "claim_id": "WB-F-AAPL-SCALE",
+      "source_id": "WB-S-2020",
+      "precise_locator": "2020 letter printed p6/PDF page5: Apple general-account accumulation paragraph (rendered lines200–205), expressly excluding the small separately managed holding in the same paragraph.",
+      "supporting_faithful_paraphrase": "Buffett’s general-account Apple buying began late 2016; early-July-2018 cost was $36bn. His retrospective account explicitly excludes a small separately managed holding.",
+      "provenance_grade": "P1",
+      "source_family": "original_investor_shareholder_writing",
+      "access_status": "read_original_text",
+      "timing_labels": [
+        "T1",
+        "T2"
+      ],
+      "timing_by_case": [
+        {
+          "case_id": "WB-C-APPLE",
+          "node_id": "WB-C-APPLE-N5",
+          "timing_labels": [
+            "T1",
+            "T2"
+          ],
+          "reference_interval": "2016–2020",
+          "note": "Public context, reported observation and original investor explanation are separately scoped; no original initial investor T0 verified."
+        }
+      ],
+      "event_date": "2020-12-31",
+      "publication_date": "2021-02-27",
+      "archive_or_upload_date": null,
+      "retrieved_at_utc": "2026-10-13T17:07:22Z",
+      "known_public_by_2025_12_31": true,
+      "limitation": "Retrospective assessment, with cost/value disclosures; not exact realized investment IRRs.",
+      "independent_review_0_reference": "V2-B-fundamental-review-0.json; reuse of verified anchors is labelled, not a new reviewer endorsement."
+    },
+    {
+      "evidence_record_id": "WB-F-AAPL-2020-E1",
+      "claim_id": "WB-F-AAPL-2020",
+      "source_id": "WB-S-2020",
+      "precise_locator": "2020 letter printed pp6–7: Apple cost/ownership/sale-proceeds discussion and Apple row in marketable-equity table; remaining cost differs from complete historical purchases.",
+      "supporting_faithful_paraphrase": "End-2020 Apple: 907,559,761 split-adjusted shares; $31.089bn remaining cost; $120.424bn market value. 2020 sales yielded $11bn proceeds; ownership rose through buybacks.",
+      "provenance_grade": "P1",
+      "source_family": "original_investor_shareholder_writing",
+      "access_status": "read_original_text",
+      "timing_labels": [
+        "T1",
+        "T2"
+      ],
+      "timing_by_case": [
+        {
+          "case_id": "WB-C-APPLE",
+          "node_id": "WB-C-APPLE-N5",
+          "timing_labels": [
+            "T1",
+            "T2"
+          ],
+          "reference_interval": "2016–2020",
+          "note": "Public context, reported observation and original investor explanation are separately scoped; no original initial investor T0 verified."
+        }
+      ],
+      "event_date": "2020-12-31",
+      "publication_date": "2021-02-27",
+      "archive_or_upload_date": null,
+      "retrieved_at_utc": "2026-10-13T17:07:22Z",
+      "known_public_by_2025_12_31": true,
+      "limitation": "Retrospective assessment, with cost/value disclosures; not exact realized investment IRRs.",
+      "independent_review_0_reference": "V2-B-fundamental-review-0.json; reuse of verified anchors is labelled, not a new reviewer endorsement."
+    },
+    {
+      "evidence_record_id": "WB-F-PCC-ERROR-E1",
+      "claim_id": "WB-F-PCC-ERROR",
+      "source_id": "WB-S-2020",
+      "precise_locator": "2020 letter printed p4: PCC impairment paragraph and following overpayment/normalized-profit admission.",
+      "supporting_faithful_paraphrase": "2020: $11bn after-tax impairment, mostly PCC; Buffett admits overpaying and overestimating normalized profits, despite good management.",
+      "provenance_grade": "P1",
+      "source_family": "original_investor_shareholder_writing",
+      "access_status": "read_original_text",
+      "timing_labels": [
+        "T2"
+      ],
+      "timing_by_case": [
+        {
+          "case_id": "WB-C-PCC",
+          "node_id": "WB-C-PCC-N4",
+          "timing_labels": [
+            "T2"
+          ],
+          "reference_interval": "2020",
+          "note": "Public context, reported observation and original investor explanation are separately scoped; no original initial investor T0 verified."
+        }
+      ],
+      "event_date": "2020-12-31",
+      "publication_date": "2021-02-27",
+      "archive_or_upload_date": null,
+      "retrieved_at_utc": "2026-10-13T17:07:22Z",
+      "known_public_by_2025_12_31": true,
+      "limitation": "Retrospective assessment, with cost/value disclosures; not exact realized investment IRRs.",
+      "independent_review_0_reference": "V2-B-fundamental-review-0.json; reuse of verified anchors is labelled, not a new reviewer endorsement."
+    },
+    {
+      "evidence_record_id": "WB-F-HEAVYCAPITAL-E1",
+      "claim_id": "WB-F-HEAVYCAPITAL",
+      "source_id": "WB-S-2020",
+      "precise_locator": "2020 letter printed p13/PDF page12, asset-heavy companies and appropriate incremental returns paragraph (rendered lines458–466); printed p14/PDF page13, BHE earnings-retention and transmission-investment paragraphs (lines489–496).",
+      "supporting_faithful_paraphrase": "The same letter endorses long-duration BHE investment with expected appropriate rewards; capital intensity alone is not a ban.",
+      "provenance_grade": "P1",
+      "source_family": "original_investor_shareholder_writing",
+      "access_status": "read_original_text",
+      "timing_labels": [
+        "TU"
+      ],
+      "timing_by_case": [],
+      "event_date": "2020-12-31",
+      "publication_date": "2021-02-27",
+      "archive_or_upload_date": null,
+      "retrieved_at_utc": "2026-10-13T17:07:22Z",
+      "known_public_by_2025_12_31": true,
+      "limitation": "Retrospective assessment, with cost/value disclosures; not exact realized investment IRRs.",
+      "independent_review_0_reference": "V2-B-fundamental-review-0.json; reuse of verified anchors is labelled, not a new reviewer endorsement."
+    },
+    {
+      "evidence_record_id": "WB-F-IBM-REASSESS-E1",
+      "claim_id": "WB-F-IBM-REASSESS",
+      "source_id": "WB-S-CNBC2017-IBM",
+      "precise_locator": "CNBC original 2017-08-30 interview publisher title/description: admission that IBM purchase was mistaken; full recording not verified.",
+      "supporting_faithful_paraphrase": "CNBC’s original August-2017 interview record states Buffett admitted his IBM purchase was mistaken.",
+      "provenance_grade": "P2",
+      "source_family": "authorized_original_interview_archive",
+      "access_status": "original_indexed_extract_or_metadata_only",
+      "timing_labels": [
+        "T1"
+      ],
+      "timing_by_case": [
+        {
+          "case_id": "WB-C-IBM",
+          "node_id": "WB-C-IBM-N3",
+          "timing_labels": [
+            "T1"
+          ],
+          "reference_interval": "2017-08-30",
+          "note": "Public context, reported observation and original investor explanation are separately scoped; no original initial investor T0 verified."
+        }
+      ],
+      "event_date": null,
+      "publication_date": "2017-08-30",
+      "archive_or_upload_date": null,
+      "retrieved_at_utc": "2026-10-13T17:07:22Z",
+      "known_public_by_2025_12_31": true,
+      "limitation": "Original publisher records his admission; full audio not verified.",
+      "independent_review_0_reference": "V2-B-fundamental-review-0.json; reuse of verified anchors is labelled, not a new reviewer endorsement."
+    },
+    {
+      "evidence_record_id": "WB-F-IBM-EXIT-E1",
+      "claim_id": "WB-F-IBM-EXIT",
+      "source_id": "WB-S-CNBC2018-IBM",
+      "precise_locator": "CNBC original 2018-05-03 clip, 00:42 clip publisher description and qualified speaker statement about zero IBM shares.",
+      "supporting_faithful_paraphrase": "CNBC’s May-2018 original record says Berkshire sold its last IBM shares in Q 1; Buffett’s phrasing retains a qualification.",
+      "provenance_grade": "P2",
+      "source_family": "authorized_original_interview_archive",
+      "access_status": "original_indexed_extract_or_metadata_only",
+      "timing_labels": [
+        "T1"
+      ],
+      "timing_by_case": [
+        {
+          "case_id": "WB-C-IBM",
+          "node_id": "WB-C-IBM-N4",
+          "timing_labels": [
+            "T1"
+          ],
+          "reference_interval": "2018-Q1",
+          "note": "Public context, reported observation and original investor explanation are separately scoped; no original initial investor T0 verified."
+        }
+      ],
+      "event_date": "2018-Q1",
+      "publication_date": "2018-05-03",
+      "archive_or_upload_date": null,
+      "retrieved_at_utc": "2026-10-13T17:07:22Z",
+      "known_public_by_2025_12_31": true,
+      "limitation": "Speaker uses a qualification; publisher describes Q 1 full exit. No exact net realized P&L supplied.",
+      "independent_review_0_reference": "V2-B-fundamental-review-0.json; reuse of verified anchors is labelled, not a new reviewer endorsement."
+    },
+    {
+      "evidence_record_id": "WB-F-IBM-BUSINESS-E1",
+      "claim_id": "WB-F-IBM-BUSINESS",
+      "source_id": "WB-S-IBM2016-AR",
+      "precise_locator": "IBM 2016 annual report printed p69/PDF page71: five-year cash-flow table, Free Cash Flow and Gross Share Repurchases rows, plus financing-receivables adjustment note.",
+      "supporting_faithful_paraphrase": "IBM reports 2016 FCF $11.6bn versus 2012 $18.2bn, under its financing-receivable-adjusted definition; 2016 buybacks $3.5bn.",
+      "provenance_grade": "P1",
+      "source_family": "issuer_business_transaction_or_financial_report",
+      "access_status": "original_indexed_extract_or_metadata_only",
+      "timing_labels": [
+        "T1"
+      ],
+      "timing_by_case": [
+        {
+          "case_id": "WB-C-IBM",
+          "node_id": "WB-C-IBM-N2",
+          "timing_labels": [
+            "T1"
+          ],
+          "reference_interval": "2016-12-31",
+          "note": "Public context, reported observation and original investor explanation are separately scoped; no original initial investor T0 verified."
+        }
+      ],
+      "event_date": "2016-12-31",
+      "publication_date": "2017",
+      "archive_or_upload_date": null,
+      "retrieved_at_utc": "2026-10-13T17:07:22Z",
+      "known_public_by_2025_12_31": true,
+      "limitation": "Supports only the identified published statement or reported fact. Does not establish private intent, a complete portfolio, execution cost or investment P&L.",
+      "independent_review_0_reference": "V2-B-fundamental-review-0.json; reuse of verified anchors is labelled, not a new reviewer endorsement."
+    },
+    {
+      "evidence_record_id": "WB-F-PCC-DEAL-E1",
+      "claim_id": "WB-F-PCC-DEAL",
+      "source_id": "WB-S-PCC2015-DEAL",
+      "precise_locator": "2015-08-10 merger release PDF first page: $235 cash/enterprise-value paragraph and Buffett quoted supplier-position paragraph.",
+      "supporting_faithful_paraphrase": "Agreement announced August-2015: $235 cash per share, $37.2bn including net debt; Buffett praised supplier position.",
+      "provenance_grade": "P1",
+      "source_family": "issuer_business_transaction_or_financial_report",
+      "access_status": "read_original_text",
+      "timing_labels": [
+        "T1"
+      ],
+      "timing_by_case": [
+        {
+          "case_id": "WB-C-PCC",
+          "node_id": "WB-C-PCC-N2",
+          "timing_labels": [
+            "T1"
+          ],
+          "reference_interval": "2015-08-10",
+          "note": "Public context, reported observation and original investor explanation are separately scoped; no original initial investor T0 verified."
+        }
+      ],
+      "event_date": "2015-08-08",
+      "publication_date": "2015-08-10",
+      "archive_or_upload_date": null,
+      "retrieved_at_utc": "2026-10-13T17:07:22Z",
+      "known_public_by_2025_12_31": true,
+      "limitation": "Pre-closing announcement after the merger decision; not a pre-decision memorandum.",
+      "independent_review_0_reference": "V2-B-fundamental-review-0.json; reuse of verified anchors is labelled, not a new reviewer endorsement."
+    },
+    {
+      "evidence_record_id": "WB-F-PCC-CLOSE-E1",
+      "claim_id": "WB-F-PCC-CLOSE",
+      "source_id": "WB-S-PCC2016-CLOSE",
+      "precise_locator": "2016-01-29 closing release first-page opening paragraph; 1Q2016 report Note 3, printed p8, PCC acquisition consideration paragraph.",
+      "supporting_faithful_paraphrase": "Original closing release reports the January29,2016 completed acquisition; consideration is separately documented in Note3.",
+      "provenance_grade": "P1",
+      "source_family": "issuer_business_transaction_or_financial_report",
+      "access_status": "original_indexed_extract_or_metadata_only",
+      "timing_labels": [
+        "T1"
+      ],
+      "timing_by_case": [
+        {
+          "case_id": "WB-C-PCC",
+          "node_id": "WB-C-PCC-N3",
+          "timing_labels": [
+            "T1"
+          ],
+          "reference_interval": "2016-01-29",
+          "note": "Public context, reported observation and original investor explanation are separately scoped; no original initial investor T0 verified."
+        }
+      ],
+      "event_date": "2016-01-29",
+      "publication_date": "2016-01-29",
+      "archive_or_upload_date": null,
+      "retrieved_at_utc": "2026-10-13T17:07:22Z",
+      "known_public_by_2025_12_31": true,
+      "limitation": "Supports only the identified published statement or reported fact. Does not establish private intent, a complete portfolio, execution cost or investment P&L.",
+      "independent_review_0_reference": "V2-B-fundamental-review-0.json; reuse of verified anchors is labelled, not a new reviewer endorsement."
+    },
+    {
+      "evidence_record_id": "WB-F-PCC-CLOSE-E2",
+      "claim_id": "WB-F-PCC-CLOSE",
+      "source_id": "WB-S-PCC2016-10Q",
+      "precise_locator": "2016-01-29 closing release first-page opening paragraph; 1Q2016 report Note 3, printed p8, PCC acquisition consideration paragraph.",
+      "supporting_faithful_paraphrase": "Note3 reports approximately $32.7bn aggregate equity consideration, including existing shares; enterprise value is a different measure.",
+      "provenance_grade": "P1",
+      "source_family": "issuer_business_transaction_or_financial_report",
+      "access_status": "original_indexed_extract_or_metadata_only",
+      "timing_labels": [
+        "T1"
+      ],
+      "timing_by_case": [
+        {
+          "case_id": "WB-C-PCC",
+          "node_id": "WB-C-PCC-N3",
+          "timing_labels": [
+            "T1"
+          ],
+          "reference_interval": "2016-01-29",
+          "note": "Public context, reported observation and original investor explanation are separately scoped; no original initial investor T0 verified."
+        }
+      ],
+      "event_date": "2016-03-31",
+      "publication_date": "2016",
+      "archive_or_upload_date": null,
+      "retrieved_at_utc": "2026-10-13T17:07:22Z",
+      "known_public_by_2025_12_31": true,
+      "limitation": "Supports only the identified published statement or reported fact. Does not establish private intent, a complete portfolio, execution cost or investment P&L.",
+      "independent_review_0_reference": "V2-B-fundamental-review-0.json; reuse of verified anchors is labelled, not a new reviewer endorsement."
+    },
+    {
+      "evidence_record_id": "WB-F-PCC-PUBLICRISK-E1",
+      "claim_id": "WB-F-PCC-PUBLICRISK",
+      "source_id": "WB-S-PCC2015-RESULT",
+      "precise_locator": "PCC 2015-05-13 earnings release opening result bullets: flat fourth-quarter organic growth, oil/gas/customer-inventory headwinds and reported-versus-adjusted EPS discussion.",
+      "supporting_faithful_paraphrase": "Pre-agreement May-2015 results disclose flat Q 4 organic growth, oil/gas and customer-inventory pressure, and a gap between reported and adjusted earnings.",
+      "provenance_grade": "P1",
+      "source_family": "issuer_business_transaction_or_financial_report",
+      "access_status": "original_indexed_extract_or_metadata_only",
+      "timing_labels": [
+        "T0"
+      ],
+      "timing_by_case": [
+        {
+          "case_id": "WB-C-PCC",
+          "node_id": "WB-C-PCC-N1",
+          "timing_labels": [
+            "T0"
+          ],
+          "reference_interval": "2015-05-13",
+          "note": "Public context, reported observation and original investor explanation are separately scoped; no original initial investor T0 verified."
+        }
+      ],
+      "event_date": "2015-03-29",
+      "publication_date": "2015-05-13",
+      "archive_or_upload_date": null,
+      "retrieved_at_utc": "2026-10-13T17:07:22Z",
+      "known_public_by_2025_12_31": true,
+      "limitation": "Available before acquisition agreement; does not prove Buffett used or ignored these specific facts.",
+      "independent_review_0_reference": "V2-B-fundamental-review-0.json; reuse of verified anchors is labelled, not a new reviewer endorsement."
+    },
+    {
+      "evidence_record_id": "WB-F-ROLE-CHANGE-E1",
+      "claim_id": "WB-F-ROLE-CHANGE",
+      "source_id": "WB-S-SUCCESSION2025",
+      "precise_locator": "2025-05-05 release first-page opening CEO-effective-date and chairman paragraphs; 2025-12-08 release opening paragraph on Combs departure.",
+      "supporting_faithful_paraphrase": "May5,2025 original company release gives Abel’s January1,2026 CEO effective date and Buffett retaining chairmanship.",
+      "provenance_grade": "P1",
+      "source_family": "issuer_governance_release",
+      "access_status": "read_original_text",
+      "timing_labels": [
+        "TU"
+      ],
+      "timing_by_case": [],
+      "event_date": "2026-01-01",
+      "publication_date": "2025-05-05",
+      "archive_or_upload_date": null,
+      "retrieved_at_utc": "2026-10-13T17:07:22Z",
+      "known_public_by_2025_12_31": true,
+      "limitation": "Supports only the identified published statement or reported fact. Does not establish private intent, a complete portfolio, execution cost or investment P&L.",
+      "independent_review_0_reference": "V2-B-fundamental-review-0.json; reuse of verified anchors is labelled, not a new reviewer endorsement."
+    },
+    {
+      "evidence_record_id": "WB-F-ROLE-CHANGE-E2",
+      "claim_id": "WB-F-ROLE-CHANGE",
+      "source_id": "WB-S-COMBS2025",
+      "precise_locator": "2025-05-05 release first-page opening CEO-effective-date and chairman paragraphs; 2025-12-08 release opening paragraph on Combs departure.",
+      "supporting_faithful_paraphrase": "December8,2025 original company release announces Todd Combs leaving; it does not identify a specific equity trade author.",
+      "provenance_grade": "P1",
+      "source_family": "issuer_governance_release",
+      "access_status": "read_original_text",
+      "timing_labels": [
+        "TU"
+      ],
+      "timing_by_case": [],
+      "event_date": null,
+      "publication_date": "2025-12-08",
+      "archive_or_upload_date": null,
+      "retrieved_at_utc": "2026-10-13T17:07:22Z",
+      "known_public_by_2025_12_31": true,
+      "limitation": "Supports only the identified published statement or reported fact. Does not establish private intent, a complete portfolio, execution cost or investment P&L.",
+      "independent_review_0_reference": "V2-B-fundamental-review-0.json; reuse of verified anchors is labelled, not a new reviewer endorsement."
+    },
+    {
+      "evidence_record_id": "WB-F-ROLE-2026-E1",
+      "claim_id": "WB-F-ROLE-2026",
+      "source_id": "WB-S-ABEL2026",
+      "precise_locator": "2025 annual letter published 2026-02-28, signed Gregory E. Abel: equity-investment responsibility and Ted Weschler 6% discussion on printed p16.",
+      "supporting_faithful_paraphrase": "Abel’s February-2026 letter assigns ultimate equity-investment responsibility to himself and about 6% management to Weschler, including former Combs holdings.",
+      "provenance_grade": "P1",
+      "source_family": "original_investor_shareholder_writing",
+      "access_status": "read_original_text",
+      "timing_labels": [
+        "T1"
+      ],
+      "timing_by_case": [
+        {
+          "case_id": "WB-C-APPLE",
+          "node_id": "WB-C-APPLE-N6",
+          "timing_labels": [
+            "T1"
+          ],
+          "reference_interval": "2026-06-30",
+          "note": "Public context, reported observation and original investor explanation are separately scoped; no original initial investor T0 verified."
+        }
+      ],
+      "event_date": "2025-12-31",
+      "publication_date": "2026-02-28",
+      "archive_or_upload_date": null,
+      "retrieved_at_utc": "2026-10-13T17:07:22Z",
+      "known_public_by_2025_12_31": false,
+      "limitation": "Excluded from beginning-2026 methods/views despite 2025 in title.",
+      "independent_review_0_reference": "V2-B-fundamental-review-0.json; reuse of verified anchors is labelled, not a new reviewer endorsement."
+    },
+    {
+      "evidence_record_id": "WB-F-AAPL-Q226-E1",
+      "claim_id": "WB-F-AAPL-Q226",
+      "source_id": "WB-S-Q226-TABLE",
+      "precise_locator": "Q2 2026 information table: all 12 APPLE INC COM/CUSIP 037833100 rows (rendered lines30–41), VALUE in dollars; paired index filing/report date fields.",
+      "supporting_faithful_paraphrase": "Q2-2026 Apple’s 12 rows total 227,917,808 shares and $65,950,296,923; this is institutional reporting under the new CEO era.",
+      "provenance_grade": "P1",
+      "source_family": "regulator_manager_holdings_filing",
+      "access_status": "read_original_text",
+      "timing_labels": [
+        "T1"
+      ],
+      "timing_by_case": [
+        {
+          "case_id": "WB-C-APPLE",
+          "node_id": "WB-C-APPLE-N6",
+          "timing_labels": [
+            "T1"
+          ],
+          "reference_interval": "2026-06-30",
+          "note": "Public context, reported observation and original investor explanation are separately scoped; no original initial investor T0 verified."
+        }
+      ],
+      "event_date": "2026-06-30",
+      "publication_date": "2026-08-14",
+      "archive_or_upload_date": null,
+      "retrieved_at_utc": "2026-10-13T17:07:22Z",
+      "known_public_by_2025_12_31": false,
+      "limitation": "Aggregate all 12 Apple rows; other-manager identifiers are entities, not a named human trade history.",
+      "independent_review_0_reference": "V2-B-fundamental-review-0.json; reuse of verified anchors is labelled, not a new reviewer endorsement."
+    },
+    {
+      "evidence_record_id": "WB-F-AAPL-Q226-E2",
+      "claim_id": "WB-F-AAPL-Q226",
+      "source_id": "WB-S-Q226-INDEX",
+      "precise_locator": "Q2 2026 information table: all 12 APPLE INC COM/CUSIP 037833100 rows (rendered lines30–41), VALUE in dollars; paired index filing/report date fields.",
+      "supporting_faithful_paraphrase": "Filing index establishes actual publication/report dates only; quantities and reasoning are supported by other linked sources.",
+      "provenance_grade": "P1",
+      "source_family": "regulator_manager_holdings_filing",
+      "access_status": "read_original_text",
+      "timing_labels": [
+        "T1"
+      ],
+      "timing_by_case": [
+        {
+          "case_id": "WB-C-APPLE",
+          "node_id": "WB-C-APPLE-N6",
+          "timing_labels": [
+            "T1"
+          ],
+          "reference_interval": "2026-06-30",
+          "note": "Public context, reported observation and original investor explanation are separately scoped; no original initial investor T0 verified."
+        }
+      ],
+      "event_date": "2026-06-30",
+      "publication_date": "2026-08-14",
+      "archive_or_upload_date": null,
+      "retrieved_at_utc": "2026-10-13T17:07:22Z",
+      "known_public_by_2025_12_31": false,
+      "limitation": "Supports only the identified published statement or reported fact. Does not establish private intent, a complete portfolio, execution cost or investment P&L.",
+      "independent_review_0_reference": "V2-B-fundamental-review-0.json; reuse of verified anchors is labelled, not a new reviewer endorsement."
+    },
+    {
+      "evidence_record_id": "DYP-F-ROLE-E1",
+      "claim_id": "DYP-F-ROLE",
+      "source_id": "DYP-S-FANGLUE2025",
+      "precise_locator": "Fanglue header retirement context and substantive author paragraphs rendered lines151 (BBK founding), 161 (not CEO for over20 years), 196–199 (CEOs decide; adviser role).",
+      "supporting_faithful_paraphrase": "BBK founder; says he stopped being CEO over20 years earlier and serves as adviser while CEOs decide.",
+      "provenance_grade": "P2",
+      "source_family": "authorized_original_interview_transcript",
+      "access_status": "read_original_text",
+      "timing_labels": [
+        "TU"
+      ],
+      "timing_by_case": [],
+      "event_date": "2025-10-16",
+      "publication_date": "2025-11-11",
+      "archive_or_upload_date": null,
+      "retrieved_at_utc": "2026-10-13T17:07:22Z",
+      "known_public_by_2025_12_31": true,
+      "limitation": "Original interview producer’s Chinese transcript syndicated on Phoenix; full audio not independently compared. Historical transactions and returns are self-reports.",
+      "independent_review_0_reference": "V2-B-fundamental-review-0.json; reuse of verified anchors is labelled, not a new reviewer endorsement."
+    },
+    {
+      "evidence_record_id": "DYP-F-FILTERS-E1",
+      "claim_id": "DYP-F-FILTERS",
+      "source_id": "DYP-S-FILTERS2025",
+      "precise_locator": "Xueqiu thread author 大道无形我有型 replies dated 2025-08-15 21:42 (business model/culture) and 23:07 (rational long-term essential thinking). Reader quotations are excluded.",
+      "supporting_faithful_paraphrase": "Author’s direct 2025 reply prioritizes business model and corporate culture; another reply emphasizes rational long-term essential thinking.",
+      "provenance_grade": "P1",
+      "source_family": "verified_investor_social_account",
+      "access_status": "read_original_text",
+      "timing_labels": [
+        "TU"
+      ],
+      "timing_by_case": [],
+      "event_date": null,
+      "publication_date": "2025-08-15",
+      "archive_or_upload_date": null,
+      "retrieved_at_utc": "2026-10-13T17:07:22Z",
+      "known_public_by_2025_12_31": true,
+      "limitation": "Only replies visibly authored by this account are primary. Other users’ quotations underneath are not verified older originals.",
+      "independent_review_0_reference": "V2-B-fundamental-review-0.json; reuse of verified anchors is labelled, not a new reviewer endorsement."
+    },
+    {
+      "evidence_record_id": "DYP-F-VALUATION-E1",
+      "claim_id": "DYP-F-VALUATION",
+      "source_id": "DYP-S-FANGLUE2025",
+      "precise_locator": "Fanglue investment section rendered line267, future-cash understanding; line412, future earnings versus investment opportunity cost.",
+      "supporting_faithful_paraphrase": "Interview ties investment to understood future cash flow and opportunity cost.",
+      "provenance_grade": "P2",
+      "source_family": "authorized_original_interview_transcript",
+      "access_status": "read_original_text",
+      "timing_labels": [
+        "TU"
+      ],
+      "timing_by_case": [],
+      "event_date": "2025-10-16",
+      "publication_date": "2025-11-11",
+      "archive_or_upload_date": null,
+      "retrieved_at_utc": "2026-10-13T17:07:22Z",
+      "known_public_by_2025_12_31": true,
+      "limitation": "Original interview producer’s Chinese transcript syndicated on Phoenix; full audio not independently compared. Historical transactions and returns are self-reports.",
+      "independent_review_0_reference": "V2-B-fundamental-review-0.json; reuse of verified anchors is labelled, not a new reviewer endorsement."
+    },
+    {
+      "evidence_record_id": "DYP-F-NETEASE-STORY-E1",
+      "claim_id": "DYP-F-NETEASE-STORY",
+      "source_id": "DYP-S-FANGLUE2025",
+      "precise_locator": "Fanglue rendered lines307–309 (game/team/cash/account and holding capacity), 316 (knowledge limits) and 320 (>100x later self-report).",
+      "supporting_faithful_paraphrase": "NetEase: games experience, team discussions, cash above capitalization; full available account cash; >100x return self-reported.",
+      "provenance_grade": "P2",
+      "source_family": "authorized_original_interview_transcript",
+      "access_status": "read_original_text",
+      "timing_labels": [
+        "T2"
+      ],
+      "timing_by_case": [
+        {
+          "case_id": "DYP-C-NETEASE",
+          "node_id": "DYP-C-NETEASE-N5",
+          "timing_labels": [
+            "T2"
+          ],
+          "reference_interval": "2025-10-16",
+          "note": "Public context, reported observation and original investor explanation are separately scoped; no original initial investor T0 verified."
+        }
+      ],
+      "event_date": "2025-10-16",
+      "publication_date": "2025-11-11",
+      "archive_or_upload_date": null,
+      "retrieved_at_utc": "2026-10-13T17:07:22Z",
+      "known_public_by_2025_12_31": true,
+      "limitation": "Original interview producer’s Chinese transcript syndicated on Phoenix; full audio not independently compared. Historical transactions and returns are self-reports.",
+      "independent_review_0_reference": "V2-B-fundamental-review-0.json; reuse of verified anchors is labelled, not a new reviewer endorsement."
+    },
+    {
+      "evidence_record_id": "DYP-F-NETEASE-2003-E1",
+      "claim_id": "DYP-F-NETEASE-2003",
+      "source_id": "DYP-S-NETEASE2002AR",
+      "precise_locator": "NetEase 2002 report printed p73/PDF page77, Principal Shareholders row Yongping Duan and Xin Liu; cover ADS definition 100 ordinary shares per ADS.",
+      "supporting_faithful_paraphrase": "May31,2003 issuer ownership: Yongping Duan and Xin Liu 205m ordinary shares,6.5%; then100 ordinary shares per ADS.",
+      "provenance_grade": "P1",
+      "source_family": "issuer_business_transaction_or_financial_report",
+      "access_status": "read_original_text",
+      "timing_labels": [
+        "T1"
+      ],
+      "timing_by_case": [
+        {
+          "case_id": "DYP-C-NETEASE",
+          "node_id": "DYP-C-NETEASE-N2",
+          "timing_labels": [
+            "T1"
+          ],
+          "reference_interval": "2002-12-31 / 2003-05-31",
+          "note": "Public context, reported observation and original investor explanation are separately scoped; no original initial investor T0 verified."
+        }
+      ],
+      "event_date": "2003-05-31",
+      "publication_date": "2003",
+      "archive_or_upload_date": null,
+      "retrieved_at_utc": "2026-10-13T17:07:22Z",
+      "known_public_by_2025_12_31": true,
+      "limitation": "Postentry ownership and later published results. They are not a predecision investment memo.",
+      "independent_review_0_reference": "V2-B-fundamental-review-0.json; reuse of verified anchors is labelled, not a new reviewer endorsement."
+    },
+    {
+      "evidence_record_id": "DYP-F-NETEASE-PROFIT-E1",
+      "claim_id": "DYP-F-NETEASE-PROFIT",
+      "source_id": "DYP-S-NETEASE2002AR",
+      "precise_locator": "NetEase 2002 report printed financial page F-5/PDF page110, Consolidated Statements of Operations: Net profit (loss), 2001 and2002 RMB columns; also selected-data net-income row.",
+      "supporting_faithful_paraphrase": "NetEase’s reported 2002 net profit RMB16,301,638 follows 2001 loss RMB233,163,914.",
+      "provenance_grade": "P1",
+      "source_family": "issuer_business_transaction_or_financial_report",
+      "access_status": "read_original_text",
+      "timing_labels": [
+        "T1"
+      ],
+      "timing_by_case": [
+        {
+          "case_id": "DYP-C-NETEASE",
+          "node_id": "DYP-C-NETEASE-N2",
+          "timing_labels": [
+            "T1"
+          ],
+          "reference_interval": "2002-12-31 / 2003-05-31",
+          "note": "Public context, reported observation and original investor explanation are separately scoped; no original initial investor T0 verified."
+        }
+      ],
+      "event_date": "2003-05-31",
+      "publication_date": "2003",
+      "archive_or_upload_date": null,
+      "retrieved_at_utc": "2026-10-13T17:07:22Z",
+      "known_public_by_2025_12_31": true,
+      "limitation": "Postentry ownership and later published results. They are not a predecision investment memo.",
+      "independent_review_0_reference": "V2-B-fundamental-review-0.json; reuse of verified anchors is labelled, not a new reviewer endorsement."
+    },
+    {
+      "evidence_record_id": "DYP-F-NETEASE-OCT2003-E1",
+      "claim_id": "DYP-F-NETEASE-OCT2003",
+      "source_id": "DYP-S-NETEASE2003-13G",
+      "precise_locator": "NetEase 2003 Schedule 13G cover date/signature and Item4(a)/(b) reported beneficial amount/percentage; Item5 ceased-to-exceed-five-percent checkbox.",
+      "supporting_faithful_paraphrase": "October 2003 signed13G reports 1,275,000 units,4.08%, and ceased>5%; inconsistent scale requires unit reconciliation.",
+      "provenance_grade": "P1",
+      "source_family": "regulator_beneficial_ownership_notification",
+      "access_status": "read_original_text",
+      "timing_labels": [
+        "T1"
+      ],
+      "timing_by_case": [
+        {
+          "case_id": "DYP-C-NETEASE",
+          "node_id": "DYP-C-NETEASE-N3",
+          "timing_labels": [
+            "T1"
+          ],
+          "reference_interval": "2003-10-29",
+          "note": "Public context, reported observation and original investor explanation are separately scoped; no original initial investor T0 verified."
+        }
+      ],
+      "event_date": "2003-10-29",
+      "publication_date": "2003",
+      "archive_or_upload_date": null,
+      "retrieved_at_utc": "2026-10-13T17:07:22Z",
+      "known_public_by_2025_12_31": true,
+      "limitation": "Cover labels common stock but denominator is on a different scale from the 2002 annual report. Do not compare raw share numbers without reconciliation; signature date is not independently verified EDGAR filing date.",
+      "independent_review_0_reference": "V2-B-fundamental-review-0.json; reuse of verified anchors is labelled, not a new reviewer endorsement."
+    },
+    {
+      "evidence_record_id": "DYP-F-NETEASE-2009-E1",
+      "claim_id": "DYP-F-NETEASE-2009",
+      "source_id": "DYP-S-NETEASE2009-13G",
+      "precise_locator": "NetEase March2009 Schedule 13G, individual/foundation ownership cover pages; Item4 and ExhibitA; Item5 cessation checkbox.",
+      "supporting_faithful_paraphrase": "March 2009: personal 4,040,243 shares; Enlight Foundation679,812; aggregate 4,720,055,3.69%; ceased>5%.",
+      "provenance_grade": "P1",
+      "source_family": "regulator_beneficial_ownership_notification",
+      "access_status": "read_original_text",
+      "timing_labels": [
+        "T1"
+      ],
+      "timing_by_case": [
+        {
+          "case_id": "DYP-C-NETEASE",
+          "node_id": "DYP-C-NETEASE-N4",
+          "timing_labels": [
+            "T1"
+          ],
+          "reference_interval": "2009-03-23",
+          "note": "Public context, reported observation and original investor explanation are separately scoped; no original initial investor T0 verified."
+        }
+      ],
+      "event_date": "2009-03-23",
+      "publication_date": "2009-03-24",
+      "archive_or_upload_date": null,
+      "retrieved_at_utc": "2026-10-13T17:07:22Z",
+      "known_public_by_2025_12_31": true,
+      "limitation": "Separate personal holdings and foundation; not all beneficial holdings are individually owned.",
+      "independent_review_0_reference": "V2-B-fundamental-review-0.json; reuse of verified anchors is labelled, not a new reviewer endorsement."
+    },
+    {
+      "evidence_record_id": "DYP-F-APPLE-STORY-E1",
+      "claim_id": "DYP-F-APPLE-STORY",
+      "source_id": "DYP-S-FANGLUE2025",
+      "precise_locator": "Fanglue line324 (2011 entry), lines335–349 (user value/culture interpretation), line409 (peak exposure and call assignment recollection).",
+      "supporting_faithful_paraphrase": "Apple entry 2011; user-oriented ecosystem reasoning; peak90%-plus exposure and later call assignments self-reported.",
+      "provenance_grade": "P2",
+      "source_family": "authorized_original_interview_transcript",
+      "access_status": "read_original_text",
+      "timing_labels": [
+        "T2"
+      ],
+      "timing_by_case": [
+        {
+          "case_id": "DYP-C-APPLE",
+          "node_id": "DYP-C-APPLE-N2",
+          "timing_labels": [
+            "T2"
+          ],
+          "reference_interval": "2011–2025",
+          "note": "Public context, reported observation and original investor explanation are separately scoped; no original initial investor T0 verified."
+        }
+      ],
+      "event_date": "2025-10-16",
+      "publication_date": "2025-11-11",
+      "archive_or_upload_date": null,
+      "retrieved_at_utc": "2026-10-13T17:07:22Z",
+      "known_public_by_2025_12_31": true,
+      "limitation": "Original interview producer’s Chinese transcript syndicated on Phoenix; full audio not independently compared. Historical transactions and returns are self-reports.",
+      "independent_review_0_reference": "V2-B-fundamental-review-0.json; reuse of verified anchors is labelled, not a new reviewer endorsement."
+    },
+    {
+      "evidence_record_id": "DYP-F-APPLE-PRICE2025-E1",
+      "claim_id": "DYP-F-APPLE-PRICE2025",
+      "source_id": "DYP-S-FANGLUE2025",
+      "precise_locator": "Fanglue lines358–363: interview question on current Apple price; answer not cheap; subsequent opportunity-cost comparison and uncertainty.",
+      "supporting_faithful_paraphrase": "October 2025 Apple considered not cheap; price judged against alternatives.",
+      "provenance_grade": "P2",
+      "source_family": "authorized_original_interview_transcript",
+      "access_status": "read_original_text",
+      "timing_labels": [
+        "T1"
+      ],
+      "timing_by_case": [
+        {
+          "case_id": "DYP-C-APPLE",
+          "node_id": "DYP-C-APPLE-N3",
+          "timing_labels": [
+            "T1"
+          ],
+          "reference_interval": "2025-10-16",
+          "note": "Public context, reported observation and original investor explanation are separately scoped; no original initial investor T0 verified."
+        }
+      ],
+      "event_date": "2025-10-16",
+      "publication_date": "2025-11-11",
+      "archive_or_upload_date": null,
+      "retrieved_at_utc": "2026-10-13T17:07:22Z",
+      "known_public_by_2025_12_31": true,
+      "limitation": "Original interview producer’s Chinese transcript syndicated on Phoenix; full audio not independently compared. Historical transactions and returns are self-reports.",
+      "independent_review_0_reference": "V2-B-fundamental-review-0.json; reuse of verified anchors is labelled, not a new reviewer endorsement."
+    },
+    {
+      "evidence_record_id": "DYP-F-APPLE-2011-DATA-E1",
+      "claim_id": "DYP-F-APPLE-2011-DATA",
+      "source_id": "DYP-S-APPLE2011-RESULT",
+      "precise_locator": "Apple 2011-01-18 newsroom release opening revenue/net-income paragraphs and CFO operating-cash-flow paragraph; quarter ended2010-12-25.",
+      "supporting_faithful_paraphrase": "Apple’s January 2011 release reports quarterly revenue$26.74bn, net income$6bn and operating cash flow$9.8bn.",
+      "provenance_grade": "P1",
+      "source_family": "issuer_business_transaction_or_financial_report",
+      "access_status": "read_original_text",
+      "timing_labels": [
+        "TU"
+      ],
+      "timing_by_case": [
+        {
+          "case_id": "DYP-C-APPLE",
+          "node_id": "DYP-C-APPLE-N1",
+          "timing_labels": [
+            "TU"
+          ],
+          "reference_interval": "2011-01-18",
+          "note": "Public context, reported observation and original investor explanation are separately scoped; no original initial investor T0 verified."
+        }
+      ],
+      "event_date": "2010-12-25",
+      "publication_date": "2011-01-18",
+      "archive_or_upload_date": null,
+      "retrieved_at_utc": "2026-10-13T17:07:22Z",
+      "known_public_by_2025_12_31": true,
+      "limitation": "Public financial context. His exact entry date is not established, so this cannot automatically be called information known before his first trade.",
+      "independent_review_0_reference": "V2-B-fundamental-review-0.json; reuse of verified anchors is labelled, not a new reviewer endorsement."
+    },
+    {
+      "evidence_record_id": "DYP-F-GE-ERROR-E1",
+      "claim_id": "DYP-F-GE-ERROR",
+      "source_id": "DYP-S-FANGLUE2025",
+      "precise_locator": "Fanglue lines365–378: GE 2008 purchase question, misunderstood model/lost integrity-slogan explanation, holding interval, profit acknowledgment and two-filter repudiation.",
+      "supporting_faithful_paraphrase": "GE’s profitable historical purchase nevertheless called mistaken: misunderstood model and lost cultural trust.",
+      "provenance_grade": "P2",
+      "source_family": "authorized_original_interview_transcript",
+      "access_status": "read_original_text",
+      "timing_labels": [
+        "T2"
+      ],
+      "timing_by_case": [
+        {
+          "case_id": "DYP-C-GE",
+          "node_id": "DYP-C-GE-N1",
+          "timing_labels": [
+            "T2"
+          ],
+          "reference_interval": "2008_to_exit_unknown",
+          "note": "Public context, reported observation and original investor explanation are separately scoped; no original initial investor T0 verified."
+        }
+      ],
+      "event_date": "2025-10-16",
+      "publication_date": "2025-11-11",
+      "archive_or_upload_date": null,
+      "retrieved_at_utc": "2026-10-13T17:07:22Z",
+      "known_public_by_2025_12_31": true,
+      "limitation": "Original interview producer’s Chinese transcript syndicated on Phoenix; full audio not independently compared. Historical transactions and returns are self-reports.",
+      "independent_review_0_reference": "V2-B-fundamental-review-0.json; reuse of verified anchors is labelled, not a new reviewer endorsement."
+    },
+    {
+      "evidence_record_id": "DYP-F-INDEX-ERROR-E1",
+      "claim_id": "DYP-F-INDEX-ERROR",
+      "source_id": "DYP-S-FANGLUE2025",
+      "precise_locator": "Fanglue lines382–383: unnamed oil/gas index, daily99% correlation, long-run/time-loss mechanism, approximately $100m invested and slightly over $10m loss; product name absent.",
+      "supporting_faithful_paraphrase": "Unnamed oil/gas index: aboutUS$100m invested, US$10m-plus loss; daily correlation mistaken for long-run tracking; exited after understanding.",
+      "provenance_grade": "P2",
+      "source_family": "authorized_original_interview_transcript",
+      "access_status": "read_original_text",
+      "timing_labels": [
+        "T2"
+      ],
+      "timing_by_case": [
+        {
+          "case_id": "DYP-C-OILGAS-INDEX",
+          "node_id": "DYP-C-OILGAS-N1",
+          "timing_labels": [
+            "T2"
+          ],
+          "reference_interval": "historical_date_unknown",
+          "note": "Public context, reported observation and original investor explanation are separately scoped; no original initial investor T0 verified."
+        },
+        {
+          "case_id": "DYP-C-OILGAS-INDEX",
+          "node_id": "DYP-C-OILGAS-N2",
+          "timing_labels": [
+            "T2"
+          ],
+          "reference_interval": "historical_date_unknown",
+          "note": "Public context, reported observation and original investor explanation are separately scoped; no original initial investor T0 verified."
+        },
+        {
+          "case_id": "DYP-C-OILGAS-INDEX",
+          "node_id": "DYP-C-OILGAS-N3",
+          "timing_labels": [
+            "T2"
+          ],
+          "reference_interval": "2025-10-16",
+          "note": "Public context, reported observation and original investor explanation are separately scoped; no original initial investor T0 verified."
+        }
+      ],
+      "event_date": "2025-10-16",
+      "publication_date": "2025-11-11",
+      "archive_or_upload_date": null,
+      "retrieved_at_utc": "2026-10-13T17:07:22Z",
+      "known_public_by_2025_12_31": true,
+      "limitation": "Original interview producer’s Chinese transcript syndicated on Phoenix; full audio not independently compared. Historical transactions and returns are self-reports.",
+      "independent_review_0_reference": "V2-B-fundamental-review-0.json; reuse of verified anchors is labelled, not a new reviewer endorsement."
+    },
+    {
+      "evidence_record_id": "DYP-F-TRANSPARENCY-E1",
+      "claim_id": "DYP-F-TRANSPARENCY",
+      "source_id": "DYP-S-FANGLUE2025",
+      "precise_locator": "Fanglue lines383 and386: small Occidental stake; selective holdings disclosure, learning positions and warning about followers going all-in.",
+      "supporting_faithful_paraphrase": "He disclaims complete holdings disclosure; small learning stakes do not justify followers investing all their capital.",
+      "provenance_grade": "P2",
+      "source_family": "authorized_original_interview_transcript",
+      "access_status": "read_original_text",
+      "timing_labels": [
+        "TU"
+      ],
+      "timing_by_case": [],
+      "event_date": "2025-10-16",
+      "publication_date": "2025-11-11",
+      "archive_or_upload_date": null,
+      "retrieved_at_utc": "2026-10-13T17:07:22Z",
+      "known_public_by_2025_12_31": true,
+      "limitation": "Original interview producer’s Chinese transcript syndicated on Phoenix; full audio not independently compared. Historical transactions and returns are self-reports.",
+      "independent_review_0_reference": "V2-B-fundamental-review-0.json; reuse of verified anchors is labelled, not a new reviewer endorsement."
+    },
+    {
+      "evidence_record_id": "DYP-F-TESLA2025-E1",
+      "claim_id": "DYP-F-TESLA2025",
+      "source_id": "DYP-S-FANGLUE2025",
+      "precise_locator": "Fanglue lines425 and430: Musk personal reservations, prior Tesla share sale and qualified admission that retaining might have been better.",
+      "supporting_faithful_paraphrase": "Recounts selling Tesla, possibly too early; personal reservations about Musk affect willingness to invest.",
+      "provenance_grade": "P2",
+      "source_family": "authorized_original_interview_transcript",
+      "access_status": "read_original_text",
+      "timing_labels": [
+        "TU"
+      ],
+      "timing_by_case": [],
+      "event_date": "2025-10-16",
+      "publication_date": "2025-11-11",
+      "archive_or_upload_date": null,
+      "retrieved_at_utc": "2026-10-13T17:07:22Z",
+      "known_public_by_2025_12_31": true,
+      "limitation": "Original interview producer’s Chinese transcript syndicated on Phoenix; full audio not independently compared. Historical transactions and returns are self-reports.",
+      "independent_review_0_reference": "V2-B-fundamental-review-0.json; reuse of verified anchors is labelled, not a new reviewer endorsement."
+    },
+    {
+      "evidence_record_id": "DYP-F-HH-CONTROL2026-E1",
+      "claim_id": "DYP-F-HH-CONTROL2026",
+      "source_id": "DYP-S-HKEX-2026-INDIVIDUAL",
+      "precise_locator": "HKEX individual notification box20 controlled-corporation chain, H&H99%; corporate notice box18 capacity code2102 investment manager.",
+      "supporting_faithful_paraphrase": "Duan’s HKEX filing discloses99% control of H&H; paired corporate filing identifies H&H as investment manager.",
+      "provenance_grade": "P1",
+      "source_family": "regulator_beneficial_ownership_notification",
+      "access_status": "read_original_text",
+      "timing_labels": [
+        "TU"
+      ],
+      "timing_by_case": [],
+      "event_date": "2026-08-06",
+      "publication_date": "2026-08-12",
+      "archive_or_upload_date": null,
+      "retrieved_at_utc": "2026-10-13T17:07:22Z",
+      "known_public_by_2025_12_31": false,
+      "limitation": "99% control establishes entity relationship at this date, not attribution of every security/trade to him.",
+      "independent_review_0_reference": "V2-B-fundamental-review-0.json; reuse of verified anchors is labelled, not a new reviewer endorsement."
+    },
+    {
+      "evidence_record_id": "DYP-F-HH-CONTROL2026-E2",
+      "claim_id": "DYP-F-HH-CONTROL2026",
+      "source_id": "DYP-S-HKEX-2026-CORPORATE",
+      "precise_locator": "HKEX individual notification box20 controlled-corporation chain, H&H99%; corporate notice box18 capacity code2102 investment manager.",
+      "supporting_faithful_paraphrase": "Duan’s HKEX filing discloses99% control of H&H; paired corporate filing identifies H&H as investment manager.",
+      "provenance_grade": "P1",
+      "source_family": "regulator_beneficial_ownership_notification",
+      "access_status": "read_original_text",
+      "timing_labels": [
+        "TU"
+      ],
+      "timing_by_case": [],
+      "event_date": "2026-08-06",
+      "publication_date": "2026-08-12",
+      "archive_or_upload_date": null,
+      "retrieved_at_utc": "2026-10-13T17:07:22Z",
+      "known_public_by_2025_12_31": false,
+      "limitation": "Supports only the identified published statement or reported fact. Does not establish private intent, a complete portfolio, execution cost or investment P&L.",
+      "independent_review_0_reference": "V2-B-fundamental-review-0.json; reuse of verified anchors is labelled, not a new reviewer endorsement."
+    },
+    {
+      "evidence_record_id": "DYP-F-HKEX-DERIVATIVES-E1",
+      "claim_id": "DYP-F-HKEX-DERIVATIVES",
+      "source_id": "DYP-S-HKEX-2026-INDIVIDUAL",
+      "precise_locator": "HKEX individual box14 event shares28,646,000/reason11032; boxes17–18 before/after long interests; box19 physically settled listed derivative30,666,000. Corporate boxes17–21 corroborate.",
+      "supporting_faithful_paraphrase": "Pop Mart interest increased28,646,000 to102,576,000; reason is derivative obligation to acquire, not disclosed ordinary cash purchase.",
+      "provenance_grade": "P1",
+      "source_family": "regulator_beneficial_ownership_notification",
+      "access_status": "read_original_text",
+      "timing_labels": [
+        "T1"
+      ],
+      "timing_by_case": [
+        {
+          "case_id": "DYP-C-OPTIONS",
+          "node_id": "DYP-C-OPTIONS-N1",
+          "timing_labels": [
+            "T1"
+          ],
+          "reference_interval": "2026-08-06",
+          "note": "Public context, reported observation and original investor explanation are separately scoped; no original initial investor T0 verified."
+        }
+      ],
+      "event_date": "2026-08-06",
+      "publication_date": "2026-08-12",
+      "archive_or_upload_date": null,
+      "retrieved_at_utc": "2026-10-13T17:07:22Z",
+      "known_public_by_2025_12_31": false,
+      "limitation": "99% control establishes entity relationship at this date, not attribution of every security/trade to him.",
+      "independent_review_0_reference": "V2-B-fundamental-review-0.json; reuse of verified anchors is labelled, not a new reviewer endorsement."
+    },
+    {
+      "evidence_record_id": "DYP-F-HKEX-DERIVATIVES-E2",
+      "claim_id": "DYP-F-HKEX-DERIVATIVES",
+      "source_id": "DYP-S-HKEX-2026-CORPORATE",
+      "precise_locator": "HKEX individual box14 event shares28,646,000/reason11032; boxes17–18 before/after long interests; box19 physically settled listed derivative30,666,000. Corporate boxes17–21 corroborate.",
+      "supporting_faithful_paraphrase": "Pop Mart interest increased28,646,000 to102,576,000; reason is derivative obligation to acquire, not disclosed ordinary cash purchase.",
+      "provenance_grade": "P1",
+      "source_family": "regulator_beneficial_ownership_notification",
+      "access_status": "read_original_text",
+      "timing_labels": [
+        "T1"
+      ],
+      "timing_by_case": [
+        {
+          "case_id": "DYP-C-OPTIONS",
+          "node_id": "DYP-C-OPTIONS-N1",
+          "timing_labels": [
+            "T1"
+          ],
+          "reference_interval": "2026-08-06",
+          "note": "Public context, reported observation and original investor explanation are separately scoped; no original initial investor T0 verified."
+        }
+      ],
+      "event_date": "2026-08-06",
+      "publication_date": "2026-08-12",
+      "archive_or_upload_date": null,
+      "retrieved_at_utc": "2026-10-13T17:07:22Z",
+      "known_public_by_2025_12_31": false,
+      "limitation": "Supports only the identified published statement or reported fact. Does not establish private intent, a complete portfolio, execution cost or investment P&L.",
+      "independent_review_0_reference": "V2-B-fundamental-review-0.json; reuse of verified anchors is labelled, not a new reviewer endorsement."
+    },
+    {
+      "evidence_record_id": "DYP-F-HH-Q226-E1",
+      "claim_id": "DYP-F-HH-Q226",
+      "source_id": "DYP-S-HH-Q226-COVER",
+      "precise_locator": "Q2 2026 cover summaryPage tableEntryTotal18/tableValueTotal19100584155 and signatureBlock Eric Hu/Chief Compliance Officer; paired index filing/report date fields.",
+      "supporting_faithful_paraphrase": "H&H quarter-end13F:18 rows, $19,100,584,155; signed by CCO Eric Hu.",
+      "provenance_grade": "P1",
+      "source_family": "regulator_manager_holdings_filing",
+      "access_status": "read_original_text",
+      "timing_labels": [
+        "TU"
+      ],
+      "timing_by_case": [],
+      "event_date": "2026-06-30",
+      "publication_date": "2026-08-14",
+      "archive_or_upload_date": null,
+      "retrieved_at_utc": "2026-10-13T17:07:22Z",
+      "known_public_by_2025_12_31": false,
+      "limitation": "Supports only the identified published statement or reported fact. Does not establish private intent, a complete portfolio, execution cost or investment P&L.",
+      "independent_review_0_reference": "V2-B-fundamental-review-0.json; reuse of verified anchors is labelled, not a new reviewer endorsement."
+    },
+    {
+      "evidence_record_id": "DYP-F-HH-Q226-E2",
+      "claim_id": "DYP-F-HH-Q226",
+      "source_id": "DYP-S-HH-Q226-INDEX",
+      "precise_locator": "Q2 2026 cover summaryPage tableEntryTotal18/tableValueTotal19100584155 and signatureBlock Eric Hu/Chief Compliance Officer; paired index filing/report date fields.",
+      "supporting_faithful_paraphrase": "Filing index establishes actual publication/report dates only; quantities and reasoning are supported by other linked sources.",
+      "provenance_grade": "P1",
+      "source_family": "regulator_manager_holdings_filing",
+      "access_status": "read_original_text",
+      "timing_labels": [
+        "TU"
+      ],
+      "timing_by_case": [],
+      "event_date": "2026-06-30",
+      "publication_date": "2026-08-14",
+      "archive_or_upload_date": null,
+      "retrieved_at_utc": "2026-10-13T17:07:22Z",
+      "known_public_by_2025_12_31": false,
+      "limitation": "Supports only the identified published statement or reported fact. Does not establish private intent, a complete portfolio, execution cost or investment P&L.",
+      "independent_review_0_reference": "V2-B-fundamental-review-0.json; reuse of verified anchors is labelled, not a new reviewer endorsement."
+    },
+    {
+      "evidence_record_id": "DYP-F-HH-APPLE2026-E1",
+      "claim_id": "DYP-F-HH-APPLE2026",
+      "source_id": "DYP-S-HH-Q226-TABLE",
+      "precise_locator": "Q2 2026 information table APPLE INC COM/CUSIP037833100 row: SH27098707, VALUE7841281858 USD, discretion column.",
+      "supporting_faithful_paraphrase": "H&H reports27,098,707 Apple shares, $7,841,281,858.",
+      "provenance_grade": "P1",
+      "source_family": "regulator_manager_holdings_filing",
+      "access_status": "read_original_text",
+      "timing_labels": [
+        "T1"
+      ],
+      "timing_by_case": [
+        {
+          "case_id": "DYP-C-APPLE",
+          "node_id": "DYP-C-APPLE-N4",
+          "timing_labels": [
+            "T1"
+          ],
+          "reference_interval": "2026-06-30",
+          "note": "Public context, reported observation and original investor explanation are separately scoped; no original initial investor T0 verified."
+        }
+      ],
+      "event_date": "2026-06-30",
+      "publication_date": "2026-08-14",
+      "archive_or_upload_date": null,
+      "retrieved_at_utc": "2026-10-13T17:07:22Z",
+      "known_public_by_2025_12_31": false,
+      "limitation": "Supports only the identified published statement or reported fact. Does not establish private intent, a complete portfolio, execution cost or investment P&L.",
+      "independent_review_0_reference": "V2-B-fundamental-review-0.json; reuse of verified anchors is labelled, not a new reviewer endorsement."
+    },
+    {
+      "evidence_record_id": "DYP-F-HH-TESLA2026-E1",
+      "claim_id": "DYP-F-HH-TESLA2026",
+      "source_id": "DYP-S-HH-Q226-TABLE",
+      "precise_locator": "Q2 2026 information table TESLA INC COM/CUSIP88160R101 row: SH3380400, VALUE1421796240 USD.",
+      "supporting_faithful_paraphrase": "H&H reports 3,380,400 Tesla shares, $1,421,796,240.",
+      "provenance_grade": "P1",
+      "source_family": "regulator_manager_holdings_filing",
+      "access_status": "read_original_text",
+      "timing_labels": [
+        "TU"
+      ],
+      "timing_by_case": [],
+      "event_date": "2026-06-30",
+      "publication_date": "2026-08-14",
+      "archive_or_upload_date": null,
+      "retrieved_at_utc": "2026-10-13T17:07:22Z",
+      "known_public_by_2025_12_31": false,
+      "limitation": "Supports only the identified published statement or reported fact. Does not establish private intent, a complete portfolio, execution cost or investment P&L.",
+      "independent_review_0_reference": "V2-B-fundamental-review-0.json; reuse of verified anchors is labelled, not a new reviewer endorsement."
+    },
+    {
+      "evidence_record_id": "DYP-F-HH-NVDA2026-E1",
+      "claim_id": "DYP-F-HH-NVDA2026",
+      "source_id": "DYP-S-HH-Q226-TABLE",
+      "precise_locator": "Q2 2026 information table NVIDIA CORP COM/CUSIP67066G104 row: SH6280675, VALUE1256700261 USD.",
+      "supporting_faithful_paraphrase": "H&H reports 6,280,675 Nvidia shares, $1,256,700,261.",
+      "provenance_grade": "P1",
+      "source_family": "regulator_manager_holdings_filing",
+      "access_status": "read_original_text",
+      "timing_labels": [
+        "TU"
+      ],
+      "timing_by_case": [],
+      "event_date": "2026-06-30",
+      "publication_date": "2026-08-14",
+      "archive_or_upload_date": null,
+      "retrieved_at_utc": "2026-10-13T17:07:22Z",
+      "known_public_by_2025_12_31": false,
+      "limitation": "Supports only the identified published statement or reported fact. Does not establish private intent, a complete portfolio, execution cost or investment P&L.",
+      "independent_review_0_reference": "V2-B-fundamental-review-0.json; reuse of verified anchors is labelled, not a new reviewer endorsement."
+    },
+    {
+      "evidence_record_id": "DYP-F-OPTIONS2026-E1",
+      "claim_id": "DYP-F-OPTIONS2026",
+      "source_id": "DYP-S-OPTIONS20261013",
+      "precise_locator": "Verified-account post /1247347556/412008255 dated2026-10-13 03:07 (display timezone unknown), author paragraph on new3-month put/foregone upside. Embedded Gemini text excluded; independent reviewer could not reopen.",
+      "supporting_faithful_paraphrase": "Author discusses writing a new3-month put and lost upside; quoted Gemini projections are excluded.",
+      "provenance_grade": "P1",
+      "source_family": "verified_investor_social_account",
+      "access_status": "read_original_text",
+      "timing_labels": [
+        "T1"
+      ],
+      "timing_by_case": [
+        {
+          "case_id": "DYP-C-OPTIONS",
+          "node_id": "DYP-C-OPTIONS-N2",
+          "timing_labels": [
+            "T1"
+          ],
+          "reference_interval": "2026-10-13",
+          "note": "Public context, reported observation and original investor explanation are separately scoped; no original initial investor T0 verified."
+        }
+      ],
+      "event_date": null,
+      "publication_date": "2026-10-13",
+      "archive_or_upload_date": null,
+      "retrieved_at_utc": "2026-10-13T17:07:22Z",
+      "known_public_by_2025_12_31": false,
+      "limitation": "Author text is a statement, not a broker confirmation; embedded Gemini calculation is quoted AI output and excluded as investor calculation or verified yield.",
+      "independent_review_0_reference": "V2-B-fundamental-review-0.json; reuse of verified anchors is labelled, not a new reviewer endorsement."
+    },
+    {
+      "evidence_record_id": "DYP-F-CORRECTION2026-E1",
+      "claim_id": "DYP-F-CORRECTION2026",
+      "source_id": "DYP-S-CORRECT20261013",
+      "precise_locator": "Verified-account reply /1247347556/412066702 dated2026-10-13 11:35 (display timezone unknown), author correction/stop reply; no transaction confirmation.",
+      "supporting_faithful_paraphrase": "Today’s author reply reiterates stopping once an error is recognized.",
+      "provenance_grade": "P1",
+      "source_family": "verified_investor_social_account",
+      "access_status": "read_original_text",
+      "timing_labels": [
+        "TU"
+      ],
+      "timing_by_case": [],
+      "event_date": null,
+      "publication_date": "2026-10-13",
+      "archive_or_upload_date": null,
+      "retrieved_at_utc": "2026-10-13T17:07:22Z",
+      "known_public_by_2025_12_31": false,
+      "limitation": "Supports only the identified published statement or reported fact. Does not establish private intent, a complete portfolio, execution cost or investment P&L.",
+      "independent_review_0_reference": "V2-B-fundamental-review-0.json; reuse of verified anchors is labelled, not a new reviewer endorsement."
+    },
+    {
+      "evidence_record_id": "DYP-F-HH-Q325-E1",
+      "claim_id": "DYP-F-HH-Q325",
+      "source_id": "DYP-S-HH-Q325-COVER",
+      "precise_locator": "Q3 2025 cover summaryPage tableEntryTotal11/tableValueTotal14678516884 and signatureBlock Eric Hu; index Filing Date2025-11-14/Period2025-09-30; accepted SEC timestamp14:36:13Z.",
+      "supporting_faithful_paraphrase": "H&H Q3 2025 reports 11 rows totaling $14,678,516,884, filed November 14, 2025; CCO Eric Hu signs.",
+      "provenance_grade": "P1",
+      "source_family": "regulator_manager_holdings_filing",
+      "access_status": "read_original_text",
+      "timing_labels": [
+        "TU"
+      ],
+      "timing_by_case": [],
+      "event_date": "2025-09-30",
+      "publication_date": "2025-11-14",
+      "archive_or_upload_date": null,
+      "retrieved_at_utc": "2026-10-13T17:07:22Z",
+      "known_public_by_2025_12_31": true,
+      "limitation": "Same reporting vehicle; not established as Duan’s personal decision or full capital. 2026 control proof is not backdated.",
+      "independent_review_0_reference": null,
+      "reused_originals_receipt": "cutoff-holdings/normalized.json and raw/1759760_precutoff_discovery.json; new evidence for round1, not reviewed in round0."
+    },
+    {
+      "evidence_record_id": "DYP-F-HH-Q325-E2",
+      "claim_id": "DYP-F-HH-Q325",
+      "source_id": "DYP-S-HH-Q325-INDEX",
+      "precise_locator": "Q3 2025 cover summaryPage tableEntryTotal11/tableValueTotal14678516884 and signatureBlock Eric Hu; index Filing Date2025-11-14/Period2025-09-30; accepted SEC timestamp14:36:13Z.",
+      "supporting_faithful_paraphrase": "Filing index establishes actual publication/report dates only; quantities and reasoning are supported by other linked sources.",
+      "provenance_grade": "P1",
+      "source_family": "regulator_manager_holdings_filing",
+      "access_status": "read_original_text",
+      "timing_labels": [
+        "TU"
+      ],
+      "timing_by_case": [],
+      "event_date": "2025-09-30",
+      "publication_date": "2025-11-14",
+      "archive_or_upload_date": null,
+      "retrieved_at_utc": "2026-10-13T17:07:22Z",
+      "known_public_by_2025_12_31": true,
+      "limitation": "Same reporting vehicle; not established as Duan’s personal decision or full capital. 2026 control proof is not backdated.",
+      "independent_review_0_reference": null,
+      "reused_originals_receipt": "cutoff-holdings/normalized.json and raw/1759760_precutoff_discovery.json; new evidence for round1, not reviewed in round0."
+    },
+    {
+      "evidence_record_id": "DYP-F-HH-Q325-COMPAT-E1",
+      "claim_id": "DYP-F-HH-Q325-COMPAT",
+      "source_id": "DYP-S-HH-Q325-TABLE",
+      "precise_locator": "Q3 2025 information table APPLE INC COM/CUSIP037833100, SH34829107/VALUE8868535515; NVIDIA CORP COM/CUSIP67066G104, SH597800/VALUE111537524. All11 rows inspected for absence of Tesla; no putCall fields.",
+      "supporting_faithful_paraphrase": "Same H&H Q3 2025 common rows report Apple 34,829,107 shares/$8,868,535,515 and NVIDIA 597,800 shares/$111,537,524; Tesla has no row in this complete report.",
+      "provenance_grade": "P1",
+      "source_family": "regulator_manager_holdings_filing",
+      "access_status": "read_original_text",
+      "timing_labels": [
+        "TU"
+      ],
+      "timing_by_case": [],
+      "event_date": "2025-09-30",
+      "publication_date": "2025-11-14",
+      "archive_or_upload_date": null,
+      "retrieved_at_utc": "2026-10-13T17:07:22Z",
+      "known_public_by_2025_12_31": true,
+      "limitation": "Same reporting vehicle; not established as Duan’s personal decision or full capital. 2026 control proof is not backdated.",
+      "independent_review_0_reference": null,
+      "reused_originals_receipt": "cutoff-holdings/normalized.json and raw/1759760_precutoff_discovery.json; new evidence for round1, not reviewed in round0."
+    },
+    {
+      "evidence_record_id": "LL-F-IDENTITY-E1",
+      "claim_id": "LL-F-IDENTITY",
+      "source_id": "LL-S-HOME-EN",
+      "precise_locator": "Official English page About Us, Li Lu biography paragraph; Chinese page 创始人/李录 biography, managing principal fund since1997 statement. Current undated page.",
+      "supporting_faithful_paraphrase": "Himalaya’s official pages identify Li Lu as founder/chairman, managing its principal fund since 1997.",
+      "provenance_grade": "P1",
+      "source_family": "official_fund_identity_mandate_page",
+      "access_status": "read_original_text",
+      "timing_labels": [
+        "TU"
+      ],
+      "timing_by_case": [],
+      "event_date": null,
+      "publication_date": "unknown_current_page",
+      "archive_or_upload_date": null,
+      "retrieved_at_utc": "2026-10-13T17:07:22Z",
+      "known_public_by_2025_12_31": false,
+      "limitation": "Current wording observed 2026; do not assume every phrase existed at the 2025 cutoff.",
+      "independent_review_0_reference": "V2-B-fundamental-review-0.json; reuse of verified anchors is labelled, not a new reviewer endorsement."
+    },
+    {
+      "evidence_record_id": "LL-F-IDENTITY-E2",
+      "claim_id": "LL-F-IDENTITY",
+      "source_id": "LL-S-HOME-CN",
+      "precise_locator": "Official English page About Us, Li Lu biography paragraph; Chinese page 创始人/李录 biography, managing principal fund since1997 statement. Current undated page.",
+      "supporting_faithful_paraphrase": "Himalaya’s official pages identify Li Lu as founder/chairman, managing its principal fund since 1997.",
+      "provenance_grade": "P1",
+      "source_family": "official_fund_identity_mandate_page",
+      "access_status": "read_original_text",
+      "timing_labels": [
+        "TU"
+      ],
+      "timing_by_case": [],
+      "event_date": null,
+      "publication_date": "unknown_current_page",
+      "archive_or_upload_date": null,
+      "retrieved_at_utc": "2026-10-13T17:07:22Z",
+      "known_public_by_2025_12_31": false,
+      "limitation": "Chinese original company page, observed 2026; current identity context only.",
+      "independent_review_0_reference": "V2-B-fundamental-review-0.json; reuse of verified anchors is labelled, not a new reviewer endorsement."
+    },
+    {
+      "evidence_record_id": "LL-F-CURRENTMANDATE-E1",
+      "claim_id": "LL-F-CURRENTMANDATE",
+      "source_id": "LL-S-HOME-EN",
+      "precise_locator": "Official English About Us investment-strategy and client-list paragraphs; Chinese 投资理念 corresponding business quality/long-term ownership paragraph. Current wording only.",
+      "supporting_faithful_paraphrase": "Official current mandate emphasizes public companies in Asia/North America, long ownership, quality/moats/growth/trustworthy managers; institutional and private clients.",
+      "provenance_grade": "P1",
+      "source_family": "official_fund_identity_mandate_page",
+      "access_status": "read_original_text",
+      "timing_labels": [
+        "TU"
+      ],
+      "timing_by_case": [],
+      "event_date": null,
+      "publication_date": "unknown_current_page",
+      "archive_or_upload_date": null,
+      "retrieved_at_utc": "2026-10-13T17:07:22Z",
+      "known_public_by_2025_12_31": false,
+      "limitation": "Current wording observed 2026; do not assume every phrase existed at the 2025 cutoff.",
+      "independent_review_0_reference": "V2-B-fundamental-review-0.json; reuse of verified anchors is labelled, not a new reviewer endorsement."
+    },
+    {
+      "evidence_record_id": "LL-F-CURRENTMANDATE-E2",
+      "claim_id": "LL-F-CURRENTMANDATE",
+      "source_id": "LL-S-HOME-CN",
+      "precise_locator": "Official English About Us investment-strategy and client-list paragraphs; Chinese 投资理念 corresponding business quality/long-term ownership paragraph. Current wording only.",
+      "supporting_faithful_paraphrase": "Official current mandate emphasizes public companies in Asia/North America, long ownership, quality/moats/growth/trustworthy managers; institutional and private clients.",
+      "provenance_grade": "P1",
+      "source_family": "official_fund_identity_mandate_page",
+      "access_status": "read_original_text",
+      "timing_labels": [
+        "TU"
+      ],
+      "timing_by_case": [],
+      "event_date": null,
+      "publication_date": "unknown_current_page",
+      "archive_or_upload_date": null,
+      "retrieved_at_utc": "2026-10-13T17:07:22Z",
+      "known_public_by_2025_12_31": false,
+      "limitation": "Chinese original company page, observed 2026; current identity context only.",
+      "independent_review_0_reference": "V2-B-fundamental-review-0.json; reuse of verified anchors is labelled, not a new reviewer endorsement."
+    },
+    {
+      "evidence_record_id": "LL-F-HONESTY-E1",
+      "claim_id": "LL-F-HONESTY",
+      "source_id": "LL-S-COLUMBIA2013",
+      "precise_locator": "Columbia Spring2013 interview printed p25, strongest-counterargument/knowledge paragraphs; printed pp31–32 intellectual-honesty four-category paragraphs (rendered lines3631–3637 and3740–3744).",
+      "supporting_faithful_paraphrase": "2013: distinguish knowledge, unknowns, unnecessary knowledge and unknown unknowns; understand opposing arguments.",
+      "provenance_grade": "P2",
+      "source_family": "authorized_original_interview_transcript",
+      "access_status": "read_original_text",
+      "timing_labels": [
+        "TU"
+      ],
+      "timing_by_case": [],
+      "event_date": "2013",
+      "publication_date": "2013-03",
+      "archive_or_upload_date": null,
+      "retrieved_at_utc": "2026-10-13T17:07:22Z",
+      "known_public_by_2025_12_31": true,
+      "limitation": "Original public interview, not a pre-initial-BYD memo. Himalaya catalog labels 2013-03-28; exact interview day not established by this PDF.",
+      "independent_review_0_reference": "V2-B-fundamental-review-0.json; reuse of verified anchors is labelled, not a new reviewer endorsement."
+    },
+    {
+      "evidence_record_id": "LL-F-TOOHARD-E1",
+      "claim_id": "LL-F-TOOHARD",
+      "source_id": "LL-S-COLUMBIA2013",
+      "precise_locator": "Columbia printed p30, three-bucket yes/no/too-hard paragraph (rendered lines3389–3401).",
+      "supporting_faithful_paraphrase": "Most opportunities belong in too-hard; concentrate research on genuinely understood ideas, not sector labels.",
+      "provenance_grade": "P2",
+      "source_family": "authorized_original_interview_transcript",
+      "access_status": "read_original_text",
+      "timing_labels": [
+        "TU"
+      ],
+      "timing_by_case": [],
+      "event_date": "2013",
+      "publication_date": "2013-03",
+      "archive_or_upload_date": null,
+      "retrieved_at_utc": "2026-10-13T17:07:22Z",
+      "known_public_by_2025_12_31": true,
+      "limitation": "Original public interview, not a pre-initial-BYD memo. Himalaya catalog labels 2013-03-28; exact interview day not established by this PDF.",
+      "independent_review_0_reference": "V2-B-fundamental-review-0.json; reuse of verified anchors is labelled, not a new reviewer endorsement."
+    },
+    {
+      "evidence_record_id": "LL-F-OPPCOST-E1",
+      "claim_id": "LL-F-OPPCOST",
+      "source_id": "LL-S-COLUMBIA2013",
+      "precise_locator": "Columbia printed pp28–29, portfolio/opportunity-cost discussion; p29 geographic allocations and cash paragraphs (rendered lines3267–3280).",
+      "supporting_faithful_paraphrase": "Cash and existing holdings set a risk-adjusted opportunity-cost bar; geographic weights are not predetermined.",
+      "provenance_grade": "P2",
+      "source_family": "authorized_original_interview_transcript",
+      "access_status": "read_original_text",
+      "timing_labels": [
+        "TU"
+      ],
+      "timing_by_case": [],
+      "event_date": "2013",
+      "publication_date": "2013-03",
+      "archive_or_upload_date": null,
+      "retrieved_at_utc": "2026-10-13T17:07:22Z",
+      "known_public_by_2025_12_31": true,
+      "limitation": "Original public interview, not a pre-initial-BYD memo. Himalaya catalog labels 2013-03-28; exact interview day not established by this PDF.",
+      "independent_review_0_reference": "V2-B-fundamental-review-0.json; reuse of verified anchors is labelled, not a new reviewer endorsement."
+    },
+    {
+      "evidence_record_id": "LL-F-BYD-THESIS-E1",
+      "claim_id": "LL-F-BYD-THESIS",
+      "source_id": "LL-S-COLUMBIA2013",
+      "precise_locator": "Columbia printed p27, Wang/engineering organization and original margin-of-safety paragraph (lines2987–2999); p28 concrete problem-solving/can-do culture (3153–3161); p31 adaptive-culture/change discussion (3480–3505).",
+      "supporting_faithful_paraphrase": "2013 BYD explanation emphasizes engineer-led learning culture, demonstrated problem-solving, favorable environment and original safety margin.",
+      "provenance_grade": "P2",
+      "source_family": "authorized_original_interview_transcript",
+      "access_status": "read_original_text",
+      "timing_labels": [
+        "T1",
+        "T2"
+      ],
+      "timing_by_case": [
+        {
+          "case_id": "LL-C-BYD",
+          "node_id": "LL-C-BYD-N2",
+          "timing_labels": [
+            "T1",
+            "T2"
+          ],
+          "reference_interval": "2013",
+          "note": "Public context, reported observation and original investor explanation are separately scoped; no original initial investor T0 verified."
+        }
+      ],
+      "event_date": "2013",
+      "publication_date": "2013-03",
+      "archive_or_upload_date": null,
+      "retrieved_at_utc": "2026-10-13T17:07:22Z",
+      "known_public_by_2025_12_31": true,
+      "limitation": "Original public interview, not a pre-initial-BYD memo. Himalaya catalog labels 2013-03-28; exact interview day not established by this PDF.",
+      "independent_review_0_reference": "V2-B-fundamental-review-0.json; reuse of verified anchors is labelled, not a new reviewer endorsement."
+    },
+    {
+      "evidence_record_id": "LL-F-SHORT-ERROR-E1",
+      "claim_id": "LL-F-SHORT-ERROR",
+      "source_id": "LL-S-COLUMBIA2013",
+      "precise_locator": "Columbia printed p26: answer to whether Himalaya still shorts, nine-years-ago cessation and worst-mistake admission (rendered lines2879–2884).",
+      "supporting_faithful_paraphrase": "2013 interview calls earlier shorting a major mistake and says abandonment occurred nine years earlier; named security and monetary loss absent.",
+      "provenance_grade": "P2",
+      "source_family": "authorized_original_interview_transcript",
+      "access_status": "read_original_text",
+      "timing_labels": [
+        "T2"
+      ],
+      "timing_by_case": [
+        {
+          "case_id": "LL-C-SHORTING",
+          "node_id": "LL-C-SHORTING-N1",
+          "timing_labels": [
+            "T2"
+          ],
+          "reference_interval": "before_approximately_2004",
+          "note": "Public context, reported observation and original investor explanation are separately scoped; no original initial investor T0 verified."
+        },
+        {
+          "case_id": "LL-C-SHORTING",
+          "node_id": "LL-C-SHORTING-N2",
+          "timing_labels": [
+            "T2"
+          ],
+          "reference_interval": "approximately_2004",
+          "note": "Public context, reported observation and original investor explanation are separately scoped; no original initial investor T0 verified."
+        },
+        {
+          "case_id": "LL-C-SHORTING",
+          "node_id": "LL-C-SHORTING-N3",
+          "timing_labels": [
+            "T2"
+          ],
+          "reference_interval": "2013",
+          "note": "Public context, reported observation and original investor explanation are separately scoped; no original initial investor T0 verified."
+        }
+      ],
+      "event_date": "2013",
+      "publication_date": "2013-03",
+      "archive_or_upload_date": null,
+      "retrieved_at_utc": "2026-10-13T17:07:22Z",
+      "known_public_by_2025_12_31": true,
+      "limitation": "Original public interview, not a pre-initial-BYD memo. Himalaya catalog labels 2013-03-28; exact interview day not established by this PDF.",
+      "independent_review_0_reference": "V2-B-fundamental-review-0.json; reuse of verified anchors is labelled, not a new reviewer endorsement."
+    },
+    {
+      "evidence_record_id": "LL-F-SHORT-RISK-E1",
+      "claim_id": "LL-F-SHORT-RISK",
+      "source_id": "LL-S-COLUMBIA2013",
+      "precise_locator": "Columbia printed pp26–27: three disadvantages of shorting, asymmetry/fraud survival/borrowing and diverted attention (rendered lines2891–2918 plus continuation).",
+      "supporting_faithful_paraphrase": "Reasons include asymmetric loss, expensive borrowing, prolonged fraud survival and diversion from productive long research.",
+      "provenance_grade": "P2",
+      "source_family": "authorized_original_interview_transcript",
+      "access_status": "read_original_text",
+      "timing_labels": [
+        "T2"
+      ],
+      "timing_by_case": [
+        {
+          "case_id": "LL-C-SHORTING",
+          "node_id": "LL-C-SHORTING-N3",
+          "timing_labels": [
+            "T2"
+          ],
+          "reference_interval": "2013",
+          "note": "Public context, reported observation and original investor explanation are separately scoped; no original initial investor T0 verified."
+        }
+      ],
+      "event_date": "2013",
+      "publication_date": "2013-03",
+      "archive_or_upload_date": null,
+      "retrieved_at_utc": "2026-10-13T17:07:22Z",
+      "known_public_by_2025_12_31": true,
+      "limitation": "Original public interview, not a pre-initial-BYD memo. Himalaya catalog labels 2013-03-28; exact interview day not established by this PDF.",
+      "independent_review_0_reference": "V2-B-fundamental-review-0.json; reuse of verified anchors is labelled, not a new reviewer endorsement."
+    },
+    {
+      "evidence_record_id": "LL-F-SELL-OPPCOST-E1",
+      "claim_id": "LL-F-SELL-OPPCOST",
+      "source_id": "LL-S-COLUMBIA2013",
+      "precise_locator": "Columbia printed p32: third occasion for selling, superior alternative and improving portfolio opportunity cost (rendered lines3599–3608).",
+      "supporting_faithful_paraphrase": "A superior alternative is a reason to sell; long ownership does not impose a no-sale promise.",
+      "provenance_grade": "P2",
+      "source_family": "authorized_original_interview_transcript",
+      "access_status": "read_original_text",
+      "timing_labels": [
+        "TU"
+      ],
+      "timing_by_case": [],
+      "event_date": "2013",
+      "publication_date": "2013-03",
+      "archive_or_upload_date": null,
+      "retrieved_at_utc": "2026-10-13T17:07:22Z",
+      "known_public_by_2025_12_31": true,
+      "limitation": "Original public interview, not a pre-initial-BYD memo. Himalaya catalog labels 2013-03-28; exact interview day not established by this PDF.",
+      "independent_review_0_reference": "V2-B-fundamental-review-0.json; reuse of verified anchors is labelled, not a new reviewer endorsement."
+    },
+    {
+      "evidence_record_id": "LL-F-BYD-2016-E1",
+      "claim_id": "LL-F-BYD-2016",
+      "source_id": "LL-S-BYD2016-INDIVIDUAL",
+      "precise_locator": "2016 HKEX individual notice boxes17–18 before/after holding and H-class percentage; box20 Li Lu100%→LL Group100%→Himalaya Capital Investors chain.",
+      "supporting_faithful_paraphrase": "2016 notice reports75,387,200 BYD H-shares, 8.24%ofH-class, through LL Group and Himalaya Capital Investors; Li Lu controls LL Group100%.",
+      "provenance_grade": "P1",
+      "source_family": "regulator_beneficial_ownership_notification",
+      "access_status": "read_original_text",
+      "timing_labels": [
+        "T1"
+      ],
+      "timing_by_case": [
+        {
+          "case_id": "LL-C-BYD",
+          "node_id": "LL-C-BYD-N3",
+          "timing_labels": [
+            "T1"
+          ],
+          "reference_interval": "2016-01-08",
+          "note": "Public context, reported observation and original investor explanation are separately scoped; no original initial investor T0 verified."
+        }
+      ],
+      "event_date": "2016-01-08",
+      "publication_date": "2016-01",
+      "archive_or_upload_date": null,
+      "retrieved_at_utc": "2026-10-13T17:07:22Z",
+      "known_public_by_2025_12_31": true,
+      "limitation": "Formserial includesJan22 but filed-date field saysJan12. Transaction field 22,645,000 differs from before/after delta 2,264,500; do not repair by assumption.",
+      "independent_review_0_reference": "V2-B-fundamental-review-0.json; reuse of verified anchors is labelled, not a new reviewer endorsement."
+    },
+    {
+      "evidence_record_id": "LL-F-BYD-2016-ANOMALY-E1",
+      "claim_id": "LL-F-BYD-2016-ANOMALY",
+      "source_id": "LL-S-BYD2016-INDIVIDUAL",
+      "precise_locator": "2016 HKEX individual notice box14 reported event-share field22645000 versus boxes17–18 before73122700/after75387200; arithmetic comparison is auditor calculation.",
+      "supporting_faithful_paraphrase": "2016 form’s event-share field 22,645,000 does not equal stated holding increase 2,264,500; only after-holding/control used as core evidence.",
+      "provenance_grade": "P1",
+      "source_family": "regulator_beneficial_ownership_notification",
+      "access_status": "read_original_text",
+      "timing_labels": [
+        "T1"
+      ],
+      "timing_by_case": [
+        {
+          "case_id": "LL-C-BYD",
+          "node_id": "LL-C-BYD-N3",
+          "timing_labels": [
+            "T1"
+          ],
+          "reference_interval": "2016-01-08",
+          "note": "Public context, reported observation and original investor explanation are separately scoped; no original initial investor T0 verified."
+        }
+      ],
+      "event_date": "2016-01-08",
+      "publication_date": "2016-01",
+      "archive_or_upload_date": null,
+      "retrieved_at_utc": "2026-10-13T17:07:22Z",
+      "known_public_by_2025_12_31": true,
+      "limitation": "Formserial includesJan22 but filed-date field saysJan12. Transaction field 22,645,000 differs from before/after delta 2,264,500; do not repair by assumption.",
+      "independent_review_0_reference": "V2-B-fundamental-review-0.json; reuse of verified anchors is labelled, not a new reviewer endorsement."
+    },
+    {
+      "evidence_record_id": "LL-F-BYD-2021-E1",
+      "claim_id": "LL-F-BYD-2021",
+      "source_id": "LL-S-BYD2021-SALE",
+      "precise_locator": "2021 HKEX corporate notice box17 reported disposal7144000/averageHK227.6229; boxes18–19 before73650600/after66506600, after6.35%; July13 filing field.",
+      "supporting_faithful_paraphrase": "July 8,2021 Himalaya sale 7,144,000 shares at averageHK$227.6229; holding73,650,600→66,506,600,6.35%ofH-class afterward.",
+      "provenance_grade": "P1",
+      "source_family": "regulator_beneficial_ownership_notification",
+      "access_status": "read_original_text",
+      "timing_labels": [
+        "T1"
+      ],
+      "timing_by_case": [
+        {
+          "case_id": "LL-C-BYD",
+          "node_id": "LL-C-BYD-N5",
+          "timing_labels": [
+            "T1"
+          ],
+          "reference_interval": "2021-07-08",
+          "note": "Public context, reported observation and original investor explanation are separately scoped; no original initial investor T0 verified."
+        }
+      ],
+      "event_date": "2021-07-08",
+      "publication_date": "2021-07-13",
+      "archive_or_upload_date": null,
+      "retrieved_at_utc": "2026-10-13T17:07:22Z",
+      "known_public_by_2025_12_31": true,
+      "limitation": "Sale proceeds are not sale profit; neither personal wealth nor full fund return follows from notification.",
+      "independent_review_0_reference": "V2-B-fundamental-review-0.json; reuse of verified anchors is labelled, not a new reviewer endorsement."
+    },
+    {
+      "evidence_record_id": "LL-F-BYD2019-INDEPENDENT-E1",
+      "claim_id": "LL-F-BYD2019-INDEPENDENT",
+      "source_id": "LL-S-BYD2019-AR",
+      "precise_locator": "BYD 2019 annual report printed pp41–42, substantial-shareholder table rows Li Lu and Berkshire plus controlled-corporation notes; indexed original only.",
+      "supporting_faithful_paraphrase": "BYD 2019 issuer record separately identifies Li Lu/Himalaya interests and Berkshire’s225m H-shares; these are distinct capital pools.",
+      "provenance_grade": "P1",
+      "source_family": "issuer_business_transaction_or_financial_report",
+      "access_status": "original_indexed_extract_or_metadata_only",
+      "timing_labels": [
+        "T1"
+      ],
+      "timing_by_case": [
+        {
+          "case_id": "LL-C-BYD",
+          "node_id": "LL-C-BYD-N4",
+          "timing_labels": [
+            "T1"
+          ],
+          "reference_interval": "2019-12-31",
+          "note": "Public context, reported observation and original investor explanation are separately scoped; no original initial investor T0 verified."
+        }
+      ],
+      "event_date": "2019-12-31",
+      "publication_date": "2020-04-21",
+      "archive_or_upload_date": null,
+      "retrieved_at_utc": "2026-10-13T17:07:22Z",
+      "known_public_by_2025_12_31": true,
+      "limitation": "Indexed original disclosure read; direct PDF exceeded tool file-size limit. Use readable HKEX 2016/2021 notices for core proof.",
+      "independent_review_0_reference": "V2-B-fundamental-review-0.json; reuse of verified anchors is labelled, not a new reviewer endorsement."
+    },
+    {
+      "evidence_record_id": "LL-F-Q226-SCOPE-E1",
+      "claim_id": "LL-F-Q226-SCOPE",
+      "source_id": "LL-S-Q226-COVER",
+      "precise_locator": "Q2 2026 cover summaryPage tableEntryTotal8/tableValueTotal3702921098 and signatureBlock Paul Teng; paired index filing/report date fields.",
+      "supporting_faithful_paraphrase": "Himalaya Q2-2026 filing:8 rows, $3,702,921,098; CCO Paul Teng signs, not Li Lu.",
+      "provenance_grade": "P1",
+      "source_family": "regulator_manager_holdings_filing",
+      "access_status": "read_original_text",
+      "timing_labels": [
+        "TU"
+      ],
+      "timing_by_case": [],
+      "event_date": "2026-06-30",
+      "publication_date": "2026-08-14",
+      "archive_or_upload_date": null,
+      "retrieved_at_utc": "2026-10-13T17:07:22Z",
+      "known_public_by_2025_12_31": false,
+      "limitation": "Supports only the identified published statement or reported fact. Does not establish private intent, a complete portfolio, execution cost or investment P&L.",
+      "independent_review_0_reference": "V2-B-fundamental-review-0.json; reuse of verified anchors is labelled, not a new reviewer endorsement."
+    },
+    {
+      "evidence_record_id": "LL-F-Q226-SCOPE-E2",
+      "claim_id": "LL-F-Q226-SCOPE",
+      "source_id": "LL-S-Q226-INDEX",
+      "precise_locator": "Q2 2026 cover summaryPage tableEntryTotal8/tableValueTotal3702921098 and signatureBlock Paul Teng; paired index filing/report date fields.",
+      "supporting_faithful_paraphrase": "Filing index establishes actual publication/report dates only; quantities and reasoning are supported by other linked sources.",
+      "provenance_grade": "P1",
+      "source_family": "regulator_manager_holdings_filing",
+      "access_status": "read_original_text",
+      "timing_labels": [
+        "TU"
+      ],
+      "timing_by_case": [],
+      "event_date": "2026-06-30",
+      "publication_date": "2026-08-14",
+      "archive_or_upload_date": null,
+      "retrieved_at_utc": "2026-10-13T17:07:22Z",
+      "known_public_by_2025_12_31": false,
+      "limitation": "Supports only the identified published statement or reported fact. Does not establish private intent, a complete portfolio, execution cost or investment P&L.",
+      "independent_review_0_reference": "V2-B-fundamental-review-0.json; reuse of verified anchors is labelled, not a new reviewer endorsement."
+    },
+    {
+      "evidence_record_id": "LL-F-Q226-POSITIONS-E1",
+      "claim_id": "LL-F-Q226-POSITIONS",
+      "source_id": "LL-S-Q226-TABLE",
+      "precise_locator": "Q2 2026 information table all8 rows: Alphabet A02079K305/C02079K107, Apple037833100, BerkshireB084670702, Crocs227046109, EastWest27579R104, PDD ADS722304102, TencentMusic ADS88034P109; no BYD H-share row.",
+      "supporting_faithful_paraphrase": "Q2-2026 reports Alphabet A/C, Apple, Berkshire B, Crocs, East West, PDD ADS, Tencent MusicADS; BYD H-shares absent from this format.",
+      "provenance_grade": "P1",
+      "source_family": "regulator_manager_holdings_filing",
+      "access_status": "read_original_text",
+      "timing_labels": [
+        "T1"
+      ],
+      "timing_by_case": [
+        {
+          "case_id": "LL-C-BYD",
+          "node_id": "LL-C-BYD-N6",
+          "timing_labels": [
+            "T1"
+          ],
+          "reference_interval": "2026-06-30",
+          "note": "Public context, reported observation and original investor explanation are separately scoped; no original initial investor T0 verified."
+        }
+      ],
+      "event_date": "2026-06-30",
+      "publication_date": "2026-08-14",
+      "archive_or_upload_date": null,
+      "retrieved_at_utc": "2026-10-13T17:07:22Z",
+      "known_public_by_2025_12_31": false,
+      "limitation": "Supports only the identified published statement or reported fact. Does not establish private intent, a complete portfolio, execution cost or investment P&L.",
+      "independent_review_0_reference": "V2-B-fundamental-review-0.json; reuse of verified anchors is labelled, not a new reviewer endorsement."
+    },
+    {
+      "evidence_record_id": "LL-F-Q425-AMEND-E1",
+      "claim_id": "LL-F-Q425-AMEND",
+      "source_id": "LL-S-Q425-RESTATEMENT-INDEX",
+      "precise_locator": "Q4 2025 amendment1 cover isAmendment/amendmentTypeRESTATEMENT; amended table Alphabet C02079K107/A02079K305 rows versus superseded original; index Accepted2026-02-18 20:20:40/FilingDate2026-02-19/Report2025-12-31.",
+      "supporting_faithful_paraphrase": "Filing index establishes actual publication/report dates only; quantities and reasoning are supported by other linked sources.",
+      "provenance_grade": "P1",
+      "source_family": "regulator_manager_holdings_filing",
+      "access_status": "read_original_text",
+      "timing_labels": [
+        "TU"
+      ],
+      "timing_by_case": [],
+      "event_date": "2025-12-31",
+      "publication_date": "2026-02-19",
+      "archive_or_upload_date": null,
+      "retrieved_at_utc": "2026-10-13T17:07:22Z",
+      "known_public_by_2025_12_31": false,
+      "limitation": "Accepted 2026-02-18at20:20:40, EDGARfiling date 2026-02-19. Information as of 2025 does not mean availablebefore 2026.",
+      "independent_review_0_reference": "V2-B-fundamental-review-0.json; reuse of verified anchors is labelled, not a new reviewer endorsement."
+    },
+    {
+      "evidence_record_id": "LL-F-Q425-AMEND-E2",
+      "claim_id": "LL-F-Q425-AMEND",
+      "source_id": "LL-S-Q425-RESTATEMENT-COVER",
+      "precise_locator": "Q4 2025 amendment1 cover isAmendment/amendmentTypeRESTATEMENT; amended table Alphabet C02079K107/A02079K305 rows versus superseded original; index Accepted2026-02-18 20:20:40/FilingDate2026-02-19/Report2025-12-31.",
+      "supporting_faithful_paraphrase": "Q4-2025 amendment 1 restates the table and corrects Alphabet A/C mapping; publicly filedFebruary 2026, hence ineligible forJanuary 2026 views.",
+      "provenance_grade": "P1",
+      "source_family": "regulator_manager_holdings_filing",
+      "access_status": "read_original_text",
+      "timing_labels": [
+        "TU"
+      ],
+      "timing_by_case": [],
+      "event_date": "2025-12-31",
+      "publication_date": "2026-02-19",
+      "archive_or_upload_date": null,
+      "retrieved_at_utc": "2026-10-13T17:07:22Z",
+      "known_public_by_2025_12_31": false,
+      "limitation": "Supports only the identified published statement or reported fact. Does not establish private intent, a complete portfolio, execution cost or investment P&L.",
+      "independent_review_0_reference": "V2-B-fundamental-review-0.json; reuse of verified anchors is labelled, not a new reviewer endorsement."
+    },
+    {
+      "evidence_record_id": "LL-F-Q425-AMEND-E3",
+      "claim_id": "LL-F-Q425-AMEND",
+      "source_id": "LL-S-Q425-RESTATEMENT-TABLE",
+      "precise_locator": "Q4 2025 amendment1 cover isAmendment/amendmentTypeRESTATEMENT; amended table Alphabet C02079K107/A02079K305 rows versus superseded original; index Accepted2026-02-18 20:20:40/FilingDate2026-02-19/Report2025-12-31.",
+      "supporting_faithful_paraphrase": "Q4-2025 amendment 1 restates the table and corrects Alphabet A/C mapping; publicly filedFebruary 2026, hence ineligible forJanuary 2026 views.",
+      "provenance_grade": "P1",
+      "source_family": "regulator_manager_holdings_filing",
+      "access_status": "read_original_text",
+      "timing_labels": [
+        "TU"
+      ],
+      "timing_by_case": [],
+      "event_date": "2025-12-31",
+      "publication_date": "2026-02-19",
+      "archive_or_upload_date": null,
+      "retrieved_at_utc": "2026-10-13T17:07:22Z",
+      "known_public_by_2025_12_31": false,
+      "limitation": "Supports only the identified published statement or reported fact. Does not establish private intent, a complete portfolio, execution cost or investment P&L.",
+      "independent_review_0_reference": "V2-B-fundamental-review-0.json; reuse of verified anchors is labelled, not a new reviewer endorsement."
+    },
+    {
+      "evidence_record_id": "LL-F-Q425-AMEND-E4",
+      "claim_id": "LL-F-Q425-AMEND",
+      "source_id": "LL-S-Q425-SUPERSEDED",
+      "precise_locator": "Q4 2025 amendment1 cover isAmendment/amendmentTypeRESTATEMENT; amended table Alphabet C02079K107/A02079K305 rows versus superseded original; index Accepted2026-02-18 20:20:40/FilingDate2026-02-19/Report2025-12-31.",
+      "supporting_faithful_paraphrase": "Q4-2025 amendment 1 restates the table and corrects Alphabet A/C mapping; publicly filedFebruary 2026, hence ineligible forJanuary 2026 views.",
+      "provenance_grade": "P1",
+      "source_family": "regulator_manager_holdings_filing",
+      "access_status": "read_original_text",
+      "timing_labels": [
+        "TU"
+      ],
+      "timing_by_case": [],
+      "event_date": "2025-12-31",
+      "publication_date": "2026-02-17",
+      "archive_or_upload_date": null,
+      "retrieved_at_utc": "2026-10-13T17:07:22Z",
+      "known_public_by_2025_12_31": false,
+      "limitation": "Replaced for comparable data by amendment 1; original Alphabet A/C share-class mapping was reversed.",
+      "independent_review_0_reference": "V2-B-fundamental-review-0.json; reuse of verified anchors is labelled, not a new reviewer endorsement."
+    },
+    {
+      "evidence_record_id": "WB-F-REPURCHASE2011-E1",
+      "claim_id": "WB-F-REPURCHASE2011",
+      "source_id": "WB-S-2011",
+      "precise_locator": "2011 letter printed p6/PDF page5, Share Repurchases first two conditions paragraphs and following dilution/excess-cash warning (rendered lines219–227).",
+      "supporting_faithful_paraphrase": "The 2011 letter favors repurchases only when operational/liquidity needs are funded and shares trade at a material discount to conservatively estimated intrinsic business value; excess cash or dilution offset alone is insufficient.",
+      "provenance_grade": "P1",
+      "source_family": "original_investor_shareholder_writing",
+      "access_status": "read_original_text",
+      "timing_labels": [
+        "TU"
+      ],
+      "timing_by_case": [],
+      "event_date": "2011-12-31",
+      "publication_date": "2012-02-25",
+      "archive_or_upload_date": null,
+      "retrieved_at_utc": "2026-10-13T17:09:14.298344+00:00",
+      "known_public_by_2025_12_31": true,
+      "limitation": "General method and specific-era policy; not investor intent for a benchmark security or an updated universal dollar limit."
+    }
+  ]
+}

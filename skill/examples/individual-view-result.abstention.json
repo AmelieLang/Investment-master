@@ -1,0 +1,157 @@
+{
+  "schema_version": "investment-master-individual-view-result/v0.1-draft",
+  "security_id": "SYNTHETIC-UNIT",
+  "route_freeze_id": "synthetic-not-frozen",
+  "input_receipts": {
+    "company_packet": {
+      "status": "missing",
+      "path": null,
+      "sha256": null,
+      "reason": "Contract fixture; no model invocation or transport artifact."
+    },
+    "assigned_method": {
+      "status": "missing",
+      "path": null,
+      "sha256": null,
+      "reason": "Contract fixture; no model invocation or transport artifact."
+    },
+    "selected_finterm_cards": {
+      "status": "missing",
+      "path": null,
+      "sha256": null,
+      "reason": "Contract fixture; no model invocation or transport artifact."
+    },
+    "model_response_schema": {
+      "status": "missing",
+      "path": null,
+      "sha256": null,
+      "reason": "Contract fixture; no model invocation or transport artifact."
+    },
+    "raw_model_response": {
+      "status": "missing",
+      "path": null,
+      "sha256": null,
+      "reason": "Contract fixture; no model invocation or transport artifact."
+    }
+  },
+  "view": {
+    "cell_id": "synthetic-slot-1",
+    "slot": 1,
+    "master_id": "warren-buffett",
+    "display_attribution": "Hypothetical source-method slot; no actual investor view.",
+    "role": "requested",
+    "method_artifact": {
+      "status": "missing",
+      "path": null,
+      "sha256": null,
+      "reason": "Pending source acceptance."
+    },
+    "rule_ids": [],
+    "scope_status": "abstain",
+    "status": "abstained",
+    "abstention_reason": "Fixture with no accepted method/packet.",
+    "horizon": "Synthetic fixture only",
+    "claim_ids": [],
+    "rule_results": [],
+    "quantitative_decision_outputs": {
+      "status": "missing",
+      "market_price_fact_id": null,
+      "scenarios": [],
+      "reverse_expectation_calculation_ids": [],
+      "funding_downside_calculation_ids": [],
+      "blocked_inputs": [
+        "Synthetic example does not run new quantitative research."
+      ],
+      "probability_statement": "No model confidence is a calibrated probability; any scenario probabilities are explicit authored assumptions."
+    },
+    "decision": {
+      "conclusion": "abstain",
+      "meaning": "Hypothetical research conclusion; no order, investor endorsement or portfolio action.",
+      "rationale_claim_ids": []
+    },
+    "execution": {
+      "model_requested": null,
+      "model_actual": null,
+      "model_identity_verified": false,
+      "observable_settings": {
+        "temperature": null,
+        "seed": null,
+        "reasoning_effort": null,
+        "transport": null,
+        "message_roles": []
+      },
+      "source_calculation_status": "not_run",
+      "model_invocation_status": "not_run",
+      "native_orchestration_status": "not_run",
+      "prompt_artifact": {
+        "status": "missing",
+        "path": null,
+        "sha256": null,
+        "reason": "Fixture: no invocation."
+      },
+      "raw_response_artifact": {
+        "status": "missing",
+        "path": null,
+        "sha256": null,
+        "reason": "Fixture: no invocation."
+      },
+      "retry_count": 0
+    },
+    "actual_ticker_evidence_check": {
+      "status": "not_checked",
+      "decision_cutoff_utc": "2025-12-31T23:59:59Z",
+      "actual_view_claim_ids": [],
+      "holding_claim_ids": [],
+      "source_ids": [],
+      "publication_date_or_bound": null,
+      "available_by_cutoff": "unknown",
+      "reported_entity": null,
+      "decision_attribution": "not_applicable",
+      "same_security_class_vehicle": "unknown",
+      "application_label": "Hypothetical method application unless a matching direct original statement establishes the actual view; holding alone is not endorsement.",
+      "bounded_research_request": "If used for a real security, research original statements and latest compatible disclosures actually public by the cutoff; retain exact entity/class attribution and report no verified view if absent.",
+      "limitations": [
+        "Synthetic fixture: no ticker-level actual-view/holding check is performed."
+      ]
+    },
+    "backbone_card_use": {
+      "status": "not_run",
+      "card_ids": [],
+      "projection_artifact": {
+        "status": "missing",
+        "path": null,
+        "sha256": null,
+        "reason": "Synthetic fixture: no selected-card projection."
+      },
+      "source_manifest_sha256": null,
+      "source_fragment_verified": false,
+      "reason": "Synthetic fixture; no backbone executed."
+    },
+    "adapter_call_result": {
+      "status": "not_run",
+      "contract_receipt_artifact": {
+        "status": "missing",
+        "path": null,
+        "sha256": null,
+        "reason": "Synthetic fixture: no per-view contract execution receipt."
+      },
+      "request_artifact": {
+        "status": "missing",
+        "path": null,
+        "sha256": null,
+        "reason": "No per-view request run."
+      },
+      "result_artifact": {
+        "status": "missing",
+        "path": null,
+        "sha256": null,
+        "reason": "No per-view result run."
+      },
+      "shared_calculation_receipt_id": null,
+      "reason": "Any outer copied R2 fixture is a compatibility example, not a per-view calculation."
+    }
+  },
+  "claims": [],
+  "sources": [],
+  "calculations": []
+}

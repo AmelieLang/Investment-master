@@ -1,0 +1,42 @@
+{
+  "scope": "Two additive lens expansions only; bounded publicly dated original-source pass.",
+  "existing_acceptance_read": [
+    "tech/pre_2026_rule_anchors.json",
+    "tech/sources.json method-source fields only",
+    "skill-bundle/historical-methods/methods/cathie-wood.json",
+    "skill-bundle/historical-methods/methods/ron-baron.json",
+    "reviews/V2-B-technology-review-0.json and V2 acceptance contract"
+  ],
+  "new_original_sources_read": 7,
+  "new_lenses": 2,
+  "new_rule_count": 10,
+  "read_scope": [
+    "ARK 2019 article method paragraphs",
+    "ARK 2024 white paper cover, pp4-5 and conclusion/endnote qualification",
+    "ARK Big Ideas selected disclosures, author credits and AI/convergence method pages",
+    "ARK July 2025 article selected method and scenario sections",
+    "Ron 2024 letters cover/signatures and selected method paragraphs"
+  ],
+  "not_sought": [
+    "Manager holdings",
+    "Stock returns or later prices",
+    "New stock recommendations",
+    "Private investment methods",
+    "ARK workbooks, model code or scoring weights",
+    "Additional investor names"
+  ],
+  "discarded_or_excluded": [
+    "Current undated ARK process and Baron approach remain excluded; they were not re-dated.",
+    "ARK current revised investor-letter/innovation commentary and 2026 sources were not adopted.",
+    "ARK Big Ideas 2025 page 9 excluded because its contents include a later-in-2025 point under a February cover.",
+    "Baron report performance and holdings sections excluded from the extension.",
+    "Altimeter expansion not necessary after two stronger documented candidates; existing Meta/Grab bounded rules remain unchanged.",
+    "Laffont personal method gap remains; no additional personal source claim invented."
+  ],
+  "access_limits": [
+    "Web reader returned content-length-too-large on full Big Ideas PDFs; temporary read-only local PDF inspection used.",
+    "Web screenshots returned cache misses; local temporary renders used for the selected anchors.",
+    "Raw HTML requests returned HTTP 403; already-authorized public web reads succeeded and no raw HTML hash is claimed."
+  ],
+  "reuse_boundary": "All full PDFs and inspection images are temporary research inputs and will be deleted after validation. Only minimal factual source records, brief anchor quotes, paraphrases and independent procedural design are included."
+}

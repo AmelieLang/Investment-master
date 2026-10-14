@@ -1,0 +1,47 @@
+{
+  "schema_version": "historical-finterm-procedural-card/v0.1-candidate",
+  "transport_status": "candidate_pending_exact_content_acceptance",
+  "card_id": "V05",
+  "title": "Expose Assumptions, Sensitivities, and Missing Evidence",
+  "intent": [
+    "financial-analysis",
+    "memo-review",
+    "thesis-evaluation"
+  ],
+  "origin_label": "Finterm MIT editorial procedural framework, retrospective implementation under test; not proof of a native investor algorithm.",
+  "historical_source_fact_ids_if_any": [],
+  "source_repository": "finterm-ai/investment-skills",
+  "source_pin": "7235d3411601036cc79137fa0aec0d587f2c8e19",
+  "source_path": "vendor/finterm/references/05-valuation.md",
+  "source_file_sha256": "03a9395e0c4563d96d865638e953894a842f0475495c0f7e0e4d7d2428f1abca",
+  "selected_fragment_sha256": "fb3bfd8d5d91f18561084e7ae31d28b5564a92739c8685313f65064eb729e2f9",
+  "source_fragment_locator": {
+    "line_start_1_based": 119,
+    "line_end_1_based": 132,
+    "sha256": "fb3bfd8d5d91f18561084e7ae31d28b5564a92739c8685313f65064eb729e2f9",
+    "bytes": 868
+  },
+  "procedural_question": "Which assumptions drive the range, how fragile are they, and\n  which missing facts block a conclusion?",
+  "guidance": "Make operating, reinvestment, discounting, and terminal assumptions\n  explicit; test plausible combinations and identify invalidating evidence.",
+  "applicability": "Every material valuation, especially when forecast or model dependence\n  is high.",
+  "procedural_actions": "Rank drivers by impact and uncertainty; run supported scenario\n  combinations; map each missing input to the blocked conclusion.",
+  "output_contract": "A sensitivity and missing-evidence register tied to the value range and\n  invalidation conditions.",
+  "limits": "Sensitivity cannot validate bad assumptions or assign unsupported\n  probabilities; unsupported bounds require no value conclusion.",
+  "required_questions": [
+    "Which assumptions drive the range, how fragile are they, and\n  which missing facts block a conclusion?"
+  ],
+  "falsifiers_and_contrary_checks": {
+    "standalone_falsifier_field_in_original": false,
+    "preserved_original_action_text": "Rank drivers by impact and uncertainty; run supported scenario\n  combinations; map each missing input to the blocked conclusion.",
+    "preserved_original_limit_text": "Sensitivity cannot validate bad assumptions or assign unsupported\n  probabilities; unsupported bounds require no value conclusion.",
+    "interpretation": "Use these exact original action/limit tests; this projection supplies no invented card-specific falsifier or calibrated probability."
+  },
+  "evidence_scope": "Only admitted supplied immutable historical evidence and explicitly labelled frozen assumptions. Any generic request to search, compare, classify new evidence or monitor is confined to that packet; no live retrieval or later-data monitoring is authorized.",
+  "procedural_fragment_verbatim": "### V05 — Expose Assumptions, Sensitivities, and Missing Evidence\n\n- **Decision question:** Which assumptions drive the range, how fragile are they, and\n  which missing facts block a conclusion?\n- **Guidance:** Make operating, reinvestment, discounting, and terminal assumptions\n  explicit; test plausible combinations and identify invalidating evidence.\n- **Use when:** Every material valuation, especially when forecast or model dependence\n  is high.\n- **Analytical actions:** Rank drivers by impact and uncertainty; run supported scenario\n  combinations; map each missing input to the blocked conclusion.\n- **Output:** A sensitivity and missing-evidence register tied to the value range and\n  invalidation conditions.\n- **Limits:** Sensitivity cannot validate bad assumptions or assign unsupported\n  probabilities; unsupported bounds require no value conclusion.\n",
+  "projection_limits": [
+    "Editorial guidance only; not an authenticated native Buffett or other master algorithm.",
+    "No source-basis or corroboration factual claims are transported.",
+    "No company fact, dated company example, holding, case result, prior opinion or actual outcome is included.",
+    "Absent prerequisites leave the corresponding branch unresolved."
+  ]
+}

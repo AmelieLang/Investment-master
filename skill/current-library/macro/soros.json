@@ -1,0 +1,580 @@
+{
+  "id": "george_soros_quantum",
+  "module": "reflexivity_currency",
+  "expertise": {
+    "strong": [
+      "Cross-asset global macro and currency policy contradictions",
+      "Reflexive price/credit feedback and regime breaks",
+      "Hypothesis revision and conviction sizing"
+    ],
+    "conditional": [
+      "Equity and sovereign risk in a macro/reflexive framework, with asset-specific research",
+      "Policy-risk scenarios where government response changes payoffs"
+    ],
+    "not_established": [
+      "Current SFM holdings as personal Soros choices",
+      "Mechanical reflexivity timing rules",
+      "Fundamental security-level distressed-credit recovery expertise"
+    ]
+  },
+  "era_mandates": [
+    {
+      "era": "Historical Quantum hedge-fund period",
+      "mandate": "Flexible leveraged global macro; manager and team agency varies, including Druckenmiller portfolio management",
+      "source_ids": [
+        "DRU-01",
+        "SOR-05"
+      ]
+    },
+    {
+      "era": "2000 / 2011 transition",
+      "mandate": "Investor letter describes family-office evolution and return of outside capital in 2011; historical fund and current family office are distinct",
+      "source_ids": [
+        "SOR-11"
+      ]
+    },
+    {
+      "era": "2017 onward",
+      "mandate": "Dawn Fitzpatrick CEO/CIO; current institutional holdings require PM-specific attribution",
+      "source_ids": [
+        "SOR-10",
+        "SOR-12"
+      ]
+    }
+  ],
+  "corpus_inventory": [
+    {
+      "title": "The Alchemy of Finance (1987)",
+      "status": "official catalog; original edition/journal not fully inspected",
+      "use": "Potential original 1985-86 real-time journal for future case research; no extracted entry sequence claimed here",
+      "source_ids": [
+        "SOR-01",
+        "SOR-02"
+      ]
+    },
+    {
+      "title": "Soros on Soros (1995)",
+      "status": "author catalog inventory, edited interviews; full text not audited",
+      "source_ids": [
+        "SOR-01"
+      ]
+    },
+    {
+      "title": "The Crisis of Global Capitalism (1998)",
+      "status": "chapter 1 original excerpt inspected; remaining chapters not audited",
+      "source_ids": [
+        "SOR-16"
+      ]
+    },
+    {
+      "title": "The New Paradigm for Financial Markets (2008); The Crash of 2008 and What It Means (2009)",
+      "status": "official catalog inventory; full books not audited",
+      "source_ids": [
+        "SOR-01"
+      ]
+    },
+    {
+      "title": "2009 CEU lecture series; published Soros Lectures (2011)",
+      "status": "general reflexivity and financial-markets original transcripts inspected; full published edition not audited",
+      "source_ids": [
+        "SOR-03",
+        "SOR-04"
+      ]
+    },
+    {
+      "title": "Financial Turmoil in Europe and the United States (2012)",
+      "status": "author catalog inventory only",
+      "source_ids": [
+        "SOR-01"
+      ]
+    },
+    {
+      "title": "Russia 1997/1998 essays; sterling 2016 essay; SFM Palantir statement",
+      "status": "named originals or own-site republications inspected",
+      "source_ids": [
+        "SOR-05",
+        "SOR-06",
+        "SOR-09",
+        "SOR-13"
+      ]
+    }
+  ],
+  "rules": [
+    {
+      "id": "SOR-R1",
+      "native_principle": "Prices can change fundamentals through financing and credit feedback.",
+      "implementation_status": "Operational workflow adapted by this audit; not a master-authored formula",
+      "action": "Specify a causal feedback loop, participants and financing channel rather than merely label a market a bubble.",
+      "required_data": [
+        "Collateral/credit constraints",
+        "Issuance and refinancing dependence",
+        "Trend and market belief",
+        "Policy intervention capacity"
+      ],
+      "invalidation_test": "Reject the thesis if no price-to-fundamental channel or belief mechanism is evidenced.",
+      "source_ids": [
+        "SOR-03"
+      ],
+      "beginning_2026_eligibility": {
+        "cutoff": "2026-01-01T00:00:00Z",
+        "status": "eligible_pre2026_native_principle_with_audit_adaptation",
+        "eligible_source_ids": [
+          "SOR-03"
+        ],
+        "excluded_or_uncertain_source_ids": [],
+        "reason": "Use the dated eligible sources only; prospective implementation must be frozen before outcome review."
+      },
+      "evidence_anchors": [
+        {
+          "source_id": "SOR-03",
+          "url": "https://www.opensocietyfoundations.org/uploads/2b96bb8c-e2e1-4d88-9eea-badf16d0a2b8/george-soros-financial-markets-transcript.pdf",
+          "locator_type": "pdf_page_and_section",
+          "locator": "PDF pp.1-2: two cardinal principles; leverage pathways; negative and positive feedback",
+          "supporting_paraphrase": "Market pricing can alter fundamentals through leveraged financing and reinforcing feedback.",
+          "supports": "native_principle",
+          "does_not_authenticate": "Audit action, input checklist and invalidation workflow remain analyst-adapted.",
+          "pdf_pages_1_based": [
+            1,
+            2
+          ]
+        }
+      ],
+      "native_principle_attribution_status": "source-anchored principle, observation or firm disclosure; exact provenance recorded per anchor"
+    },
+    {
+      "id": "SOR-R2",
+      "native_principle": "Market participants are fallible; trends test and can overturn their misconceptions.",
+      "implementation_status": "Operational workflow adapted by this audit; not a master-authored formula",
+      "action": "Write a falsifiable hypothesis, anticipated test and revision trigger before committing size.",
+      "required_data": [
+        "Observable thesis mechanism",
+        "Competing explanation",
+        "What evidence would change the view"
+      ],
+      "invalidation_test": "Reassess when the predicted reinforcing loop weakens or policy interrupts it.",
+      "source_ids": [
+        "SOR-03",
+        "SOR-04",
+        "SOR-16"
+      ],
+      "beginning_2026_eligibility": {
+        "cutoff": "2026-01-01T00:00:00Z",
+        "status": "eligible_pre2026_native_principle_with_audit_adaptation",
+        "eligible_source_ids": [
+          "SOR-03",
+          "SOR-04",
+          "SOR-16"
+        ],
+        "excluded_or_uncertain_source_ids": [],
+        "reason": "Use the dated eligible sources only; prospective implementation must be frozen before outcome review."
+      },
+      "evidence_anchors": [
+        {
+          "source_id": "SOR-04",
+          "url": "https://www.opensocietyfoundations.org/uploads/9ae17912-2262-4646-8ffc-d01afc934c36/george-soros-general-theory-of-reflexivity-transcript.pdf",
+          "locator_type": "pdf_page_and_section",
+          "locator": "PDF p.4: core propositions defining fallibility and reflexivity",
+          "supporting_paraphrase": "Participants have partial, distorted views that can themselves change the situation.",
+          "supports": "native_principle",
+          "does_not_authenticate": "Audit action, input checklist and invalidation workflow remain analyst-adapted.",
+          "pdf_pages_1_based": [
+            4
+          ]
+        },
+        {
+          "source_id": "SOR-03",
+          "url": "https://www.opensocietyfoundations.org/uploads/2b96bb8c-e2e1-4d88-9eea-badf16d0a2b8/george-soros-financial-markets-transcript.pdf",
+          "locator_type": "pdf_page_and_section",
+          "locator": "PDF p.2: trend/misconception tests and eventual reversal; paragraph following model examples on unpredictability",
+          "supporting_paraphrase": "Reinforcing trends face tests; intervention can interrupt their sequence and timing.",
+          "supports": "native_principle",
+          "does_not_authenticate": "Audit action, input checklist and invalidation workflow remain analyst-adapted.",
+          "pdf_pages_1_based": [
+            2
+          ]
+        }
+      ],
+      "native_principle_attribution_status": "source-anchored principle, observation or firm disclosure; exact provenance recorded per anchor"
+    },
+    {
+      "id": "SOR-R3",
+      "native_principle": "Direction can be right while oversized positions force bad liquidation.",
+      "implementation_status": "Operational workflow adapted by this audit; not a master-authored formula",
+      "action": "Require path-risk, liquidity and counterparty survival tests before increasing conviction size.",
+      "required_data": [
+        "Stress volatility",
+        "Margin and collateral",
+        "Exit depth",
+        "Correlated positions"
+      ],
+      "invalidation_test": "Reduce if financing survival is not robust, even when the scenario remains plausible.",
+      "source_ids": [
+        "SOR-03"
+      ],
+      "beginning_2026_eligibility": {
+        "cutoff": "2026-01-01T00:00:00Z",
+        "status": "eligible_pre2026_native_principle_with_audit_adaptation",
+        "eligible_source_ids": [
+          "SOR-03"
+        ],
+        "excluded_or_uncertain_source_ids": [],
+        "reason": "Use the dated eligible sources only; prospective implementation must be frozen before outcome review."
+      },
+      "evidence_anchors": [
+        {
+          "source_id": "SOR-03",
+          "url": "https://www.opensocietyfoundations.org/uploads/2b96bb8c-e2e1-4d88-9eea-badf16d0a2b8/george-soros-financial-markets-transcript.pdf",
+          "locator_type": "pdf_page_and_section",
+          "locator": "PDF p.5: 2008 personal volatility/oversized-position admission and following liquidity-preference paragraph",
+          "supporting_paraphrase": "Correct direction did not prevent oversized positions and forced unfavorable reductions.",
+          "supports": "native_principle",
+          "does_not_authenticate": "Audit action, input checklist and invalidation workflow remain analyst-adapted.",
+          "pdf_pages_1_based": [
+            5
+          ]
+        }
+      ],
+      "native_principle_attribution_status": "source-anchored principle, observation or firm disclosure; exact provenance recorded per anchor"
+    },
+    {
+      "id": "SOR-R4",
+      "native_principle": "A currency-policy contradiction may create a macro opportunity.",
+      "implementation_status": "Operational workflow adapted by this audit; not a master-authored formula",
+      "action": "Map both economies, intervention credibility and feasible official responses; separate peg mechanics from market folklore.",
+      "required_data": [
+        "Growth/inflation divergence",
+        "Interest-rate and reserve policy",
+        "Political tolerance",
+        "Instrument carry and convexity"
+      ],
+      "invalidation_test": "A credible response or changed policy objective can invalidate the proposed payoff.",
+      "source_ids": [
+        "EVT-GBP",
+        "DRU-01"
+      ],
+      "beginning_2026_eligibility": {
+        "cutoff": "2026-01-01T00:00:00Z",
+        "status": "eligible_pre2026_native_principle_with_audit_adaptation",
+        "eligible_source_ids": [
+          "EVT-GBP",
+          "DRU-01"
+        ],
+        "excluded_or_uncertain_source_ids": [],
+        "reason": "Use the dated eligible sources only; prospective implementation must be frozen before outcome review.",
+        "publication_provenance_source_ids": [
+          "DRU-PUB-01",
+          "DRU-PUB-02"
+        ],
+        "public_availability_verified_by": "2015-04-13, with March 30 posting independently reported; no URL-derived publication assumption"
+      },
+      "evidence_anchors": [
+        {
+          "source_id": "DRU-01",
+          "url": "https://covestreetcapital.com/wp-content/uploads/2015/03/Druckenmiller-_Speech.pdf",
+          "locator_type": "pdf_page_and_section",
+          "locator": "Transcript pp.21-22: UK housing/recession versus Germany/reunification and linked-currency discussion",
+          "supporting_paraphrase": "Druckenmiller describes divergent policy needs constrained by linked exchange rates.",
+          "supports": "case_derived_principle_not_an_authenticated_universal_Soros_rule",
+          "does_not_authenticate": "Audit action, input checklist and invalidation workflow remain analyst-adapted.",
+          "pdf_pages_1_based": [
+            21,
+            22
+          ]
+        },
+        {
+          "source_id": "EVT-GBP",
+          "url": "https://www.bankofengland.co.uk/-/media/boe/files/quarterly-bulletin/1992/operation-of-monetary-policy-qb-1992-q4.pdf",
+          "locator_type": "pdf_page_and_section",
+          "locator": "Bulletin printed pp.382-383 / PDF pp.1-2: Introduction and domestic-needs versus exchange-rate-commitment discussion",
+          "supporting_paraphrase": "BoE documents the conflict between domestic monetary objectives and exchange-rate defense.",
+          "supports": "independent_event_mechanism_corroboration",
+          "does_not_authenticate": "Audit action, input checklist and invalidation workflow remain analyst-adapted.",
+          "pdf_pages_1_based": [
+            1,
+            2
+          ]
+        }
+      ],
+      "native_principle_attribution_status": "case-derived audit synthesis"
+    },
+    {
+      "id": "SOR-R5",
+      "native_principle": "Sovereign rescue and regulatory reform assumptions can fail.",
+      "implementation_status": "Operational workflow adapted by this audit; not a master-authored formula",
+      "action": "Keep institutional reform, corporate equity and sovereign funding theses in separate risk records.",
+      "required_data": [
+        "Shareholder protections",
+        "Sovereign maturity/currency obligations",
+        "Bank collateral exposure",
+        "External-support commitment"
+      ],
+      "invalidation_test": "Do not retain a reform trade merely because authorities might rescue a different debt instrument.",
+      "source_ids": [
+        "SOR-05",
+        "SOR-06",
+        "SOR-07"
+      ],
+      "beginning_2026_eligibility": {
+        "cutoff": "2026-01-01T00:00:00Z",
+        "status": "eligible_pre2026_native_principle_with_audit_adaptation",
+        "eligible_source_ids": [
+          "SOR-05",
+          "SOR-06",
+          "SOR-07"
+        ],
+        "excluded_or_uncertain_source_ids": [],
+        "reason": "Use the dated eligible sources only; prospective implementation must be frozen before outcome review."
+      },
+      "evidence_anchors": [
+        {
+          "source_id": "SOR-05",
+          "url": "https://www.georgesoros.com/1997/08/21/my-investments-in-russia/",
+          "locator_type": "web_section_and_paragraph",
+          "locator": "Essay body paragraphs 1 and final paragraph: Nemtsov appointment and shareholder-rights expectations",
+          "supporting_paraphrase": "The invested reform thesis depended on improved legal protection for shareholders.",
+          "supports": "case_evidence_for_audit_derived_lesson",
+          "does_not_authenticate": "Audit action, input checklist and invalidation workflow remain analyst-adapted."
+        },
+        {
+          "source_id": "SOR-06",
+          "url": "https://www.georgesoros.com/1998/08/13/the-only-way-for-russia-to-end-its-crisis/",
+          "locator_type": "web_section_and_paragraph",
+          "locator": "Essay body paragraphs 3-4: budget program versus bank liquidity; margin-held debt and unavailable renewed credit",
+          "supporting_paraphrase": "Banking and fiscal requirements conflicted; assumed bond funding failed.",
+          "supports": "case_evidence_for_audit_derived_lesson",
+          "does_not_authenticate": "Audit action, input checklist and invalidation workflow remain analyst-adapted."
+        }
+      ],
+      "native_principle_attribution_status": "case-derived audit synthesis"
+    }
+  ],
+  "holdings": {
+    "filer": "Soros Fund Management LLC, CIK 1029160",
+    "retrieved_scope": "2020-09-30 SEC 13F Palantir row only, filed 2020-11-13; not a current portfolio reconstruction.",
+    "limitations": "Modern 13F cannot reconstruct Quantum 1992 FX, 1998 Russia or whole current macro/family-office exposures.",
+    "personal_agency_warning": "Historic Soros name, current CIO, departed PMs and legal lockups must be distinguished.",
+    "source_ids": [
+      "COM-13F",
+      "SOR-10",
+      "SOR-13",
+      "SOR-14",
+      "SOR-15"
+    ]
+  },
+  "crosschecks": [
+    {
+      "claim": "The 1997 Russia essay documented an invested reform thesis before the 1998 crisis.",
+      "statement_date": "1997-08-21",
+      "position_date": "existing investments described 1997-08-21",
+      "grade": "compatible",
+      "support": "Soros describes existing Russian investments and expectations around law-abiding governance/shareholder rights.",
+      "limits": "Post-entry evidence, self-reported aggregate exposure, not a pre-entry trade blotter.",
+      "source_ids": [
+        "SOR-05"
+      ]
+    },
+    {
+      "claim": "The August 13, 1998 rescue proposal proves Soros exited or shorted Russia before August 17.",
+      "statement_date": "1998-08-13",
+      "position_date": "not disclosed",
+      "grade": "unknown",
+      "support": "A policy proposal is not a trading disclosure.",
+      "limits": "Exact retained debt/equity exposures and executions unobserved.",
+      "source_ids": [
+        "SOR-06",
+        "SOR-08"
+      ]
+    },
+    {
+      "claim": "Soros personally initiated a new Palantir buy in Q3 2020.",
+      "statement_date": "2020-11-17",
+      "position_date": "2020-09-30; 18,457,516 class A shares reported",
+      "grade": "conflict",
+      "support": "Original SFM statement attributes the investment to a departed PM in 2012, followed by conversion on listing.",
+      "limits": "A newly public 13F line is not a newly purchased investment.",
+      "source_ids": [
+        "SOR-13",
+        "SOR-15"
+      ]
+    },
+    {
+      "claim": "SFM disapproval of Palantir can coexist with a legally constrained holding acquired by an earlier portfolio manager.",
+      "statement_date": "2020-11-17",
+      "position_date": "2020-09-30",
+      "grade": "compatible",
+      "support": "SFM states it sold what legally could be sold and would sell remaining constrained shares when permitted.",
+      "limits": "Different dates and legal/contractual restrictions prevent an automatic hypocrisy inference; remaining Nov.17 quantity not disclosed here.",
+      "source_ids": [
+        "SOR-13",
+        "SOR-15"
+      ],
+      "claim_truth": "supported_with_date_and_sale_constraints",
+      "observed_statement_position_relation": "compatible",
+      "forbidden_inferences": [
+        "The September filing proves a new personal Soros buy",
+        "Disapproval plus a constrained holding proves inconsistency"
+      ]
+    },
+    {
+      "claim": "Modern SFM equity holdings validate historical Quantum currency views.",
+      "statement_date": "historical versus current",
+      "position_date": "different fund era",
+      "grade": "unknown",
+      "support": "The mandates, decision makers and observable instruments differ.",
+      "source_ids": [
+        "SOR-10",
+        "SOR-11",
+        "COM-13F"
+      ]
+    }
+  ],
+  "case_chains": [
+    {
+      "id": "SOR-C1",
+      "shared_case_id": "GBP-1992",
+      "case": "1992 sterling short",
+      "outcome_class": "major positive, selected retrospectively",
+      "selection_reason": "Iconic currency trade; decision attribution and evidence gaps are important training constraints.",
+      "decision_window": "August through September 16, 1992",
+      "predecision_evidence": "No authenticated pretrade Quantum memo or letter found. A later primary central-bank account documents observable policy conditions, not the managers' contemporaneous stated motivation.",
+      "event_chain": "BoE describes UK/German policy divergence, failed September 16 sterling support and evening suspension from ERM. Rate escalation did not sustain the peg.",
+      "event_sources": [
+        "EVT-GBP"
+      ],
+      "position_and_attribution": "Druckenmiller's later speech attributes the initial GBP idea/trade to himself and the push for greater size to Soros. It describes an initial $1.5bn short against roughly $7bn capital; proposed and achieved final notional must not be conflated.",
+      "position_sources": [
+        "DRU-01"
+      ],
+      "outcome_evidence": "Soros's own 2016 essay acknowledges substantial profits for hedge-fund investors from the 1992 episode.",
+      "outcome_sources": [
+        "SOR-09"
+      ],
+      "retrospective_status": "The portfolio attribution is 2015 hindsight, the own-profit acknowledgement 2016. Neither authenticates a pre-entry reasoning log.",
+      "source_ids": [
+        "DRU-01",
+        "SOR-09"
+      ],
+      "competing_explanations": [
+        "Other market participants and official policy choices affected the event",
+        "Large notional may amplify profit and path risk",
+        "A pegged FX structure is not equivalent to a generic undervalued stock"
+      ],
+      "audit_lesson": "Test policy contradiction and payoff mechanics; never turn famous leverage into a default user sizing rule.",
+      "missing": [
+        "Original trade ledger and pretrade mandate/risk limits",
+        "Authenticated August/September manager memo",
+        "Independent exact GBP-only realized profit"
+      ],
+      "confidence": {
+        "policy_event": "high",
+        "personal_manager_attribution": "moderate, first-person hindsight",
+        "positive_outcome": "moderate-high, own admission",
+        "ex_ante_motive_record": "unknown"
+      }
+    },
+    {
+      "id": "SOR-C2",
+      "case": "1997-1998 Russia investments and crisis",
+      "outcome_class": "major adverse, selected retrospectively",
+      "selection_reason": "Pre-crisis own essay reveals an invested institutional-reform thesis, followed by a severe macro/sovereign failure.",
+      "decision_window": "1997-08-21 through August 1998",
+      "predecision_evidence": [
+        {
+          "date": "1997-08-21",
+          "evidence": "Own essay describes existing Russia exposure, telecom privatization and hope for improved shareholder protections after government change.",
+          "grade": "B: before crisis, after entry",
+          "source_ids": [
+            "SOR-05"
+          ]
+        },
+        {
+          "date": "1998-08-13",
+          "evidence": "Own essay diagnoses forced liquidation and argues for devaluation/currency-board/external backing before the August 17 measures.",
+          "grade": "A for contemporaneous public policy view; U for trade action",
+          "source_ids": [
+            "SOR-06"
+          ]
+        }
+      ],
+      "position_and_attribution": "The 1997 essay self-reports aggregate fund investments of $2.5bn, not a single telecom trade. It acknowledges earlier fund trades sometimes opposed by Soros. No exact August 1998 security inventory retrieved.",
+      "position_sources": [
+        "SOR-05"
+      ],
+      "data_rejection": "The own-site $980 billion telecom amount is apparently erroneous and excluded; no unverified replacement number used.",
+      "event_chain": "Russian authorities' August 17 devaluation/restructuring measures are documented in IMF Survey.",
+      "event_sources": [
+        "SOR-07"
+      ],
+      "outcome_evidence": "Contemporary Irish Times reporting quotes Druckenmiller admitting up to $2bn of Russia losses across the Quantum group. This is not an audited trade-by-trade P&L.",
+      "outcome_sources": [
+        "SOR-08"
+      ],
+      "hypothesis_failure": "Reform/ownership optimism and external-rescue assumptions did not remove currency, sovereign funding and bank/collateral risks. The losses cannot all be assigned to telecom equity.",
+      "interpretation_status": "Audit synthesis; attribution across assets remains unresolved.",
+      "competing_explanations": [
+        "Regional contagion and funding stress",
+        "Domestic political/institutional risk",
+        "Leverage and margin-driven liquidation",
+        "Different managers and security books"
+      ],
+      "audit_lesson": "Separate corporate institutional reform from sovereign solvency, currency convertibility and financing survival; document which assets each thesis actually supports.",
+      "missing": [
+        "Authenticated pre-entry telecom committee memo",
+        "Final debt/equity exposure breakdown and hedges",
+        "Audited realized/unrealized allocation of reported losses"
+      ],
+      "confidence": {
+        "invested_precrisis_thesis": "high for own statement, moderate for actual total",
+        "crisis_event": "high",
+        "reported_group_loss": "moderate",
+        "single_security_causality": "unknown"
+      }
+    }
+  ],
+  "supplementary_candidates": [
+    {
+      "case": "1998 Hong Kong",
+      "status": "event-mechanics context only",
+      "reason": "HKMA documents cross-market attacks and intervention, but does not establish personal Soros trades or losses. FX peg survival and equity/futures squeeze are distinct; do not treat them as one failed thesis.",
+      "source_ids": [
+        "EVT-HK",
+        "EVT-HK2"
+      ]
+    },
+    {
+      "case": "2008 sizing/liquidation",
+      "status": "first-person adverse illustration, not a full audited case chain",
+      "reason": "Financial Markets lecture admits direction right but positions too large for volatility and forced bad liquidation.",
+      "source_ids": [
+        "SOR-03"
+      ]
+    }
+  ],
+  "bounded_search": {
+    "reviewed": "Official author books catalog, named original CEU transcripts, Russia and sterling own-site essays, foundation/firm role and Palantir statement, matched 2020 SEC row and institutional event documents.",
+    "not_reviewed": "All Soros books/editions, full historical Quantum letters, 1985-86 journal, complete Russia securities ledger or modern full risk book.",
+    "limits": "Cannot claim all investment thoughts or all current positions; original pretrade GBP memo not found within this bounded search."
+  },
+  "abstention_rules": [
+    "Do not fabricate a 1992 pretrade Soros letter.",
+    "Do not infer historical FX or net portfolio exposure from modern equity filings.",
+    "Do not label a Hong Kong personal trade failure without actual attribution and P&L evidence."
+  ],
+  "temporal_packet_policy": {
+    "cutoff": "2026-01-01T00:00:00Z",
+    "source_ledger": "sources.json publication_visibility",
+    "historical_vs_benchmark": "Case ex-ante date and benchmark method date are different tests. A 2018 book can inform a 2026 method but cannot become a 2007 contemporaneous source merely by describing 2007.",
+    "post_cutoff_audit_only": [
+      "DRU-03",
+      "COM-13F"
+    ],
+    "current_undated_pages": "Exclude their current-version content from historical decision packet unless a dated pre-cutoff replacement establishes the claim.",
+    "filings": "A quarter-end observation is usable only after its public filing timestamp, subject to amendments/confidential disclosure. Q4 2025 holdings filed in 2026 must not appear in beginning-2026 selection."
+  },
+  "rework_round": 1,
+  "review_defects_addressed": [
+    "MAC-R0-01",
+    "MAC-R0-02",
+    "MAC-R0-03"
+  ]
+}

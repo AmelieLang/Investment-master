@@ -1,0 +1,70 @@
+{
+  "scope": "Static authored schema validation only; no source/implementation acceptance or model/valuation execution.",
+  "status": "passed",
+  "checks": [
+    {
+      "test": "schemas/research-result.v0.1.schema.json",
+      "status": "passed"
+    },
+    {
+      "test": "schemas/current-method.v0.1.schema.json",
+      "status": "passed"
+    },
+    {
+      "test": "research-result.missing-adapter.json",
+      "status": "passed"
+    },
+    {
+      "test": "research-result.existing-adapter-reference.json",
+      "status": "passed"
+    },
+    {
+      "test": "method:brad-gerstner",
+      "status": "passed"
+    },
+    {
+      "test": "method:philippe-laffont",
+      "status": "passed"
+    },
+    {
+      "test": "method:george-soros",
+      "status": "passed"
+    },
+    {
+      "test": "method:duan-yongping",
+      "status": "passed"
+    },
+    {
+      "test": "method:li-lu",
+      "status": "passed"
+    },
+    {
+      "test": "method:ron-baron",
+      "status": "passed"
+    },
+    {
+      "test": "method:stanley-druckenmiller",
+      "status": "passed"
+    },
+    {
+      "test": "method:leopold-aschenbrenner",
+      "status": "passed"
+    },
+    {
+      "test": "method:warren-buffett",
+      "status": "passed"
+    },
+    {
+      "test": "method:cathie-wood",
+      "status": "passed"
+    },
+    {
+      "test": "method:ray-dalio",
+      "status": "passed"
+    },
+    {
+      "test": "existing synthetic R2 fixture unchanged and schema-valid",
+      "status": "passed"
+    }
+  ]
+}

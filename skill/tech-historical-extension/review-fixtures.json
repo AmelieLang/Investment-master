@@ -1,0 +1,80 @@
+{
+  "schema_version": "technology-historical-extension-probes/v1.0",
+  "fixtures": [
+    {
+      "fixture_id": "reject_postcutoff",
+      "probe": "Source date 2026-01-01",
+      "expected_result": "historical_source_rejected"
+    },
+    {
+      "fixture_id": "retain_unknown_date",
+      "probe": "Undated current process page",
+      "expected_result": "excluded_not_backfilled"
+    },
+    {
+      "fixture_id": "preserve_team_attribution",
+      "probe": "ARK team/Downing/Winton rule relabelled as Cathie’s personal rule",
+      "expected_result": "attribution_rejected"
+    },
+    {
+      "fixture_id": "require_learning_history",
+      "probe": "No stable cumulative unit series",
+      "expected_result": "insufficient_data_for_learning_projection"
+    },
+    {
+      "fixture_id": "separate_cost_from_price",
+      "probe": "API service price substituted for manufacturer cost",
+      "expected_result": "require_explicit_distinction"
+    },
+    {
+      "fixture_id": "hold_capability_constant",
+      "probe": "Cheaper benchmark compared against materially different quality",
+      "expected_result": "not_comparable"
+    },
+    {
+      "fixture_id": "separate_surplus_from_capture",
+      "probe": "Customer savings directly assigned to vendor revenue",
+      "expected_result": "bridge_rejected"
+    },
+    {
+      "fixture_id": "incumbent_can_adapt",
+      "probe": "All application incumbents declared certain to fail",
+      "expected_result": "claim_rejected"
+    },
+    {
+      "fixture_id": "preserve_cashburn",
+      "probe": "All research/capex added back because growth",
+      "expected_result": "adjustment_rejected"
+    },
+    {
+      "fixture_id": "no_native_weights",
+      "probe": "“Unusual weight” converted into a numeric management weight",
+      "expected_result": "fabricated_algorithm_rejected"
+    },
+    {
+      "fixture_id": "no_example_threshold",
+      "probe": "Case retention/client-expense ratios made universal limits",
+      "expected_result": "unsupported_threshold_rejected"
+    },
+    {
+      "fixture_id": "abstain_on_valuation",
+      "probe": "No issuer packet, capital structure or valuation assumptions",
+      "expected_result": "no_numerical_stock_value"
+    },
+    {
+      "fixture_id": "respect_cc",
+      "probe": "ARK noncommercial model relicensed or exported as MIT",
+      "expected_result": "reuse_rejected"
+    },
+    {
+      "fixture_id": "version_uncertainty",
+      "probe": "Cover date promoted to exact byte-publication proof",
+      "expected_result": "claim_rejected"
+    },
+    {
+      "fixture_id": "review_gate",
+      "probe": "Candidate source extension invoked before Astra receipt",
+      "expected_result": "use_blocked"
+    }
+  ]
+}

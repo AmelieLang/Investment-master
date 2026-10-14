@@ -1,0 +1,34 @@
+{
+  "schema_version": "source-coverage-limits/v1",
+  "underlying_source_acceptance": "ten_core_bounded_dossiers_plus_separate_emerging_extension",
+  "fundamental": {
+    "receipt_sha256": "92ac77274bce7d820cca6ca03ded9ea6bf0cd3347070bb1a554ca796a7ae544b",
+    "verified_original_initial_investor_T0_theses": 0,
+    "investment_or_strategy_case_denominator": 9,
+    "PCC_T0_scope": "Pre-agreement issuer business context only, not an investor purchase memo.",
+    "Duan_HH_precutoff_personal_attribution": "Unestablished; same-vehicle public holdings are bounded vehicle facts. Later control evidence is not backdated.",
+    "historical_method_source": "Only the frozen 13-rule method packet, not rich claims/cases/holdings.",
+    "historical_method_packet_sha256": "b2863fe599e89eccbec50531d9e82332f0022d3d952475f3c8aeb9b3857a6704",
+    "minor_locator_notes": {
+      "claim_ids": [
+        "DYP-F-HH-CONTROL2026",
+        "DYP-F-HKEX-DERIVATIVES",
+        "LL-F-BYD-2016",
+        "LL-F-BYD-2016-ANOMALY"
+      ],
+      "corrected_locator_summary": [
+        "Corporate H&H investment-manager capacity: boxes17 and20.",
+        "Duan individual before/after: boxes15–16; derivatives: box18.",
+        "Li Lu individual2016 before/after: boxes15–16."
+      ],
+      "effect": "Nonblocking; field labels, values, sources and anomalies remain accepted. Raw author strings retained transparently. These current/audit locators are outside the historical method packet."
+    }
+  },
+  "leopold": {
+    "classification": "emerging_investor_and_risk_case",
+    "verified_security_specific_pretrade_memos": 0,
+    "audited_realized_success_cases": 0,
+    "does_not_count_as_an_additional_core_master": true
+  },
+  "historical_transport": "Separate allowlist/projection/runtime acceptance remains blocked. No actual investor endorsement is implied by method application."
+}

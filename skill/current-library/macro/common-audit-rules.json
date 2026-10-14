@@ -1,0 +1,48 @@
+{
+  "schema_version": "2.0",
+  "as_of": "2026-10-13",
+  "scope": "Public-source bounded research; no private client letters, broker blotters, complete live risk books or audited individual trade attribution.",
+  "selection_warning": "Famous successes and major mistakes selected retrospectively. Neither representative sample nor predictive backtest; outcome selection, survivorship, publicity and hindsight biases remain.",
+  "evidence_taxonomy": {
+    "A": "Contemporaneous original statement or regulatory/event record; only the factual field it actually documents.",
+    "B": "Dated original research now republished, or pre-outcome primary public view after entry.",
+    "C": "First-person retrospective account or original text available only through a qualified mirror.",
+    "D": "Explicitly qualified secondary report.",
+    "U": "Not established by retrieved public evidence."
+  },
+  "crosscheck_grades": {
+    "compatible": "Observed statement and observed position can coexist; does not establish correctness or complete-book consistency.",
+    "conflict": "Specific factual assertion contradicted by the matched source/time/agency, or explicit admitted departure from a stated plan.",
+    "unknown": "Insufficient comparable disclosure, mismatched date/mandate/agency or unobserved exposure."
+  },
+  "holdings_disclosure": {
+    "source_ids": [
+      "COM-13F",
+      "COM-13F-2017"
+    ],
+    "normal_lag": "Quarter-end snapshot; normally filed within 45 days, with nonbusiness-day adjustment. Filing time is not trade time.",
+    "coverage": "Reportable section 13(f) long securities, including qualifying listed options; not all worldwide investments.",
+    "missing": [
+      "Short stocks and short options",
+      "FX and most derivatives",
+      "Many bonds, private assets and non-US-listed shares",
+      "Cash, leverage, funding and portfolio-wide hedges",
+      "Purchase prices, actual trading dates and realized P&L"
+    ],
+    "option_guardrail": "Reported option underlying shares/value do not disclose premium, strike, expiration or delta. Do not add underlying shares to common shares as stock owned, or turn them into risk weights.",
+    "filing_guardrail": "Check amendments, confidential-treatment history, form version, units and corporate actions. SEC hosting does not certify accuracy.",
+    "current_guardrail": "No current full portfolio claimed here. On 2026-10-13, September 30 filings need not yet be public. Any retrieved quarter must retain its report and filing dates."
+  },
+  "skill_integration": {
+    "routing": "Choose by instrument, mandate and evidence depth; use separate modules below rather than a universal guru average.",
+    "weights": "No verified Dalio-native fixed country, asset or master-vote weights. Any weights from the user repository must be labeled implementer heuristics and independently validated.",
+    "operationalization": "Triggers, required data, invalidation tests and risk gates below are research-design adaptations, not quoted proprietary rules.",
+    "abstention": "For debt/credit security selection needing issuer covenants, recovery waterfalls, legal enforceability or distressed-credit skill, request a deeply audited specialist or additional research. Macro/debt-cycle expertise does not establish credit-picking expertise."
+  },
+  "benchmark_temporal_gate": {
+    "decision_cutoff": "2026-01-01T00:00:00Z",
+    "rule": "Freeze both method and security inputs before viewing 2026 outcomes; use publication/filing dates, not period end. Keep DRU-03 and the current COM-13F update in retrospective audit only.",
+    "pre2026_disclosure_source": "COM-13F-2017 for lag/coverage, not its obsolete value units.",
+    "important": "A method rebuilt today from pre-2026 materials is a retrospective reconstruction. It is not an actual historical recommendation and still needs prevention of outcome-guided stock/rule selection."
+  }
+}

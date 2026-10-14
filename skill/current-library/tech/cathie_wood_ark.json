@@ -1,0 +1,644 @@
+{
+  "schema_version": "investor_dossier.v2.tech.1",
+  "investor_id": "cathie_wood_ark",
+  "as_of_date": "2026-10-13",
+  "identity": {
+    "person": "Cathie Wood",
+    "organization": "ARK Investment Management LLC",
+    "role": "Founder; CIO and portfolio manager with final investment approval; ARKK day-to-day PM",
+    "role_evidence_dates": [
+      "2025-11-30",
+      "2026-10-13 retrieval of undated current process"
+    ],
+    "source_ids": [
+      "ARK-FAQ",
+      "ARK-PROC",
+      "ARK-PROSPECTUS-20251130"
+    ],
+    "organization_start": "2014-01 adviser registration",
+    "decision_attribution": "Research is team-produced; final portfolio approval is Wood. Do not assign every analyst valuation to her authorship or every manager filing to one ETF."
+  },
+  "source_registry_file": "sources.json",
+  "source_ids": [
+    "ARK-PROC",
+    "ARK-FAQ",
+    "ARK-DAILY",
+    "ARK-TRADES",
+    "ARK-PROSPECTUS-20251130",
+    "ARK-TESLA-20180822",
+    "ARK-TESLA-20220414",
+    "ARK-GITHUB-TESLA",
+    "ARK-INNOVATION-20211218",
+    "ARK-13F-20201231",
+    "TSLA-10K-2020",
+    "COM-SEC13F"
+  ],
+  "selection_file": "case_selection.json",
+  "common_disclosure_file": "common_disclosure.json",
+  "research_scope": {
+    "method": "Targeted first-party audit with original fund/issuer publications and SEC filings. Search chosen famous cases and counterexamples; follow dated antecedents before writing outcome chains.",
+    "completeness": "Not a scan of all lifetime content, all interviews, all transactions or all fund portfolios.",
+    "excluded": [
+      "Third-party holdings aggregators as core proof",
+      "Persona quotations without operational evidence",
+      "Paywalled/private investment-committee papers unavailable to this audit",
+      "Social media feeds/podcast lifetime transcripts",
+      "Private fund audited return histories not publicly recovered"
+    ],
+    "retrospective_selection": "Purposive famous-success selection paired with adverse/counterexample evidence, recorded before detailed writeups. Not a predictive backtest, hit rate or representative sample.",
+    "holding_inference_guardrails": [
+      "Do not infer the trade date, price, fund/account, intent or realized P&L from a 13F snapshot.",
+      "Do not treat omitted holdings as a full exit without coverage reconciliation.",
+      "Current process disclosures may not describe historic decisions."
+    ]
+  },
+  "process_rules": [
+    {
+      "rule_id": "ARK-R00",
+      "documented_rule": "A positive valuation thesis does not require holding until its target.",
+      "source_ids": [
+        "ARK-TESLA-20180822"
+      ],
+      "precision": "dated_case_disclosure",
+      "scope": "Tesla 2018 open-letter caveat",
+      "skill_adaptation": {
+        "authorship": "Independent synthesis, not exact investor algorithm",
+        "questions": [
+          "What has changed in funding, competition, regulation or portfolio liquidity since underwriting?",
+          "Is the same expected return still attractive after updated price and share count?"
+        ]
+      },
+      "pre_2026_benchmark_eligible": true,
+      "evidence_time_class": "dated_pre_2026_method",
+      "evidence_anchors": [
+        {
+          "anchor_id": "ARK-R00-A1",
+          "source_id": "ARK-TESLA-20180822",
+          "source_url": "https://www.ark-invest.com/articles/analyst-research/tesla-private",
+          "source_publication_date": "2018-08-22",
+          "locator": {
+            "type": "html_footnote",
+            "footnote": 1,
+            "position": "After the assumptions bullet list and before the podcast section"
+          },
+          "supporting_paraphrase": "Positive assessment allows reduction before valuation target.",
+          "support_role": "direct_case_disclosure_qualification",
+          "native_attribution": "Cathie Wood / ARK",
+          "native_scope": "Tesla 2018 open letter only",
+          "verified_against_source_on": "2026-10-13",
+          "supplementary_html_text_line_range_at_retrieval": {
+            "start": 154,
+            "end": 156,
+            "caveat": "Retrieval-specific convenience; section/page/paragraph is the primary locator."
+          }
+        }
+      ],
+      "auditor_adaptation_boundary": "Evidence anchors authenticate the documented native principle only. Skill questions are independent auditor operationalization, not verbatim investor instructions or proof of historical use."
+    },
+    {
+      "rule_id": "ARK-R01",
+      "documented_rule": "Start with cost declines, demand elasticity and cross-industry platform adoption.",
+      "source_ids": [
+        "ARK-PROC"
+      ],
+      "precision": "documented_process",
+      "scope": "organization/current",
+      "skill_adaptation": {
+        "authorship": "independent research synthesis, not investor quotation or claimed exact algorithm",
+        "questions": [
+          "Which input cost demonstrably falls, and what independent customer behavior validates resulting demand?",
+          "What fails if learning curves flatten or competition passes savings to customers?"
+        ]
+      },
+      "pre_2026_benchmark_eligible": false,
+      "evidence_time_class": "audit_only_current_or_undated_method",
+      "evidence_anchors": [
+        {
+          "anchor_id": "ARK-R01-A1",
+          "source_id": "ARK-PROC",
+          "source_url": "https://www.ark-invest.com/investment-process",
+          "source_publication_date": null,
+          "locator": {
+            "type": "html_section",
+            "heading": "Top-Down: Sizing The Opportunity",
+            "paragraph": 1
+          },
+          "supporting_paraphrase": "Cost curves and demand elasticity identify disruption.",
+          "support_role": "direct_documented_process",
+          "native_attribution": "ARK Investment Management",
+          "native_scope": "Undated current organization process; historical packet excluded",
+          "verified_against_source_on": "2026-10-13",
+          "supplementary_html_text_line_range_at_retrieval": {
+            "start": 169,
+            "end": 171,
+            "caveat": "Retrieval-specific convenience; section/page/paragraph is the primary locator."
+          }
+        }
+      ],
+      "auditor_adaptation_boundary": "Evidence anchors authenticate the documented native principle only. Skill questions are independent auditor operationalization, not verbatim investor instructions or proof of historical use."
+    },
+    {
+      "rule_id": "ARK-R02",
+      "documented_rule": "Translate adoption into five-year unit growth, costs, share count and valuation.",
+      "source_ids": [
+        "ARK-PROC"
+      ],
+      "precision": "documented_process",
+      "scope": "organization/current",
+      "skill_adaptation": {
+        "authorship": "independent research synthesis, not investor quotation or claimed exact algorithm",
+        "questions": [
+          "Show current business, optional business and terminal multiple separately.",
+          "Bridge enterprise value to equity after all expected dilution and financing needs."
+        ]
+      },
+      "pre_2026_benchmark_eligible": false,
+      "evidence_time_class": "audit_only_current_or_undated_method",
+      "evidence_anchors": [
+        {
+          "anchor_id": "ARK-R02-A1",
+          "source_id": "ARK-PROC",
+          "source_url": "https://www.ark-invest.com/investment-process",
+          "source_publication_date": null,
+          "locator": {
+            "type": "html_section",
+            "heading": "Bottom-Up: Stock Selection And Valuation",
+            "paragraph": 1
+          },
+          "supporting_paraphrase": "Five-year models include volumes, costs, adoption, shares and multiples.",
+          "support_role": "direct_documented_model_components",
+          "native_attribution": "ARK Investment Management",
+          "native_scope": "Undated current organization process; historical packet excluded",
+          "verified_against_source_on": "2026-10-13",
+          "supplementary_html_text_line_range_at_retrieval": {
+            "start": 172,
+            "end": 173,
+            "caveat": "Retrieval-specific convenience; section/page/paragraph is the primary locator."
+          }
+        }
+      ],
+      "auditor_adaptation_boundary": "Evidence anchors authenticate the documented native principle only. Skill questions are independent auditor operationalization, not verbatim investor instructions or proof of historical use."
+    },
+    {
+      "rule_id": "ARK-R03",
+      "documented_rule": "Review research weekly; resize relative opportunity and changed thesis.",
+      "source_ids": [
+        "ARK-PROC"
+      ],
+      "precision": "documented_process",
+      "scope": "organization/current",
+      "skill_adaptation": {
+        "authorship": "independent research synthesis, not investor quotation or claimed exact algorithm",
+        "questions": [
+          "Record the new observable that changed conviction before changing the forecast.",
+          "Test common duration, liquidity and funding risks across apparently different themes."
+        ]
+      },
+      "pre_2026_benchmark_eligible": false,
+      "evidence_time_class": "audit_only_current_or_undated_method",
+      "evidence_anchors": [
+        {
+          "anchor_id": "ARK-R03-A1",
+          "source_id": "ARK-PROC",
+          "source_url": "https://www.ark-invest.com/investment-process",
+          "source_publication_date": null,
+          "locator": {
+            "type": "html_section",
+            "heading": "Bottom-Up: Portfolio and Risk Management",
+            "paragraphs": [
+              1,
+              2
+            ]
+          },
+          "supporting_paraphrase": "Weekly thesis review; relative opportunity and thesis changes drive resizing.",
+          "support_role": "direct_documented_monitoring_and_exit_process",
+          "native_attribution": "ARK Investment Management",
+          "native_scope": "Undated current organization process; historical packet excluded",
+          "verified_against_source_on": "2026-10-13",
+          "supplementary_html_text_line_range_at_retrieval": {
+            "start": 191,
+            "end": 193,
+            "caveat": "Retrieval-specific convenience; section/page/paragraph is the primary locator."
+          }
+        }
+      ],
+      "auditor_adaptation_boundary": "Evidence anchors authenticate the documented native principle only. Skill questions are independent auditor operationalization, not verbatim investor instructions or proof of historical use."
+    },
+    {
+      "rule_id": "ARK-R04",
+      "documented_rule": "Tesla scenarios explicitly vary autonomous timing, production and capital efficiency.",
+      "source_ids": [
+        "ARK-TESLA-20220414"
+      ],
+      "precision": "case_specific_model",
+      "scope": "Tesla 2022 model only",
+      "skill_adaptation": {
+        "authorship": "independent research synthesis, not investor quotation or claimed exact algorithm",
+        "questions": [
+          "Report a no-autonomy value separately.",
+          "Stress correlated bad outcomes, including funding pressure during delayed adoption.",
+          "A simulated percentile is conditional on assumptions, not a demonstrated real-world success probability."
+        ]
+      },
+      "pre_2026_benchmark_eligible": true,
+      "evidence_time_class": "dated_pre_2026_method",
+      "evidence_anchors": [
+        {
+          "anchor_id": "ARK-R04-A1",
+          "source_id": "ARK-TESLA-20220414",
+          "source_url": "https://www.ark-invest.com/articles/valuation-models/arks-tesla-model",
+          "source_publication_date": "2022-04-15",
+          "locator": {
+            "type": "html_model_table",
+            "heading": "Key Model Inputs",
+            "table_ordinal_within_section": 1,
+            "rows_by_topic": [
+              "Capital efficiency",
+              "Maximum production increase",
+              "Robotaxi launch year"
+            ]
+          },
+          "supporting_paraphrase": "Scenarios vary capital efficiency, production and autonomous launch.",
+          "support_role": "direct_case_specific_model_variables",
+          "native_attribution": "Tasha Keeney / ARK research team",
+          "native_scope": "April 2022 Tesla model, 2026 horizon",
+          "verified_against_source_on": "2026-10-13",
+          "supplementary_html_text_line_range_at_retrieval": {
+            "start": 178,
+            "end": 191,
+            "caveat": "Retrieval-specific convenience; section/page/paragraph is the primary locator."
+          }
+        },
+        {
+          "anchor_id": "ARK-R04-A2",
+          "source_id": "ARK-TESLA-20220414",
+          "source_url": "https://www.ark-invest.com/articles/valuation-models/arks-tesla-model",
+          "source_publication_date": "2022-04-15",
+          "locator": {
+            "type": "html_section",
+            "heading": "Autonomous Driving",
+            "paragraphs": [
+              3,
+              4,
+              5
+            ],
+            "qualification_locator": "Forecast warning immediately before the section; explanation beneath the scenario examples"
+          },
+          "supporting_paraphrase": "Results depend on launch timing and model assumptions.",
+          "support_role": "conditional_simulation_qualification_not_calibrated_probabilities",
+          "native_attribution": "Tasha Keeney / ARK research team",
+          "native_scope": "April 2022 Tesla model only",
+          "verified_against_source_on": "2026-10-13",
+          "supplementary_html_text_line_range_at_retrieval": {
+            "start": 190,
+            "end": 207,
+            "caveat": "Retrieval-specific convenience; section/page/paragraph is the primary locator."
+          }
+        }
+      ],
+      "auditor_adaptation_boundary": "Evidence anchors authenticate the documented native principle only. Skill questions are independent auditor operationalization, not verbatim investor instructions or proof of historical use."
+    }
+  ],
+  "cases": [
+    {
+      "case_id": "ARK-C01-TESLA",
+      "selection": "famous_success_retrospective",
+      "security": "Tesla common stock",
+      "claim_test": "Early disruptive vehicle/platform thesis followed by major business success; stock/manager exposure evidence is available, fund-specific realized return is not.",
+      "pre_initial_trade_evidence": {
+        "original_buy_memo_found": false,
+        "earliest_recovered_investor_original": "ARK-TESLA-20180822",
+        "classification": "pre_later_outcome_but_post_initial_holding",
+        "gap": "Initial purchase date/price and original recommendation unavailable; 2018 letter explicitly already a shareholder."
+      },
+      "chain": [
+        {
+          "event_id": "ARK-C01-E01",
+          "event_date": "2018-08-22",
+          "event_type": "original_public_thesis",
+          "source_id": "ARK-TESLA-20180822",
+          "publication_date": "2018-08-22",
+          "timing_relative_to_initial_trade": "after_initial_holding",
+          "evidence": "Wood opposing privatization; multiyear upside range with dilution and autonomous-platform assumptions.",
+          "event_date_precision": "day",
+          "source_publication_pre_2026_verified": true
+        },
+        {
+          "event_id": "ARK-C01-E02",
+          "event_date": "2019-05-22",
+          "event_type": "public_model_version",
+          "source_id": "ARK-GITHUB-TESLA",
+          "publication_date": "2019-05-22",
+          "timing_relative_to_initial_trade": "after_initial_holding",
+          "evidence": "First dated public repository model version; not first private thesis.",
+          "event_date_precision": "day",
+          "source_publication_pre_2026_verified": false
+        },
+        {
+          "event_id": "ARK-C01-E03",
+          "event_date": "2020-12-31",
+          "event_type": "reported_position",
+          "source_id": "ARK-13F-20201231",
+          "publication_date": "2021-02-12",
+          "timing_relative_to_initial_trade": "after_initial_holding",
+          "evidence": "Aggregate manager Tesla long position; published the following February.",
+          "event_date_precision": "day",
+          "source_publication_pre_2026_verified": true
+        },
+        {
+          "event_id": "ARK-C01-E04",
+          "event_date": "2020-12-31",
+          "event_type": "issuer_business_outcome",
+          "source_id": "TSLA-10K-2020",
+          "publication_date": "2021-02-08",
+          "timing_relative_to_initial_trade": "after_initial_holding",
+          "evidence": "Revenue expansion and positive common-shareholder annual net income.",
+          "event_date_precision": "day",
+          "source_publication_pre_2026_verified": true
+        },
+        {
+          "event_id": "ARK-C01-E05",
+          "event_date": "2022-04-14",
+          "event_type": "later_forecast",
+          "source_id": "ARK-TESLA-20220414",
+          "publication_date": "2022-04-15",
+          "timing_relative_to_initial_trade": "after_initial_holding",
+          "evidence": "A newer 2026 model remained heavily dependent on autonomous business value.",
+          "event_date_precision": "day",
+          "source_publication_pre_2026_verified": true
+        }
+      ],
+      "outcome_evidence_ids": [
+        "TSLA-10K-2020",
+        "ARK-13F-20201231",
+        "ARK-PROSPECTUS-20251130"
+      ],
+      "outcome_boundaries": {
+        "business_success": "verified issuer revenue/profit growth",
+        "security_success": "famous winner designation retrospective; exact 2018-entry total return not calculated",
+        "ARKK_2020_return": "Verified fund-disclosed total return, not all attributable to Tesla",
+        "realized_return": "unknown",
+        "benchmark_attribution": "unknown for Tesla investment; fund comparison disclosed separately"
+      },
+      "compatibility": "Exposure and early platform thesis are compatible. Revenue/profit outcome does not validate all robotaxi timing, margin or terminal-multiple assumptions.",
+      "independent_lesson": "Separate innovation recognition, financing/valuation precision and portfolio risk. A winning security can contain wrong component forecasts.",
+      "confidence": {
+        "dated_thesis": "high",
+        "position": "high",
+        "initial_execution": "low",
+        "causal_model_validation": "low",
+        "fund_specific_realized_return": "unknown"
+      }
+    },
+    {
+      "case_id": "ARK-C02-INNOVATION-DRAWDOWN",
+      "selection": "adverse_counterexample",
+      "portfolio": "ARK Innovation ETF (ARKK)",
+      "pre_outcome_evidence": {
+        "source_id": "ARK-INNOVATION-20211218",
+        "classification": "contemporary_pre_2022_outcome_current_revised_version",
+        "unchanged_original_archive_found": false
+      },
+      "chain": [
+        {
+          "event_id": "ARK-C02-E01",
+          "event_date": "2021-12-18",
+          "event_type": "original_public_outlook_current_version",
+          "source_id": "ARK-INNOVATION-20211218",
+          "publication_date": "2021-12-18",
+          "timing_relative_to_initial_trade": "after_existing_portfolios",
+          "evidence": "Innovation viewed as deep value; deflation central to outlook and five-year return expectation broadly stated.",
+          "event_date_precision": "day",
+          "source_publication_pre_2026_verified": false
+        },
+        {
+          "event_id": "ARK-C02-E02",
+          "event_date": "2022-06-30",
+          "event_type": "fund_drawdown_outcome",
+          "source_id": "ARK-PROSPECTUS-20251130",
+          "publication_date": "2025-11-30",
+          "timing_relative_to_initial_trade": "after_existing_portfolios",
+          "evidence": "Worst-quarter return appears in official prospectus history.",
+          "event_date_precision": "day",
+          "source_publication_pre_2026_verified": true
+        },
+        {
+          "event_id": "ARK-C02-E03",
+          "event_date": "2022-12-31",
+          "event_type": "fund_calendar_return_outcome",
+          "source_id": "ARK-PROSPECTUS-20251130",
+          "publication_date": "2025-11-30",
+          "timing_relative_to_initial_trade": "after_existing_portfolios",
+          "evidence": "2022 fund total-return loss, followed by recovery years.",
+          "event_date_precision": "day",
+          "source_publication_pre_2026_verified": true
+        },
+        {
+          "event_id": "ARK-C02-E04",
+          "event_date": "2024-12-31",
+          "event_type": "fund_benchmark_outcome",
+          "source_id": "ARK-PROSPECTUS-20251130",
+          "publication_date": "2025-11-30",
+          "timing_relative_to_initial_trade": "after_existing_portfolios",
+          "evidence": "Five-year trailing return comparison discloses substantial benchmark shortfall.",
+          "event_date_precision": "day",
+          "source_publication_pre_2026_verified": true
+        }
+      ],
+      "outcome_evidence_ids": [
+        "ARK-PROSPECTUS-20251130"
+      ],
+      "compatibility": "A severe one-year loss conflicts with capital-preservation use, but does not alone disprove an unfinished broad-strategy five-year forecast. The exact late-2021 investment cohort and revised statement cannot be equated to all ARKK holders.",
+      "independent_lesson": "Test discount-rate duration, liquidity, correlated forecasts, dilution and survivability explicitly. Do not turn drawdown into permission to add without updated underwriting.",
+      "return_verification": {
+        "fund_time_weighted_disclosed": "verified official prospectus",
+        "investor_money_weighted": "unknown",
+        "all_strategy_forecast_realization": "not yet complete / scope mismatched",
+        "full_portfolio_contribution_analysis": "not reconstructed"
+      }
+    }
+  ],
+  "thought_position_audit": [
+    {
+      "audit_id": "ARK-A01",
+      "status": "compatible_not_proof",
+      "source_ids": [
+        "ARK-TESLA-20180822",
+        "ARK-13F-20201231"
+      ],
+      "finding": "Persistent reported Tesla ownership fits the thesis; later stock success does not establish original simulated probabilities were calibrated."
+    },
+    {
+      "audit_id": "ARK-A02",
+      "status": "tension",
+      "source_ids": [
+        "ARK-INNOVATION-20211218",
+        "ARK-PROSPECTUS-20251130"
+      ],
+      "finding": "Deep-value outlook preceded a severe fund decline; growth research alone did not contain portfolio drawdown risk."
+    },
+    {
+      "audit_id": "ARK-A03",
+      "status": "unknown",
+      "finding": "Daily trim/add decisions, cash, hedges, every account and actual investor P&L were not reconstructed."
+    }
+  ],
+  "license_and_reuse": {
+    "general": "Use facts and independently worded ideas with citations. Original prose, artwork, slide layouts, workbook/formulas, source code or prompt text are separate copyrighted materials; public accessibility is not a copying license.",
+    "prompt_code": "No investor-authored prompt code was recovered or executed. Do not label newly authored Skill prompts as the investor's exact instructions.",
+    "model_license": "CC BY-NC 4.0 per official README; commercial copying/use requires written permission. Attribution still required for permitted noncommercial reuse.",
+    "source_ids": [
+      "ARK-GITHUB-TESLA"
+    ],
+    "implementation": "Independently write new sensitivity models and prompts; cite the idea/model lineage. Do not copy workbook formulas, formatting or repository content into a commercial Skill without permission/licensing review."
+  },
+  "mandate": {
+    "documented_scope": "ARKK active non-diversified disruptive-innovation equity mandate; broader firm vehicles have different legal limits.",
+    "source_ids": [
+      "ARK-PROSPECTUS-20251130",
+      "ARK-FAQ"
+    ],
+    "asset_classes": [
+      "ARKK domestic/foreign listed equity",
+      "Other ARK vehicles require separate prospectus/mandate verification"
+    ],
+    "style": "Long-horizon disruptive growth, cost-curve/adoption modeling, relative opportunity rebalancing",
+    "era": "Primary chain 2018-2022; outcomes through 2024; current process checked 2026. COVID liquidity/zero-rate era and subsequent discount-rate reset matter.",
+    "business_fit_inference": [
+      "Technology platforms with measurable cost decline, adoption elasticity and adjacent markets",
+      "Early scaling businesses where conventional near-term EPS omits substantial optionality"
+    ],
+    "no_fit_inference": [
+      "Capital-preservation or near-term liability matching",
+      "Income-oriented portfolios",
+      "Opaque optionality where launch timing and dilution cannot be bounded",
+      "Treating every mature cyclical business as a disruptive compounder"
+    ]
+  },
+  "holdings_coverage": {
+    "channels": [
+      "Daily official ETF holdings",
+      "Unofficial day-end ETF trade notifications",
+      "Manager aggregate quarterly 13F"
+    ],
+    "source_ids": [
+      "ARK-DAILY",
+      "ARK-TRADES",
+      "ARK-13F-20201231",
+      "COM-SEC13F"
+    ],
+    "latest_manager_13f_calendar_verified": {
+      "period": "2026-06-30",
+      "filed": "2026-08-14",
+      "accession": "0001104659-26-096910",
+      "source": "https://data.sec.gov/submissions/CIK0001697748.json",
+      "table_read": false
+    },
+    "audit_snapshot_ids": [
+      "ARK-13F-20201231"
+    ],
+    "remaining_gaps": [
+      "No full daily historical holdings archive ingested",
+      "No reconciliation of ETF flows to purchases/sales",
+      "No private/SMA book or hedges reconstructed"
+    ]
+  },
+  "source_refs": [
+    {
+      "source_id": "ARK-PROC",
+      "url": "https://www.ark-invest.com/investment-process",
+      "published_date": null,
+      "pre_2026_method_eligible": false
+    },
+    {
+      "source_id": "ARK-FAQ",
+      "url": "https://www.ark-invest.com/faq",
+      "published_date": null,
+      "pre_2026_method_eligible": false
+    },
+    {
+      "source_id": "ARK-DAILY",
+      "url": "https://helpcenter.ark-funds.com/where-can-i-download-the-latest-etf-holdings",
+      "published_date": null,
+      "pre_2026_method_eligible": false
+    },
+    {
+      "source_id": "ARK-TRADES",
+      "url": "https://www.ark-funds.com/ark-trade-notifications",
+      "published_date": null,
+      "pre_2026_method_eligible": false
+    },
+    {
+      "source_id": "ARK-PROSPECTUS-20251130",
+      "url": "https://assets.ark-funds.com/media-12243148-2a3e-4996-9763-260f93905eb9/43f4ba54-a65f-44d9-b18c-c911a1d6e3e4/ARK%20Innovation%20ETF%20Summary%20Prospectus.pdf",
+      "published_date": "2025-11-30",
+      "pre_2026_method_eligible": true
+    },
+    {
+      "source_id": "ARK-TESLA-20180822",
+      "url": "https://www.ark-invest.com/articles/analyst-research/tesla-private",
+      "published_date": "2018-08-22",
+      "pre_2026_method_eligible": true
+    },
+    {
+      "source_id": "ARK-TESLA-20220414",
+      "url": "https://www.ark-invest.com/articles/valuation-models/arks-tesla-model",
+      "published_date": "2022-04-15",
+      "pre_2026_method_eligible": true
+    },
+    {
+      "source_id": "ARK-GITHUB-TESLA",
+      "url": "https://github.com/ARKInvest/ARK-Invest-Tesla-Valuation-Model",
+      "published_date": null,
+      "pre_2026_method_eligible": false
+    },
+    {
+      "source_id": "ARK-INNOVATION-20211218",
+      "url": "https://www.ark-invest.com/articles/market-commentary/innovation-stocks-are-not-in-a-bubble",
+      "published_date": "2021-12-18",
+      "pre_2026_method_eligible": false
+    },
+    {
+      "source_id": "ARK-13F-20201231",
+      "url": "https://www.sec.gov/Archives/edgar/data/1697748/000110465921021679/xslForm13F_X01/infotable.xml",
+      "published_date": "2021-02-12",
+      "pre_2026_method_eligible": false
+    },
+    {
+      "source_id": "TSLA-10K-2020",
+      "url": "https://www.sec.gov/Archives/edgar/data/1318605/000156459021004599/tsla-10k_20201231.htm",
+      "published_date": "2021-02-08",
+      "pre_2026_method_eligible": false
+    },
+    {
+      "source_id": "COM-SEC13F",
+      "url": "https://www.sec.gov/rules-regulations/staff-guidance/frequently-asked-questions-about-form-13f",
+      "published_date": "2026-03-06",
+      "pre_2026_method_eligible": false
+    }
+  ],
+  "benchmark_2026_method_packet": {
+    "decision_cutoff_utc": "2025-12-31T23:59:59Z",
+    "audit_date": "2026-10-13",
+    "eligible_method_source_ids": [
+      "ARK-PROSPECTUS-20251130",
+      "ARK-TESLA-20180822",
+      "ARK-TESLA-20220414"
+    ],
+    "audit_only_source_ids": [
+      "ARK-PROC",
+      "ARK-FAQ",
+      "ARK-DAILY",
+      "ARK-TRADES",
+      "ARK-GITHUB-TESLA",
+      "ARK-INNOVATION-20211218",
+      "COM-SEC13F"
+    ],
+    "ex_ante_guardrail": "The current dossiers are an audit. For a beginning-2026 decision exercise, use only eligible dated method materials and company facts publicly available by cutoff. 2026 publications/holdings/outcomes, undated process statements, unknown revisions and latest-close results must not enter decision prompts. Freeze decisions before opening outcome packets.",
+    "identity_warning": "Present-day identity/authority checks are audit metadata, not a historical input.",
+    "case_warning": "Retrospectively selected historical cases inform method limitations; they are not a preselected performance sample.",
+    "limitation": "Most current general ARK process rules are undated and ineligible; dated Tesla-model methods remain case-specific. Current GitHub master and revised 2021 commentary excluded unless a pre-cutoff version is pinned."
+  },
+  "rule_anchor_file": "rule_anchors.json",
+  "historical_rule_anchor_file": "pre_2026_rule_anchors.json"
+}

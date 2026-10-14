@@ -1,0 +1,177 @@
+{
+  "schema": "meta-input-quality-review.v1",
+  "reviewed_at": "2026-10-14T04:45:01.218478+00:00",
+  "decision_cutoff": "2025-12-31T23:59:59Z",
+  "status": "pass_with_minor_labels",
+  "material_must_correct_findings": [],
+  "blocking": false,
+  "scope": "Focused independent source spot-check, not exhaustive validation of all 262 facts and not a model-output arithmetic audit. Frozen inputs not modified.",
+  "minor_label_findings": [
+    {
+      "id": "L1",
+      "severity": "minor_nonblocking_label",
+      "affected_fact_ids": [
+        "META.BS_Q3_2025.october_new_cloud_arrangements",
+        "META.BS_Q3_2025.jv_initial_lease_commitment",
+        "META.BS_Q3_2025.jv_residual_value_guarantee_initial_threshold",
+        "META.BS_Q3_2025.jv_one_time_distribution"
+      ],
+      "finding": "October subsequent events carry BS_Q3_2025 period IDs, whose period definition is September 30. The narrative and most notes correctly identify October. Treat these as October events in downstream output, not September balances. A future schema revision could give them October event IDs; do not change the frozen run inputs."
+    },
+    {
+      "id": "L2",
+      "severity": "minor_nonblocking_label",
+      "location": "base-public-data.md financial tables",
+      "finding": "EBIT is shorthand for reported income from operations, matching the JSON operating_income metric. Downstream output should call it operating income rather than imply independently reconstructed pre-interest earnings."
+    }
+  ],
+  "mechanical_checks": [
+    {
+      "fact_id": "META.TTM_Q3_2025.revenue",
+      "expected": 189458,
+      "supplied": 189458,
+      "pass": true
+    },
+    {
+      "fact_id": "META.TTM_Q3_2025.cost_of_revenue",
+      "expected": 34108,
+      "supplied": 34108,
+      "pass": true
+    },
+    {
+      "fact_id": "META.TTM_Q3_2025.operating_income",
+      "expected": 81895,
+      "supplied": 81895,
+      "pass": true
+    },
+    {
+      "fact_id": "META.TTM_Q3_2025.net_income_gaap",
+      "expected": 58528,
+      "supplied": 58528,
+      "pass": true
+    },
+    {
+      "fact_id": "META.TTM_Q3_2025.cfo",
+      "expected": 107574,
+      "supplied": 107574,
+      "pass": true
+    },
+    {
+      "fact_id": "META.TTM_Q3_2025.cash_ppe_outflow",
+      "expected": 62733,
+      "supplied": 62733,
+      "pass": true
+    },
+    {
+      "fact_id": "META.TTM_Q3_2025.finance_lease_principal",
+      "expected": 2181,
+      "supplied": 2181,
+      "pass": true
+    },
+    {
+      "fact_id": "META.TTM_Q3_2025.company_fcf",
+      "expected": 42660,
+      "supplied": 42660,
+      "pass": true
+    },
+    {
+      "fact_id": "META.TTM_Q3_2025.da",
+      "expected": 17665,
+      "supplied": 17665,
+      "pass": true
+    },
+    {
+      "fact_id": "META.TTM_Q3_2025.sbc",
+      "expected": 18799,
+      "supplied": 18799,
+      "pass": true
+    },
+    {
+      "fact_id": "META.FY2020.company_fcf",
+      "expected": 23028,
+      "supplied": 23028,
+      "pass": true
+    },
+    {
+      "fact_id": "META.FY2021.company_fcf",
+      "expected": 38439,
+      "supplied": 38439,
+      "pass": true
+    },
+    {
+      "fact_id": "META.FY2022.company_fcf",
+      "expected": 18439,
+      "supplied": 18439,
+      "pass": true
+    },
+    {
+      "fact_id": "META.FY2023.company_fcf",
+      "expected": 43010,
+      "supplied": 43010,
+      "pass": true
+    },
+    {
+      "fact_id": "META.FY2024.company_fcf",
+      "expected": 52103,
+      "supplied": 52103,
+      "pass": true
+    },
+    {
+      "fact_id": "META.Q3_2024.company_fcf",
+      "expected": 15522,
+      "supplied": 15522,
+      "pass": true
+    },
+    {
+      "fact_id": "META.Q3_2025.company_fcf",
+      "expected": 10625,
+      "supplied": 10625,
+      "pass": true
+    },
+    {
+      "fact_id": "META.YTD9_2024.company_fcf",
+      "expected": 38951,
+      "supplied": 38951,
+      "pass": true
+    },
+    {
+      "fact_id": "META.YTD9_2025.company_fcf",
+      "expected": 29508,
+      "supplied": 29508,
+      "pass": true
+    },
+    {
+      "fact_id": "META.TTM_Q3_2025.company_fcf",
+      "expected": 42660,
+      "supplied": 42660,
+      "pass": true
+    }
+  ],
+  "source_verification": {
+    "price": "Both Yahoo UK/AU search extracts independently reproduced the dated December 31, 2025 Close value 660.09, OHLC and volume. The packet accurately labels current secondary retrieval and excludes dividend-adjusted closes. Mirrors are not independent data vendors.",
+    "financials": "Opened exact S1-S5 SEC/IR documents and checked material statement inputs, annual/interim FCF definitions, SBC, deferred-tax charge/cash-flow distinction, share dates, and aggregate operating metrics.",
+    "financing": "Opened S7 body and index. Six tranches total USD30bn; completion and filing November3,2025. SEC accepted 2025-11-03 16:18:13. No December cash balance inferred.",
+    "publication_dates": "SEC index dates for S1/S3/S4 match. S2/S5 displayed dates match. S7 index now accessible. E1 call date October29,2025 confirmed, exact PDF upload time remains unverified. E2/E3 displayed publication dates and authors match.",
+    "enrichment": "Exact E1/E2/E3 bodies support the scoped management observations and conflicting arguments. 21x2027E and USD869 remain attributed dated opinions, not verified consensus or valuation facts."
+  },
+  "sources": {
+    "S1": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000017/meta-20241231.htm",
+    "S2": "https://investor.atmeta.com/investor-news/press-release-details/2025/Meta-Reports-Third-Quarter-2025-Results/default.aspx",
+    "S3": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047240/meta-20250930.htm",
+    "S4": "https://www.sec.gov/Archives/edgar/data/1326801/000132680123000013/meta-20221231.htm",
+    "S5": "https://investor.atmeta.com/investor-news/press-release-details/2025/Meta-Reports-Fourth-Quarter-and-Full-Year-2024-Results/default.aspx",
+    "S6": "https://uk.finance.yahoo.com/quote/META/history/",
+    "S7": "https://www.sec.gov/Archives/edgar/data/1326801/000119312525262593/d75422d8k.htm",
+    "S6_AU": "https://au.finance.yahoo.com/quote/META/history/",
+    "E1": "https://s21.q4cdn.com/399680738/files/doc_financials/2025/q3/META-Q3-2025-Earnings-Call-Transcript.pdf",
+    "E2": "https://www.investing.com/news/stock-market-news/oppenheimer-downgrades-meta-on-ai-spending-concerns-4319927",
+    "E3": "https://www.investing.com/analysis/meta-platforms-selloff-exposes-ai-capex-risk-despite-noncash-tax-hit-200669395",
+    "S7_index": "https://www.sec.gov/Archives/edgar/data/1326801/000119312525262593/0001193125-25-262593-index.html"
+  },
+  "input_sha256": {
+    "data/base-public-data.md": "5b32145f177e80a9a83dc3762d7b7a394d31f30be9530a1fc9e1863b9d637292",
+    "data/facts.json": "d447a9af9c882a4af70d8bd992a020b020a3dc0e7f2f1faf21323ef9dccdeae8",
+    "data/enrichment-public-materials.md": "9fab9ecec66bb210900527ee147c50ebd2490a61309c4368488050b58be8759d"
+  },
+  "excluded": "No 2026 operating outcomes/current opinions were used. Incidental current widgets and post-cutoff rows on historical pages were disregarded."
+}

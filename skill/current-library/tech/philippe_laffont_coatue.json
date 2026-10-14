@@ -1,0 +1,655 @@
+{
+  "schema_version": "investor_dossier.v2.tech.1",
+  "investor_id": "philippe_laffont_coatue",
+  "as_of_date": "2026-10-13",
+  "identity": {
+    "person": "Philippe Laffont",
+    "organization": "Coatue Management LLC",
+    "role": "Founder/principal decision-maker; primary portfolio manager with overall responsibility for CTEK",
+    "role_evidence_dates": [
+      "2026-05-01 prospectus"
+    ],
+    "source_ids": [
+      "COATUE-CTEK-20260501"
+    ],
+    "organization_start": "1999-12",
+    "decision_attribution": "Laffont overall responsibility is documented; delegation is permitted. Viswanath/Khanna authored the AI paper. Aggregated 13F rows do not identify the initiating analyst/PM or order executor."
+  },
+  "source_registry_file": "sources.json",
+  "source_ids": [
+    "COATUE-HOME",
+    "COATUE-CTEK-20260501",
+    "COATUE-AI-20231116",
+    "COATUE-CTAKES",
+    "COATUE-13F-20221231",
+    "COATUE-13F-20231231",
+    "NVDA-10K-FY2024",
+    "MRNA-10K-2023",
+    "MRNA-RESULTS-2023",
+    "MRNA-LETTER-20230103",
+    "COM-SEC13F"
+  ],
+  "selection_file": "case_selection.json",
+  "common_disclosure_file": "common_disclosure.json",
+  "research_scope": {
+    "method": "Targeted first-party audit with original fund/issuer publications and SEC filings. Search chosen famous cases and counterexamples; follow dated antecedents before writing outcome chains.",
+    "completeness": "Not a scan of all lifetime content, all interviews, all transactions or all fund portfolios.",
+    "excluded": [
+      "Third-party holdings aggregators as core proof",
+      "Persona quotations without operational evidence",
+      "Paywalled/private investment-committee papers unavailable to this audit",
+      "Social media feeds/podcast lifetime transcripts",
+      "Private fund audited return histories not publicly recovered"
+    ],
+    "retrospective_selection": "Purposive famous-success selection paired with adverse/counterexample evidence, recorded before detailed writeups. Not a predictive backtest, hit rate or representative sample.",
+    "holding_inference_guardrails": [
+      "Do not infer the trade date, price, fund/account, intent or realized P&L from a 13F snapshot.",
+      "Do not treat omitted holdings as a full exit without coverage reconciliation.",
+      "Current process disclosures may not describe historic decisions."
+    ]
+  },
+  "process_rules": [
+    {
+      "rule_id": "COATUE-R01",
+      "documented_rule": "Map the industry, addressable market, model quality and adoption/profit S-curve.",
+      "source_ids": [
+        "COATUE-CTEK-20260501"
+      ],
+      "precision": "documented_process",
+      "scope": "CTEK 2026 disclosed process",
+      "skill_adaptation": {
+        "authorship": "independent research synthesis, not investor quotation or claimed exact algorithm",
+        "questions": [
+          "Which layer captures economic value if industry revenue grows?",
+          "Do incumbent distribution and scale advantages defeat the new entrant?"
+        ]
+      },
+      "pre_2026_benchmark_eligible": false,
+      "evidence_time_class": "audit_only_current_or_undated_method",
+      "evidence_anchors": [
+        {
+          "anchor_id": "COATUE-R01-A1",
+          "source_id": "COATUE-CTEK-20260501",
+          "source_url": "https://www.coatue.com/ctek/documents/Coatue_-_CTEK_Prospectus__May_1__2026_.pdf",
+          "source_publication_date": "2026-05-01",
+          "locator": {
+            "type": "pdf_section",
+            "pdf_page_zero_based": 25,
+            "pdf_page_one_based": 26,
+            "printed_page": 22,
+            "heading": "Public Assets",
+            "paragraph_locator": "Second Public Assets paragraph, beginning on prior printed page 21 and continuing on printed page 22; four enumerated tests",
+            "paragraph": 2
+          },
+          "supporting_paraphrase": "Industry maps, TAM, quality and S-curves guide selection.",
+          "support_role": "direct_current_fund_process",
+          "native_attribution": "Coatue Management LLC",
+          "native_scope": "CTEK May 1, 2026; historical packet excluded",
+          "verified_against_source_on": "2026-10-13",
+          "supplementary_html_text_line_range_at_retrieval": {
+            "start": 866,
+            "end": 873,
+            "caveat": "Retrieval-specific convenience; section/page/paragraph is the primary locator."
+          }
+        }
+      ],
+      "auditor_adaptation_boundary": "Evidence anchors authenticate the documented native principle only. Skill questions are independent auditor operationalization, not verbatim investor instructions or proof of historical use."
+    },
+    {
+      "rule_id": "COATUE-R02",
+      "documented_rule": "Use financial models, data, surveys and experts to inform targets and position size.",
+      "source_ids": [
+        "COATUE-CTEK-20260501"
+      ],
+      "precision": "documented_process",
+      "scope": "CTEK 2026 disclosed process",
+      "skill_adaptation": {
+        "authorship": "independent research synthesis, not investor quotation or claimed exact algorithm",
+        "questions": [
+          "Record data provenance, sampling bias and changes before forecast revisions.",
+          "Reconcile alternative-data proxies to issuer reported cash economics."
+        ]
+      },
+      "pre_2026_benchmark_eligible": false,
+      "evidence_time_class": "audit_only_current_or_undated_method",
+      "evidence_anchors": [
+        {
+          "anchor_id": "COATUE-R02-A1",
+          "source_id": "COATUE-CTEK-20260501",
+          "source_url": "https://www.coatue.com/ctek/documents/Coatue_-_CTEK_Prospectus__May_1__2026_.pdf",
+          "source_publication_date": "2026-05-01",
+          "locator": {
+            "type": "pdf_subsection",
+            "pdf_page_zero_based": 27,
+            "pdf_page_one_based": 28,
+            "printed_page": 24,
+            "section": "COATUE OVERVIEW",
+            "heading": "Proprietary Data Science Capabilities",
+            "paragraph": 1
+          },
+          "supporting_paraphrase": "Mosaic data and models inform thesis, sizing and monitoring.",
+          "support_role": "direct_current_research_and_sizing_process",
+          "native_attribution": "Coatue Management LLC",
+          "native_scope": "CTEK May 1, 2026; historical packet excluded",
+          "verified_against_source_on": "2026-10-13",
+          "supplementary_html_text_line_range_at_retrieval": {
+            "start": 929,
+            "end": 936,
+            "caveat": "Retrieval-specific convenience; section/page/paragraph is the primary locator."
+          }
+        }
+      ],
+      "auditor_adaptation_boundary": "Evidence anchors authenticate the documented native principle only. Skill questions are independent auditor operationalization, not verbatim investor instructions or proof of historical use."
+    },
+    {
+      "rule_id": "COATUE-R03",
+      "documented_rule": "Actively resize exposures and cash as risk/reward changes.",
+      "source_ids": [
+        "COATUE-CTEK-20260501"
+      ],
+      "precision": "documented_process",
+      "scope": "CTEK 2026 disclosed process",
+      "skill_adaptation": {
+        "authorship": "independent research synthesis, not investor quotation or claimed exact algorithm",
+        "questions": [
+          "Measure gross/net, factor overlap, liquidity and private valuation lag.",
+          "Document why an exposure change follows updated evidence; do not invent an undisclosed numeric stop-loss."
+        ]
+      },
+      "pre_2026_benchmark_eligible": false,
+      "evidence_time_class": "audit_only_current_or_undated_method",
+      "evidence_anchors": [
+        {
+          "anchor_id": "COATUE-R03-A1",
+          "source_id": "COATUE-CTEK-20260501",
+          "source_url": "https://www.coatue.com/ctek/documents/Coatue_-_CTEK_Prospectus__May_1__2026_.pdf",
+          "source_publication_date": "2026-05-01",
+          "locator": {
+            "type": "pdf_subsection",
+            "pdf_page_zero_based": 27,
+            "pdf_page_one_based": 28,
+            "printed_page": 24,
+            "section": "COATUE OVERVIEW",
+            "heading": "Risk Management",
+            "paragraph": 1
+          },
+          "supporting_paraphrase": "Active resizing and cash adjustments manage exposure.",
+          "support_role": "direct_current_exposure_management_process_no_numeric_stop",
+          "native_attribution": "Coatue Management LLC",
+          "native_scope": "CTEK May 1, 2026; historical packet excluded",
+          "verified_against_source_on": "2026-10-13",
+          "supplementary_html_text_line_range_at_retrieval": {
+            "start": 923,
+            "end": 928,
+            "caveat": "Retrieval-specific convenience; section/page/paragraph is the primary locator."
+          }
+        }
+      ],
+      "auditor_adaptation_boundary": "Evidence anchors authenticate the documented native principle only. Skill questions are independent auditor operationalization, not verbatim investor instructions or proof of historical use."
+    },
+    {
+      "rule_id": "COATUE-R04",
+      "documented_rule": "Analyze AI stack economics and adoption constraints, beyond model capability.",
+      "source_ids": [
+        "COATUE-AI-20231116"
+      ],
+      "precision": "team_public_research_framework",
+      "scope": "Viswanath/Khanna 2023 paper",
+      "skill_adaptation": {
+        "authorship": "independent research synthesis, not investor quotation or claimed exact algorithm",
+        "questions": [
+          "Separate training, inference, compute supply and application monetization.",
+          "Stress utilization, energy demand, capex, price competition and customer ROI."
+        ]
+      },
+      "pre_2026_benchmark_eligible": true,
+      "evidence_time_class": "dated_pre_2026_method",
+      "evidence_anchors": [
+        {
+          "anchor_id": "COATUE-R04-A1",
+          "source_id": "COATUE-AI-20231116",
+          "source_url": "https://www.coatue.com/blog/perspective/ai-the-coming-revolution-2023",
+          "source_publication_date": "2023-11-16",
+          "locator": {
+            "type": "html_numbered_section",
+            "numbered_section": 3,
+            "heading_topic": "AI-centric technology stack",
+            "paragraph_locator": "Opening paragraph and four layer bullets; compute/cloud bullet and immediately following inference-cost paragraph"
+          },
+          "supporting_paraphrase": "Layer interactions and compute economics shape AI opportunity.",
+          "support_role": "direct_team_research_framework",
+          "native_attribution": "Sri Viswanath and Vibhor Khanna",
+          "native_scope": "November 16, 2023 Coatue team paper; not personal Laffont authorship",
+          "verified_against_source_on": "2026-10-13",
+          "supplementary_html_text_line_range_at_retrieval": {
+            "start": 30,
+            "end": 38,
+            "caveat": "Retrieval-specific convenience; section/page/paragraph is the primary locator."
+          }
+        },
+        {
+          "anchor_id": "COATUE-R04-A2",
+          "source_id": "COATUE-AI-20231116",
+          "source_url": "https://www.coatue.com/blog/perspective/ai-the-coming-revolution-2023",
+          "source_publication_date": "2023-11-16",
+          "locator": {
+            "type": "html_numbered_section",
+            "numbered_section": 4,
+            "paragraph_locator": "Third prose paragraph; discussion of cost, deployment, security and scaling challenges"
+          },
+          "supporting_paraphrase": "Adoption depends on cost and deployment constraints.",
+          "support_role": "direct_team_research_qualification",
+          "native_attribution": "Sri Viswanath and Vibhor Khanna",
+          "native_scope": "November 16, 2023 Coatue team paper only",
+          "verified_against_source_on": "2026-10-13",
+          "supplementary_html_text_line_range_at_retrieval": {
+            "start": 39,
+            "end": 43,
+            "caveat": "Retrieval-specific convenience; section/page/paragraph is the primary locator."
+          }
+        }
+      ],
+      "auditor_adaptation_boundary": "Evidence anchors authenticate the documented native principle only. Skill questions are independent auditor operationalization, not verbatim investor instructions or proof of historical use."
+    },
+    {
+      "rule_id": "COATUE-R05",
+      "documented_rule": "AI can support research; investment personnel remain decision-makers.",
+      "source_ids": [
+        "COATUE-CTEK-20260501"
+      ],
+      "precision": "documented_process",
+      "scope": "CTEK 2026 disclosed process",
+      "skill_adaptation": {
+        "authorship": "independent research synthesis, not investor quotation or claimed exact algorithm",
+        "questions": [
+          "Require a human accountable thesis and independent factual verification.",
+          "Do not emulate access to proprietary Mosaic/Coatue Brain data that the Skill does not have."
+        ]
+      },
+      "pre_2026_benchmark_eligible": false,
+      "evidence_time_class": "audit_only_current_or_undated_method",
+      "evidence_anchors": [
+        {
+          "anchor_id": "COATUE-R05-A1",
+          "source_id": "COATUE-CTEK-20260501",
+          "source_url": "https://www.coatue.com/ctek/documents/Coatue_-_CTEK_Prospectus__May_1__2026_.pdf",
+          "source_publication_date": "2026-05-01",
+          "locator": {
+            "type": "pdf_subsection",
+            "pdf_page_zero_based": 27,
+            "pdf_page_one_based": 28,
+            "printed_page": 24,
+            "section": "COATUE OVERVIEW",
+            "heading": "Proprietary Data Science Capabilities",
+            "paragraph": 2,
+            "sentence_locator": "Final sentence, spanning two extracted lines"
+          },
+          "supporting_paraphrase": "AI supports research; personnel retain investment decisions.",
+          "support_role": "direct_current_human_decision_authority",
+          "native_attribution": "Coatue Management LLC",
+          "native_scope": "CTEK May 1, 2026; historical packet excluded",
+          "verified_against_source_on": "2026-10-13",
+          "supplementary_html_text_line_range_at_retrieval": {
+            "start": 937,
+            "end": 941,
+            "caveat": "Retrieval-specific convenience; section/page/paragraph is the primary locator."
+          }
+        }
+      ],
+      "auditor_adaptation_boundary": "Evidence anchors authenticate the documented native principle only. Skill questions are independent auditor operationalization, not verbatim investor instructions or proof of historical use."
+    }
+  ],
+  "cases": [
+    {
+      "case_id": "COATUE-C01-NVDA",
+      "selection": "famous_success_retrospective",
+      "security": "NVIDIA common stock",
+      "evidence_strength_label": "security/business winner with verified exposure; investor thesis/execution chain incomplete",
+      "pre_initial_trade_evidence": {
+        "original_buy_memo_found": false,
+        "earliest_selected_position": "COATUE-13F-20221231",
+        "earliest_recovered_relevant_public_paper": "COATUE-AI-20231116",
+        "classification": "paper_post_position_and_post_much_of_2023_appreciation",
+        "gap": "No dated Laffont NVIDIA-specific pre-purchase valuation/price target found in targeted primary search."
+      },
+      "chain": [
+        {
+          "event_id": "COATUE-C01-E01",
+          "event_date": "2022-12-31",
+          "event_type": "reported_position",
+          "source_id": "COATUE-13F-20221231",
+          "publication_date": "2023-02-14",
+          "timing_relative_to_initial_trade": "after_unknown_initial_trade",
+          "evidence": "Four common-stock rows summed; evidence of manager exposure, not new purchase timing.",
+          "event_date_precision": "day",
+          "source_publication_pre_2026_verified": true
+        },
+        {
+          "event_id": "COATUE-C01-E02",
+          "event_date": "2023-11-16",
+          "event_type": "original_team_industry_research",
+          "source_id": "COATUE-AI-20231116",
+          "publication_date": "2023-11-16",
+          "timing_relative_to_initial_trade": "after_unknown_initial_trade",
+          "evidence": "AI stack framework after known position; not Laffont-authored or pre-rally purchase rationale.",
+          "event_date_precision": "day",
+          "source_publication_pre_2026_verified": true
+        },
+        {
+          "event_id": "COATUE-C01-E03",
+          "event_date": "2023-12-31",
+          "event_type": "reported_position",
+          "source_id": "COATUE-13F-20231231",
+          "publication_date": "2024-02-14",
+          "timing_relative_to_initial_trade": "after_unknown_initial_trade",
+          "evidence": "Six common-stock rows summed; materially higher marked value despite fewer aggregate shares.",
+          "event_date_precision": "day",
+          "source_publication_pre_2026_verified": true
+        },
+        {
+          "event_id": "COATUE-C01-E04",
+          "event_date": "2024-01-28",
+          "event_type": "issuer_operating_and_security_outcome",
+          "source_id": "NVDA-10K-FY2024",
+          "publication_date": "2024-02-21",
+          "timing_relative_to_initial_trade": "after_unknown_initial_trade",
+          "evidence": "Rapid revenue/earnings growth and issuer fiscal-year total-return comparison.",
+          "event_date_precision": "day",
+          "source_publication_pre_2026_verified": true
+        }
+      ],
+      "outcome_evidence_ids": [
+        "COATUE-13F-20221231",
+        "COATUE-13F-20231231",
+        "NVDA-10K-FY2024"
+      ],
+      "computed_price_proxy": {
+        "method": "value/shares for each same-class aggregate; endpoint price proxy, excludes dividends and intra-period trading",
+        "start_usd": 146.1399998965212,
+        "end_usd": 495.2199999491,
+        "change_pct": 238.86684022153779,
+        "dates": [
+          "2022-12-31",
+          "2023-12-31"
+        ],
+        "not_portfolio_return": true,
+        "arithmetic_precision_note": "Computed from unrounded aggregate filing values/shares. Endpoint proxy is not an independently verified exchange close."
+      },
+      "computed_issuer_fiscal_return": {
+        "NVDA_pct": 199.82,
+        "SP500_pct": 22.12,
+        "Nasdaq100_pct": 44.41,
+        "dates": [
+          "2023-01-29",
+          "2024-01-28"
+        ],
+        "source_id": "NVDA-10K-FY2024",
+        "not_Coatue_return": true
+      },
+      "compatibility": "Known ownership, later AI framework and compute-led issuer growth are compatible. They do not prove the initiating thesis, no-cost research edge or any Laffont-specific realized investment performance.",
+      "independent_lesson": "Analyze picks-and-shovels monetization and supply constraints; do not backfill a pre-trade memo from a later successful holdings chart.",
+      "return_verification": {
+        "security_fiscal_total_return": "verified issuer table plus transparent arithmetic",
+        "Coatue_realized_return": "unknown",
+        "Coatue_fund_alpha": "unknown",
+        "trade_execution": "unknown"
+      }
+    },
+    {
+      "case_id": "COATUE-C02-MRNA",
+      "selection": "adverse_counterexample",
+      "security": "Moderna common stock",
+      "evidence_strength_label": "verified exposure and adverse security/business outcome; thesis/execution unknown",
+      "pre_initial_trade_evidence": {
+        "original_buy_memo_found": false,
+        "investor_specific_valuation_found": false,
+        "issuer_context": "MRNA-LETTER-20230103",
+        "classification": "issuer narrative is not Coatue intent"
+      },
+      "chain": [
+        {
+          "event_id": "COATUE-C02-E01",
+          "event_date": "2022-12-31",
+          "event_type": "reported_position",
+          "source_id": "COATUE-13F-20221231",
+          "publication_date": "2023-02-14",
+          "timing_relative_to_initial_trade": "after_unknown_initial_trade",
+          "evidence": "Large aggregated common-equity exposure before later calendar-year decline.",
+          "event_date_precision": "day",
+          "source_publication_pre_2026_verified": true
+        },
+        {
+          "event_id": "COATUE-C02-E02",
+          "event_date": "2023-01-03",
+          "event_type": "issuer_platform_context",
+          "source_id": "MRNA-LETTER-20230103",
+          "publication_date": "2023-01-03",
+          "timing_relative_to_initial_trade": "after_unknown_initial_trade",
+          "evidence": "Issuer pipeline optimism; cannot be substituted for investor original memo.",
+          "event_date_precision": "day",
+          "source_publication_pre_2026_verified": true
+        },
+        {
+          "event_id": "COATUE-C02-E03",
+          "event_date": "2023-12-31",
+          "event_type": "reported_position",
+          "source_id": "COATUE-13F-20231231",
+          "publication_date": "2024-02-14",
+          "timing_relative_to_initial_trade": "after_unknown_initial_trade",
+          "evidence": "Lower shares and market value; no documented reason or exact sell dates.",
+          "event_date_precision": "day",
+          "source_publication_pre_2026_verified": true
+        },
+        {
+          "event_id": "COATUE-C02-E04",
+          "event_date": "2023-12-31",
+          "event_type": "issuer_business_outcome",
+          "source_id": "MRNA-RESULTS-2023",
+          "publication_date": "2024-02-22",
+          "timing_relative_to_initial_trade": "after_unknown_initial_trade",
+          "evidence": "COVID-related sales normalization and high inventory/cost burden.",
+          "event_date_precision": "day",
+          "source_publication_pre_2026_verified": true
+        }
+      ],
+      "outcome_evidence_ids": [
+        "COATUE-13F-20221231",
+        "COATUE-13F-20231231",
+        "MRNA-RESULTS-2023"
+      ],
+      "computed_price_proxy": {
+        "start_usd": 179.62,
+        "end_usd": 99.45,
+        "change_pct": -44.63,
+        "dates": [
+          "2022-12-31",
+          "2023-12-31"
+        ],
+        "method": "13F market value / common shares; no dividends/lot matching",
+        "not_portfolio_return": true
+      },
+      "compatibility": "Innovation-platform mandate can include Moderna. Declining exposure is compatible with adaptive risk management but cannot prove the stated process drove sales, nor that the entire long-term pipeline thesis failed.",
+      "independent_lesson": "Model pandemic/one-off demand separately from endemic demand and unproven pipeline optionality. Stress inventory, cash burn, trial outcomes and competitive/regulatory timing.",
+      "return_verification": {
+        "security_endpoint_price_proxy": "verified arithmetic from filing values",
+        "Coatue_realized_loss": "unknown",
+        "hedged_economic_exposure": "unknown",
+        "benchmark_relative_fund_return": "unknown"
+      },
+      "attribution_warning": "No investigator evidence supports attributing a specific Moderna research rationale or order to Laffont personally."
+    }
+  ],
+  "thought_position_audit": [
+    {
+      "audit_id": "COATUE-A01",
+      "status": "compatible_not_causal",
+      "source_ids": [
+        "COATUE-AI-20231116",
+        "COATUE-13F-20221231",
+        "COATUE-13F-20231231"
+      ],
+      "finding": "AI paper and NVIDIA exposure align broadly, but later paper cannot establish original purchase reasoning."
+    },
+    {
+      "audit_id": "COATUE-A02",
+      "status": "unknown",
+      "source_ids": [
+        "COATUE-CTEK-20260501",
+        "COATUE-13F-20221231",
+        "COATUE-13F-20231231"
+      ],
+      "finding": "NVIDIA/Moderna lower common shares could reflect valuation, cash or other account decisions; 2026 risk policy cannot explain 2023 trades by itself."
+    },
+    {
+      "audit_id": "COATUE-A03",
+      "status": "attribution_boundary",
+      "source_ids": [
+        "COATUE-CTAKES",
+        "COATUE-AI-20231116"
+      ],
+      "finding": "Named authors and selected research opinions are not identical to Laffont, all current accounts or full portfolio recommendations."
+    }
+  ],
+  "license_and_reuse": {
+    "general": "Use facts and independently worded ideas with citations. Original prose, artwork, slide layouts, workbook/formulas, source code or prompt text are separate copyrighted materials; public accessibility is not a copying license.",
+    "prompt_code": "No investor-authored prompt code was recovered or executed. Do not label newly authored Skill prompts as the investor's exact instructions.",
+    "status": "No general open license identified for prospectus, research/decks or proprietary systems; exact site copying terms not exhaustively audited.",
+    "implementation": "Use an independently worded industry-map/risk checklist with citation. Do not copy proprietary Mosaic data, deck graphics, code or prompts, or claim access to them."
+  },
+  "mandate": {
+    "documented_scope": "Technology/innovation full-lifecycle platform. CTEK prospectus provides current fund-specific, not universal historic, terms.",
+    "source_ids": [
+      "COATUE-HOME",
+      "COATUE-CTEK-20260501"
+    ],
+    "asset_classes": [
+      "Public listed equities",
+      "Private venture/growth",
+      "Structured equity/debt",
+      "Fund-specific derivatives, currency instruments, short-against-box and cash"
+    ],
+    "style": "Data-intensive sector maps, adoption S-curves and fundamental value modeling with flexible exposure management",
+    "era": "2022/2023 public-position chains; original 2023 AI team research; 2026 fund/process disclosure. No reconstruction of 1999-2021 strategy history.",
+    "business_fit_inference": [
+      "AI infrastructure and value-chain beneficiaries including mature incumbents",
+      "Innovation businesses with measurable adoption, unit economics and competitive advantages",
+      "Late private/public transitions where capital structure and liquidity matter"
+    ],
+    "no_fit_inference": [
+      "A pure personal Laffont quote/13F clone pretending to represent all funds",
+      "Daily-liquidity needs expressed through an illiquid private/public vehicle",
+      "Assuming platform success protects against demand normalization or valuation reset"
+    ]
+  },
+  "holdings_coverage": {
+    "channels": [
+      "Quarterly aggregate manager SEC 13F",
+      "Fund-specific prospectus/shareholder reports where available"
+    ],
+    "source_ids": [
+      "COATUE-13F-20221231",
+      "COATUE-13F-20231231",
+      "COM-SEC13F"
+    ],
+    "latest_manager_13f_calendar_verified": {
+      "period": "2026-06-30",
+      "filed": "2026-08-14",
+      "accession": "0000919574-26-005478",
+      "source": "https://data.sec.gov/submissions/CIK0001135730.json",
+      "table_read": false
+    },
+    "aggregation_rule": "Sum same CUSIP/class common-share rows for examined issuer. Do not combine puts/calls or other classes. Keep number of rows/included-manager scope; this is aggregate exposure, not one fund.",
+    "remaining_gaps": [
+      "Included-manager mix can change between snapshots",
+      "Private book, noncovered global positions, cash and hedges absent",
+      "Initial cost, trades, rationale and realized fund/position returns unavailable"
+    ]
+  },
+  "source_refs": [
+    {
+      "source_id": "COATUE-HOME",
+      "url": "https://www.coatue.com/",
+      "published_date": null,
+      "pre_2026_method_eligible": false
+    },
+    {
+      "source_id": "COATUE-CTEK-20260501",
+      "url": "https://www.coatue.com/ctek/documents/Coatue_-_CTEK_Prospectus__May_1__2026_.pdf",
+      "published_date": "2026-05-01",
+      "pre_2026_method_eligible": false
+    },
+    {
+      "source_id": "COATUE-AI-20231116",
+      "url": "https://www.coatue.com/blog/perspective/ai-the-coming-revolution-2023",
+      "published_date": "2023-11-16",
+      "pre_2026_method_eligible": true
+    },
+    {
+      "source_id": "COATUE-CTAKES",
+      "url": "https://www.coatue.com/c/takes",
+      "published_date": null,
+      "pre_2026_method_eligible": false
+    },
+    {
+      "source_id": "COATUE-13F-20221231",
+      "url": "https://www.sec.gov/Archives/edgar/data/1135730/000091957423001190/xslForm13F_X02/infotable.xml",
+      "published_date": "2023-02-14",
+      "pre_2026_method_eligible": false
+    },
+    {
+      "source_id": "COATUE-13F-20231231",
+      "url": "https://www.sec.gov/Archives/edgar/data/1135730/000091957424001118/xslForm13F_X02/infotable.xml",
+      "published_date": "2024-02-14",
+      "pre_2026_method_eligible": false
+    },
+    {
+      "source_id": "NVDA-10K-FY2024",
+      "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581024000029/nvda-20240128.htm",
+      "published_date": "2024-02-21",
+      "pre_2026_method_eligible": false
+    },
+    {
+      "source_id": "MRNA-10K-2023",
+      "url": "https://www.sec.gov/Archives/edgar/data/1682852/000168285224000015/mrna-20231231.htm",
+      "published_date": "2024-02-23",
+      "pre_2026_method_eligible": false
+    },
+    {
+      "source_id": "MRNA-RESULTS-2023",
+      "url": "https://investors.modernatx.com/news/news-details/2024/Moderna-Reports-Fourth-Quarter-and-Fiscal-Year-2023-Financial-Results-and-Provides-Business-Updates/default.aspx",
+      "published_date": "2024-02-22",
+      "pre_2026_method_eligible": false
+    },
+    {
+      "source_id": "MRNA-LETTER-20230103",
+      "url": "https://www.modernatx.com/media-center/all-media/blogs/moderna-2022-shareholder-letter",
+      "published_date": "2023-01-03",
+      "pre_2026_method_eligible": false
+    },
+    {
+      "source_id": "COM-SEC13F",
+      "url": "https://www.sec.gov/rules-regulations/staff-guidance/frequently-asked-questions-about-form-13f",
+      "published_date": "2026-03-06",
+      "pre_2026_method_eligible": false
+    }
+  ],
+  "benchmark_2026_method_packet": {
+    "decision_cutoff_utc": "2025-12-31T23:59:59Z",
+    "audit_date": "2026-10-13",
+    "eligible_method_source_ids": [
+      "COATUE-AI-20231116"
+    ],
+    "audit_only_source_ids": [
+      "COATUE-HOME",
+      "COATUE-CTEK-20260501",
+      "COATUE-CTAKES",
+      "COM-SEC13F"
+    ],
+    "ex_ante_guardrail": "The current dossiers are an audit. For a beginning-2026 decision exercise, use only eligible dated method materials and company facts publicly available by cutoff. 2026 publications/holdings/outcomes, undated process statements, unknown revisions and latest-close results must not enter decision prompts. Freeze decisions before opening outcome packets.",
+    "identity_warning": "Present-day identity/authority checks are audit metadata, not a historical input.",
+    "case_warning": "Retrospectively selected historical cases inform method limitations; they are not a preselected performance sample.",
+    "limitation": "Only the dated 2023 team AI paper is method-eligible here. CTEK 2026 process/authority is excluded. This is a Coatue-team research lens, not a recovered Laffont-specific algorithm."
+  },
+  "rule_anchor_file": "rule_anchors.json",
+  "historical_rule_anchor_file": "pre_2026_rule_anchors.json"
+}

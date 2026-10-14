@@ -1,0 +1,39 @@
+{
+  "schema_version": "historical-content-use-policy/v0.1-candidate",
+  "status": "candidate_pending_root_and_independent_Astra_acceptance",
+  "cutoff_utc": "2025-12-31T23:59:59Z",
+  "review_round": 0,
+  "corrective_reworks_used": 0,
+  "maximum_corrective_reworks": 3,
+  "origin_label": "Finterm MIT editorial procedural framework, retrospective implementation under test; not proof of a native investor algorithm.",
+  "retrospective_design_limit": "The contemporary software/card assembly is retrospective research design, not proof that this code or assembled card system existed before 2026. Later-trained model knowledge and retrospective universe selection prevent a prospective or guaranteed leakage-free claim.",
+  "selection_contract": {
+    "candidate_pool_card_count": 26,
+    "actual_view_minimum": 5,
+    "actual_view_maximum": 12,
+    "before_opinion_generation": true,
+    "exact_ids_and_content_hashes_required": true,
+    "sector_label_alone_insufficient": true,
+    "one_fresh_assigned_lens_per_view": true,
+    "load_only_selected_card_files_not_entire_pool_or_module": true,
+    "unprojected_card_rule": "Stop the affected branch or obtain separately reviewed projection content; no raw-card loading or invented substitute procedure.",
+    "inventory_is_not_route_acceptance": true
+  },
+  "immutable_evidence_only": "Apply questions, comparisons, inversion and invalidation planning only to the admitted immutable packet, admitted historical-method rules and frozen labelled assumptions. Generic card wording about search, later evidence or monitoring never authorizes live fetching, new outreach, current dossiers or post-cutoff observation. R07 defines ex-ante indicators; it does not receive actual later observations.",
+  "numerical_semantic_guard": [
+    "Preserve enterprise FCFF, owner earnings, issuer CFO-capex/FCF and FCFE as distinct quantities. Owner-cash procedures do not license unreviewed substitution into the unchanged R2 enterprise valuation contract.",
+    "Any enterprise FCFF valuation requires the explicit operating-tax/reinvestment/cash-flow bridge and net-interest/lease/other-claim treatment; unsupported enterprise cash is missing.",
+    "Preserve maintenance-versus-growth cash investment, recurring costs, stock compensation and dilution. Capex is not automatically a current income-statement expense; no blanket addback.",
+    "Allocate issuer equity among ordinary/preference/other claims before the correct listing/class/share denominator; preserve dated ADR ratios, reporting/quote FX, units and dilution.",
+    "Only admitted facts and labelled independently authored frozen assumptions enter calculations. No native master weights, discount rates, targets, source numerical forecasts, probabilities or case ratios are inferred.",
+    "No master is required to produce an intrinsic price. Missing/inapplicable R2 valuation remains missing/inapplicable with separate accounting receipts; no substitute engine or fabricated passing score.",
+    "Preserve each forecast horizon; business/intrinsic value is not an observation-end market-price target."
+  ],
+  "additional_activation_gates": [
+    "Exact content acceptance by root and independent Astra before any inference.",
+    "Separate immutable security packets, rule allowlists, traits-based three-slot routes, exact prompts/output schemas, verified actual model identity/settings and runtime semantic validator acceptance.",
+    "Selected 5–12-card source/projection/hash receipts and unchanged R2 contract/request/result accounting for every canonical view.",
+    "No sibling view conclusion, scored adapter interpretation, current holdings, case outcomes, prior opinions or outcome prices in worker bytes."
+  ],
+  "execution_statement": "Content preparation and static byte checks only. No router, harness, runtime transport validator, numerical engine, stock opinion or model inference is implemented or executed by this candidate."
+}

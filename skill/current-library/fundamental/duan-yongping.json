@@ -1,0 +1,2783 @@
+{
+  "schema_version": "2.0",
+  "investor_id": "DYP",
+  "canonical_name": "段永平 / Duan Yongping",
+  "research_asof": "2026-10-13",
+  "benchmark_information_cutoff": "2025-12-31",
+  "selection": "Purposive, retrospectively selected famous successes and documented adverse/counterexamples. Not a predictive backtest or a lifetime census.",
+  "source_grade_legend": {
+    "A": "Original issuer/regulator/investor or original interview publisher, readable; self-report remains self-report.",
+    "B": "Original publisher indexed extract or metadata only; not full recording verified.",
+    "C": "Secondary compilation/attendee notes, discovery only; excluded as proof of pre-trade intent."
+  },
+  "global_disclosure_reference": "common-disclosure.json",
+  "sources": [
+    {
+      "source_id": "DYP-S-FANGLUE2025",
+      "title": "方略：段永平与方三文完整对话，雪球官方账号发布",
+      "url": "https://ishare.ifeng.com/c/s/v002Y5ifpphnXscyXRagfxy23KcqMxMi76TMnWFvd9QZ9gQ__",
+      "author_or_issuer": "雪球官方账号；interviewee 段永平",
+      "published_at": "2025-11-11",
+      "event_or_information_date": "2025-10-16",
+      "access_grade": "A_direct_original_read",
+      "known_public_by_2025_12_31": true,
+      "benchmark_2026_start_eligible": true,
+      "locator": "投资部分；NetEase/Apple/GE/oil-gas index/Tesla; lines258–430",
+      "limitation": "Original interview producer’s Chinese transcript syndicated on Phoenix; full audio not independently compared. Historical transactions and returns are self-reports.",
+      "accessed_on": "2026-10-13",
+      "source_family": "authorized_original_interview_transcript",
+      "provenance_grade": "P2",
+      "provenance_limitation": "Provenance is authority for the reported statement/fact, not truth certainty, private motive or audited investment performance.",
+      "publication_date": "2025-11-11",
+      "event_date": "2025-10-16",
+      "archive_or_upload_date": null,
+      "retrieved_at_utc": "2026-10-13T17:07:22Z",
+      "access_status": "read_original_text",
+      "coverage_count_unit": "one listed source record, not one entire lifetime source family",
+      "found": true,
+      "read_substantive": true,
+      "read_full_original": true,
+      "full_original_unavailable_or_unreviewed": false
+    },
+    {
+      "source_id": "DYP-S-FILTERS2025",
+      "title": "大道无形我有型：商业模式，企业文化",
+      "url": "https://ai.xueqiu.com/3144221943/347299032/373102585",
+      "author_or_issuer": "大道无形我有型, account 1247347556",
+      "published_at": "2025-08-15",
+      "event_or_information_date": null,
+      "access_grade": "A_direct_original_read",
+      "known_public_by_2025_12_31": true,
+      "benchmark_2026_start_eligible": true,
+      "locator": "Author replies21:42 and23:07, display region USA",
+      "limitation": "Only replies visibly authored by this account are primary. Other users’ quotations underneath are not verified older originals.",
+      "accessed_on": "2026-10-13",
+      "source_family": "verified_investor_social_account",
+      "provenance_grade": "P1",
+      "provenance_limitation": "Provenance is authority for the reported statement/fact, not truth certainty, private motive or audited investment performance.",
+      "publication_date": "2025-08-15",
+      "event_date": null,
+      "archive_or_upload_date": null,
+      "retrieved_at_utc": "2026-10-13T17:07:22Z",
+      "access_status": "read_original_text",
+      "coverage_count_unit": "one listed source record, not one entire lifetime source family",
+      "found": true,
+      "read_substantive": true,
+      "read_full_original": true,
+      "full_original_unavailable_or_unreviewed": false
+    },
+    {
+      "source_id": "DYP-S-PROFILE",
+      "title": "大道无形我有型 public account",
+      "url": "https://www.xueqiu.com/u/1247347556",
+      "author_or_issuer": "大道无形我有型",
+      "published_at": "unknown_current_profile",
+      "event_or_information_date": null,
+      "access_grade": "A_direct_original_read",
+      "known_public_by_2025_12_31": false,
+      "benchmark_2026_start_eligible": false,
+      "locator": null,
+      "limitation": "Observed current profile; undated bio is not automatically a pre-cutoff statement. Account corresponds to his original public-post record.",
+      "accessed_on": "2026-10-13",
+      "source_family": "verified_investor_social_account",
+      "provenance_grade": "P1",
+      "provenance_limitation": "Provenance is authority for the reported statement/fact, not truth certainty, private motive or audited investment performance.",
+      "publication_date": "unknown_current_profile",
+      "event_date": null,
+      "archive_or_upload_date": null,
+      "retrieved_at_utc": "2026-10-13T17:07:22Z",
+      "access_status": "read_original_text",
+      "coverage_count_unit": "one listed source record, not one entire lifetime source family",
+      "found": true,
+      "read_substantive": true,
+      "read_full_original": true,
+      "full_original_unavailable_or_unreviewed": false
+    },
+    {
+      "source_id": "DYP-S-NETEASE2002AR",
+      "title": "NetEase 2002 Form20-F / annual report",
+      "url": "https://ir.netease.com/static-files/44b163f1-789d-448d-9124-74c9fbe9ac52",
+      "author_or_issuer": "NetEase.com, Inc.",
+      "published_at": "2003",
+      "event_or_information_date": "2003-05-31",
+      "access_grade": "A_direct_original_read",
+      "known_public_by_2025_12_31": true,
+      "benchmark_2026_start_eligible": true,
+      "locator": "Principal shareholders printed p73 / PDF p77; financial statements; ADS definition",
+      "limitation": "Postentry ownership and later published results. They are not a predecision investment memo.",
+      "accessed_on": "2026-10-13",
+      "source_family": "issuer_business_transaction_or_financial_report",
+      "provenance_grade": "P1",
+      "provenance_limitation": "Provenance is authority for the reported statement/fact, not truth certainty, private motive or audited investment performance.",
+      "publication_date": "2003",
+      "event_date": "2003-05-31",
+      "archive_or_upload_date": null,
+      "retrieved_at_utc": "2026-10-13T17:07:22Z",
+      "access_status": "read_original_text",
+      "coverage_count_unit": "one listed source record, not one entire lifetime source family",
+      "found": true,
+      "read_substantive": true,
+      "read_full_original": true,
+      "full_original_unavailable_or_unreviewed": false
+    },
+    {
+      "source_id": "DYP-S-NETEASE2003-13G",
+      "title": "NetEase Schedule13G, signed October30,2003",
+      "url": "https://ir.netease.com/static-files/cd1d202d-89f5-4e59-b1fd-260c1863d78e",
+      "author_or_issuer": "Yongping Duan and Xin Liu",
+      "published_at": "2003",
+      "event_or_information_date": "2003-10-29",
+      "access_grade": "A_direct_original_read",
+      "known_public_by_2025_12_31": true,
+      "benchmark_2026_start_eligible": true,
+      "locator": "Cover and Item4–5",
+      "limitation": "Cover labels common stock but denominator is on a different scale from the 2002 annual report. Do not compare raw share numbers without reconciliation; signature date is not independently verified EDGAR filing date.",
+      "accessed_on": "2026-10-13",
+      "publication_date_precision": "Historical filing year; signature 2003-10-30 is not independently verified first public/EDGAR day.",
+      "source_family": "regulator_beneficial_ownership_notification",
+      "provenance_grade": "P1",
+      "provenance_limitation": "Provenance is authority for the reported statement/fact, not truth certainty, private motive or audited investment performance.",
+      "publication_date": "2003",
+      "event_date": "2003-10-29",
+      "archive_or_upload_date": null,
+      "retrieved_at_utc": "2026-10-13T17:07:22Z",
+      "access_status": "read_original_text",
+      "coverage_count_unit": "one listed source record, not one entire lifetime source family",
+      "found": true,
+      "read_substantive": true,
+      "read_full_original": true,
+      "full_original_unavailable_or_unreviewed": false
+    },
+    {
+      "source_id": "DYP-S-NETEASE2009-13G",
+      "title": "Duan NetEase Schedule13G, March 2009",
+      "url": "https://ir.netease.com/node/9246/html",
+      "author_or_issuer": "Yongping Duan / Enlight Foundation",
+      "published_at": "2009-03-24",
+      "event_or_information_date": "2009-03-23",
+      "access_grade": "A_direct_original_read",
+      "known_public_by_2025_12_31": true,
+      "benchmark_2026_start_eligible": true,
+      "locator": "Ownership pages and Item 5; underlying issuer filing page https://ir.netease.com/sec-filings/sec-filing/sc-13g/0001144204-09-015789",
+      "limitation": "Separate personal holdings and foundation; not all beneficial holdings are individually owned.",
+      "accessed_on": "2026-10-13",
+      "source_family": "regulator_beneficial_ownership_notification",
+      "provenance_grade": "P1",
+      "provenance_limitation": "Provenance is authority for the reported statement/fact, not truth certainty, private motive or audited investment performance.",
+      "publication_date": "2009-03-24",
+      "event_date": "2009-03-23",
+      "archive_or_upload_date": null,
+      "retrieved_at_utc": "2026-10-13T17:07:22Z",
+      "access_status": "read_original_text",
+      "coverage_count_unit": "one listed source record, not one entire lifetime source family",
+      "found": true,
+      "read_substantive": true,
+      "read_full_original": true,
+      "full_original_unavailable_or_unreviewed": false
+    },
+    {
+      "source_id": "DYP-S-APPLE2011-RESULT",
+      "title": "Apple January18,2011 quarterly earnings release",
+      "url": "https://www.apple.com/newsroom/2011/01/18Apple-Reports-First-Quarter-Results/",
+      "author_or_issuer": "Apple Inc.",
+      "published_at": "2011-01-18",
+      "event_or_information_date": "2010-12-25",
+      "access_grade": "A_direct_original_read",
+      "known_public_by_2025_12_31": true,
+      "benchmark_2026_start_eligible": true,
+      "locator": "FY 2011 Q 1 results",
+      "limitation": "Public financial context. His exact entry date is not established, so this cannot automatically be called information known before his first trade.",
+      "accessed_on": "2026-10-13",
+      "source_family": "issuer_business_transaction_or_financial_report",
+      "provenance_grade": "P1",
+      "provenance_limitation": "Provenance is authority for the reported statement/fact, not truth certainty, private motive or audited investment performance.",
+      "publication_date": "2011-01-18",
+      "event_date": "2010-12-25",
+      "archive_or_upload_date": null,
+      "retrieved_at_utc": "2026-10-13T17:07:22Z",
+      "access_status": "read_original_text",
+      "coverage_count_unit": "one listed source record, not one entire lifetime source family",
+      "found": true,
+      "read_substantive": true,
+      "read_full_original": true,
+      "full_original_unavailable_or_unreviewed": false
+    },
+    {
+      "source_id": "DYP-S-HH-Q226-INDEX",
+      "title": "H&H Q 2 2026 13F filing index",
+      "url": "https://www.sec.gov/Archives/edgar/data/1759760/000175976026000007/0001759760-26-000007-index.htm",
+      "author_or_issuer": "SEC / H&H International Investment, LLC",
+      "published_at": "2026-08-14",
+      "event_or_information_date": "2026-06-30",
+      "access_grade": "A_direct_original_read",
+      "known_public_by_2025_12_31": false,
+      "benchmark_2026_start_eligible": false,
+      "locator": null,
+      "limitation": null,
+      "accessed_on": "2026-10-13",
+      "source_family": "regulator_manager_holdings_filing",
+      "provenance_grade": "P1",
+      "provenance_limitation": "Provenance is authority for the reported statement/fact, not truth certainty, private motive or audited investment performance.",
+      "publication_date": "2026-08-14",
+      "event_date": "2026-06-30",
+      "archive_or_upload_date": null,
+      "retrieved_at_utc": "2026-10-13T17:07:22Z",
+      "access_status": "read_original_text",
+      "coverage_count_unit": "one listed source record, not one entire lifetime source family",
+      "found": true,
+      "read_substantive": true,
+      "read_full_original": true,
+      "full_original_unavailable_or_unreviewed": false
+    },
+    {
+      "source_id": "DYP-S-HH-Q226-COVER",
+      "title": "H&H Q 2 2026 13F cover",
+      "url": "https://www.sec.gov/Archives/edgar/data/1759760/000175976026000007/xslForm13F_X02/primary_doc.xml",
+      "author_or_issuer": "H&H International Investment, LLC",
+      "published_at": "2026-08-14",
+      "event_or_information_date": "2026-06-30",
+      "access_grade": "A_direct_original_read",
+      "known_public_by_2025_12_31": false,
+      "benchmark_2026_start_eligible": false,
+      "locator": "18 rows, total value and signer",
+      "limitation": null,
+      "accessed_on": "2026-10-13",
+      "source_family": "regulator_manager_holdings_filing",
+      "provenance_grade": "P1",
+      "provenance_limitation": "Provenance is authority for the reported statement/fact, not truth certainty, private motive or audited investment performance.",
+      "publication_date": "2026-08-14",
+      "event_date": "2026-06-30",
+      "archive_or_upload_date": null,
+      "retrieved_at_utc": "2026-10-13T17:07:22Z",
+      "access_status": "read_original_text",
+      "coverage_count_unit": "one listed source record, not one entire lifetime source family",
+      "found": true,
+      "read_substantive": true,
+      "read_full_original": true,
+      "full_original_unavailable_or_unreviewed": false
+    },
+    {
+      "source_id": "DYP-S-HH-Q226-TABLE",
+      "title": "H&H Q 2 2026 13F information table",
+      "url": "https://www.sec.gov/Archives/edgar/data/1759760/000175976026000007/xslForm13F_X02/infotable.xml",
+      "author_or_issuer": "H&H International Investment, LLC",
+      "published_at": "2026-08-14",
+      "event_or_information_date": "2026-06-30",
+      "access_grade": "A_direct_original_read",
+      "known_public_by_2025_12_31": false,
+      "benchmark_2026_start_eligible": false,
+      "locator": null,
+      "limitation": null,
+      "accessed_on": "2026-10-13",
+      "source_family": "regulator_manager_holdings_filing",
+      "provenance_grade": "P1",
+      "provenance_limitation": "Provenance is authority for the reported statement/fact, not truth certainty, private motive or audited investment performance.",
+      "publication_date": "2026-08-14",
+      "event_date": "2026-06-30",
+      "archive_or_upload_date": null,
+      "retrieved_at_utc": "2026-10-13T17:07:22Z",
+      "access_status": "read_original_text",
+      "coverage_count_unit": "one listed source record, not one entire lifetime source family",
+      "found": true,
+      "read_substantive": true,
+      "read_full_original": true,
+      "full_original_unavailable_or_unreviewed": false
+    },
+    {
+      "source_id": "DYP-S-HKEX-2026-INDIVIDUAL",
+      "title": "Duan Yong Ping Pop Mart individual substantial-shareholder notification",
+      "url": "https://di.hkex.com.hk/di/NSForm1.aspx?cid=0&ed=07%2F08%2F2026&fn=IS20260812E00002&g_lang=zh-HK&lang=ZH&sa2=an&sced=07%2F08%2F2026&scsd=07%2F08%2F2025&sd=07%2F08%2F2025&sid=312028&src=MAIN",
+      "author_or_issuer": "Duan Yong Ping / HKEX",
+      "published_at": "2026-08-12",
+      "event_or_information_date": "2026-08-06",
+      "access_grade": "A_direct_original_read",
+      "known_public_by_2025_12_31": false,
+      "benchmark_2026_start_eligible": false,
+      "locator": "Sections14,18,20",
+      "limitation": "99% control establishes entity relationship at this date, not attribution of every security/trade to him.",
+      "accessed_on": "2026-10-13",
+      "source_family": "regulator_beneficial_ownership_notification",
+      "provenance_grade": "P1",
+      "provenance_limitation": "Provenance is authority for the reported statement/fact, not truth certainty, private motive or audited investment performance.",
+      "publication_date": "2026-08-12",
+      "event_date": "2026-08-06",
+      "archive_or_upload_date": null,
+      "retrieved_at_utc": "2026-10-13T17:07:22Z",
+      "access_status": "read_original_text",
+      "coverage_count_unit": "one listed source record, not one entire lifetime source family",
+      "found": true,
+      "read_substantive": true,
+      "read_full_original": true,
+      "full_original_unavailable_or_unreviewed": false
+    },
+    {
+      "source_id": "DYP-S-HKEX-2026-CORPORATE",
+      "title": "H&H Pop Mart corporate substantial-shareholder notification",
+      "url": "https://di.hkex.com.hk/di/NSForm2.aspx?cid=0&ed=07%2F08%2F2026&fn=CS20260812E00001&g_lang=zh-HK&lang=ZH&sa2=an&sced=07%2F08%2F2026&scsd=07%2F08%2F2025&sd=07%2F08%2F2025&sid=312028&src=MAIN",
+      "author_or_issuer": "H&H / HKEX",
+      "published_at": "2026-08-12",
+      "event_or_information_date": "2026-08-06",
+      "access_grade": "A_direct_original_read",
+      "known_public_by_2025_12_31": false,
+      "benchmark_2026_start_eligible": false,
+      "locator": "Capacity investment manager; physically settled listed derivative interests",
+      "limitation": null,
+      "accessed_on": "2026-10-13",
+      "source_family": "regulator_beneficial_ownership_notification",
+      "provenance_grade": "P1",
+      "provenance_limitation": "Provenance is authority for the reported statement/fact, not truth certainty, private motive or audited investment performance.",
+      "publication_date": "2026-08-12",
+      "event_date": "2026-08-06",
+      "archive_or_upload_date": null,
+      "retrieved_at_utc": "2026-10-13T17:07:22Z",
+      "access_status": "read_original_text",
+      "coverage_count_unit": "one listed source record, not one entire lifetime source family",
+      "found": true,
+      "read_substantive": true,
+      "read_full_original": true,
+      "full_original_unavailable_or_unreviewed": false
+    },
+    {
+      "source_id": "DYP-S-OPTIONS20261013",
+      "title": "大道无形我有型：3-month put discussion",
+      "url": "https://www.xueqiu.com/1247347556/412008255",
+      "author_or_issuer": "大道无形我有型",
+      "published_at": "2026-10-13",
+      "event_or_information_date": null,
+      "access_grade": "A_direct_original_read",
+      "known_public_by_2025_12_31": false,
+      "benchmark_2026_start_eligible": false,
+      "locator": "Author post03:07, display timezone unspecified",
+      "limitation": "Author text is a statement, not a broker confirmation; embedded Gemini calculation is quoted AI output and excluded as investor calculation or verified yield.",
+      "accessed_on": "2026-10-13",
+      "source_family": "verified_investor_social_account",
+      "provenance_grade": "P1",
+      "provenance_limitation": "Provenance is authority for the reported statement/fact, not truth certainty, private motive or audited investment performance.",
+      "publication_date": "2026-10-13",
+      "event_date": null,
+      "archive_or_upload_date": null,
+      "retrieved_at_utc": "2026-10-13T17:07:22Z",
+      "access_status": "read_original_text",
+      "coverage_count_unit": "one listed source record, not one entire lifetime source family",
+      "found": true,
+      "read_substantive": true,
+      "read_full_original": true,
+      "full_original_unavailable_or_unreviewed": false,
+      "independent_review_access": "Review0 direct open unavailable; author read recorded; do not claim independent reproduction."
+    },
+    {
+      "source_id": "DYP-S-CORRECT20261013",
+      "title": "大道无形我有型：recognize error and stop",
+      "url": "https://www.xueqiu.com/1247347556/412066702",
+      "author_or_issuer": "大道无形我有型",
+      "published_at": "2026-10-13",
+      "event_or_information_date": null,
+      "access_grade": "A_direct_original_read",
+      "known_public_by_2025_12_31": false,
+      "benchmark_2026_start_eligible": false,
+      "locator": "Author reply11:35, display timezone unspecified",
+      "limitation": null,
+      "accessed_on": "2026-10-13",
+      "source_family": "verified_investor_social_account",
+      "provenance_grade": "P1",
+      "provenance_limitation": "Provenance is authority for the reported statement/fact, not truth certainty, private motive or audited investment performance.",
+      "publication_date": "2026-10-13",
+      "event_date": null,
+      "archive_or_upload_date": null,
+      "retrieved_at_utc": "2026-10-13T17:07:22Z",
+      "access_status": "read_original_text",
+      "coverage_count_unit": "one listed source record, not one entire lifetime source family",
+      "found": true,
+      "read_substantive": true,
+      "read_full_original": true,
+      "full_original_unavailable_or_unreviewed": false
+    },
+    {
+      "source_id": "DYP-S-COMPILED-LEADS",
+      "title": "Snowball-hosted compiled historical Q&A, discovery only",
+      "url": "https://xqdoc.imedao.com/17637f81f47373fece7e0033.pdf",
+      "author_or_issuer": "Compiler of public Duan posts",
+      "published_at": "unknown_compilation",
+      "event_or_information_date": null,
+      "access_grade": "C_secondary_compilation",
+      "known_public_by_2025_12_31": false,
+      "benchmark_2026_start_eligible": false,
+      "locator": null,
+      "limitation": "Named Baidu short-loss, UNG, exact 2011 Apple entry-day and forecast stories were not verified against original account timestamps in this search. Do not merge these with the 2025 unnamed index-loss self-report.",
+      "accessed_on": "2026-10-13",
+      "source_family": "secondary_discovery_compilation",
+      "provenance_grade": "S2",
+      "provenance_limitation": "Provenance is authority for the reported statement/fact, not truth certainty, private motive or audited investment performance.",
+      "publication_date": "unknown_compilation",
+      "event_date": null,
+      "archive_or_upload_date": null,
+      "retrieved_at_utc": "2026-10-13T17:07:22Z",
+      "access_status": "secondary_lead_not_original_verified",
+      "coverage_count_unit": "one listed source record, not one entire lifetime source family",
+      "found": true,
+      "read_substantive": false,
+      "read_full_original": false,
+      "full_original_unavailable_or_unreviewed": true
+    },
+    {
+      "source_id": "DYP-S-HH-Q325-INDEX",
+      "title": "H&H Q3 2025 13F filing index",
+      "url": "https://www.sec.gov/Archives/edgar/data/1759760/000175976025000002/0001759760-25-000002-index.htm",
+      "author_or_issuer": "SEC / H&H International Investment, LLC",
+      "published_at": "2025-11-14",
+      "accepted_at_utc": "2025-11-14T14:36:13Z",
+      "event_or_information_date": "2025-09-30",
+      "access_grade": "A_direct_original_read",
+      "known_public_by_2025_12_31": true,
+      "benchmark_2026_start_eligible": true,
+      "locator": "SEC filing index/cover fields",
+      "limitation": "Same reporting vehicle; not established as Duan’s personal decision or full capital. 2026 control proof is not backdated.",
+      "accessed_on": "2026-10-13",
+      "reuse_receipt": "portable-provenance:cutoff-holdings/precutoff-discovery/1759760",
+      "local_evidence_sha256": "bdd0f6791f9b0c7de5f73a8732f40722711680d180da2529eaacac5abca7b188",
+      "source_family": "regulator_manager_holdings_filing",
+      "provenance_grade": "P1",
+      "provenance_limitation": "Provenance is authority for the reported statement/fact, not truth certainty, private motive or audited investment performance.",
+      "publication_date": "2025-11-14",
+      "event_date": "2025-09-30",
+      "archive_or_upload_date": null,
+      "retrieved_at_utc": "2026-10-13T17:07:22Z",
+      "access_status": "read_original_text",
+      "coverage_count_unit": "one listed source record, not one entire lifetime source family",
+      "found": true,
+      "read_substantive": true,
+      "read_full_original": true,
+      "full_original_unavailable_or_unreviewed": false
+    },
+    {
+      "source_id": "DYP-S-HH-Q325-COVER",
+      "title": "H&H Q3 2025 13F cover",
+      "url": "https://www.sec.gov/Archives/edgar/data/1759760/000175976025000002/primary_doc.xml",
+      "author_or_issuer": "SEC / H&H International Investment, LLC",
+      "published_at": "2025-11-14",
+      "accepted_at_utc": "2025-11-14T14:36:13Z",
+      "event_or_information_date": "2025-09-30",
+      "access_grade": "A_direct_original_read",
+      "known_public_by_2025_12_31": true,
+      "benchmark_2026_start_eligible": true,
+      "locator": "SEC filing index/cover fields",
+      "limitation": "Same reporting vehicle; not established as Duan’s personal decision or full capital. 2026 control proof is not backdated.",
+      "accessed_on": "2026-10-13",
+      "reuse_receipt": "portable-provenance:cutoff-holdings/precutoff-discovery/1759760",
+      "local_evidence_sha256": "84a85965c5e3a34b7b18d9a3983e4f05df9b9262fbb21cb6ad7efaead2b002ec",
+      "source_family": "regulator_manager_holdings_filing",
+      "provenance_grade": "P1",
+      "provenance_limitation": "Provenance is authority for the reported statement/fact, not truth certainty, private motive or audited investment performance.",
+      "publication_date": "2025-11-14",
+      "event_date": "2025-09-30",
+      "archive_or_upload_date": null,
+      "retrieved_at_utc": "2026-10-13T17:07:22Z",
+      "access_status": "read_original_text",
+      "coverage_count_unit": "one listed source record, not one entire lifetime source family",
+      "found": true,
+      "read_substantive": true,
+      "read_full_original": true,
+      "full_original_unavailable_or_unreviewed": false
+    },
+    {
+      "source_id": "DYP-S-HH-Q325-TABLE",
+      "title": "H&H Q3 2025 13F information table",
+      "url": "https://www.sec.gov/Archives/edgar/data/1759760/000175976025000002/infotable.xml",
+      "author_or_issuer": "SEC / H&H International Investment, LLC",
+      "published_at": "2025-11-14",
+      "accepted_at_utc": "2025-11-14T14:36:13Z",
+      "event_or_information_date": "2025-09-30",
+      "access_grade": "A_direct_original_read",
+      "known_public_by_2025_12_31": true,
+      "benchmark_2026_start_eligible": true,
+      "locator": "11 rows; Apple COM/CUSIP 037833100 and NVIDIA COM/CUSIP 67066G104",
+      "limitation": "Same reporting vehicle; not established as Duan’s personal decision or full capital. 2026 control proof is not backdated.",
+      "accessed_on": "2026-10-13",
+      "reuse_receipt": "portable-provenance:cutoff-holdings/precutoff-discovery/1759760",
+      "local_evidence_sha256": "f998a8c849b6baaeceef1409a3f1436b73986cd0059d71a7a5975953eaf1c5f4",
+      "source_family": "regulator_manager_holdings_filing",
+      "provenance_grade": "P1",
+      "provenance_limitation": "Provenance is authority for the reported statement/fact, not truth certainty, private motive or audited investment performance.",
+      "publication_date": "2025-11-14",
+      "event_date": "2025-09-30",
+      "archive_or_upload_date": null,
+      "retrieved_at_utc": "2026-10-13T17:07:22Z",
+      "access_status": "read_original_text",
+      "coverage_count_unit": "one listed source record, not one entire lifetime source family",
+      "found": true,
+      "read_substantive": true,
+      "read_full_original": true,
+      "full_original_unavailable_or_unreviewed": false
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "DYP-F-ROLE",
+      "text": "BBK founder; says he stopped being CEO over20 years earlier and serves as adviser while CEOs decide.",
+      "source_ids": [
+        "DYP-S-FANGLUE2025"
+      ],
+      "information_date": "2025-10-16",
+      "evidence_type": "retrospective_original_investor_statement",
+      "known_public_by_2025_12_31": true,
+      "confidence": "high",
+      "structured_data": null,
+      "precise_locator": "Fanglue header retirement context and substantive author paragraphs rendered lines151 (BBK founding), 161 (not CEO for over20 years), 196–199 (CEOs decide; adviser role).",
+      "evidence_record_ids": [
+        "DYP-F-ROLE-E1"
+      ],
+      "timing_by_case": [],
+      "timing_labels": [
+        "TU"
+      ],
+      "timing_reference": "See timing_by_case; no security decision specified for standalone general-method/identity claims.",
+      "publication_availability_is_not_pretrade_proof": true,
+      "claim_kind": "direct_statement",
+      "scope": {
+        "speaker_or_reporter": "段永平 / Duan Yongping",
+        "organization": "H&H relation must be date-qualified",
+        "decision_type": "retrospective_original_investor_statement",
+        "security_or_case_ids": [],
+        "position_side": "only explicitly reported side; no short inferred from absence",
+        "horizon": "source/event/holding interval; no invented personal intended horizon",
+        "qualifiers": "See structured_data, exact locator and source-specific limitations."
+      },
+      "provenance_grades": [
+        "P2"
+      ]
+    },
+    {
+      "claim_id": "DYP-F-FILTERS",
+      "text": "Author’s direct 2025 reply prioritizes business model and corporate culture; another reply emphasizes rational long-term essential thinking.",
+      "source_ids": [
+        "DYP-S-FILTERS2025"
+      ],
+      "information_date": "2025-08-15",
+      "evidence_type": "original_investor_statement",
+      "known_public_by_2025_12_31": true,
+      "confidence": "high",
+      "structured_data": null,
+      "precise_locator": "Xueqiu thread author 大道无形我有型 replies dated 2025-08-15 21:42 (business model/culture) and 23:07 (rational long-term essential thinking). Reader quotations are excluded.",
+      "evidence_record_ids": [
+        "DYP-F-FILTERS-E1"
+      ],
+      "timing_by_case": [],
+      "timing_labels": [
+        "TU"
+      ],
+      "timing_reference": "See timing_by_case; no security decision specified for standalone general-method/identity claims.",
+      "publication_availability_is_not_pretrade_proof": true,
+      "claim_kind": "direct_statement",
+      "scope": {
+        "speaker_or_reporter": "段永平 / Duan Yongping",
+        "organization": "H&H relation must be date-qualified",
+        "decision_type": "original_investor_statement",
+        "security_or_case_ids": [],
+        "position_side": "only explicitly reported side; no short inferred from absence",
+        "horizon": "source/event/holding interval; no invented personal intended horizon",
+        "qualifiers": "See structured_data, exact locator and source-specific limitations."
+      },
+      "provenance_grades": [
+        "P1"
+      ]
+    },
+    {
+      "claim_id": "DYP-F-VALUATION",
+      "text": "Interview ties investment to understood future cash flow and opportunity cost.",
+      "source_ids": [
+        "DYP-S-FANGLUE2025"
+      ],
+      "information_date": "2025-10-16",
+      "evidence_type": "original_investor_statement",
+      "known_public_by_2025_12_31": true,
+      "confidence": "high",
+      "structured_data": null,
+      "precise_locator": "Fanglue investment section rendered line267, future-cash understanding; line412, future earnings versus investment opportunity cost.",
+      "evidence_record_ids": [
+        "DYP-F-VALUATION-E1"
+      ],
+      "timing_by_case": [],
+      "timing_labels": [
+        "TU"
+      ],
+      "timing_reference": "See timing_by_case; no security decision specified for standalone general-method/identity claims.",
+      "publication_availability_is_not_pretrade_proof": true,
+      "claim_kind": "direct_statement",
+      "scope": {
+        "speaker_or_reporter": "段永平 / Duan Yongping",
+        "organization": "H&H relation must be date-qualified",
+        "decision_type": "original_investor_statement",
+        "security_or_case_ids": [],
+        "position_side": "only explicitly reported side; no short inferred from absence",
+        "horizon": "source/event/holding interval; no invented personal intended horizon",
+        "qualifiers": "See structured_data, exact locator and source-specific limitations."
+      },
+      "provenance_grades": [
+        "P2"
+      ]
+    },
+    {
+      "claim_id": "DYP-F-NETEASE-STORY",
+      "text": "NetEase: games experience, team discussions, cash above capitalization; full available account cash; >100x return self-reported.",
+      "source_ids": [
+        "DYP-S-FANGLUE2025"
+      ],
+      "information_date": "historical_entry_unknown",
+      "evidence_type": "retrospective_original_investor_statement",
+      "known_public_by_2025_12_31": true,
+      "confidence": "high_for_speech_not_audited_return",
+      "structured_data": null,
+      "precise_locator": "Fanglue rendered lines307–309 (game/team/cash/account and holding capacity), 316 (knowledge limits) and 320 (>100x later self-report).",
+      "evidence_record_ids": [
+        "DYP-F-NETEASE-STORY-E1"
+      ],
+      "timing_by_case": [
+        {
+          "case_id": "DYP-C-NETEASE",
+          "node_id": "DYP-C-NETEASE-N5",
+          "timing_labels": [
+            "T2"
+          ],
+          "reference_interval": "2025-10-16",
+          "note": "Public context, reported observation and original investor explanation are separately scoped; no original initial investor T0 verified."
+        }
+      ],
+      "timing_labels": [
+        "T2"
+      ],
+      "timing_reference": "See timing_by_case; no security decision specified for standalone general-method/identity claims.",
+      "publication_availability_is_not_pretrade_proof": true,
+      "claim_kind": "direct_statement",
+      "scope": {
+        "speaker_or_reporter": "段永平 / Duan Yongping",
+        "organization": "H&H relation must be date-qualified",
+        "decision_type": "retrospective_original_investor_statement",
+        "security_or_case_ids": [
+          "DYP-C-NETEASE"
+        ],
+        "position_side": "only explicitly reported side; no short inferred from absence",
+        "horizon": "source/event/holding interval; no invented personal intended horizon",
+        "qualifiers": "See structured_data, exact locator and source-specific limitations."
+      },
+      "provenance_grades": [
+        "P2"
+      ]
+    },
+    {
+      "claim_id": "DYP-F-NETEASE-2003",
+      "text": "May31,2003 issuer ownership: Yongping Duan and Xin Liu 205m ordinary shares,6.5%; then100 ordinary shares per ADS.",
+      "source_ids": [
+        "DYP-S-NETEASE2002AR"
+      ],
+      "information_date": "2003-05-31",
+      "evidence_type": "issuer_ownership_disclosure",
+      "known_public_by_2025_12_31": true,
+      "confidence": "high",
+      "structured_data": {
+        "reported_holders": [
+          "Yongping Duan",
+          "Xin Liu"
+        ],
+        "ordinary_shares": 205000000,
+        "class_pct": 6.5,
+        "ordinary_per_ads": 100
+      },
+      "precise_locator": "NetEase 2002 report printed p73/PDF page77, Principal Shareholders row Yongping Duan and Xin Liu; cover ADS definition 100 ordinary shares per ADS.",
+      "evidence_record_ids": [
+        "DYP-F-NETEASE-2003-E1"
+      ],
+      "timing_by_case": [
+        {
+          "case_id": "DYP-C-NETEASE",
+          "node_id": "DYP-C-NETEASE-N2",
+          "timing_labels": [
+            "T1"
+          ],
+          "reference_interval": "2002-12-31 / 2003-05-31",
+          "note": "Public context, reported observation and original investor explanation are separately scoped; no original initial investor T0 verified."
+        }
+      ],
+      "timing_labels": [
+        "T1"
+      ],
+      "timing_reference": "See timing_by_case; no security decision specified for standalone general-method/identity claims.",
+      "publication_availability_is_not_pretrade_proof": true,
+      "claim_kind": "regulatory_holding",
+      "scope": {
+        "speaker_or_reporter": "段永平 / Duan Yongping",
+        "organization": "H&H relation must be date-qualified",
+        "decision_type": "issuer_ownership_disclosure",
+        "security_or_case_ids": [
+          "DYP-C-NETEASE"
+        ],
+        "position_side": "only explicitly reported side; no short inferred from absence",
+        "horizon": "source/event/holding interval; no invented personal intended horizon",
+        "qualifiers": "See structured_data, exact locator and source-specific limitations."
+      },
+      "provenance_grades": [
+        "P1"
+      ]
+    },
+    {
+      "claim_id": "DYP-F-NETEASE-PROFIT",
+      "text": "NetEase’s reported 2002 net profit RMB16,301,638 follows 2001 loss RMB233,163,914.",
+      "source_ids": [
+        "DYP-S-NETEASE2002AR"
+      ],
+      "information_date": "2002-12-31",
+      "evidence_type": "issuer_financial_results",
+      "known_public_by_2025_12_31": true,
+      "confidence": "high",
+      "structured_data": {
+        "profit_2002_rmb": 16301638,
+        "loss_2001_rmb": 233163914
+      },
+      "precise_locator": "NetEase 2002 report printed financial page F-5/PDF page110, Consolidated Statements of Operations: Net profit (loss), 2001 and2002 RMB columns; also selected-data net-income row.",
+      "evidence_record_ids": [
+        "DYP-F-NETEASE-PROFIT-E1"
+      ],
+      "timing_by_case": [
+        {
+          "case_id": "DYP-C-NETEASE",
+          "node_id": "DYP-C-NETEASE-N2",
+          "timing_labels": [
+            "T1"
+          ],
+          "reference_interval": "2002-12-31 / 2003-05-31",
+          "note": "Public context, reported observation and original investor explanation are separately scoped; no original initial investor T0 verified."
+        }
+      ],
+      "timing_labels": [
+        "T1"
+      ],
+      "timing_reference": "See timing_by_case; no security decision specified for standalone general-method/identity claims.",
+      "publication_availability_is_not_pretrade_proof": true,
+      "claim_kind": "issuer_reported_fact",
+      "scope": {
+        "speaker_or_reporter": "段永平 / Duan Yongping",
+        "organization": "H&H relation must be date-qualified",
+        "decision_type": "issuer_financial_results",
+        "security_or_case_ids": [
+          "DYP-C-NETEASE"
+        ],
+        "position_side": "only explicitly reported side; no short inferred from absence",
+        "horizon": "source/event/holding interval; no invented personal intended horizon",
+        "qualifiers": "See structured_data, exact locator and source-specific limitations."
+      },
+      "provenance_grades": [
+        "P1"
+      ]
+    },
+    {
+      "claim_id": "DYP-F-NETEASE-OCT2003",
+      "text": "October 2003 signed13G reports 1,275,000 units,4.08%, and ceased>5%; inconsistent scale requires unit reconciliation.",
+      "source_ids": [
+        "DYP-S-NETEASE2003-13G"
+      ],
+      "information_date": "2003-10-29",
+      "evidence_type": "ownership_regulatory_disclosure",
+      "known_public_by_2025_12_31": true,
+      "confidence": "high",
+      "structured_data": {
+        "reported_amount": 1275000,
+        "reported_pct": 4.08,
+        "reported_denominator": 31265402,
+        "units_normalized": false
+      },
+      "precise_locator": "NetEase 2003 Schedule 13G cover date/signature and Item4(a)/(b) reported beneficial amount/percentage; Item5 ceased-to-exceed-five-percent checkbox.",
+      "evidence_record_ids": [
+        "DYP-F-NETEASE-OCT2003-E1"
+      ],
+      "timing_by_case": [
+        {
+          "case_id": "DYP-C-NETEASE",
+          "node_id": "DYP-C-NETEASE-N3",
+          "timing_labels": [
+            "T1"
+          ],
+          "reference_interval": "2003-10-29",
+          "note": "Public context, reported observation and original investor explanation are separately scoped; no original initial investor T0 verified."
+        }
+      ],
+      "timing_labels": [
+        "T1"
+      ],
+      "timing_reference": "See timing_by_case; no security decision specified for standalone general-method/identity claims.",
+      "publication_availability_is_not_pretrade_proof": true,
+      "claim_kind": "regulatory_holding",
+      "scope": {
+        "speaker_or_reporter": "段永平 / Duan Yongping",
+        "organization": "H&H relation must be date-qualified",
+        "decision_type": "ownership_regulatory_disclosure",
+        "security_or_case_ids": [
+          "DYP-C-NETEASE"
+        ],
+        "position_side": "only explicitly reported side; no short inferred from absence",
+        "horizon": "source/event/holding interval; no invented personal intended horizon",
+        "qualifiers": "See structured_data, exact locator and source-specific limitations."
+      },
+      "provenance_grades": [
+        "P1"
+      ]
+    },
+    {
+      "claim_id": "DYP-F-NETEASE-2009",
+      "text": "March 2009: personal 4,040,243 shares; Enlight Foundation679,812; aggregate 4,720,055,3.69%; ceased>5%.",
+      "source_ids": [
+        "DYP-S-NETEASE2009-13G"
+      ],
+      "information_date": "2009-03-23",
+      "evidence_type": "ownership_regulatory_disclosure",
+      "known_public_by_2025_12_31": true,
+      "confidence": "high",
+      "structured_data": {
+        "personal_reported_shares": 4040243,
+        "foundation_reported_shares": 679812,
+        "aggregate_reported_shares": 4720055,
+        "aggregate_pct": 3.69
+      },
+      "precise_locator": "NetEase March2009 Schedule 13G, individual/foundation ownership cover pages; Item4 and ExhibitA; Item5 cessation checkbox.",
+      "evidence_record_ids": [
+        "DYP-F-NETEASE-2009-E1"
+      ],
+      "timing_by_case": [
+        {
+          "case_id": "DYP-C-NETEASE",
+          "node_id": "DYP-C-NETEASE-N4",
+          "timing_labels": [
+            "T1"
+          ],
+          "reference_interval": "2009-03-23",
+          "note": "Public context, reported observation and original investor explanation are separately scoped; no original initial investor T0 verified."
+        }
+      ],
+      "timing_labels": [
+        "T1"
+      ],
+      "timing_reference": "See timing_by_case; no security decision specified for standalone general-method/identity claims.",
+      "publication_availability_is_not_pretrade_proof": true,
+      "claim_kind": "regulatory_holding",
+      "scope": {
+        "speaker_or_reporter": "段永平 / Duan Yongping",
+        "organization": "H&H relation must be date-qualified",
+        "decision_type": "ownership_regulatory_disclosure",
+        "security_or_case_ids": [
+          "DYP-C-NETEASE"
+        ],
+        "position_side": "only explicitly reported side; no short inferred from absence",
+        "horizon": "source/event/holding interval; no invented personal intended horizon",
+        "qualifiers": "See structured_data, exact locator and source-specific limitations."
+      },
+      "provenance_grades": [
+        "P1"
+      ]
+    },
+    {
+      "claim_id": "DYP-F-APPLE-STORY",
+      "text": "Apple entry 2011; user-oriented ecosystem reasoning; peak90%-plus exposure and later call assignments self-reported.",
+      "source_ids": [
+        "DYP-S-FANGLUE2025"
+      ],
+      "information_date": "2011–2025",
+      "evidence_type": "retrospective_original_investor_statement",
+      "known_public_by_2025_12_31": true,
+      "confidence": "high",
+      "structured_data": null,
+      "precise_locator": "Fanglue line324 (2011 entry), lines335–349 (user value/culture interpretation), line409 (peak exposure and call assignment recollection).",
+      "evidence_record_ids": [
+        "DYP-F-APPLE-STORY-E1"
+      ],
+      "timing_by_case": [
+        {
+          "case_id": "DYP-C-APPLE",
+          "node_id": "DYP-C-APPLE-N2",
+          "timing_labels": [
+            "T2"
+          ],
+          "reference_interval": "2011–2025",
+          "note": "Public context, reported observation and original investor explanation are separately scoped; no original initial investor T0 verified."
+        }
+      ],
+      "timing_labels": [
+        "T2"
+      ],
+      "timing_reference": "See timing_by_case; no security decision specified for standalone general-method/identity claims.",
+      "publication_availability_is_not_pretrade_proof": true,
+      "claim_kind": "direct_statement",
+      "scope": {
+        "speaker_or_reporter": "段永平 / Duan Yongping",
+        "organization": "H&H relation must be date-qualified",
+        "decision_type": "retrospective_original_investor_statement",
+        "security_or_case_ids": [
+          "DYP-C-APPLE"
+        ],
+        "position_side": "only explicitly reported side; no short inferred from absence",
+        "horizon": "source/event/holding interval; no invented personal intended horizon",
+        "qualifiers": "See structured_data, exact locator and source-specific limitations."
+      },
+      "provenance_grades": [
+        "P2"
+      ]
+    },
+    {
+      "claim_id": "DYP-F-APPLE-PRICE2025",
+      "text": "October 2025 Apple considered not cheap; price judged against alternatives.",
+      "source_ids": [
+        "DYP-S-FANGLUE2025"
+      ],
+      "information_date": "2025-10-16",
+      "evidence_type": "original_investor_statement",
+      "known_public_by_2025_12_31": true,
+      "confidence": "high",
+      "structured_data": null,
+      "precise_locator": "Fanglue lines358–363: interview question on current Apple price; answer not cheap; subsequent opportunity-cost comparison and uncertainty.",
+      "evidence_record_ids": [
+        "DYP-F-APPLE-PRICE2025-E1"
+      ],
+      "timing_by_case": [
+        {
+          "case_id": "DYP-C-APPLE",
+          "node_id": "DYP-C-APPLE-N3",
+          "timing_labels": [
+            "T1"
+          ],
+          "reference_interval": "2025-10-16",
+          "note": "Public context, reported observation and original investor explanation are separately scoped; no original initial investor T0 verified."
+        }
+      ],
+      "timing_labels": [
+        "T1"
+      ],
+      "timing_reference": "See timing_by_case; no security decision specified for standalone general-method/identity claims.",
+      "publication_availability_is_not_pretrade_proof": true,
+      "claim_kind": "direct_statement",
+      "scope": {
+        "speaker_or_reporter": "段永平 / Duan Yongping",
+        "organization": "H&H relation must be date-qualified",
+        "decision_type": "original_investor_statement",
+        "security_or_case_ids": [
+          "DYP-C-APPLE"
+        ],
+        "position_side": "only explicitly reported side; no short inferred from absence",
+        "horizon": "source/event/holding interval; no invented personal intended horizon",
+        "qualifiers": "See structured_data, exact locator and source-specific limitations."
+      },
+      "provenance_grades": [
+        "P2"
+      ]
+    },
+    {
+      "claim_id": "DYP-F-APPLE-2011-DATA",
+      "text": "Apple’s January 2011 release reports quarterly revenue$26.74bn, net income$6bn and operating cash flow$9.8bn.",
+      "source_ids": [
+        "DYP-S-APPLE2011-RESULT"
+      ],
+      "information_date": "2011-01-18",
+      "evidence_type": "issuer_financial_results",
+      "known_public_by_2025_12_31": true,
+      "confidence": "high",
+      "structured_data": null,
+      "precise_locator": "Apple 2011-01-18 newsroom release opening revenue/net-income paragraphs and CFO operating-cash-flow paragraph; quarter ended2010-12-25.",
+      "evidence_record_ids": [
+        "DYP-F-APPLE-2011-DATA-E1"
+      ],
+      "timing_by_case": [
+        {
+          "case_id": "DYP-C-APPLE",
+          "node_id": "DYP-C-APPLE-N1",
+          "timing_labels": [
+            "TU"
+          ],
+          "reference_interval": "2011-01-18",
+          "note": "Public context, reported observation and original investor explanation are separately scoped; no original initial investor T0 verified."
+        }
+      ],
+      "timing_labels": [
+        "TU"
+      ],
+      "timing_reference": "See timing_by_case; no security decision specified for standalone general-method/identity claims.",
+      "publication_availability_is_not_pretrade_proof": true,
+      "claim_kind": "issuer_reported_fact",
+      "scope": {
+        "speaker_or_reporter": "段永平 / Duan Yongping",
+        "organization": "H&H relation must be date-qualified",
+        "decision_type": "issuer_financial_results",
+        "security_or_case_ids": [
+          "DYP-C-APPLE"
+        ],
+        "position_side": "only explicitly reported side; no short inferred from absence",
+        "horizon": "source/event/holding interval; no invented personal intended horizon",
+        "qualifiers": "See structured_data, exact locator and source-specific limitations."
+      },
+      "provenance_grades": [
+        "P1"
+      ]
+    },
+    {
+      "claim_id": "DYP-F-GE-ERROR",
+      "text": "GE’s profitable historical purchase nevertheless called mistaken: misunderstood model and lost cultural trust.",
+      "source_ids": [
+        "DYP-S-FANGLUE2025"
+      ],
+      "information_date": "2008_to_exit_unknown",
+      "evidence_type": "retrospective_original_investor_statement",
+      "known_public_by_2025_12_31": true,
+      "confidence": "high",
+      "structured_data": null,
+      "precise_locator": "Fanglue lines365–378: GE 2008 purchase question, misunderstood model/lost integrity-slogan explanation, holding interval, profit acknowledgment and two-filter repudiation.",
+      "evidence_record_ids": [
+        "DYP-F-GE-ERROR-E1"
+      ],
+      "timing_by_case": [
+        {
+          "case_id": "DYP-C-GE",
+          "node_id": "DYP-C-GE-N1",
+          "timing_labels": [
+            "T2"
+          ],
+          "reference_interval": "2008_to_exit_unknown",
+          "note": "Public context, reported observation and original investor explanation are separately scoped; no original initial investor T0 verified."
+        }
+      ],
+      "timing_labels": [
+        "T2"
+      ],
+      "timing_reference": "See timing_by_case; no security decision specified for standalone general-method/identity claims.",
+      "publication_availability_is_not_pretrade_proof": true,
+      "claim_kind": "direct_statement",
+      "scope": {
+        "speaker_or_reporter": "段永平 / Duan Yongping",
+        "organization": "H&H relation must be date-qualified",
+        "decision_type": "retrospective_original_investor_statement",
+        "security_or_case_ids": [
+          "DYP-C-GE"
+        ],
+        "position_side": "only explicitly reported side; no short inferred from absence",
+        "horizon": "source/event/holding interval; no invented personal intended horizon",
+        "qualifiers": "See structured_data, exact locator and source-specific limitations."
+      },
+      "provenance_grades": [
+        "P2"
+      ]
+    },
+    {
+      "claim_id": "DYP-F-INDEX-ERROR",
+      "text": "Unnamed oil/gas index: aboutUS$100m invested, US$10m-plus loss; daily correlation mistaken for long-run tracking; exited after understanding.",
+      "source_ids": [
+        "DYP-S-FANGLUE2025"
+      ],
+      "information_date": "historical_period_unknown",
+      "evidence_type": "retrospective_original_investor_statement",
+      "known_public_by_2025_12_31": true,
+      "confidence": "high_for_speech_not_transaction_audit",
+      "structured_data": {
+        "instrument_name": null,
+        "investment_usd_approx": 100000000,
+        "loss_usd_selfreport": ">10000000; slightly over",
+        "verified_transaction_dates": null
+      },
+      "precise_locator": "Fanglue lines382–383: unnamed oil/gas index, daily99% correlation, long-run/time-loss mechanism, approximately $100m invested and slightly over $10m loss; product name absent.",
+      "evidence_record_ids": [
+        "DYP-F-INDEX-ERROR-E1"
+      ],
+      "timing_by_case": [
+        {
+          "case_id": "DYP-C-OILGAS-INDEX",
+          "node_id": "DYP-C-OILGAS-N1",
+          "timing_labels": [
+            "T2"
+          ],
+          "reference_interval": "historical_date_unknown",
+          "note": "Public context, reported observation and original investor explanation are separately scoped; no original initial investor T0 verified."
+        },
+        {
+          "case_id": "DYP-C-OILGAS-INDEX",
+          "node_id": "DYP-C-OILGAS-N2",
+          "timing_labels": [
+            "T2"
+          ],
+          "reference_interval": "historical_date_unknown",
+          "note": "Public context, reported observation and original investor explanation are separately scoped; no original initial investor T0 verified."
+        },
+        {
+          "case_id": "DYP-C-OILGAS-INDEX",
+          "node_id": "DYP-C-OILGAS-N3",
+          "timing_labels": [
+            "T2"
+          ],
+          "reference_interval": "2025-10-16",
+          "note": "Public context, reported observation and original investor explanation are separately scoped; no original initial investor T0 verified."
+        }
+      ],
+      "timing_labels": [
+        "T2"
+      ],
+      "timing_reference": "See timing_by_case; no security decision specified for standalone general-method/identity claims.",
+      "publication_availability_is_not_pretrade_proof": true,
+      "claim_kind": "direct_statement",
+      "scope": {
+        "speaker_or_reporter": "段永平 / Duan Yongping",
+        "organization": "H&H relation must be date-qualified",
+        "decision_type": "retrospective_original_investor_statement",
+        "security_or_case_ids": [
+          "DYP-C-OILGAS-INDEX"
+        ],
+        "position_side": "only explicitly reported side; no short inferred from absence",
+        "horizon": "source/event/holding interval; no invented personal intended horizon",
+        "qualifiers": "See structured_data, exact locator and source-specific limitations."
+      },
+      "provenance_grades": [
+        "P2"
+      ]
+    },
+    {
+      "claim_id": "DYP-F-TRANSPARENCY",
+      "text": "He disclaims complete holdings disclosure; small learning stakes do not justify followers investing all their capital.",
+      "source_ids": [
+        "DYP-S-FANGLUE2025"
+      ],
+      "information_date": "2025-10-16",
+      "evidence_type": "original_investor_statement",
+      "known_public_by_2025_12_31": true,
+      "confidence": "high",
+      "structured_data": null,
+      "precise_locator": "Fanglue lines383 and386: small Occidental stake; selective holdings disclosure, learning positions and warning about followers going all-in.",
+      "evidence_record_ids": [
+        "DYP-F-TRANSPARENCY-E1"
+      ],
+      "timing_by_case": [],
+      "timing_labels": [
+        "TU"
+      ],
+      "timing_reference": "See timing_by_case; no security decision specified for standalone general-method/identity claims.",
+      "publication_availability_is_not_pretrade_proof": true,
+      "claim_kind": "direct_statement",
+      "scope": {
+        "speaker_or_reporter": "段永平 / Duan Yongping",
+        "organization": "H&H relation must be date-qualified",
+        "decision_type": "original_investor_statement",
+        "security_or_case_ids": [],
+        "position_side": "only explicitly reported side; no short inferred from absence",
+        "horizon": "source/event/holding interval; no invented personal intended horizon",
+        "qualifiers": "See structured_data, exact locator and source-specific limitations."
+      },
+      "provenance_grades": [
+        "P2"
+      ]
+    },
+    {
+      "claim_id": "DYP-F-TESLA2025",
+      "text": "Recounts selling Tesla, possibly too early; personal reservations about Musk affect willingness to invest.",
+      "source_ids": [
+        "DYP-S-FANGLUE2025"
+      ],
+      "information_date": "2025-10-16",
+      "evidence_type": "original_investor_statement",
+      "known_public_by_2025_12_31": true,
+      "confidence": "high",
+      "structured_data": null,
+      "precise_locator": "Fanglue lines425 and430: Musk personal reservations, prior Tesla share sale and qualified admission that retaining might have been better.",
+      "evidence_record_ids": [
+        "DYP-F-TESLA2025-E1"
+      ],
+      "timing_by_case": [],
+      "timing_labels": [
+        "TU"
+      ],
+      "timing_reference": "See timing_by_case; no security decision specified for standalone general-method/identity claims.",
+      "publication_availability_is_not_pretrade_proof": true,
+      "claim_kind": "direct_statement",
+      "scope": {
+        "speaker_or_reporter": "段永平 / Duan Yongping",
+        "organization": "H&H relation must be date-qualified",
+        "decision_type": "original_investor_statement",
+        "security_or_case_ids": [],
+        "position_side": "only explicitly reported side; no short inferred from absence",
+        "horizon": "source/event/holding interval; no invented personal intended horizon",
+        "qualifiers": "See structured_data, exact locator and source-specific limitations."
+      },
+      "provenance_grades": [
+        "P2"
+      ]
+    },
+    {
+      "claim_id": "DYP-F-HH-CONTROL2026",
+      "text": "Duan’s HKEX filing discloses99% control of H&H; paired corporate filing identifies H&H as investment manager.",
+      "source_ids": [
+        "DYP-S-HKEX-2026-INDIVIDUAL",
+        "DYP-S-HKEX-2026-CORPORATE"
+      ],
+      "information_date": "2026-08-06",
+      "evidence_type": "ownership_regulatory_disclosure",
+      "known_public_by_2025_12_31": false,
+      "confidence": "high",
+      "structured_data": {
+        "control_percent": 99
+      },
+      "precise_locator": "HKEX individual notification box20 controlled-corporation chain, H&H99%; corporate notice box18 capacity code2102 investment manager.",
+      "evidence_record_ids": [
+        "DYP-F-HH-CONTROL2026-E1",
+        "DYP-F-HH-CONTROL2026-E2"
+      ],
+      "timing_by_case": [],
+      "timing_labels": [
+        "TU"
+      ],
+      "timing_reference": "See timing_by_case; no security decision specified for standalone general-method/identity claims.",
+      "publication_availability_is_not_pretrade_proof": true,
+      "claim_kind": "regulatory_holding",
+      "scope": {
+        "speaker_or_reporter": "reporting entity, not inferred individual trader",
+        "organization": "H&H relation must be date-qualified",
+        "decision_type": "ownership_regulatory_disclosure",
+        "security_or_case_ids": [],
+        "position_side": "only explicitly reported side; no short inferred from absence",
+        "horizon": "source/event/holding interval; no invented personal intended horizon",
+        "qualifiers": "See structured_data, exact locator and source-specific limitations."
+      },
+      "provenance_grades": [
+        "P1"
+      ]
+    },
+    {
+      "claim_id": "DYP-F-HKEX-DERIVATIVES",
+      "text": "Pop Mart interest increased28,646,000 to102,576,000; reason is derivative obligation to acquire, not disclosed ordinary cash purchase.",
+      "source_ids": [
+        "DYP-S-HKEX-2026-INDIVIDUAL",
+        "DYP-S-HKEX-2026-CORPORATE"
+      ],
+      "information_date": "2026-08-06",
+      "evidence_type": "ownership_regulatory_disclosure",
+      "known_public_by_2025_12_31": false,
+      "confidence": "high",
+      "structured_data": {
+        "interest_before": 73930000,
+        "interest_after": 102576000,
+        "increment": 28646000,
+        "class_pct_after": 7.7,
+        "listed_physically_settled_derivative_interest_total": 30666000
+      },
+      "precise_locator": "HKEX individual box14 event shares28,646,000/reason11032; boxes17–18 before/after long interests; box19 physically settled listed derivative30,666,000. Corporate boxes17–21 corroborate.",
+      "evidence_record_ids": [
+        "DYP-F-HKEX-DERIVATIVES-E1",
+        "DYP-F-HKEX-DERIVATIVES-E2"
+      ],
+      "timing_by_case": [
+        {
+          "case_id": "DYP-C-OPTIONS",
+          "node_id": "DYP-C-OPTIONS-N1",
+          "timing_labels": [
+            "T1"
+          ],
+          "reference_interval": "2026-08-06",
+          "note": "Public context, reported observation and original investor explanation are separately scoped; no original initial investor T0 verified."
+        }
+      ],
+      "timing_labels": [
+        "T1"
+      ],
+      "timing_reference": "See timing_by_case; no security decision specified for standalone general-method/identity claims.",
+      "publication_availability_is_not_pretrade_proof": true,
+      "claim_kind": "regulatory_holding",
+      "scope": {
+        "speaker_or_reporter": "段永平 / Duan Yongping",
+        "organization": "H&H relation must be date-qualified",
+        "decision_type": "ownership_regulatory_disclosure",
+        "security_or_case_ids": [
+          "DYP-C-OPTIONS"
+        ],
+        "position_side": "only explicitly reported side; no short inferred from absence",
+        "horizon": "source/event/holding interval; no invented personal intended horizon",
+        "qualifiers": "See structured_data, exact locator and source-specific limitations."
+      },
+      "provenance_grades": [
+        "P1"
+      ]
+    },
+    {
+      "claim_id": "DYP-F-HH-Q226",
+      "text": "H&H quarter-end13F:18 rows, $19,100,584,155; signed by CCO Eric Hu.",
+      "source_ids": [
+        "DYP-S-HH-Q226-COVER",
+        "DYP-S-HH-Q226-INDEX"
+      ],
+      "information_date": "2026-06-30",
+      "evidence_type": "manager_regulatory_disclosure",
+      "known_public_by_2025_12_31": false,
+      "confidence": "high",
+      "structured_data": {
+        "entry_count": 18,
+        "reportable_market_value_usd": 19100584155,
+        "human_signer": "Eric Hu",
+        "signer_role": "Chief Compliance Officer"
+      },
+      "precise_locator": "Q2 2026 cover summaryPage tableEntryTotal18/tableValueTotal19100584155 and signatureBlock Eric Hu/Chief Compliance Officer; paired index filing/report date fields.",
+      "evidence_record_ids": [
+        "DYP-F-HH-Q226-E1",
+        "DYP-F-HH-Q226-E2"
+      ],
+      "timing_by_case": [],
+      "timing_labels": [
+        "TU"
+      ],
+      "timing_reference": "See timing_by_case; no security decision specified for standalone general-method/identity claims.",
+      "publication_availability_is_not_pretrade_proof": true,
+      "claim_kind": "regulatory_holding",
+      "scope": {
+        "speaker_or_reporter": "reporting entity, not inferred individual trader",
+        "organization": "H&H relation must be date-qualified",
+        "decision_type": "manager_regulatory_disclosure",
+        "security_or_case_ids": [],
+        "position_side": "only explicitly reported side; no short inferred from absence",
+        "horizon": "source/event/holding interval; no invented personal intended horizon",
+        "qualifiers": "See structured_data, exact locator and source-specific limitations."
+      },
+      "provenance_grades": [
+        "P1"
+      ]
+    },
+    {
+      "claim_id": "DYP-F-HH-APPLE2026",
+      "text": "H&H reports27,098,707 Apple shares, $7,841,281,858.",
+      "source_ids": [
+        "DYP-S-HH-Q226-TABLE"
+      ],
+      "information_date": "2026-06-30",
+      "evidence_type": "manager_regulatory_disclosure",
+      "known_public_by_2025_12_31": false,
+      "confidence": "high",
+      "structured_data": {
+        "shares": 27098707,
+        "market_value_usd": 7841281858,
+        "percent_of_reported_13f_only": 41.05257616399848
+      },
+      "precise_locator": "Q2 2026 information table APPLE INC COM/CUSIP037833100 row: SH27098707, VALUE7841281858 USD, discretion column.",
+      "evidence_record_ids": [
+        "DYP-F-HH-APPLE2026-E1"
+      ],
+      "timing_by_case": [
+        {
+          "case_id": "DYP-C-APPLE",
+          "node_id": "DYP-C-APPLE-N4",
+          "timing_labels": [
+            "T1"
+          ],
+          "reference_interval": "2026-06-30",
+          "note": "Public context, reported observation and original investor explanation are separately scoped; no original initial investor T0 verified."
+        }
+      ],
+      "timing_labels": [
+        "T1"
+      ],
+      "timing_reference": "See timing_by_case; no security decision specified for standalone general-method/identity claims.",
+      "publication_availability_is_not_pretrade_proof": true,
+      "claim_kind": "regulatory_holding",
+      "scope": {
+        "speaker_or_reporter": "reporting entity, not inferred individual trader",
+        "organization": "H&H relation must be date-qualified",
+        "decision_type": "manager_regulatory_disclosure",
+        "security_or_case_ids": [
+          "DYP-C-APPLE"
+        ],
+        "position_side": "only explicitly reported side; no short inferred from absence",
+        "horizon": "source/event/holding interval; no invented personal intended horizon",
+        "qualifiers": "See structured_data, exact locator and source-specific limitations."
+      },
+      "provenance_grades": [
+        "P1"
+      ]
+    },
+    {
+      "claim_id": "DYP-F-HH-TESLA2026",
+      "text": "H&H reports 3,380,400 Tesla shares, $1,421,796,240.",
+      "source_ids": [
+        "DYP-S-HH-Q226-TABLE"
+      ],
+      "information_date": "2026-06-30",
+      "evidence_type": "manager_regulatory_disclosure",
+      "known_public_by_2025_12_31": false,
+      "confidence": "high",
+      "structured_data": {
+        "shares": 3380400,
+        "market_value_usd": 1421796240,
+        "percent_of_reported_13f_only": 7.443731712403221
+      },
+      "precise_locator": "Q2 2026 information table TESLA INC COM/CUSIP88160R101 row: SH3380400, VALUE1421796240 USD.",
+      "evidence_record_ids": [
+        "DYP-F-HH-TESLA2026-E1"
+      ],
+      "timing_by_case": [],
+      "timing_labels": [
+        "TU"
+      ],
+      "timing_reference": "See timing_by_case; no security decision specified for standalone general-method/identity claims.",
+      "publication_availability_is_not_pretrade_proof": true,
+      "claim_kind": "regulatory_holding",
+      "scope": {
+        "speaker_or_reporter": "reporting entity, not inferred individual trader",
+        "organization": "H&H relation must be date-qualified",
+        "decision_type": "manager_regulatory_disclosure",
+        "security_or_case_ids": [],
+        "position_side": "only explicitly reported side; no short inferred from absence",
+        "horizon": "source/event/holding interval; no invented personal intended horizon",
+        "qualifiers": "See structured_data, exact locator and source-specific limitations."
+      },
+      "provenance_grades": [
+        "P1"
+      ]
+    },
+    {
+      "claim_id": "DYP-F-HH-NVDA2026",
+      "text": "H&H reports 6,280,675 Nvidia shares, $1,256,700,261.",
+      "source_ids": [
+        "DYP-S-HH-Q226-TABLE"
+      ],
+      "information_date": "2026-06-30",
+      "evidence_type": "manager_regulatory_disclosure",
+      "known_public_by_2025_12_31": false,
+      "confidence": "high",
+      "structured_data": {
+        "shares": 6280675,
+        "market_value_usd": 1256700261
+      },
+      "precise_locator": "Q2 2026 information table NVIDIA CORP COM/CUSIP67066G104 row: SH6280675, VALUE1256700261 USD.",
+      "evidence_record_ids": [
+        "DYP-F-HH-NVDA2026-E1"
+      ],
+      "timing_by_case": [],
+      "timing_labels": [
+        "TU"
+      ],
+      "timing_reference": "See timing_by_case; no security decision specified for standalone general-method/identity claims.",
+      "publication_availability_is_not_pretrade_proof": true,
+      "claim_kind": "regulatory_holding",
+      "scope": {
+        "speaker_or_reporter": "reporting entity, not inferred individual trader",
+        "organization": "H&H relation must be date-qualified",
+        "decision_type": "manager_regulatory_disclosure",
+        "security_or_case_ids": [],
+        "position_side": "only explicitly reported side; no short inferred from absence",
+        "horizon": "source/event/holding interval; no invented personal intended horizon",
+        "qualifiers": "See structured_data, exact locator and source-specific limitations."
+      },
+      "provenance_grades": [
+        "P1"
+      ]
+    },
+    {
+      "claim_id": "DYP-F-OPTIONS2026",
+      "text": "Author discusses writing a new3-month put and lost upside; quoted Gemini projections are excluded.",
+      "source_ids": [
+        "DYP-S-OPTIONS20261013"
+      ],
+      "information_date": "2026-10-13",
+      "evidence_type": "original_investor_statement",
+      "known_public_by_2025_12_31": false,
+      "confidence": "high",
+      "structured_data": null,
+      "precise_locator": "Verified-account post /1247347556/412008255 dated2026-10-13 03:07 (display timezone unknown), author paragraph on new3-month put/foregone upside. Embedded Gemini text excluded; independent reviewer could not reopen.",
+      "evidence_record_ids": [
+        "DYP-F-OPTIONS2026-E1"
+      ],
+      "timing_by_case": [
+        {
+          "case_id": "DYP-C-OPTIONS",
+          "node_id": "DYP-C-OPTIONS-N2",
+          "timing_labels": [
+            "T1"
+          ],
+          "reference_interval": "2026-10-13",
+          "note": "Public context, reported observation and original investor explanation are separately scoped; no original initial investor T0 verified."
+        }
+      ],
+      "timing_labels": [
+        "T1"
+      ],
+      "timing_reference": "See timing_by_case; no security decision specified for standalone general-method/identity claims.",
+      "publication_availability_is_not_pretrade_proof": true,
+      "claim_kind": "direct_statement",
+      "scope": {
+        "speaker_or_reporter": "段永平 / Duan Yongping",
+        "organization": "H&H relation must be date-qualified",
+        "decision_type": "original_investor_statement",
+        "security_or_case_ids": [
+          "DYP-C-OPTIONS"
+        ],
+        "position_side": "only explicitly reported side; no short inferred from absence",
+        "horizon": "source/event/holding interval; no invented personal intended horizon",
+        "qualifiers": "See structured_data, exact locator and source-specific limitations."
+      },
+      "provenance_grades": [
+        "P1"
+      ]
+    },
+    {
+      "claim_id": "DYP-F-CORRECTION2026",
+      "text": "Today’s author reply reiterates stopping once an error is recognized.",
+      "source_ids": [
+        "DYP-S-CORRECT20261013"
+      ],
+      "information_date": "2026-10-13",
+      "evidence_type": "original_investor_statement",
+      "known_public_by_2025_12_31": false,
+      "confidence": "high",
+      "structured_data": null,
+      "precise_locator": "Verified-account reply /1247347556/412066702 dated2026-10-13 11:35 (display timezone unknown), author correction/stop reply; no transaction confirmation.",
+      "evidence_record_ids": [
+        "DYP-F-CORRECTION2026-E1"
+      ],
+      "timing_by_case": [],
+      "timing_labels": [
+        "TU"
+      ],
+      "timing_reference": "See timing_by_case; no security decision specified for standalone general-method/identity claims.",
+      "publication_availability_is_not_pretrade_proof": true,
+      "claim_kind": "direct_statement",
+      "scope": {
+        "speaker_or_reporter": "段永平 / Duan Yongping",
+        "organization": "H&H relation must be date-qualified",
+        "decision_type": "original_investor_statement",
+        "security_or_case_ids": [],
+        "position_side": "only explicitly reported side; no short inferred from absence",
+        "horizon": "source/event/holding interval; no invented personal intended horizon",
+        "qualifiers": "See structured_data, exact locator and source-specific limitations."
+      },
+      "provenance_grades": [
+        "P1"
+      ]
+    },
+    {
+      "claim_id": "DYP-F-HH-Q325",
+      "text": "H&H Q3 2025 reports 11 rows totaling $14,678,516,884, filed November 14, 2025; CCO Eric Hu signs.",
+      "source_ids": [
+        "DYP-S-HH-Q325-COVER",
+        "DYP-S-HH-Q325-INDEX"
+      ],
+      "information_date": "2025-09-30",
+      "evidence_type": "manager_regulatory_disclosure",
+      "known_public_by_2025_12_31": true,
+      "confidence": "high_for_reported_vehicle_facts_not_personal_decision",
+      "structured_data": {
+        "entries": 11,
+        "reportable_market_value_usd": 14678516884,
+        "filing_date": "2025-11-14",
+        "accepted_at_utc": "2025-11-14T14:36:13Z",
+        "personal_attribution": null
+      },
+      "precise_locator": "Q3 2025 cover summaryPage tableEntryTotal11/tableValueTotal14678516884 and signatureBlock Eric Hu; index Filing Date2025-11-14/Period2025-09-30; accepted SEC timestamp14:36:13Z.",
+      "evidence_record_ids": [
+        "DYP-F-HH-Q325-E1",
+        "DYP-F-HH-Q325-E2"
+      ],
+      "timing_by_case": [],
+      "timing_labels": [
+        "TU"
+      ],
+      "timing_reference": "See timing_by_case; no security decision specified for standalone general-method/identity claims.",
+      "publication_availability_is_not_pretrade_proof": true,
+      "claim_kind": "regulatory_holding",
+      "scope": {
+        "speaker_or_reporter": "reporting entity, not inferred individual trader",
+        "organization": "H&H relation must be date-qualified",
+        "decision_type": "manager_regulatory_disclosure",
+        "security_or_case_ids": [],
+        "position_side": "only explicitly reported side; no short inferred from absence",
+        "horizon": "source/event/holding interval; no invented personal intended horizon",
+        "qualifiers": "See structured_data, exact locator and source-specific limitations."
+      },
+      "provenance_grades": [
+        "P1"
+      ]
+    },
+    {
+      "claim_id": "DYP-F-HH-Q325-COMPAT",
+      "text": "Same H&H Q3 2025 common rows report Apple 34,829,107 shares/$8,868,535,515 and NVIDIA 597,800 shares/$111,537,524; Tesla has no row in this complete report.",
+      "source_ids": [
+        "DYP-S-HH-Q325-TABLE"
+      ],
+      "information_date": "2025-09-30",
+      "evidence_type": "manager_regulatory_disclosure",
+      "known_public_by_2025_12_31": true,
+      "confidence": "high_for_reported_vehicle_facts_not_personal_decision",
+      "structured_data": {
+        "Apple": {
+          "issuer": "APPLE INC",
+          "class": "COM",
+          "cusip": "037833100",
+          "shares": 34829107,
+          "shares_unit": "SH",
+          "market_value_usd": 8868535515,
+          "investment_discretion": "SOLE",
+          "put_call": null
+        },
+        "NVIDIA": {
+          "issuer": "NVIDIA CORPORATION",
+          "class": "COM",
+          "cusip": "67066G104",
+          "shares": 597800,
+          "shares_unit": "SH",
+          "market_value_usd": 111537524,
+          "investment_discretion": "SOLE",
+          "put_call": null
+        },
+        "Tesla_reported_row_present": false
+      },
+      "precise_locator": "Q3 2025 information table APPLE INC COM/CUSIP037833100, SH34829107/VALUE8868535515; NVIDIA CORP COM/CUSIP67066G104, SH597800/VALUE111537524. All11 rows inspected for absence of Tesla; no putCall fields.",
+      "evidence_record_ids": [
+        "DYP-F-HH-Q325-COMPAT-E1"
+      ],
+      "timing_by_case": [],
+      "timing_labels": [
+        "TU"
+      ],
+      "timing_reference": "See timing_by_case; no security decision specified for standalone general-method/identity claims.",
+      "publication_availability_is_not_pretrade_proof": true,
+      "claim_kind": "regulatory_holding",
+      "scope": {
+        "speaker_or_reporter": "reporting entity, not inferred individual trader",
+        "organization": "H&H relation must be date-qualified",
+        "decision_type": "manager_regulatory_disclosure",
+        "security_or_case_ids": [],
+        "position_side": "only explicitly reported side; no short inferred from absence",
+        "horizon": "source/event/holding interval; no invented personal intended horizon",
+        "qualifiers": "See structured_data, exact locator and source-specific limitations."
+      },
+      "provenance_grades": [
+        "P1"
+      ]
+    }
+  ],
+  "rules": [
+    {
+      "rule_id": "DYP-R-01",
+      "name": "Business model and culture filters",
+      "basis_claim_ids": [
+        "DYP-F-FILTERS",
+        "DYP-F-GE-ERROR"
+      ],
+      "origin": "Auditor operationalization of cited investor evidence; checklist and scenarios are not quotations or claimed historical procedures.",
+      "operational_steps": [
+        "Explain how the business can keep producing cash and what the investor must understand.",
+        "Test culture with product choices, customer treatment, commitments and governance behavior, not slogans alone.",
+        "Record failed model or culture filters even if a past trade made money."
+      ],
+      "fits": "Businesses whose customer value and incentives can be examined",
+      "does_not_fit": "Profit on a trade used as proof the decision was sound",
+      "benchmark_2026_start_eligible": true,
+      "hard_numeric_threshold": "Not established unless a cited claim explicitly supplies one.",
+      "basis_source_ids": [
+        "DYP-S-FILTERS2025",
+        "DYP-S-FANGLUE2025"
+      ],
+      "precutoff_evidence_records": [
+        {
+          "source_id": "DYP-S-FILTERS2025",
+          "published_at": "2025-08-15",
+          "known_public_by_2025_12_31": true,
+          "access_grade": "A_direct_original_read"
+        },
+        {
+          "source_id": "DYP-S-FANGLUE2025",
+          "published_at": "2025-11-11",
+          "known_public_by_2025_12_31": true,
+          "access_grade": "A_direct_original_read"
+        }
+      ],
+      "strict_pre2026_eligible": true,
+      "precise_evidence_record_ids": [
+        "DYP-F-FILTERS-E1",
+        "DYP-F-GE-ERROR-E1"
+      ],
+      "precise_claim_anchors": [
+        {
+          "claim_id": "DYP-F-FILTERS",
+          "precise_locator": "Xueqiu thread author 大道无形我有型 replies dated 2025-08-15 21:42 (business model/culture) and 23:07 (rational long-term essential thinking). Reader quotations are excluded."
+        },
+        {
+          "claim_id": "DYP-F-GE-ERROR",
+          "precise_locator": "Fanglue lines365–378: GE 2008 purchase question, misunderstood model/lost integrity-slogan explanation, holding interval, profit acknowledgment and two-filter repudiation."
+        }
+      ],
+      "method_vs_application_boundary": "Source-faithful mechanism below is separate from auditor operational_steps. Contemporary or retrospective case provenance does not become original pre-trade intent."
+    },
+    {
+      "rule_id": "DYP-R-02",
+      "name": "Future cash and opportunity cost",
+      "basis_claim_ids": [
+        "DYP-F-VALUATION",
+        "DYP-F-APPLE-PRICE2025"
+      ],
+      "origin": "Auditor operationalization of cited investor evidence; checklist and scenarios are not quotations or claimed historical procedures.",
+      "operational_steps": [
+        "Compare a conservative future cash-flow range with price and investable alternatives.",
+        "Separate company admiration from expected return at the chosen price.",
+        "Avoid importing exact historic multiples or a cash balance remembered many years later."
+      ],
+      "fits": "Long-lived cash generation with comprehensible uncertainty",
+      "does_not_fit": "Fixed PE rule, cheapness alone or guaranteed upside claims",
+      "benchmark_2026_start_eligible": true,
+      "hard_numeric_threshold": "Not established unless a cited claim explicitly supplies one.",
+      "basis_source_ids": [
+        "DYP-S-FANGLUE2025"
+      ],
+      "precutoff_evidence_records": [
+        {
+          "source_id": "DYP-S-FANGLUE2025",
+          "published_at": "2025-11-11",
+          "known_public_by_2025_12_31": true,
+          "access_grade": "A_direct_original_read"
+        }
+      ],
+      "strict_pre2026_eligible": true,
+      "precise_evidence_record_ids": [
+        "DYP-F-VALUATION-E1",
+        "DYP-F-APPLE-PRICE2025-E1"
+      ],
+      "precise_claim_anchors": [
+        {
+          "claim_id": "DYP-F-VALUATION",
+          "precise_locator": "Fanglue investment section rendered line267, future-cash understanding; line412, future earnings versus investment opportunity cost."
+        },
+        {
+          "claim_id": "DYP-F-APPLE-PRICE2025",
+          "precise_locator": "Fanglue lines358–363: interview question on current Apple price; answer not cheap; subsequent opportunity-cost comparison and uncertainty."
+        }
+      ],
+      "method_vs_application_boundary": "Source-faithful mechanism below is separate from auditor operational_steps. Contemporary or retrospective case provenance does not become original pre-trade intent."
+    },
+    {
+      "rule_id": "DYP-R-03",
+      "name": "Competence before conviction",
+      "basis_claim_ids": [
+        "DYP-F-NETEASE-STORY",
+        "DYP-F-TRANSPARENCY"
+      ],
+      "origin": "Auditor operationalization of cited investor evidence; checklist and scenarios are not quotations or claimed historical procedures.",
+      "operational_steps": [
+        "Link each major assumption to firsthand operating understanding or dated primary evidence.",
+        "Label uncertainty and observation positions; do not treat any public buy as conviction size.",
+        "Choose sizing from independent loss capacity and liquidity, never from an assumed percentage of the investor’s undisclosed wealth."
+      ],
+      "fits": "Concentrated research when competence and capital capacity are established",
+      "does_not_fit": "Blind copying, full-net-worth inference from one account’s exposure",
+      "benchmark_2026_start_eligible": true,
+      "hard_numeric_threshold": "Not established unless a cited claim explicitly supplies one.",
+      "basis_source_ids": [
+        "DYP-S-FANGLUE2025"
+      ],
+      "precutoff_evidence_records": [
+        {
+          "source_id": "DYP-S-FANGLUE2025",
+          "published_at": "2025-11-11",
+          "known_public_by_2025_12_31": true,
+          "access_grade": "A_direct_original_read"
+        }
+      ],
+      "strict_pre2026_eligible": true,
+      "precise_evidence_record_ids": [
+        "DYP-F-NETEASE-STORY-E1",
+        "DYP-F-TRANSPARENCY-E1"
+      ],
+      "precise_claim_anchors": [
+        {
+          "claim_id": "DYP-F-NETEASE-STORY",
+          "precise_locator": "Fanglue rendered lines307–309 (game/team/cash/account and holding capacity), 316 (knowledge limits) and 320 (>100x later self-report)."
+        },
+        {
+          "claim_id": "DYP-F-TRANSPARENCY",
+          "precise_locator": "Fanglue lines383 and386: small Occidental stake; selective holdings disclosure, learning positions and warning about followers going all-in."
+        }
+      ],
+      "method_vs_application_boundary": "Source-faithful mechanism below is separate from auditor operational_steps. Contemporary or retrospective case provenance does not become original pre-trade intent."
+    },
+    {
+      "rule_id": "DYP-R-04",
+      "name": "Instrument economics and correction",
+      "basis_claim_ids": [
+        "DYP-F-INDEX-ERROR"
+      ],
+      "origin": "Auditor operationalization of cited investor evidence; checklist and scenarios are not quotations or claimed historical procedures.",
+      "operational_steps": [
+        "Read legal instrument structure, daily-reset or roll exposure, carry, decay and long-run tracking before entry.",
+        "Separate belief in oil demand from the return delivered by an index product.",
+        "Specify an immediate reconsideration trigger when the economic mechanism is misunderstood; recognize sunk cost without needing price recovery."
+      ],
+      "fits": "Understandable instruments supporting an independently formed thesis",
+      "does_not_fit": "Long-term holding of a product whose tracking mechanism is unknown",
+      "benchmark_2026_start_eligible": true,
+      "hard_numeric_threshold": "Not established unless a cited claim explicitly supplies one.",
+      "instrument_mechanism_guard": "Reset, roll, carry and decay are auditor checks to identify from a product’s legal documents; they are not verified features of the unnamed historical instrument.",
+      "basis_source_ids": [
+        "DYP-S-FANGLUE2025"
+      ],
+      "precutoff_evidence_records": [
+        {
+          "source_id": "DYP-S-FANGLUE2025",
+          "published_at": "2025-11-11",
+          "known_public_by_2025_12_31": true,
+          "access_grade": "A_direct_original_read"
+        }
+      ],
+      "strict_pre2026_eligible": true,
+      "precise_evidence_record_ids": [
+        "DYP-F-INDEX-ERROR-E1"
+      ],
+      "precise_claim_anchors": [
+        {
+          "claim_id": "DYP-F-INDEX-ERROR",
+          "precise_locator": "Fanglue lines382–383: unnamed oil/gas index, daily99% correlation, long-run/time-loss mechanism, approximately $100m invested and slightly over $10m loss; product name absent."
+        }
+      ],
+      "method_vs_application_boundary": "Source-faithful mechanism below is separate from auditor operational_steps. Contemporary or retrospective case provenance does not become original pre-trade intent."
+    },
+    {
+      "rule_id": "DYP-R-05",
+      "name": "Options require their own risk budget",
+      "basis_claim_ids": [
+        "DYP-F-OPTIONS2026",
+        "DYP-F-HKEX-DERIVATIVES"
+      ],
+      "origin": "Auditor operationalization of cited investor evidence; checklist and scenarios are not quotations or claimed historical procedures.",
+      "operational_steps": [
+        "Classify written put/call, assignment obligations, available collateral and upside forfeiture separately from stock holdings.",
+        "Stress adverse assignment and exercise rather than label option premium risk-free interest.",
+        "Do not adopt embedded AI yield arithmetic as the investor’s validated method."
+      ],
+      "fits": "Only informed investors able to fund contingent commitments",
+      "does_not_fit": "Simplistic never-derivatives persona or premium-as-guaranteed-return",
+      "benchmark_2026_start_eligible": false,
+      "hard_numeric_threshold": "Not established unless a cited claim explicitly supplies one.",
+      "basis_source_ids": [
+        "DYP-S-OPTIONS20261013",
+        "DYP-S-HKEX-2026-INDIVIDUAL",
+        "DYP-S-HKEX-2026-CORPORATE"
+      ],
+      "precutoff_evidence_records": [
+        {
+          "source_id": "DYP-S-OPTIONS20261013",
+          "published_at": "2026-10-13",
+          "known_public_by_2025_12_31": false,
+          "access_grade": "A_direct_original_read"
+        },
+        {
+          "source_id": "DYP-S-HKEX-2026-INDIVIDUAL",
+          "published_at": "2026-08-12",
+          "known_public_by_2025_12_31": false,
+          "access_grade": "A_direct_original_read"
+        },
+        {
+          "source_id": "DYP-S-HKEX-2026-CORPORATE",
+          "published_at": "2026-08-12",
+          "known_public_by_2025_12_31": false,
+          "access_grade": "A_direct_original_read"
+        }
+      ],
+      "strict_pre2026_eligible": false,
+      "precise_evidence_record_ids": [
+        "DYP-F-OPTIONS2026-E1",
+        "DYP-F-HKEX-DERIVATIVES-E1",
+        "DYP-F-HKEX-DERIVATIVES-E2"
+      ],
+      "precise_claim_anchors": [
+        {
+          "claim_id": "DYP-F-OPTIONS2026",
+          "precise_locator": "Verified-account post /1247347556/412008255 dated2026-10-13 03:07 (display timezone unknown), author paragraph on new3-month put/foregone upside. Embedded Gemini text excluded; independent reviewer could not reopen."
+        },
+        {
+          "claim_id": "DYP-F-HKEX-DERIVATIVES",
+          "precise_locator": "HKEX individual box14 event shares28,646,000/reason11032; boxes17–18 before/after long interests; box19 physically settled listed derivative30,666,000. Corporate boxes17–21 corroborate."
+        }
+      ],
+      "method_vs_application_boundary": "Source-faithful mechanism below is separate from auditor operational_steps. Contemporary or retrospective case provenance does not become original pre-trade intent."
+    }
+  ],
+  "cases": [
+    {
+      "case_id": "DYP-C-NETEASE",
+      "classification": "major success, investor-self-reported >100x; ownership independently corroborated",
+      "selection_reason": "Famous Chinese games turnaround with directly attributable retrospective explanation and contemporaneous ownership evidence.",
+      "initial_pretrade_original_record": "Not located. Exact initial entry date, trade prices and account-level cash flows unknown.",
+      "business_asset_fit": "Game-business experience; public equity/ADS exposure, historically distressed market valuation.",
+      "chain": [
+        {
+          "node_id": "DYP-C-NETEASE-N1",
+          "event_date": "entry_date_unknown",
+          "publication_date": null,
+          "evidence_stage": "predecision_original_missing",
+          "claim_ids": [],
+          "notes": "No source in this audit establishes a dated pre-entry investor memo.",
+          "timing_labels": [
+            "TU"
+          ],
+          "timing_reference": "Actual initial investment decision for retrospective/missing evidence; bounded contemporaneous holding/transaction interval for current reports. Does not turn later filings into initial decision evidence.",
+          "investor_intent_T0_verified": false,
+          "publication_is_predecision_public_context": false,
+          "public_availability_cutoff_eligible": false
+        },
+        {
+          "node_id": "DYP-C-NETEASE-N2",
+          "event_date": "2002-12-31 / 2003-05-31",
+          "publication_date": "2003",
+          "evidence_stage": "postentry_issuer_results_and_position",
+          "claim_ids": [
+            "DYP-F-NETEASE-2003",
+            "DYP-F-NETEASE-PROFIT"
+          ],
+          "notes": "Issuer record supports actual ownership and business improvement, not earlier private beliefs.",
+          "timing_labels": [
+            "T1"
+          ],
+          "timing_reference": "Actual initial investment decision for retrospective/missing evidence; bounded contemporaneous holding/transaction interval for current reports. Does not turn later filings into initial decision evidence.",
+          "investor_intent_T0_verified": false,
+          "publication_is_predecision_public_context": false,
+          "public_availability_cutoff_eligible": true
+        },
+        {
+          "node_id": "DYP-C-NETEASE-N3",
+          "event_date": "2003-10-29",
+          "publication_date": "2003; exact filing day unresolved",
+          "evidence_stage": "subsequent_ownership_disclosure",
+          "claim_ids": [
+            "DYP-F-NETEASE-OCT2003"
+          ],
+          "notes": "Do not infer exact sale quantity by comparing unreconciled raw units.",
+          "timing_labels": [
+            "T1"
+          ],
+          "timing_reference": "Actual initial investment decision for retrospective/missing evidence; bounded contemporaneous holding/transaction interval for current reports. Does not turn later filings into initial decision evidence.",
+          "investor_intent_T0_verified": false,
+          "publication_is_predecision_public_context": false,
+          "public_availability_cutoff_eligible": true
+        },
+        {
+          "node_id": "DYP-C-NETEASE-N4",
+          "event_date": "2009-03-23",
+          "publication_date": "2009-03-24",
+          "evidence_stage": "subsequent_ownership_disclosure",
+          "claim_ids": [
+            "DYP-F-NETEASE-2009"
+          ],
+          "notes": "Personal and foundation quantities separately reported.",
+          "timing_labels": [
+            "T1"
+          ],
+          "timing_reference": "Actual initial investment decision for retrospective/missing evidence; bounded contemporaneous holding/transaction interval for current reports. Does not turn later filings into initial decision evidence.",
+          "investor_intent_T0_verified": false,
+          "publication_is_predecision_public_context": false,
+          "public_availability_cutoff_eligible": true
+        },
+        {
+          "node_id": "DYP-C-NETEASE-N5",
+          "event_date": "2025-10-16",
+          "publication_date": "2025-11-11",
+          "evidence_stage": "retrospective_thesis_and_return_selfreport",
+          "claim_ids": [
+            "DYP-F-NETEASE-STORY"
+          ],
+          "notes": null,
+          "timing_labels": [
+            "T2"
+          ],
+          "timing_reference": "Actual initial investment decision for retrospective/missing evidence; bounded contemporaneous holding/transaction interval for current reports. Does not turn later filings into initial decision evidence.",
+          "investor_intent_T0_verified": false,
+          "publication_is_predecision_public_context": false,
+          "public_availability_cutoff_eligible": true
+        }
+      ],
+      "outcome": "A famous successful investment with verifiable substantial ownership. The >100x claim is his own later account, not independently reconstructed net after-tax/time-weighted return.",
+      "capital_boundary": "Full cash in the referenced account is not equivalent to all personal wealth; a large outside capital buffer could affect holding ability but no total wealth amount is inferred.",
+      "unresolved": "2003 Schedule13G uses a denominator roughly one hundredth of the annual report’s ordinary-share scale while labeling common stock; exact unit reconciliation not verified. It reports cessation above 5%, not a final complete exit.",
+      "auditor_test": "For a similar turnaround, freeze public financials and accounting-reliability information at entry. Independently test liquidity runway, sustainable paid demand and governance; later profitability cannot be fed back into the entry forecast.",
+      "linked_rule_ids": [
+        "DYP-R-01",
+        "DYP-R-02",
+        "DYP-R-03"
+      ],
+      "accepted_for_coverage": true,
+      "case_scope": "investment/strategy case",
+      "original_initial_investor_pretrade_thesis_verified": false,
+      "timing_coverage": {
+        "case_id": "DYP-C-NETEASE",
+        "investor_id": "DYP",
+        "accepted": true,
+        "case_scope": "investment/strategy case",
+        "node_denominator": 5,
+        "node_label_incidence_counts_nonexclusive": {
+          "T0": 0,
+          "T1": 3,
+          "T2": 1,
+          "TU": 1
+        },
+        "has_T0": false,
+        "has_T1": true,
+        "has_T2": true,
+        "has_TU": true,
+        "original_initial_investor_T0_thesis_verified": false,
+        "full_trade_reconstruction": "not established",
+        "missing_initial_pretrade_evidence": true,
+        "T0_scope": null
+      }
+    },
+    {
+      "case_id": "DYP-C-APPLE",
+      "classification": "major-success lead; entry/logic self-reported, complete return unknown",
+      "selection_reason": "Famous consumer ecosystem fit that must be distinguished from short-term product forecasts and price-blind admiration.",
+      "initial_pretrade_original_record": "No verified dated original 2011 pre-entry post located. Exact day and claimed quantitative forecast remain unverified.",
+      "chain": [
+        {
+          "node_id": "DYP-C-APPLE-N1",
+          "event_date": "2011-01-18",
+          "publication_date": "2011-01-18",
+          "evidence_stage": "public_business_context",
+          "claim_ids": [
+            "DYP-F-APPLE-2011-DATA"
+          ],
+          "notes": "Unknown exact first trade date prevents calling it definitely pre-entry information.",
+          "timing_labels": [
+            "TU"
+          ],
+          "timing_reference": "Actual initial investment decision for retrospective/missing evidence; bounded contemporaneous holding/transaction interval for current reports. Does not turn later filings into initial decision evidence.",
+          "investor_intent_T0_verified": false,
+          "publication_is_predecision_public_context": false,
+          "public_availability_cutoff_eligible": true
+        },
+        {
+          "node_id": "DYP-C-APPLE-N2",
+          "event_date": "2011–2025",
+          "publication_date": "2025-11-11",
+          "evidence_stage": "retrospective_entry_thesis_and_sizing",
+          "claim_ids": [
+            "DYP-F-APPLE-STORY"
+          ],
+          "notes": null,
+          "timing_labels": [
+            "T2"
+          ],
+          "timing_reference": "Actual initial investment decision for retrospective/missing evidence; bounded contemporaneous holding/transaction interval for current reports. Does not turn later filings into initial decision evidence.",
+          "investor_intent_T0_verified": false,
+          "publication_is_predecision_public_context": false,
+          "public_availability_cutoff_eligible": true
+        },
+        {
+          "node_id": "DYP-C-APPLE-N3",
+          "event_date": "2025-10-16",
+          "publication_date": "2025-11-11",
+          "evidence_stage": "contemporary_price_assessment",
+          "claim_ids": [
+            "DYP-F-APPLE-PRICE2025"
+          ],
+          "notes": "Available by start 2026; a dated opinion, not a perpetual recommendation.",
+          "timing_labels": [
+            "T1"
+          ],
+          "timing_reference": "Actual initial investment decision for retrospective/missing evidence; bounded contemporaneous holding/transaction interval for current reports. Does not turn later filings into initial decision evidence.",
+          "investor_intent_T0_verified": false,
+          "publication_is_predecision_public_context": false,
+          "public_availability_cutoff_eligible": true
+        },
+        {
+          "node_id": "DYP-C-APPLE-N4",
+          "event_date": "2026-06-30",
+          "publication_date": "2026-08-14",
+          "evidence_stage": "later_institutional_position",
+          "claim_ids": [
+            "DYP-F-HH-APPLE2026"
+          ],
+          "notes": "Excluded from beginning 2026 views; partial institutional corroboration only.",
+          "timing_labels": [
+            "T1"
+          ],
+          "timing_reference": "Actual initial investment decision for retrospective/missing evidence; bounded contemporaneous holding/transaction interval for current reports. Does not turn later filings into initial decision evidence.",
+          "investor_intent_T0_verified": false,
+          "publication_is_predecision_public_context": false,
+          "public_availability_cutoff_eligible": false
+        }
+      ],
+      "outcome": "2011 entry and long ownership are self-reported, and 2026 H&H has a large holding. No verified brokerage chain establishes his complete original cost, personal ownership continuity or exact return.",
+      "auditor_test": "Do not accept a later memory of 2011 cash or profit forecasts without the original record. Test user value, ecosystem, cash generation and valuation separately. Existing conviction does not imply purchase at any price.",
+      "linked_rule_ids": [
+        "DYP-R-01",
+        "DYP-R-02",
+        "DYP-R-03"
+      ],
+      "accepted_for_coverage": true,
+      "case_scope": "investment/strategy case",
+      "original_initial_investor_pretrade_thesis_verified": false,
+      "timing_coverage": {
+        "case_id": "DYP-C-APPLE",
+        "investor_id": "DYP",
+        "accepted": true,
+        "case_scope": "investment/strategy case",
+        "node_denominator": 4,
+        "node_label_incidence_counts_nonexclusive": {
+          "T0": 0,
+          "T1": 2,
+          "T2": 1,
+          "TU": 1
+        },
+        "has_T0": false,
+        "has_T1": true,
+        "has_T2": true,
+        "has_TU": true,
+        "original_initial_investor_T0_thesis_verified": false,
+        "full_trade_reconstruction": "not established",
+        "missing_initial_pretrade_evidence": true,
+        "T0_scope": null
+      }
+    },
+    {
+      "case_id": "DYP-C-OILGAS-INDEX",
+      "classification": "documented adverse self-report; instrument unnamed",
+      "selection_reason": "Direct primary interview states a monetary loss and mechanism error. Stronger than repeating a named Baidu-short loss from unverified compilations.",
+      "initial_pretrade_original_record": "None located; transaction year, product ticker, full costs and account are unknown.",
+      "chain": [
+        {
+          "node_id": "DYP-C-OILGAS-N1",
+          "event_date": "historical_date_unknown",
+          "publication_date": "2025-11-11",
+          "evidence_stage": "retrospectively_reported_entry",
+          "claim_ids": [
+            "DYP-F-INDEX-ERROR"
+          ],
+          "notes": "Entry based on mistaken interpretation of daily correlation, according to later account.",
+          "timing_labels": [
+            "T2"
+          ],
+          "timing_reference": "Actual initial investment decision for retrospective/missing evidence; bounded contemporaneous holding/transaction interval for current reports. Does not turn later filings into initial decision evidence.",
+          "investor_intent_T0_verified": false,
+          "publication_is_predecision_public_context": false,
+          "public_availability_cutoff_eligible": true
+        },
+        {
+          "node_id": "DYP-C-OILGAS-N2",
+          "event_date": "historical_date_unknown",
+          "publication_date": "2025-11-11",
+          "evidence_stage": "retrospectively_reported_correction_and_loss",
+          "claim_ids": [
+            "DYP-F-INDEX-ERROR"
+          ],
+          "notes": "Speech establishes his account of a loss, not independent transaction audit.",
+          "timing_labels": [
+            "T2"
+          ],
+          "timing_reference": "Actual initial investment decision for retrospective/missing evidence; bounded contemporaneous holding/transaction interval for current reports. Does not turn later filings into initial decision evidence.",
+          "investor_intent_T0_verified": false,
+          "publication_is_predecision_public_context": false,
+          "public_availability_cutoff_eligible": true
+        },
+        {
+          "node_id": "DYP-C-OILGAS-N3",
+          "event_date": "2025-10-16",
+          "publication_date": "2025-11-11",
+          "evidence_stage": "original_public_retelling",
+          "claim_ids": [
+            "DYP-F-INDEX-ERROR"
+          ],
+          "notes": null,
+          "timing_labels": [
+            "T2"
+          ],
+          "timing_reference": "Actual initial investment decision for retrospective/missing evidence; bounded contemporaneous holding/transaction interval for current reports. Does not turn later filings into initial decision evidence.",
+          "investor_intent_T0_verified": false,
+          "publication_is_predecision_public_context": false,
+          "public_availability_cutoff_eligible": true
+        }
+      ],
+      "outcome": "Selfreported loss slightly aboveUS$10m on approximatelyUS$100m invested. A roughly10%-plus ratio is arithmetic from approximate figures, not an audited rate of return or whole-wealth loss percentage.",
+      "name_guard": "Do not name this product UNG from this interview. Compiled 2010 UNG references may concern the same or a different episode; equivalence is unverified.",
+      "auditor_test": "Before trading a commodity-linked product, map actual futures/options/reset/roll structure from the product’s own documents. Demand belief and tracking mechanism are distinct. A later error diagnosis does not prove a public pre-trade warning existed.",
+      "linked_rule_ids": [
+        "DYP-R-04"
+      ],
+      "accepted_for_coverage": true,
+      "case_scope": "investment/strategy case",
+      "original_initial_investor_pretrade_thesis_verified": false,
+      "timing_coverage": {
+        "case_id": "DYP-C-OILGAS-INDEX",
+        "investor_id": "DYP",
+        "accepted": true,
+        "case_scope": "investment/strategy case",
+        "node_denominator": 3,
+        "node_label_incidence_counts_nonexclusive": {
+          "T0": 0,
+          "T1": 0,
+          "T2": 3,
+          "TU": 0
+        },
+        "has_T0": false,
+        "has_T1": false,
+        "has_T2": true,
+        "has_TU": false,
+        "original_initial_investor_T0_thesis_verified": false,
+        "full_trade_reconstruction": "not established",
+        "missing_initial_pretrade_evidence": true,
+        "T0_scope": null
+      }
+    },
+    {
+      "case_id": "DYP-C-GE",
+      "classification": "named decision-quality counterexample; monetary loss not claimed",
+      "selection_reason": "Original investor distinguishes a profitable result from a bad decision, testing the model+culture gate.",
+      "chain": [
+        {
+          "node_id": "DYP-C-GE-N1",
+          "event_date": "2008_to_exit_unknown",
+          "publication_date": "2025-11-11",
+          "evidence_stage": "retrospective_purchase_sale_and_error",
+          "claim_ids": [
+            "DYP-F-GE-ERROR"
+          ],
+          "notes": null,
+          "timing_labels": [
+            "T2"
+          ],
+          "timing_reference": "Actual initial investment decision for retrospective/missing evidence; bounded contemporaneous holding/transaction interval for current reports. Does not turn later filings into initial decision evidence.",
+          "investor_intent_T0_verified": false,
+          "publication_is_predecision_public_context": false,
+          "public_availability_cutoff_eligible": true
+        }
+      ],
+      "pretrade_or_transaction_audit": "Unknown; no independent position/cash-flow chain verified here.",
+      "outcome": "Selfreported profit alongside repudiation of decision quality. Do not manufacture a loss to satisfy an adverse-case quota.",
+      "linked_rule_ids": [
+        "DYP-R-01"
+      ],
+      "accepted_for_coverage": true,
+      "case_scope": "investment/strategy case",
+      "original_initial_investor_pretrade_thesis_verified": false,
+      "timing_coverage": {
+        "case_id": "DYP-C-GE",
+        "investor_id": "DYP",
+        "accepted": true,
+        "case_scope": "investment/strategy case",
+        "node_denominator": 1,
+        "node_label_incidence_counts_nonexclusive": {
+          "T0": 0,
+          "T1": 0,
+          "T2": 1,
+          "TU": 0
+        },
+        "has_T0": false,
+        "has_T1": false,
+        "has_T2": true,
+        "has_TU": false,
+        "original_initial_investor_T0_thesis_verified": false,
+        "full_trade_reconstruction": "not established",
+        "missing_initial_pretrade_evidence": true,
+        "T0_scope": null
+      }
+    },
+    {
+      "case_id": "DYP-C-OPTIONS",
+      "classification": "documented method boundary, not a measured successful trade",
+      "selection_reason": "Direct original posts plus regulator disclosure disprove a simple no-derivatives representation.",
+      "chain": [
+        {
+          "node_id": "DYP-C-OPTIONS-N1",
+          "event_date": "2026-08-06",
+          "publication_date": "2026-08-12",
+          "evidence_stage": "regulatory_derivative_interest",
+          "claim_ids": [
+            "DYP-F-HKEX-DERIVATIVES"
+          ],
+          "notes": null,
+          "timing_labels": [
+            "T1"
+          ],
+          "timing_reference": "Actual initial investment decision for retrospective/missing evidence; bounded contemporaneous holding/transaction interval for current reports. Does not turn later filings into initial decision evidence.",
+          "investor_intent_T0_verified": false,
+          "publication_is_predecision_public_context": false,
+          "public_availability_cutoff_eligible": false
+        },
+        {
+          "node_id": "DYP-C-OPTIONS-N2",
+          "event_date": "2026-10-13",
+          "publication_date": "2026-10-13",
+          "evidence_stage": "contemporary_option_statement",
+          "claim_ids": [
+            "DYP-F-OPTIONS2026"
+          ],
+          "notes": null,
+          "timing_labels": [
+            "T1"
+          ],
+          "timing_reference": "Actual initial investment decision for retrospective/missing evidence; bounded contemporaneous holding/transaction interval for current reports. Does not turn later filings into initial decision evidence.",
+          "investor_intent_T0_verified": false,
+          "publication_is_predecision_public_context": false,
+          "public_availability_cutoff_eligible": false
+        }
+      ],
+      "outcome": "Open/future-expiry outcomes unknown as of the research date. No claim of actual realized premium, execution, margin or future assignment.",
+      "benchmark_use": "Audit only; excluded from beginning 2026 rule formation.",
+      "linked_rule_ids": [
+        "DYP-R-05"
+      ],
+      "accepted_for_coverage": true,
+      "case_scope": "instrument/method boundary, not an outcome case",
+      "original_initial_investor_pretrade_thesis_verified": false,
+      "timing_coverage": {
+        "case_id": "DYP-C-OPTIONS",
+        "investor_id": "DYP",
+        "accepted": true,
+        "case_scope": "instrument/method boundary, not an outcome case",
+        "node_denominator": 2,
+        "node_label_incidence_counts_nonexclusive": {
+          "T0": 0,
+          "T1": 2,
+          "T2": 0,
+          "TU": 0
+        },
+        "has_T0": false,
+        "has_T1": true,
+        "has_T2": false,
+        "has_TU": false,
+        "original_initial_investor_T0_thesis_verified": false,
+        "full_trade_reconstruction": "not established",
+        "missing_initial_pretrade_evidence": false,
+        "T0_scope": null
+      }
+    },
+    {
+      "case_id": "DYP-C-BAIDU-SHORT",
+      "classification": "unverified lead, excluded",
+      "selection_reason": "Commonly repeated famous-loss story; original post or recording not verified.",
+      "named_trade_and_dollar_loss": "Unknown at accepted source level.",
+      "benchmark_use": "Do not use as case evidence.",
+      "accepted_for_coverage": false,
+      "case_scope": "excluded unverified lead",
+      "original_initial_investor_pretrade_thesis_verified": false,
+      "timing_coverage": {
+        "case_id": "DYP-C-BAIDU-SHORT",
+        "investor_id": "DYP",
+        "accepted": false,
+        "case_scope": "excluded unverified lead",
+        "node_denominator": 0,
+        "node_label_incidence_counts_nonexclusive": {
+          "T0": 0,
+          "T1": 0,
+          "T2": 0,
+          "TU": 0
+        },
+        "has_T0": false,
+        "has_T1": false,
+        "has_T2": false,
+        "has_TU": false,
+        "original_initial_investor_T0_thesis_verified": false,
+        "full_trade_reconstruction": "not established",
+        "missing_initial_pretrade_evidence": true,
+        "T0_scope": null
+      }
+    }
+  ],
+  "statement_position_crosschecks": [
+    {
+      "check_id": "DYP-X-01",
+      "status": "compatible_but_partial",
+      "claim_ids": [
+        "DYP-F-APPLE-STORY",
+        "DYP-F-HH-APPLE2026",
+        "DYP-F-HH-CONTROL2026",
+        "DYP-F-HH-Q325-COMPAT"
+      ],
+      "assessment": "Later Apple holding is compatible with long-term interest but cannot prove original 2011 intent or complete personal returns. The same H&H Apple common class is also reported at 2025-09-30. This strengthens vehicle-level continuity only; its public-2025 personal decision-maker link is not established."
+    },
+    {
+      "check_id": "DYP-X-02",
+      "status": "unresolved_tension",
+      "claim_ids": [
+        "DYP-F-TESLA2025",
+        "DYP-F-HH-TESLA2026",
+        "DYP-F-HH-Q325-COMPAT"
+      ],
+      "assessment": "2025 personal reservations and reported prior sale coexist with a material 2026 H&H long stock holding. The available evidence does not resolve whether views changed, shares came by option assignment, another decision maker was involved or accounts differ. These are hypotheses, not findings. The Q3 2025 complete H&H table has no Tesla row, followed by the Q2 2026 reported long; timing does not resolve who authorized it or why."
+    },
+    {
+      "check_id": "DYP-X-03",
+      "status": "stereotype_rejected",
+      "claim_ids": [
+        "DYP-F-APPLE-STORY",
+        "DYP-F-OPTIONS2026",
+        "DYP-F-HKEX-DERIVATIVES"
+      ],
+      "assessment": "Never-sell and never-options assertions are contradicted by attributable original statements or derivative disclosures; neither guarantees a current option strategy is appropriate for another investor."
+    },
+    {
+      "check_id": "DYP-X-04",
+      "status": "scope_mismatch_unresolved",
+      "claim_ids": [
+        "DYP-F-TRANSPARENCY",
+        "DYP-F-HH-Q226"
+      ],
+      "assessment": "His headline Apple/Tencent/Moutai shorthand is not an all-position disclosure. H&H’s18 reportableUS rows cannot establish everything he personally owns or personally selected."
+    }
+  ],
+  "unknowns": [
+    "No verified original pre-trade NetEase or 2011 Apple memorandum/post in this bounded search.",
+    "No audited complete personal return, all-capital percentage or cash-flow series.",
+    "No primary-verified named Baidu short loss or equivalence between the unnamed oil/gas episode and UNG.",
+    "2011 Apple exact entry-day and later remembered quantitative forecast not promoted from compilations.",
+    "H&H Tesla 2026 attribution/motive versus 2025 personal comments unresolved.",
+    "No sourced blanket numerical valuation, stop-loss or leverage rule imposed."
+  ],
+  "search_coverage": {
+    "bounded_window": "2026-10-13 session: directXueqiu account and selected original 2025/2026 replies; original-producer 2025 Fanglue transcript; NetEase 2002 AR,2003/2009 notices; selectedH&H 2026 SEC andHKEX notifications; Apple 2011 issuer context.",
+    "failures_or_limits": [
+      "Historical blog compilations are discovery sources, not verified original pre-trade evidence.",
+      "Video audio not fully listened to.",
+      "No complete historical H&H/private account reconciliation performed."
+    ],
+    "not_lifetime_claim": "No assertion that this is every trade, mistake, holding or public statement.",
+    "bounded_source_reuse": "Corrective round 1 reused cutoff worker’s Q3 2025 index, cover, XML table and recent-index amendment check. No duplicate full filings search or private-account reconstruction."
+  },
+  "identity": {
+    "chinese_name": "段永平",
+    "romanizations": [
+      "Duan Yongping",
+      "Yongping Duan",
+      "Duan Yong Ping"
+    ],
+    "public_account": {
+      "name": "大道无形我有型",
+      "numeric_id": "1247347556",
+      "url": "https://www.xueqiu.com/u/1247347556"
+    },
+    "career": "Entrepreneur and BBK founder; historical operating experience informs business analysis. See DYP-F-ROLE rather than assume continuing operating control.",
+    "capital_context": "His self-described personal/account investments are not the same scope as an institutional manager’s filings. H&H is a registered reporting manager with CIK1759760, CRD292451, SEC801-112873. The 2026 control relationship is verified, but the scope of every managed account is unknown.",
+    "role_basis_claim_ids": [
+      "DYP-F-ROLE",
+      "DYP-F-HH-CONTROL2026",
+      "DYP-F-HH-Q226"
+    ],
+    "identity_exclusion": "Do not substitute Ren Zeping or infer that unrelated accounts named 大道至简 are this investor."
+  },
+  "fit_and_no_fit": {
+    "fit": "Auditor interpretation: operating experience can help evaluate games, consumer hardware/software ecosystems or other understandable long-lived businesses. Apply model and culture filters at company level.",
+    "no_fit": "A cheap asset with incomprehensible economic exposure is not a business ownership thesis. Do not extrapolate a small research stake to a large conviction stake or claim a universal ban on technology, options or selling.",
+    "basis_claim_ids": [
+      "DYP-F-FILTERS",
+      "DYP-F-VALUATION",
+      "DYP-F-NETEASE-STORY",
+      "DYP-F-APPLE-STORY",
+      "DYP-F-INDEX-ERROR",
+      "DYP-F-TRANSPARENCY"
+    ]
+  },
+  "disclosure": {
+    "formats": [
+      "Original social posts: voluntary, selective and sometimes edited",
+      "US13G beneficial ownership notices for particular issuers",
+      "H&H SEC 13F reports",
+      "HKEX substantial-interest notifications for particularHK issuers"
+    ],
+    "latest_verified_cycle": "H&H 2026-06-30 filed 2026-08-14; HKEXselected event 2026-08-06 filed 2026-08-12",
+    "lag_and_coverage": "Apply common-disclosure.json. TencentHong Kong/MoutaiA-shares/privateinvestments/writtenoptions and cash are absent fromUS 13F. HKEX long/short-interest codes can represent derivatives and acquisition obligations rather than outright stock trades.",
+    "attribution": "H&H control99% is verified as of 2026; CCO signature is not Duan’s trade authorization. Exact managed-account ownership, mandates and all human decision assignments remain unknown.",
+    "two_compatible_snapshot_gate": "Same H&H Apple/NVIDIA classes and SH units established by Q3 2025 and Q2 2026 reports. Personal pre-2026 attribution remains unproven; unrelated NetEase units are not used to pass this gate."
+  },
+  "delivery_status": "corrective_round1_final; pending independent re-review",
+  "completed_at_utc": "2026-10-13T17:07:22Z",
+  "source_availability_policy": "Strict historical method use requires both public availability by 2025-12-31 and an accepted original source. Current identity, mandate, holdings, amendments and late uploads are explicitly separate. Historical case results never become entry-time features.",
+  "compatible_holding_snapshots": {
+    "gate_status": "established_for_same_vehicle_reported_securities; personal attribution remains incomplete",
+    "snapshots": [
+      {
+        "asof": "2025-09-30",
+        "filed": "2025-11-14",
+        "accepted_at_utc": "2025-11-14T14:36:13Z",
+        "manager": "H&H International Investment, LLC",
+        "cik": "1759760",
+        "accession": "0001759760-25-000002",
+        "reported_value_currency": "USD",
+        "reported_share_unit": "SH",
+        "is_amendment": false,
+        "cover_entries": 11,
+        "cover_market_value_usd": 14678516884,
+        "row_sum_market_value_usd": 14678516884,
+        "rows": [
+          {
+            "issuer": "ALIBABA GROUP HLDG LTD",
+            "class": "SPONSORED ADS",
+            "cusip": "01609W102",
+            "shares": 2777330,
+            "shares_unit": "SH",
+            "market_value_usd": 496392191,
+            "investment_discretion": "SOLE",
+            "put_call": null
+          },
+          {
+            "issuer": "ALPHABET INC",
+            "class": "CAP STK CL C",
+            "cusip": "02079K107",
+            "shares": 1810500,
+            "shares_unit": "SH",
+            "market_value_usd": 440947275,
+            "investment_discretion": "SOLE",
+            "put_call": null
+          },
+          {
+            "issuer": "APPLE INC",
+            "class": "COM",
+            "cusip": "037833100",
+            "shares": 34829107,
+            "shares_unit": "SH",
+            "market_value_usd": 8868535515,
+            "investment_discretion": "SOLE",
+            "put_call": null
+          },
+          {
+            "issuer": "ASML HOLDING N V",
+            "class": "N Y REGISTRY SHS",
+            "cusip": "N07059210",
+            "shares": 80000,
+            "shares_unit": "SH",
+            "market_value_usd": 77447200,
+            "investment_discretion": "SOLE",
+            "put_call": null
+          },
+          {
+            "issuer": "BERKSHIRE HATHAWAY INC DEL",
+            "class": "CL B NEW",
+            "cusip": "084670702",
+            "shares": 5191300,
+            "shares_unit": "SH",
+            "market_value_usd": 2609874162,
+            "investment_discretion": "SOLE",
+            "put_call": null
+          },
+          {
+            "issuer": "DISNEY WALT CO",
+            "class": "COM",
+            "cusip": "254687106",
+            "shares": 723000,
+            "shares_unit": "SH",
+            "market_value_usd": 82783500,
+            "investment_discretion": "SOLE",
+            "put_call": null
+          },
+          {
+            "issuer": "MICROSOFT CORP",
+            "class": "COM",
+            "cusip": "594918104",
+            "shares": 279200,
+            "shares_unit": "SH",
+            "market_value_usd": 144611640,
+            "investment_discretion": "SOLE",
+            "put_call": null
+          },
+          {
+            "issuer": "NVIDIA CORPORATION",
+            "class": "COM",
+            "cusip": "67066G104",
+            "shares": 597800,
+            "shares_unit": "SH",
+            "market_value_usd": 111537524,
+            "investment_discretion": "SOLE",
+            "put_call": null
+          },
+          {
+            "issuer": "OCCIDENTAL PETE CORP",
+            "class": "COM",
+            "cusip": "674599105",
+            "shares": 13556100,
+            "shares_unit": "SH",
+            "market_value_usd": 640525725,
+            "investment_discretion": "SOLE",
+            "put_call": null
+          },
+          {
+            "issuer": "PDD HOLDINGS INC",
+            "class": "SPONSORED ADS",
+            "cusip": "722304102",
+            "shares": 8574194,
+            "shares_unit": "SH",
+            "market_value_usd": 1133251221,
+            "investment_discretion": "SOLE",
+            "put_call": null
+          },
+          {
+            "issuer": "TAIWAN SEMICONDUCTOR MFG LTD",
+            "class": "SPONSORED ADS",
+            "cusip": "874039100",
+            "shares": 259984,
+            "shares_unit": "SH",
+            "market_value_usd": 72610931,
+            "investment_discretion": "SOLE",
+            "put_call": null
+          }
+        ],
+        "benchmark_2026_start_eligible": true,
+        "personal_Duan_attribution_pre2026_established": false,
+        "source_ids": [
+          "DYP-S-HH-Q325-INDEX",
+          "DYP-S-HH-Q325-COVER",
+          "DYP-S-HH-Q325-TABLE"
+        ],
+        "amendment_check": {
+          "scope": "Cutoff worker inspected SEC current recent submissions index, selected public versions before 2025-12-31; no Q3 or Q2 2025 amendment in that bounded index.",
+          "not_proved": "No claim about confidential/undisclosed positions or all lifetime amendments.",
+          "discovery_receipt": "portable-provenance:cutoff-holdings/precutoff-discovery/1759760"
+        }
+      },
+      {
+        "asof": "2026-06-30",
+        "filed": "2026-08-14",
+        "cik": "1759760",
+        "source_ids": [
+          "DYP-S-HH-Q226-INDEX",
+          "DYP-S-HH-Q226-COVER",
+          "DYP-S-HH-Q226-TABLE"
+        ],
+        "benchmark_2026_start_eligible": false
+      }
+    ],
+    "comparisons": [
+      {
+        "issuer": "Apple",
+        "cusip": "037833100",
+        "class": "common stock",
+        "share_unit": "SH",
+        "position_side": "reported long common shares",
+        "manager_scope": "same H&H reporting manager CIK 1759760",
+        "earlier_period": "2025-09-30",
+        "earlier_filed": "2025-11-14",
+        "earlier_shares": 34829107,
+        "earlier_market_value_usd": 8868535515,
+        "later_period": "2026-06-30",
+        "later_filed": "2026-08-14",
+        "later_shares": 27098707,
+        "later_market_value_usd": 7841281858,
+        "share_count_change": -7730400,
+        "not_inferred": [
+          "Exact trade date",
+          "Execution price",
+          "Realized P&L",
+          "Motivation",
+          "Duan personally selected either position"
+        ]
+      },
+      {
+        "issuer": "NVIDIA",
+        "cusip": "67066G104",
+        "class": "common stock",
+        "share_unit": "SH",
+        "position_side": "reported long common shares",
+        "manager_scope": "same H&H reporting manager CIK 1759760",
+        "earlier_period": "2025-09-30",
+        "earlier_filed": "2025-11-14",
+        "earlier_shares": 597800,
+        "earlier_market_value_usd": 111537524,
+        "later_period": "2026-06-30",
+        "later_filed": "2026-08-14",
+        "later_shares": 6280675,
+        "later_market_value_usd": 1256700261,
+        "share_count_change": 5682875,
+        "not_inferred": [
+          "Exact trade date",
+          "Execution price",
+          "Realized P&L",
+          "Motivation",
+          "Duan personally selected either position"
+        ]
+      }
+    ],
+    "Tesla_absence_guard": "Tesla is not reported in the complete Q3 2025 table; later Q2 2026 reports common shares. This does not prove earlier nonownership, shorting or an actual personally authorized purchase."
+  },
+  "source_coverage_denominator": {
+    "unit": "listed source records only; search found/read counts are not a census of lifetime publications",
+    "total_found": 18,
+    "by_family": [
+      {
+        "source_family": "authorized_original_interview_transcript",
+        "found": 1,
+        "read_full_original": 1,
+        "read_substantive_excerpt_or_metadata_only": 0,
+        "not_original_verified_or_metadata_only": 0,
+        "full_original_unavailable_or_unreviewed": 0,
+        "source_ids": [
+          "DYP-S-FANGLUE2025"
+        ]
+      },
+      {
+        "source_family": "issuer_business_transaction_or_financial_report",
+        "found": 2,
+        "read_full_original": 2,
+        "read_substantive_excerpt_or_metadata_only": 0,
+        "not_original_verified_or_metadata_only": 0,
+        "full_original_unavailable_or_unreviewed": 0,
+        "source_ids": [
+          "DYP-S-NETEASE2002AR",
+          "DYP-S-APPLE2011-RESULT"
+        ]
+      },
+      {
+        "source_family": "regulator_beneficial_ownership_notification",
+        "found": 4,
+        "read_full_original": 4,
+        "read_substantive_excerpt_or_metadata_only": 0,
+        "not_original_verified_or_metadata_only": 0,
+        "full_original_unavailable_or_unreviewed": 0,
+        "source_ids": [
+          "DYP-S-NETEASE2003-13G",
+          "DYP-S-NETEASE2009-13G",
+          "DYP-S-HKEX-2026-INDIVIDUAL",
+          "DYP-S-HKEX-2026-CORPORATE"
+        ]
+      },
+      {
+        "source_family": "regulator_manager_holdings_filing",
+        "found": 6,
+        "read_full_original": 6,
+        "read_substantive_excerpt_or_metadata_only": 0,
+        "not_original_verified_or_metadata_only": 0,
+        "full_original_unavailable_or_unreviewed": 0,
+        "source_ids": [
+          "DYP-S-HH-Q226-INDEX",
+          "DYP-S-HH-Q226-COVER",
+          "DYP-S-HH-Q226-TABLE",
+          "DYP-S-HH-Q325-INDEX",
+          "DYP-S-HH-Q325-COVER",
+          "DYP-S-HH-Q325-TABLE"
+        ]
+      },
+      {
+        "source_family": "secondary_discovery_compilation",
+        "found": 1,
+        "read_full_original": 0,
+        "read_substantive_excerpt_or_metadata_only": 0,
+        "not_original_verified_or_metadata_only": 1,
+        "full_original_unavailable_or_unreviewed": 1,
+        "source_ids": [
+          "DYP-S-COMPILED-LEADS"
+        ]
+      },
+      {
+        "source_family": "verified_investor_social_account",
+        "found": 4,
+        "read_full_original": 4,
+        "read_substantive_excerpt_or_metadata_only": 0,
+        "not_original_verified_or_metadata_only": 0,
+        "full_original_unavailable_or_unreviewed": 0,
+        "source_ids": [
+          "DYP-S-FILTERS2025",
+          "DYP-S-PROFILE",
+          "DYP-S-OPTIONS20261013",
+          "DYP-S-CORRECT20261013"
+        ]
+      }
+    ],
+    "catalog_fulltext_attempts_outside_registry": 0,
+    "catalog_attempts_note": null
+  },
+  "rework_ledger": {
+    "task_id": "V2-B-fundamental",
+    "corrective_submission": 1,
+    "maximum_corrective_rounds": 3,
+    "review0_verdict": "PARTIAL",
+    "addresses": [
+      "F-01",
+      "F-02",
+      "F-03"
+    ],
+    "current_acceptance": "Corrective round1 submitted for independent re-review; no self-issued full gate pass."
+  }
+}

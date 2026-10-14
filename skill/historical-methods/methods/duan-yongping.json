@@ -1,0 +1,145 @@
+{
+  "schema_version": "historical-method-facts/v0.1-draft",
+  "master_id": "duan-yongping",
+  "display_attribution": "Duan Yongping; direct author replies and original producer Chinese interview",
+  "identity_scope": "individual_or_bounded_fund",
+  "decision_information_cutoff_utc": "2025-12-31T23:59:59Z",
+  "eligibility": {
+    "status": "bounded_candidate_pending_review",
+    "independent_source_acceptance": "accepted_bounded_upstream_source_content",
+    "automatic_route_enabled": false,
+    "assembled_export_acceptance": "pending_separate_review"
+  },
+  "method_facts": [
+    {
+      "rule_id": "DYP-R-01",
+      "documented_method_fact": "Business model and corporate culture are separate filters. A profitable trade does not establish that the decision met those filters.",
+      "source_ids": [
+        "DYP-S-FILTERS2025",
+        "DYP-S-FANGLUE2025"
+      ],
+      "source_specific_locators": {
+        "DYP-S-FILTERS2025": "Author Xueqiu replies2025-08-15 21:42/23:07.",
+        "DYP-S-FANGLUE2025": "Fanglue rendered lines367–378, model/culture filters and decision quality."
+      },
+      "documented_scope": "Auditor-adapted application scope. Applies to: Businesses whose customer value and incentives can be examined; Does not apply to: Profit on a trade used as proof the decision was sound; any operational checklist is independently authored.",
+      "original_language_terms": [
+        "商业模式",
+        "企业文化"
+      ],
+      "precutoff_publication_eligible_candidate": true,
+      "independent_acceptance": "pending_sanitized_export_review",
+      "application_is_hypothetical": true,
+      "application_scope": {
+        "applies_to": "Businesses whose customer value and incentives can be examined",
+        "does_not_apply_to": "Profit on a trade used as proof the decision was sound",
+        "origin": "auditor_adaptation_not_investor_native_rule"
+      },
+      "documented_scope_origin": "auditor_adaptation_not_investor_native_rule"
+    },
+    {
+      "rule_id": "DYP-R-02",
+      "documented_method_fact": "Understanding a company includes understanding future cash generation. Expected investment economics are judged against opportunity cost.",
+      "source_ids": [
+        "DYP-S-FANGLUE2025"
+      ],
+      "source_specific_locators": {
+        "DYP-S-FANGLUE2025": "Fanglue rendered line267, future cash understanding; line412, future earnings and opportunity cost."
+      },
+      "documented_scope": "Auditor-adapted application scope. Applies to: Long-lived cash generation with comprehensible uncertainty; Does not apply to: Fixed PE rule, cheapness alone or guaranteed upside claims; any operational checklist is independently authored.",
+      "original_language_terms": [],
+      "precutoff_publication_eligible_candidate": true,
+      "independent_acceptance": "pending_sanitized_export_review",
+      "application_is_hypothetical": true,
+      "application_scope": {
+        "applies_to": "Long-lived cash generation with comprehensible uncertainty",
+        "does_not_apply_to": "Fixed PE rule, cheapness alone or guaranteed upside claims",
+        "origin": "auditor_adaptation_not_investor_native_rule"
+      },
+      "documented_scope_origin": "auditor_adaptation_not_investor_native_rule"
+    },
+    {
+      "rule_id": "DYP-R-03",
+      "documented_method_fact": "Business-specific experience and knowledge limits matter. Selective public positions and small learning stakes do not establish complete disclosure or conviction sizing.",
+      "source_ids": [
+        "DYP-S-FANGLUE2025"
+      ],
+      "source_specific_locators": {
+        "DYP-S-FANGLUE2025": "Fanglue rendered lines307–309, specific operating knowledge/account capital capacity; line386, selective disclosure and learning stakes."
+      },
+      "documented_scope": "Auditor-adapted application scope. Applies to: Concentrated research when competence and capital capacity are established; Does not apply to: Blind copying, full-net-worth inference from one account’s exposure; any operational checklist is independently authored.",
+      "original_language_terms": [],
+      "precutoff_publication_eligible_candidate": true,
+      "independent_acceptance": "pending_sanitized_export_review",
+      "application_is_hypothetical": true,
+      "application_scope": {
+        "applies_to": "Concentrated research when competence and capital capacity are established",
+        "does_not_apply_to": "Blind copying, full-net-worth inference from one account’s exposure",
+        "origin": "auditor_adaptation_not_investor_native_rule"
+      },
+      "documented_scope_origin": "auditor_adaptation_not_investor_native_rule"
+    },
+    {
+      "rule_id": "DYP-R-04",
+      "documented_method_fact": "Daily correlation does not establish long-run instrument tracking. Understand the economic mechanism and stop perpetuating a recognized mistake.",
+      "source_ids": [
+        "DYP-S-FANGLUE2025"
+      ],
+      "source_specific_locators": {
+        "DYP-S-FANGLUE2025": "Fanglue rendered lines382–383, daily correlation versus long-run tracking and correction of recognized mechanism error."
+      },
+      "documented_scope": "Auditor-adapted application scope. Applies to: Understandable instruments supporting an independently formed thesis; Does not apply to: Long-term holding of a product whose tracking mechanism is unknown; any operational checklist is independently authored.",
+      "original_language_terms": [],
+      "precutoff_publication_eligible_candidate": true,
+      "independent_acceptance": "pending_sanitized_export_review",
+      "application_is_hypothetical": true,
+      "application_scope": {
+        "applies_to": "Understandable instruments supporting an independently formed thesis",
+        "does_not_apply_to": "Long-term holding of a product whose tracking mechanism is unknown",
+        "origin": "auditor_adaptation_not_investor_native_rule"
+      },
+      "documented_scope_origin": "auditor_adaptation_not_investor_native_rule"
+    }
+  ],
+  "original_sources": [
+    {
+      "source_id": "DYP-S-FANGLUE2025",
+      "original_public_url": "https://ishare.ifeng.com/c/s/v002Y5ifpphnXscyXRagfxy23KcqMxMi76TMnWFvd9QZ9gQ__",
+      "title": "方略：段永平与方三文完整对话，雪球官方账号发布",
+      "original_author_or_speaker": "雪球官方账号；interviewee 段永平",
+      "provenance": "P2",
+      "publication_date_or_latest_public_bound": "2025-11-11",
+      "publication_proof": "Corrected source-faithful historical-method packet supplies original publication and independently qualified provenance; source/export acceptance remains separately gated.",
+      "precise_locator": "Fanglue rendered lines382–383, daily correlation versus long-run tracking and correction of recognized mechanism error.",
+      "content_scope": "Short original method fact/paraphrase only; no full source, case narrative, holding table or outcomes.",
+      "independent_acceptance": "pending",
+      "source_record_sha256": "09cbbb7496740528d5f814a831a89de687ccc4e58871288c0da60f517261f16a"
+    },
+    {
+      "source_id": "DYP-S-FILTERS2025",
+      "original_public_url": "https://ai.xueqiu.com/3144221943/347299032/373102585",
+      "title": "大道无形我有型：商业模式，企业文化",
+      "original_author_or_speaker": "大道无形我有型, account 1247347556",
+      "provenance": "P1",
+      "publication_date_or_latest_public_bound": "2025-08-15",
+      "publication_proof": "Corrected source-faithful historical-method packet supplies original publication and independently qualified provenance; source/export acceptance remains separately gated.",
+      "precise_locator": "Author Xueqiu replies2025-08-15 21:42/23:07.",
+      "content_scope": "Short original method fact/paraphrase only; no full source, case narrative, holding table or outcomes.",
+      "independent_acceptance": "pending",
+      "source_record_sha256": "8908250dc16b5b4d4eb1b5acb40d5671fb9a7a0412541150a2744acc066e11d7"
+    }
+  ],
+  "application_scope": [
+    "Comprehensible cash/business/culture questions",
+    "Instrument understanding"
+  ],
+  "corpus_limits": [
+    "Only two original method items from two families recovered for this sanitized subset.",
+    "No complete personal portfolio, numerical PE rule or validated return claim.",
+    "Original-language business/culture terms preserved; detailed translation verification remains a review gate.",
+    "Source-fact wording, provenance and precise locators refreshed from corrected canonical method packet; no broad case/holding claim allowlist is transported."
+  ],
+  "native_numerical_algorithm_established": false,
+  "authorship_boundary": "Method facts are faithful bounded paraphrases. Any application checklist, thresholds, weights, forecasts, probabilities or decision conclusion is independent research design and must not be attributed to the investor.",
+  "upstream_source_faithful_method_packet_sha256": "b2863fe599e89eccbec50531d9e82332f0022d3d952475f3c8aeb9b3857a6704"
+}

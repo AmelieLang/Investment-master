@@ -1,0 +1,190 @@
+{
+  "schema_version": "current-method-registry/v0.1-draft",
+  "source_catalogue": {
+    "path": "canonical-source-catalogue.json",
+    "sha256": "07cc5dc056370fc4b0aa236997e6f1a9d24e52c9b58ab86fe6416118e472dded",
+    "canonical_entity_count": 121,
+    "automatically_validated_experts": 0,
+    "automatic_routes_enabled": 0,
+    "review_status": "accepted_static_inventory_only",
+    "acceptance_receipt_sha256": "d5e065d5d3f54da73dec1c2d35b2dbbba704f07f0a24eba37fb475271e42413d"
+  },
+  "core_roster_count": 10,
+  "requested_emerging_extensions": 1,
+  "curated_modules": [
+    {
+      "master_id": "ray-dalio",
+      "display_name": "Ray Dalio",
+      "catalogue_entity_id": "ray-dalio",
+      "classification": "core_dossier",
+      "path": "methods/ray-dalio.json",
+      "sha256": "e63525aa25966834016af3cd8e9072824c5070e2030718796d8d3f94a7293030",
+      "source_acceptance": "accepted_bounded_source_audit",
+      "automatic_routing_enabled": false,
+      "rule_count": 5,
+      "historical_rule_candidates": 5,
+      "historical_scope_limit": "Original pre-cutoff method facts only; company stock valuation is not the macro module core."
+    },
+    {
+      "master_id": "george-soros",
+      "display_name": "George Soros",
+      "catalogue_entity_id": "george-soros",
+      "classification": "core_dossier",
+      "path": "methods/george-soros.json",
+      "sha256": "73e8e3706b5453099cb4ddd8ecab32acd7be3f41edf1f253fae886b6d464a86a",
+      "source_acceptance": "accepted_bounded_source_audit",
+      "automatic_routing_enabled": false,
+      "rule_count": 5,
+      "historical_rule_candidates": 5,
+      "historical_scope_limit": "Original pre-cutoff method facts only; company stock valuation is not the macro module core."
+    },
+    {
+      "master_id": "stanley-druckenmiller",
+      "display_name": "Stanley Druckenmiller",
+      "catalogue_entity_id": "stanley-druckenmiller",
+      "classification": "core_dossier",
+      "path": "methods/stanley-druckenmiller.json",
+      "sha256": "2dd6eddd03838fd0f6461ea7242c2dc87092b0fc2db6d8a32623d87f19ac69dd",
+      "source_acceptance": "accepted_bounded_source_audit",
+      "automatic_routing_enabled": false,
+      "rule_count": 7,
+      "historical_rule_candidates": 5,
+      "historical_scope_limit": "Original pre-cutoff method facts only; company stock valuation is not the macro module core."
+    },
+    {
+      "master_id": "cathie-wood",
+      "display_name": "Cathie Wood / ARK",
+      "catalogue_entity_id": "cathie-wood",
+      "classification": "core_dossier",
+      "path": "methods/cathie-wood.json",
+      "sha256": "e6eea133e70adf6a9aeff1c7033aff321b6078149b8b72aa698393795db28439",
+      "source_acceptance": "accepted_bounded_source_audit",
+      "automatic_routing_enabled": false,
+      "rule_count": 5,
+      "historical_rule_candidates": 2,
+      "historical_scope_limit": "Most current general ARK process rules are undated and ineligible; dated Tesla-model methods remain case-specific. Current GitHub master and revised 2021 commentary excluded unless a pre-cutoff version is pinned."
+    },
+    {
+      "master_id": "ron-baron",
+      "display_name": "Ron Baron / Baron fund method",
+      "catalogue_entity_id": null,
+      "classification": "core_dossier",
+      "path": "methods/ron-baron.json",
+      "sha256": "e0a144a34ddcb111a9567b333013b8c74a32645a3492f0838f0b10ef87a4455b",
+      "source_acceptance": "accepted_bounded_source_audit",
+      "automatic_routing_enabled": false,
+      "rule_count": 6,
+      "historical_rule_candidates": 1,
+      "historical_scope_limit": "Strict date filtering leaves only a thin recovered generic Baron method. The rich current firm process and Q1 2024 webpage have unknown exact publication dates, so do not automatically import them into the ex-ante packet. Recover a dated archived/SEC version to expand the lens."
+    },
+    {
+      "master_id": "brad-gerstner",
+      "display_name": "Brad Gerstner / Altimeter",
+      "catalogue_entity_id": "brad-gerstner",
+      "classification": "core_dossier",
+      "path": "methods/brad-gerstner.json",
+      "sha256": "3e16ce65fb720ffd2b563b5b17f3068ee6823abe17c1b5c75b38200449d0c9e3",
+      "source_acceptance": "accepted_bounded_source_audit",
+      "automatic_routing_enabled": false,
+      "rule_count": 4,
+      "historical_rule_candidates": 4,
+      "historical_scope_limit": "Case-bounded dated rules only; no current generic process backfill."
+    },
+    {
+      "master_id": "philippe-laffont",
+      "display_name": "Philippe Laffont / bounded Coatue team research",
+      "catalogue_entity_id": null,
+      "classification": "core_dossier",
+      "path": "methods/philippe-laffont.json",
+      "sha256": "bbc8462004367320bfa1a2c7e7ea071d9ffef844ad31852101a5af1799046860",
+      "source_acceptance": "accepted_bounded_source_audit",
+      "automatic_routing_enabled": false,
+      "rule_count": 5,
+      "historical_rule_candidates": 1,
+      "historical_scope_limit": "Only the dated 2023 team AI paper is method-eligible here. CTEK 2026 process/authority is excluded. This is a Coatue-team research lens, not a recovered Laffont-specific algorithm."
+    },
+    {
+      "master_id": "leopold-aschenbrenner",
+      "display_name": "Leopold Aschenbrenner",
+      "catalogue_entity_id": null,
+      "classification": "requested_extension_emerging",
+      "path": "methods/leopold-aschenbrenner.json",
+      "sha256": "01246688438b7de3507a54b61e3b3ddd591ee66b4929725461b2080a2feb3886",
+      "source_acceptance": "accepted_bounded_source_audit",
+      "automatic_routing_enabled": false,
+      "rule_count": 7,
+      "historical_rule_candidates": 5,
+      "historical_scope_limit": "Emerging broad thematic/risk questions only; not an established personal stock algorithm."
+    },
+    {
+      "master_id": "warren-buffett",
+      "display_name": "Warren Buffett / Berkshire",
+      "catalogue_entity_id": "warren-buffett",
+      "classification": "core_dossier",
+      "path": "methods/warren-buffett.json",
+      "sha256": "3154096049ebac483701fe177da449f5d5069d2fa7d483267fc0e3eac148d9c2",
+      "source_acceptance": "accepted_bounded_source_audit",
+      "automatic_routing_enabled": false,
+      "rule_count": 5,
+      "historical_rule_candidates": 5,
+      "historical_scope_limit": "Direct original method facts only; operationalized scenarios are our design."
+    },
+    {
+      "master_id": "duan-yongping",
+      "display_name": "Duan Yongping",
+      "catalogue_entity_id": "duan-yongping",
+      "classification": "core_dossier",
+      "path": "methods/duan-yongping.json",
+      "sha256": "b754921d38b67f40f4926012bb7b6b75498dad5b198d57d8eca6d72d2978c058",
+      "source_acceptance": "accepted_bounded_source_audit",
+      "automatic_routing_enabled": false,
+      "rule_count": 5,
+      "historical_rule_candidates": 4,
+      "historical_scope_limit": "Direct original method facts only; operationalized scenarios are our design."
+    },
+    {
+      "master_id": "li-lu",
+      "display_name": "Li Lu / Himalaya",
+      "catalogue_entity_id": "li-lu",
+      "classification": "core_dossier",
+      "path": "methods/li-lu.json",
+      "sha256": "bebcfb2072292f897da484a9d7c64e4dcedd39f055c8feb82fb8d0c3b7383fce",
+      "source_acceptance": "accepted_bounded_source_audit",
+      "automatic_routing_enabled": false,
+      "rule_count": 4,
+      "historical_rule_candidates": 4,
+      "historical_scope_limit": "Direct original method facts only; operationalized scenarios are our design."
+    }
+  ],
+  "rework_cap": 3,
+  "research_source_acceptance": "accepted_underlying_bounded_source_audits",
+  "source_only_request_behavior": "A named source-only method request triggers bounded original-evidence audit, not silent persona simulation. Preserve the request and abstain pending sufficient evidence.",
+  "method_fit_basis": [
+    "observable instrument mechanics",
+    "business causal traits",
+    "necessary data",
+    "source-backed scope",
+    "question and horizon"
+  ],
+  "threshold_and_weight_origin": "Any future numerical routing/decision thresholds are independent design and must be separately reviewed; none attributed native here.",
+  "stock_routes": {
+    "status": "not_selected",
+    "reason": "Wait for frozen historical company facts. No target-security views or price conclusions have been generated."
+  },
+  "core_dossiers_accepted": 10,
+  "source_refresh_integration_acceptance": "pending",
+  "curated_extensions_beyond_frozen_source_catalogue": [
+    {
+      "master_id": "ron-baron",
+      "reason": "Requested core/emerging dossier beyond canonical frozen-source entity list; kept separately, not a new source-only expert validation."
+    },
+    {
+      "master_id": "philippe-laffont",
+      "reason": "Requested core/emerging dossier beyond canonical frozen-source entity list; kept separately, not a new source-only expert validation."
+    },
+    {
+      "master_id": "leopold-aschenbrenner",
+      "reason": "Requested core/emerging dossier beyond canonical frozen-source entity list; kept separately, not a new source-only expert validation."
+    }
+  ]
+}

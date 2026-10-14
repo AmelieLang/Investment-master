@@ -1,0 +1,431 @@
+{
+  "schema_version": "historical_rule_anchor_allowlist.v2.tech.1",
+  "cutoff_utc": "2025-12-31T23:59:59Z",
+  "rule_count": 8,
+  "rules": [
+    {
+      "investor_id": "cathie_wood_ark",
+      "rule_id": "ARK-R00",
+      "documented_rule": "A positive valuation thesis does not require holding until its target.",
+      "source_ids": [
+        "ARK-TESLA-20180822"
+      ],
+      "pre_2026_benchmark_eligible": true,
+      "evidence_time_class": "dated_pre_2026_method",
+      "evidence_anchors": [
+        {
+          "anchor_id": "ARK-R00-A1",
+          "source_id": "ARK-TESLA-20180822",
+          "source_url": "https://www.ark-invest.com/articles/analyst-research/tesla-private",
+          "source_publication_date": "2018-08-22",
+          "locator": {
+            "type": "html_footnote",
+            "footnote": 1,
+            "position": "After the assumptions bullet list and before the podcast section"
+          },
+          "supporting_paraphrase": "Positive assessment allows reduction before valuation target.",
+          "support_role": "direct_case_disclosure_qualification",
+          "native_attribution": "Cathie Wood / ARK",
+          "native_scope": "Tesla 2018 open letter only",
+          "verified_against_source_on": "2026-10-13",
+          "supplementary_html_text_line_range_at_retrieval": {
+            "start": 154,
+            "end": 156,
+            "caveat": "Retrieval-specific convenience; section/page/paragraph is the primary locator."
+          }
+        }
+      ],
+      "scope": "Tesla 2018 open-letter caveat",
+      "adaptation_boundary": "Evidence anchors authenticate the documented native principle only. Skill questions are independent auditor operationalization, not verbatim investor instructions or proof of historical use."
+    },
+    {
+      "investor_id": "cathie_wood_ark",
+      "rule_id": "ARK-R04",
+      "documented_rule": "Tesla scenarios explicitly vary autonomous timing, production and capital efficiency.",
+      "source_ids": [
+        "ARK-TESLA-20220414"
+      ],
+      "pre_2026_benchmark_eligible": true,
+      "evidence_time_class": "dated_pre_2026_method",
+      "evidence_anchors": [
+        {
+          "anchor_id": "ARK-R04-A1",
+          "source_id": "ARK-TESLA-20220414",
+          "source_url": "https://www.ark-invest.com/articles/valuation-models/arks-tesla-model",
+          "source_publication_date": "2022-04-15",
+          "locator": {
+            "type": "html_model_table",
+            "heading": "Key Model Inputs",
+            "table_ordinal_within_section": 1,
+            "rows_by_topic": [
+              "Capital efficiency",
+              "Maximum production increase",
+              "Robotaxi launch year"
+            ]
+          },
+          "supporting_paraphrase": "Scenarios vary capital efficiency, production and autonomous launch.",
+          "support_role": "direct_case_specific_model_variables",
+          "native_attribution": "Tasha Keeney / ARK research team",
+          "native_scope": "April 2022 Tesla model, 2026 horizon",
+          "verified_against_source_on": "2026-10-13",
+          "supplementary_html_text_line_range_at_retrieval": {
+            "start": 178,
+            "end": 191,
+            "caveat": "Retrieval-specific convenience; section/page/paragraph is the primary locator."
+          }
+        },
+        {
+          "anchor_id": "ARK-R04-A2",
+          "source_id": "ARK-TESLA-20220414",
+          "source_url": "https://www.ark-invest.com/articles/valuation-models/arks-tesla-model",
+          "source_publication_date": "2022-04-15",
+          "locator": {
+            "type": "html_section",
+            "heading": "Autonomous Driving",
+            "paragraphs": [
+              3,
+              4,
+              5
+            ],
+            "qualification_locator": "Forecast warning immediately before the section; explanation beneath the scenario examples"
+          },
+          "supporting_paraphrase": "Results depend on launch timing and model assumptions.",
+          "support_role": "conditional_simulation_qualification_not_calibrated_probabilities",
+          "native_attribution": "Tasha Keeney / ARK research team",
+          "native_scope": "April 2022 Tesla model only",
+          "verified_against_source_on": "2026-10-13",
+          "supplementary_html_text_line_range_at_retrieval": {
+            "start": 190,
+            "end": 207,
+            "caveat": "Retrieval-specific convenience; section/page/paragraph is the primary locator."
+          }
+        }
+      ],
+      "scope": "Tesla 2022 model only",
+      "adaptation_boundary": "Evidence anchors authenticate the documented native principle only. Skill questions are independent auditor operationalization, not verbatim investor instructions or proof of historical use."
+    },
+    {
+      "investor_id": "ron_baron",
+      "rule_id": "BARON-R00",
+      "documented_rule": "Value future growth and profitability against the entry price.",
+      "source_ids": [
+        "BARON-NCSRS-20150630"
+      ],
+      "pre_2026_benchmark_eligible": true,
+      "evidence_time_class": "dated_pre_2026_method",
+      "evidence_anchors": [
+        {
+          "anchor_id": "BARON-R00-A1",
+          "source_id": "BARON-NCSRS-20150630",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1217673/000120928615000536/e108965.htm",
+          "source_publication_date": "2015-08-28",
+          "locator": {
+            "type": "sec_fund_report",
+            "printed_page": 3,
+            "fund_section": "Baron Partners Fund",
+            "heading": "MANAGEMENT’S DISCUSSION OF FUND PERFORMANCE",
+            "paragraph_locator": "Final paragraph before footnotes; corroborated by the third paragraph under this heading"
+          },
+          "supporting_paraphrase": "Entry value is assessed against future growth/profitability.",
+          "support_role": "direct_dated_fund_method",
+          "native_attribution": "Baron Partners Fund / BAMCO",
+          "native_scope": "June 2015 report, publicly filed August 28, 2015",
+          "verified_against_source_on": "2026-10-13",
+          "supplementary_html_text_line_range_at_retrieval": {
+            "start": 241,
+            "end": 255,
+            "caveat": "Retrieval-specific convenience; section/page/paragraph is the primary locator."
+          }
+        }
+      ],
+      "scope": "Baron Partners 2015 disclosure",
+      "adaptation_boundary": "Evidence anchors authenticate the documented native principle only. Skill questions are independent auditor operationalization, not verbatim investor instructions or proof of historical use."
+    },
+    {
+      "investor_id": "brad_gerstner_altimeter",
+      "rule_id": "ALT-R01",
+      "documented_rule": "Underwrite durable user/product strength alongside spending discipline.",
+      "source_ids": [
+        "ALT-META-20221024"
+      ],
+      "pre_2026_benchmark_eligible": true,
+      "evidence_time_class": "dated_pre_2026_method",
+      "evidence_anchors": [
+        {
+          "anchor_id": "ALT-R01-A1",
+          "source_id": "ALT-META-20221024",
+          "source_url": "https://medium.com/@alt.cap/time-to-get-fit-an-open-letter-from-altimeter-to-mark-zuckerberg-and-the-meta-board-of-392d94e80a18",
+          "source_publication_date": "2022-10-24",
+          "locator": {
+            "type": "html_letter",
+            "salutation": "Dear Mark",
+            "paragraph_locator": "First and fifth opening prose paragraphs after salutation; fourth prose paragraph under conclusion"
+          },
+          "supporting_paraphrase": "Founder/product support coexists with spending criticism.",
+          "support_role": "case_specific_rationale_for_independent_analytical_principle",
+          "native_attribution": "Brad Gerstner",
+          "native_scope": "Meta 2022 shareholder letter, not a universal Altimeter rulebook",
+          "verified_against_source_on": "2026-10-13",
+          "supplementary_html_text_line_range_at_retrieval": {
+            "start": 43,
+            "end": 48,
+            "caveat": "Retrieval-specific convenience; section/page/paragraph is the primary locator."
+          }
+        }
+      ],
+      "scope": "Meta 2022 letter",
+      "adaptation_boundary": "Evidence anchors authenticate the documented native principle only. Skill questions are independent auditor operationalization, not verbatim investor instructions or proof of historical use."
+    },
+    {
+      "investor_id": "brad_gerstner_altimeter",
+      "rule_id": "ALT-R02",
+      "documented_rule": "Distinguish measurable-return AI capex from uncertain long-horizon metaverse funding.",
+      "source_ids": [
+        "ALT-META-20221024"
+      ],
+      "pre_2026_benchmark_eligible": true,
+      "evidence_time_class": "dated_pre_2026_method",
+      "evidence_anchors": [
+        {
+          "anchor_id": "ALT-R02-A1",
+          "source_id": "ALT-META-20221024",
+          "source_url": "https://medium.com/@alt.cap/time-to-get-fit-an-open-letter-from-altimeter-to-mark-zuckerberg-and-the-meta-board-of-392d94e80a18",
+          "source_publication_date": "2022-10-24",
+          "locator": {
+            "type": "html_section",
+            "heading_prefix": "CAPEX",
+            "paragraph_locator": "Second paragraph on maintenance/AI investment; sixth paragraph on reduced capex until revenue accelerates"
+          },
+          "supporting_paraphrase": "Supports high-return AI investment with spending discipline.",
+          "support_role": "direct_case_specific_capital_allocation_rationale",
+          "native_attribution": "Brad Gerstner",
+          "native_scope": "Meta 2022 letter only",
+          "verified_against_source_on": "2026-10-13",
+          "supplementary_html_text_line_range_at_retrieval": {
+            "start": 75,
+            "end": 82,
+            "caveat": "Retrieval-specific convenience; section/page/paragraph is the primary locator."
+          }
+        },
+        {
+          "anchor_id": "ALT-R02-A2",
+          "source_id": "ALT-META-20221024",
+          "source_url": "https://medium.com/@alt.cap/time-to-get-fit-an-open-letter-from-altimeter-to-mark-zuckerberg-and-the-meta-board-of-392d94e80a18",
+          "source_publication_date": "2022-10-24",
+          "locator": {
+            "type": "html_section",
+            "heading_prefix": "Focusing the Metaverse",
+            "paragraph_locator": "Third paragraph on long duration; fifth and sixth paragraphs on spending cap, discrete targets and tangible ROI"
+          },
+          "supporting_paraphrase": "Bound uncertain projects; scale funding as ROI emerges.",
+          "support_role": "direct_case_specific_project_funding_qualification",
+          "native_attribution": "Brad Gerstner",
+          "native_scope": "Meta 2022 letter only",
+          "verified_against_source_on": "2026-10-13",
+          "supplementary_html_text_line_range_at_retrieval": {
+            "start": 83,
+            "end": 90,
+            "caveat": "Retrieval-specific convenience; section/page/paragraph is the primary locator."
+          }
+        }
+      ],
+      "scope": "Meta 2022 letter",
+      "adaptation_boundary": "Evidence anchors authenticate the documented native principle only. Skill questions are independent auditor operationalization, not verbatim investor instructions or proof of historical use."
+    },
+    {
+      "investor_id": "brad_gerstner_altimeter",
+      "rule_id": "ALT-R03",
+      "documented_rule": "Build an explicit expense/capex bridge to free cash flow and valuation.",
+      "source_ids": [
+        "ALT-META-20221024"
+      ],
+      "pre_2026_benchmark_eligible": true,
+      "evidence_time_class": "dated_pre_2026_method",
+      "evidence_anchors": [
+        {
+          "anchor_id": "ALT-R03-A1",
+          "source_id": "ALT-META-20221024",
+          "source_url": "https://medium.com/@alt.cap/time-to-get-fit-an-open-letter-from-altimeter-to-mark-zuckerberg-and-the-meta-board-of-392d94e80a18",
+          "source_publication_date": "2022-10-24",
+          "locator": {
+            "type": "html_letter_plan",
+            "locator": "Three-item numbered recommendation list immediately before the first spending-control section"
+          },
+          "supporting_paraphrase": "Expense, capex and metaverse reductions target doubled FCF.",
+          "support_role": "direct_case_specific_quantitative_plan",
+          "native_attribution": "Brad Gerstner",
+          "native_scope": "Meta 2022 letter only",
+          "verified_against_source_on": "2026-10-13",
+          "supplementary_html_text_line_range_at_retrieval": {
+            "start": 51,
+            "end": 54,
+            "caveat": "Retrieval-specific convenience; section/page/paragraph is the primary locator."
+          }
+        },
+        {
+          "anchor_id": "ALT-R03-A2",
+          "source_id": "ALT-META-20221024",
+          "source_url": "https://medium.com/@alt.cap/time-to-get-fit-an-open-letter-from-altimeter-to-mark-zuckerberg-and-the-meta-board-of-392d94e80a18",
+          "source_publication_date": "2022-10-24",
+          "locator": {
+            "type": "html_section",
+            "heading_prefix": "Conclusion",
+            "paragraphs": [
+              1,
+              2
+            ],
+            "additional_context_locator": "Fourth prose paragraph after salutation, P/E comparison"
+          },
+          "supporting_paraphrase": "Explicit savings bridge supports FCF; P/E supplies valuation context.",
+          "support_role": "direct_FCF_bridge_plus_valuation_context_not_full_pricing_algorithm",
+          "native_attribution": "Brad Gerstner",
+          "native_scope": "Meta 2022 letter only",
+          "verified_against_source_on": "2026-10-13",
+          "supplementary_html_text_line_range_at_retrieval": {
+            "start": 91,
+            "end": 94,
+            "caveat": "Retrieval-specific convenience; section/page/paragraph is the primary locator."
+          }
+        }
+      ],
+      "scope": "Meta 2022 letter",
+      "adaptation_boundary": "Evidence anchors authenticate the documented native principle only. Skill questions are independent auditor operationalization, not verbatim investor instructions or proof of historical use."
+    },
+    {
+      "investor_id": "brad_gerstner_altimeter",
+      "rule_id": "ALT-R04",
+      "documented_rule": "For a public transition, compare valuation, forecasts and aligned security terms.",
+      "source_ids": [
+        "ALT-GRAB-DECK-20210413"
+      ],
+      "pre_2026_benchmark_eligible": true,
+      "evidence_time_class": "dated_pre_2026_method",
+      "evidence_anchors": [
+        {
+          "anchor_id": "ALT-R04-A1",
+          "source_id": "ALT-GRAB-DECK-20210413",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1823340/000114036121012518/nt10022857x2_ex99-2.htm",
+          "source_publication_date": "2021-04-13",
+          "locator": {
+            "type": "transaction_deck_slides",
+            "slides": [
+              46,
+              53
+            ],
+            "topic_locator": "Transaction sources/uses and valuation; public peer forward-revenue valuation comparisons"
+          },
+          "supporting_paraphrase": "Forward peer metrics contextualize transaction valuation.",
+          "support_role": "direct_case_specific_transaction_valuation_method",
+          "native_attribution": "Grab and Altimeter Growth Corp. transaction presentation",
+          "native_scope": "April 2021 transaction, not a universal Gerstner policy",
+          "verified_against_source_on": "2026-10-13",
+          "supplementary_html_text_line_range_at_retrieval": {
+            "start": 373,
+            "end": 431,
+            "caveat": "Retrieval-specific convenience; section/page/paragraph is the primary locator."
+          }
+        },
+        {
+          "anchor_id": "ALT-R04-A2",
+          "source_id": "ALT-GRAB-DECK-20210413",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1823340/000114036121012518/nt10022857x2_ex99-2.htm",
+          "source_publication_date": "2021-04-13",
+          "locator": {
+            "type": "transaction_deck_slides",
+            "slides": [
+              51,
+              52,
+              59,
+              60
+            ],
+            "topic_locator": "Cap-table dilution; staged lock-up; post-intercompany financial forecasts"
+          },
+          "supporting_paraphrase": "Security terms and forecasts require separate reconciliation.",
+          "support_role": "disclosed_case_structures_support_independent_evaluation_not_native_alignment_rule",
+          "native_attribution": "Grab and Altimeter Growth Corp. transaction presentation",
+          "native_scope": "April 2021 transaction only",
+          "verified_against_source_on": "2026-10-13",
+          "supplementary_html_text_line_range_at_retrieval": {
+            "start": 417,
+            "end": 481,
+            "caveat": "Retrieval-specific convenience; section/page/paragraph is the primary locator."
+          }
+        }
+      ],
+      "scope": "Grab 2021 deck",
+      "adaptation_boundary": "Evidence anchors authenticate the documented native principle only. Skill questions are independent auditor operationalization, not verbatim investor instructions or proof of historical use."
+    },
+    {
+      "investor_id": "philippe_laffont_coatue",
+      "rule_id": "COATUE-R04",
+      "documented_rule": "Analyze AI stack economics and adoption constraints, beyond model capability.",
+      "source_ids": [
+        "COATUE-AI-20231116"
+      ],
+      "pre_2026_benchmark_eligible": true,
+      "evidence_time_class": "dated_pre_2026_method",
+      "evidence_anchors": [
+        {
+          "anchor_id": "COATUE-R04-A1",
+          "source_id": "COATUE-AI-20231116",
+          "source_url": "https://www.coatue.com/blog/perspective/ai-the-coming-revolution-2023",
+          "source_publication_date": "2023-11-16",
+          "locator": {
+            "type": "html_numbered_section",
+            "numbered_section": 3,
+            "heading_topic": "AI-centric technology stack",
+            "paragraph_locator": "Opening paragraph and four layer bullets; compute/cloud bullet and immediately following inference-cost paragraph"
+          },
+          "supporting_paraphrase": "Layer interactions and compute economics shape AI opportunity.",
+          "support_role": "direct_team_research_framework",
+          "native_attribution": "Sri Viswanath and Vibhor Khanna",
+          "native_scope": "November 16, 2023 Coatue team paper; not personal Laffont authorship",
+          "verified_against_source_on": "2026-10-13",
+          "supplementary_html_text_line_range_at_retrieval": {
+            "start": 30,
+            "end": 38,
+            "caveat": "Retrieval-specific convenience; section/page/paragraph is the primary locator."
+          }
+        },
+        {
+          "anchor_id": "COATUE-R04-A2",
+          "source_id": "COATUE-AI-20231116",
+          "source_url": "https://www.coatue.com/blog/perspective/ai-the-coming-revolution-2023",
+          "source_publication_date": "2023-11-16",
+          "locator": {
+            "type": "html_numbered_section",
+            "numbered_section": 4,
+            "paragraph_locator": "Third prose paragraph; discussion of cost, deployment, security and scaling challenges"
+          },
+          "supporting_paraphrase": "Adoption depends on cost and deployment constraints.",
+          "support_role": "direct_team_research_qualification",
+          "native_attribution": "Sri Viswanath and Vibhor Khanna",
+          "native_scope": "November 16, 2023 Coatue team paper only",
+          "verified_against_source_on": "2026-10-13",
+          "supplementary_html_text_line_range_at_retrieval": {
+            "start": 39,
+            "end": 43,
+            "caveat": "Retrieval-specific convenience; section/page/paragraph is the primary locator."
+          }
+        }
+      ],
+      "scope": "Viswanath/Khanna 2023 paper",
+      "adaptation_boundary": "Evidence anchors authenticate the documented native principle only. Skill questions are independent auditor operationalization, not verbatim investor instructions or proof of historical use."
+    }
+  ],
+  "excluded_current_rules": [
+    "ARK-R01",
+    "ARK-R02",
+    "ARK-R03",
+    "BARON-R01",
+    "BARON-R02",
+    "BARON-R03",
+    "BARON-R04",
+    "BARON-R05",
+    "COATUE-R01",
+    "COATUE-R02",
+    "COATUE-R03",
+    "COATUE-R05"
+  ],
+  "scope_note": "No new eligibility; case-specific Tesla/Meta/Grab and team-authored Coatue scopes retained. Independent questions are not native instructions."
+}

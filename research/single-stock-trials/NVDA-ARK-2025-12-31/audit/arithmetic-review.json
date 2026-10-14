@@ -1,0 +1,357 @@
+{
+  "checked_utc": "2026-10-14T04:19:11.800382+00:00",
+  "source_sha256": "c6cba25a031389be684263a21587fa31e10bc0cd7931b290a8c3b202bbd596c9",
+  "scope": "Arithmetic only, assumptions are not independently validated forecasts",
+  "checks": [
+    {
+      "check": "bear.year1.revenue_usd_bn",
+      "recomputed": 196.4991,
+      "reported": 196.4991,
+      "pass": true
+    },
+    {
+      "check": "bear.year1.owner_attributable_net_income_usd_bn",
+      "recomputed": 88.424595,
+      "reported": 88.424595,
+      "pass": true
+    },
+    {
+      "check": "bear.year1.forecast_diluted_shares_bn",
+      "recomputed": 24.72783,
+      "reported": 24.72783,
+      "pass": true
+    },
+    {
+      "check": "bear.year1.forecast_eps_usd",
+      "recomputed": 3.575914061201488,
+      "reported": 3.575914061201488,
+      "pass": true
+    },
+    {
+      "check": "bear.year2.revenue_usd_bn",
+      "recomputed": 212.219028,
+      "reported": 212.219028,
+      "pass": true
+    },
+    {
+      "check": "bear.year2.owner_attributable_net_income_usd_bn",
+      "recomputed": 89.13199176,
+      "reported": 89.13199176,
+      "pass": true
+    },
+    {
+      "check": "bear.year2.forecast_diluted_shares_bn",
+      "recomputed": 24.975108300000002,
+      "reported": 24.975108300000002,
+      "pass": true
+    },
+    {
+      "check": "bear.year2.forecast_eps_usd",
+      "recomputed": 3.568833043258515,
+      "reported": 3.568833043258515,
+      "pass": true
+    },
+    {
+      "check": "bear.year3.revenue_usd_bn",
+      "recomputed": 233.44093080000002,
+      "reported": 233.44093080000002,
+      "pass": true
+    },
+    {
+      "check": "bear.year3.owner_attributable_net_income_usd_bn",
+      "recomputed": 93.37637232000002,
+      "reported": 93.37637232000002,
+      "pass": true
+    },
+    {
+      "check": "bear.year3.forecast_diluted_shares_bn",
+      "recomputed": 25.224859383000002,
+      "reported": 25.224859383000002,
+      "pass": true
+    },
+    {
+      "check": "bear.year3.forecast_eps_usd",
+      "recomputed": 3.7017598751384884,
+      "reported": 3.7017598751384884,
+      "pass": true
+    },
+    {
+      "check": "bear.future_share_price_usd",
+      "recomputed": 74.03519750276976,
+      "reported": 74.03519750276976,
+      "pass": true
+    },
+    {
+      "check": "bear.price_only_cumulative_return",
+      "recomputed": -0.6030284316205374,
+      "reported": -0.6030284316205374,
+      "pass": true
+    },
+    {
+      "check": "bear.price_only_cagr",
+      "recomputed": -0.2650578857628906,
+      "reported": -0.2650578857628906,
+      "pass": true
+    },
+    {
+      "check": "bear.illustrative_present_required_return_hurdle_usd",
+      "recomputed": 52.69679122543628,
+      "reported": 52.69679122543628,
+      "pass": true
+    },
+    {
+      "check": "base.year1.revenue_usd_bn",
+      "recomputed": 243.2846,
+      "reported": 243.2846,
+      "pass": true
+    },
+    {
+      "check": "base.year1.owner_attributable_net_income_usd_bn",
+      "recomputed": 126.50799200000002,
+      "reported": 126.50799200000002,
+      "pass": true
+    },
+    {
+      "check": "base.year1.forecast_diluted_shares_bn",
+      "recomputed": 24.483,
+      "reported": 24.483,
+      "pass": true
+    },
+    {
+      "check": "base.year1.forecast_eps_usd",
+      "recomputed": 5.167176898255933,
+      "reported": 5.167176898255933,
+      "pass": true
+    },
+    {
+      "check": "base.year2.revenue_usd_bn",
+      "recomputed": 304.10575,
+      "reported": 304.10575,
+      "pass": true
+    },
+    {
+      "check": "base.year2.owner_attributable_net_income_usd_bn",
+      "recomputed": 152.052875,
+      "reported": 152.052875,
+      "pass": true
+    },
+    {
+      "check": "base.year2.forecast_diluted_shares_bn",
+      "recomputed": 24.483,
+      "reported": 24.483,
+      "pass": true
+    },
+    {
+      "check": "base.year2.forecast_eps_usd",
+      "recomputed": 6.210549156557612,
+      "reported": 6.210549156557612,
+      "pass": true
+    },
+    {
+      "check": "base.year3.revenue_usd_bn",
+      "recomputed": 364.9269,
+      "reported": 364.9269,
+      "pass": true
+    },
+    {
+      "check": "base.year3.owner_attributable_net_income_usd_bn",
+      "recomputed": 182.46345,
+      "reported": 182.46345,
+      "pass": true
+    },
+    {
+      "check": "base.year3.forecast_diluted_shares_bn",
+      "recomputed": 24.483,
+      "reported": 24.483,
+      "pass": true
+    },
+    {
+      "check": "base.year3.forecast_eps_usd",
+      "recomputed": 7.452658987869134,
+      "reported": 7.452658987869134,
+      "pass": true
+    },
+    {
+      "check": "base.future_share_price_usd",
+      "recomputed": 223.57976963607402,
+      "reported": 223.57976963607402,
+      "pass": true
+    },
+    {
+      "check": "base.price_only_cumulative_return",
+      "recomputed": 0.19881914013980717,
+      "reported": 0.19881914013980717,
+      "pass": true
+    },
+    {
+      "check": "base.price_only_cagr",
+      "recomputed": 0.062309885103012386,
+      "reported": 0.062309885103012386,
+      "pass": true
+    },
+    {
+      "check": "base.illustrative_present_required_return_hurdle_usd",
+      "recomputed": 159.13966383763008,
+      "reported": 159.13966383763008,
+      "pass": true
+    },
+    {
+      "check": "bull.year1.revenue_usd_bn",
+      "recomputed": 271.35589999999996,
+      "reported": 271.35589999999996,
+      "pass": true
+    },
+    {
+      "check": "bull.year1.owner_attributable_net_income_usd_bn",
+      "recomputed": 146.532186,
+      "reported": 146.532186,
+      "pass": true
+    },
+    {
+      "check": "bull.year1.forecast_diluted_shares_bn",
+      "recomputed": 24.360585,
+      "reported": 24.360585,
+      "pass": true
+    },
+    {
+      "check": "bull.year1.forecast_eps_usd",
+      "recomputed": 6.0151341193161,
+      "reported": 6.0151341193161,
+      "pass": true
+    },
+    {
+      "check": "bull.year2.revenue_usd_bn",
+      "recomputed": 366.33046499999995,
+      "reported": 366.33046499999995,
+      "pass": true
+    },
+    {
+      "check": "bull.year2.owner_attributable_net_income_usd_bn",
+      "recomputed": 201.48175575,
+      "reported": 201.48175575,
+      "pass": true
+    },
+    {
+      "check": "bull.year2.forecast_diluted_shares_bn",
+      "recomputed": 24.238782075,
+      "reported": 24.238782075,
+      "pass": true
+    },
+    {
+      "check": "bull.year2.forecast_eps_usd",
+      "recomputed": 8.312371270411695,
+      "reported": 8.312371270411695,
+      "pass": true
+    },
+    {
+      "check": "bull.year3.revenue_usd_bn",
+      "recomputed": 457.91308124999995,
+      "reported": 457.91308124999995,
+      "pass": true
+    },
+    {
+      "check": "bull.year3.owner_attributable_net_income_usd_bn",
+      "recomputed": 251.8521946875,
+      "reported": 251.8521946875,
+      "pass": true
+    },
+    {
+      "check": "bull.year3.forecast_diluted_shares_bn",
+      "recomputed": 24.117588164625,
+      "reported": 24.117588164625,
+      "pass": true
+    },
+    {
+      "check": "bull.year3.forecast_eps_usd",
+      "recomputed": 10.442677475391578,
+      "reported": 10.442677475391578,
+      "pass": true
+    },
+    {
+      "check": "bull.future_share_price_usd",
+      "recomputed": 396.82174406487997,
+      "reported": 396.82174406487997,
+      "pass": true
+    },
+    {
+      "check": "bull.price_only_cumulative_return",
+      "recomputed": 1.127730531178981,
+      "reported": 1.127730531178981,
+      "pass": true
+    },
+    {
+      "check": "bull.price_only_cagr",
+      "recomputed": 0.2861912235242794,
+      "reported": 0.2861912235242794,
+      "pass": true
+    },
+    {
+      "check": "bull.illustrative_present_required_return_hurdle_usd",
+      "recomputed": 282.4498793282502,
+      "reported": 282.4498793282502,
+      "pass": true
+    },
+    {
+      "check": "ttm_margin",
+      "recomputed": 0.5300680766476793,
+      "reported": 0.5300680766476793,
+      "pass": true
+    },
+    {
+      "check": "score_total",
+      "recomputed": 5,
+      "reported": 5,
+      "pass": true
+    },
+    {
+      "check": "hurdle_target",
+      "recomputed": 262.01907200000005,
+      "reported": 262.01907200000005,
+      "pass": true
+    },
+    {
+      "check": "pe_sensitivity_25",
+      "recomputed": 186.31647469672833,
+      "reported": 186.31647469672833,
+      "pass": true
+    },
+    {
+      "check": "pe_sensitivity_30",
+      "recomputed": 223.57976963607402,
+      "reported": 223.57976963607402,
+      "pass": true
+    },
+    {
+      "check": "pe_sensitivity_35",
+      "recomputed": 260.8430645754197,
+      "reported": 260.8430645754197,
+      "pass": true
+    },
+    {
+      "check": "margin_sensitivity_0.45",
+      "recomputed": 201.22179267246662,
+      "reported": 201.22179267246662,
+      "pass": true
+    },
+    {
+      "check": "margin_sensitivity_0.5",
+      "recomputed": 223.57976963607402,
+      "reported": 223.57976963607402,
+      "pass": true
+    },
+    {
+      "check": "margin_sensitivity_0.55",
+      "recomputed": 245.93774659968142,
+      "reported": 245.93774659968142,
+      "pass": true
+    },
+    {
+      "check": "dilution_sensitivity",
+      "recomputed": 217.0043216847057,
+      "reported": 217.0043216847057,
+      "pass": true
+    }
+  ],
+  "passed": true,
+  "count": 58
+}

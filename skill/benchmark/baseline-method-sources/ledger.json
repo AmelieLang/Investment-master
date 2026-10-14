@@ -1,0 +1,1613 @@
+{
+  "schema_version": "baseline-method-source-ledger.v1-candidate",
+  "research_asof_utc": "2026-10-13T17:48:00Z",
+  "decision_information_cutoff_utc": "2025-12-31T23:59:59Z",
+  "comparison_scope": "Retrospective comparison of contemporary software against frozen historical facts. Neither pinned source code nor Sol 6.1 is asserted to have existed at the information cutoff.",
+  "baseline": {
+    "repository": "virattt/ai-hedge-fund",
+    "source_pin": "78b779c1389e2d1452dc29606d2c4126d859b964",
+    "requested_model": "gpt-6.1-sol",
+    "personas": [
+      "buffett",
+      "graham",
+      "munger",
+      "lynch",
+      "druckenmiller"
+    ],
+    "source_pin_historical_status": "current_2026_implementation_fixed_unchanged",
+    "source_manifest_sha256": "cfc4dcc3b82257927be4f50a5ea573e9b36b93636ade030f1647290dd2ae9b35",
+    "native_files_verified": [
+      {
+        "path": "harness-candidate/extracted/source_bundle/baseline-source-export/LICENSE",
+        "source_pin": "78b779c1389e2d1452dc29606d2c4126d859b964",
+        "sha256": "6cb192c4a37c69c84459d2e1b3da7af51b06d91e35be521c898107bdae18e2a4",
+        "source_manifest_sha256": "6cb192c4a37c69c84459d2e1b3da7af51b06d91e35be521c898107bdae18e2a4",
+        "matches_frozen_manifest": true,
+        "upstream_url": "https://github.com/virattt/ai-hedge-fund/blob/78b779c1389e2d1452dc29606d2c4126d859b964/LICENSE"
+      },
+      {
+        "path": "harness-candidate/extracted/source_bundle/baseline-source-export/hedge_fund/signals/buffett.py",
+        "source_pin": "78b779c1389e2d1452dc29606d2c4126d859b964",
+        "sha256": "cb5d6c57ed7992c4d4910b6957482fcf17459180db09c6ee6a7d0ad855c4c1d4",
+        "source_manifest_sha256": "cb5d6c57ed7992c4d4910b6957482fcf17459180db09c6ee6a7d0ad855c4c1d4",
+        "matches_frozen_manifest": true,
+        "upstream_url": "https://github.com/virattt/ai-hedge-fund/blob/78b779c1389e2d1452dc29606d2c4126d859b964/hedge_fund/signals/buffett.py"
+      },
+      {
+        "path": "harness-candidate/extracted/source_bundle/baseline-source-export/hedge_fund/signals/graham.py",
+        "source_pin": "78b779c1389e2d1452dc29606d2c4126d859b964",
+        "sha256": "a95a149607fc02c4efacf5310933874f54fdd232be09adfe850ff52106ba655f",
+        "source_manifest_sha256": "a95a149607fc02c4efacf5310933874f54fdd232be09adfe850ff52106ba655f",
+        "matches_frozen_manifest": true,
+        "upstream_url": "https://github.com/virattt/ai-hedge-fund/blob/78b779c1389e2d1452dc29606d2c4126d859b964/hedge_fund/signals/graham.py"
+      },
+      {
+        "path": "harness-candidate/extracted/source_bundle/baseline-source-export/hedge_fund/signals/munger.py",
+        "source_pin": "78b779c1389e2d1452dc29606d2c4126d859b964",
+        "sha256": "7afd204bcf950a824cba9587421c3d7d0a1160fd2db266935ff1fb84a5af801c",
+        "source_manifest_sha256": "7afd204bcf950a824cba9587421c3d7d0a1160fd2db266935ff1fb84a5af801c",
+        "matches_frozen_manifest": true,
+        "upstream_url": "https://github.com/virattt/ai-hedge-fund/blob/78b779c1389e2d1452dc29606d2c4126d859b964/hedge_fund/signals/munger.py"
+      },
+      {
+        "path": "harness-candidate/extracted/source_bundle/baseline-source-export/hedge_fund/signals/lynch.py",
+        "source_pin": "78b779c1389e2d1452dc29606d2c4126d859b964",
+        "sha256": "51ed7b27df87eefea7264e621c9abd40e58d1cfc3aa30f561e8225b5a4e32b14",
+        "source_manifest_sha256": "51ed7b27df87eefea7264e621c9abd40e58d1cfc3aa30f561e8225b5a4e32b14",
+        "matches_frozen_manifest": true,
+        "upstream_url": "https://github.com/virattt/ai-hedge-fund/blob/78b779c1389e2d1452dc29606d2c4126d859b964/hedge_fund/signals/lynch.py"
+      },
+      {
+        "path": "harness-candidate/extracted/source_bundle/baseline-source-export/hedge_fund/signals/druckenmiller.py",
+        "source_pin": "78b779c1389e2d1452dc29606d2c4126d859b964",
+        "sha256": "7128960ad1cb48dd1bd375dbd5f13fc494c6d41ecb93de4b8d0a7de3bcb5efb9",
+        "source_manifest_sha256": "7128960ad1cb48dd1bd375dbd5f13fc494c6d41ecb93de4b8d0a7de3bcb5efb9",
+        "matches_frozen_manifest": true,
+        "upstream_url": "https://github.com/virattt/ai-hedge-fund/blob/78b779c1389e2d1452dc29606d2c4126d859b964/hedge_fund/signals/druckenmiller.py"
+      },
+      {
+        "path": "harness-candidate/extracted/source_bundle/baseline-source-export/hedge_fund/signals/llm_agent.py",
+        "source_pin": "78b779c1389e2d1452dc29606d2c4126d859b964",
+        "sha256": "d97c29b7212119425d2301d98bbaa81a8b2bdad6247267e72b3bde5f3d32a753",
+        "source_manifest_sha256": "d97c29b7212119425d2301d98bbaa81a8b2bdad6247267e72b3bde5f3d32a753",
+        "matches_frozen_manifest": true,
+        "upstream_url": "https://github.com/virattt/ai-hedge-fund/blob/78b779c1389e2d1452dc29606d2c4126d859b964/hedge_fund/signals/llm_agent.py"
+      },
+      {
+        "path": "harness-candidate/extracted/source_bundle/baseline-source-export/hedge_fund/features/snapshot.py",
+        "source_pin": "78b779c1389e2d1452dc29606d2c4126d859b964",
+        "sha256": "13822cc5eb5d2618fbbb31a13688fd801cff21e40cb9728328ddeb677f7859ed",
+        "source_manifest_sha256": "13822cc5eb5d2618fbbb31a13688fd801cff21e40cb9728328ddeb677f7859ed",
+        "matches_frozen_manifest": true,
+        "upstream_url": "https://github.com/virattt/ai-hedge-fund/blob/78b779c1389e2d1452dc29606d2c4126d859b964/hedge_fund/features/snapshot.py"
+      },
+      {
+        "path": "harness-candidate/extracted/source_bundle/baseline-source-export/hedge_fund/llm/client.py",
+        "source_pin": "78b779c1389e2d1452dc29606d2c4126d859b964",
+        "sha256": "f642116fe82277b05f3cbec1d2bb28315ef0bccb4222d76eb1fd11e2b01bb511",
+        "source_manifest_sha256": "f642116fe82277b05f3cbec1d2bb28315ef0bccb4222d76eb1fd11e2b01bb511",
+        "matches_frozen_manifest": true,
+        "upstream_url": "https://github.com/virattt/ai-hedge-fund/blob/78b779c1389e2d1452dc29606d2c4126d859b964/hedge_fund/llm/client.py"
+      },
+      {
+        "path": "harness-candidate/extracted/source_bundle/baseline-source-export/hedge_fund/llm/api_models.json",
+        "source_pin": "78b779c1389e2d1452dc29606d2c4126d859b964",
+        "sha256": "43471c2692593013075661a818a4e583581275bb65e65768543aaa89d569ccee",
+        "source_manifest_sha256": "43471c2692593013075661a818a4e583581275bb65e65768543aaa89d569ccee",
+        "matches_frozen_manifest": true,
+        "upstream_url": "https://github.com/virattt/ai-hedge-fund/blob/78b779c1389e2d1452dc29606d2c4126d859b964/hedge_fund/llm/api_models.json"
+      },
+      {
+        "path": "harness-candidate/extracted/source_bundle/baseline-source-export/hedge_fund/data/protocol.py",
+        "source_pin": "78b779c1389e2d1452dc29606d2c4126d859b964",
+        "sha256": "d04cae6e93f21d16086c8bcc6fa69dbe313ae286ef97323f4cfb61c3e219a993",
+        "source_manifest_sha256": "d04cae6e93f21d16086c8bcc6fa69dbe313ae286ef97323f4cfb61c3e219a993",
+        "matches_frozen_manifest": true,
+        "upstream_url": "https://github.com/virattt/ai-hedge-fund/blob/78b779c1389e2d1452dc29606d2c4126d859b964/hedge_fund/data/protocol.py"
+      },
+      {
+        "path": "harness-candidate/extracted/source_bundle/baseline-source-export/hedge_fund/run.py",
+        "source_pin": "78b779c1389e2d1452dc29606d2c4126d859b964",
+        "sha256": "e99d5ffad8148d1fe96bc592e71a2cbfc3b09e8adeaed019928cd69a4d4dee38",
+        "source_manifest_sha256": "e99d5ffad8148d1fe96bc592e71a2cbfc3b09e8adeaed019928cd69a4d4dee38",
+        "matches_frozen_manifest": true,
+        "upstream_url": "https://github.com/virattt/ai-hedge-fund/blob/78b779c1389e2d1452dc29606d2c4126d859b964/hedge_fund/run.py"
+      },
+      {
+        "path": "harness-candidate/extracted/source_bundle/baseline-source-export/hedge_fund/llm/registry.py",
+        "source_pin": "78b779c1389e2d1452dc29606d2c4126d859b964",
+        "sha256": "693dbb20379131b46dfc4c7b0515516898eb3ce41cfa382ea3fb8602b405ca82",
+        "source_manifest_sha256": "693dbb20379131b46dfc4c7b0515516898eb3ce41cfa382ea3fb8602b405ca82",
+        "matches_frozen_manifest": true,
+        "upstream_url": "https://github.com/virattt/ai-hedge-fund/blob/78b779c1389e2d1452dc29606d2c4126d859b964/hedge_fund/llm/registry.py"
+      },
+      {
+        "path": "harness-candidate/extracted/source_bundle/baseline-source-export/pyproject.toml",
+        "source_pin": "78b779c1389e2d1452dc29606d2c4126d859b964",
+        "sha256": "d40f7d3b609392f24614cfe84f5d195a3ce86194915985819e4a4db0fd8198fb",
+        "source_manifest_sha256": "d40f7d3b609392f24614cfe84f5d195a3ce86194915985819e4a4db0fd8198fb",
+        "matches_frozen_manifest": true,
+        "upstream_url": "https://github.com/virattt/ai-hedge-fund/blob/78b779c1389e2d1452dc29606d2c4126d859b964/pyproject.toml"
+      },
+      {
+        "path": "harness-candidate/extracted/source_bundle/baseline-source-export/hedge_fund/data/models.py",
+        "source_pin": "78b779c1389e2d1452dc29606d2c4126d859b964",
+        "sha256": "a3897b2db5bdee0cf334be2585182986bfe9545f08734dd3cbe19c471e6acd2c",
+        "source_manifest_sha256": "a3897b2db5bdee0cf334be2585182986bfe9545f08734dd3cbe19c471e6acd2c",
+        "matches_frozen_manifest": true,
+        "upstream_url": "https://github.com/virattt/ai-hedge-fund/blob/78b779c1389e2d1452dc29606d2c4126d859b964/hedge_fund/data/models.py"
+      },
+      {
+        "path": "harness-candidate/extracted/source_bundle/baseline-source-export/hedge_fund/features/breakpoints.py",
+        "source_pin": "78b779c1389e2d1452dc29606d2c4126d859b964",
+        "sha256": "6be9c8630e03a43fa5bc349f33851156a68417d526f2414e0bac88de789a48c6",
+        "source_manifest_sha256": "6be9c8630e03a43fa5bc349f33851156a68417d526f2414e0bac88de789a48c6",
+        "matches_frozen_manifest": true,
+        "upstream_url": "https://github.com/virattt/ai-hedge-fund/blob/78b779c1389e2d1452dc29606d2c4126d859b964/hedge_fund/features/breakpoints.py"
+      },
+      {
+        "path": "harness-candidate/extracted/source_bundle/baseline-source-export/hedge_fund/signals/base.py",
+        "source_pin": "78b779c1389e2d1452dc29606d2c4126d859b964",
+        "sha256": "601a3ee1559a3428337ef46ecc9ad6e985838437e18de0aff1daeb474cb7387e",
+        "source_manifest_sha256": "601a3ee1559a3428337ef46ecc9ad6e985838437e18de0aff1daeb474cb7387e",
+        "matches_frozen_manifest": true,
+        "upstream_url": "https://github.com/virattt/ai-hedge-fund/blob/78b779c1389e2d1452dc29606d2c4126d859b964/hedge_fund/signals/base.py"
+      },
+      {
+        "path": "harness-candidate/extracted/source_bundle/baseline-source-export/hedge_fund/models.py",
+        "source_pin": "78b779c1389e2d1452dc29606d2c4126d859b964",
+        "sha256": "9f004cf91f218686616700db4aedca886a9a0d15f8ae381bae721a690010547a",
+        "source_manifest_sha256": "9f004cf91f218686616700db4aedca886a9a0d15f8ae381bae721a690010547a",
+        "matches_frozen_manifest": true,
+        "upstream_url": "https://github.com/virattt/ai-hedge-fund/blob/78b779c1389e2d1452dc29606d2c4126d859b964/hedge_fund/models.py"
+      },
+      {
+        "path": "harness-candidate/extracted/source_bundle/baseline-source-export/hedge_fund/llm/cache.py",
+        "source_pin": "78b779c1389e2d1452dc29606d2c4126d859b964",
+        "sha256": "856f9d680e55f310abafeebb08beb8878aa61a48b210b0ba7501d48251549302",
+        "source_manifest_sha256": "856f9d680e55f310abafeebb08beb8878aa61a48b210b0ba7501d48251549302",
+        "matches_frozen_manifest": true,
+        "upstream_url": "https://github.com/virattt/ai-hedge-fund/blob/78b779c1389e2d1452dc29606d2c4126d859b964/hedge_fund/llm/cache.py"
+      }
+    ],
+    "harness_boundary_files_reviewed": [
+      {
+        "path": "harness-candidate/extracted/README.md",
+        "sha256": "76ff743ce9f6d7a98fc118522f1ebee1987e2480163adcbb9ae0a585ee03596e"
+      },
+      {
+        "path": "harness-candidate/extracted/harness/core.py",
+        "sha256": "8dc6c2dd1d1174762f0d32a1d82516aee9713119fb0996dc8706740189f49e38"
+      },
+      {
+        "path": "harness-candidate/extracted/harness/engine.py",
+        "sha256": "dc9c7d6fbc826340327bc3b48316264de262a44d4a14b45dcbe27eb4a71f1501"
+      },
+      {
+        "path": "harness-candidate/extracted/harness/packet.py",
+        "sha256": "6e17144548896523f7577d51e7ee8f588a2aea217628baa2ae2ffbd1bc9bfb0d"
+      }
+    ]
+  },
+  "authorship_boundary": "All exact native prompts, numerical thresholds, lookback choices, metric proxies, confidence ranges and software behavior are upstream repository-author implementation. Only separately stated bounded concepts have original-source support. No source entry certifies master authorship of software.",
+  "evidence_status": "candidate_for_independent_preflight; no production method freeze issued",
+  "sources": [
+    {
+      "source_id": "BG-CFA1977",
+      "title": "Benjamin Graham, The Father of Financial Analysis",
+      "url": "https://rpc.cfainstitute.org/sites/default/files/-/media/documents/book/rf-publication/1977/rf-v1977-n1-4731-pdf.pdf",
+      "author_or_speaker": "Benjamin Graham, interviewed by Hartman L. Butler Jr.; compilation by Irving Kahn and Robert D. Milne",
+      "publisher_or_authorized_host": "Financial Analysts Research Foundation / CFA Institute",
+      "historical_publication_date_or_latest_bound": "1977-01-01",
+      "date_kind": "publisher_bibliographic_date",
+      "version_identity": "Copyright 1977 foundation compilation; original March 6, 1976 interview, printed pp.33–41; current publisher PDF has 58 pages",
+      "date_proof": [
+        {
+          "url": "https://rpc.cfainstitute.org/research/foundation/1977/benjamin-graham-the-father-of-financial-analysis-full-pdf",
+          "locator": "Publisher page publication heading, author byline and full-book link",
+          "evidence": "Publisher lists 1 January 1977, Kahn and Milne, and links this PDF."
+        },
+        {
+          "url": "https://rpc.cfainstitute.org/sites/default/files/-/media/documents/book/rf-publication/1977/rf-v1977-n1-4731-pdf.pdf",
+          "locator": "PDF p.2 (zero-based page 1), copyright; printed p.1/PDF p.9; interview heading at printed p.33/PDF p.41",
+          "evidence": "1977 copyright and original 1976 interview provenance within the publication."
+        }
+      ],
+      "precise_locators": {
+        "value_discipline": "Interview printed pp.36–38 / PDF pp.44–46: earnings and asset-based undervaluation discussion; avoid importing adjacent historical outcomes.",
+        "growth_uncertainty": "Interview printed p.38 / PDF p.46: discussion of reliance on long-term corporate prospects.",
+        "contrary_numerical_context": "Interview printed p.37 / PDF p.45: earnings-yield comparison to AAA bond rates, with maximum multiples 7–10."
+      },
+      "role": "original_method",
+      "retrieved_at_utc": "2026-10-13T17:42:30Z",
+      "precutoff_concept_evidence_candidate": true,
+      "historical_webpage_bytes_verified": false,
+      "independent_acceptance": "pending_baseline_assembly_review",
+      "scope_note": "Only Graham speaker turns in the interview support direct original method facts. The biography and bibliography are editorial context. The late-life group-screen setting is distinct from the native single-company defensive prompt.",
+      "direct_quote_words": 0,
+      "method_replay_scope": "Method concepts only; case episodes, holdings and outcome/return narratives excluded."
+    },
+    {
+      "source_id": "PL-ONEUP2000",
+      "title": "One Up On Wall Street, millennium-edition introduction",
+      "url": "https://www.simonandschuster.com/books/One-Up-On-Wall-Street/Peter-Lynch/9780743200400",
+      "author_or_speaker": "Peter Lynch with John Rothchild",
+      "publisher_or_authorized_host": "Simon & Schuster",
+      "historical_publication_date_or_latest_bound": "2000-04-03",
+      "date_kind": "publisher_edition_date",
+      "version_identity": "ISBN13 9780743200400; 2000 edition author excerpt; 1989 first book publication is separately acknowledged in the excerpt",
+      "date_proof": [
+        {
+          "url": "https://www.simonandschuster.com/books/One-Up-On-Wall-Street/Peter-Lynch/9780743200400",
+          "locator": "Product Details publication date and ISBN; Read an Excerpt author-signed introduction",
+          "evidence": "Official publisher specifies April 3, 2000. The introduction references the book being written in 1989; its Internet-era material must not be dated 1989."
+        }
+      ],
+      "precise_locators": {
+        "earnings": "Author excerpt paragraphs on earnings versus short-term price tracking (rendered lines 261–265 and 346).",
+        "valuation": "Author excerpt discussion of future earnings required to justify market value and risks of overpaying (lines 258 and 268–274).",
+        "homework": "Author excerpt clarification after company/product observations (lines 287–290)."
+      },
+      "role": "original_method",
+      "retrieved_at_utc": "2026-10-13T17:42:30Z",
+      "precutoff_concept_evidence_candidate": true,
+      "historical_webpage_bytes_verified": false,
+      "independent_acceptance": "pending_baseline_assembly_review",
+      "scope_note": "Use the original author excerpt, not publisher marketing blurbs. No copied company outcome narratives. This excerpt does not expose the category bands or a PEG formula.",
+      "direct_quote_words": 0,
+      "method_replay_scope": "Method concepts only; case episodes, holdings and outcome/return narratives excluded."
+    },
+    {
+      "source_id": "CM-TALK2-1995",
+      "title": "A Lesson on Elementary, Worldly Wisdom as It Relates to Investment Management and Business",
+      "url": "https://www.stripe.press/poor-charlies-almanack/talk-two",
+      "author_or_speaker": "Charles T. Munger",
+      "publisher_or_authorized_host": "Outstanding Investor Digest original publication; authorized Stripe Press reprint",
+      "historical_publication_date_or_latest_bound": "1995-05-05",
+      "date_kind": "publisher_reported_original_publication",
+      "version_identity": "April 14, 1994 USC speech; first publication identified by authorized publisher as Outstanding Investor Digest, May 5, 1995; original speech body only",
+      "date_proof": [
+        {
+          "url": "https://www.stripe.press/poor-charlies-almanack/talk-two",
+          "locator": "Talk Two opening header and editorial provenance note",
+          "evidence": "Publisher identifies April 14, 1994 delivery and May 5, 1995 print publication."
+        },
+        {
+          "url": "https://stripepress.substack.com/p/preorder-poor-charlies-almanack-the",
+          "locator": "October 3, 2023 dateline; opening book-history paragraph",
+          "evidence": "Dated publisher announcement identifies the earlier 2005 compilation and a forthcoming abridged edition. It does not prove a launch date or historical bytes for today’s web pages."
+        }
+      ],
+      "precise_locators": {
+        "business_quality": "Original speech body, stock-picking section: business capital returns and long-duration shareholder return relationship.",
+        "price": "Original speech body, racetrack/market-pricing analogy and stock-picking section.",
+        "incentives": "Original speech body, scale/bureaucracy discussion: incentives affecting managerial behavior.",
+        "competence": "Original speech body, personal aptitudes and circle-of-competence discussion."
+      },
+      "role": "original_method",
+      "retrieved_at_utc": "2026-10-13T17:42:30Z",
+      "precutoff_concept_evidence_candidate": true,
+      "historical_webpage_bytes_verified": false,
+      "independent_acceptance": "pending_baseline_assembly_review",
+      "scope_note": "Exclude editorial introduction as speech, the separate 2006 revisitation, and the appended Q&A whose own date is not established here. Use only bounded original-body method paraphrases.",
+      "direct_quote_words": 0,
+      "method_replay_scope": "Method concepts only; case episodes, holdings and outcome/return narratives excluded."
+    },
+    {
+      "source_id": "CM-TALK1-1986",
+      "title": "Harvard School Commencement Speech",
+      "url": "https://www.stripe.press/poor-charlies-almanack/talk-one",
+      "author_or_speaker": "Charles T. Munger",
+      "publisher_or_authorized_host": "Authorized Stripe Press reprint",
+      "historical_publication_date_or_latest_bound": "2005-12-31",
+      "date_kind": "conservative_year_end_bound_for_original_compilation",
+      "version_identity": "June 13, 1986 speech as reprinted in the previously published compilation; exact current web rendering is not a 1986 archive",
+      "date_proof": [
+        {
+          "url": "https://www.stripe.press/poor-charlies-almanack/talk-one",
+          "locator": "Talk One header: June 13, 1986; original speech body before 2006 revisitation",
+          "evidence": "Authorized publisher dates the original address; address date alone is not online-publication evidence."
+        },
+        {
+          "url": "https://stripepress.substack.com/p/preorder-poor-charlies-almanack-the",
+          "locator": "October 3, 2023 dateline and book-history paragraph",
+          "evidence": "Publisher states the compilation was first published in 2005. Year-end 2005 is a conservative bibliographic bound, not an asserted day of release."
+        }
+      ],
+      "precise_locators": {
+        "inversion": "Original speech body, final prescription and backward-problem-solving discussion."
+      },
+      "role": "original_method",
+      "retrieved_at_utc": "2026-10-13T17:42:30Z",
+      "precutoff_concept_evidence_candidate": true,
+      "historical_webpage_bytes_verified": false,
+      "independent_acceptance": "pending_baseline_assembly_review",
+      "scope_note": "Inversion is Munger’s endorsed reasoning concept; the slogan is credited within the speech to Jacobi. It does not validate a financial-metric failure score.",
+      "direct_quote_words": 0,
+      "method_replay_scope": "Method concepts only; case episodes, holdings and outcome/return narratives excluded."
+    },
+    {
+      "source_id": "CM-CH3-REPORTEDQUOTE",
+      "title": "The Munger Approach to Life, Learning, and Decision-Making",
+      "url": "https://www.stripe.press/poor-charlies-almanack/chapter-three",
+      "author_or_speaker": "Peter D. Kaufman editorial overview; attributed Munger quotation separately identified",
+      "publisher_or_authorized_host": "Authorized Stripe Press book website",
+      "historical_publication_date_or_latest_bound": "2005-12-31",
+      "date_kind": "conservative_year_end_bound_for_original_compilation",
+      "version_identity": "Chapter Three overview in the earlier compilation; current-host reproduction; attributed quotations only",
+      "date_proof": [
+        {
+          "url": "https://stripepress.substack.com/p/preorder-poor-charlies-almanack-the",
+          "locator": "2023-10-03 publisher date and editor identification",
+          "evidence": "Publisher identifies Kaufman as editor and the compilation as originally published in 2005."
+        },
+        {
+          "url": "https://www.stripe.press/poor-charlies-almanack/chapter-three",
+          "locator": "Opening scope paragraphs and investment-evaluation subsection",
+          "evidence": "Chapter characterizes itself as an overview of how Munger appears to work and directs readers to verbatim talks for his own words."
+        }
+      ],
+      "precise_locators": {
+        "reported_competence_quote": "Investment-evaluation subsection, Munger-attributed three-category yes/no/too-difficult statement.",
+        "editorial_boundary": "Investing-principles-checklist introduction: editorial recap rather than Munger-authored ordered algorithm."
+      },
+      "role": "editorial_context_and_attributed_quote",
+      "retrieved_at_utc": "2026-10-13T17:42:30Z",
+      "precutoff_concept_evidence_candidate": true,
+      "historical_webpage_bytes_verified": false,
+      "independent_acceptance": "pending_baseline_assembly_review",
+      "scope_note": "Kaufman’s prose/checklist must never be represented as a Munger-authored quantitative algorithm. The attributed competence quotation supports a bounded reported concept; its original speaking date is missing. Not needed as the sole Munger original-method gate source.",
+      "direct_quote_words": 0,
+      "method_replay_scope": "Method concepts only; case episodes, holdings and outcome/return narratives excluded."
+    },
+    {
+      "source_id": "WB-S-1986",
+      "title": "1986 shareholder letter",
+      "url": "https://www.berkshirehathaway.com/letters/1986.html",
+      "author_or_speaker": "Warren E. Buffett",
+      "publisher_or_authorized_host": "Accepted bounded historical-method source packet",
+      "historical_publication_date_or_latest_bound": "1987-02-27",
+      "date_kind": "inherited_publication_bound",
+      "version_identity": "Accepted upstream record 0f7e7e8185dd31106c6d26bc1f7eab5ad7b76ad556e8bda7df4ac754ace925ce",
+      "date_proof": [
+        {
+          "url": "https://www.berkshirehathaway.com/letters/1986.html",
+          "locator": "1986 letter Appendix owner-earnings formula/maintenance-investment paragraph.",
+          "evidence": "Corrected source-faithful historical-method packet supplies original publication and independently qualified provenance; source/export acceptance remains separately gated."
+        },
+        {
+          "local_packet": "skill-bundle/historical-methods/methods/warren-buffett.json",
+          "sha256": "821620897c32b1b7562424c64d75ef1f722599b627f577c952e1e1c13552f49a",
+          "locator": "original_sources and method_facts",
+          "evidence": "Upstream content acceptance inherited from parent assignment; sanitized/assembled export review is still separate."
+        }
+      ],
+      "precise_locators": {
+        "original_method": "1986 letter Appendix owner-earnings formula/maintenance-investment paragraph.",
+        "WB-R-01": "1986 letter Appendix owner-earnings formula/maintenance-investment paragraph."
+      },
+      "role": "original_method",
+      "retrieved_at_utc": "2026-10-13T17:42:30Z",
+      "precutoff_concept_evidence_candidate": true,
+      "historical_webpage_bytes_verified": false,
+      "independent_acceptance": "pending_baseline_assembly_review",
+      "scope_note": "Inherited bounded original-source acceptance does not establish native prompt authorship, exact metric proxies, or calibrated confidence. No copied cases, holdings or return narratives.",
+      "direct_quote_words": 0,
+      "inherited_source_content_acceptance": "accepted_bounded_upstream_source_content",
+      "upstream_record_acceptance_field": "pending",
+      "public_availability_corroboration": [],
+      "method_replay_scope": "Method concepts only; case episodes, holdings and outcome/return narratives excluded."
+    },
+    {
+      "source_id": "WB-S-1996",
+      "title": "1996 shareholder letter",
+      "url": "https://www.berkshirehathaway.com/letters/1996.html",
+      "author_or_speaker": "Warren E. Buffett",
+      "publisher_or_authorized_host": "Accepted bounded historical-method source packet",
+      "historical_publication_date_or_latest_bound": "1997-02-28",
+      "date_kind": "inherited_publication_bound",
+      "version_identity": "Accepted upstream record 827fb9edb0bd8db1adbe6497dbc7b235caf44d4bd3b0f9215cd7bf6692382fde",
+      "date_proof": [
+        {
+          "url": "https://www.berkshirehathaway.com/letters/1996.html",
+          "locator": "1996 letter Common Stock Investments competence-boundary paragraphs.",
+          "evidence": "Corrected source-faithful historical-method packet supplies original publication and independently qualified provenance; source/export acceptance remains separately gated."
+        },
+        {
+          "local_packet": "skill-bundle/historical-methods/methods/warren-buffett.json",
+          "sha256": "821620897c32b1b7562424c64d75ef1f722599b627f577c952e1e1c13552f49a",
+          "locator": "original_sources and method_facts",
+          "evidence": "Upstream content acceptance inherited from parent assignment; sanitized/assembled export review is still separate."
+        }
+      ],
+      "precise_locators": {
+        "original_method": "1996 letter Common Stock Investments competence-boundary paragraphs.",
+        "WB-R-02": "1996 letter Common Stock Investments competence-boundary paragraphs."
+      },
+      "role": "original_method",
+      "retrieved_at_utc": "2026-10-13T17:42:30Z",
+      "precutoff_concept_evidence_candidate": true,
+      "historical_webpage_bytes_verified": false,
+      "independent_acceptance": "pending_baseline_assembly_review",
+      "scope_note": "Inherited bounded original-source acceptance does not establish native prompt authorship, exact metric proxies, or calibrated confidence. No copied cases, holdings or return narratives.",
+      "direct_quote_words": 0,
+      "inherited_source_content_acceptance": "accepted_bounded_upstream_source_content",
+      "upstream_record_acceptance_field": "pending",
+      "public_availability_corroboration": [],
+      "method_replay_scope": "Method concepts only; case episodes, holdings and outcome/return narratives excluded."
+    },
+    {
+      "source_id": "WB-S-2011",
+      "title": "2011 shareholder letter",
+      "url": "https://www.berkshirehathaway.com/letters/2011ltr.pdf",
+      "author_or_speaker": "Warren E. Buffett",
+      "publisher_or_authorized_host": "Accepted bounded historical-method source packet",
+      "historical_publication_date_or_latest_bound": "2012-02-25",
+      "date_kind": "inherited_publication_bound",
+      "version_identity": "Accepted upstream record 2b2e9eb040059643dc544285aced41cd6a80ecd740237d89f530f8b5ddae07cf",
+      "date_proof": [
+        {
+          "url": "https://www.berkshirehathaway.com/letters/2011ltr.pdf",
+          "locator": "2011 letter printed p18/PDF page17 liquidity-purpose paragraph; printed p6/PDF page5 separate repurchase-condition paragraph.",
+          "evidence": "Corrected source-faithful historical-method packet supplies original publication and independently qualified provenance; source/export acceptance remains separately gated."
+        },
+        {
+          "local_packet": "skill-bundle/historical-methods/methods/warren-buffett.json",
+          "sha256": "821620897c32b1b7562424c64d75ef1f722599b627f577c952e1e1c13552f49a",
+          "locator": "original_sources and method_facts",
+          "evidence": "Upstream content acceptance inherited from parent assignment; sanitized/assembled export review is still separate."
+        }
+      ],
+      "precise_locators": {
+        "original_method": "2011 letter printed p18/PDF page17 liquidity-purpose paragraph; printed p6/PDF page5 separate repurchase-condition paragraph.",
+        "WB-R-03": "2011 letter printed p6/PDF page5, Share Repurchases first two condition paragraphs and excess-cash/dilution warning, rendered lines219–227.",
+        "WB-R-04": "2011 letter printed p18/PDF page17 liquidity-purpose paragraph; printed p6/PDF page5 separate repurchase-condition paragraph."
+      },
+      "role": "original_method",
+      "retrieved_at_utc": "2026-10-13T17:42:30Z",
+      "precutoff_concept_evidence_candidate": true,
+      "historical_webpage_bytes_verified": false,
+      "independent_acceptance": "pending_baseline_assembly_review",
+      "scope_note": "Inherited bounded original-source acceptance does not establish native prompt authorship, exact metric proxies, or calibrated confidence. No copied cases, holdings or return narratives.",
+      "direct_quote_words": 0,
+      "inherited_source_content_acceptance": "accepted_bounded_upstream_source_content",
+      "upstream_record_acceptance_field": "pending",
+      "public_availability_corroboration": [],
+      "method_replay_scope": "Method concepts only; case episodes, holdings and outcome/return narratives excluded."
+    },
+    {
+      "source_id": "WB-S-2020",
+      "title": "2020 shareholder letter",
+      "url": "https://www.berkshirehathaway.com/letters/2020ltr.pdf",
+      "author_or_speaker": "Warren E. Buffett",
+      "publisher_or_authorized_host": "Accepted bounded historical-method source packet",
+      "historical_publication_date_or_latest_bound": "2021-02-27",
+      "date_kind": "inherited_publication_bound",
+      "version_identity": "Accepted upstream record d5924c5ca530350a67ebaa8b5950e2d06da26a4ea42fcbd3eb020fcf8baaf7e3",
+      "date_proof": [
+        {
+          "url": "https://www.berkshirehathaway.com/letters/2020ltr.pdf",
+          "locator": "2020 letter printed p4, pricing versus business quality and normalized-profit-estimation diagnosis paragraphs.",
+          "evidence": "Corrected source-faithful historical-method packet supplies original publication and independently qualified provenance; source/export acceptance remains separately gated."
+        },
+        {
+          "local_packet": "skill-bundle/historical-methods/methods/warren-buffett.json",
+          "sha256": "821620897c32b1b7562424c64d75ef1f722599b627f577c952e1e1c13552f49a",
+          "locator": "original_sources and method_facts",
+          "evidence": "Upstream content acceptance inherited from parent assignment; sanitized/assembled export review is still separate."
+        }
+      ],
+      "precise_locators": {
+        "original_method": "2020 letter printed p4, pricing versus business quality and normalized-profit-estimation diagnosis paragraphs.",
+        "WB-R-05": "2020 letter printed p4, pricing versus business quality and normalized-profit-estimation diagnosis paragraphs."
+      },
+      "role": "original_method",
+      "retrieved_at_utc": "2026-10-13T17:42:30Z",
+      "precutoff_concept_evidence_candidate": true,
+      "historical_webpage_bytes_verified": false,
+      "independent_acceptance": "pending_baseline_assembly_review",
+      "scope_note": "Inherited bounded original-source acceptance does not establish native prompt authorship, exact metric proxies, or calibrated confidence. No copied cases, holdings or return narratives.",
+      "direct_quote_words": 0,
+      "inherited_source_content_acceptance": "accepted_bounded_upstream_source_content",
+      "upstream_record_acceptance_field": "pending",
+      "public_availability_corroboration": [],
+      "method_replay_scope": "Method concepts only; case episodes, holdings and outcome/return narratives excluded."
+    },
+    {
+      "source_id": "WB-S-CNBC2017-MEETING",
+      "title": "2017 annual meeting afternoon session",
+      "url": "https://buffett.cnbc.com/video/2017/05/06/afternoon-session---2017-berkshire-hathaway-annual-meeting.html?start=6532.87",
+      "author_or_speaker": "CNBC original meeting archive / Warren Buffett",
+      "publisher_or_authorized_host": "Accepted bounded historical-method source packet",
+      "historical_publication_date_or_latest_bound": "2017-05-06",
+      "date_kind": "inherited_publication_bound",
+      "version_identity": "Accepted upstream record 36094ed6274bf1cdf2404a6beb9a126818793bba4ab323e5e23516f0bbdac546",
+      "date_proof": [
+        {
+          "url": "https://buffett.cnbc.com/video/2017/05/06/afternoon-session---2017-berkshire-hathaway-annual-meeting.html?start=6532.87",
+          "locator": "2017 original meeting archive afternoon section12, consumer-business discussion.",
+          "evidence": "Corrected source-faithful historical-method packet supplies original publication and independently qualified provenance; source/export acceptance remains separately gated."
+        },
+        {
+          "local_packet": "skill-bundle/historical-methods/methods/warren-buffett.json",
+          "sha256": "821620897c32b1b7562424c64d75ef1f722599b627f577c952e1e1c13552f49a",
+          "locator": "original_sources and method_facts",
+          "evidence": "Upstream content acceptance inherited from parent assignment; sanitized/assembled export review is still separate."
+        }
+      ],
+      "precise_locators": {
+        "original_method": "2017 original meeting archive afternoon section12, consumer-business discussion.",
+        "WB-R-02": "2017 original meeting archive afternoon section12, consumer-business discussion."
+      },
+      "role": "original_method",
+      "retrieved_at_utc": "2026-10-13T17:42:30Z",
+      "precutoff_concept_evidence_candidate": true,
+      "historical_webpage_bytes_verified": false,
+      "independent_acceptance": "pending_baseline_assembly_review",
+      "scope_note": "Inherited bounded original-source acceptance does not establish native prompt authorship, exact metric proxies, or calibrated confidence. No copied cases, holdings or return narratives.",
+      "direct_quote_words": 0,
+      "inherited_source_content_acceptance": "accepted_bounded_upstream_source_content",
+      "upstream_record_acceptance_field": "pending",
+      "public_availability_corroboration": [],
+      "method_replay_scope": "Method concepts only; case episodes, holdings and outcome/return narratives excluded."
+    },
+    {
+      "source_id": "WB-S-OWNERS1999",
+      "title": "An Owner’s Manual, January 1999",
+      "url": "https://www.berkshirehathaway.com/owners.html",
+      "author_or_speaker": "Warren E. Buffett",
+      "publisher_or_authorized_host": "Accepted bounded historical-method source packet",
+      "historical_publication_date_or_latest_bound": "1999-01",
+      "date_kind": "inherited_publication_bound",
+      "version_identity": "Accepted upstream record 2dea42f8b984579f9865888e98abeea684a978236f8c3da4d069f8bdb8df0ad5",
+      "date_proof": [
+        {
+          "url": "https://www.berkshirehathaway.com/owners.html",
+          "locator": "Owner manual principle7 conservative financing paragraph.",
+          "evidence": "Corrected source-faithful historical-method packet supplies original publication and independently qualified provenance; source/export acceptance remains separately gated."
+        },
+        {
+          "local_packet": "skill-bundle/historical-methods/methods/warren-buffett.json",
+          "sha256": "821620897c32b1b7562424c64d75ef1f722599b627f577c952e1e1c13552f49a",
+          "locator": "original_sources and method_facts",
+          "evidence": "Upstream content acceptance inherited from parent assignment; sanitized/assembled export review is still separate."
+        }
+      ],
+      "precise_locators": {
+        "original_method": "Owner manual principle7 conservative financing paragraph.",
+        "WB-R-01": "Owner manual Intrinsic Value appendix opening definition and estimate-sensitivity paragraphs.",
+        "WB-R-03": "Owner manual principles7 and9, debt/retained-capital economic justification.",
+        "WB-R-04": "Owner manual principle7 conservative financing paragraph."
+      },
+      "role": "original_method",
+      "retrieved_at_utc": "2026-10-13T17:42:30Z",
+      "precutoff_concept_evidence_candidate": true,
+      "historical_webpage_bytes_verified": false,
+      "independent_acceptance": "pending_baseline_assembly_review",
+      "scope_note": "Inherited bounded original-source acceptance does not establish native prompt authorship, exact metric proxies, or calibrated confidence. No copied cases, holdings or return narratives.",
+      "direct_quote_words": 0,
+      "inherited_source_content_acceptance": "accepted_bounded_upstream_source_content",
+      "upstream_record_acceptance_field": "pending",
+      "public_availability_corroboration": [],
+      "method_replay_scope": "Method concepts only; case episodes, holdings and outcome/return narratives excluded."
+    },
+    {
+      "source_id": "DRU-01",
+      "title": "Stanley Druckenmiller: Lost Tree Club speech",
+      "url": "https://covestreetcapital.com/wp-content/uploads/2015/03/Druckenmiller-_Speech.pdf",
+      "author_or_speaker": "Named original author/firm in source title",
+      "publisher_or_authorized_host": "Accepted bounded historical-method source packet",
+      "historical_publication_date_or_latest_bound": "2015-04-13",
+      "date_kind": "inherited_publication_bound",
+      "version_identity": "Accepted upstream record 3ddfffd2b91f28018bf2eb46fc626e276bac1dab7d00b2c6d6d3c1cf76cc8fc5",
+      "date_proof": [
+        {
+          "url": "https://covestreetcapital.com/wp-content/uploads/2015/03/Druckenmiller-_Speech.pdf",
+          "locator": "Transcript pp.39-40: January 2000 exit, frustration at others’ gains, emotional re-entry and admission",
+          "evidence": "Public transcript availability directly corroborated no later than April 13, 2015; earlier March 30 posting separately reported. No URL-path dating assumption."
+        },
+        {
+          "local_packet": "skill-bundle/historical-methods/methods/stanley-druckenmiller.json",
+          "sha256": "28e639d7c086ab689d64c67e8f244346aabea5d3bf7b0a5571380520df5766a8",
+          "locator": "original_sources and method_facts",
+          "evidence": "Upstream content acceptance inherited from parent assignment; sanitized/assembled export review is still separate."
+        }
+      ],
+      "precise_locators": {
+        "original_method": "Transcript pp.39-40: January 2000 exit, frustration at others’ gains, emotional re-entry and admission",
+        "DRU-R1": "Transcript p.16 last paragraph continuing onto p.17 first paragraph: mentor’s central-bank/liquidity lesson",
+        "DRU-R7": "Transcript p.16: first of mentor’s two lessons, the 18-month forward situation",
+        "DRU-R2": "Transcript pp.13-14: concentration discussion and rare opportunity paragraph",
+        "DRU-R6": "Transcript pp.39-40: January 2000 exit, frustration at others’ gains, emotional re-entry and admission"
+      },
+      "role": "original_method",
+      "retrieved_at_utc": "2026-10-13T17:42:30Z",
+      "precutoff_concept_evidence_candidate": true,
+      "historical_webpage_bytes_verified": false,
+      "independent_acceptance": "pending_baseline_assembly_review",
+      "scope_note": "Inherited bounded original-source acceptance does not establish native prompt authorship, exact metric proxies, or calibrated confidence. No copied cases, holdings or return narratives.",
+      "direct_quote_words": 0,
+      "inherited_source_content_acceptance": "accepted_bounded_upstream_source_content",
+      "upstream_record_acceptance_field": "pending",
+      "public_availability_corroboration": [
+        {
+          "source_id": "DRU-PUB-01",
+          "url": "https://finance.yahoo.com/news/druckenmiller-joins-fed-bashers-end-211208803.html",
+          "date": "2015-04-13",
+          "role": "Secondary contemporaneous public-posting report only, not primary method authority."
+        },
+        {
+          "source_id": "DRU-PUB-02",
+          "url": "https://gist.github.com/bluechoochoo/a034da52c64ac6fcb637/revisions",
+          "date": "2015-04-13",
+          "role": "Primary platform public revision-date record; transcription is third-party."
+        }
+      ],
+      "method_replay_scope": "Method concepts only; case episodes, holdings and outcome/return narratives excluded."
+    },
+    {
+      "source_id": "DRU-02",
+      "title": "Goldman Sachs: Talks at GS, Stanley Druckenmiller",
+      "url": "https://www.goldmansachs.com/insights/talks-at-gs/stanley-druckenmiller.html",
+      "author_or_speaker": "Named original author/firm in source title",
+      "publisher_or_authorized_host": "Accepted bounded historical-method source packet",
+      "historical_publication_date_or_latest_bound": "2021-02-03",
+      "date_kind": "inherited_publication_bound",
+      "version_identity": "Accepted upstream record 6a577270cd5627c657116e256787985a00e6eff41a1c5ca03c8a651e2d9b8c84",
+      "date_proof": [
+        {
+          "url": "https://www.goldmansachs.com/insights/talks-at-gs/stanley-druckenmiller.html",
+          "locator": "On his investment process, both paragraphs",
+          "evidence": "A dated original first-person source reproduced on a current host is not an immutable archive of every historical version."
+        },
+        {
+          "local_packet": "skill-bundle/historical-methods/methods/stanley-druckenmiller.json",
+          "sha256": "28e639d7c086ab689d64c67e8f244346aabea5d3bf7b0a5571380520df5766a8",
+          "locator": "original_sources and method_facts",
+          "evidence": "Upstream content acceptance inherited from parent assignment; sanitized/assembled export review is still separate."
+        }
+      ],
+      "precise_locators": {
+        "original_method": "On his investment process, both paragraphs",
+        "DRU-R2": "On his approach to risk management, both paragraphs; On his investment process, second paragraph",
+        "DRU-R3": "On his investment process, both paragraphs"
+      },
+      "role": "original_method",
+      "retrieved_at_utc": "2026-10-13T17:42:30Z",
+      "precutoff_concept_evidence_candidate": true,
+      "historical_webpage_bytes_verified": false,
+      "independent_acceptance": "pending_baseline_assembly_review",
+      "scope_note": "Inherited bounded original-source acceptance does not establish native prompt authorship, exact metric proxies, or calibrated confidence. No copied cases, holdings or return narratives.",
+      "direct_quote_words": 0,
+      "inherited_source_content_acceptance": "accepted_bounded_upstream_source_content",
+      "upstream_record_acceptance_field": "pending",
+      "public_availability_corroboration": [],
+      "method_replay_scope": "Method concepts only; case episodes, holdings and outcome/return narratives excluded."
+    }
+  ],
+  "heuristics": [
+    {
+      "heuristic_id": "graham-H01",
+      "persona": "graham",
+      "native_heuristic": "Price relative to earnings and book value; P/E above 15–20 normally rejected.",
+      "implementation_origin": "upstream_repository_author_implementation",
+      "native_locator": {
+        "path": "harness-candidate/extracted/source_bundle/baseline-source-export/hedge_fund/signals/graham.py",
+        "function": "get_system_prompt",
+        "lines": [
+          23,
+          61
+        ],
+        "checklist_item": 1,
+        "sha256": "a95a149607fc02c4efacf5310933874f54fdd232be09adfe850ff52106ba655f"
+      },
+      "historical_concept_status": "partial_concept_support_native_rule_unestablished",
+      "concept_source_ids": [
+        "BG-CFA1977"
+      ],
+      "bounded_original_concept_paraphrase": "Graham discusses earnings and asset-based undervaluation; his late-life group approach has a separate bond-yield context.",
+      "source_locator_key": "value_discipline",
+      "native_algorithm_master_authored": false,
+      "missing_origin": "Native 15–20 P/E threshold, P/B inference recipe and margin-of-safety decision boundary not established; original interview multiples are 7–10 in a different context.",
+      "native_prompt_pre2026_availability_established": false,
+      "source_specific_locators": {
+        "BG-CFA1977": [
+          "Interview printed pp.36–38 / PDF pp.44–46: earnings and asset-based undervaluation discussion; avoid importing adjacent historical outcomes."
+        ]
+      }
+    },
+    {
+      "heuristic_id": "graham-H02",
+      "persona": "graham",
+      "native_heuristic": "Current ratio comfortably above 1.5 and modest D/E; weak balance sheet disqualifies.",
+      "implementation_origin": "upstream_repository_author_implementation",
+      "native_locator": {
+        "path": "harness-candidate/extracted/source_bundle/baseline-source-export/hedge_fund/signals/graham.py",
+        "function": "get_system_prompt",
+        "lines": [
+          23,
+          61
+        ],
+        "checklist_item": 2,
+        "sha256": "a95a149607fc02c4efacf5310933874f54fdd232be09adfe850ff52106ba655f"
+      },
+      "historical_concept_status": "origin_missing_in_bounded_original_corpus",
+      "concept_source_ids": [],
+      "bounded_original_concept_paraphrase": null,
+      "source_locator_key": null,
+      "native_algorithm_master_authored": false,
+      "missing_origin": "No matched original passage in this bounded corpus for current-ratio threshold, leverage boundary or unconditional rejection.",
+      "native_prompt_pre2026_availability_established": false,
+      "source_specific_locators": {}
+    },
+    {
+      "heuristic_id": "graham-H03",
+      "persona": "graham",
+      "native_heuristic": "Positive earnings throughout the displayed record with limited variability.",
+      "implementation_origin": "upstream_repository_author_implementation",
+      "native_locator": {
+        "path": "harness-candidate/extracted/source_bundle/baseline-source-export/hedge_fund/signals/graham.py",
+        "function": "get_system_prompt",
+        "lines": [
+          23,
+          61
+        ],
+        "checklist_item": 3,
+        "sha256": "a95a149607fc02c4efacf5310933874f54fdd232be09adfe850ff52106ba655f"
+      },
+      "historical_concept_status": "origin_missing_in_bounded_original_corpus",
+      "concept_source_ids": [],
+      "bounded_original_concept_paraphrase": null,
+      "source_locator_key": null,
+      "native_algorithm_master_authored": false,
+      "missing_origin": "No matched original passage establishes the displayed-record duration or stability test; do not treat four TTM rows as Graham’s required record.",
+      "native_prompt_pre2026_availability_established": false,
+      "source_specific_locators": {}
+    },
+    {
+      "heuristic_id": "graham-H04",
+      "persona": "graham",
+      "native_heuristic": "Deep skepticism of projected growth premiums.",
+      "implementation_origin": "upstream_repository_author_implementation",
+      "native_locator": {
+        "path": "harness-candidate/extracted/source_bundle/baseline-source-export/hedge_fund/signals/graham.py",
+        "function": "get_system_prompt",
+        "lines": [
+          23,
+          61
+        ],
+        "checklist_item": 4,
+        "sha256": "a95a149607fc02c4efacf5310933874f54fdd232be09adfe850ff52106ba655f"
+      },
+      "historical_concept_status": "independently_grounded_concept_with_author_metric_proxy",
+      "concept_source_ids": [
+        "BG-CFA1977"
+      ],
+      "bounded_original_concept_paraphrase": "Graham questions selection based on distant corporate prospects and emphasizes dependable valuation criteria.",
+      "source_locator_key": "growth_uncertainty",
+      "native_algorithm_master_authored": false,
+      "missing_origin": "Native absolutist balance-sheet wording and signal treatment are author design; this late-life view is not an exhaustive account of all Graham writings.",
+      "native_prompt_pre2026_availability_established": false,
+      "source_specific_locators": {
+        "BG-CFA1977": [
+          "Interview printed p.38 / PDF p.46: discussion of reliance on long-term corporate prospects."
+        ]
+      }
+    },
+    {
+      "heuristic_id": "munger-H01",
+      "persona": "munger",
+      "native_heuristic": "Inversion implemented through deteriorating margins, leverage and ROE.",
+      "implementation_origin": "upstream_repository_author_implementation",
+      "native_locator": {
+        "path": "harness-candidate/extracted/source_bundle/baseline-source-export/hedge_fund/signals/munger.py",
+        "function": "get_system_prompt",
+        "lines": [
+          23,
+          57
+        ],
+        "checklist_item": 1,
+        "sha256": "7afd204bcf950a824cba9587421c3d7d0a1160fd2db266935ff1fb84a5af801c"
+      },
+      "historical_concept_status": "independently_grounded_concept_with_author_metric_proxy",
+      "concept_source_ids": [
+        "CM-TALK1-1986"
+      ],
+      "bounded_original_concept_paraphrase": "Munger endorses solving problems backward and attending to evidence against one’s beliefs.",
+      "source_locator_key": "inversion",
+      "native_algorithm_master_authored": false,
+      "missing_origin": "The metric list and investment-failure rule are upstream proxies; no source-authored score or metric threshold.",
+      "native_prompt_pre2026_availability_established": false,
+      "source_specific_locators": {
+        "CM-TALK1-1986": [
+          "Original speech body, final prescription and backward-problem-solving discussion."
+        ]
+      }
+    },
+    {
+      "heuristic_id": "munger-H02",
+      "persona": "munger",
+      "native_heuristic": "Persistent high capital returns across the whole shown history indicate quality.",
+      "implementation_origin": "upstream_repository_author_implementation",
+      "native_locator": {
+        "path": "harness-candidate/extracted/source_bundle/baseline-source-export/hedge_fund/signals/munger.py",
+        "function": "get_system_prompt",
+        "lines": [
+          23,
+          57
+        ],
+        "checklist_item": 2,
+        "sha256": "7afd204bcf950a824cba9587421c3d7d0a1160fd2db266935ff1fb84a5af801c"
+      },
+      "historical_concept_status": "independently_grounded_concept_with_author_metric_proxy",
+      "concept_source_ids": [
+        "CM-TALK2-1995"
+      ],
+      "bounded_original_concept_paraphrase": "Munger relates durable business capital returns to long-duration stockholder returns.",
+      "source_locator_key": "business_quality",
+      "native_algorithm_master_authored": false,
+      "missing_origin": "ROE substitution, displayed-history sufficiency and no-heroic-assumptions test are upstream operationalization.",
+      "native_prompt_pre2026_availability_established": false,
+      "source_specific_locators": {
+        "CM-TALK2-1995": [
+          "Original speech body, stock-picking section: business capital returns and long-duration shareholder return relationship."
+        ]
+      }
+    },
+    {
+      "heuristic_id": "munger-H03",
+      "persona": "munger",
+      "native_heuristic": "Incentives and allocation inferred from BVPS compounding and real, growing FCF.",
+      "implementation_origin": "upstream_repository_author_implementation",
+      "native_locator": {
+        "path": "harness-candidate/extracted/source_bundle/baseline-source-export/hedge_fund/signals/munger.py",
+        "function": "get_system_prompt",
+        "lines": [
+          23,
+          57
+        ],
+        "checklist_item": 3,
+        "sha256": "7afd204bcf950a824cba9587421c3d7d0a1160fd2db266935ff1fb84a5af801c"
+      },
+      "historical_concept_status": "partial_concept_support_native_rule_unestablished",
+      "concept_source_ids": [
+        "CM-TALK2-1995"
+      ],
+      "bounded_original_concept_paraphrase": "Munger discusses how incentives alter managerial behavior.",
+      "source_locator_key": "incentives",
+      "native_algorithm_master_authored": false,
+      "missing_origin": "BVPS/FCF as evidence of incentives or management quality, growth requirements and capital-consumption rejection are not established by this passage.",
+      "native_prompt_pre2026_availability_established": false,
+      "source_specific_locators": {
+        "CM-TALK2-1995": [
+          "Original speech body, scale/bureaucracy discussion: incentives affecting managerial behavior."
+        ]
+      }
+    },
+    {
+      "heuristic_id": "munger-H04",
+      "persona": "munger",
+      "native_heuristic": "Accept high quality at fair price; compare P/E with growth and quality.",
+      "implementation_origin": "upstream_repository_author_implementation",
+      "native_locator": {
+        "path": "harness-candidate/extracted/source_bundle/baseline-source-export/hedge_fund/signals/munger.py",
+        "function": "get_system_prompt",
+        "lines": [
+          23,
+          57
+        ],
+        "checklist_item": 4,
+        "sha256": "7afd204bcf950a824cba9587421c3d7d0a1160fd2db266935ff1fb84a5af801c"
+      },
+      "historical_concept_status": "independently_grounded_concept_with_author_metric_proxy",
+      "concept_source_ids": [
+        "CM-TALK2-1995"
+      ],
+      "bounded_original_concept_paraphrase": "Munger’s pricing analogy combines business quality with the odds implied by price.",
+      "source_locator_key": "price",
+      "native_algorithm_master_authored": false,
+      "missing_origin": "Native P/E-to-growth check, fair-price threshold and exact verdict rules are unestablished.",
+      "native_prompt_pre2026_availability_established": false,
+      "source_specific_locators": {
+        "CM-TALK2-1995": [
+          "Original speech body, racetrack/market-pricing analogy and stock-picking section."
+        ]
+      }
+    },
+    {
+      "heuristic_id": "munger-H05",
+      "persona": "munger",
+      "native_heuristic": "Unclear numerical picture goes into the too-hard category and becomes neutral.",
+      "implementation_origin": "upstream_repository_author_implementation",
+      "native_locator": {
+        "path": "harness-candidate/extracted/source_bundle/baseline-source-export/hedge_fund/signals/munger.py",
+        "function": "get_system_prompt",
+        "lines": [
+          23,
+          57
+        ],
+        "checklist_item": 5,
+        "sha256": "7afd204bcf950a824cba9587421c3d7d0a1160fd2db266935ff1fb84a5af801c"
+      },
+      "historical_concept_status": "partial_concept_support_native_rule_unestablished",
+      "concept_source_ids": [
+        "CM-TALK2-1995",
+        "CM-CH3-REPORTEDQUOTE"
+      ],
+      "bounded_original_concept_paraphrase": "Munger stresses working within competence; the overview separately attributes a three-category decision approach to him.",
+      "source_locator_key": "competence; reported_competence_quote",
+      "native_algorithm_master_authored": false,
+      "missing_origin": "The attributed quotation has no established original speaking date here; neutral output from this numeric snapshot is upstream design.",
+      "native_prompt_pre2026_availability_established": false,
+      "source_specific_locators": {
+        "CM-TALK2-1995": [
+          "Original speech body, personal aptitudes and circle-of-competence discussion."
+        ],
+        "CM-CH3-REPORTEDQUOTE": [
+          "Investment-evaluation subsection, Munger-attributed three-category yes/no/too-difficult statement."
+        ]
+      }
+    },
+    {
+      "heuristic_id": "lynch-H01",
+      "persona": "lynch",
+      "native_heuristic": "Classify fast grower at 20%+, stalwart at 10–12%, slow grower or turnaround.",
+      "implementation_origin": "upstream_repository_author_implementation",
+      "native_locator": {
+        "path": "harness-candidate/extracted/source_bundle/baseline-source-export/hedge_fund/signals/lynch.py",
+        "function": "get_system_prompt",
+        "lines": [
+          23,
+          61
+        ],
+        "checklist_item": 1,
+        "sha256": "51ed7b27df87eefea7264e621c9abd40e58d1cfc3aa30f561e8225b5a4e32b14"
+      },
+      "historical_concept_status": "origin_missing_in_bounded_original_corpus",
+      "concept_source_ids": [],
+      "bounded_original_concept_paraphrase": null,
+      "source_locator_key": null,
+      "native_algorithm_master_authored": false,
+      "missing_origin": "Category taxonomy, numerical bands and category-conditioned signal rules not established by the inspected official author excerpt. Missing origin is not evidence that no book passage exists.",
+      "native_prompt_pre2026_availability_established": false,
+      "source_specific_locators": {}
+    },
+    {
+      "heuristic_id": "lynch-H02",
+      "persona": "lynch",
+      "native_heuristic": "Compare P/E with observed earnings growth; relatively low P/E deemed attractive.",
+      "implementation_origin": "upstream_repository_author_implementation",
+      "native_locator": {
+        "path": "harness-candidate/extracted/source_bundle/baseline-source-export/hedge_fund/signals/lynch.py",
+        "function": "get_system_prompt",
+        "lines": [
+          23,
+          61
+        ],
+        "checklist_item": 2,
+        "sha256": "51ed7b27df87eefea7264e621c9abd40e58d1cfc3aa30f561e8225b5a4e32b14"
+      },
+      "historical_concept_status": "partial_concept_support_native_rule_unestablished",
+      "concept_source_ids": [
+        "PL-ONEUP2000"
+      ],
+      "bounded_original_concept_paraphrase": "Lynch assesses the earnings needed to justify valuation and warns about paying too much.",
+      "source_locator_key": "valuation",
+      "native_algorithm_master_authored": false,
+      "missing_origin": "The excerpt does not establish the native PEG formula, observed-growth period, unit convention or decision boundaries.",
+      "native_prompt_pre2026_availability_established": false,
+      "source_specific_locators": {
+        "PL-ONEUP2000": [
+          "Author excerpt discussion of future earnings required to justify market value and risks of overpaying (lines 258 and 268–274)."
+        ]
+      }
+    },
+    {
+      "heuristic_id": "lynch-H03",
+      "persona": "lynch",
+      "native_heuristic": "Revenue growth must translate into EPS growth and stable/improving margins.",
+      "implementation_origin": "upstream_repository_author_implementation",
+      "native_locator": {
+        "path": "harness-candidate/extracted/source_bundle/baseline-source-export/hedge_fund/signals/lynch.py",
+        "function": "get_system_prompt",
+        "lines": [
+          23,
+          61
+        ],
+        "checklist_item": 3,
+        "sha256": "51ed7b27df87eefea7264e621c9abd40e58d1cfc3aa30f561e8225b5a4e32b14"
+      },
+      "historical_concept_status": "partial_concept_support_native_rule_unestablished",
+      "concept_source_ids": [
+        "PL-ONEUP2000"
+      ],
+      "bounded_original_concept_paraphrase": "Lynch urges research into earnings prospects, financial condition, competition and expansion.",
+      "source_locator_key": "homework",
+      "native_algorithm_master_authored": false,
+      "missing_origin": "Revenue-to-EPS bridge, quarter-by-quarter monotonicity and margin rules are upstream proxies.",
+      "native_prompt_pre2026_availability_established": false,
+      "source_specific_locators": {
+        "PL-ONEUP2000": [
+          "Author excerpt clarification after company/product observations (lines 287–290)."
+        ]
+      }
+    },
+    {
+      "heuristic_id": "lynch-H04",
+      "persona": "lynch",
+      "native_heuristic": "Avoid heavy debt so a growth story can survive weak years.",
+      "implementation_origin": "upstream_repository_author_implementation",
+      "native_locator": {
+        "path": "harness-candidate/extracted/source_bundle/baseline-source-export/hedge_fund/signals/lynch.py",
+        "function": "get_system_prompt",
+        "lines": [
+          23,
+          61
+        ],
+        "checklist_item": 4,
+        "sha256": "51ed7b27df87eefea7264e621c9abd40e58d1cfc3aa30f561e8225b5a4e32b14"
+      },
+      "historical_concept_status": "partial_concept_support_native_rule_unestablished",
+      "concept_source_ids": [
+        "PL-ONEUP2000"
+      ],
+      "bounded_original_concept_paraphrase": "Lynch includes financial condition in required company homework.",
+      "source_locator_key": "homework",
+      "native_algorithm_master_authored": false,
+      "missing_origin": "Debt ceiling and survival inference are not established by the inspected excerpt.",
+      "native_prompt_pre2026_availability_established": false,
+      "source_specific_locators": {
+        "PL-ONEUP2000": [
+          "Author excerpt clarification after company/product observations (lines 287–290)."
+        ]
+      }
+    },
+    {
+      "heuristic_id": "lynch-H05",
+      "persona": "lynch",
+      "native_heuristic": "Long-run earnings drive prices; evaluate continued growth and its price.",
+      "implementation_origin": "upstream_repository_author_implementation",
+      "native_locator": {
+        "path": "harness-candidate/extracted/source_bundle/baseline-source-export/hedge_fund/signals/lynch.py",
+        "function": "get_system_prompt",
+        "lines": [
+          23,
+          61
+        ],
+        "checklist_item": 5,
+        "sha256": "51ed7b27df87eefea7264e621c9abd40e58d1cfc3aa30f561e8225b5a4e32b14"
+      },
+      "historical_concept_status": "independently_grounded_concept_with_author_metric_proxy",
+      "concept_source_ids": [
+        "PL-ONEUP2000"
+      ],
+      "bounded_original_concept_paraphrase": "Lynch prioritizes earnings over short-term price changes.",
+      "source_locator_key": "earnings",
+      "native_algorithm_master_authored": false,
+      "missing_origin": "The prompt’s instruction to ignore everything else narrows the broader author homework requirements; exact output rule is upstream.",
+      "native_prompt_pre2026_availability_established": false,
+      "source_specific_locators": {
+        "PL-ONEUP2000": [
+          "Author excerpt paragraphs on earnings versus short-term price tracking (rendered lines 261–265 and 346)."
+        ]
+      }
+    },
+    {
+      "heuristic_id": "buffett-H01",
+      "persona": "buffett",
+      "native_heuristic": "Circle of competence judged from the supplied data.",
+      "implementation_origin": "upstream_repository_author_implementation",
+      "native_locator": {
+        "path": "harness-candidate/extracted/source_bundle/baseline-source-export/hedge_fund/signals/buffett.py",
+        "function": "get_system_prompt",
+        "lines": [
+          23,
+          56
+        ],
+        "checklist_item": 1,
+        "sha256": "cb5d6c57ed7992c4d4910b6957482fcf17459180db09c6ee6a7d0ad855c4c1d4"
+      },
+      "historical_concept_status": "independently_grounded_concept_with_author_metric_proxy",
+      "concept_source_ids": [
+        "WB-S-1996"
+      ],
+      "bounded_original_concept_paraphrase": "Understand the business and respect competence boundaries.",
+      "source_locator_key": "original_method",
+      "native_algorithm_master_authored": false,
+      "missing_origin": "Numeric snapshot sufficiency to establish competence is not a source-authored test.",
+      "native_prompt_pre2026_availability_established": false,
+      "source_specific_locators": {
+        "WB-S-1996": [
+          "1996 letter Common Stock Investments competence-boundary paragraphs."
+        ]
+      }
+    },
+    {
+      "heuristic_id": "buffett-H02",
+      "persona": "buffett",
+      "native_heuristic": "Moat inferred from durable ROE, margins and pricing power.",
+      "implementation_origin": "upstream_repository_author_implementation",
+      "native_locator": {
+        "path": "harness-candidate/extracted/source_bundle/baseline-source-export/hedge_fund/signals/buffett.py",
+        "function": "get_system_prompt",
+        "lines": [
+          23,
+          56
+        ],
+        "checklist_item": 2,
+        "sha256": "cb5d6c57ed7992c4d4910b6957482fcf17459180db09c6ee6a7d0ad855c4c1d4"
+      },
+      "historical_concept_status": "partial_concept_support_native_rule_unestablished",
+      "concept_source_ids": [
+        "WB-S-1996"
+      ],
+      "bounded_original_concept_paraphrase": "Competence and business-specific economics matter.",
+      "source_locator_key": "original_method",
+      "native_algorithm_master_authored": false,
+      "missing_origin": "These inherited facts do not independently prove the native moat proxy or pricing power from accounting ratios.",
+      "native_prompt_pre2026_availability_established": false,
+      "source_specific_locators": {
+        "WB-S-1996": [
+          "1996 letter Common Stock Investments competence-boundary paragraphs."
+        ]
+      }
+    },
+    {
+      "heuristic_id": "buffett-H03",
+      "persona": "buffett",
+      "native_heuristic": "Management allocation inferred from BVPS growth, leverage and FCF.",
+      "implementation_origin": "upstream_repository_author_implementation",
+      "native_locator": {
+        "path": "harness-candidate/extracted/source_bundle/baseline-source-export/hedge_fund/signals/buffett.py",
+        "function": "get_system_prompt",
+        "lines": [
+          23,
+          56
+        ],
+        "checklist_item": 3,
+        "sha256": "cb5d6c57ed7992c4d4910b6957482fcf17459180db09c6ee6a7d0ad855c4c1d4"
+      },
+      "historical_concept_status": "independently_grounded_concept_with_author_metric_proxy",
+      "concept_source_ids": [
+        "WB-S-OWNERS1999",
+        "WB-S-1986",
+        "WB-S-2011"
+      ],
+      "bounded_original_concept_paraphrase": "Capital retention and repurchases need economic justification; cash estimates require necessary reinvestment.",
+      "source_locator_key": "original_method",
+      "native_algorithm_master_authored": false,
+      "missing_origin": "BVPS CAGR, displayed FCF and leverage as sufficient management evidence are author proxies, not Buffett’s formula.",
+      "native_prompt_pre2026_availability_established": false,
+      "source_specific_locators": {
+        "WB-S-OWNERS1999": [
+          "Owner manual Intrinsic Value appendix opening definition and estimate-sensitivity paragraphs.",
+          "Owner manual principles7 and9, debt/retained-capital economic justification."
+        ],
+        "WB-S-1986": [
+          "1986 letter Appendix owner-earnings formula/maintenance-investment paragraph."
+        ],
+        "WB-S-2011": [
+          "2011 letter printed p6/PDF page5, Share Repurchases first two condition paragraphs and excess-cash/dilution warning, rendered lines219–227."
+        ]
+      }
+    },
+    {
+      "heuristic_id": "buffett-H04",
+      "persona": "buffett",
+      "native_heuristic": "Low debt, healthy current ratio and consistent earnings imply financial strength.",
+      "implementation_origin": "upstream_repository_author_implementation",
+      "native_locator": {
+        "path": "harness-candidate/extracted/source_bundle/baseline-source-export/hedge_fund/signals/buffett.py",
+        "function": "get_system_prompt",
+        "lines": [
+          23,
+          56
+        ],
+        "checklist_item": 4,
+        "sha256": "cb5d6c57ed7992c4d4910b6957482fcf17459180db09c6ee6a7d0ad855c4c1d4"
+      },
+      "historical_concept_status": "partial_concept_support_native_rule_unestablished",
+      "concept_source_ids": [
+        "WB-S-OWNERS1999",
+        "WB-S-2011"
+      ],
+      "bounded_original_concept_paraphrase": "Conservative financing and purpose-appropriate liquidity matter.",
+      "source_locator_key": "original_method",
+      "native_algorithm_master_authored": false,
+      "missing_origin": "Generic current-ratio and debt cutoffs, consistency period and signal thresholds not established.",
+      "native_prompt_pre2026_availability_established": false,
+      "source_specific_locators": {
+        "WB-S-OWNERS1999": [
+          "Owner manual principle7 conservative financing paragraph."
+        ],
+        "WB-S-2011": [
+          "2011 letter printed p18/PDF page17 liquidity-purpose paragraph; printed p6/PDF page5 separate repurchase-condition paragraph."
+        ]
+      }
+    },
+    {
+      "heuristic_id": "buffett-H05",
+      "persona": "buffett",
+      "native_heuristic": "Judge P/E/market cap versus quality and growth; quality at fair price preferred.",
+      "implementation_origin": "upstream_repository_author_implementation",
+      "native_locator": {
+        "path": "harness-candidate/extracted/source_bundle/baseline-source-export/hedge_fund/signals/buffett.py",
+        "function": "get_system_prompt",
+        "lines": [
+          23,
+          56
+        ],
+        "checklist_item": 5,
+        "sha256": "cb5d6c57ed7992c4d4910b6957482fcf17459180db09c6ee6a7d0ad855c4c1d4"
+      },
+      "historical_concept_status": "partial_concept_support_native_rule_unestablished",
+      "concept_source_ids": [
+        "WB-S-2020",
+        "WB-S-OWNERS1999"
+      ],
+      "bounded_original_concept_paraphrase": "Business or management quality does not eliminate valuation discipline.",
+      "source_locator_key": "original_method",
+      "native_algorithm_master_authored": false,
+      "missing_origin": "P/E/market-cap screen is not established as intrinsic-value calculation; exact maxim not traced in the inherited accepted corpus.",
+      "native_prompt_pre2026_availability_established": false,
+      "source_specific_locators": {
+        "WB-S-2020": [
+          "2020 letter printed p4, pricing versus business quality and normalized-profit-estimation diagnosis paragraphs."
+        ],
+        "WB-S-OWNERS1999": [
+          "Owner manual Intrinsic Value appendix opening definition and estimate-sensitivity paragraphs."
+        ]
+      }
+    },
+    {
+      "heuristic_id": "buffett-H06",
+      "persona": "buffett",
+      "native_heuristic": "Require comfort holding the business for ten years.",
+      "implementation_origin": "upstream_repository_author_implementation",
+      "native_locator": {
+        "path": "harness-candidate/extracted/source_bundle/baseline-source-export/hedge_fund/signals/buffett.py",
+        "function": "get_system_prompt",
+        "lines": [
+          23,
+          56
+        ],
+        "checklist_item": 6,
+        "sha256": "cb5d6c57ed7992c4d4910b6957482fcf17459180db09c6ee6a7d0ad855c4c1d4"
+      },
+      "historical_concept_status": "partial_concept_support_native_rule_unestablished",
+      "concept_source_ids": [
+        "WB-S-1996"
+      ],
+      "bounded_original_concept_paraphrase": "Competence supports bounded business understanding.",
+      "source_locator_key": "original_method",
+      "native_algorithm_master_authored": false,
+      "missing_origin": "Exact ten-year rule and its operational relevance not established by inherited bounded method facts.",
+      "native_prompt_pre2026_availability_established": false,
+      "source_specific_locators": {
+        "WB-S-1996": [
+          "1996 letter Common Stock Investments competence-boundary paragraphs."
+        ]
+      }
+    },
+    {
+      "heuristic_id": "druckenmiller-H01",
+      "persona": "druckenmiller",
+      "native_heuristic": "Recent revenue-growth/margin changes outweigh levels; compare quarters.",
+      "implementation_origin": "upstream_repository_author_implementation",
+      "native_locator": {
+        "path": "harness-candidate/extracted/source_bundle/baseline-source-export/hedge_fund/signals/druckenmiller.py",
+        "function": "get_system_prompt",
+        "lines": [
+          25,
+          65
+        ],
+        "checklist_item": 1,
+        "sha256": "7128960ad1cb48dd1bd375dbd5f13fc494c6d41ecb93de4b8d0a7de3bcb5efb9"
+      },
+      "historical_concept_status": "partial_concept_support_native_rule_unestablished",
+      "concept_source_ids": [
+        "DRU-01"
+      ],
+      "bounded_original_concept_paraphrase": "Druckenmiller looks ahead to changing conditions.",
+      "source_locator_key": "original_method",
+      "native_algorithm_master_authored": false,
+      "missing_origin": "Native trailing-fundamentals-only inflection proxy and quarter comparison are narrower than the original forward-looking/macro process.",
+      "native_prompt_pre2026_availability_established": false,
+      "source_specific_locators": {
+        "DRU-01": [
+          "Transcript p.16: first of mentor’s two lessons, the 18-month forward situation"
+        ]
+      }
+    },
+    {
+      "heuristic_id": "druckenmiller-H02",
+      "persona": "druckenmiller",
+      "native_heuristic": "Recent EPS momentum drives the earnings trajectory assessment.",
+      "implementation_origin": "upstream_repository_author_implementation",
+      "native_locator": {
+        "path": "harness-candidate/extracted/source_bundle/baseline-source-export/hedge_fund/signals/druckenmiller.py",
+        "function": "get_system_prompt",
+        "lines": [
+          25,
+          65
+        ],
+        "checklist_item": 2,
+        "sha256": "7128960ad1cb48dd1bd375dbd5f13fc494c6d41ecb93de4b8d0a7de3bcb5efb9"
+      },
+      "historical_concept_status": "partial_concept_support_native_rule_unestablished",
+      "concept_source_ids": [
+        "DRU-01"
+      ],
+      "bounded_original_concept_paraphrase": "Changing future conditions matter; earnings alone are insufficient.",
+      "source_locator_key": "original_method",
+      "native_algorithm_master_authored": false,
+      "missing_origin": "EPS momentum algorithm and signal threshold are unestablished; source stresses liquidity/policy omitted from this native snapshot.",
+      "native_prompt_pre2026_availability_established": false,
+      "source_specific_locators": {
+        "DRU-01": [
+          "Transcript p.16 last paragraph continuing onto p.17 first paragraph: mentor’s central-bank/liquidity lesson"
+        ]
+      }
+    },
+    {
+      "heuristic_id": "druckenmiller-H03",
+      "persona": "druckenmiller",
+      "native_heuristic": "Interpret P/E as priced-in expectations relative to accounting trends.",
+      "implementation_origin": "upstream_repository_author_implementation",
+      "native_locator": {
+        "path": "harness-candidate/extracted/source_bundle/baseline-source-export/hedge_fund/signals/druckenmiller.py",
+        "function": "get_system_prompt",
+        "lines": [
+          25,
+          65
+        ],
+        "checklist_item": 3,
+        "sha256": "7128960ad1cb48dd1bd375dbd5f13fc494c6d41ecb93de4b8d0a7de3bcb5efb9"
+      },
+      "historical_concept_status": "origin_missing_in_bounded_original_corpus",
+      "concept_source_ids": [],
+      "bounded_original_concept_paraphrase": null,
+      "source_locator_key": null,
+      "native_algorithm_master_authored": false,
+      "missing_origin": "No bounded original-source passage establishes this P/E/trend trap-or-buy rule.",
+      "native_prompt_pre2026_availability_established": false,
+      "source_specific_locators": {}
+    },
+    {
+      "heuristic_id": "druckenmiller-H04",
+      "persona": "druckenmiller",
+      "native_heuristic": "Concentrate only when price and inflection imply asymmetry; otherwise no position.",
+      "implementation_origin": "upstream_repository_author_implementation",
+      "native_locator": {
+        "path": "harness-candidate/extracted/source_bundle/baseline-source-export/hedge_fund/signals/druckenmiller.py",
+        "function": "get_system_prompt",
+        "lines": [
+          25,
+          65
+        ],
+        "checklist_item": 4,
+        "sha256": "7128960ad1cb48dd1bd375dbd5f13fc494c6d41ecb93de4b8d0a7de3bcb5efb9"
+      },
+      "historical_concept_status": "partial_concept_support_native_rule_unestablished",
+      "concept_source_ids": [
+        "DRU-01",
+        "DRU-02"
+      ],
+      "bounded_original_concept_paraphrase": "Compelling rare opportunities justify concentration; changing course is important.",
+      "source_locator_key": "original_method",
+      "native_algorithm_master_authored": false,
+      "missing_origin": "Signal confidence, asymmetry estimate and mapping concentration to this single-stock numeric snapshot are not source-authored.",
+      "native_prompt_pre2026_availability_established": false,
+      "source_specific_locators": {
+        "DRU-01": [
+          "Transcript pp.13-14: concentration discussion and rare opportunity paragraph"
+        ],
+        "DRU-02": [
+          "On his approach to risk management, both paragraphs; On his investment process, second paragraph"
+        ]
+      }
+    },
+    {
+      "heuristic_id": "druckenmiller-H05",
+      "persona": "druckenmiller",
+      "native_heuristic": "Deterioration plus leverage must be shorted or passed, never held.",
+      "implementation_origin": "upstream_repository_author_implementation",
+      "native_locator": {
+        "path": "harness-candidate/extracted/source_bundle/baseline-source-export/hedge_fund/signals/druckenmiller.py",
+        "function": "get_system_prompt",
+        "lines": [
+          25,
+          65
+        ],
+        "checklist_item": 5,
+        "sha256": "7128960ad1cb48dd1bd375dbd5f13fc494c6d41ecb93de4b8d0a7de3bcb5efb9"
+      },
+      "historical_concept_status": "partial_concept_support_native_rule_unestablished",
+      "concept_source_ids": [
+        "DRU-02"
+      ],
+      "bounded_original_concept_paraphrase": "Flexibility across liquid asset classes permits avoiding dangerous areas and revising views.",
+      "source_locator_key": "original_method",
+      "native_algorithm_master_authored": false,
+      "missing_origin": "The categorical leverage/deterioration rule and mandatory short-or-pass verdict are not established.",
+      "native_prompt_pre2026_availability_established": false,
+      "source_specific_locators": {
+        "DRU-02": [
+          "On his investment process, both paragraphs"
+        ]
+      }
+    }
+  ],
+  "shared_implementation_choices": [
+    {
+      "implementation_id": "native-persona-framing",
+      "behavior": "Each persona name/voice, opening slogans, stylization, 2–4-sentence thesis and long-only/long-short declaration.",
+      "native_locator": "hedge_fund/signals/{persona}.py:get_system_prompt and investment_approach",
+      "origin": "upstream_repository_author_implementation",
+      "master_authored": false,
+      "historical_original_source_ids": [],
+      "missing_origin_or_boundary": "All five are repository-authored stylized approximations, not the actual investor or endorsement. Any untraced slogan remains missing origin."
+    },
+    {
+      "implementation_id": "native-signal-mapping",
+      "behavior": "Persona-specific bullish/bearish/neutral condition lists.",
+      "native_locator": "hedge_fund/signals/{persona}.py:get_system_prompt signal rules",
+      "origin": "upstream_repository_author_implementation",
+      "master_authored": false,
+      "historical_original_source_ids": [],
+      "missing_origin_or_boundary": "Financial concepts do not establish these discrete labels or conjunctions. Native verdict mapping remains author implementation."
+    },
+    {
+      "implementation_id": "native-confidence",
+      "behavior": "0–100 confidence with 90–100,70–89,40–69,10–39 qualitative bands.",
+      "native_locator": "hedge_fund/signals/{persona}.py:get_system_prompt confidence scale",
+      "origin": "upstream_repository_author_implementation",
+      "master_authored": false,
+      "historical_original_source_ids": [],
+      "missing_origin_or_boundary": "No original source establishes these bands or calibration; probability interpretation is prohibited."
+    },
+    {
+      "implementation_id": "native-hard-rules",
+      "behavior": "Only supplied data, latest filing treated as present, no later knowledge/invented numbers, persona-specific style or neutral fallback.",
+      "native_locator": "hedge_fund/signals/{persona}.py:get_system_prompt hard rules",
+      "origin": "upstream_repository_author_implementation",
+      "master_authored": false,
+      "historical_original_source_ids": [],
+      "missing_origin_or_boundary": "Benchmark/model-interface controls and voice instructions are upstream author implementation, not investor-authored historical procedures."
+    },
+    {
+      "implementation_id": "native-interface",
+      "behavior": "JSON signal/confidence/reasoning schema, parsing/coercions/defaults, signed confidence/100, caching and abstention handling.",
+      "native_locator": "hedge_fund/signals/llm_agent.py:predict,build_user_prompt,_parse,_to_signal,_abstain",
+      "origin": "upstream_repository_author_implementation",
+      "master_authored": false,
+      "historical_original_source_ids": [],
+      "missing_origin_or_boundary": "These are contemporary software semantics; no historical investor authorship or availability is claimed."
+    },
+    {
+      "implementation_id": "native-input-selection",
+      "behavior": "At most20 newest-first TTM rows and MIN_PERIODS=4; 13 financial fields; sector/industry projection.",
+      "native_locator": "hedge_fund/features/snapshot.py:MIN_PERIODS,PeriodFundamentals,build_snapshot",
+      "origin": "upstream_repository_author_implementation",
+      "master_authored": false,
+      "historical_original_source_ids": [],
+      "missing_origin_or_boundary": "The window, field choices, minimum-data gate and accepted PIT approximation are upstream implementation."
+    },
+    {
+      "implementation_id": "native-averages",
+      "behavior": "ROE/net-margin averages skip missing values and round to4 decimals.",
+      "native_locator": "hedge_fund/features/snapshot.py:_avg,build_snapshot",
+      "origin": "upstream_repository_author_implementation",
+      "master_authored": false,
+      "historical_original_source_ids": [],
+      "missing_origin_or_boundary": "Generic arithmetic is not a master-specific original algorithm."
+    },
+    {
+      "implementation_id": "native-margin-trend",
+      "behavior": "Latest nonmissing gross margin minus oldest nonmissing; round4 decimals.",
+      "native_locator": "hedge_fund/features/snapshot.py:_trend",
+      "origin": "upstream_repository_author_implementation",
+      "master_authored": false,
+      "historical_original_source_ids": [],
+      "missing_origin_or_boundary": "Metric selection, skipped-row behavior and trend definition are upstream choices."
+    },
+    {
+      "implementation_id": "native-bvps-cagr",
+      "behavior": "Skip nulls; positive endpoints; years=(nonmissing_count−1)/4; CAGR rounded4 decimals.",
+      "native_locator": "hedge_fund/features/snapshot.py:_cagr",
+      "origin": "upstream_repository_author_implementation",
+      "master_authored": false,
+      "historical_original_source_ids": [],
+      "missing_origin_or_boundary": "Time compression from missing rows is preserved. This is not a certified Buffett or Munger compounding rule."
+    },
+    {
+      "implementation_id": "native-eps-yoy",
+      "behavior": "TTM EPS at t0/t4−1, requiring5 rows and positive prior EPS; round4 decimals.",
+      "native_locator": "hedge_fund/features/snapshot.py:_eps_growth_yoy",
+      "origin": "upstream_repository_author_implementation",
+      "master_authored": false,
+      "historical_original_source_ids": [],
+      "missing_origin_or_boundary": "Index convention and eligibility gate are upstream implementation; do not attribute to Lynch or Druckenmiller."
+    },
+    {
+      "implementation_id": "native-rendering",
+      "behavior": "Named rendering and blind ratio/index rendering; oldest displayed per-share base100; missing/nonpositive base dashed; identity/date/size omissions.",
+      "native_locator": "hedge_fund/features/snapshot.py:render,_render_blind,_per_share_index,_fmt",
+      "origin": "upstream_repository_author_implementation",
+      "master_authored": false,
+      "historical_original_source_ids": [],
+      "missing_origin_or_boundary": "Blinding, indexing, size percentiles, rounding and cache hash are software controls. Wrapped blind breakpoint adapter remains null."
+    }
+  ],
+  "method_source_links_candidate": {
+    "buffett": [
+      "WB-S-1996",
+      "WB-S-OWNERS1999",
+      "WB-S-1986",
+      "WB-S-2011",
+      "WB-S-2020"
+    ],
+    "graham": [
+      "BG-CFA1977"
+    ],
+    "munger": [
+      "CM-TALK2-1995",
+      "CM-TALK1-1986"
+    ],
+    "lynch": [
+      "PL-ONEUP2000"
+    ],
+    "druckenmiller": [
+      "DRU-01",
+      "DRU-02"
+    ]
+  },
+  "freeze_contract": {
+    "harness_function": "harness/engine.py:validate_method_freeze",
+    "required_top_level_fields": [
+      "schema_version",
+      "source_pin",
+      "requested_model",
+      "blind",
+      "route_freeze_id",
+      "personas",
+      "method_source_records",
+      "method_source_links",
+      "evaluation_rules_sha256",
+      "independent_preflight_review_id"
+    ],
+    "source_record_fields": "harness/packet.py:SOURCE_FIELDS (18 exact fields)",
+    "syntactic_gate_is_not_semantic_proof": true,
+    "not_created_here": [
+      "complete baseline-method-freeze.v1",
+      "route/mode decision",
+      "evaluation-rules hash",
+      "independent preflight review ID"
+    ],
+    "semantic_gaps": [
+      "The sources support selected pre-cutoff concepts, not complete master-authored native methodologies.",
+      "Graham 15–20 P/E and current-ratio>1.5, Lynch category bands/PEG operational rule, and all five confidence/signal scales remain author implementation with missing original algorithm origin.",
+      "Munger Chapter Three is an editorial overview; only separately attributed statements are bounded reported quotations, with original speaking dates unresolved.",
+      "Original publication dates and current publisher reproductions establish historical originals at a bounded bibliographic level; today’s HTML/PDF retrieval timestamps and URL paths do not prove historical website byte versions.",
+      "If review requires every exact native heuristic to be original-master-authored before 2026, this ledger cannot satisfy that requirement. Preserve the pin and escalate the requirement gap; do not fabricate evidence or relax gates."
+    ]
+  },
+  "rights": {
+    "payload": "Public metadata, precise locators and short original-method paraphrases only.",
+    "full_books_or_reports_copied_to_deliverable": false,
+    "direct_quote_words_per_source_max": 0,
+    "stock_opinions_generated": false,
+    "replay_outcomes_accessed": false,
+    "upstream_code_changed": false
+  },
+  "excluded_candidates": [
+    {
+      "url": "https://officialharpercollins.shop",
+      "reason": "Not a verified official publisher; not used."
+    },
+    {
+      "category": "Third-party book uploads, summaries and fund-screen reproductions",
+      "reason": "Not original author method authority; not used as supporting evidence."
+    }
+  ]
+}

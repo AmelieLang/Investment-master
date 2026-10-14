@@ -1,0 +1,43 @@
+{
+  "schema_version": "baseline-method-ledger-validation.v1",
+  "verified_at_utc": "2026-10-13T17:48:00Z",
+  "status": "passed_structural_and_frozen_source_byte_checks_only",
+  "native_checklist_item_count": 25,
+  "shared_implementation_record_count": 11,
+  "source_record_count": 13,
+  "candidate_original_source_record_count": 12,
+  "source_fields_count": 18,
+  "all_native_source_manifest_files_unchanged": true,
+  "native_source_files_checked": 19,
+  "all_source_pin_fields_match": true,
+  "all_concept_links_resolve": true,
+  "all_five_personas_have_links": true,
+  "master_authored_algorithm_claims": 0,
+  "historical_native_prompt_availability_claims": 0,
+  "direct_quote_words_per_source": {
+    "BG-CFA1977": 0,
+    "PL-ONEUP2000": 0,
+    "CM-TALK2-1995": 0,
+    "CM-TALK1-1986": 0,
+    "CM-CH3-REPORTEDQUOTE": 0,
+    "WB-S-1986": 0,
+    "WB-S-1996": 0,
+    "WB-S-2011": 0,
+    "WB-S-2020": 0,
+    "WB-S-CNBC2017-MEETING": 0,
+    "WB-S-OWNERS1999": 0,
+    "DRU-01": 0,
+    "DRU-02": 0
+  },
+  "independent_semantic_review": "pending",
+  "production_method_freeze": "not_created",
+  "model_or_provider_calls": 0,
+  "real_stock_predictions": 0,
+  "replay_outcomes_accessed": false,
+  "artifact_hashes": {
+    "ledger.json": "cb81e04d6c4f46032b75ce8e927aa826bdc18e41a41461068240e3bd6ce81ef6",
+    "source-records.candidate.json": "a30faa51933d65fca8cb72ad091124850a70c0e2f1ada8df8b152e1145fb1979",
+    "README.md": "02ed3c8ec73b2446428105239b251c7ffb19b054e732b569060d4dcad23fa765"
+  },
+  "all_supported_concepts_have_source_specific_locators": true
+}

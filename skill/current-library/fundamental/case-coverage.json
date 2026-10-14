@@ -1,0 +1,277 @@
+{
+  "schema_version": "2.1",
+  "completed_at_utc": "2026-10-13T17:07:22Z",
+  "provenance_legend": {
+    "P1": "Original investor writing/verified account or original regulator/fund/company disclosure, only for facts actually established.",
+    "P2": "Authorized original-publisher transcript, verified original archive or producer-account republication; recollections remain retrospective and access completeness is separate.",
+    "S1": "Reputable contemporaneous independent report; none used as accepted evidence here.",
+    "S2": "Later secondary compilation, attendee notes, biography, translation or analytical reconstruction; discovery only here.",
+    "U": "Unverified attribution or unavailable original; not promoted into accepted investor intent."
+  },
+  "timing_legend": {
+    "T0": "Demonstrably public before the actual decision; public business context is separately distinguished from investor intent.",
+    "T1": "Contemporaneous statement/report within specified decision or holding-observation interval; not proved pre-trade.",
+    "T2": "Later retrospective explanation of an earlier decision.",
+    "TU": "Publication/event relationship to the actual decision unknown, or initial evidence missing. General method claims without a particular security decision remain TU for that relation."
+  },
+  "count_policy": "Case-level presence and node-level label incidences are nonexclusive. One case can carry several timing labels. Excluded Baidu is outside accepted denominators. Options is a boundary record, outside the investment/strategy denominator.",
+  "exact_denominators": {
+    "all_case_records": 11,
+    "accepted_case_records": 10,
+    "excluded_unverified_records": 1,
+    "investment_or_strategy_cases": 9,
+    "instrument_boundary_records": 1,
+    "named_security_investment_cases": 7,
+    "unnamed_investment_or_strategy_cases": 2,
+    "all_accepted_chain_nodes": 38,
+    "original_initial_investor_T0_thesis_verified": 0,
+    "investment_cases_with_predecision_public_context_only": 1,
+    "investment_cases_missing_verified_initial_investor_pretrade_thesis": 9
+  },
+  "case_presence_counts_accepted_nonexclusive": {
+    "T0": 1,
+    "T1": 7,
+    "T2": 8,
+    "TU": 3
+  },
+  "case_presence_counts_investment_only_nonexclusive": {
+    "T0": 1,
+    "T1": 6,
+    "T2": 8,
+    "TU": 3
+  },
+  "cases": [
+    {
+      "case_id": "WB-C-APPLE",
+      "investor_id": "WB",
+      "accepted": true,
+      "case_scope": "investment/strategy case",
+      "node_denominator": 6,
+      "node_label_incidence_counts_nonexclusive": {
+        "T0": 0,
+        "T1": 6,
+        "T2": 1,
+        "TU": 0
+      },
+      "has_T0": false,
+      "has_T1": true,
+      "has_T2": true,
+      "has_TU": false,
+      "original_initial_investor_T0_thesis_verified": false,
+      "full_trade_reconstruction": "not established",
+      "missing_initial_pretrade_evidence": true,
+      "T0_scope": null
+    },
+    {
+      "case_id": "WB-C-IBM",
+      "investor_id": "WB",
+      "accepted": true,
+      "case_scope": "investment/strategy case",
+      "node_denominator": 4,
+      "node_label_incidence_counts_nonexclusive": {
+        "T0": 0,
+        "T1": 4,
+        "T2": 0,
+        "TU": 0
+      },
+      "has_T0": false,
+      "has_T1": true,
+      "has_T2": false,
+      "has_TU": false,
+      "original_initial_investor_T0_thesis_verified": false,
+      "full_trade_reconstruction": "not established",
+      "missing_initial_pretrade_evidence": true,
+      "T0_scope": null
+    },
+    {
+      "case_id": "WB-C-PCC",
+      "investor_id": "WB",
+      "accepted": true,
+      "case_scope": "investment/strategy case",
+      "node_denominator": 4,
+      "node_label_incidence_counts_nonexclusive": {
+        "T0": 1,
+        "T1": 2,
+        "T2": 1,
+        "TU": 0
+      },
+      "has_T0": true,
+      "has_T1": true,
+      "has_T2": true,
+      "has_TU": false,
+      "original_initial_investor_T0_thesis_verified": false,
+      "full_trade_reconstruction": "not established",
+      "missing_initial_pretrade_evidence": true,
+      "T0_scope": "PCC issuer pre-agreement business context only, not investor memorandum"
+    },
+    {
+      "case_id": "DYP-C-NETEASE",
+      "investor_id": "DYP",
+      "accepted": true,
+      "case_scope": "investment/strategy case",
+      "node_denominator": 5,
+      "node_label_incidence_counts_nonexclusive": {
+        "T0": 0,
+        "T1": 3,
+        "T2": 1,
+        "TU": 1
+      },
+      "has_T0": false,
+      "has_T1": true,
+      "has_T2": true,
+      "has_TU": true,
+      "original_initial_investor_T0_thesis_verified": false,
+      "full_trade_reconstruction": "not established",
+      "missing_initial_pretrade_evidence": true,
+      "T0_scope": null
+    },
+    {
+      "case_id": "DYP-C-APPLE",
+      "investor_id": "DYP",
+      "accepted": true,
+      "case_scope": "investment/strategy case",
+      "node_denominator": 4,
+      "node_label_incidence_counts_nonexclusive": {
+        "T0": 0,
+        "T1": 2,
+        "T2": 1,
+        "TU": 1
+      },
+      "has_T0": false,
+      "has_T1": true,
+      "has_T2": true,
+      "has_TU": true,
+      "original_initial_investor_T0_thesis_verified": false,
+      "full_trade_reconstruction": "not established",
+      "missing_initial_pretrade_evidence": true,
+      "T0_scope": null
+    },
+    {
+      "case_id": "DYP-C-OILGAS-INDEX",
+      "investor_id": "DYP",
+      "accepted": true,
+      "case_scope": "investment/strategy case",
+      "node_denominator": 3,
+      "node_label_incidence_counts_nonexclusive": {
+        "T0": 0,
+        "T1": 0,
+        "T2": 3,
+        "TU": 0
+      },
+      "has_T0": false,
+      "has_T1": false,
+      "has_T2": true,
+      "has_TU": false,
+      "original_initial_investor_T0_thesis_verified": false,
+      "full_trade_reconstruction": "not established",
+      "missing_initial_pretrade_evidence": true,
+      "T0_scope": null
+    },
+    {
+      "case_id": "DYP-C-GE",
+      "investor_id": "DYP",
+      "accepted": true,
+      "case_scope": "investment/strategy case",
+      "node_denominator": 1,
+      "node_label_incidence_counts_nonexclusive": {
+        "T0": 0,
+        "T1": 0,
+        "T2": 1,
+        "TU": 0
+      },
+      "has_T0": false,
+      "has_T1": false,
+      "has_T2": true,
+      "has_TU": false,
+      "original_initial_investor_T0_thesis_verified": false,
+      "full_trade_reconstruction": "not established",
+      "missing_initial_pretrade_evidence": true,
+      "T0_scope": null
+    },
+    {
+      "case_id": "DYP-C-OPTIONS",
+      "investor_id": "DYP",
+      "accepted": true,
+      "case_scope": "instrument/method boundary, not an outcome case",
+      "node_denominator": 2,
+      "node_label_incidence_counts_nonexclusive": {
+        "T0": 0,
+        "T1": 2,
+        "T2": 0,
+        "TU": 0
+      },
+      "has_T0": false,
+      "has_T1": true,
+      "has_T2": false,
+      "has_TU": false,
+      "original_initial_investor_T0_thesis_verified": false,
+      "full_trade_reconstruction": "not established",
+      "missing_initial_pretrade_evidence": false,
+      "T0_scope": null
+    },
+    {
+      "case_id": "DYP-C-BAIDU-SHORT",
+      "investor_id": "DYP",
+      "accepted": false,
+      "case_scope": "excluded unverified lead",
+      "node_denominator": 0,
+      "node_label_incidence_counts_nonexclusive": {
+        "T0": 0,
+        "T1": 0,
+        "T2": 0,
+        "TU": 0
+      },
+      "has_T0": false,
+      "has_T1": false,
+      "has_T2": false,
+      "has_TU": false,
+      "original_initial_investor_T0_thesis_verified": false,
+      "full_trade_reconstruction": "not established",
+      "missing_initial_pretrade_evidence": true,
+      "T0_scope": null
+    },
+    {
+      "case_id": "LL-C-BYD",
+      "investor_id": "LL",
+      "accepted": true,
+      "case_scope": "investment/strategy case",
+      "node_denominator": 6,
+      "node_label_incidence_counts_nonexclusive": {
+        "T0": 0,
+        "T1": 5,
+        "T2": 1,
+        "TU": 1
+      },
+      "has_T0": false,
+      "has_T1": true,
+      "has_T2": true,
+      "has_TU": true,
+      "original_initial_investor_T0_thesis_verified": false,
+      "full_trade_reconstruction": "not established",
+      "missing_initial_pretrade_evidence": true,
+      "T0_scope": null
+    },
+    {
+      "case_id": "LL-C-SHORTING",
+      "investor_id": "LL",
+      "accepted": true,
+      "case_scope": "investment/strategy case",
+      "node_denominator": 3,
+      "node_label_incidence_counts_nonexclusive": {
+        "T0": 0,
+        "T1": 0,
+        "T2": 3,
+        "TU": 0
+      },
+      "has_T0": false,
+      "has_T1": false,
+      "has_T2": true,
+      "has_TU": false,
+      "original_initial_investor_T0_thesis_verified": false,
+      "full_trade_reconstruction": "not established",
+      "missing_initial_pretrade_evidence": true,
+      "T0_scope": null
+    }
+  ],
+  "not_claimed": "No complete trade reconstruction, predictive success rate, global six-case quota pass or all-lifetime publication coverage follows from these counts."
+}

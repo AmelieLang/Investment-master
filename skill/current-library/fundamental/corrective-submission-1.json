@@ -1,0 +1,23 @@
+{
+  "task_id": "V2-B-fundamental",
+  "corrective_submission": 1,
+  "maximum_corrective_rounds": 3,
+  "review0_files": [
+    "reviews/V2-B-fundamental-review-0.json",
+    "reviews/V2-B-fundamental-review-0.md"
+  ],
+  "addresses": {
+    "F-01": "Corrected working liquidity, absolute minimum and separate repurchase condition; added original general repurchase-method claim and exact page/paragraph anchors.",
+    "F-02": "All67 claims linked to81 precise evidence records, independent provenance/timing axes; all14 rules anchored; exact11/10/9 case denominator and per-family source coverage. Frozen13-rule historical method packet excludes rich case/holding/outcome/current material.",
+    "F-03": "Reused verified Q3 2025 H&H filings; same-vehicle Apple/NVIDIA common-share comparison to Q2 2026; original actual publication date and bounded amendment-check scope retained. No public-2025 personal attribution inferred."
+  },
+  "preserved_incomplete_gates": [
+    "No verified initial investor T0 thesis for any of9 investment/strategy cases.",
+    "No full trade-return reconstruction or named Li Lu shorting loss.",
+    "Duan pre-2026 personal attribution for H&H vehicle decisions remains unestablished.",
+    "Exact original2026-10-13 social post independently inaccessible in review0; author-access record is not independent verification."
+  ],
+  "acceptance": "pending independent re-review; do not self-issue full pass",
+  "canonical_manifest": "manifest.json",
+  "construction_helpers": "Superseded round0 construction snapshots are not deliverables and must not regenerate corrected canonical JSON."
+}

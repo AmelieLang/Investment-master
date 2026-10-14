@@ -1,0 +1,17 @@
+{
+  "schema_version": "investor_disclosure.v2.tech.1",
+  "as_of_date": "2026-10-13",
+  "source_id": "COM-SEC13F",
+  "source_url": "https://www.sec.gov/rules-regulations/staff-guidance/frequently-asked-questions-about-form-13f",
+  "interpretation_rules": [
+    "A reported position is ownership/discretion evidence for a reporting date, not intent, entry date, cost, trade execution or net risk.",
+    "Publication date determines what was publicly knowable; report date alone does not.",
+    "Resolve filer, fund, account, included manager, CUSIP, security class, split basis, unit and currency before aggregation.",
+    "Keep longs separate from options/warrants; never silently repair inconsistent units.",
+    "Manager book is not personal portfolio and 13F is not complete economic exposure.",
+    "Holdings-value change combines prices, flows, trades and possibly manager-scope changes; never call it P&L.",
+    "Use full issuer/fund total-return series and appropriate benchmark/share class for return claims; a business result or selected quote is not an investment return."
+  ],
+  "latest_filing_calendar_only": "ARK, Altimeter and Coatue submissions JSON were checked for Q2 2026 filing existence. Their latest information tables were not ingested.",
+  "case_selection_note": "Famous successes and adverse cases were chosen purposively; no count, win rate or claim of investment-skill causality is supported."
+}

@@ -1,0 +1,687 @@
+{
+  "schema_version": "investment-master-method/v0.1-draft",
+  "master_id": "george-soros",
+  "catalogue_entity_id": "george-soros",
+  "display_name": "George Soros",
+  "classification": "core_dossier",
+  "source_stream": "macro",
+  "source_acceptance": "accepted",
+  "implementation_ready": false,
+  "identity_and_mandate_record": {
+    "era_mandates": [
+      {
+        "era": "Historical Quantum hedge-fund period",
+        "mandate": "Flexible leveraged global macro; manager and team agency varies, including Druckenmiller portfolio management",
+        "source_ids": [
+          "DRU-01",
+          "SOR-05"
+        ]
+      },
+      {
+        "era": "2000 / 2011 transition",
+        "mandate": "Investor letter describes family-office evolution and return of outside capital in 2011; historical fund and current family office are distinct",
+        "source_ids": [
+          "SOR-11"
+        ]
+      },
+      {
+        "era": "2017 onward",
+        "mandate": "Dawn Fitzpatrick CEO/CIO; current institutional holdings require PM-specific attribution",
+        "source_ids": [
+          "SOR-10",
+          "SOR-12"
+        ]
+      }
+    ]
+  },
+  "scope": {
+    "strong": [
+      "Reflexive financing/belief feedback",
+      "Fallibility and funding-path risk"
+    ],
+    "conditional": [
+      "Corporate equity with evidenced feedback channel"
+    ],
+    "not_established": [
+      "Bubble label without causal channel",
+      "Current SFM as Soros personal trading view"
+    ],
+    "historical_status": "Original pre-cutoff method facts only; company stock valuation is not the macro module core."
+  },
+  "rules": [
+    {
+      "rule_id": "SOR-R1",
+      "method_fact": "Prices can change fundamentals through financing and credit feedback.",
+      "method_fact_origin": "Native-principle paraphrase; action/thresholds are independent operationalization.",
+      "source_ids": [
+        "SOR-03"
+      ],
+      "claim_ids": [],
+      "our_design_questions": [
+        "Specify a causal feedback loop, participants and financing channel rather than merely label a market a bubble."
+      ],
+      "required_inputs": [
+        "Collateral/credit constraints",
+        "Issuance and refinancing dependence",
+        "Trend and market belief",
+        "Policy intervention capacity"
+      ],
+      "falsifiers": [
+        "Reject the thesis if no price-to-fundamental channel or belief mechanism is evidenced."
+      ],
+      "limits": [
+        "Operational workflow adapted by this audit; not a master-authored formula"
+      ],
+      "historical_eligibility": {
+        "status": "candidate_eligible_pending_review",
+        "eligible_source_ids": [
+          "SOR-03"
+        ],
+        "reason": "Use the dated eligible sources only; prospective implementation must be frozen before outcome review. Independent acceptance pending; historical exporter separately tests direct-method authority."
+      },
+      "original_record": {
+        "id": "SOR-R1",
+        "native_principle": "Prices can change fundamentals through financing and credit feedback.",
+        "implementation_status": "Operational workflow adapted by this audit; not a master-authored formula",
+        "action": "Specify a causal feedback loop, participants and financing channel rather than merely label a market a bubble.",
+        "required_data": [
+          "Collateral/credit constraints",
+          "Issuance and refinancing dependence",
+          "Trend and market belief",
+          "Policy intervention capacity"
+        ],
+        "invalidation_test": "Reject the thesis if no price-to-fundamental channel or belief mechanism is evidenced.",
+        "source_ids": [
+          "SOR-03"
+        ],
+        "beginning_2026_eligibility": {
+          "cutoff": "2026-01-01T00:00:00Z",
+          "status": "eligible_pre2026_native_principle_with_audit_adaptation",
+          "eligible_source_ids": [
+            "SOR-03"
+          ],
+          "excluded_or_uncertain_source_ids": [],
+          "reason": "Use the dated eligible sources only; prospective implementation must be frozen before outcome review."
+        },
+        "evidence_anchors": [
+          {
+            "source_id": "SOR-03",
+            "url": "https://www.opensocietyfoundations.org/uploads/2b96bb8c-e2e1-4d88-9eea-badf16d0a2b8/george-soros-financial-markets-transcript.pdf",
+            "locator_type": "pdf_page_and_section",
+            "locator": "PDF pp.1-2: two cardinal principles; leverage pathways; negative and positive feedback",
+            "supporting_paraphrase": "Market pricing can alter fundamentals through leveraged financing and reinforcing feedback.",
+            "supports": "native_principle",
+            "does_not_authenticate": "Audit action, input checklist and invalidation workflow remain analyst-adapted.",
+            "pdf_pages_1_based": [
+              1,
+              2
+            ]
+          }
+        ],
+        "native_principle_attribution_status": "source-anchored principle, observation or firm disclosure; exact provenance recorded per anchor"
+      }
+    },
+    {
+      "rule_id": "SOR-R2",
+      "method_fact": "Market participants are fallible; trends test and can overturn their misconceptions.",
+      "method_fact_origin": "Native-principle paraphrase; action/thresholds are independent operationalization.",
+      "source_ids": [
+        "SOR-03",
+        "SOR-04",
+        "SOR-16"
+      ],
+      "claim_ids": [],
+      "our_design_questions": [
+        "Write a falsifiable hypothesis, anticipated test and revision trigger before committing size."
+      ],
+      "required_inputs": [
+        "Observable thesis mechanism",
+        "Competing explanation",
+        "What evidence would change the view"
+      ],
+      "falsifiers": [
+        "Reassess when the predicted reinforcing loop weakens or policy interrupts it."
+      ],
+      "limits": [
+        "Operational workflow adapted by this audit; not a master-authored formula"
+      ],
+      "historical_eligibility": {
+        "status": "candidate_eligible_pending_review",
+        "eligible_source_ids": [
+          "SOR-03",
+          "SOR-04",
+          "SOR-16"
+        ],
+        "reason": "Use the dated eligible sources only; prospective implementation must be frozen before outcome review. Independent acceptance pending; historical exporter separately tests direct-method authority."
+      },
+      "original_record": {
+        "id": "SOR-R2",
+        "native_principle": "Market participants are fallible; trends test and can overturn their misconceptions.",
+        "implementation_status": "Operational workflow adapted by this audit; not a master-authored formula",
+        "action": "Write a falsifiable hypothesis, anticipated test and revision trigger before committing size.",
+        "required_data": [
+          "Observable thesis mechanism",
+          "Competing explanation",
+          "What evidence would change the view"
+        ],
+        "invalidation_test": "Reassess when the predicted reinforcing loop weakens or policy interrupts it.",
+        "source_ids": [
+          "SOR-03",
+          "SOR-04",
+          "SOR-16"
+        ],
+        "beginning_2026_eligibility": {
+          "cutoff": "2026-01-01T00:00:00Z",
+          "status": "eligible_pre2026_native_principle_with_audit_adaptation",
+          "eligible_source_ids": [
+            "SOR-03",
+            "SOR-04",
+            "SOR-16"
+          ],
+          "excluded_or_uncertain_source_ids": [],
+          "reason": "Use the dated eligible sources only; prospective implementation must be frozen before outcome review."
+        },
+        "evidence_anchors": [
+          {
+            "source_id": "SOR-04",
+            "url": "https://www.opensocietyfoundations.org/uploads/9ae17912-2262-4646-8ffc-d01afc934c36/george-soros-general-theory-of-reflexivity-transcript.pdf",
+            "locator_type": "pdf_page_and_section",
+            "locator": "PDF p.4: core propositions defining fallibility and reflexivity",
+            "supporting_paraphrase": "Participants have partial, distorted views that can themselves change the situation.",
+            "supports": "native_principle",
+            "does_not_authenticate": "Audit action, input checklist and invalidation workflow remain analyst-adapted.",
+            "pdf_pages_1_based": [
+              4
+            ]
+          },
+          {
+            "source_id": "SOR-03",
+            "url": "https://www.opensocietyfoundations.org/uploads/2b96bb8c-e2e1-4d88-9eea-badf16d0a2b8/george-soros-financial-markets-transcript.pdf",
+            "locator_type": "pdf_page_and_section",
+            "locator": "PDF p.2: trend/misconception tests and eventual reversal; paragraph following model examples on unpredictability",
+            "supporting_paraphrase": "Reinforcing trends face tests; intervention can interrupt their sequence and timing.",
+            "supports": "native_principle",
+            "does_not_authenticate": "Audit action, input checklist and invalidation workflow remain analyst-adapted.",
+            "pdf_pages_1_based": [
+              2
+            ]
+          }
+        ],
+        "native_principle_attribution_status": "source-anchored principle, observation or firm disclosure; exact provenance recorded per anchor"
+      }
+    },
+    {
+      "rule_id": "SOR-R3",
+      "method_fact": "Direction can be right while oversized positions force bad liquidation.",
+      "method_fact_origin": "Native-principle paraphrase; action/thresholds are independent operationalization.",
+      "source_ids": [
+        "SOR-03"
+      ],
+      "claim_ids": [],
+      "our_design_questions": [
+        "Require path-risk, liquidity and counterparty survival tests before increasing conviction size."
+      ],
+      "required_inputs": [
+        "Stress volatility",
+        "Margin and collateral",
+        "Exit depth",
+        "Correlated positions"
+      ],
+      "falsifiers": [
+        "Reduce if financing survival is not robust, even when the scenario remains plausible."
+      ],
+      "limits": [
+        "Operational workflow adapted by this audit; not a master-authored formula"
+      ],
+      "historical_eligibility": {
+        "status": "candidate_eligible_pending_review",
+        "eligible_source_ids": [
+          "SOR-03"
+        ],
+        "reason": "Use the dated eligible sources only; prospective implementation must be frozen before outcome review. Independent acceptance pending; historical exporter separately tests direct-method authority."
+      },
+      "original_record": {
+        "id": "SOR-R3",
+        "native_principle": "Direction can be right while oversized positions force bad liquidation.",
+        "implementation_status": "Operational workflow adapted by this audit; not a master-authored formula",
+        "action": "Require path-risk, liquidity and counterparty survival tests before increasing conviction size.",
+        "required_data": [
+          "Stress volatility",
+          "Margin and collateral",
+          "Exit depth",
+          "Correlated positions"
+        ],
+        "invalidation_test": "Reduce if financing survival is not robust, even when the scenario remains plausible.",
+        "source_ids": [
+          "SOR-03"
+        ],
+        "beginning_2026_eligibility": {
+          "cutoff": "2026-01-01T00:00:00Z",
+          "status": "eligible_pre2026_native_principle_with_audit_adaptation",
+          "eligible_source_ids": [
+            "SOR-03"
+          ],
+          "excluded_or_uncertain_source_ids": [],
+          "reason": "Use the dated eligible sources only; prospective implementation must be frozen before outcome review."
+        },
+        "evidence_anchors": [
+          {
+            "source_id": "SOR-03",
+            "url": "https://www.opensocietyfoundations.org/uploads/2b96bb8c-e2e1-4d88-9eea-badf16d0a2b8/george-soros-financial-markets-transcript.pdf",
+            "locator_type": "pdf_page_and_section",
+            "locator": "PDF p.5: 2008 personal volatility/oversized-position admission and following liquidity-preference paragraph",
+            "supporting_paraphrase": "Correct direction did not prevent oversized positions and forced unfavorable reductions.",
+            "supports": "native_principle",
+            "does_not_authenticate": "Audit action, input checklist and invalidation workflow remain analyst-adapted.",
+            "pdf_pages_1_based": [
+              5
+            ]
+          }
+        ],
+        "native_principle_attribution_status": "source-anchored principle, observation or firm disclosure; exact provenance recorded per anchor"
+      }
+    },
+    {
+      "rule_id": "SOR-R4",
+      "method_fact": "A currency-policy contradiction may create a macro opportunity.",
+      "method_fact_origin": "Native-principle paraphrase; action/thresholds are independent operationalization.",
+      "source_ids": [
+        "EVT-GBP",
+        "DRU-01"
+      ],
+      "claim_ids": [],
+      "our_design_questions": [
+        "Map both economies, intervention credibility and feasible official responses; separate peg mechanics from market folklore."
+      ],
+      "required_inputs": [
+        "Growth/inflation divergence",
+        "Interest-rate and reserve policy",
+        "Political tolerance",
+        "Instrument carry and convexity"
+      ],
+      "falsifiers": [
+        "A credible response or changed policy objective can invalidate the proposed payoff."
+      ],
+      "limits": [
+        "Operational workflow adapted by this audit; not a master-authored formula"
+      ],
+      "historical_eligibility": {
+        "status": "candidate_eligible_pending_review",
+        "eligible_source_ids": [
+          "EVT-GBP",
+          "DRU-01"
+        ],
+        "reason": "Use the dated eligible sources only; prospective implementation must be frozen before outcome review. Independent acceptance pending; historical exporter separately tests direct-method authority."
+      },
+      "original_record": {
+        "id": "SOR-R4",
+        "native_principle": "A currency-policy contradiction may create a macro opportunity.",
+        "implementation_status": "Operational workflow adapted by this audit; not a master-authored formula",
+        "action": "Map both economies, intervention credibility and feasible official responses; separate peg mechanics from market folklore.",
+        "required_data": [
+          "Growth/inflation divergence",
+          "Interest-rate and reserve policy",
+          "Political tolerance",
+          "Instrument carry and convexity"
+        ],
+        "invalidation_test": "A credible response or changed policy objective can invalidate the proposed payoff.",
+        "source_ids": [
+          "EVT-GBP",
+          "DRU-01"
+        ],
+        "beginning_2026_eligibility": {
+          "cutoff": "2026-01-01T00:00:00Z",
+          "status": "eligible_pre2026_native_principle_with_audit_adaptation",
+          "eligible_source_ids": [
+            "EVT-GBP",
+            "DRU-01"
+          ],
+          "excluded_or_uncertain_source_ids": [],
+          "reason": "Use the dated eligible sources only; prospective implementation must be frozen before outcome review.",
+          "publication_provenance_source_ids": [
+            "DRU-PUB-01",
+            "DRU-PUB-02"
+          ],
+          "public_availability_verified_by": "2015-04-13, with March 30 posting independently reported; no URL-derived publication assumption"
+        },
+        "evidence_anchors": [
+          {
+            "source_id": "DRU-01",
+            "url": "https://covestreetcapital.com/wp-content/uploads/2015/03/Druckenmiller-_Speech.pdf",
+            "locator_type": "pdf_page_and_section",
+            "locator": "Transcript pp.21-22: UK housing/recession versus Germany/reunification and linked-currency discussion",
+            "supporting_paraphrase": "Druckenmiller describes divergent policy needs constrained by linked exchange rates.",
+            "supports": "case_derived_principle_not_an_authenticated_universal_Soros_rule",
+            "does_not_authenticate": "Audit action, input checklist and invalidation workflow remain analyst-adapted.",
+            "pdf_pages_1_based": [
+              21,
+              22
+            ]
+          },
+          {
+            "source_id": "EVT-GBP",
+            "url": "https://www.bankofengland.co.uk/-/media/boe/files/quarterly-bulletin/1992/operation-of-monetary-policy-qb-1992-q4.pdf",
+            "locator_type": "pdf_page_and_section",
+            "locator": "Bulletin printed pp.382-383 / PDF pp.1-2: Introduction and domestic-needs versus exchange-rate-commitment discussion",
+            "supporting_paraphrase": "BoE documents the conflict between domestic monetary objectives and exchange-rate defense.",
+            "supports": "independent_event_mechanism_corroboration",
+            "does_not_authenticate": "Audit action, input checklist and invalidation workflow remain analyst-adapted.",
+            "pdf_pages_1_based": [
+              1,
+              2
+            ]
+          }
+        ],
+        "native_principle_attribution_status": "case-derived audit synthesis"
+      }
+    },
+    {
+      "rule_id": "SOR-R5",
+      "method_fact": "Sovereign rescue and regulatory reform assumptions can fail.",
+      "method_fact_origin": "Native-principle paraphrase; action/thresholds are independent operationalization.",
+      "source_ids": [
+        "SOR-05",
+        "SOR-06",
+        "SOR-07"
+      ],
+      "claim_ids": [],
+      "our_design_questions": [
+        "Keep institutional reform, corporate equity and sovereign funding theses in separate risk records."
+      ],
+      "required_inputs": [
+        "Shareholder protections",
+        "Sovereign maturity/currency obligations",
+        "Bank collateral exposure",
+        "External-support commitment"
+      ],
+      "falsifiers": [
+        "Do not retain a reform trade merely because authorities might rescue a different debt instrument."
+      ],
+      "limits": [
+        "Operational workflow adapted by this audit; not a master-authored formula"
+      ],
+      "historical_eligibility": {
+        "status": "candidate_eligible_pending_review",
+        "eligible_source_ids": [
+          "SOR-05",
+          "SOR-06",
+          "SOR-07"
+        ],
+        "reason": "Use the dated eligible sources only; prospective implementation must be frozen before outcome review. Independent acceptance pending; historical exporter separately tests direct-method authority."
+      },
+      "original_record": {
+        "id": "SOR-R5",
+        "native_principle": "Sovereign rescue and regulatory reform assumptions can fail.",
+        "implementation_status": "Operational workflow adapted by this audit; not a master-authored formula",
+        "action": "Keep institutional reform, corporate equity and sovereign funding theses in separate risk records.",
+        "required_data": [
+          "Shareholder protections",
+          "Sovereign maturity/currency obligations",
+          "Bank collateral exposure",
+          "External-support commitment"
+        ],
+        "invalidation_test": "Do not retain a reform trade merely because authorities might rescue a different debt instrument.",
+        "source_ids": [
+          "SOR-05",
+          "SOR-06",
+          "SOR-07"
+        ],
+        "beginning_2026_eligibility": {
+          "cutoff": "2026-01-01T00:00:00Z",
+          "status": "eligible_pre2026_native_principle_with_audit_adaptation",
+          "eligible_source_ids": [
+            "SOR-05",
+            "SOR-06",
+            "SOR-07"
+          ],
+          "excluded_or_uncertain_source_ids": [],
+          "reason": "Use the dated eligible sources only; prospective implementation must be frozen before outcome review."
+        },
+        "evidence_anchors": [
+          {
+            "source_id": "SOR-05",
+            "url": "https://www.georgesoros.com/1997/08/21/my-investments-in-russia/",
+            "locator_type": "web_section_and_paragraph",
+            "locator": "Essay body paragraphs 1 and final paragraph: Nemtsov appointment and shareholder-rights expectations",
+            "supporting_paraphrase": "The invested reform thesis depended on improved legal protection for shareholders.",
+            "supports": "case_evidence_for_audit_derived_lesson",
+            "does_not_authenticate": "Audit action, input checklist and invalidation workflow remain analyst-adapted."
+          },
+          {
+            "source_id": "SOR-06",
+            "url": "https://www.georgesoros.com/1998/08/13/the-only-way-for-russia-to-end-its-crisis/",
+            "locator_type": "web_section_and_paragraph",
+            "locator": "Essay body paragraphs 3-4: budget program versus bank liquidity; margin-held debt and unavailable renewed credit",
+            "supporting_paraphrase": "Banking and fiscal requirements conflicted; assumed bond funding failed.",
+            "supports": "case_evidence_for_audit_derived_lesson",
+            "does_not_authenticate": "Audit action, input checklist and invalidation workflow remain analyst-adapted."
+          }
+        ],
+        "native_principle_attribution_status": "case-derived audit synthesis"
+      }
+    }
+  ],
+  "source_records": [
+    {
+      "id": "DRU-01",
+      "title": "Stanley Druckenmiller: Lost Tree Club speech",
+      "url": "https://covestreetcapital.com/wp-content/uploads/2015/03/Druckenmiller-_Speech.pdf",
+      "date": "2015-01-18",
+      "kind": "first-person speech transcript, third-party public host",
+      "access": "selected sections OCR / visual inspection",
+      "limits": "Scanned 48-page document. Selected pages 13-18, 21-23 and 38-40 checked via OCR or direct image inspection. No independently authenticated fund ledger. SHA256 5759ffd62681f0a28ee0fa02009b5173ce9c67f23d99ea411ef400c2f80a51d0.",
+      "locator": "Transcript pp.21-22: UK housing/recession versus Germany/reunification and linked-currency discussion | Transcript p.16 last paragraph continuing onto p.17 first paragraph: mentor’s central-bank/liquidity lesson | Transcript p.16: first of mentor’s two lessons, the 18-month forward situation | Transcript pp.13-14: concentration discussion and rare opportunity paragraph | Transcript pp.39-40: January 2000 exit, frustration at others’ gains, emotional re-entry and admission",
+      "retrieved_at": "2026-10-13",
+      "source_date_semantics": "The date field may describe an original event/report. Use publication_visibility below for temporal decision-packet eligibility.",
+      "publication_visibility": {
+        "original_public_event_date": "2015-01-18",
+        "original_publication_or_filing_date": null,
+        "latest_pre2026_bound": "2015-04-13",
+        "date_precision": "directly corroborated public-availability upper bound",
+        "reported_initial_posting_date": "2015-03-30",
+        "reported_posting_date_source_ids": [
+          "DRU-PUB-01"
+        ],
+        "independent_public_before_cutoff_source_ids": [
+          "DRU-PUB-02"
+        ],
+        "basis": "GitHub records a public text transcription created April 13, 2015; relevant passages match the reviewed scan. A contemporaneous April 13 report independently states Cove Street posting March 30. The /2015/03/ URL is no longer used as publication proof.",
+        "eligibility_before_2026": "eligible_public_availability_corroborated_original_content",
+        "provenance_caveat": "First-person 2015 speech via third-party transcript. No immutable 2015 snapshot of the exact currently downloaded PDF bytes obtained; preserved 2026 download hash is a current-content integrity check, not historical byte identity."
+      }
+    },
+    {
+      "id": "EVT-GBP",
+      "title": "Bank of England: Operation of monetary policy, 1992 Q4 Bulletin",
+      "url": "https://www.bankofengland.co.uk/-/media/boe/files/quarterly-bulletin/1992/operation-of-monetary-policy-qb-1992-q4.pdf",
+      "date": "1992-12-01; reviews 1992-Q3",
+      "kind": "central-bank primary",
+      "access": "inspected relevant sterling chronology",
+      "limits": "Event/policy account, not fund ledger. Attributed Schlesinger comments were subsequently denied.",
+      "locator": "Bulletin printed pp.382-383 / PDF pp.1-2: Introduction and domestic-needs versus exchange-rate-commitment discussion",
+      "retrieved_at": "2026-10-13",
+      "source_date_semantics": "The date field may describe an original event/report. Use publication_visibility below for temporal decision-packet eligibility.",
+      "publication_visibility": {
+        "original_publication_or_filing_date": "1992-12-01",
+        "date_precision": "day",
+        "public_republication_date": "unknown where current author/firm page is a republication",
+        "eligibility_before_2026": "eligible_dated_original_content",
+        "provenance_caveat": "A dated original first-person source reproduced on a current host is not an immutable archive of every historical version."
+      }
+    },
+    {
+      "id": "SOR-03",
+      "title": "George Soros: Financial Markets, CEU lecture transcript",
+      "url": "https://www.opensocietyfoundations.org/uploads/2b96bb8c-e2e1-4d88-9eea-badf16d0a2b8/george-soros-financial-markets-transcript.pdf",
+      "date": "2009-10-27",
+      "kind": "original public speech transcript on foundation site",
+      "access": "inspected",
+      "limits": "Includes retrospective crisis/trading examples, not a pre-2008 letter.",
+      "locator": "PDF pp.1-2: two cardinal principles; leverage pathways; negative and positive feedback | PDF p.2: trend/misconception tests and eventual reversal; paragraph following model examples on unpredictability | PDF p.5: 2008 personal volatility/oversized-position admission and following liquidity-preference paragraph",
+      "retrieved_at": "2026-10-13",
+      "source_date_semantics": "The date field may describe an original event/report. Use publication_visibility below for temporal decision-packet eligibility.",
+      "publication_visibility": {
+        "original_public_event_date": "2009-10-27",
+        "original_publication_or_filing_date": null,
+        "latest_pre2026_bound": "2012-12-31",
+        "date_precision": "lecture day / PDF copyright year",
+        "basis": "Original public lecture dated 2009; inspected OSF transcript bears 2012 copyright. Do not equate speech date with first publication of this PDF edition.",
+        "eligibility_before_2026": "eligible_bounded_original_content"
+      }
+    },
+    {
+      "id": "SOR-04",
+      "title": "George Soros: General Theory of Reflexivity, CEU transcript",
+      "url": "https://www.opensocietyfoundations.org/uploads/9ae17912-2262-4646-8ffc-d01afc934c36/george-soros-general-theory-of-reflexivity-transcript.pdf",
+      "date": "2009-10-26",
+      "kind": "original public speech transcript on foundation site",
+      "access": "inspected selections",
+      "limits": "General epistemology is not itself an executable investment system.",
+      "locator": "PDF p.4: core propositions defining fallibility and reflexivity",
+      "retrieved_at": "2026-10-13",
+      "source_date_semantics": "The date field may describe an original event/report. Use publication_visibility below for temporal decision-packet eligibility.",
+      "publication_visibility": {
+        "original_public_event_date": "2009-10-26",
+        "original_publication_or_filing_date": null,
+        "latest_pre2026_bound": "2012-12-31",
+        "date_precision": "lecture day / PDF copyright year",
+        "basis": "Original public lecture dated 2009; inspected OSF transcript bears 2012 copyright. Do not equate speech date with first publication of this PDF edition.",
+        "eligibility_before_2026": "eligible_bounded_original_content"
+      }
+    },
+    {
+      "id": "SOR-05",
+      "title": "George Soros: My Investments in Russia",
+      "url": "https://www.georgesoros.com/1997/08/21/my-investments-in-russia/",
+      "date": "1997-08-21",
+      "kind": "own-site republication of contemporary Moscow News essay",
+      "access": "inspected",
+      "limits": "POST-entry but PRE-crisis. Apparent erroneous $980 billion telecom amount excluded, not silently corrected.",
+      "locator": "Essay body paragraphs 1 and final paragraph: Nemtsov appointment and shareholder-rights expectations",
+      "retrieved_at": "2026-10-13",
+      "source_date_semantics": "The date field may describe an original event/report. Use publication_visibility below for temporal decision-packet eligibility.",
+      "publication_visibility": {
+        "original_publication_or_filing_date": "1997-08-21",
+        "date_precision": "day",
+        "public_republication_date": "unknown where current author/firm page is a republication",
+        "eligibility_before_2026": "eligible_dated_original_content",
+        "provenance_caveat": "A dated original first-person source reproduced on a current host is not an immutable archive of every historical version."
+      }
+    },
+    {
+      "id": "SOR-06",
+      "title": "George Soros: The Only Way for Russia to End Its Crisis",
+      "url": "https://www.georgesoros.com/1998/08/13/the-only-way-for-russia-to-end-its-crisis/",
+      "date": "1998-08-13",
+      "kind": "own-site republication of contemporary FT essay",
+      "access": "inspected",
+      "limits": "Policy/rescue proposal during crisis, not a trade instruction or proof of an exit.",
+      "locator": "Essay body paragraphs 3-4: budget program versus bank liquidity; margin-held debt and unavailable renewed credit",
+      "retrieved_at": "2026-10-13",
+      "source_date_semantics": "The date field may describe an original event/report. Use publication_visibility below for temporal decision-packet eligibility.",
+      "publication_visibility": {
+        "original_publication_or_filing_date": "1998-08-13",
+        "date_precision": "day",
+        "public_republication_date": "unknown where current author/firm page is a republication",
+        "eligibility_before_2026": "eligible_dated_original_content",
+        "provenance_caveat": "A dated original first-person source reproduced on a current host is not an immutable archive of every historical version."
+      }
+    },
+    {
+      "id": "SOR-07",
+      "title": "IMF Survey: Russian authorities August 17 statement",
+      "url": "https://www.imf.org/external/pubs/ft/survey/pdf/083198.pdf",
+      "date": "1998-08-31; reproduces 1998-08-17 statement",
+      "kind": "institutional primary event document",
+      "access": "selected extract inspected",
+      "limits": "Documents policy event, not Quantum positions or P&L.",
+      "locator": "",
+      "retrieved_at": "2026-10-13",
+      "source_date_semantics": "The date field may describe an original event/report. Use publication_visibility below for temporal decision-packet eligibility.",
+      "publication_visibility": {
+        "original_publication_or_filing_date": "1998-08-31",
+        "date_precision": "day",
+        "public_republication_date": "unknown where current author/firm page is a republication",
+        "eligibility_before_2026": "eligible_dated_original_content",
+        "provenance_caveat": "A dated original first-person source reproduced on a current host is not an immutable archive of every historical version."
+      }
+    },
+    {
+      "id": "SOR-16",
+      "title": "George Soros: Crisis of Global Capitalism, original chapter excerpt",
+      "url": "https://www.georgesoros.com/wp-content/uploads/2017/10/the_crisis_of_global_capitalism-chap-1-2017_10_05.pdf",
+      "date": "1998 book; posted 2017",
+      "kind": "author primary book excerpt",
+      "access": "chapter excerpt inspected",
+      "limits": "Only chapter excerpt, not full book.",
+      "locator": "",
+      "retrieved_at": "2026-10-13",
+      "source_date_semantics": "The date field may describe an original event/report. Use publication_visibility below for temporal decision-packet eligibility.",
+      "publication_visibility": {
+        "original_publication_or_filing_date": null,
+        "latest_pre2026_bound": "2017-10-31",
+        "date_precision": "bounded year/month",
+        "basis": "Original 1998 chapter excerpt posted under October 2017 author-site path.",
+        "eligibility_before_2026": "eligible_bounded_original_content"
+      }
+    }
+  ],
+  "evidence_artifacts": [
+    {
+      "path": "current-library/macro/dalio.json",
+      "sha256": "34193462000cc56fd4b625c8caf5bd9d6d765a1719228558484c4d18b42d63c5",
+      "content_kind": "current evidence including holdings/cases/limits; forbidden to historical workers"
+    },
+    {
+      "path": "current-library/macro/soros.json",
+      "sha256": "f23c1efc21e831ead2ed69477a13c51096d57bd3966d55f49a4fc8c950738284",
+      "content_kind": "current evidence including holdings/cases/limits; forbidden to historical workers"
+    },
+    {
+      "path": "current-library/macro/druckenmiller.json",
+      "sha256": "7a1fd864543722bb4f05876906a75151ed6fcf27dedf4e213aed7b15af6d8941",
+      "content_kind": "current evidence including holdings/cases/limits; forbidden to historical workers"
+    },
+    {
+      "path": "current-library/macro/sources.json",
+      "sha256": "9ade79aac0adaa40a968d16a735ab5bf68df627f8be3a3d2845e6fa99b17cf89",
+      "content_kind": "current evidence including holdings/cases/limits; forbidden to historical workers"
+    },
+    {
+      "path": "current-library/macro/common-audit-rules.json",
+      "sha256": "d04d3dff923788144937e8d025855368b0c6c26f7f8e3c3b27563f0275a8e573",
+      "content_kind": "current evidence including holdings/cases/limits; forbidden to historical workers"
+    },
+    {
+      "path": "current-library/macro/method-cutoff-2026.json",
+      "sha256": "da1a3c4060446ef95283fd1e103a58951fd444dc15d552dfa345262fd6b3bd44",
+      "content_kind": "current evidence including holdings/cases/limits; forbidden to historical workers"
+    },
+    {
+      "path": "current-library/macro/candidate-cases.json",
+      "sha256": "3ee31ff1c7603c31e300586da623c130eb2c7ea9ef232ec1a1d6a2f3c358d417",
+      "content_kind": "current evidence including holdings/cases/limits; forbidden to historical workers"
+    },
+    {
+      "path": "current-library/macro/rework1-tests.json",
+      "sha256": "9ac348c80adf247f6befd429db10adea23333c595fd325277fd93bd304acb4fd",
+      "content_kind": "current evidence including holdings/cases/limits; forbidden to historical workers"
+    }
+  ],
+  "corpus_limits": [
+    "{\"reviewed\": \"Official author books catalog, named original CEU transcripts, Russia and sterling own-site essays, foundation/firm role and Palantir statement, matched 2020 SEC row and institutional event documents.\", \"not_reviewed\": \"All Soros books/editions, full historical Quantum letters, 1985-86 journal, complete Russia securities ledger or modern full risk book.\", \"limits\": \"Cannot claim all investment thoughts or all current positions; original pretrade GBP memo not found within this bounded search.\"}"
+  ],
+  "normalization": {
+    "original_dossier_path": "macro/soros.json",
+    "original_dossier_sha256": "f23c1efc21e831ead2ed69477a13c51096d57bd3966d55f49a4fc8c950738284",
+    "field_mapping": {
+      "method_fact": "/rules/*/native_principle",
+      "our_design_questions": "/rules/*/action",
+      "falsifiers": "/rules/*/invalidation_test",
+      "sources": "/rules/*/source_ids joins macro/sources.json",
+      "historical_eligibility": "/rules/*/beginning_2026_eligibility; publication_visibility retained"
+    },
+    "raw_evidence_preserved": true,
+    "source_audit_receipt_sha256": "5f1e2b12aacfe6af28d6db21240aa98ce3a38c51c712cd1d55003dd5393083ff"
+  }
+}

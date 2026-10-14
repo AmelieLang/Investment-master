@@ -1,0 +1,82 @@
+[
+  {
+    "id": "G01",
+    "severity": "high",
+    "topic": "Security-level pre-trade reconstruction",
+    "status": "unresolved",
+    "evidence": "Public 2024 method precedes firm formation, but no authenticated security-specific initial trade memo or execution ledger located.",
+    "consequence": "No claim of verified pre-trade rationale or realized success for a selected security."
+  },
+  {
+    "id": "G02",
+    "severity": "high",
+    "topic": "Complete portfolio, leverage and financing",
+    "status": "unresolved",
+    "evidence": "13F excludes important assets and liabilities; option terms/delta and prime-broker agreements absent.",
+    "consequence": "No total NAV, gross/net leverage ratio or exact liquidation mechanism reproduced."
+  },
+  {
+    "id": "G03",
+    "severity": "high",
+    "topic": "July performance and present status",
+    "status": "bounded_self_report",
+    "evidence": "L07 is reproduced letter; interim net −67% MTD/+80% YTD are unaudited. Current status not established.",
+    "consequence": "No audited return, final July result, exact dollar loss or permanent shutdown claim."
+  },
+  {
+    "id": "G04",
+    "severity": "medium",
+    "topic": "Timing of website and essay revisions",
+    "status": "partly_resolved",
+    "evidence": "June 4 public essay release is established by original interview; PDF updated June 6. Firm method webpages have no publication date.",
+    "consequence": "TU website statements excluded from dated decision packets; no certification that every current essay sentence appeared on June 4."
+  },
+  {
+    "id": "G05",
+    "severity": "medium",
+    "topic": "Fund versus individual attribution",
+    "status": "bounded",
+    "evidence": "13F states SOLE for SALP; publisher identifies founder/CIO, but no trade decision authorship ledger.",
+    "consequence": "Holdings attributed to SALP; personal decisions only when speaker evidence establishes them."
+  },
+  {
+    "id": "G06",
+    "severity": "low",
+    "topic": "December 2025 value reconciliation",
+    "status": "disclosed",
+    "evidence": "Cover 5,516,758,344; table rows sum to 5,516,758,345, a one-dollar difference.",
+    "consequence": "Preserve raw data and cover denominator; classify rounding-scale discrepancy, no material portfolio error inferred."
+  },
+  {
+    "id": "G07",
+    "severity": "medium",
+    "topic": "AI thesis is not fair value",
+    "status": "structural_limit",
+    "evidence": "No published intrinsic-value, multiple, scenario-weight, position or sell-threshold specification found in scoped sources.",
+    "consequence": "Use as a thematic research/risk lens, not an executable target-price/return engine."
+  },
+  {
+    "id": "G08",
+    "severity": "medium",
+    "topic": "Outcome-selection bias",
+    "status": "disclosed",
+    "evidence": "July stress was known before candidate freeze; 2 selected cases are purposive. Success candidate is practice alignment with no proven P&L.",
+    "consequence": "No success rate, alpha, repeatability or established-master ranking."
+  },
+  {
+    "id": "G09",
+    "severity": "low",
+    "topic": "Q1 acceptance versus filing date",
+    "status": "resolved_fields_separate",
+    "evidence": "EDGAR accepted 2026-05-15 18:33:35; signed May 15; filing/effectiveness May 18.",
+    "consequence": "No inferred UTC timezone or late-filing accusation; conservative publication date May 18."
+  },
+  {
+    "id": "G10",
+    "severity": "medium",
+    "topic": "Book edition",
+    "status": "outside_this_dossier",
+    "evidence": "User confirmed Duan and Leopold, not a specific Duan book edition.",
+    "consequence": "Identity artifacts preserve edition uncertainty."
+  }
+]

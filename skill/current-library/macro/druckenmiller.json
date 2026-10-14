@@ -1,0 +1,672 @@
+{
+  "id": "stanley_druckenmiller_duquesne",
+  "module": "liquidity_macro_concentrated_equity",
+  "expertise": {
+    "strong": [
+      "Flexible global macro across liquid assets",
+      "Liquidity/policy sensitivity and change-oriented equity theses",
+      "Concentration, hypothesis reversal and portfolio sizing"
+    ],
+    "conditional": [
+      "Sector-specific equity research supported by specialist analysts",
+      "Chart/news-response signals with explicit era and competition review"
+    ],
+    "not_established": [
+      "Universal stock-screening formula",
+      "Current 13F as a complete macro book",
+      "Exact mechanical risk limits imported from anecdotes",
+      "Security-level distressed-credit expertise"
+    ]
+  },
+  "era_mandates": [
+    {
+      "era": "1981-2010",
+      "mandate": "Duquesne Capital historical hedge-fund period; quoted record is not independently audited here",
+      "source_ids": [
+        "DRU-03"
+      ]
+    },
+    {
+      "era": "Historical Soros/Quantum period ending 2000",
+      "mandate": "Portfolio-manager agency in sterling and tech cases; Soros sizing intervention does not erase Druckenmiller idea/execution role",
+      "source_ids": [
+        "DRU-01"
+      ]
+    },
+    {
+      "era": "Family-office era",
+      "mandate": "Duquesne Family Office manages own capital; SEC filer CIK 1536411 is not the historical Quantum risk book",
+      "source_ids": [
+        "DRU-03",
+        "DFO-22Q4"
+      ]
+    }
+  ],
+  "corpus_inventory": [
+    {
+      "title": "Lost Tree Club speech (2015)",
+      "status": "selected scanned transcript pages OCR inspected, third-party host",
+      "source_ids": [
+        "DRU-01"
+      ]
+    },
+    {
+      "title": "Talks at GS (2021)",
+      "status": "original institution-hosted interview selections inspected",
+      "source_ids": [
+        "DRU-02"
+      ]
+    },
+    {
+      "title": "Hard Lessons, Morgan Stanley (2026)",
+      "status": "original interview/transcript relevant passages inspected",
+      "source_ids": [
+        "DRU-03"
+      ]
+    },
+    {
+      "title": "Economic Club of New York 2019/2020; Sohn 2016; NBIM 2024",
+      "status": "public originals/mirrors inventoried; full recordings/slides not audited",
+      "source_ids": [
+        "DRU-04",
+        "DRU-05",
+        "DRU-06",
+        "DRU-07"
+      ]
+    },
+    {
+      "title": "Druckenmiller-authored investment monographs",
+      "status": "none authenticated in bounded search; do not invent a book corpus",
+      "source_ids": []
+    },
+    {
+      "title": "Jack Schwager, The New Market Wizards (1992)",
+      "status": "edited first-person interview known as relevant discovery lead; full original chapter not audited or treated as Druck-authored book",
+      "source_ids": []
+    }
+  ],
+  "rules": [
+    {
+      "id": "DRU-R1",
+      "native_principle": "Liquidity and policy matter to markets; earnings alone are insufficient.",
+      "implementation_status": "Operational workflow adapted by this audit; not a master-authored formula",
+      "action": "Separate broad liquidity regime from company-specific change; describe the pathway and what is already priced.",
+      "required_data": [
+        "Policy expectations",
+        "Funding/credit conditions",
+        "Valuation",
+        "Company earnings/change evidence"
+      ],
+      "invalidation_test": "Revise if the asset stops responding as the thesis predicts or policy transmission changes.",
+      "source_ids": [
+        "DRU-01"
+      ],
+      "beginning_2026_eligibility": {
+        "cutoff": "2026-01-01T00:00:00Z",
+        "status": "eligible_pre2026_native_principle_with_audit_adaptation",
+        "eligible_source_ids": [
+          "DRU-01"
+        ],
+        "excluded_or_uncertain_source_ids": [],
+        "reason": "Use the dated eligible sources only; prospective implementation must be frozen before outcome review.",
+        "publication_provenance_source_ids": [
+          "DRU-PUB-01",
+          "DRU-PUB-02"
+        ],
+        "public_availability_verified_by": "2015-04-13, with March 30 posting independently reported; no URL-derived publication assumption"
+      },
+      "evidence_anchors": [
+        {
+          "source_id": "DRU-01",
+          "url": "https://covestreetcapital.com/wp-content/uploads/2015/03/Druckenmiller-_Speech.pdf",
+          "locator_type": "pdf_page_and_section",
+          "locator": "Transcript p.16 last paragraph continuing onto p.17 first paragraph: mentor’s central-bank/liquidity lesson",
+          "supporting_paraphrase": "Broad-market conditions require attention to central banks and liquidity, beyond earnings.",
+          "supports": "native_principle",
+          "does_not_authenticate": "Audit action, input checklist and invalidation workflow remain analyst-adapted.",
+          "pdf_pages_1_based": [
+            16,
+            17
+          ]
+        }
+      ],
+      "native_principle_attribution_status": "source-anchored principle, observation or firm disclosure; exact provenance recorded per anchor"
+    },
+    {
+      "id": "DRU-R7",
+      "native_principle": "Look ahead to changing conditions rather than rely on present earnings.",
+      "implementation_status": "Operational workflow adapted by this audit; not a master-authored formula",
+      "action": "Describe how the business, liquidity and investor expectations might evolve over the relevant investment horizon.",
+      "required_data": [
+        "A dated forward-change thesis",
+        "Issuer operating evidence",
+        "Current valuation and implied expectations",
+        "Alternative future paths"
+      ],
+      "invalidation_test": "Do not equate a currently admired business with an attractive price. Reject a forward story lacking testable dated evidence.",
+      "source_ids": [
+        "DRU-01"
+      ],
+      "beginning_2026_eligibility": {
+        "cutoff": "2026-01-01T00:00:00Z",
+        "status": "eligible_pre2026_native_principle_with_audit_adaptation",
+        "eligible_source_ids": [
+          "DRU-01"
+        ],
+        "excluded_or_uncertain_source_ids": [],
+        "reason": "2015 speech p.16 visually inspected; not dependent on the 2026 interview.",
+        "publication_provenance_source_ids": [
+          "DRU-PUB-01",
+          "DRU-PUB-02"
+        ],
+        "public_availability_verified_by": "2015-04-13, with March 30 posting independently reported; no URL-derived publication assumption"
+      },
+      "evidence_anchors": [
+        {
+          "source_id": "DRU-01",
+          "url": "https://covestreetcapital.com/wp-content/uploads/2015/03/Druckenmiller-_Speech.pdf",
+          "locator_type": "pdf_page_and_section",
+          "locator": "Transcript p.16: first of mentor’s two lessons, the 18-month forward situation",
+          "supporting_paraphrase": "Present earnings are insufficient; envision how conditions will change ahead.",
+          "supports": "native_principle",
+          "does_not_authenticate": "Audit action, input checklist and invalidation workflow remain analyst-adapted.",
+          "pdf_pages_1_based": [
+            16
+          ]
+        }
+      ],
+      "native_principle_attribution_status": "source-anchored principle, observation or firm disclosure; exact provenance recorded per anchor"
+    },
+    {
+      "id": "DRU-R2",
+      "native_principle": "Concentrate when a rare opportunity is compelling, and change course quickly when wrong.",
+      "implementation_status": "Operational workflow adapted by this audit; not a master-authored formula",
+      "action": "Use concentration only after explicit capacity, liquidity and loss-budget approval; do not copy anecdotal notional ratios.",
+      "required_data": [
+        "Expected asymmetric payoff",
+        "Stress losses",
+        "Correlated exposures",
+        "Exit and funding capacity"
+      ],
+      "invalidation_test": "A thesis break or failed survival test outweighs original conviction.",
+      "source_ids": [
+        "DRU-01",
+        "DRU-02"
+      ],
+      "beginning_2026_eligibility": {
+        "cutoff": "2026-01-01T00:00:00Z",
+        "status": "eligible_pre2026_native_principle_with_audit_adaptation",
+        "eligible_source_ids": [
+          "DRU-01",
+          "DRU-02"
+        ],
+        "excluded_or_uncertain_source_ids": [],
+        "reason": "Use the dated eligible sources only; prospective implementation must be frozen before outcome review.",
+        "publication_provenance_source_ids": [
+          "DRU-PUB-01",
+          "DRU-PUB-02"
+        ],
+        "public_availability_verified_by": "2015-04-13, with March 30 posting independently reported; no URL-derived publication assumption"
+      },
+      "evidence_anchors": [
+        {
+          "source_id": "DRU-01",
+          "url": "https://covestreetcapital.com/wp-content/uploads/2015/03/Druckenmiller-_Speech.pdf",
+          "locator_type": "pdf_page_and_section",
+          "locator": "Transcript pp.13-14: concentration discussion and rare opportunity paragraph",
+          "supporting_paraphrase": "Rare, compelling opportunities motivate concentration with close attention to the position.",
+          "supports": "native_principle",
+          "does_not_authenticate": "Audit action, input checklist and invalidation workflow remain analyst-adapted.",
+          "pdf_pages_1_based": [
+            13,
+            14
+          ]
+        },
+        {
+          "source_id": "DRU-02",
+          "url": "https://www.goldmansachs.com/insights/talks-at-gs/stanley-druckenmiller.html",
+          "locator_type": "web_named_section",
+          "locator": "On his approach to risk management, both paragraphs; On his investment process, second paragraph",
+          "supporting_paraphrase": "Focused concentration and the ability to change direction are separate disciplines.",
+          "supports": "native_principle",
+          "does_not_authenticate": "Audit action, input checklist and invalidation workflow remain analyst-adapted."
+        }
+      ],
+      "native_principle_attribution_status": "source-anchored principle, observation or firm disclosure; exact provenance recorded per anchor"
+    },
+    {
+      "id": "DRU-R3",
+      "native_principle": "Flexible liquid asset classes create alternatives to dangerous markets.",
+      "implementation_status": "Operational workflow adapted by this audit; not a master-authored formula",
+      "action": "Compare cash, currency, rates and equities rather than forcing an equity recommendation.",
+      "required_data": [
+        "Available permitted instruments",
+        "Liquidity",
+        "Different regime sensitivities",
+        "Mandate constraints"
+      ],
+      "invalidation_test": "Abstain when no instrument meets required evidence and loss tolerance.",
+      "source_ids": [
+        "DRU-02"
+      ],
+      "beginning_2026_eligibility": {
+        "cutoff": "2026-01-01T00:00:00Z",
+        "status": "eligible_pre2026_native_principle_with_audit_adaptation",
+        "eligible_source_ids": [
+          "DRU-02"
+        ],
+        "excluded_or_uncertain_source_ids": [],
+        "reason": "Use the dated eligible sources only; prospective implementation must be frozen before outcome review."
+      },
+      "evidence_anchors": [
+        {
+          "source_id": "DRU-02",
+          "url": "https://www.goldmansachs.com/insights/talks-at-gs/stanley-druckenmiller.html",
+          "locator_type": "web_named_section",
+          "locator": "On his investment process, both paragraphs",
+          "supporting_paraphrase": "Liquid currencies and bonds enable flexibility and avoiding dangerous opportunities.",
+          "supports": "native_principle",
+          "does_not_authenticate": "Audit action, input checklist and invalidation workflow remain analyst-adapted."
+        }
+      ],
+      "native_principle_attribution_status": "source-anchored principle, observation or firm disclosure; exact provenance recorded per anchor"
+    },
+    {
+      "id": "DRU-R4",
+      "native_principle": "Specialist input can reveal an emerging change before the general investor recognizes it.",
+      "implementation_status": "Operational workflow adapted by this audit; not a master-authored formula",
+      "action": "Record the specialist evidence separately from the allocator's confidence and test it against issuer filings.",
+      "required_data": [
+        "Domain-expert mechanism",
+        "Primary operating data",
+        "Investor expectations",
+        "Reasons the thesis could be a fad"
+      ],
+      "invalidation_test": "No recommendation on enthusiasm alone; obtain security-specific corroboration.",
+      "source_ids": [
+        "DRU-03",
+        "DFO-22Q4"
+      ],
+      "beginning_2026_eligibility": {
+        "cutoff": "2026-01-01T00:00:00Z",
+        "status": "exclude_rule_from_beginning_2026_method_packet",
+        "eligible_source_ids": [
+          "DFO-22Q4"
+        ],
+        "excluded_or_uncertain_source_ids": [
+          "DRU-03"
+        ],
+        "reason": "Native proposition in this audit relies on the 2026 interview; historical SEC holdings alone do not supply its method."
+      },
+      "evidence_anchors": [
+        {
+          "source_id": "DRU-03",
+          "url": "https://www.morganstanley.com/insights/videos/hard-lessons/duquesne-stan-druckenmiller-iliana-bouzali",
+          "locator_type": "web_transcript_topic",
+          "locator": "AI-investment narrative: interviewer asks about recognizing the opportunity’s scale; partner and specialist-network discussion preceding the initial purchase",
+          "supporting_paraphrase": "Trusted specialist input helped him recognize an AI investment opportunity.",
+          "supports": "native_principle_post_cutoff_only",
+          "does_not_authenticate": "Audit action, input checklist and invalidation workflow remain analyst-adapted.",
+          "transcript_location_hint": "First transcript occurrence, paragraphs corresponding to rendered lines 247-255; locate by question, not unstable line numbers",
+          "public_date": "2026-02-27"
+        }
+      ],
+      "native_principle_attribution_status": "source-anchored principle, observation or firm disclosure; exact provenance recorded per anchor"
+    },
+    {
+      "id": "DRU-R5",
+      "native_principle": "Technical/news-response signals can lose usefulness as others learn them.",
+      "implementation_status": "Operational workflow adapted by this audit; not a master-authored formula",
+      "action": "Validate signal stability by era and implementation before including a chart-based rule.",
+      "required_data": [
+        "Out-of-sample signal history",
+        "Transaction costs",
+        "Crowding",
+        "Structural market changes"
+      ],
+      "invalidation_test": "Retire a rule when current evidence fails; personal percentage estimates are not calibration.",
+      "source_ids": [
+        "DRU-03"
+      ],
+      "beginning_2026_eligibility": {
+        "cutoff": "2026-01-01T00:00:00Z",
+        "status": "exclude_rule_from_beginning_2026_method_packet",
+        "eligible_source_ids": [],
+        "excluded_or_uncertain_source_ids": [
+          "DRU-03"
+        ],
+        "reason": "Native proposition in this audit relies on the 2026 interview; historical SEC holdings alone do not supply its method."
+      },
+      "evidence_anchors": [
+        {
+          "source_id": "DRU-03",
+          "url": "https://www.morganstanley.com/insights/videos/hard-lessons/duquesne-stan-druckenmiller-iliana-bouzali",
+          "locator_type": "web_transcript_topic",
+          "locator": "Interview discussion of reduced reliance on technical analysis and market reaction to news; the following three answer paragraphs",
+          "supporting_paraphrase": "He reports less reliance on technical/news-response signals as competitors adopted them.",
+          "supports": "native_principle_post_cutoff_only",
+          "does_not_authenticate": "Audit action, input checklist and invalidation workflow remain analyst-adapted.",
+          "transcript_location_hint": "First transcript occurrence, paragraphs corresponding to rendered lines 266-271",
+          "public_date": "2026-02-27"
+        }
+      ],
+      "native_principle_attribution_status": "source-anchored principle, observation or firm disclosure; exact provenance recorded per anchor"
+    },
+    {
+      "id": "DRU-R6",
+      "native_principle": "Knowing a rule does not prevent emotional re-entry.",
+      "implementation_status": "Operational workflow adapted by this audit; not a master-authored formula",
+      "action": "Require an independent re-entry checklist and cool-off review after a correct exit or missed rally.",
+      "required_data": [
+        "Fresh thesis and valuation",
+        "Position-size justification",
+        "What changed since exit",
+        "Peer-performance/FOMO check"
+      ],
+      "invalidation_test": "If the only change is peers making money, decline re-entry.",
+      "source_ids": [
+        "DRU-01",
+        "DRU-09"
+      ],
+      "beginning_2026_eligibility": {
+        "cutoff": "2026-01-01T00:00:00Z",
+        "status": "eligible_pre2026_native_principle_with_audit_adaptation",
+        "eligible_source_ids": [
+          "DRU-01",
+          "DRU-09"
+        ],
+        "excluded_or_uncertain_source_ids": [],
+        "reason": "Use the dated eligible sources only; prospective implementation must be frozen before outcome review.",
+        "publication_provenance_source_ids": [
+          "DRU-PUB-01",
+          "DRU-PUB-02"
+        ],
+        "public_availability_verified_by": "2015-04-13, with March 30 posting independently reported; no URL-derived publication assumption"
+      },
+      "evidence_anchors": [
+        {
+          "source_id": "DRU-01",
+          "url": "https://covestreetcapital.com/wp-content/uploads/2015/03/Druckenmiller-_Speech.pdf",
+          "locator_type": "pdf_page_and_section",
+          "locator": "Transcript pp.39-40: January 2000 exit, frustration at others’ gains, emotional re-entry and admission",
+          "supporting_paraphrase": "Emotional re-entry overrode discipline he says he already understood.",
+          "supports": "first_person_case_derived_principle",
+          "does_not_authenticate": "Audit action, input checklist and invalidation workflow remain analyst-adapted.",
+          "pdf_pages_1_based": [
+            39,
+            40
+          ]
+        }
+      ],
+      "native_principle_attribution_status": "case-derived audit synthesis"
+    }
+  ],
+  "holdings": {
+    "filer": "Duquesne Family Office LLC, CIK 1536411",
+    "retrieved_scope": "Five NVIDIA snapshots 2022-Q4, 2023-Q1/Q4, 2024-Q1/Q2; not every quarter or current portfolio.",
+    "nvidia_snapshots": [
+      {
+        "as_of": "2022-12-31",
+        "filed": "2023-02-14",
+        "common_shares": 582915,
+        "reported_raw_value": 85187198,
+        "source_ids": [
+          "DFO-22Q4"
+        ]
+      },
+      {
+        "as_of": "2023-03-31",
+        "filed": "2023-05-15",
+        "common_shares": 791475,
+        "reported_raw_value": 219848,
+        "source_ids": [
+          "DFO-23Q1"
+        ]
+      },
+      {
+        "as_of": "2023-12-31",
+        "filed": "2024-02-14",
+        "common_shares": 617494,
+        "reported_raw_value": 305795,
+        "call_underlying_shares": 489500,
+        "call_raw_value": 242410,
+        "source_ids": [
+          "DFO-23Q4"
+        ]
+      },
+      {
+        "as_of": "2024-03-31",
+        "filed": "2024-05-15",
+        "common_shares": 175943,
+        "reported_raw_value": 158975,
+        "source_ids": [
+          "DFO-24Q1"
+        ]
+      },
+      {
+        "as_of": "2024-06-30",
+        "filed": "2024-08-14",
+        "common_shares": 214060,
+        "reported_raw_value": 26445,
+        "split_basis": "post 10-for-1; equivalent to 21,406 pre-split shares",
+        "source_ids": [
+          "DFO-24Q2",
+          "NVDA-SPLIT"
+        ]
+      }
+    ],
+    "value_quality_warning": "Reported raw 2023/24 values appear thousand-scaled although the SEC renderer labels nearest dollar. Do not produce dollar allocations or portfolio weights from these rows until units and possible amendments are reconciled.",
+    "exposure_warning": "Call underlying share counts are separate; no strike/expiry/delta or short book. Split adjustment mandatory for June 2024.",
+    "source_ids": [
+      "COM-13F",
+      "NVDA-SPLIT"
+    ]
+  },
+  "crosschecks": [
+    {
+      "claim": "Nvidia AI enthusiasm in June 2023 is consistent with independently reported ownership.",
+      "statement_date": "2023-06-07",
+      "position_date": "2023-03-31 and 2023-12-31 snapshots",
+      "grade": "compatible",
+      "support": "SEC common share counts support continuing exposure around the public thesis; Q1 count exceeds Q4 2022.",
+      "limits": "Snapshots do not establish exact June exposure, entry date, price or claimed doubling.",
+      "source_ids": [
+        "DRU-08",
+        "DFO-22Q4",
+        "DFO-23Q1",
+        "DFO-23Q4"
+      ]
+    },
+    {
+      "claim": "Nvidia common shares increased from March to June 2024 because the raw count increased.",
+      "statement_date": "comparison assertion",
+      "position_date": "2024-03-31 versus 2024-06-30",
+      "grade": "conflict",
+      "support": "10-for-1 split means June 214,060 equals 21,406 pre-split shares, far below March 175,943.",
+      "limits": "Change in snapshot quantity does not give every execution or any derivative offsets.",
+      "source_ids": [
+        "DFO-24Q1",
+        "DFO-24Q2",
+        "NVDA-SPLIT"
+      ]
+    },
+    {
+      "claim": "The later phrase sold it proves a complete Nvidia exit by June 2024.",
+      "statement_date": "2026 retrospective interview",
+      "position_date": "2024-06-30",
+      "grade": "conflict",
+      "support": "June filing still reports 214,060 common shares. The phrase supports a major sale but not a verified zero position at that snapshot.",
+      "limits": "A complete sale and re-entry between dates is possible but unproved; no exact sale date asserted.",
+      "source_ids": [
+        "DRU-03",
+        "DFO-24Q2"
+      ]
+    },
+    {
+      "claim": "Long-horizon June 2023 Nvidia conviction guaranteed no subsequent trimming.",
+      "statement_date": "2023-06-07; admitted departure in 2026",
+      "position_date": "2023-12-31 to 2024-06-30",
+      "grade": "conflict",
+      "support": "He later calls the sale a departure from his stated plan; SEC confirms a major reduction.",
+      "limits": "Conflict at plan/behavior level, not proof the AI thesis was false. Options and full net risk remain unknown.",
+      "source_ids": [
+        "DRU-08",
+        "DRU-03",
+        "DFO-23Q4",
+        "DFO-24Q1",
+        "DFO-24Q2"
+      ]
+    },
+    {
+      "claim": "Equity 13F exposure proves Druck's portfolio was net bullish on all risk assets.",
+      "statement_date": "any macro interview",
+      "position_date": "any 13F",
+      "grade": "unknown",
+      "support": "Rates, currency, short exposures and funding are largely absent.",
+      "source_ids": [
+        "COM-13F"
+      ]
+    }
+  ],
+  "case_chains": [
+    {
+      "id": "DRU-C1",
+      "shared_case_id": "GBP-1992",
+      "case": "1992 sterling short, shared Quantum case",
+      "outcome_class": "major positive, selected retrospectively",
+      "canonical_case": "SOR-C1 in soros.json",
+      "decision_attribution": "Druckenmiller's 2015 account identifies his idea/initial short and Soros's sizing intervention. Credit is shared; do not count this as an independent additional macro case.",
+      "predecision_evidence": "No authenticated contemporaneous manager memorandum retrieved.",
+      "source_ids": [
+        "DRU-01",
+        "EVT-GBP",
+        "SOR-09"
+      ]
+    },
+    {
+      "id": "DRU-C2",
+      "case": "1999 internet short and 2000 emotional tech re-entry",
+      "outcome_class": "major adverse with two distinct episodes, selected retrospectively",
+      "selection_reason": "Famous failure revealing timing/path risk and emotional override, not a fabricated universal rule.",
+      "decision_window": "1999 early-year short; January to spring 2000 exit/re-entry",
+      "predecision_evidence": "No authenticated pretrade memo found. Contemporary May 2000 reporting retrospectively describes earlier private meetings through unnamed participants; it is not an original decision log.",
+      "predecision_sources": [
+        "DRU-09"
+      ],
+      "episode_1": {
+        "position_and_outcome": "Lost Tree account: approximately $200m internet short in 1999 produced approximately $600m loss. These are rounded self-reports, not audited net-year returns.",
+        "source_ids": [
+          "DRU-01"
+        ]
+      },
+      "episode_2": {
+        "position_and_outcome": "Same account: January 2000 tech exit followed by approximately $6bn spring re-entry and approximately $3bn loss over six weeks. Do not describe either amount as personal wealth loss.",
+        "source_ids": [
+          "DRU-01"
+        ]
+      },
+      "retrospective_motive": "First-person 2015 and original 2026 interview attribute re-entry to emotion after watching others profit, despite an earlier exit.",
+      "source_ids": [
+        "DRU-01",
+        "DRU-03"
+      ],
+      "contemporaneous_crosscheck": "May 2000 reproduced WSJ report independently describes tech losses and the 2000 departure, with provenance/fidelity limitations.",
+      "outcome_sources": [
+        "DRU-09"
+      ],
+      "competing_explanations": [
+        "Timing and margin risk in the earlier short",
+        "Rapid leadership/valuation change",
+        "Different PM books and the aggregate fund",
+        "Emotional re-entry is a later admission, not an independently dated motive"
+      ],
+      "audit_lesson": "Distinguish a too-early short from a later long-at-top error. A correct sale and known discipline do not protect against an unlogged emotional reversal.",
+      "missing": [
+        "Pre-entry letters/meeting minutes",
+        "Full security ledger and offsetting hedges",
+        "Audited episode attribution and manager authority limits"
+      ],
+      "confidence": {
+        "personal_admission": "moderate-high",
+        "rounded_episode_numbers": "moderate, hindsight",
+        "ex_ante_motive_document": "unknown"
+      }
+    },
+    {
+      "id": "DRU-C3",
+      "case": "2022-2024 Nvidia AI long",
+      "outcome_class": "supplementary major positive with premature-sale regret, selected retrospectively",
+      "selection_reason": "Independent SEC positions plus a public thesis during ownership; useful to constrain narrative versus actual holding behavior.",
+      "decision_window": "Late 2022 through mid-2024",
+      "predecision_evidence": "No authenticated pre-entry memorandum. The 2026 account describes learning from partner/AI specialists, buying shortly before ChatGPT, then scaling up; this timing and motive remain retrospective.",
+      "source_ids": [
+        "DRU-03"
+      ],
+      "actual_position_evidence": "Five SEC snapshots establish reported common-share holdings; Q4 2023 also reports calls separately. No inference about the whole risk book.",
+      "position_sources": [
+        "DFO-22Q4",
+        "DFO-23Q1",
+        "DFO-23Q4",
+        "DFO-24Q1",
+        "DFO-24Q2"
+      ],
+      "during_trade_public_view": "June 7, 2023: contemporary reporting records a bullish AI/Nvidia thesis and possible multi-year holding horizon.",
+      "during_trade_sources": [
+        "DRU-08"
+      ],
+      "outcome_evidence": "Original 2026 interview self-reports a roughly sixfold equity gain and regret at selling too soon. SEC snapshots independently confirm ownership and later sharp reduction, not realized returns.",
+      "outcome_sources": [
+        "DRU-03",
+        "DFO-24Q1",
+        "DFO-24Q2",
+        "NVDA-SPLIT"
+      ],
+      "behavior_limit": "June 2024 filing retains a common-share residual; no complete-exit claim. Snapshot counts must be split adjusted, and option risk cannot be inferred from underlying counts.",
+      "competing_explanations": [
+        "Market beta and AI sector rerating",
+        "Analyst-team input rather than personal engineering expertise",
+        "Position changes, options and execution prices are unobserved",
+        "A successful retrospective anecdote has winner-selection bias"
+      ],
+      "audit_lesson": "Connect the changing business thesis to dated issuer evidence, then separately test risk and exit behavior. A multi-year statement is a revisable plan, not a guarantee.",
+      "missing": [
+        "Pre-entry decision log",
+        "Exact entry/exit transactions",
+        "Independent realized P&L and full-risk attribution"
+      ],
+      "confidence": {
+        "reported_holdings": "high for reported quantities, subject to filing accuracy",
+        "realized_profit": "moderate-low, self-report only",
+        "ex_ante_entry_motive": "unknown"
+      }
+    }
+  ],
+  "bounded_search": {
+    "reviewed": "Named original 2021/2026 institutional interviews, selected Lost Tree transcript pages, five SEC Nvidia tables and split filing, June 2023 public-thesis report and qualified May 2000 press reproduction.",
+    "not_reviewed": "Every speech, full Lost Tree pages, original historical fund letters, complete Schwager interview, all DFO filings/amendments or full current macro book.",
+    "limits": "No authenticated authored monograph or original pretrade GBP/tech/Nvidia memo found within the bounded search; absence is not proof none exists."
+  },
+  "abstention_rules": [
+    "Do not copy extreme leverage or concentration anecdotes into an ordinary user portfolio.",
+    "Do not infer historical fund performance from a 13F replication backtest.",
+    "Do not use stale chart-pattern success rates as current validated rules.",
+    "Do not force an equity answer when the view concerns currency/rates/liquidity."
+  ],
+  "temporal_packet_policy": {
+    "cutoff": "2026-01-01T00:00:00Z",
+    "source_ledger": "sources.json publication_visibility",
+    "historical_vs_benchmark": "Case ex-ante date and benchmark method date are different tests. A 2018 book can inform a 2026 method but cannot become a 2007 contemporaneous source merely by describing 2007.",
+    "post_cutoff_audit_only": [
+      "DRU-03",
+      "COM-13F"
+    ],
+    "current_undated_pages": "Exclude their current-version content from historical decision packet unless a dated pre-cutoff replacement establishes the claim.",
+    "filings": "A quarter-end observation is usable only after its public filing timestamp, subject to amendments/confidential disclosure. Q4 2025 holdings filed in 2026 must not appear in beginning-2026 selection."
+  },
+  "rework_round": 1,
+  "review_defects_addressed": [
+    "MAC-R0-01",
+    "MAC-R0-02",
+    "MAC-R0-03"
+  ]
+}

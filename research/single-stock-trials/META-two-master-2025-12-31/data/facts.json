@@ -1,0 +1,4107 @@
+{
+  "schema": "meta-public-inputs.v1",
+  "ticker": "META",
+  "company": "Meta Platforms, Inc.",
+  "decision_cutoff": "2025-12-31T23:59:59Z",
+  "retrieved_at": "2026-10-14",
+  "purpose": "Identical factual public-data base for independently called Buffett and Chase Coleman methods; no investment opinion",
+  "sources": {
+    "S1": {
+      "title": "Meta FY2024 Form 10-K",
+      "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000017/meta-20241231.htm",
+      "publication_date": "2025-01-30",
+      "accepted_timestamp_sec_display": "2025-01-29 20:00:50",
+      "date_evidence_url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000017/0001326801-25-000017-index.html",
+      "primary": true,
+      "retrieved_at": "2026-10-14",
+      "admission_basis": "dated public primary source before cutoff"
+    },
+    "S2": {
+      "title": "Meta Q3 2025 earnings release",
+      "url": "https://investor.atmeta.com/investor-news/press-release-details/2025/Meta-Reports-Third-Quarter-2025-Results/default.aspx",
+      "publication_date": "2025-10-29",
+      "primary": true,
+      "retrieved_at": "2026-10-14",
+      "admission_basis": "dated public primary source before cutoff"
+    },
+    "S3": {
+      "title": "Meta Q3 2025 Form 10-Q",
+      "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047240/meta-20250930.htm",
+      "publication_date": "2025-10-30",
+      "accepted_timestamp_sec_display": "2025-10-29 18:50:26",
+      "date_evidence_url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047240/0001628280-25-047240-index.htm",
+      "primary": true,
+      "retrieved_at": "2026-10-14",
+      "admission_basis": "dated public primary source before cutoff"
+    },
+    "S4": {
+      "title": "Meta FY2022 Form 10-K (2020-2022 comparatives)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680123000013/meta-20221231.htm",
+      "publication_date": "2023-02-02",
+      "accepted_timestamp_sec_display": "2023-02-01 20:26:31",
+      "date_evidence_url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680123000013/0001326801-23-000013-index.html",
+      "primary": true,
+      "retrieved_at": "2026-10-14",
+      "admission_basis": "dated public primary source before cutoff"
+    },
+    "S5": {
+      "title": "Meta Q4 / FY2024 earnings release",
+      "url": "https://investor.atmeta.com/investor-news/press-release-details/2025/Meta-Reports-Fourth-Quarter-and-Full-Year-2024-Results/default.aspx",
+      "publication_date": "2025-01-29",
+      "primary": true,
+      "retrieved_at": "2026-10-14",
+      "admission_basis": "dated public primary source before cutoff"
+    },
+    "S6": {
+      "title": "Yahoo Finance META historical price table, UK / AU mirrors",
+      "url": "https://uk.finance.yahoo.com/quote/META/history/",
+      "corroborating_url": "https://au.finance.yahoo.com/quote/META/history/",
+      "publication_date": null,
+      "market_date": "2025-12-31",
+      "primary": false,
+      "availability_note": "Historical row retrieved from public search extracts on 2026-10-14. Raw OHLC close agrees across mirrors; full-page open failed. This is a reconstructed historical market observation, not proof of an archived 2025 web snapshot. Adjusted closes are deliberately excluded because later dividends change them.",
+      "retrieved_at": "2026-10-14",
+      "admission_basis": "dated historical market row, currently retrieved"
+    },
+    "S7": {
+      "title": "Meta November 3, 2025 financing Form 8-K",
+      "url": "https://www.sec.gov/Archives/edgar/data/1326801/000119312525262593/d75422d8k.htm",
+      "publication_date": "2025-11-03",
+      "primary": true,
+      "date_basis": "Dated SEC filing and completed-offering date in the document; filing-index page open failed.",
+      "retrieved_at": "2026-10-14",
+      "admission_basis": "dated public primary source before cutoff"
+    }
+  },
+  "periods": {
+    "FY2020": {
+      "start": "2020-01-01",
+      "end": "2020-12-31",
+      "scope": "annual duration"
+    },
+    "FY2021": {
+      "start": "2021-01-01",
+      "end": "2021-12-31",
+      "scope": "annual duration"
+    },
+    "FY2022": {
+      "start": "2022-01-01",
+      "end": "2022-12-31",
+      "scope": "annual duration"
+    },
+    "FY2023": {
+      "start": "2023-01-01",
+      "end": "2023-12-31",
+      "scope": "annual duration"
+    },
+    "FY2024": {
+      "start": "2024-01-01",
+      "end": "2024-12-31",
+      "scope": "annual duration"
+    },
+    "Q3_2024": {
+      "start": "2024-07-01",
+      "end": "2024-09-30",
+      "scope": "quarter duration"
+    },
+    "YTD9_2024": {
+      "start": "2024-01-01",
+      "end": "2024-09-30",
+      "scope": "nine-month duration"
+    },
+    "Q3_2025": {
+      "start": "2025-07-01",
+      "end": "2025-09-30",
+      "scope": "quarter duration"
+    },
+    "YTD9_2025": {
+      "start": "2025-01-01",
+      "end": "2025-09-30",
+      "scope": "nine-month duration"
+    },
+    "TTM_Q3_2025": {
+      "start": "2024-10-01",
+      "end": "2025-09-30",
+      "scope": "derived trailing twelve months; not FY2025"
+    },
+    "BS_2024": {
+      "date": "2024-12-31",
+      "scope": "balance-sheet point in time"
+    },
+    "BS_Q3_2025": {
+      "date": "2025-09-30",
+      "scope": "balance-sheet point in time"
+    },
+    "SHARES_2025_10_24": {
+      "date": "2025-10-24",
+      "scope": "actual shares outstanding cover-page observation"
+    },
+    "PRICE_2025_12_31": {
+      "date": "2025-12-31",
+      "scope": "Nasdaq regular-session raw close"
+    },
+    "EVENT_2025_11_03": {
+      "date": "2025-11-03",
+      "scope": "financing event"
+    },
+    "GUIDANCE_2025_10_29": {
+      "date": "2025-10-29",
+      "scope": "forecast publication; horizons specified in metrics"
+    }
+  },
+  "facts": [
+    {
+      "fact_id": "META.FY2020.revenue",
+      "ticker": "META",
+      "period_id": "FY2020",
+      "metric": "revenue",
+      "value": 85965,
+      "unit": "USD million",
+      "kind": "reported_fact",
+      "source_ids": [
+        "S4"
+      ],
+      "source_locator": "Statements of income, cash flows, and FCF reconciliation"
+    },
+    {
+      "fact_id": "META.FY2020.cost_of_revenue",
+      "ticker": "META",
+      "period_id": "FY2020",
+      "metric": "cost_of_revenue",
+      "value": 16692,
+      "unit": "USD million",
+      "kind": "reported_fact",
+      "source_ids": [
+        "S4"
+      ],
+      "source_locator": "Statements of income, cash flows, and FCF reconciliation"
+    },
+    {
+      "fact_id": "META.FY2020.operating_income",
+      "ticker": "META",
+      "period_id": "FY2020",
+      "metric": "operating_income",
+      "value": 32671,
+      "unit": "USD million",
+      "kind": "reported_fact",
+      "source_ids": [
+        "S4"
+      ],
+      "source_locator": "Statements of income, cash flows, and FCF reconciliation"
+    },
+    {
+      "fact_id": "META.FY2020.net_income_gaap",
+      "ticker": "META",
+      "period_id": "FY2020",
+      "metric": "net_income_gaap",
+      "value": 29146,
+      "unit": "USD million",
+      "kind": "reported_fact",
+      "source_ids": [
+        "S4"
+      ],
+      "source_locator": "Statements of income, cash flows, and FCF reconciliation"
+    },
+    {
+      "fact_id": "META.FY2020.cfo",
+      "ticker": "META",
+      "period_id": "FY2020",
+      "metric": "cfo",
+      "value": 38747,
+      "unit": "USD million",
+      "kind": "reported_fact",
+      "source_ids": [
+        "S4"
+      ],
+      "source_locator": "Statements of income, cash flows, and FCF reconciliation"
+    },
+    {
+      "fact_id": "META.FY2020.cash_ppe_outflow",
+      "ticker": "META",
+      "period_id": "FY2020",
+      "metric": "cash_ppe_outflow",
+      "value": 15115,
+      "unit": "USD million",
+      "kind": "reported_fact",
+      "source_ids": [
+        "S4"
+      ],
+      "source_locator": "Statements of income, cash flows, and FCF reconciliation",
+      "note": "Cash PPE outflow used in company FCF; 2020-2022 is NET purchases (gross purchases less disposal proceeds), as explicitly reconciled in FY2022 10-K."
+    },
+    {
+      "fact_id": "META.FY2020.finance_lease_principal",
+      "ticker": "META",
+      "period_id": "FY2020",
+      "metric": "finance_lease_principal",
+      "value": 604,
+      "unit": "USD million",
+      "kind": "reported_fact",
+      "source_ids": [
+        "S4"
+      ],
+      "source_locator": "Statements of income, cash flows, and FCF reconciliation"
+    },
+    {
+      "fact_id": "META.FY2020.company_fcf",
+      "ticker": "META",
+      "period_id": "FY2020",
+      "metric": "company_fcf",
+      "value": 23028,
+      "unit": "USD million",
+      "kind": "reported_fact",
+      "source_ids": [
+        "S4"
+      ],
+      "source_locator": "Statements of income, cash flows, and FCF reconciliation"
+    },
+    {
+      "fact_id": "META.FY2020.da",
+      "ticker": "META",
+      "period_id": "FY2020",
+      "metric": "da",
+      "value": 6862,
+      "unit": "USD million",
+      "kind": "reported_fact",
+      "source_ids": [
+        "S4"
+      ],
+      "source_locator": "Statements of income, cash flows, and FCF reconciliation"
+    },
+    {
+      "fact_id": "META.FY2020.sbc",
+      "ticker": "META",
+      "period_id": "FY2020",
+      "metric": "sbc",
+      "value": 6536,
+      "unit": "USD million",
+      "kind": "reported_fact",
+      "source_ids": [
+        "S4"
+      ],
+      "source_locator": "Statements of income, cash flows, and FCF reconciliation"
+    },
+    {
+      "fact_id": "META.FY2020.diluted_weighted_average_shares",
+      "ticker": "META",
+      "period_id": "FY2020",
+      "metric": "diluted_weighted_average_shares",
+      "value": 2888,
+      "unit": "shares million",
+      "kind": "reported_fact",
+      "source_ids": [
+        "S4"
+      ],
+      "source_locator": "Statements of income, cash flows, and FCF reconciliation"
+    },
+    {
+      "fact_id": "META.FY2020.diluted_eps",
+      "ticker": "META",
+      "period_id": "FY2020",
+      "metric": "diluted_eps",
+      "value": 10.09,
+      "unit": "USD/share",
+      "kind": "reported_fact",
+      "source_ids": [
+        "S4"
+      ],
+      "source_locator": "Statements of income, cash flows, and FCF reconciliation"
+    },
+    {
+      "fact_id": "META.FY2021.revenue",
+      "ticker": "META",
+      "period_id": "FY2021",
+      "metric": "revenue",
+      "value": 117929,
+      "unit": "USD million",
+      "kind": "reported_fact",
+      "source_ids": [
+        "S4"
+      ],
+      "source_locator": "Statements of income, cash flows, and FCF reconciliation"
+    },
+    {
+      "fact_id": "META.FY2021.cost_of_revenue",
+      "ticker": "META",
+      "period_id": "FY2021",
+      "metric": "cost_of_revenue",
+      "value": 22649,
+      "unit": "USD million",
+      "kind": "reported_fact",
+      "source_ids": [
+        "S4"
+      ],
+      "source_locator": "Statements of income, cash flows, and FCF reconciliation"
+    },
+    {
+      "fact_id": "META.FY2021.operating_income",
+      "ticker": "META",
+      "period_id": "FY2021",
+      "metric": "operating_income",
+      "value": 46753,
+      "unit": "USD million",
+      "kind": "reported_fact",
+      "source_ids": [
+        "S4"
+      ],
+      "source_locator": "Statements of income, cash flows, and FCF reconciliation"
+    },
+    {
+      "fact_id": "META.FY2021.net_income_gaap",
+      "ticker": "META",
+      "period_id": "FY2021",
+      "metric": "net_income_gaap",
+      "value": 39370,
+      "unit": "USD million",
+      "kind": "reported_fact",
+      "source_ids": [
+        "S4"
+      ],
+      "source_locator": "Statements of income, cash flows, and FCF reconciliation"
+    },
+    {
+      "fact_id": "META.FY2021.cfo",
+      "ticker": "META",
+      "period_id": "FY2021",
+      "metric": "cfo",
+      "value": 57683,
+      "unit": "USD million",
+      "kind": "reported_fact",
+      "source_ids": [
+        "S4"
+      ],
+      "source_locator": "Statements of income, cash flows, and FCF reconciliation"
+    },
+    {
+      "fact_id": "META.FY2021.cash_ppe_outflow",
+      "ticker": "META",
+      "period_id": "FY2021",
+      "metric": "cash_ppe_outflow",
+      "value": 18567,
+      "unit": "USD million",
+      "kind": "reported_fact",
+      "source_ids": [
+        "S4"
+      ],
+      "source_locator": "Statements of income, cash flows, and FCF reconciliation",
+      "note": "Cash PPE outflow used in company FCF; 2020-2022 is NET purchases (gross purchases less disposal proceeds), as explicitly reconciled in FY2022 10-K."
+    },
+    {
+      "fact_id": "META.FY2021.finance_lease_principal",
+      "ticker": "META",
+      "period_id": "FY2021",
+      "metric": "finance_lease_principal",
+      "value": 677,
+      "unit": "USD million",
+      "kind": "reported_fact",
+      "source_ids": [
+        "S4"
+      ],
+      "source_locator": "Statements of income, cash flows, and FCF reconciliation"
+    },
+    {
+      "fact_id": "META.FY2021.company_fcf",
+      "ticker": "META",
+      "period_id": "FY2021",
+      "metric": "company_fcf",
+      "value": 38439,
+      "unit": "USD million",
+      "kind": "reported_fact",
+      "source_ids": [
+        "S4"
+      ],
+      "source_locator": "Statements of income, cash flows, and FCF reconciliation"
+    },
+    {
+      "fact_id": "META.FY2021.da",
+      "ticker": "META",
+      "period_id": "FY2021",
+      "metric": "da",
+      "value": 7967,
+      "unit": "USD million",
+      "kind": "reported_fact",
+      "source_ids": [
+        "S4"
+      ],
+      "source_locator": "Statements of income, cash flows, and FCF reconciliation"
+    },
+    {
+      "fact_id": "META.FY2021.sbc",
+      "ticker": "META",
+      "period_id": "FY2021",
+      "metric": "sbc",
+      "value": 9164,
+      "unit": "USD million",
+      "kind": "reported_fact",
+      "source_ids": [
+        "S4"
+      ],
+      "source_locator": "Statements of income, cash flows, and FCF reconciliation"
+    },
+    {
+      "fact_id": "META.FY2021.diluted_weighted_average_shares",
+      "ticker": "META",
+      "period_id": "FY2021",
+      "metric": "diluted_weighted_average_shares",
+      "value": 2859,
+      "unit": "shares million",
+      "kind": "reported_fact",
+      "source_ids": [
+        "S4"
+      ],
+      "source_locator": "Statements of income, cash flows, and FCF reconciliation"
+    },
+    {
+      "fact_id": "META.FY2021.diluted_eps",
+      "ticker": "META",
+      "period_id": "FY2021",
+      "metric": "diluted_eps",
+      "value": 13.77,
+      "unit": "USD/share",
+      "kind": "reported_fact",
+      "source_ids": [
+        "S4"
+      ],
+      "source_locator": "Statements of income, cash flows, and FCF reconciliation"
+    },
+    {
+      "fact_id": "META.FY2022.revenue",
+      "ticker": "META",
+      "period_id": "FY2022",
+      "metric": "revenue",
+      "value": 116609,
+      "unit": "USD million",
+      "kind": "reported_fact",
+      "source_ids": [
+        "S4"
+      ],
+      "source_locator": "Statements of income, cash flows, and FCF reconciliation"
+    },
+    {
+      "fact_id": "META.FY2022.cost_of_revenue",
+      "ticker": "META",
+      "period_id": "FY2022",
+      "metric": "cost_of_revenue",
+      "value": 25249,
+      "unit": "USD million",
+      "kind": "reported_fact",
+      "source_ids": [
+        "S4"
+      ],
+      "source_locator": "Statements of income, cash flows, and FCF reconciliation"
+    },
+    {
+      "fact_id": "META.FY2022.operating_income",
+      "ticker": "META",
+      "period_id": "FY2022",
+      "metric": "operating_income",
+      "value": 28944,
+      "unit": "USD million",
+      "kind": "reported_fact",
+      "source_ids": [
+        "S4"
+      ],
+      "source_locator": "Statements of income, cash flows, and FCF reconciliation"
+    },
+    {
+      "fact_id": "META.FY2022.net_income_gaap",
+      "ticker": "META",
+      "period_id": "FY2022",
+      "metric": "net_income_gaap",
+      "value": 23200,
+      "unit": "USD million",
+      "kind": "reported_fact",
+      "source_ids": [
+        "S4"
+      ],
+      "source_locator": "Statements of income, cash flows, and FCF reconciliation"
+    },
+    {
+      "fact_id": "META.FY2022.cfo",
+      "ticker": "META",
+      "period_id": "FY2022",
+      "metric": "cfo",
+      "value": 50475,
+      "unit": "USD million",
+      "kind": "reported_fact",
+      "source_ids": [
+        "S4"
+      ],
+      "source_locator": "Statements of income, cash flows, and FCF reconciliation"
+    },
+    {
+      "fact_id": "META.FY2022.cash_ppe_outflow",
+      "ticker": "META",
+      "period_id": "FY2022",
+      "metric": "cash_ppe_outflow",
+      "value": 31186,
+      "unit": "USD million",
+      "kind": "reported_fact",
+      "source_ids": [
+        "S4"
+      ],
+      "source_locator": "Statements of income, cash flows, and FCF reconciliation",
+      "note": "Cash PPE outflow used in company FCF; 2020-2022 is NET purchases (gross purchases less disposal proceeds), as explicitly reconciled in FY2022 10-K."
+    },
+    {
+      "fact_id": "META.FY2022.finance_lease_principal",
+      "ticker": "META",
+      "period_id": "FY2022",
+      "metric": "finance_lease_principal",
+      "value": 850,
+      "unit": "USD million",
+      "kind": "reported_fact",
+      "source_ids": [
+        "S4"
+      ],
+      "source_locator": "Statements of income, cash flows, and FCF reconciliation"
+    },
+    {
+      "fact_id": "META.FY2022.company_fcf",
+      "ticker": "META",
+      "period_id": "FY2022",
+      "metric": "company_fcf",
+      "value": 18439,
+      "unit": "USD million",
+      "kind": "reported_fact",
+      "source_ids": [
+        "S4"
+      ],
+      "source_locator": "Statements of income, cash flows, and FCF reconciliation"
+    },
+    {
+      "fact_id": "META.FY2022.da",
+      "ticker": "META",
+      "period_id": "FY2022",
+      "metric": "da",
+      "value": 8686,
+      "unit": "USD million",
+      "kind": "reported_fact",
+      "source_ids": [
+        "S4"
+      ],
+      "source_locator": "Statements of income, cash flows, and FCF reconciliation"
+    },
+    {
+      "fact_id": "META.FY2022.sbc",
+      "ticker": "META",
+      "period_id": "FY2022",
+      "metric": "sbc",
+      "value": 11992,
+      "unit": "USD million",
+      "kind": "reported_fact",
+      "source_ids": [
+        "S4"
+      ],
+      "source_locator": "Statements of income, cash flows, and FCF reconciliation"
+    },
+    {
+      "fact_id": "META.FY2022.diluted_weighted_average_shares",
+      "ticker": "META",
+      "period_id": "FY2022",
+      "metric": "diluted_weighted_average_shares",
+      "value": 2702,
+      "unit": "shares million",
+      "kind": "reported_fact",
+      "source_ids": [
+        "S4"
+      ],
+      "source_locator": "Statements of income, cash flows, and FCF reconciliation"
+    },
+    {
+      "fact_id": "META.FY2022.diluted_eps",
+      "ticker": "META",
+      "period_id": "FY2022",
+      "metric": "diluted_eps",
+      "value": 8.59,
+      "unit": "USD/share",
+      "kind": "reported_fact",
+      "source_ids": [
+        "S4"
+      ],
+      "source_locator": "Statements of income, cash flows, and FCF reconciliation"
+    },
+    {
+      "fact_id": "META.FY2023.revenue",
+      "ticker": "META",
+      "period_id": "FY2023",
+      "metric": "revenue",
+      "value": 134902,
+      "unit": "USD million",
+      "kind": "reported_fact",
+      "source_ids": [
+        "S1"
+      ],
+      "source_locator": "Statements of income p87; cash flows p90"
+    },
+    {
+      "fact_id": "META.FY2023.cost_of_revenue",
+      "ticker": "META",
+      "period_id": "FY2023",
+      "metric": "cost_of_revenue",
+      "value": 25959,
+      "unit": "USD million",
+      "kind": "reported_fact",
+      "source_ids": [
+        "S1"
+      ],
+      "source_locator": "Statements of income p87; cash flows p90"
+    },
+    {
+      "fact_id": "META.FY2023.operating_income",
+      "ticker": "META",
+      "period_id": "FY2023",
+      "metric": "operating_income",
+      "value": 46751,
+      "unit": "USD million",
+      "kind": "reported_fact",
+      "source_ids": [
+        "S1"
+      ],
+      "source_locator": "Statements of income p87; cash flows p90"
+    },
+    {
+      "fact_id": "META.FY2023.net_income_gaap",
+      "ticker": "META",
+      "period_id": "FY2023",
+      "metric": "net_income_gaap",
+      "value": 39098,
+      "unit": "USD million",
+      "kind": "reported_fact",
+      "source_ids": [
+        "S1"
+      ],
+      "source_locator": "Statements of income p87; cash flows p90"
+    },
+    {
+      "fact_id": "META.FY2023.cfo",
+      "ticker": "META",
+      "period_id": "FY2023",
+      "metric": "cfo",
+      "value": 71113,
+      "unit": "USD million",
+      "kind": "reported_fact",
+      "source_ids": [
+        "S1"
+      ],
+      "source_locator": "Statements of income p87; cash flows p90"
+    },
+    {
+      "fact_id": "META.FY2023.cash_ppe_outflow",
+      "ticker": "META",
+      "period_id": "FY2023",
+      "metric": "cash_ppe_outflow",
+      "value": 27045,
+      "unit": "USD million",
+      "kind": "reported_fact",
+      "source_ids": [
+        "S1"
+      ],
+      "source_locator": "Statements of income p87; cash flows p90"
+    },
+    {
+      "fact_id": "META.FY2023.finance_lease_principal",
+      "ticker": "META",
+      "period_id": "FY2023",
+      "metric": "finance_lease_principal",
+      "value": 1058,
+      "unit": "USD million",
+      "kind": "reported_fact",
+      "source_ids": [
+        "S1"
+      ],
+      "source_locator": "Statements of income p87; cash flows p90"
+    },
+    {
+      "fact_id": "META.FY2023.company_fcf",
+      "ticker": "META",
+      "period_id": "FY2023",
+      "metric": "company_fcf",
+      "value": 43010,
+      "unit": "USD million",
+      "kind": "reported_fact",
+      "source_ids": [
+        "S5"
+      ],
+      "source_locator": "GAAP to non-GAAP FCF reconciliation"
+    },
+    {
+      "fact_id": "META.FY2023.da",
+      "ticker": "META",
+      "period_id": "FY2023",
+      "metric": "da",
+      "value": 11178,
+      "unit": "USD million",
+      "kind": "reported_fact",
+      "source_ids": [
+        "S1"
+      ],
+      "source_locator": "Statements of income p87; cash flows p90"
+    },
+    {
+      "fact_id": "META.FY2023.sbc",
+      "ticker": "META",
+      "period_id": "FY2023",
+      "metric": "sbc",
+      "value": 14027,
+      "unit": "USD million",
+      "kind": "reported_fact",
+      "source_ids": [
+        "S1"
+      ],
+      "source_locator": "Statements of income p87; cash flows p90"
+    },
+    {
+      "fact_id": "META.FY2023.diluted_weighted_average_shares",
+      "ticker": "META",
+      "period_id": "FY2023",
+      "metric": "diluted_weighted_average_shares",
+      "value": 2629,
+      "unit": "shares million",
+      "kind": "reported_fact",
+      "source_ids": [
+        "S1"
+      ],
+      "source_locator": "Statements of income p87; cash flows p90"
+    },
+    {
+      "fact_id": "META.FY2023.diluted_eps",
+      "ticker": "META",
+      "period_id": "FY2023",
+      "metric": "diluted_eps",
+      "value": 14.87,
+      "unit": "USD/share",
+      "kind": "reported_fact",
+      "source_ids": [
+        "S1"
+      ],
+      "source_locator": "Statements of income p87; cash flows p90"
+    },
+    {
+      "fact_id": "META.FY2024.revenue",
+      "ticker": "META",
+      "period_id": "FY2024",
+      "metric": "revenue",
+      "value": 164501,
+      "unit": "USD million",
+      "kind": "reported_fact",
+      "source_ids": [
+        "S1"
+      ],
+      "source_locator": "Statements of income p87; cash flows p90"
+    },
+    {
+      "fact_id": "META.FY2024.cost_of_revenue",
+      "ticker": "META",
+      "period_id": "FY2024",
+      "metric": "cost_of_revenue",
+      "value": 30161,
+      "unit": "USD million",
+      "kind": "reported_fact",
+      "source_ids": [
+        "S1"
+      ],
+      "source_locator": "Statements of income p87; cash flows p90"
+    },
+    {
+      "fact_id": "META.FY2024.operating_income",
+      "ticker": "META",
+      "period_id": "FY2024",
+      "metric": "operating_income",
+      "value": 69380,
+      "unit": "USD million",
+      "kind": "reported_fact",
+      "source_ids": [
+        "S1"
+      ],
+      "source_locator": "Statements of income p87; cash flows p90"
+    },
+    {
+      "fact_id": "META.FY2024.net_income_gaap",
+      "ticker": "META",
+      "period_id": "FY2024",
+      "metric": "net_income_gaap",
+      "value": 62360,
+      "unit": "USD million",
+      "kind": "reported_fact",
+      "source_ids": [
+        "S1"
+      ],
+      "source_locator": "Statements of income p87; cash flows p90"
+    },
+    {
+      "fact_id": "META.FY2024.cfo",
+      "ticker": "META",
+      "period_id": "FY2024",
+      "metric": "cfo",
+      "value": 91328,
+      "unit": "USD million",
+      "kind": "reported_fact",
+      "source_ids": [
+        "S1"
+      ],
+      "source_locator": "Statements of income p87; cash flows p90"
+    },
+    {
+      "fact_id": "META.FY2024.cash_ppe_outflow",
+      "ticker": "META",
+      "period_id": "FY2024",
+      "metric": "cash_ppe_outflow",
+      "value": 37256,
+      "unit": "USD million",
+      "kind": "reported_fact",
+      "source_ids": [
+        "S1"
+      ],
+      "source_locator": "Statements of income p87; cash flows p90"
+    },
+    {
+      "fact_id": "META.FY2024.finance_lease_principal",
+      "ticker": "META",
+      "period_id": "FY2024",
+      "metric": "finance_lease_principal",
+      "value": 1969,
+      "unit": "USD million",
+      "kind": "reported_fact",
+      "source_ids": [
+        "S1"
+      ],
+      "source_locator": "Statements of income p87; cash flows p90"
+    },
+    {
+      "fact_id": "META.FY2024.company_fcf",
+      "ticker": "META",
+      "period_id": "FY2024",
+      "metric": "company_fcf",
+      "value": 52103,
+      "unit": "USD million",
+      "kind": "reported_fact",
+      "source_ids": [
+        "S5"
+      ],
+      "source_locator": "GAAP to non-GAAP FCF reconciliation"
+    },
+    {
+      "fact_id": "META.FY2024.da",
+      "ticker": "META",
+      "period_id": "FY2024",
+      "metric": "da",
+      "value": 15498,
+      "unit": "USD million",
+      "kind": "reported_fact",
+      "source_ids": [
+        "S1"
+      ],
+      "source_locator": "Statements of income p87; cash flows p90"
+    },
+    {
+      "fact_id": "META.FY2024.sbc",
+      "ticker": "META",
+      "period_id": "FY2024",
+      "metric": "sbc",
+      "value": 16690,
+      "unit": "USD million",
+      "kind": "reported_fact",
+      "source_ids": [
+        "S1"
+      ],
+      "source_locator": "Statements of income p87; cash flows p90"
+    },
+    {
+      "fact_id": "META.FY2024.diluted_weighted_average_shares",
+      "ticker": "META",
+      "period_id": "FY2024",
+      "metric": "diluted_weighted_average_shares",
+      "value": 2614,
+      "unit": "shares million",
+      "kind": "reported_fact",
+      "source_ids": [
+        "S1"
+      ],
+      "source_locator": "Statements of income p87; cash flows p90"
+    },
+    {
+      "fact_id": "META.FY2024.diluted_eps",
+      "ticker": "META",
+      "period_id": "FY2024",
+      "metric": "diluted_eps",
+      "value": 23.86,
+      "unit": "USD/share",
+      "kind": "reported_fact",
+      "source_ids": [
+        "S1"
+      ],
+      "source_locator": "Statements of income p87; cash flows p90"
+    },
+    {
+      "fact_id": "META.Q3_2025.revenue",
+      "ticker": "META",
+      "period_id": "Q3_2025",
+      "metric": "revenue",
+      "value": 51242,
+      "unit": "USD million",
+      "kind": "reported_fact",
+      "source_ids": [
+        "S2"
+      ],
+      "source_locator": "Income statement / cash flows / FCF reconciliation"
+    },
+    {
+      "fact_id": "META.Q3_2025.cost_of_revenue",
+      "ticker": "META",
+      "period_id": "Q3_2025",
+      "metric": "cost_of_revenue",
+      "value": 9206,
+      "unit": "USD million",
+      "kind": "reported_fact",
+      "source_ids": [
+        "S2"
+      ],
+      "source_locator": "Income statement / cash flows / FCF reconciliation"
+    },
+    {
+      "fact_id": "META.Q3_2025.operating_income",
+      "ticker": "META",
+      "period_id": "Q3_2025",
+      "metric": "operating_income",
+      "value": 20535,
+      "unit": "USD million",
+      "kind": "reported_fact",
+      "source_ids": [
+        "S2"
+      ],
+      "source_locator": "Income statement / cash flows / FCF reconciliation"
+    },
+    {
+      "fact_id": "META.Q3_2025.net_income_gaap",
+      "ticker": "META",
+      "period_id": "Q3_2025",
+      "metric": "net_income_gaap",
+      "value": 2709,
+      "unit": "USD million",
+      "kind": "reported_fact",
+      "source_ids": [
+        "S2"
+      ],
+      "source_locator": "Income statement / cash flows / FCF reconciliation"
+    },
+    {
+      "fact_id": "META.Q3_2025.cfo",
+      "ticker": "META",
+      "period_id": "Q3_2025",
+      "metric": "cfo",
+      "value": 29999,
+      "unit": "USD million",
+      "kind": "reported_fact",
+      "source_ids": [
+        "S2"
+      ],
+      "source_locator": "Income statement / cash flows / FCF reconciliation"
+    },
+    {
+      "fact_id": "META.Q3_2025.cash_ppe_outflow",
+      "ticker": "META",
+      "period_id": "Q3_2025",
+      "metric": "cash_ppe_outflow",
+      "value": 18829,
+      "unit": "USD million",
+      "kind": "reported_fact",
+      "source_ids": [
+        "S2"
+      ],
+      "source_locator": "Income statement / cash flows / FCF reconciliation"
+    },
+    {
+      "fact_id": "META.Q3_2025.finance_lease_principal",
+      "ticker": "META",
+      "period_id": "Q3_2025",
+      "metric": "finance_lease_principal",
+      "value": 545,
+      "unit": "USD million",
+      "kind": "reported_fact",
+      "source_ids": [
+        "S2"
+      ],
+      "source_locator": "Income statement / cash flows / FCF reconciliation"
+    },
+    {
+      "fact_id": "META.Q3_2025.company_fcf",
+      "ticker": "META",
+      "period_id": "Q3_2025",
+      "metric": "company_fcf",
+      "value": 10625,
+      "unit": "USD million",
+      "kind": "reported_fact",
+      "source_ids": [
+        "S2"
+      ],
+      "source_locator": "Income statement / cash flows / FCF reconciliation"
+    },
+    {
+      "fact_id": "META.Q3_2025.da",
+      "ticker": "META",
+      "period_id": "Q3_2025",
+      "metric": "da",
+      "value": 4963,
+      "unit": "USD million",
+      "kind": "reported_fact",
+      "source_ids": [
+        "S2"
+      ],
+      "source_locator": "Income statement / cash flows / FCF reconciliation"
+    },
+    {
+      "fact_id": "META.Q3_2025.sbc",
+      "ticker": "META",
+      "period_id": "Q3_2025",
+      "metric": "sbc",
+      "value": 5555,
+      "unit": "USD million",
+      "kind": "reported_fact",
+      "source_ids": [
+        "S2"
+      ],
+      "source_locator": "Income statement / cash flows / FCF reconciliation"
+    },
+    {
+      "fact_id": "META.Q3_2025.diluted_weighted_average_shares",
+      "ticker": "META",
+      "period_id": "Q3_2025",
+      "metric": "diluted_weighted_average_shares",
+      "value": 2572,
+      "unit": "shares million",
+      "kind": "reported_fact",
+      "source_ids": [
+        "S2"
+      ],
+      "source_locator": "Income statement / cash flows / FCF reconciliation"
+    },
+    {
+      "fact_id": "META.Q3_2025.diluted_eps",
+      "ticker": "META",
+      "period_id": "Q3_2025",
+      "metric": "diluted_eps",
+      "value": 1.05,
+      "unit": "USD/share",
+      "kind": "reported_fact",
+      "source_ids": [
+        "S2"
+      ],
+      "source_locator": "Income statement / cash flows / FCF reconciliation"
+    },
+    {
+      "fact_id": "META.Q3_2024.revenue",
+      "ticker": "META",
+      "period_id": "Q3_2024",
+      "metric": "revenue",
+      "value": 40589,
+      "unit": "USD million",
+      "kind": "reported_fact",
+      "source_ids": [
+        "S2"
+      ],
+      "source_locator": "Income statement / cash flows / FCF reconciliation"
+    },
+    {
+      "fact_id": "META.Q3_2024.cost_of_revenue",
+      "ticker": "META",
+      "period_id": "Q3_2024",
+      "metric": "cost_of_revenue",
+      "value": 7375,
+      "unit": "USD million",
+      "kind": "reported_fact",
+      "source_ids": [
+        "S2"
+      ],
+      "source_locator": "Income statement / cash flows / FCF reconciliation"
+    },
+    {
+      "fact_id": "META.Q3_2024.operating_income",
+      "ticker": "META",
+      "period_id": "Q3_2024",
+      "metric": "operating_income",
+      "value": 17350,
+      "unit": "USD million",
+      "kind": "reported_fact",
+      "source_ids": [
+        "S2"
+      ],
+      "source_locator": "Income statement / cash flows / FCF reconciliation"
+    },
+    {
+      "fact_id": "META.Q3_2024.net_income_gaap",
+      "ticker": "META",
+      "period_id": "Q3_2024",
+      "metric": "net_income_gaap",
+      "value": 15688,
+      "unit": "USD million",
+      "kind": "reported_fact",
+      "source_ids": [
+        "S2"
+      ],
+      "source_locator": "Income statement / cash flows / FCF reconciliation"
+    },
+    {
+      "fact_id": "META.Q3_2024.cfo",
+      "ticker": "META",
+      "period_id": "Q3_2024",
+      "metric": "cfo",
+      "value": 24724,
+      "unit": "USD million",
+      "kind": "reported_fact",
+      "source_ids": [
+        "S2"
+      ],
+      "source_locator": "Income statement / cash flows / FCF reconciliation"
+    },
+    {
+      "fact_id": "META.Q3_2024.cash_ppe_outflow",
+      "ticker": "META",
+      "period_id": "Q3_2024",
+      "metric": "cash_ppe_outflow",
+      "value": 8258,
+      "unit": "USD million",
+      "kind": "reported_fact",
+      "source_ids": [
+        "S2"
+      ],
+      "source_locator": "Income statement / cash flows / FCF reconciliation"
+    },
+    {
+      "fact_id": "META.Q3_2024.finance_lease_principal",
+      "ticker": "META",
+      "period_id": "Q3_2024",
+      "metric": "finance_lease_principal",
+      "value": 944,
+      "unit": "USD million",
+      "kind": "reported_fact",
+      "source_ids": [
+        "S2"
+      ],
+      "source_locator": "Income statement / cash flows / FCF reconciliation"
+    },
+    {
+      "fact_id": "META.Q3_2024.company_fcf",
+      "ticker": "META",
+      "period_id": "Q3_2024",
+      "metric": "company_fcf",
+      "value": 15522,
+      "unit": "USD million",
+      "kind": "reported_fact",
+      "source_ids": [
+        "S2"
+      ],
+      "source_locator": "Income statement / cash flows / FCF reconciliation"
+    },
+    {
+      "fact_id": "META.Q3_2024.da",
+      "ticker": "META",
+      "period_id": "Q3_2024",
+      "metric": "da",
+      "value": 4027,
+      "unit": "USD million",
+      "kind": "reported_fact",
+      "source_ids": [
+        "S2"
+      ],
+      "source_locator": "Income statement / cash flows / FCF reconciliation"
+    },
+    {
+      "fact_id": "META.Q3_2024.sbc",
+      "ticker": "META",
+      "period_id": "Q3_2024",
+      "metric": "sbc",
+      "value": 4250,
+      "unit": "USD million",
+      "kind": "reported_fact",
+      "source_ids": [
+        "S2"
+      ],
+      "source_locator": "Income statement / cash flows / FCF reconciliation"
+    },
+    {
+      "fact_id": "META.Q3_2024.diluted_weighted_average_shares",
+      "ticker": "META",
+      "period_id": "Q3_2024",
+      "metric": "diluted_weighted_average_shares",
+      "value": 2600,
+      "unit": "shares million",
+      "kind": "reported_fact",
+      "source_ids": [
+        "S2"
+      ],
+      "source_locator": "Income statement / cash flows / FCF reconciliation"
+    },
+    {
+      "fact_id": "META.Q3_2024.diluted_eps",
+      "ticker": "META",
+      "period_id": "Q3_2024",
+      "metric": "diluted_eps",
+      "value": 6.03,
+      "unit": "USD/share",
+      "kind": "reported_fact",
+      "source_ids": [
+        "S2"
+      ],
+      "source_locator": "Income statement / cash flows / FCF reconciliation"
+    },
+    {
+      "fact_id": "META.YTD9_2025.revenue",
+      "ticker": "META",
+      "period_id": "YTD9_2025",
+      "metric": "revenue",
+      "value": 141073,
+      "unit": "USD million",
+      "kind": "reported_fact",
+      "source_ids": [
+        "S3"
+      ],
+      "source_locator": "Income statement / cash flows / FCF reconciliation"
+    },
+    {
+      "fact_id": "META.YTD9_2025.cost_of_revenue",
+      "ticker": "META",
+      "period_id": "YTD9_2025",
+      "metric": "cost_of_revenue",
+      "value": 25269,
+      "unit": "USD million",
+      "kind": "reported_fact",
+      "source_ids": [
+        "S3"
+      ],
+      "source_locator": "Income statement / cash flows / FCF reconciliation"
+    },
+    {
+      "fact_id": "META.YTD9_2025.operating_income",
+      "ticker": "META",
+      "period_id": "YTD9_2025",
+      "metric": "operating_income",
+      "value": 58531,
+      "unit": "USD million",
+      "kind": "reported_fact",
+      "source_ids": [
+        "S3"
+      ],
+      "source_locator": "Income statement / cash flows / FCF reconciliation"
+    },
+    {
+      "fact_id": "META.YTD9_2025.net_income_gaap",
+      "ticker": "META",
+      "period_id": "YTD9_2025",
+      "metric": "net_income_gaap",
+      "value": 37690,
+      "unit": "USD million",
+      "kind": "reported_fact",
+      "source_ids": [
+        "S3"
+      ],
+      "source_locator": "Income statement / cash flows / FCF reconciliation"
+    },
+    {
+      "fact_id": "META.YTD9_2025.cfo",
+      "ticker": "META",
+      "period_id": "YTD9_2025",
+      "metric": "cfo",
+      "value": 79586,
+      "unit": "USD million",
+      "kind": "reported_fact",
+      "source_ids": [
+        "S3"
+      ],
+      "source_locator": "Income statement / cash flows / FCF reconciliation"
+    },
+    {
+      "fact_id": "META.YTD9_2025.cash_ppe_outflow",
+      "ticker": "META",
+      "period_id": "YTD9_2025",
+      "metric": "cash_ppe_outflow",
+      "value": 48308,
+      "unit": "USD million",
+      "kind": "reported_fact",
+      "source_ids": [
+        "S3"
+      ],
+      "source_locator": "Income statement / cash flows / FCF reconciliation"
+    },
+    {
+      "fact_id": "META.YTD9_2025.finance_lease_principal",
+      "ticker": "META",
+      "period_id": "YTD9_2025",
+      "metric": "finance_lease_principal",
+      "value": 1770,
+      "unit": "USD million",
+      "kind": "reported_fact",
+      "source_ids": [
+        "S3"
+      ],
+      "source_locator": "Income statement / cash flows / FCF reconciliation"
+    },
+    {
+      "fact_id": "META.YTD9_2025.company_fcf",
+      "ticker": "META",
+      "period_id": "YTD9_2025",
+      "metric": "company_fcf",
+      "value": 29508,
+      "unit": "USD million",
+      "kind": "reported_fact",
+      "source_ids": [
+        "S2"
+      ],
+      "source_locator": "Income statement / cash flows / FCF reconciliation"
+    },
+    {
+      "fact_id": "META.YTD9_2025.da",
+      "ticker": "META",
+      "period_id": "YTD9_2025",
+      "metric": "da",
+      "value": 13205,
+      "unit": "USD million",
+      "kind": "reported_fact",
+      "source_ids": [
+        "S3"
+      ],
+      "source_locator": "Income statement / cash flows / FCF reconciliation"
+    },
+    {
+      "fact_id": "META.YTD9_2025.sbc",
+      "ticker": "META",
+      "period_id": "YTD9_2025",
+      "metric": "sbc",
+      "value": 14537,
+      "unit": "USD million",
+      "kind": "reported_fact",
+      "source_ids": [
+        "S3"
+      ],
+      "source_locator": "Income statement / cash flows / FCF reconciliation"
+    },
+    {
+      "fact_id": "META.YTD9_2025.diluted_weighted_average_shares",
+      "ticker": "META",
+      "period_id": "YTD9_2025",
+      "metric": "diluted_weighted_average_shares",
+      "value": 2578,
+      "unit": "shares million",
+      "kind": "reported_fact",
+      "source_ids": [
+        "S3"
+      ],
+      "source_locator": "Income statement / cash flows / FCF reconciliation"
+    },
+    {
+      "fact_id": "META.YTD9_2025.diluted_eps",
+      "ticker": "META",
+      "period_id": "YTD9_2025",
+      "metric": "diluted_eps",
+      "value": 14.62,
+      "unit": "USD/share",
+      "kind": "reported_fact",
+      "source_ids": [
+        "S3"
+      ],
+      "source_locator": "Income statement / cash flows / FCF reconciliation"
+    },
+    {
+      "fact_id": "META.YTD9_2024.revenue",
+      "ticker": "META",
+      "period_id": "YTD9_2024",
+      "metric": "revenue",
+      "value": 116116,
+      "unit": "USD million",
+      "kind": "reported_fact",
+      "source_ids": [
+        "S3"
+      ],
+      "source_locator": "Income statement / cash flows / FCF reconciliation"
+    },
+    {
+      "fact_id": "META.YTD9_2024.cost_of_revenue",
+      "ticker": "META",
+      "period_id": "YTD9_2024",
+      "metric": "cost_of_revenue",
+      "value": 21322,
+      "unit": "USD million",
+      "kind": "reported_fact",
+      "source_ids": [
+        "S3"
+      ],
+      "source_locator": "Income statement / cash flows / FCF reconciliation"
+    },
+    {
+      "fact_id": "META.YTD9_2024.operating_income",
+      "ticker": "META",
+      "period_id": "YTD9_2024",
+      "metric": "operating_income",
+      "value": 46016,
+      "unit": "USD million",
+      "kind": "reported_fact",
+      "source_ids": [
+        "S3"
+      ],
+      "source_locator": "Income statement / cash flows / FCF reconciliation"
+    },
+    {
+      "fact_id": "META.YTD9_2024.net_income_gaap",
+      "ticker": "META",
+      "period_id": "YTD9_2024",
+      "metric": "net_income_gaap",
+      "value": 41522,
+      "unit": "USD million",
+      "kind": "reported_fact",
+      "source_ids": [
+        "S3"
+      ],
+      "source_locator": "Income statement / cash flows / FCF reconciliation"
+    },
+    {
+      "fact_id": "META.YTD9_2024.cfo",
+      "ticker": "META",
+      "period_id": "YTD9_2024",
+      "metric": "cfo",
+      "value": 63340,
+      "unit": "USD million",
+      "kind": "reported_fact",
+      "source_ids": [
+        "S3"
+      ],
+      "source_locator": "Income statement / cash flows / FCF reconciliation"
+    },
+    {
+      "fact_id": "META.YTD9_2024.cash_ppe_outflow",
+      "ticker": "META",
+      "period_id": "YTD9_2024",
+      "metric": "cash_ppe_outflow",
+      "value": 22831,
+      "unit": "USD million",
+      "kind": "reported_fact",
+      "source_ids": [
+        "S3"
+      ],
+      "source_locator": "Income statement / cash flows / FCF reconciliation"
+    },
+    {
+      "fact_id": "META.YTD9_2024.finance_lease_principal",
+      "ticker": "META",
+      "period_id": "YTD9_2024",
+      "metric": "finance_lease_principal",
+      "value": 1558,
+      "unit": "USD million",
+      "kind": "reported_fact",
+      "source_ids": [
+        "S3"
+      ],
+      "source_locator": "Income statement / cash flows / FCF reconciliation"
+    },
+    {
+      "fact_id": "META.YTD9_2024.company_fcf",
+      "ticker": "META",
+      "period_id": "YTD9_2024",
+      "metric": "company_fcf",
+      "value": 38951,
+      "unit": "USD million",
+      "kind": "reported_fact",
+      "source_ids": [
+        "S2"
+      ],
+      "source_locator": "Income statement / cash flows / FCF reconciliation"
+    },
+    {
+      "fact_id": "META.YTD9_2024.da",
+      "ticker": "META",
+      "period_id": "YTD9_2024",
+      "metric": "da",
+      "value": 11038,
+      "unit": "USD million",
+      "kind": "reported_fact",
+      "source_ids": [
+        "S3"
+      ],
+      "source_locator": "Income statement / cash flows / FCF reconciliation"
+    },
+    {
+      "fact_id": "META.YTD9_2024.sbc",
+      "ticker": "META",
+      "period_id": "YTD9_2024",
+      "metric": "sbc",
+      "value": 12428,
+      "unit": "USD million",
+      "kind": "reported_fact",
+      "source_ids": [
+        "S3"
+      ],
+      "source_locator": "Income statement / cash flows / FCF reconciliation"
+    },
+    {
+      "fact_id": "META.YTD9_2024.diluted_weighted_average_shares",
+      "ticker": "META",
+      "period_id": "YTD9_2024",
+      "metric": "diluted_weighted_average_shares",
+      "value": 2615,
+      "unit": "shares million",
+      "kind": "reported_fact",
+      "source_ids": [
+        "S3"
+      ],
+      "source_locator": "Income statement / cash flows / FCF reconciliation"
+    },
+    {
+      "fact_id": "META.YTD9_2024.diluted_eps",
+      "ticker": "META",
+      "period_id": "YTD9_2024",
+      "metric": "diluted_eps",
+      "value": 15.88,
+      "unit": "USD/share",
+      "kind": "reported_fact",
+      "source_ids": [
+        "S3"
+      ],
+      "source_locator": "Income statement / cash flows / FCF reconciliation"
+    },
+    {
+      "fact_id": "META.TTM_Q3_2025.revenue",
+      "ticker": "META",
+      "period_id": "TTM_Q3_2025",
+      "metric": "revenue",
+      "value": 189458,
+      "unit": "USD million",
+      "kind": "derived_fact",
+      "source_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "S5"
+      ],
+      "source_locator": "Mechanical period bridge",
+      "formula": "FY2024 + YTD9_2025 - YTD9_2024",
+      "input_fact_ids": [
+        "META.FY2024.revenue",
+        "META.YTD9_2025.revenue",
+        "META.YTD9_2024.revenue"
+      ]
+    },
+    {
+      "fact_id": "META.TTM_Q3_2025.cost_of_revenue",
+      "ticker": "META",
+      "period_id": "TTM_Q3_2025",
+      "metric": "cost_of_revenue",
+      "value": 34108,
+      "unit": "USD million",
+      "kind": "derived_fact",
+      "source_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "S5"
+      ],
+      "source_locator": "Mechanical period bridge",
+      "formula": "FY2024 + YTD9_2025 - YTD9_2024",
+      "input_fact_ids": [
+        "META.FY2024.cost_of_revenue",
+        "META.YTD9_2025.cost_of_revenue",
+        "META.YTD9_2024.cost_of_revenue"
+      ]
+    },
+    {
+      "fact_id": "META.TTM_Q3_2025.operating_income",
+      "ticker": "META",
+      "period_id": "TTM_Q3_2025",
+      "metric": "operating_income",
+      "value": 81895,
+      "unit": "USD million",
+      "kind": "derived_fact",
+      "source_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "S5"
+      ],
+      "source_locator": "Mechanical period bridge",
+      "formula": "FY2024 + YTD9_2025 - YTD9_2024",
+      "input_fact_ids": [
+        "META.FY2024.operating_income",
+        "META.YTD9_2025.operating_income",
+        "META.YTD9_2024.operating_income"
+      ]
+    },
+    {
+      "fact_id": "META.TTM_Q3_2025.net_income_gaap",
+      "ticker": "META",
+      "period_id": "TTM_Q3_2025",
+      "metric": "net_income_gaap",
+      "value": 58528,
+      "unit": "USD million",
+      "kind": "derived_fact",
+      "source_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "S5"
+      ],
+      "source_locator": "Mechanical period bridge",
+      "formula": "FY2024 + YTD9_2025 - YTD9_2024",
+      "input_fact_ids": [
+        "META.FY2024.net_income_gaap",
+        "META.YTD9_2025.net_income_gaap",
+        "META.YTD9_2024.net_income_gaap"
+      ]
+    },
+    {
+      "fact_id": "META.TTM_Q3_2025.cfo",
+      "ticker": "META",
+      "period_id": "TTM_Q3_2025",
+      "metric": "cfo",
+      "value": 107574,
+      "unit": "USD million",
+      "kind": "derived_fact",
+      "source_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "S5"
+      ],
+      "source_locator": "Mechanical period bridge",
+      "formula": "FY2024 + YTD9_2025 - YTD9_2024",
+      "input_fact_ids": [
+        "META.FY2024.cfo",
+        "META.YTD9_2025.cfo",
+        "META.YTD9_2024.cfo"
+      ]
+    },
+    {
+      "fact_id": "META.TTM_Q3_2025.cash_ppe_outflow",
+      "ticker": "META",
+      "period_id": "TTM_Q3_2025",
+      "metric": "cash_ppe_outflow",
+      "value": 62733,
+      "unit": "USD million",
+      "kind": "derived_fact",
+      "source_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "S5"
+      ],
+      "source_locator": "Mechanical period bridge",
+      "formula": "FY2024 + YTD9_2025 - YTD9_2024",
+      "input_fact_ids": [
+        "META.FY2024.cash_ppe_outflow",
+        "META.YTD9_2025.cash_ppe_outflow",
+        "META.YTD9_2024.cash_ppe_outflow"
+      ]
+    },
+    {
+      "fact_id": "META.TTM_Q3_2025.finance_lease_principal",
+      "ticker": "META",
+      "period_id": "TTM_Q3_2025",
+      "metric": "finance_lease_principal",
+      "value": 2181,
+      "unit": "USD million",
+      "kind": "derived_fact",
+      "source_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "S5"
+      ],
+      "source_locator": "Mechanical period bridge",
+      "formula": "FY2024 + YTD9_2025 - YTD9_2024",
+      "input_fact_ids": [
+        "META.FY2024.finance_lease_principal",
+        "META.YTD9_2025.finance_lease_principal",
+        "META.YTD9_2024.finance_lease_principal"
+      ]
+    },
+    {
+      "fact_id": "META.TTM_Q3_2025.company_fcf",
+      "ticker": "META",
+      "period_id": "TTM_Q3_2025",
+      "metric": "company_fcf",
+      "value": 42660,
+      "unit": "USD million",
+      "kind": "derived_fact",
+      "source_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "S5"
+      ],
+      "source_locator": "Mechanical period bridge",
+      "formula": "FY2024 + YTD9_2025 - YTD9_2024",
+      "input_fact_ids": [
+        "META.FY2024.company_fcf",
+        "META.YTD9_2025.company_fcf",
+        "META.YTD9_2024.company_fcf"
+      ]
+    },
+    {
+      "fact_id": "META.TTM_Q3_2025.da",
+      "ticker": "META",
+      "period_id": "TTM_Q3_2025",
+      "metric": "da",
+      "value": 17665,
+      "unit": "USD million",
+      "kind": "derived_fact",
+      "source_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "S5"
+      ],
+      "source_locator": "Mechanical period bridge",
+      "formula": "FY2024 + YTD9_2025 - YTD9_2024",
+      "input_fact_ids": [
+        "META.FY2024.da",
+        "META.YTD9_2025.da",
+        "META.YTD9_2024.da"
+      ]
+    },
+    {
+      "fact_id": "META.TTM_Q3_2025.sbc",
+      "ticker": "META",
+      "period_id": "TTM_Q3_2025",
+      "metric": "sbc",
+      "value": 18799,
+      "unit": "USD million",
+      "kind": "derived_fact",
+      "source_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "S5"
+      ],
+      "source_locator": "Mechanical period bridge",
+      "formula": "FY2024 + YTD9_2025 - YTD9_2024",
+      "input_fact_ids": [
+        "META.FY2024.sbc",
+        "META.YTD9_2025.sbc",
+        "META.YTD9_2024.sbc"
+      ]
+    },
+    {
+      "fact_id": "META.FY2020.cash_capex_including_finance_leases",
+      "ticker": "META",
+      "period_id": "FY2020",
+      "metric": "cash_capex_including_finance_leases",
+      "value": 15719,
+      "unit": "USD million",
+      "kind": "derived_fact",
+      "source_ids": [
+        "S4"
+      ],
+      "source_locator": "Company capex scope",
+      "formula": "cash_ppe_outflow + finance_lease_principal",
+      "input_fact_ids": [
+        "META.FY2020.cash_ppe_outflow",
+        "META.FY2020.finance_lease_principal"
+      ]
+    },
+    {
+      "fact_id": "META.FY2021.cash_capex_including_finance_leases",
+      "ticker": "META",
+      "period_id": "FY2021",
+      "metric": "cash_capex_including_finance_leases",
+      "value": 19244,
+      "unit": "USD million",
+      "kind": "derived_fact",
+      "source_ids": [
+        "S4"
+      ],
+      "source_locator": "Company capex scope",
+      "formula": "cash_ppe_outflow + finance_lease_principal",
+      "input_fact_ids": [
+        "META.FY2021.cash_ppe_outflow",
+        "META.FY2021.finance_lease_principal"
+      ]
+    },
+    {
+      "fact_id": "META.FY2022.cash_capex_including_finance_leases",
+      "ticker": "META",
+      "period_id": "FY2022",
+      "metric": "cash_capex_including_finance_leases",
+      "value": 32036,
+      "unit": "USD million",
+      "kind": "derived_fact",
+      "source_ids": [
+        "S4"
+      ],
+      "source_locator": "Company capex scope",
+      "formula": "cash_ppe_outflow + finance_lease_principal",
+      "input_fact_ids": [
+        "META.FY2022.cash_ppe_outflow",
+        "META.FY2022.finance_lease_principal"
+      ]
+    },
+    {
+      "fact_id": "META.FY2023.cash_capex_including_finance_leases",
+      "ticker": "META",
+      "period_id": "FY2023",
+      "metric": "cash_capex_including_finance_leases",
+      "value": 28103,
+      "unit": "USD million",
+      "kind": "derived_fact",
+      "source_ids": [
+        "S1"
+      ],
+      "source_locator": "Company capex scope",
+      "formula": "cash_ppe_outflow + finance_lease_principal",
+      "input_fact_ids": [
+        "META.FY2023.cash_ppe_outflow",
+        "META.FY2023.finance_lease_principal"
+      ]
+    },
+    {
+      "fact_id": "META.FY2024.cash_capex_including_finance_leases",
+      "ticker": "META",
+      "period_id": "FY2024",
+      "metric": "cash_capex_including_finance_leases",
+      "value": 39225,
+      "unit": "USD million",
+      "kind": "derived_fact",
+      "source_ids": [
+        "S1"
+      ],
+      "source_locator": "Company capex scope",
+      "formula": "cash_ppe_outflow + finance_lease_principal",
+      "input_fact_ids": [
+        "META.FY2024.cash_ppe_outflow",
+        "META.FY2024.finance_lease_principal"
+      ]
+    },
+    {
+      "fact_id": "META.Q3_2025.cash_capex_including_finance_leases",
+      "ticker": "META",
+      "period_id": "Q3_2025",
+      "metric": "cash_capex_including_finance_leases",
+      "value": 19374,
+      "unit": "USD million",
+      "kind": "derived_fact",
+      "source_ids": [
+        "S2"
+      ],
+      "source_locator": "Company capex scope",
+      "formula": "cash_ppe_outflow + finance_lease_principal",
+      "input_fact_ids": [
+        "META.Q3_2025.cash_ppe_outflow",
+        "META.Q3_2025.finance_lease_principal"
+      ]
+    },
+    {
+      "fact_id": "META.Q3_2024.cash_capex_including_finance_leases",
+      "ticker": "META",
+      "period_id": "Q3_2024",
+      "metric": "cash_capex_including_finance_leases",
+      "value": 9202,
+      "unit": "USD million",
+      "kind": "derived_fact",
+      "source_ids": [
+        "S2"
+      ],
+      "source_locator": "Company capex scope",
+      "formula": "cash_ppe_outflow + finance_lease_principal",
+      "input_fact_ids": [
+        "META.Q3_2024.cash_ppe_outflow",
+        "META.Q3_2024.finance_lease_principal"
+      ]
+    },
+    {
+      "fact_id": "META.YTD9_2025.cash_capex_including_finance_leases",
+      "ticker": "META",
+      "period_id": "YTD9_2025",
+      "metric": "cash_capex_including_finance_leases",
+      "value": 50078,
+      "unit": "USD million",
+      "kind": "derived_fact",
+      "source_ids": [
+        "S2"
+      ],
+      "source_locator": "Company capex scope",
+      "formula": "cash_ppe_outflow + finance_lease_principal",
+      "input_fact_ids": [
+        "META.YTD9_2025.cash_ppe_outflow",
+        "META.YTD9_2025.finance_lease_principal"
+      ]
+    },
+    {
+      "fact_id": "META.YTD9_2024.cash_capex_including_finance_leases",
+      "ticker": "META",
+      "period_id": "YTD9_2024",
+      "metric": "cash_capex_including_finance_leases",
+      "value": 24389,
+      "unit": "USD million",
+      "kind": "derived_fact",
+      "source_ids": [
+        "S2"
+      ],
+      "source_locator": "Company capex scope",
+      "formula": "cash_ppe_outflow + finance_lease_principal",
+      "input_fact_ids": [
+        "META.YTD9_2024.cash_ppe_outflow",
+        "META.YTD9_2024.finance_lease_principal"
+      ]
+    },
+    {
+      "fact_id": "META.TTM_Q3_2025.cash_capex_including_finance_leases",
+      "ticker": "META",
+      "period_id": "TTM_Q3_2025",
+      "metric": "cash_capex_including_finance_leases",
+      "value": 64914,
+      "unit": "USD million",
+      "kind": "derived_fact",
+      "source_ids": [
+        "S1",
+        "S2",
+        "S3"
+      ],
+      "source_locator": "Mechanical period bridge",
+      "formula": "62733 + 2181",
+      "input_fact_ids": [
+        "META.TTM_Q3_2025.cash_ppe_outflow",
+        "META.TTM_Q3_2025.finance_lease_principal"
+      ]
+    },
+    {
+      "fact_id": "META.BS_2024.cash_and_equivalents",
+      "ticker": "META",
+      "period_id": "BS_2024",
+      "metric": "cash_and_equivalents",
+      "value": 43889,
+      "unit": "USD million",
+      "kind": "reported_fact",
+      "source_ids": [
+        "S1"
+      ],
+      "source_locator": "Balance sheet"
+    },
+    {
+      "fact_id": "META.BS_2024.marketable_securities",
+      "ticker": "META",
+      "period_id": "BS_2024",
+      "metric": "marketable_securities",
+      "value": 33926,
+      "unit": "USD million",
+      "kind": "reported_fact",
+      "source_ids": [
+        "S1"
+      ],
+      "source_locator": "Balance sheet"
+    },
+    {
+      "fact_id": "META.BS_2024.bond_debt_carrying_amount",
+      "ticker": "META",
+      "period_id": "BS_2024",
+      "metric": "bond_debt_carrying_amount",
+      "value": 28826,
+      "unit": "USD million",
+      "kind": "reported_fact",
+      "source_ids": [
+        "S1"
+      ],
+      "source_locator": "Balance sheet"
+    },
+    {
+      "fact_id": "META.BS_2024.operating_lease_liabilities_current",
+      "ticker": "META",
+      "period_id": "BS_2024",
+      "metric": "operating_lease_liabilities_current",
+      "value": 1942,
+      "unit": "USD million",
+      "kind": "reported_fact",
+      "source_ids": [
+        "S1"
+      ],
+      "source_locator": "Balance sheet"
+    },
+    {
+      "fact_id": "META.BS_2024.operating_lease_liabilities_noncurrent",
+      "ticker": "META",
+      "period_id": "BS_2024",
+      "metric": "operating_lease_liabilities_noncurrent",
+      "value": 18292,
+      "unit": "USD million",
+      "kind": "reported_fact",
+      "source_ids": [
+        "S1"
+      ],
+      "source_locator": "Balance sheet"
+    },
+    {
+      "fact_id": "META.BS_2024.book_equity",
+      "ticker": "META",
+      "period_id": "BS_2024",
+      "metric": "book_equity",
+      "value": 182637,
+      "unit": "USD million",
+      "kind": "reported_fact",
+      "source_ids": [
+        "S1"
+      ],
+      "source_locator": "Balance sheet"
+    },
+    {
+      "fact_id": "META.BS_2024.cash_plus_marketable_securities",
+      "ticker": "META",
+      "period_id": "BS_2024",
+      "metric": "cash_plus_marketable_securities",
+      "value": 77815,
+      "unit": "USD million",
+      "kind": "derived_fact",
+      "source_ids": [
+        "S1"
+      ],
+      "source_locator": "Balance sheet",
+      "formula": "cash_and_equivalents + marketable_securities",
+      "input_fact_ids": [
+        "META.BS_2024.cash_and_equivalents",
+        "META.BS_2024.marketable_securities"
+      ]
+    },
+    {
+      "fact_id": "META.BS_2024.cash_securities_minus_bond_debt",
+      "ticker": "META",
+      "period_id": "BS_2024",
+      "metric": "cash_securities_minus_bond_debt",
+      "value": 48989,
+      "unit": "USD million",
+      "kind": "derived_fact",
+      "source_ids": [
+        "S1"
+      ],
+      "source_locator": "Balance sheet",
+      "note": "Excludes finance/operating lease liabilities and commitments; not complete economic net cash. September amount is not a December amount.",
+      "formula": "cash_and_equivalents + marketable_securities - bond_debt_carrying_amount",
+      "input_fact_ids": [
+        "META.BS_2024.cash_and_equivalents",
+        "META.BS_2024.marketable_securities",
+        "META.BS_2024.bond_debt_carrying_amount"
+      ]
+    },
+    {
+      "fact_id": "META.BS_Q3_2025.cash_and_equivalents",
+      "ticker": "META",
+      "period_id": "BS_Q3_2025",
+      "metric": "cash_and_equivalents",
+      "value": 10187,
+      "unit": "USD million",
+      "kind": "reported_fact",
+      "source_ids": [
+        "S3"
+      ],
+      "source_locator": "Balance sheet"
+    },
+    {
+      "fact_id": "META.BS_Q3_2025.marketable_securities",
+      "ticker": "META",
+      "period_id": "BS_Q3_2025",
+      "metric": "marketable_securities",
+      "value": 34261,
+      "unit": "USD million",
+      "kind": "reported_fact",
+      "source_ids": [
+        "S3"
+      ],
+      "source_locator": "Balance sheet"
+    },
+    {
+      "fact_id": "META.BS_Q3_2025.bond_debt_carrying_amount",
+      "ticker": "META",
+      "period_id": "BS_Q3_2025",
+      "metric": "bond_debt_carrying_amount",
+      "value": 28834,
+      "unit": "USD million",
+      "kind": "reported_fact",
+      "source_ids": [
+        "S3"
+      ],
+      "source_locator": "Balance sheet"
+    },
+    {
+      "fact_id": "META.BS_Q3_2025.operating_lease_liabilities_current",
+      "ticker": "META",
+      "period_id": "BS_Q3_2025",
+      "metric": "operating_lease_liabilities_current",
+      "value": 2113,
+      "unit": "USD million",
+      "kind": "reported_fact",
+      "source_ids": [
+        "S3"
+      ],
+      "source_locator": "Balance sheet"
+    },
+    {
+      "fact_id": "META.BS_Q3_2025.operating_lease_liabilities_noncurrent",
+      "ticker": "META",
+      "period_id": "BS_Q3_2025",
+      "metric": "operating_lease_liabilities_noncurrent",
+      "value": 20113,
+      "unit": "USD million",
+      "kind": "reported_fact",
+      "source_ids": [
+        "S3"
+      ],
+      "source_locator": "Balance sheet"
+    },
+    {
+      "fact_id": "META.BS_Q3_2025.book_equity",
+      "ticker": "META",
+      "period_id": "BS_Q3_2025",
+      "metric": "book_equity",
+      "value": 194066,
+      "unit": "USD million",
+      "kind": "reported_fact",
+      "source_ids": [
+        "S3"
+      ],
+      "source_locator": "Balance sheet"
+    },
+    {
+      "fact_id": "META.BS_Q3_2025.cash_plus_marketable_securities",
+      "ticker": "META",
+      "period_id": "BS_Q3_2025",
+      "metric": "cash_plus_marketable_securities",
+      "value": 44448,
+      "unit": "USD million",
+      "kind": "derived_fact",
+      "source_ids": [
+        "S3"
+      ],
+      "source_locator": "Balance sheet",
+      "formula": "cash_and_equivalents + marketable_securities",
+      "input_fact_ids": [
+        "META.BS_Q3_2025.cash_and_equivalents",
+        "META.BS_Q3_2025.marketable_securities"
+      ]
+    },
+    {
+      "fact_id": "META.BS_Q3_2025.cash_securities_minus_bond_debt",
+      "ticker": "META",
+      "period_id": "BS_Q3_2025",
+      "metric": "cash_securities_minus_bond_debt",
+      "value": 15614,
+      "unit": "USD million",
+      "kind": "derived_fact",
+      "source_ids": [
+        "S3"
+      ],
+      "source_locator": "Balance sheet",
+      "note": "Excludes finance/operating lease liabilities and commitments; not complete economic net cash. September amount is not a December amount.",
+      "formula": "cash_and_equivalents + marketable_securities - bond_debt_carrying_amount",
+      "input_fact_ids": [
+        "META.BS_Q3_2025.cash_and_equivalents",
+        "META.BS_Q3_2025.marketable_securities",
+        "META.BS_Q3_2025.bond_debt_carrying_amount"
+      ]
+    },
+    {
+      "fact_id": "META.FY2024.advertising_revenue",
+      "ticker": "META",
+      "period_id": "FY2024",
+      "metric": "advertising_revenue",
+      "value": 160633,
+      "unit": "USD million",
+      "kind": "reported_fact",
+      "source_ids": [
+        "S1"
+      ],
+      "source_locator": "Revenue note / segment note"
+    },
+    {
+      "fact_id": "META.FY2024.foa_revenue",
+      "ticker": "META",
+      "period_id": "FY2024",
+      "metric": "foa_revenue",
+      "value": 162355,
+      "unit": "USD million",
+      "kind": "reported_fact",
+      "source_ids": [
+        "S1"
+      ],
+      "source_locator": "Revenue note / segment note"
+    },
+    {
+      "fact_id": "META.FY2024.rl_revenue",
+      "ticker": "META",
+      "period_id": "FY2024",
+      "metric": "rl_revenue",
+      "value": 2146,
+      "unit": "USD million",
+      "kind": "reported_fact",
+      "source_ids": [
+        "S1"
+      ],
+      "source_locator": "Revenue note / segment note"
+    },
+    {
+      "fact_id": "META.FY2024.foa_operating_income",
+      "ticker": "META",
+      "period_id": "FY2024",
+      "metric": "foa_operating_income",
+      "value": 87109,
+      "unit": "USD million",
+      "kind": "reported_fact",
+      "source_ids": [
+        "S1"
+      ],
+      "source_locator": "Revenue note / segment note"
+    },
+    {
+      "fact_id": "META.FY2024.rl_operating_income",
+      "ticker": "META",
+      "period_id": "FY2024",
+      "metric": "rl_operating_income",
+      "value": -17729,
+      "unit": "USD million",
+      "kind": "reported_fact",
+      "source_ids": [
+        "S1"
+      ],
+      "source_locator": "Revenue note / segment note"
+    },
+    {
+      "fact_id": "META.Q3_2025.advertising_revenue",
+      "ticker": "META",
+      "period_id": "Q3_2025",
+      "metric": "advertising_revenue",
+      "value": 50082,
+      "unit": "USD million",
+      "kind": "reported_fact",
+      "source_ids": [
+        "S3"
+      ],
+      "source_locator": "Revenue note / segment note"
+    },
+    {
+      "fact_id": "META.Q3_2025.foa_revenue",
+      "ticker": "META",
+      "period_id": "Q3_2025",
+      "metric": "foa_revenue",
+      "value": 50772,
+      "unit": "USD million",
+      "kind": "reported_fact",
+      "source_ids": [
+        "S3"
+      ],
+      "source_locator": "Revenue note / segment note"
+    },
+    {
+      "fact_id": "META.Q3_2025.rl_revenue",
+      "ticker": "META",
+      "period_id": "Q3_2025",
+      "metric": "rl_revenue",
+      "value": 470,
+      "unit": "USD million",
+      "kind": "reported_fact",
+      "source_ids": [
+        "S3"
+      ],
+      "source_locator": "Revenue note / segment note"
+    },
+    {
+      "fact_id": "META.Q3_2025.foa_operating_income",
+      "ticker": "META",
+      "period_id": "Q3_2025",
+      "metric": "foa_operating_income",
+      "value": 24967,
+      "unit": "USD million",
+      "kind": "reported_fact",
+      "source_ids": [
+        "S3"
+      ],
+      "source_locator": "Revenue note / segment note"
+    },
+    {
+      "fact_id": "META.Q3_2025.rl_operating_income",
+      "ticker": "META",
+      "period_id": "Q3_2025",
+      "metric": "rl_operating_income",
+      "value": -4432,
+      "unit": "USD million",
+      "kind": "reported_fact",
+      "source_ids": [
+        "S3"
+      ],
+      "source_locator": "Revenue note / segment note"
+    },
+    {
+      "fact_id": "META.Q3_2024.advertising_revenue",
+      "ticker": "META",
+      "period_id": "Q3_2024",
+      "metric": "advertising_revenue",
+      "value": 39885,
+      "unit": "USD million",
+      "kind": "reported_fact",
+      "source_ids": [
+        "S3"
+      ],
+      "source_locator": "Revenue note / segment note"
+    },
+    {
+      "fact_id": "META.Q3_2024.foa_revenue",
+      "ticker": "META",
+      "period_id": "Q3_2024",
+      "metric": "foa_revenue",
+      "value": 40319,
+      "unit": "USD million",
+      "kind": "reported_fact",
+      "source_ids": [
+        "S3"
+      ],
+      "source_locator": "Revenue note / segment note"
+    },
+    {
+      "fact_id": "META.Q3_2024.rl_revenue",
+      "ticker": "META",
+      "period_id": "Q3_2024",
+      "metric": "rl_revenue",
+      "value": 270,
+      "unit": "USD million",
+      "kind": "reported_fact",
+      "source_ids": [
+        "S3"
+      ],
+      "source_locator": "Revenue note / segment note"
+    },
+    {
+      "fact_id": "META.Q3_2024.foa_operating_income",
+      "ticker": "META",
+      "period_id": "Q3_2024",
+      "metric": "foa_operating_income",
+      "value": 21778,
+      "unit": "USD million",
+      "kind": "reported_fact",
+      "source_ids": [
+        "S3"
+      ],
+      "source_locator": "Revenue note / segment note"
+    },
+    {
+      "fact_id": "META.Q3_2024.rl_operating_income",
+      "ticker": "META",
+      "period_id": "Q3_2024",
+      "metric": "rl_operating_income",
+      "value": -4428,
+      "unit": "USD million",
+      "kind": "reported_fact",
+      "source_ids": [
+        "S3"
+      ],
+      "source_locator": "Revenue note / segment note"
+    },
+    {
+      "fact_id": "META.YTD9_2025.advertising_revenue",
+      "ticker": "META",
+      "period_id": "YTD9_2025",
+      "metric": "advertising_revenue",
+      "value": 138037,
+      "unit": "USD million",
+      "kind": "reported_fact",
+      "source_ids": [
+        "S3"
+      ],
+      "source_locator": "Revenue note / segment note"
+    },
+    {
+      "fact_id": "META.YTD9_2025.foa_revenue",
+      "ticker": "META",
+      "period_id": "YTD9_2025",
+      "metric": "foa_revenue",
+      "value": 139821,
+      "unit": "USD million",
+      "kind": "reported_fact",
+      "source_ids": [
+        "S3"
+      ],
+      "source_locator": "Revenue note / segment note"
+    },
+    {
+      "fact_id": "META.YTD9_2025.rl_revenue",
+      "ticker": "META",
+      "period_id": "YTD9_2025",
+      "metric": "rl_revenue",
+      "value": 1252,
+      "unit": "USD million",
+      "kind": "reported_fact",
+      "source_ids": [
+        "S3"
+      ],
+      "source_locator": "Revenue note / segment note"
+    },
+    {
+      "fact_id": "META.YTD9_2025.foa_operating_income",
+      "ticker": "META",
+      "period_id": "YTD9_2025",
+      "metric": "foa_operating_income",
+      "value": 71702,
+      "unit": "USD million",
+      "kind": "reported_fact",
+      "source_ids": [
+        "S3"
+      ],
+      "source_locator": "Revenue note / segment note"
+    },
+    {
+      "fact_id": "META.YTD9_2025.rl_operating_income",
+      "ticker": "META",
+      "period_id": "YTD9_2025",
+      "metric": "rl_operating_income",
+      "value": -13171,
+      "unit": "USD million",
+      "kind": "reported_fact",
+      "source_ids": [
+        "S3"
+      ],
+      "source_locator": "Revenue note / segment note"
+    },
+    {
+      "fact_id": "META.YTD9_2024.advertising_revenue",
+      "ticker": "META",
+      "period_id": "YTD9_2024",
+      "metric": "advertising_revenue",
+      "value": 113850,
+      "unit": "USD million",
+      "kind": "reported_fact",
+      "source_ids": [
+        "S3"
+      ],
+      "source_locator": "Revenue note / segment note"
+    },
+    {
+      "fact_id": "META.YTD9_2024.foa_revenue",
+      "ticker": "META",
+      "period_id": "YTD9_2024",
+      "metric": "foa_revenue",
+      "value": 115053,
+      "unit": "USD million",
+      "kind": "reported_fact",
+      "source_ids": [
+        "S3"
+      ],
+      "source_locator": "Revenue note / segment note"
+    },
+    {
+      "fact_id": "META.YTD9_2024.rl_revenue",
+      "ticker": "META",
+      "period_id": "YTD9_2024",
+      "metric": "rl_revenue",
+      "value": 1063,
+      "unit": "USD million",
+      "kind": "reported_fact",
+      "source_ids": [
+        "S3"
+      ],
+      "source_locator": "Revenue note / segment note"
+    },
+    {
+      "fact_id": "META.YTD9_2024.foa_operating_income",
+      "ticker": "META",
+      "period_id": "YTD9_2024",
+      "metric": "foa_operating_income",
+      "value": 58778,
+      "unit": "USD million",
+      "kind": "reported_fact",
+      "source_ids": [
+        "S3"
+      ],
+      "source_locator": "Revenue note / segment note"
+    },
+    {
+      "fact_id": "META.YTD9_2024.rl_operating_income",
+      "ticker": "META",
+      "period_id": "YTD9_2024",
+      "metric": "rl_operating_income",
+      "value": -12762,
+      "unit": "USD million",
+      "kind": "reported_fact",
+      "source_ids": [
+        "S3"
+      ],
+      "source_locator": "Revenue note / segment note"
+    },
+    {
+      "fact_id": "META.Q3_2025.dap",
+      "ticker": "META",
+      "period_id": "Q3_2025",
+      "metric": "dap",
+      "value": 3.54,
+      "unit": "people billion, September daily average",
+      "kind": "reported_fact",
+      "source_ids": [
+        "S3"
+      ],
+      "source_locator": "Family metrics pp37-39 / executive overview"
+    },
+    {
+      "fact_id": "META.Q3_2025.dap_growth_yoy",
+      "ticker": "META",
+      "period_id": "Q3_2025",
+      "metric": "dap_growth_yoy",
+      "value": 8,
+      "unit": "percent",
+      "kind": "reported_fact",
+      "source_ids": [
+        "S3"
+      ],
+      "source_locator": "Family metrics pp37-39 / executive overview"
+    },
+    {
+      "fact_id": "META.Q3_2025.ad_impressions_growth_yoy",
+      "ticker": "META",
+      "period_id": "Q3_2025",
+      "metric": "ad_impressions_growth_yoy",
+      "value": 14,
+      "unit": "percent",
+      "kind": "reported_fact",
+      "source_ids": [
+        "S3"
+      ],
+      "source_locator": "Family metrics pp37-39 / executive overview"
+    },
+    {
+      "fact_id": "META.Q3_2025.average_ad_price_growth_yoy",
+      "ticker": "META",
+      "period_id": "Q3_2025",
+      "metric": "average_ad_price_growth_yoy",
+      "value": 10,
+      "unit": "percent",
+      "kind": "reported_fact",
+      "source_ids": [
+        "S3"
+      ],
+      "source_locator": "Family metrics pp37-39 / executive overview"
+    },
+    {
+      "fact_id": "META.Q3_2025.arpp",
+      "ticker": "META",
+      "period_id": "Q3_2025",
+      "metric": "arpp",
+      "value": 14.46,
+      "unit": "USD/person/quarter",
+      "kind": "reported_fact",
+      "source_ids": [
+        "S3"
+      ],
+      "source_locator": "Family metrics pp37-39 / executive overview"
+    },
+    {
+      "fact_id": "META.Q3_2025.arpp_growth_yoy",
+      "ticker": "META",
+      "period_id": "Q3_2025",
+      "metric": "arpp_growth_yoy",
+      "value": 18,
+      "unit": "percent",
+      "kind": "reported_fact",
+      "source_ids": [
+        "S3"
+      ],
+      "source_locator": "Family metrics pp37-39 / executive overview"
+    },
+    {
+      "fact_id": "META.Q3_2024.dap",
+      "ticker": "META",
+      "period_id": "Q3_2024",
+      "metric": "dap",
+      "value": 3.29,
+      "unit": "people billion, September daily average",
+      "kind": "reported_fact",
+      "source_ids": [
+        "S3"
+      ],
+      "source_locator": "Family metrics"
+    },
+    {
+      "fact_id": "META.Q3_2024.arpp",
+      "ticker": "META",
+      "period_id": "Q3_2024",
+      "metric": "arpp",
+      "value": 12.29,
+      "unit": "USD/person/quarter",
+      "kind": "reported_fact",
+      "source_ids": [
+        "S3"
+      ],
+      "source_locator": "Family metrics"
+    },
+    {
+      "fact_id": "META.Q3_2025.one_time_noncash_tax_charge",
+      "ticker": "META",
+      "period_id": "Q3_2025",
+      "metric": "one_time_noncash_tax_charge",
+      "value": 15930,
+      "unit": "USD million",
+      "kind": "reported_fact",
+      "source_ids": [
+        "S2"
+      ],
+      "source_locator": "Tax charge disclosure",
+      "note": "Reported tax valuation-allowance charge. Does not represent a Q3 cash payment."
+    },
+    {
+      "fact_id": "META.Q3_2025.company_tax_charge_excluded_net_income",
+      "ticker": "META",
+      "period_id": "Q3_2025",
+      "metric": "company_tax_charge_excluded_net_income",
+      "value": 18640,
+      "unit": "USD million",
+      "kind": "company_counterfactual",
+      "source_ids": [
+        "S2"
+      ],
+      "source_locator": "Tax charge disclosure",
+      "note": "Rounded company figure excluding this one charge; not a fully normalized analyst earnings estimate."
+    },
+    {
+      "fact_id": "META.Q3_2025.company_tax_charge_excluded_diluted_eps",
+      "ticker": "META",
+      "period_id": "Q3_2025",
+      "metric": "company_tax_charge_excluded_diluted_eps",
+      "value": 7.25,
+      "unit": "USD/share",
+      "kind": "company_counterfactual",
+      "source_ids": [
+        "S2"
+      ],
+      "source_locator": "Tax charge disclosure"
+    },
+    {
+      "fact_id": "META.YTD9_2025.deferred_income_tax_cashflow_adjustment",
+      "ticker": "META",
+      "period_id": "YTD9_2025",
+      "metric": "deferred_income_tax_cashflow_adjustment",
+      "value": 17704,
+      "unit": "USD million",
+      "kind": "reported_fact",
+      "source_ids": [
+        "S3"
+      ],
+      "source_locator": "Cash flow statement"
+    },
+    {
+      "fact_id": "META.YTD9_2025.cash_taxes_paid",
+      "ticker": "META",
+      "period_id": "YTD9_2025",
+      "metric": "cash_taxes_paid",
+      "value": 6293,
+      "unit": "USD million",
+      "kind": "reported_fact",
+      "source_ids": [
+        "S3"
+      ],
+      "source_locator": "Cash flow supplement p11"
+    },
+    {
+      "fact_id": "META.YTD9_2025.taxes_paid_for_net_share_settlement",
+      "ticker": "META",
+      "period_id": "YTD9_2025",
+      "metric": "taxes_paid_for_net_share_settlement",
+      "value": 14128,
+      "unit": "USD million",
+      "kind": "reported_fact",
+      "source_ids": [
+        "S3"
+      ],
+      "source_locator": "Cash flow statement",
+      "note": "Financing cash outflow, outside company FCF; do not conflate with income-tax expense or double-count with SBC automatically."
+    },
+    {
+      "fact_id": "META.YTD9_2025.cash_nonmarketable_equity_investments",
+      "ticker": "META",
+      "period_id": "YTD9_2025",
+      "metric": "cash_nonmarketable_equity_investments",
+      "value": 18260,
+      "unit": "USD million",
+      "kind": "reported_fact",
+      "source_ids": [
+        "S3"
+      ],
+      "source_locator": "Cash flow statement",
+      "note": "Outside company FCF."
+    },
+    {
+      "fact_id": "META.YTD9_2025.server_life_change_da_reduction",
+      "ticker": "META",
+      "period_id": "YTD9_2025",
+      "metric": "server_life_change_da_reduction",
+      "value": 2290,
+      "unit": "USD million",
+      "kind": "reported_fact",
+      "source_ids": [
+        "S3"
+      ],
+      "source_locator": "Note 1 Use of Estimates",
+      "note": "Increase in useful life of most servers/network assets to 5.5 years, effective Jan 1, 2025. Based on assets in service Dec 31, 2024."
+    },
+    {
+      "fact_id": "META.YTD9_2025.server_life_change_net_income_increase",
+      "ticker": "META",
+      "period_id": "YTD9_2025",
+      "metric": "server_life_change_net_income_increase",
+      "value": 1960,
+      "unit": "USD million",
+      "kind": "reported_fact",
+      "source_ids": [
+        "S3"
+      ],
+      "source_locator": "Note 1 Use of Estimates",
+      "note": "Company-disclosed accounting-estimate impact, not a cash benefit."
+    },
+    {
+      "fact_id": "META.Q3_2025.rd_expense",
+      "ticker": "META",
+      "period_id": "Q3_2025",
+      "metric": "rd_expense",
+      "value": 15144,
+      "unit": "USD million",
+      "kind": "reported_fact",
+      "source_ids": [
+        "S2"
+      ],
+      "source_locator": "Income statement"
+    },
+    {
+      "fact_id": "META.YTD9_2025.rd_expense",
+      "ticker": "META",
+      "period_id": "YTD9_2025",
+      "metric": "rd_expense",
+      "value": 40237,
+      "unit": "USD million",
+      "kind": "reported_fact",
+      "source_ids": [
+        "S3"
+      ],
+      "source_locator": "Income statement"
+    },
+    {
+      "fact_id": "META.FY2024.rd_expense",
+      "ticker": "META",
+      "period_id": "FY2024",
+      "metric": "rd_expense",
+      "value": 43873,
+      "unit": "USD million",
+      "kind": "reported_fact",
+      "source_ids": [
+        "S1"
+      ],
+      "source_locator": "Income statement"
+    },
+    {
+      "fact_id": "META.SHARES_2025_10_24.class_a_shares_outstanding",
+      "ticker": "META",
+      "period_id": "SHARES_2025_10_24",
+      "metric": "class_a_shares_outstanding",
+      "value": 2177889269,
+      "unit": "shares",
+      "kind": "reported_fact",
+      "source_ids": [
+        "S3"
+      ],
+      "source_locator": "Cover page"
+    },
+    {
+      "fact_id": "META.SHARES_2025_10_24.class_b_shares_outstanding",
+      "ticker": "META",
+      "period_id": "SHARES_2025_10_24",
+      "metric": "class_b_shares_outstanding",
+      "value": 342638328,
+      "unit": "shares",
+      "kind": "reported_fact",
+      "source_ids": [
+        "S3"
+      ],
+      "source_locator": "Cover page"
+    },
+    {
+      "fact_id": "META.SHARES_2025_10_24.total_actual_shares_outstanding",
+      "ticker": "META",
+      "period_id": "SHARES_2025_10_24",
+      "metric": "total_actual_shares_outstanding",
+      "value": 2520527597,
+      "unit": "shares",
+      "kind": "derived_fact",
+      "source_ids": [
+        "S3"
+      ],
+      "source_locator": "Cover page",
+      "formula": "2177889269 + 342638328",
+      "input_fact_ids": [
+        "META.SHARES_2025_10_24.class_a_shares_outstanding",
+        "META.SHARES_2025_10_24.class_b_shares_outstanding"
+      ]
+    },
+    {
+      "fact_id": "META.PRICE_2025_12_31.raw_close",
+      "ticker": "META",
+      "period_id": "PRICE_2025_12_31",
+      "metric": "raw_close",
+      "value": 660.09,
+      "unit": "USD/share",
+      "kind": "reported_fact",
+      "source_ids": [
+        "S6"
+      ],
+      "source_locator": "Historical row: date, open 664.75, high 665.00, low 659.44, close 660.09, volume 7940400",
+      "note": "Raw close only. Adjusted close is excluded; currently retrieved secondary source; no contemporaneous archived-page claim."
+    },
+    {
+      "fact_id": "META.BS_Q3_2025.bond_debt_face_amount",
+      "ticker": "META",
+      "period_id": "BS_Q3_2025",
+      "metric": "bond_debt_face_amount",
+      "value": 29000,
+      "unit": "USD million",
+      "kind": "reported_fact",
+      "source_ids": [
+        "S3"
+      ],
+      "source_locator": "MD&A Long-term Debt p48"
+    },
+    {
+      "fact_id": "META.EVENT_2025_11_03.new_bond_principal",
+      "ticker": "META",
+      "period_id": "EVENT_2025_11_03",
+      "metric": "new_bond_principal",
+      "value": 30000,
+      "unit": "USD million",
+      "kind": "reported_fact",
+      "source_ids": [
+        "S7"
+      ],
+      "source_locator": "Item 8.01",
+      "note": "Completed Nov 3, 2025. Six tranches totaling $30b. Cannot infer December cash from gross borrowing."
+    },
+    {
+      "fact_id": "META.EVENT_2025_11_03.bond_face_amount_after_new_issue",
+      "ticker": "META",
+      "period_id": "EVENT_2025_11_03",
+      "metric": "bond_face_amount_after_new_issue",
+      "value": 59000,
+      "unit": "USD million",
+      "kind": "derived_fact",
+      "source_ids": [
+        "S3",
+        "S7"
+      ],
+      "source_locator": "Event bridge",
+      "note": "Face-amount reconstruction immediately after issue, assuming no other retirement; not a reported Dec 31 carrying amount.",
+      "formula": "29000 + 30000",
+      "input_fact_ids": [
+        "META.BS_Q3_2025.bond_debt_face_amount",
+        "META.EVENT_2025_11_03.new_bond_principal"
+      ]
+    },
+    {
+      "fact_id": "META.BS_Q3_2025.not_yet_commenced_leases",
+      "ticker": "META",
+      "period_id": "BS_Q3_2025",
+      "metric": "not_yet_commenced_leases",
+      "value": 58140,
+      "unit": "USD million",
+      "kind": "reported_fact",
+      "source_ids": [
+        "S3"
+      ],
+      "source_locator": "Note 9 p20",
+      "note": "As of September 30; operating and finance leases, mostly infrastructure."
+    },
+    {
+      "fact_id": "META.BS_Q3_2025.noncancelable_commitments",
+      "ticker": "META",
+      "period_id": "BS_Q3_2025",
+      "metric": "noncancelable_commitments",
+      "value": 81190,
+      "unit": "USD million",
+      "kind": "reported_fact",
+      "source_ids": [
+        "S3"
+      ],
+      "source_locator": "Note 9 p20",
+      "note": "As of September 30; cloud, infrastructure, hardware and data centers. Do not add blindly to lease totals; scopes may differ."
+    },
+    {
+      "fact_id": "META.BS_Q3_2025.october_new_cloud_arrangements",
+      "ticker": "META",
+      "period_id": "BS_Q3_2025",
+      "metric": "october_new_cloud_arrangements",
+      "value": 40000,
+      "unit": "USD million",
+      "kind": "reported_fact",
+      "source_ids": [
+        "S3"
+      ],
+      "source_locator": "Note 9 p20",
+      "note": "October subsequent event disclosed in Q3 filing; approximate multi-year aggregate."
+    },
+    {
+      "fact_id": "META.BS_Q3_2025.jv_initial_lease_commitment",
+      "ticker": "META",
+      "period_id": "BS_Q3_2025",
+      "metric": "jv_initial_lease_commitment",
+      "value": 12300,
+      "unit": "USD million",
+      "kind": "reported_fact",
+      "source_ids": [
+        "S3"
+      ],
+      "source_locator": "Note 13 p31",
+      "note": "October Blue Owl affiliate JV. Leases commence 2029; initial four-year term with renewal options up to 20 years."
+    },
+    {
+      "fact_id": "META.BS_Q3_2025.jv_residual_value_guarantee_initial_threshold",
+      "ticker": "META",
+      "period_id": "BS_Q3_2025",
+      "metric": "jv_residual_value_guarantee_initial_threshold",
+      "value": 28000,
+      "unit": "USD million",
+      "kind": "reported_fact",
+      "source_ids": [
+        "S3"
+      ],
+      "source_locator": "Note 13 p31",
+      "note": "Conditional capped cash payment based on shortfall after nonrenewal/termination; threshold decreases over time. This is not $28b debt currently owed."
+    },
+    {
+      "fact_id": "META.BS_Q3_2025.jv_one_time_distribution",
+      "ticker": "META",
+      "period_id": "BS_Q3_2025",
+      "metric": "jv_one_time_distribution",
+      "value": 2600,
+      "unit": "USD million",
+      "kind": "reported_fact",
+      "source_ids": [
+        "S3"
+      ],
+      "source_locator": "Note 13 p31",
+      "note": "October closing distribution; no inferred December cash balance."
+    },
+    {
+      "fact_id": "META.GUIDANCE_2025_10_29.q4_revenue_guidance",
+      "ticker": "META",
+      "period_id": "GUIDANCE_2025_10_29",
+      "metric": "q4_revenue_guidance",
+      "value": [
+        56000,
+        59000
+      ],
+      "unit": "USD million",
+      "kind": "management_guidance",
+      "source_ids": [
+        "S2"
+      ],
+      "source_locator": "CFO outlook",
+      "note": "Forecast published Oct 29, 2025; not a realized full-year result."
+    },
+    {
+      "fact_id": "META.GUIDANCE_2025_10_29.fy2025_expense_guidance",
+      "ticker": "META",
+      "period_id": "GUIDANCE_2025_10_29",
+      "metric": "fy2025_expense_guidance",
+      "value": [
+        116000,
+        118000
+      ],
+      "unit": "USD million",
+      "kind": "management_guidance",
+      "source_ids": [
+        "S2"
+      ],
+      "source_locator": "CFO outlook",
+      "note": "Forecast published Oct 29, 2025; not a realized full-year result."
+    },
+    {
+      "fact_id": "META.GUIDANCE_2025_10_29.fy2025_cash_capex_guidance",
+      "ticker": "META",
+      "period_id": "GUIDANCE_2025_10_29",
+      "metric": "fy2025_cash_capex_guidance",
+      "value": [
+        70000,
+        72000
+      ],
+      "unit": "USD million",
+      "kind": "management_guidance",
+      "source_ids": [
+        "S2"
+      ],
+      "source_locator": "CFO outlook",
+      "note": "Forecast published Oct 29, 2025; not a realized full-year result."
+    },
+    {
+      "fact_id": "META.GUIDANCE_2025_10_29.q4_tax_rate_guidance",
+      "ticker": "META",
+      "period_id": "GUIDANCE_2025_10_29",
+      "metric": "q4_tax_rate_guidance",
+      "value": [
+        12,
+        15
+      ],
+      "unit": "percent",
+      "kind": "management_guidance",
+      "source_ids": [
+        "S2"
+      ],
+      "source_locator": "CFO outlook",
+      "note": "Forecast published Oct 29, 2025; not a realized full-year result."
+    },
+    {
+      "fact_id": "META.GUIDANCE_2025_10_29.2026_spending_direction",
+      "ticker": "META",
+      "period_id": "GUIDANCE_2025_10_29",
+      "metric": "2026_spending_direction",
+      "value": "Capex dollar growth expected notably larger than 2025; total expense percentage growth expected significantly faster than 2025. No numerical 2026 budget supplied.",
+      "unit": "qualitative",
+      "kind": "management_guidance",
+      "source_ids": [
+        "S2"
+      ],
+      "source_locator": "CFO outlook"
+    },
+    {
+      "fact_id": "META.FY2020.operating_margin",
+      "ticker": "META",
+      "period_id": "FY2020",
+      "metric": "operating_margin",
+      "value": 38.005002,
+      "unit": "percent",
+      "kind": "derived_fact",
+      "source_ids": [
+        "S4"
+      ],
+      "source_locator": "Mechanical ratio",
+      "formula": "operating_income / revenue * 100",
+      "input_fact_ids": [
+        "META.FY2020.operating_income",
+        "META.FY2020.revenue"
+      ]
+    },
+    {
+      "fact_id": "META.FY2020.company_fcf_margin",
+      "ticker": "META",
+      "period_id": "FY2020",
+      "metric": "company_fcf_margin",
+      "value": 26.787646,
+      "unit": "percent",
+      "kind": "derived_fact",
+      "source_ids": [
+        "S4"
+      ],
+      "source_locator": "Mechanical ratio",
+      "formula": "company_fcf / revenue * 100",
+      "input_fact_ids": [
+        "META.FY2020.company_fcf",
+        "META.FY2020.revenue"
+      ]
+    },
+    {
+      "fact_id": "META.FY2020.cash_capex_revenue_ratio",
+      "ticker": "META",
+      "period_id": "FY2020",
+      "metric": "cash_capex_revenue_ratio",
+      "value": 18.285349,
+      "unit": "percent",
+      "kind": "derived_fact",
+      "source_ids": [
+        "S4"
+      ],
+      "source_locator": "Mechanical ratio",
+      "formula": "cash_capex_including_finance_leases / revenue * 100",
+      "input_fact_ids": [
+        "META.FY2020.cash_capex_including_finance_leases",
+        "META.FY2020.revenue"
+      ]
+    },
+    {
+      "fact_id": "META.FY2020.sbc_revenue_ratio",
+      "ticker": "META",
+      "period_id": "FY2020",
+      "metric": "sbc_revenue_ratio",
+      "value": 7.603094,
+      "unit": "percent",
+      "kind": "derived_fact",
+      "source_ids": [
+        "S4"
+      ],
+      "source_locator": "Mechanical ratio",
+      "formula": "sbc / revenue * 100",
+      "input_fact_ids": [
+        "META.FY2020.sbc",
+        "META.FY2020.revenue"
+      ]
+    },
+    {
+      "fact_id": "META.FY2020.gross_margin",
+      "ticker": "META",
+      "period_id": "FY2020",
+      "metric": "gross_margin",
+      "value": 80.582795,
+      "unit": "percent",
+      "kind": "derived_fact",
+      "source_ids": [
+        "S4"
+      ],
+      "source_locator": "Mechanical ratio",
+      "formula": "(revenue - cost_of_revenue) / revenue * 100",
+      "input_fact_ids": [
+        "META.FY2020.cost_of_revenue",
+        "META.FY2020.revenue"
+      ]
+    },
+    {
+      "fact_id": "META.FY2021.operating_margin",
+      "ticker": "META",
+      "period_id": "FY2021",
+      "metric": "operating_margin",
+      "value": 39.645041,
+      "unit": "percent",
+      "kind": "derived_fact",
+      "source_ids": [
+        "S4"
+      ],
+      "source_locator": "Mechanical ratio",
+      "formula": "operating_income / revenue * 100",
+      "input_fact_ids": [
+        "META.FY2021.operating_income",
+        "META.FY2021.revenue"
+      ]
+    },
+    {
+      "fact_id": "META.FY2021.company_fcf_margin",
+      "ticker": "META",
+      "period_id": "FY2021",
+      "metric": "company_fcf_margin",
+      "value": 32.595036,
+      "unit": "percent",
+      "kind": "derived_fact",
+      "source_ids": [
+        "S4"
+      ],
+      "source_locator": "Mechanical ratio",
+      "formula": "company_fcf / revenue * 100",
+      "input_fact_ids": [
+        "META.FY2021.company_fcf",
+        "META.FY2021.revenue"
+      ]
+    },
+    {
+      "fact_id": "META.FY2021.cash_capex_revenue_ratio",
+      "ticker": "META",
+      "period_id": "FY2021",
+      "metric": "cash_capex_revenue_ratio",
+      "value": 16.318293,
+      "unit": "percent",
+      "kind": "derived_fact",
+      "source_ids": [
+        "S4"
+      ],
+      "source_locator": "Mechanical ratio",
+      "formula": "cash_capex_including_finance_leases / revenue * 100",
+      "input_fact_ids": [
+        "META.FY2021.cash_capex_including_finance_leases",
+        "META.FY2021.revenue"
+      ]
+    },
+    {
+      "fact_id": "META.FY2021.sbc_revenue_ratio",
+      "ticker": "META",
+      "period_id": "FY2021",
+      "metric": "sbc_revenue_ratio",
+      "value": 7.770777,
+      "unit": "percent",
+      "kind": "derived_fact",
+      "source_ids": [
+        "S4"
+      ],
+      "source_locator": "Mechanical ratio",
+      "formula": "sbc / revenue * 100",
+      "input_fact_ids": [
+        "META.FY2021.sbc",
+        "META.FY2021.revenue"
+      ]
+    },
+    {
+      "fact_id": "META.FY2021.gross_margin",
+      "ticker": "META",
+      "period_id": "FY2021",
+      "metric": "gross_margin",
+      "value": 80.794376,
+      "unit": "percent",
+      "kind": "derived_fact",
+      "source_ids": [
+        "S4"
+      ],
+      "source_locator": "Mechanical ratio",
+      "formula": "(revenue - cost_of_revenue) / revenue * 100",
+      "input_fact_ids": [
+        "META.FY2021.cost_of_revenue",
+        "META.FY2021.revenue"
+      ]
+    },
+    {
+      "fact_id": "META.FY2022.operating_margin",
+      "ticker": "META",
+      "period_id": "FY2022",
+      "metric": "operating_margin",
+      "value": 24.821412,
+      "unit": "percent",
+      "kind": "derived_fact",
+      "source_ids": [
+        "S4"
+      ],
+      "source_locator": "Mechanical ratio",
+      "formula": "operating_income / revenue * 100",
+      "input_fact_ids": [
+        "META.FY2022.operating_income",
+        "META.FY2022.revenue"
+      ]
+    },
+    {
+      "fact_id": "META.FY2022.company_fcf_margin",
+      "ticker": "META",
+      "period_id": "FY2022",
+      "metric": "company_fcf_margin",
+      "value": 15.812673,
+      "unit": "percent",
+      "kind": "derived_fact",
+      "source_ids": [
+        "S4"
+      ],
+      "source_locator": "Mechanical ratio",
+      "formula": "company_fcf / revenue * 100",
+      "input_fact_ids": [
+        "META.FY2022.company_fcf",
+        "META.FY2022.revenue"
+      ]
+    },
+    {
+      "fact_id": "META.FY2022.cash_capex_revenue_ratio",
+      "ticker": "META",
+      "period_id": "FY2022",
+      "metric": "cash_capex_revenue_ratio",
+      "value": 27.473008,
+      "unit": "percent",
+      "kind": "derived_fact",
+      "source_ids": [
+        "S4"
+      ],
+      "source_locator": "Mechanical ratio",
+      "formula": "cash_capex_including_finance_leases / revenue * 100",
+      "input_fact_ids": [
+        "META.FY2022.cash_capex_including_finance_leases",
+        "META.FY2022.revenue"
+      ]
+    },
+    {
+      "fact_id": "META.FY2022.sbc_revenue_ratio",
+      "ticker": "META",
+      "period_id": "FY2022",
+      "metric": "sbc_revenue_ratio",
+      "value": 10.28394,
+      "unit": "percent",
+      "kind": "derived_fact",
+      "source_ids": [
+        "S4"
+      ],
+      "source_locator": "Mechanical ratio",
+      "formula": "sbc / revenue * 100",
+      "input_fact_ids": [
+        "META.FY2022.sbc",
+        "META.FY2022.revenue"
+      ]
+    },
+    {
+      "fact_id": "META.FY2022.gross_margin",
+      "ticker": "META",
+      "period_id": "FY2022",
+      "metric": "gross_margin",
+      "value": 78.347297,
+      "unit": "percent",
+      "kind": "derived_fact",
+      "source_ids": [
+        "S4"
+      ],
+      "source_locator": "Mechanical ratio",
+      "formula": "(revenue - cost_of_revenue) / revenue * 100",
+      "input_fact_ids": [
+        "META.FY2022.cost_of_revenue",
+        "META.FY2022.revenue"
+      ]
+    },
+    {
+      "fact_id": "META.FY2023.operating_margin",
+      "ticker": "META",
+      "period_id": "FY2023",
+      "metric": "operating_margin",
+      "value": 34.655528,
+      "unit": "percent",
+      "kind": "derived_fact",
+      "source_ids": [
+        "S1"
+      ],
+      "source_locator": "Mechanical ratio",
+      "formula": "operating_income / revenue * 100",
+      "input_fact_ids": [
+        "META.FY2023.operating_income",
+        "META.FY2023.revenue"
+      ]
+    },
+    {
+      "fact_id": "META.FY2023.company_fcf_margin",
+      "ticker": "META",
+      "period_id": "FY2023",
+      "metric": "company_fcf_margin",
+      "value": 31.882404,
+      "unit": "percent",
+      "kind": "derived_fact",
+      "source_ids": [
+        "S5"
+      ],
+      "source_locator": "Mechanical ratio",
+      "formula": "company_fcf / revenue * 100",
+      "input_fact_ids": [
+        "META.FY2023.company_fcf",
+        "META.FY2023.revenue"
+      ]
+    },
+    {
+      "fact_id": "META.FY2023.cash_capex_revenue_ratio",
+      "ticker": "META",
+      "period_id": "FY2023",
+      "metric": "cash_capex_revenue_ratio",
+      "value": 20.83216,
+      "unit": "percent",
+      "kind": "derived_fact",
+      "source_ids": [
+        "S1"
+      ],
+      "source_locator": "Mechanical ratio",
+      "formula": "cash_capex_including_finance_leases / revenue * 100",
+      "input_fact_ids": [
+        "META.FY2023.cash_capex_including_finance_leases",
+        "META.FY2023.revenue"
+      ]
+    },
+    {
+      "fact_id": "META.FY2023.sbc_revenue_ratio",
+      "ticker": "META",
+      "period_id": "FY2023",
+      "metric": "sbc_revenue_ratio",
+      "value": 10.397918,
+      "unit": "percent",
+      "kind": "derived_fact",
+      "source_ids": [
+        "S1"
+      ],
+      "source_locator": "Mechanical ratio",
+      "formula": "sbc / revenue * 100",
+      "input_fact_ids": [
+        "META.FY2023.sbc",
+        "META.FY2023.revenue"
+      ]
+    },
+    {
+      "fact_id": "META.FY2023.gross_margin",
+      "ticker": "META",
+      "period_id": "FY2023",
+      "metric": "gross_margin",
+      "value": 80.757142,
+      "unit": "percent",
+      "kind": "derived_fact",
+      "source_ids": [
+        "S1"
+      ],
+      "source_locator": "Mechanical ratio",
+      "formula": "(revenue - cost_of_revenue) / revenue * 100",
+      "input_fact_ids": [
+        "META.FY2023.cost_of_revenue",
+        "META.FY2023.revenue"
+      ]
+    },
+    {
+      "fact_id": "META.FY2024.operating_margin",
+      "ticker": "META",
+      "period_id": "FY2024",
+      "metric": "operating_margin",
+      "value": 42.176035,
+      "unit": "percent",
+      "kind": "derived_fact",
+      "source_ids": [
+        "S1"
+      ],
+      "source_locator": "Mechanical ratio",
+      "formula": "operating_income / revenue * 100",
+      "input_fact_ids": [
+        "META.FY2024.operating_income",
+        "META.FY2024.revenue"
+      ]
+    },
+    {
+      "fact_id": "META.FY2024.company_fcf_margin",
+      "ticker": "META",
+      "period_id": "FY2024",
+      "metric": "company_fcf_margin",
+      "value": 31.673364,
+      "unit": "percent",
+      "kind": "derived_fact",
+      "source_ids": [
+        "S5"
+      ],
+      "source_locator": "Mechanical ratio",
+      "formula": "company_fcf / revenue * 100",
+      "input_fact_ids": [
+        "META.FY2024.company_fcf",
+        "META.FY2024.revenue"
+      ]
+    },
+    {
+      "fact_id": "META.FY2024.cash_capex_revenue_ratio",
+      "ticker": "META",
+      "period_id": "FY2024",
+      "metric": "cash_capex_revenue_ratio",
+      "value": 23.84484,
+      "unit": "percent",
+      "kind": "derived_fact",
+      "source_ids": [
+        "S1"
+      ],
+      "source_locator": "Mechanical ratio",
+      "formula": "cash_capex_including_finance_leases / revenue * 100",
+      "input_fact_ids": [
+        "META.FY2024.cash_capex_including_finance_leases",
+        "META.FY2024.revenue"
+      ]
+    },
+    {
+      "fact_id": "META.FY2024.sbc_revenue_ratio",
+      "ticker": "META",
+      "period_id": "FY2024",
+      "metric": "sbc_revenue_ratio",
+      "value": 10.145835,
+      "unit": "percent",
+      "kind": "derived_fact",
+      "source_ids": [
+        "S1"
+      ],
+      "source_locator": "Mechanical ratio",
+      "formula": "sbc / revenue * 100",
+      "input_fact_ids": [
+        "META.FY2024.sbc",
+        "META.FY2024.revenue"
+      ]
+    },
+    {
+      "fact_id": "META.FY2024.gross_margin",
+      "ticker": "META",
+      "period_id": "FY2024",
+      "metric": "gross_margin",
+      "value": 81.665157,
+      "unit": "percent",
+      "kind": "derived_fact",
+      "source_ids": [
+        "S1"
+      ],
+      "source_locator": "Mechanical ratio",
+      "formula": "(revenue - cost_of_revenue) / revenue * 100",
+      "input_fact_ids": [
+        "META.FY2024.cost_of_revenue",
+        "META.FY2024.revenue"
+      ]
+    },
+    {
+      "fact_id": "META.Q3_2024.operating_margin",
+      "ticker": "META",
+      "period_id": "Q3_2024",
+      "metric": "operating_margin",
+      "value": 42.745571,
+      "unit": "percent",
+      "kind": "derived_fact",
+      "source_ids": [
+        "S2"
+      ],
+      "source_locator": "Mechanical ratio",
+      "formula": "operating_income / revenue * 100",
+      "input_fact_ids": [
+        "META.Q3_2024.operating_income",
+        "META.Q3_2024.revenue"
+      ]
+    },
+    {
+      "fact_id": "META.Q3_2024.company_fcf_margin",
+      "ticker": "META",
+      "period_id": "Q3_2024",
+      "metric": "company_fcf_margin",
+      "value": 38.241888,
+      "unit": "percent",
+      "kind": "derived_fact",
+      "source_ids": [
+        "S2"
+      ],
+      "source_locator": "Mechanical ratio",
+      "formula": "company_fcf / revenue * 100",
+      "input_fact_ids": [
+        "META.Q3_2024.company_fcf",
+        "META.Q3_2024.revenue"
+      ]
+    },
+    {
+      "fact_id": "META.Q3_2024.cash_capex_revenue_ratio",
+      "ticker": "META",
+      "period_id": "Q3_2024",
+      "metric": "cash_capex_revenue_ratio",
+      "value": 22.671167,
+      "unit": "percent",
+      "kind": "derived_fact",
+      "source_ids": [
+        "S2"
+      ],
+      "source_locator": "Mechanical ratio",
+      "formula": "cash_capex_including_finance_leases / revenue * 100",
+      "input_fact_ids": [
+        "META.Q3_2024.cash_capex_including_finance_leases",
+        "META.Q3_2024.revenue"
+      ]
+    },
+    {
+      "fact_id": "META.Q3_2024.sbc_revenue_ratio",
+      "ticker": "META",
+      "period_id": "Q3_2024",
+      "metric": "sbc_revenue_ratio",
+      "value": 10.470817,
+      "unit": "percent",
+      "kind": "derived_fact",
+      "source_ids": [
+        "S2"
+      ],
+      "source_locator": "Mechanical ratio",
+      "formula": "sbc / revenue * 100",
+      "input_fact_ids": [
+        "META.Q3_2024.sbc",
+        "META.Q3_2024.revenue"
+      ]
+    },
+    {
+      "fact_id": "META.Q3_2024.gross_margin",
+      "ticker": "META",
+      "period_id": "Q3_2024",
+      "metric": "gross_margin",
+      "value": 81.830052,
+      "unit": "percent",
+      "kind": "derived_fact",
+      "source_ids": [
+        "S2"
+      ],
+      "source_locator": "Mechanical ratio",
+      "formula": "(revenue - cost_of_revenue) / revenue * 100",
+      "input_fact_ids": [
+        "META.Q3_2024.cost_of_revenue",
+        "META.Q3_2024.revenue"
+      ]
+    },
+    {
+      "fact_id": "META.Q3_2025.operating_margin",
+      "ticker": "META",
+      "period_id": "Q3_2025",
+      "metric": "operating_margin",
+      "value": 40.074548,
+      "unit": "percent",
+      "kind": "derived_fact",
+      "source_ids": [
+        "S2"
+      ],
+      "source_locator": "Mechanical ratio",
+      "formula": "operating_income / revenue * 100",
+      "input_fact_ids": [
+        "META.Q3_2025.operating_income",
+        "META.Q3_2025.revenue"
+      ]
+    },
+    {
+      "fact_id": "META.Q3_2025.company_fcf_margin",
+      "ticker": "META",
+      "period_id": "Q3_2025",
+      "metric": "company_fcf_margin",
+      "value": 20.734944,
+      "unit": "percent",
+      "kind": "derived_fact",
+      "source_ids": [
+        "S2"
+      ],
+      "source_locator": "Mechanical ratio",
+      "formula": "company_fcf / revenue * 100",
+      "input_fact_ids": [
+        "META.Q3_2025.company_fcf",
+        "META.Q3_2025.revenue"
+      ]
+    },
+    {
+      "fact_id": "META.Q3_2025.cash_capex_revenue_ratio",
+      "ticker": "META",
+      "period_id": "Q3_2025",
+      "metric": "cash_capex_revenue_ratio",
+      "value": 37.808829,
+      "unit": "percent",
+      "kind": "derived_fact",
+      "source_ids": [
+        "S2"
+      ],
+      "source_locator": "Mechanical ratio",
+      "formula": "cash_capex_including_finance_leases / revenue * 100",
+      "input_fact_ids": [
+        "META.Q3_2025.cash_capex_including_finance_leases",
+        "META.Q3_2025.revenue"
+      ]
+    },
+    {
+      "fact_id": "META.Q3_2025.sbc_revenue_ratio",
+      "ticker": "META",
+      "period_id": "Q3_2025",
+      "metric": "sbc_revenue_ratio",
+      "value": 10.840717,
+      "unit": "percent",
+      "kind": "derived_fact",
+      "source_ids": [
+        "S2"
+      ],
+      "source_locator": "Mechanical ratio",
+      "formula": "sbc / revenue * 100",
+      "input_fact_ids": [
+        "META.Q3_2025.sbc",
+        "META.Q3_2025.revenue"
+      ]
+    },
+    {
+      "fact_id": "META.Q3_2025.gross_margin",
+      "ticker": "META",
+      "period_id": "Q3_2025",
+      "metric": "gross_margin",
+      "value": 82.034269,
+      "unit": "percent",
+      "kind": "derived_fact",
+      "source_ids": [
+        "S2"
+      ],
+      "source_locator": "Mechanical ratio",
+      "formula": "(revenue - cost_of_revenue) / revenue * 100",
+      "input_fact_ids": [
+        "META.Q3_2025.cost_of_revenue",
+        "META.Q3_2025.revenue"
+      ]
+    },
+    {
+      "fact_id": "META.YTD9_2024.operating_margin",
+      "ticker": "META",
+      "period_id": "YTD9_2024",
+      "metric": "operating_margin",
+      "value": 39.629336,
+      "unit": "percent",
+      "kind": "derived_fact",
+      "source_ids": [
+        "S3"
+      ],
+      "source_locator": "Mechanical ratio",
+      "formula": "operating_income / revenue * 100",
+      "input_fact_ids": [
+        "META.YTD9_2024.operating_income",
+        "META.YTD9_2024.revenue"
+      ]
+    },
+    {
+      "fact_id": "META.YTD9_2024.company_fcf_margin",
+      "ticker": "META",
+      "period_id": "YTD9_2024",
+      "metric": "company_fcf_margin",
+      "value": 33.544903,
+      "unit": "percent",
+      "kind": "derived_fact",
+      "source_ids": [
+        "S2"
+      ],
+      "source_locator": "Mechanical ratio",
+      "formula": "company_fcf / revenue * 100",
+      "input_fact_ids": [
+        "META.YTD9_2024.company_fcf",
+        "META.YTD9_2024.revenue"
+      ]
+    },
+    {
+      "fact_id": "META.YTD9_2024.cash_capex_revenue_ratio",
+      "ticker": "META",
+      "period_id": "YTD9_2024",
+      "metric": "cash_capex_revenue_ratio",
+      "value": 21.003996,
+      "unit": "percent",
+      "kind": "derived_fact",
+      "source_ids": [
+        "S2"
+      ],
+      "source_locator": "Mechanical ratio",
+      "formula": "cash_capex_including_finance_leases / revenue * 100",
+      "input_fact_ids": [
+        "META.YTD9_2024.cash_capex_including_finance_leases",
+        "META.YTD9_2024.revenue"
+      ]
+    },
+    {
+      "fact_id": "META.YTD9_2024.sbc_revenue_ratio",
+      "ticker": "META",
+      "period_id": "YTD9_2024",
+      "metric": "sbc_revenue_ratio",
+      "value": 10.70309,
+      "unit": "percent",
+      "kind": "derived_fact",
+      "source_ids": [
+        "S3"
+      ],
+      "source_locator": "Mechanical ratio",
+      "formula": "sbc / revenue * 100",
+      "input_fact_ids": [
+        "META.YTD9_2024.sbc",
+        "META.YTD9_2024.revenue"
+      ]
+    },
+    {
+      "fact_id": "META.YTD9_2024.gross_margin",
+      "ticker": "META",
+      "period_id": "YTD9_2024",
+      "metric": "gross_margin",
+      "value": 81.637328,
+      "unit": "percent",
+      "kind": "derived_fact",
+      "source_ids": [
+        "S3"
+      ],
+      "source_locator": "Mechanical ratio",
+      "formula": "(revenue - cost_of_revenue) / revenue * 100",
+      "input_fact_ids": [
+        "META.YTD9_2024.cost_of_revenue",
+        "META.YTD9_2024.revenue"
+      ]
+    },
+    {
+      "fact_id": "META.YTD9_2025.operating_margin",
+      "ticker": "META",
+      "period_id": "YTD9_2025",
+      "metric": "operating_margin",
+      "value": 41.489867,
+      "unit": "percent",
+      "kind": "derived_fact",
+      "source_ids": [
+        "S3"
+      ],
+      "source_locator": "Mechanical ratio",
+      "formula": "operating_income / revenue * 100",
+      "input_fact_ids": [
+        "META.YTD9_2025.operating_income",
+        "META.YTD9_2025.revenue"
+      ]
+    },
+    {
+      "fact_id": "META.YTD9_2025.company_fcf_margin",
+      "ticker": "META",
+      "period_id": "YTD9_2025",
+      "metric": "company_fcf_margin",
+      "value": 20.91683,
+      "unit": "percent",
+      "kind": "derived_fact",
+      "source_ids": [
+        "S2"
+      ],
+      "source_locator": "Mechanical ratio",
+      "formula": "company_fcf / revenue * 100",
+      "input_fact_ids": [
+        "META.YTD9_2025.company_fcf",
+        "META.YTD9_2025.revenue"
+      ]
+    },
+    {
+      "fact_id": "META.YTD9_2025.cash_capex_revenue_ratio",
+      "ticker": "META",
+      "period_id": "YTD9_2025",
+      "metric": "cash_capex_revenue_ratio",
+      "value": 35.497934,
+      "unit": "percent",
+      "kind": "derived_fact",
+      "source_ids": [
+        "S2"
+      ],
+      "source_locator": "Mechanical ratio",
+      "formula": "cash_capex_including_finance_leases / revenue * 100",
+      "input_fact_ids": [
+        "META.YTD9_2025.cash_capex_including_finance_leases",
+        "META.YTD9_2025.revenue"
+      ]
+    },
+    {
+      "fact_id": "META.YTD9_2025.sbc_revenue_ratio",
+      "ticker": "META",
+      "period_id": "YTD9_2025",
+      "metric": "sbc_revenue_ratio",
+      "value": 10.304594,
+      "unit": "percent",
+      "kind": "derived_fact",
+      "source_ids": [
+        "S3"
+      ],
+      "source_locator": "Mechanical ratio",
+      "formula": "sbc / revenue * 100",
+      "input_fact_ids": [
+        "META.YTD9_2025.sbc",
+        "META.YTD9_2025.revenue"
+      ]
+    },
+    {
+      "fact_id": "META.YTD9_2025.gross_margin",
+      "ticker": "META",
+      "period_id": "YTD9_2025",
+      "metric": "gross_margin",
+      "value": 82.087997,
+      "unit": "percent",
+      "kind": "derived_fact",
+      "source_ids": [
+        "S3"
+      ],
+      "source_locator": "Mechanical ratio",
+      "formula": "(revenue - cost_of_revenue) / revenue * 100",
+      "input_fact_ids": [
+        "META.YTD9_2025.cost_of_revenue",
+        "META.YTD9_2025.revenue"
+      ]
+    },
+    {
+      "fact_id": "META.TTM_Q3_2025.operating_margin",
+      "ticker": "META",
+      "period_id": "TTM_Q3_2025",
+      "metric": "operating_margin",
+      "value": 43.225939,
+      "unit": "percent",
+      "kind": "derived_fact",
+      "source_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "S5"
+      ],
+      "source_locator": "Mechanical ratio",
+      "formula": "operating_income / revenue * 100",
+      "input_fact_ids": [
+        "META.TTM_Q3_2025.operating_income",
+        "META.TTM_Q3_2025.revenue"
+      ]
+    },
+    {
+      "fact_id": "META.TTM_Q3_2025.company_fcf_margin",
+      "ticker": "META",
+      "period_id": "TTM_Q3_2025",
+      "metric": "company_fcf_margin",
+      "value": 22.516864,
+      "unit": "percent",
+      "kind": "derived_fact",
+      "source_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "S5"
+      ],
+      "source_locator": "Mechanical ratio",
+      "formula": "company_fcf / revenue * 100",
+      "input_fact_ids": [
+        "META.TTM_Q3_2025.company_fcf",
+        "META.TTM_Q3_2025.revenue"
+      ]
+    },
+    {
+      "fact_id": "META.TTM_Q3_2025.cash_capex_revenue_ratio",
+      "ticker": "META",
+      "period_id": "TTM_Q3_2025",
+      "metric": "cash_capex_revenue_ratio",
+      "value": 34.263003,
+      "unit": "percent",
+      "kind": "derived_fact",
+      "source_ids": [
+        "S1",
+        "S2",
+        "S3"
+      ],
+      "source_locator": "Mechanical ratio",
+      "formula": "cash_capex_including_finance_leases / revenue * 100",
+      "input_fact_ids": [
+        "META.TTM_Q3_2025.cash_capex_including_finance_leases",
+        "META.TTM_Q3_2025.revenue"
+      ]
+    },
+    {
+      "fact_id": "META.TTM_Q3_2025.sbc_revenue_ratio",
+      "ticker": "META",
+      "period_id": "TTM_Q3_2025",
+      "metric": "sbc_revenue_ratio",
+      "value": 9.922516,
+      "unit": "percent",
+      "kind": "derived_fact",
+      "source_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "S5"
+      ],
+      "source_locator": "Mechanical ratio",
+      "formula": "sbc / revenue * 100",
+      "input_fact_ids": [
+        "META.TTM_Q3_2025.sbc",
+        "META.TTM_Q3_2025.revenue"
+      ]
+    },
+    {
+      "fact_id": "META.TTM_Q3_2025.gross_margin",
+      "ticker": "META",
+      "period_id": "TTM_Q3_2025",
+      "metric": "gross_margin",
+      "value": 81.997065,
+      "unit": "percent",
+      "kind": "derived_fact",
+      "source_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "S5"
+      ],
+      "source_locator": "Mechanical ratio",
+      "formula": "(revenue - cost_of_revenue) / revenue * 100",
+      "input_fact_ids": [
+        "META.TTM_Q3_2025.cost_of_revenue",
+        "META.TTM_Q3_2025.revenue"
+      ]
+    },
+    {
+      "fact_id": "META.FY2024.advertising_revenue_share",
+      "ticker": "META",
+      "period_id": "FY2024",
+      "metric": "advertising_revenue_share",
+      "value": 97.648647,
+      "unit": "percent",
+      "kind": "derived_fact",
+      "source_ids": [
+        "S1"
+      ],
+      "source_locator": "Mechanical ratio",
+      "formula": "advertising_revenue / revenue * 100",
+      "input_fact_ids": [
+        "META.FY2024.advertising_revenue",
+        "META.FY2024.revenue"
+      ]
+    },
+    {
+      "fact_id": "META.Q3_2025.advertising_revenue_share",
+      "ticker": "META",
+      "period_id": "Q3_2025",
+      "metric": "advertising_revenue_share",
+      "value": 97.736232,
+      "unit": "percent",
+      "kind": "derived_fact",
+      "source_ids": [
+        "S3"
+      ],
+      "source_locator": "Mechanical ratio",
+      "formula": "advertising_revenue / revenue * 100",
+      "input_fact_ids": [
+        "META.Q3_2025.advertising_revenue",
+        "META.Q3_2025.revenue"
+      ]
+    },
+    {
+      "fact_id": "META.Q3_2024.advertising_revenue_share",
+      "ticker": "META",
+      "period_id": "Q3_2024",
+      "metric": "advertising_revenue_share",
+      "value": 98.26554,
+      "unit": "percent",
+      "kind": "derived_fact",
+      "source_ids": [
+        "S3"
+      ],
+      "source_locator": "Mechanical ratio",
+      "formula": "advertising_revenue / revenue * 100",
+      "input_fact_ids": [
+        "META.Q3_2024.advertising_revenue",
+        "META.Q3_2024.revenue"
+      ]
+    },
+    {
+      "fact_id": "META.YTD9_2025.advertising_revenue_share",
+      "ticker": "META",
+      "period_id": "YTD9_2025",
+      "metric": "advertising_revenue_share",
+      "value": 97.847923,
+      "unit": "percent",
+      "kind": "derived_fact",
+      "source_ids": [
+        "S3"
+      ],
+      "source_locator": "Mechanical ratio",
+      "formula": "advertising_revenue / revenue * 100",
+      "input_fact_ids": [
+        "META.YTD9_2025.advertising_revenue",
+        "META.YTD9_2025.revenue"
+      ]
+    },
+    {
+      "fact_id": "META.YTD9_2024.advertising_revenue_share",
+      "ticker": "META",
+      "period_id": "YTD9_2024",
+      "metric": "advertising_revenue_share",
+      "value": 98.048503,
+      "unit": "percent",
+      "kind": "derived_fact",
+      "source_ids": [
+        "S3"
+      ],
+      "source_locator": "Mechanical ratio",
+      "formula": "advertising_revenue / revenue * 100",
+      "input_fact_ids": [
+        "META.YTD9_2024.advertising_revenue",
+        "META.YTD9_2024.revenue"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "item": "FCFF / owner earnings",
+      "status": "requires_explicit_assumptions",
+      "note": "Company FCF is a cash-flow measure after cash PPE and lease principal. It is not audited FCFF or Buffett owner earnings. Maintenance/growth capex split, sustainable tax rate, operating working-capital conventions, interest adjustments, future SBC/dilution treatment and discount rate are not supplied. Missing does not mean zero. This is no gate on useful qualitative analysis or a labeled scenario."
+    },
+    {
+      "item": "December 31 balance sheet",
+      "status": "not_yet_public_at_cutoff",
+      "note": "Use Sept 30 cash/debt observation plus separately dated November financing. Do not present Sept cash minus debt as Dec net cash; Q4 cash uses and cash generation are unknown here."
+    },
+    {
+      "item": "Retention / churn / NDR",
+      "status": "not_applicable_as_saas_metric",
+      "note": "No SaaS subscription NDR, logo churn, CAC payback or customer-level LTV is invented. Advertiser retention/cohort data are not disclosed in this packet. DAP growth and ARPP are aggregate engagement/monetization, not retention."
+    },
+    {
+      "item": "Diluted shares at valuation date",
+      "status": "not_disclosed",
+      "note": "2,572m Q3 weighted-average diluted shares are a scenario denominator, not actual shares outstanding. 2,520,527,597 Oct 24 actual A+B shares are an earlier capitalisation proxy. Do not combine A-only shares with group earnings."
+    },
+    {
+      "item": "Point-in-time replay",
+      "status": "historical_reconstruction",
+      "note": "This research was retrieved in 2026 from source-dated pre-cutoff documents. It does not claim preservation of a 2025 browse session. Later search results were screened out."
+    },
+    {
+      "item": "SBC",
+      "status": "reported_and_nonzero",
+      "note": "SBC is included in GAAP costs and added back in CFO. Method must separately choose and disclose dilution or economic-cost treatment, avoiding an automatic double penalty."
+    },
+    {
+      "item": "Finance lease liability balance",
+      "status": "not_extracted",
+      "note": "Cash finance-lease principal is included. Bond debt excludes lease liabilities. No claim of complete all-in enterprise value or complete economic net debt."
+    }
+  ],
+  "excluded_sources": "FY2025 release and annual filing published in 2026; all 2026 operating outcomes; current share price; later dividend-adjusted historical closes",
+  "formula_conventions": {
+    "cash_outflows": "positive magnitudes except signed segment operating losses",
+    "ttm": "FY2024 + nine months 2025 - nine months 2024; never mix one quarter with nine months",
+    "fcf": "CFO - cash PPE outflow - finance lease principal",
+    "cash_capex": "cash PPE outflow + finance lease principal",
+    "price_conditional": "Use verified raw 2025-12-31 close $660.09. If unavailable on a later host, retain P as variable and label multiples/MOS price-conditional.",
+    "capitalization": "P * shares with point date/scope shown; do not infer exact Dec 31 share count",
+    "dcf": "Any r, terminal growth, future growth, normalized margin, maintenance capex and dilution denominator are method assumptions, not these source facts"
+  }
+}

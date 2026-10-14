@@ -1,0 +1,47 @@
+{
+  "schema_version": "historical-finterm-procedural-card/v0.1-candidate",
+  "transport_status": "candidate_pending_exact_content_acceptance",
+  "card_id": "S10",
+  "title": "Technology and Media: Test Whether Disruption Strengthens or Destroys the Moat",
+  "intent": [
+    "financial-analysis",
+    "memo-review",
+    "thesis-evaluation"
+  ],
+  "origin_label": "Finterm MIT editorial procedural framework, retrospective implementation under test; not proof of a native investor algorithm.",
+  "historical_source_fact_ids_if_any": [],
+  "source_repository": "finterm-ai/investment-skills",
+  "source_pin": "7235d3411601036cc79137fa0aec0d587f2c8e19",
+  "source_path": "vendor/finterm/references/08-specialized-overlays.md",
+  "source_file_sha256": "fde84b1f8539a19daf47368477ce9b1b35df9d0efc9de533e94715244c50f3c9",
+  "selected_fragment_sha256": "8e29d71ee391ba8d23e0f01cf0fb920f00a5e53505f48fb1e7029ecfb90a453a",
+  "source_fragment_locator": {
+    "line_start_1_based": 239,
+    "line_end_1_based": 254,
+    "sha256": "8e29d71ee391ba8d23e0f01cf0fb920f00a5e53505f48fb1e7029ecfb90a453a",
+    "bytes": 986
+  },
+  "procedural_question": "Can important economics be forecast despite obsolescence,\n  distribution change, network effects, and shifting attention?",
+  "guidance": "Identify the protection mechanism, then test technical substitution,\n  platform control, distribution, behavior, and reinvestment; stop if forecastability\n  cannot be bounded.",
+  "applicability": "Technology, software, platforms, media, advertising, or rapid technical\n  and distribution change.",
+  "procedural_actions": "Map mechanism and dependencies; track retention, switching,\n  network density, distribution, attention, and innovation spend; define exit\n  indicators.",
+  "output_contract": "A disruption and forecastability map with dependencies, erosion\n  indicators, and an estimable or outside-boundary result.",
+  "limits": "Leadership, reputation, or network size alone is insufficient; unbounded\n  critical economics stop the branch.",
+  "required_questions": [
+    "Can important economics be forecast despite obsolescence,\n  distribution change, network effects, and shifting attention?"
+  ],
+  "falsifiers_and_contrary_checks": {
+    "standalone_falsifier_field_in_original": false,
+    "preserved_original_action_text": "Map mechanism and dependencies; track retention, switching,\n  network density, distribution, attention, and innovation spend; define exit\n  indicators.",
+    "preserved_original_limit_text": "Leadership, reputation, or network size alone is insufficient; unbounded\n  critical economics stop the branch.",
+    "interpretation": "Use these exact original action/limit tests; this projection supplies no invented card-specific falsifier or calibrated probability."
+  },
+  "evidence_scope": "Only admitted supplied immutable historical evidence and explicitly labelled frozen assumptions. Any generic request to search, compare, classify new evidence or monitor is confined to that packet; no live retrieval or later-data monitoring is authorized.",
+  "procedural_fragment_verbatim": "### S10 — Technology and Media: Test Whether Disruption Strengthens or Destroys the Moat\n\n- **Decision question:** Can important economics be forecast despite obsolescence,\n  distribution change, network effects, and shifting attention?\n- **Guidance:** Identify the protection mechanism, then test technical substitution,\n  platform control, distribution, behavior, and reinvestment; stop if forecastability\n  cannot be bounded.\n- **Use when:** Technology, software, platforms, media, advertising, or rapid technical\n  and distribution change.\n- **Analytical actions:** Map mechanism and dependencies; track retention, switching,\n  network density, distribution, attention, and innovation spend; define exit\n  indicators.\n- **Output:** A disruption and forecastability map with dependencies, erosion\n  indicators, and an estimable or outside-boundary result.\n- **Limits:** Leadership, reputation, or network size alone is insufficient; unbounded\n  critical economics stop the branch.\n",
+  "projection_limits": [
+    "Editorial guidance only; not an authenticated native Buffett or other master algorithm.",
+    "No source-basis or corroboration factual claims are transported.",
+    "No company fact, dated company example, holding, case result, prior opinion or actual outcome is included.",
+    "Absent prerequisites leave the corresponding branch unresolved."
+  ]
+}

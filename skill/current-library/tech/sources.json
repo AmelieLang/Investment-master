@@ -1,0 +1,1389 @@
+{
+  "schema_version": "primary_source_registry.v2.tech.1",
+  "as_of_date": "2026-10-13",
+  "sources": {
+    "COM-SEC13F": {
+      "source_id": "COM-SEC13F",
+      "title": "SEC: Frequently Asked Questions About Form 13F",
+      "original_url": "https://www.sec.gov/rules-regulations/staff-guidance/frequently-asked-questions-about-form-13f",
+      "published_date": "2026-03-06",
+      "report_period": null,
+      "authors": [],
+      "source_type": "regulator_guidance",
+      "retrieved_date": "2026-10-13",
+      "date_precision": "day",
+      "evidence_notes": [
+        "Current page update; last-reviewed 2026-09-28. Earlier original-page date 2023-05-24."
+      ],
+      "locator": null,
+      "facts": {
+        "coverage": "Quarter-end covered long securities under investment discretion; generally U.S.-exchange stocks/ADRs and certain options, warrants and convertibles.",
+        "lag": "Quarterly filing due within 45 days, subject to applicable calendar rules.",
+        "excluded": "Short positions and written options; foreign-only listed stocks, private investments, cash and many other assets. Long/short positions must not be netted.",
+        "omissions": "Small holdings may be omitted only if both under 10,000 shares and under $200,000; confidential treatment can delay disclosure.",
+        "aggregation": "A manager filing can aggregate several accounts or other included managers. Sole discretion does not identify the individual who selected a position."
+      },
+      "pre_2026_eligibility": {
+        "cutoff_utc": "2025-12-31T23:59:59Z",
+        "known_publication_before_cutoff": false,
+        "method_source_eligible": false,
+        "eligibility_reason": "Excluded: published during 2026, after decision cutoff.",
+        "historical_packet_scope": "Only information contained in the verified dated source. No later holdings, current role facts or subsequent outcomes may be appended as if known then."
+      },
+      "rule_anchor_ids": []
+    },
+    "ARK-PROC": {
+      "source_id": "ARK-PROC",
+      "title": "ARK investment process",
+      "original_url": "https://www.ark-invest.com/investment-process",
+      "published_date": null,
+      "report_period": null,
+      "authors": [
+        "ARK Investment Management"
+      ],
+      "source_type": "first_party",
+      "retrieved_date": "2026-10-13",
+      "date_precision": "publication_date_not_shown",
+      "evidence_notes": [
+        "Undated current process, not evidence every step governed every historical decision."
+      ],
+      "locator": null,
+      "facts": {
+        "research": "Top-down innovation cost curves and demand elasticity; open expert/crowd feedback; bottom-up five-year models; weekly research/portfolio meetings.",
+        "valuation": "Unit growth, adoption, costs, penetration, share count and future valuation multiples.",
+        "risk": "Rebalance relative opportunity; exit or resize after thesis change, unsuitable metrics or loss of innovation leadership.",
+        "authority": "Cathie Wood, CIO and portfolio manager, has final approval and accountability; themed analysts and Brett Winton support research."
+      },
+      "pre_2026_eligibility": {
+        "cutoff_utc": "2025-12-31T23:59:59Z",
+        "known_publication_before_cutoff": false,
+        "method_source_eligible": false,
+        "eligibility_reason": "Excluded: publication/revision day unknown or current mutable version not pinned.",
+        "historical_packet_scope": "Only information contained in the verified dated source. No later holdings, current role facts or subsequent outcomes may be appended as if known then."
+      },
+      "rule_anchor_ids": [
+        "ARK-R01-A1",
+        "ARK-R02-A1",
+        "ARK-R03-A1"
+      ]
+    },
+    "ARK-FAQ": {
+      "source_id": "ARK-FAQ",
+      "title": "ARK frequently asked questions",
+      "original_url": "https://www.ark-invest.com/faq",
+      "published_date": null,
+      "report_period": null,
+      "authors": [],
+      "source_type": "first_party",
+      "retrieved_date": "2026-10-13",
+      "date_precision": "publication_date_not_shown",
+      "evidence_notes": [],
+      "locator": null,
+      "facts": {
+        "identity": "Cathie Wood registered ARK as an investment adviser in January 2014.",
+        "vehicles": "ETF, separately managed account and other public/private vehicle offerings vary by jurisdiction and product."
+      },
+      "pre_2026_eligibility": {
+        "cutoff_utc": "2025-12-31T23:59:59Z",
+        "known_publication_before_cutoff": false,
+        "method_source_eligible": false,
+        "eligibility_reason": "Excluded: publication/revision day unknown or current mutable version not pinned.",
+        "historical_packet_scope": "Only information contained in the verified dated source. No later holdings, current role facts or subsequent outcomes may be appended as if known then."
+      },
+      "rule_anchor_ids": []
+    },
+    "ARK-DAILY": {
+      "source_id": "ARK-DAILY",
+      "title": "Where can I download the latest ETF holdings?",
+      "original_url": "https://helpcenter.ark-funds.com/where-can-i-download-the-latest-etf-holdings",
+      "published_date": null,
+      "report_period": null,
+      "authors": [],
+      "source_type": "first_party",
+      "retrieved_date": "2026-10-13",
+      "date_precision": "publication_date_not_shown",
+      "evidence_notes": [],
+      "locator": null,
+      "facts": {
+        "coverage": "Official ETF holdings updated at each trading-day end; latest-file availability does not itself establish a historical archive."
+      },
+      "pre_2026_eligibility": {
+        "cutoff_utc": "2025-12-31T23:59:59Z",
+        "known_publication_before_cutoff": false,
+        "method_source_eligible": false,
+        "eligibility_reason": "Excluded: publication/revision day unknown or current mutable version not pinned.",
+        "historical_packet_scope": "Only information contained in the verified dated source. No later holdings, current role facts or subsequent outcomes may be appended as if known then."
+      },
+      "rule_anchor_ids": []
+    },
+    "ARK-TRADES": {
+      "source_id": "ARK-TRADES",
+      "title": "ARK trade notifications",
+      "original_url": "https://www.ark-funds.com/ark-trade-notifications",
+      "published_date": null,
+      "report_period": null,
+      "authors": [],
+      "source_type": "first_party",
+      "retrieved_date": "2026-10-13",
+      "date_precision": "publication_date_not_shown",
+      "evidence_notes": [
+        "The live page includes a T+2 settlement statement; this audit does not adopt that possibly stale operational detail."
+      ],
+      "locator": null,
+      "facts": {
+        "limitations": "Trade files follow full execution at day end but are unofficial and unreconciled; they exclude IPO/secondary-offering transactions and ETF creation/redemption activity. Upload time is not exact execution time; additional files may follow."
+      },
+      "pre_2026_eligibility": {
+        "cutoff_utc": "2025-12-31T23:59:59Z",
+        "known_publication_before_cutoff": false,
+        "method_source_eligible": false,
+        "eligibility_reason": "Excluded: publication/revision day unknown or current mutable version not pinned.",
+        "historical_packet_scope": "Only information contained in the verified dated source. No later holdings, current role facts or subsequent outcomes may be appended as if known then."
+      },
+      "rule_anchor_ids": []
+    },
+    "ARK-PROSPECTUS-20251130": {
+      "source_id": "ARK-PROSPECTUS-20251130",
+      "title": "ARK Innovation ETF summary prospectus",
+      "original_url": "https://assets.ark-funds.com/media-12243148-2a3e-4996-9763-260f93905eb9/43f4ba54-a65f-44d9-b18c-c911a1d6e3e4/ARK%20Innovation%20ETF%20Summary%20Prospectus.pdf",
+      "published_date": "2025-11-30",
+      "report_period": null,
+      "authors": [
+        "ARK ETF Trust"
+      ],
+      "source_type": "fund_prospectus",
+      "retrieved_date": "2026-10-13",
+      "date_precision": "day",
+      "evidence_notes": [
+        "Return chart visually checked in locally rendered page; not inferred from OCR."
+      ],
+      "locator": "Investment strategy and portfolio manager; printed page 11, PDF page 12 for chart",
+      "facts": {
+        "mandate": "Active, non-diversified capital-appreciation equity ETF; normally at least 65% in domestic/foreign equities relevant to disruptive innovation.",
+        "manager": "Wood responsible for day-to-day portfolio management since inception.",
+        "calendar_returns_pct": {
+          "2020": 152.51,
+          "2021": -23.36,
+          "2022": -66.99,
+          "2023": 67.82,
+          "2024": 8.36
+        },
+        "worst_quarter_pct": -39.69,
+        "worst_quarter_ending": "2022-06-30",
+        "five_year_annualized_through_20241231_pct": {
+          "ARKK_before_tax": 3.05,
+          "SP500": 14.53
+        },
+        "turnover_latest_fiscal_year_pct": 43,
+        "management_fee_pct": 0.75
+      },
+      "pre_2026_eligibility": {
+        "cutoff_utc": "2025-12-31T23:59:59Z",
+        "known_publication_before_cutoff": true,
+        "method_source_eligible": true,
+        "eligibility_reason": "Dated before cutoff; method is case/fund/team-specific, not a universal personal trading rule.",
+        "historical_packet_scope": "Only information contained in the verified dated source. No later holdings, current role facts or subsequent outcomes may be appended as if known then."
+      },
+      "rule_anchor_ids": []
+    },
+    "ARK-TESLA-20180822": {
+      "source_id": "ARK-TESLA-20180822",
+      "title": "An open letter opposing taking Tesla private",
+      "original_url": "https://www.ark-invest.com/articles/analyst-research/tesla-private",
+      "published_date": "2018-08-22",
+      "report_period": null,
+      "authors": [
+        "Cathie Wood"
+      ],
+      "source_type": "first_party",
+      "retrieved_date": "2026-10-13",
+      "date_precision": "day",
+      "evidence_notes": [],
+      "locator": null,
+      "facts": {
+        "status": "Already a shareholder; opposed proposed $420 go-private price.",
+        "valuation": "Five-year $700-$4,000 pre-split range. Bull scenario shifts profit toward an autonomous mobility network with much higher margins.",
+        "scope": "Model covered cars and certain robotaxi networks, excluded several additional markets, and contemplated substantial dilution.",
+        "team": "Brett Winton, Tasha Keeney and Sam Korus had developed the evolving model over four years.",
+        "exit_caveat": "Positive thesis permits reduction/liquidation before target, including changed markets, flows, fundamentals or regulation.",
+        "split_basis": "Prices before August 2020 five-for-one and August 2022 three-for-one splits."
+      },
+      "pre_2026_eligibility": {
+        "cutoff_utc": "2025-12-31T23:59:59Z",
+        "known_publication_before_cutoff": true,
+        "method_source_eligible": true,
+        "eligibility_reason": "Dated before cutoff; method is case/fund/team-specific, not a universal personal trading rule.",
+        "historical_packet_scope": "Only information contained in the verified dated source. No later holdings, current role facts or subsequent outcomes may be appended as if known then."
+      },
+      "rule_anchor_ids": [
+        "ARK-R00-A1"
+      ]
+    },
+    "ARK-TESLA-20220414": {
+      "source_id": "ARK-TESLA-20220414",
+      "title": "ARK Tesla valuation model, 2026 horizon",
+      "original_url": "https://www.ark-invest.com/articles/valuation-models/arks-tesla-model",
+      "published_date": "2022-04-15",
+      "report_period": null,
+      "authors": [
+        "Tasha Keeney"
+      ],
+      "source_type": "first_party",
+      "retrieved_date": "2026-10-13",
+      "date_precision": "day",
+      "evidence_notes": [
+        "Article date April 15; text and GitHub version identify model release April 14. Prices precede August 2022 three-for-one split."
+      ],
+      "locator": null,
+      "facts": {
+        "release_date": "2022-04-14",
+        "target_year": 2026,
+        "pre_split_prices_usd": {
+          "expected": 4600,
+          "bear_25th_percentile": 2900,
+          "bull_75th_percentile": 5800
+        },
+        "method": "One million Monte Carlo runs, 38 inputs; robotaxi assumptions contribute roughly 60% of expected equity value and over half of modeled 2026 EBITDA.",
+        "sensitivity": "Autonomous launch timing, penetration, production, margins and capital efficiency; probabilities are model assumptions, not independently calibrated frequencies."
+      },
+      "pre_2026_eligibility": {
+        "cutoff_utc": "2025-12-31T23:59:59Z",
+        "known_publication_before_cutoff": true,
+        "method_source_eligible": true,
+        "eligibility_reason": "Dated before cutoff; method is case/fund/team-specific, not a universal personal trading rule.",
+        "historical_packet_scope": "Only information contained in the verified dated source. No later holdings, current role facts or subsequent outcomes may be appended as if known then."
+      },
+      "rule_anchor_ids": [
+        "ARK-R04-A1",
+        "ARK-R04-A2"
+      ]
+    },
+    "ARK-GITHUB-TESLA": {
+      "source_id": "ARK-GITHUB-TESLA",
+      "title": "ARK official Tesla valuation model repository",
+      "original_url": "https://github.com/ARKInvest/ARK-Invest-Tesla-Valuation-Model",
+      "published_date": null,
+      "report_period": null,
+      "authors": [
+        "Sam Korus",
+        "Tasha Keeney",
+        "Brett Winton"
+      ],
+      "source_type": "first_party_open_research_repository",
+      "retrieved_date": "2026-10-13",
+      "date_precision": "publication_date_not_shown",
+      "evidence_notes": [
+        "Read README only; no workbook or repository code executed. Current master is mutable; no commit was pinned in this research."
+      ],
+      "locator": null,
+      "facts": {
+        "versions": {
+          "V1": "2019-05-22",
+          "V4": "2020-03-25",
+          "V5": "2021-03-19",
+          "V6": "2022-04-14",
+          "V7": "2023-04-20",
+          "V8": "2024-06-12"
+        },
+        "limitations": "README warns independent-input simulation omits capital-market reflexivity and can give narrower ranges than a broader manual view.",
+        "license": "README explicitly uses Creative Commons Attribution-NonCommercial 4.0; commercial use requires written permission. Not MIT."
+      },
+      "pre_2026_eligibility": {
+        "cutoff_utc": "2025-12-31T23:59:59Z",
+        "known_publication_before_cutoff": false,
+        "method_source_eligible": false,
+        "eligibility_reason": "Excluded: publication/revision day unknown or current mutable version not pinned.",
+        "historical_packet_scope": "Only information contained in the verified dated source. No later holdings, current role facts or subsequent outcomes may be appended as if known then."
+      },
+      "rule_anchor_ids": []
+    },
+    "ARK-INNOVATION-20211218": {
+      "source_id": "ARK-INNOVATION-20211218",
+      "title": "Innovation stocks are not in a bubble: they are in deep value territory",
+      "original_url": "https://www.ark-invest.com/articles/market-commentary/innovation-stocks-are-not-in-a-bubble",
+      "published_date": "2021-12-18",
+      "report_period": null,
+      "authors": [
+        "Cathie Wood"
+      ],
+      "source_type": "first_party",
+      "retrieved_date": "2026-10-13",
+      "date_precision": "day",
+      "evidence_notes": [
+        "Official live page date is December 18. An unchanged original snapshot was not recovered. Footnote says original return statement was revised to clarify it referred broadly to strategies, not one fund/product."
+      ],
+      "locator": null,
+      "facts": {
+        "thesis": "Inflation/discount-rate fears had depressed innovation equities; Wood expected deflation and viewed them as deep value.",
+        "forecast": "Broad-strategy five-year compounded annual return expectation of 30%-40%, subject to later clarification.",
+        "horizon_status": "Five years from late 2021 ends in late 2026; incomplete on this audit date."
+      },
+      "pre_2026_eligibility": {
+        "cutoff_utc": "2025-12-31T23:59:59Z",
+        "known_publication_before_cutoff": false,
+        "method_source_eligible": false,
+        "eligibility_reason": "Excluded: publication/revision day unknown or current mutable version not pinned.",
+        "historical_packet_scope": "Only information contained in the verified dated source. No later holdings, current role facts or subsequent outcomes may be appended as if known then."
+      },
+      "rule_anchor_ids": []
+    },
+    "ARK-13F-20201231": {
+      "source_id": "ARK-13F-20201231",
+      "title": "ARK 13F information table, Q4 2020",
+      "original_url": "https://www.sec.gov/Archives/edgar/data/1697748/000110465921021679/xslForm13F_X01/infotable.xml",
+      "published_date": "2021-02-12",
+      "report_period": "2020-12-31",
+      "authors": [
+        "ARK Investment Management LLC"
+      ],
+      "source_type": "manager_sec_13f",
+      "retrieved_date": "2026-10-13",
+      "date_precision": "day",
+      "evidence_notes": [
+        "Accession 0001104659-21-021679; accepted 2021-02-12 13:58:34 ET. Values in thousands of dollars."
+      ],
+      "locator": null,
+      "facts": {
+        "TSLA": {
+          "shares": 4134226,
+          "raw_value": 2917399,
+          "value_unit": "USD_thousands",
+          "normalized_usd": 2917399000
+        },
+        "scope": "Manager aggregate, not ARKK-only.",
+        "split_basis": "Share counts after 2020 five-for-one, before 2022 three-for-one Tesla split."
+      },
+      "pre_2026_eligibility": {
+        "cutoff_utc": "2025-12-31T23:59:59Z",
+        "known_publication_before_cutoff": true,
+        "method_source_eligible": false,
+        "eligibility_reason": "Dated before cutoff, but this source supplies identity, holdings or historical outcomes rather than operational method.",
+        "historical_packet_scope": "Only information contained in the verified dated source. No later holdings, current role facts or subsequent outcomes may be appended as if known then."
+      },
+      "rule_anchor_ids": []
+    },
+    "TSLA-10K-2020": {
+      "source_id": "TSLA-10K-2020",
+      "title": "Tesla 2020 Form 10-K",
+      "original_url": "https://www.sec.gov/Archives/edgar/data/1318605/000156459021004599/tsla-10k_20201231.htm",
+      "published_date": "2021-02-08",
+      "report_period": "2020-12-31",
+      "authors": [
+        "Tesla Inc."
+      ],
+      "source_type": "issuer_sec_10k",
+      "retrieved_date": "2026-10-13",
+      "date_precision": "day",
+      "evidence_notes": [
+        "Original HTML downloaded and text inspected. Optional stock-performance image not verified; no exact Tesla security return claimed from this report."
+      ],
+      "locator": null,
+      "facts": {
+        "revenue_usd_million": {
+          "2018": 21461,
+          "2019": 24578,
+          "2020": 31536
+        },
+        "net_income_common_usd_million": {
+          "2019": -862,
+          "2020": 721
+        }
+      },
+      "pre_2026_eligibility": {
+        "cutoff_utc": "2025-12-31T23:59:59Z",
+        "known_publication_before_cutoff": true,
+        "method_source_eligible": false,
+        "eligibility_reason": "Dated before cutoff, but this source supplies identity, holdings or historical outcomes rather than operational method.",
+        "historical_packet_scope": "Only information contained in the verified dated source. No later holdings, current role facts or subsequent outcomes may be appended as if known then."
+      },
+      "rule_anchor_ids": []
+    },
+    "BARON-BIO": {
+      "source_id": "BARON-BIO",
+      "title": "Ron Baron biography",
+      "original_url": "https://www.baroncapitalgroup.com/bio/ron-baron",
+      "published_date": null,
+      "report_period": null,
+      "authors": [
+        "Baron Capital"
+      ],
+      "source_type": "first_party",
+      "retrieved_date": "2026-10-13",
+      "date_precision": "publication_date_not_shown",
+      "evidence_notes": [],
+      "locator": null,
+      "facts": {
+        "identity": "Founder, CEO and portfolio manager; established firm in 1982."
+      },
+      "pre_2026_eligibility": {
+        "cutoff_utc": "2025-12-31T23:59:59Z",
+        "known_publication_before_cutoff": false,
+        "method_source_eligible": false,
+        "eligibility_reason": "Excluded: publication/revision day unknown or current mutable version not pinned.",
+        "historical_packet_scope": "Only information contained in the verified dated source. No later holdings, current role facts or subsequent outcomes may be appended as if known then."
+      },
+      "rule_anchor_ids": []
+    },
+    "BARON-PROC": {
+      "source_id": "BARON-PROC",
+      "title": "Baron Capital investment approach",
+      "original_url": "https://www.baroncapitalgroup.com/article/baron-capital-investment-approach",
+      "published_date": null,
+      "report_period": null,
+      "authors": [
+        "Baron Capital"
+      ],
+      "source_type": "first_party",
+      "retrieved_date": "2026-10-13",
+      "date_precision": "publication_date_not_shown",
+      "evidence_notes": [
+        "Undated current firm process; not a transcript of Ron personally executing each action."
+      ],
+      "locator": null,
+      "facts": {
+        "screen": "Secular growth/TAM, durable moat, management quality/alignment and valuation.",
+        "diligence": "Management, suppliers, customers/competitors, site visits, historical statements and compensation.",
+        "model": "Five historical plus five forecast years: units/pricing, fixed/variable costs, incremental profit, returns on capital, FCF and financing.",
+        "valuation": "Typically 15% annual return hurdle; FCF or EBITDA appropriate to business; scenario stress tests.",
+        "portfolio": "Small initial position, add as understanding/thesis strengthens; conviction balanced with risk/liquidity; PM retains decisions.",
+        "exit": "Worsening growth, moat or management, excessive valuation, regulatory change, better alternative, mistake or rebalancing.",
+        "risk": "Dedicated risk reporting and multifactor exposure review support the PM."
+      },
+      "pre_2026_eligibility": {
+        "cutoff_utc": "2025-12-31T23:59:59Z",
+        "known_publication_before_cutoff": false,
+        "method_source_eligible": false,
+        "eligibility_reason": "Excluded: publication/revision day unknown or current mutable version not pinned.",
+        "historical_packet_scope": "Only information contained in the verified dated source. No later holdings, current role facts or subsequent outcomes may be appended as if known then."
+      },
+      "rule_anchor_ids": [
+        "BARON-R01-A1",
+        "BARON-R01-A2",
+        "BARON-R02-A1",
+        "BARON-R03-A1",
+        "BARON-R03-A2",
+        "BARON-R04-A1",
+        "BARON-R04-A2"
+      ]
+    },
+    "BARON-PARTNERS-Q12024": {
+      "source_id": "BARON-PARTNERS-Q12024",
+      "title": "Baron Partners Fund Q1 2024 quarterly letter",
+      "original_url": "https://www.baroncapitalgroup.com/article/quarterly-letter-baron-partners-fund-q1-2024",
+      "published_date": null,
+      "report_period": "2024-03-31",
+      "authors": [
+        "Ron Baron",
+        "Michael Baron"
+      ],
+      "source_type": "fund_letter",
+      "retrieved_date": "2026-10-13",
+      "date_precision": "publication_date_not_shown",
+      "evidence_notes": [
+        "Exact day of publication not shown on HTML. Linked official PDF is in 2024-05 path; a path is not proof of publication day. Historic purchases/sales are retrospective fund statements, not trade confirmations."
+      ],
+      "locator": null,
+      "facts": {
+        "fund_returns_pct": {
+          "Q1_2024_institutional": -9.01,
+          "Q1_2024_Russell_Midcap_Growth": 9.5,
+          "Q1_2024_SP500": 10.56,
+          "three_year_annualized_fund": -0.2,
+          "three_year_annualized_Russell_Midcap_Growth": 4.62
+        },
+        "TSLA_Q1_2024": {
+          "net_assets_weight_end_pct": 29.3,
+          "security_return_pct": -29.28,
+          "fund_contribution_percentage_points": -13.41
+        },
+        "portfolio": {
+          "investments": 21,
+          "top_ten_pct_total_investments": 89.4,
+          "leverage_pct": 16.4
+        },
+        "Tesla_purchase_history": {
+          "initial_month": "2014-02",
+          "initial_split_adjusted_price_usd": 11.88,
+          "accumulation_end_month": "2016-02",
+          "shares_acquired_split_adjusted": 16650000,
+          "average_split_adjusted_price_usd": 14.22,
+          "pct_total_investments_final_purchase": 9.6
+        },
+        "Tesla_sale_history": {
+          "reported_time": "approximately three years before this letter",
+          "shares_split_adjusted_approx": 4500000,
+          "weighted_average_price_usd": 218.39,
+          "pct_original_holdings": 27
+        },
+        "Tesla_price_retrospective": "About 20-fold increase to $248.48 over decade after initial purchases.",
+        "method": "Frequent executives/engineers/factory/consultant/competitor research; target business value doubling in five-six years; concentrated and leveraged ownership."
+      },
+      "pre_2026_eligibility": {
+        "cutoff_utc": "2025-12-31T23:59:59Z",
+        "known_publication_before_cutoff": false,
+        "method_source_eligible": false,
+        "eligibility_reason": "Excluded: publication/revision day unknown or current mutable version not pinned.",
+        "historical_packet_scope": "Only information contained in the verified dated source. No later holdings, current role facts or subsequent outcomes may be appended as if known then."
+      },
+      "rule_anchor_ids": [
+        "BARON-R05-A1"
+      ]
+    },
+    "BARON-NCSRS-20150630": {
+      "source_id": "BARON-NCSRS-20150630",
+      "title": "Baron Select Funds 2015 semiannual report, Baron Partners holdings and letter",
+      "original_url": "https://www.sec.gov/Archives/edgar/data/1217673/000120928615000536/e108965.htm",
+      "published_date": "2015-08-28",
+      "report_period": "2015-06-30",
+      "authors": [
+        "Baron Select Funds"
+      ],
+      "source_type": "fund_sec_ncsrs",
+      "retrieved_date": "2026-10-13",
+      "date_precision": "day",
+      "evidence_notes": [
+        "Accession 0001209286-15-000536; accepted 2015-08-28 09:44:28 ET. During 2014-2016 accumulation, after initial purchase. Shares pre both subsequent splits."
+      ],
+      "locator": "Baron Partners Fund letter, top-ten investments and schedule",
+      "facts": {
+        "TSLA": {
+          "shares_pre_split": 825000,
+          "cost_usd": 177823618,
+          "value_usd": 221314500,
+          "pct_total_investments": 8.7,
+          "pct_net_assets": 10.41
+        },
+        "thesis": "Tesla Energy launch, 70D expanding the addressable customer base, and anticipated Model X; Tesla among period contributors.",
+        "denominator_warning": "Total-investment and net-asset weights differ, especially with leverage.",
+        "general_method": "Favorable price-to-value characteristics based on future growth and profitability; the detailed current five-year/15% process was not recovered in this dated report."
+      },
+      "pre_2026_eligibility": {
+        "cutoff_utc": "2025-12-31T23:59:59Z",
+        "known_publication_before_cutoff": true,
+        "method_source_eligible": true,
+        "eligibility_reason": "Dated before cutoff; method is case/fund/team-specific, not a universal personal trading rule.",
+        "historical_packet_scope": "Only information contained in the verified dated source. No later holdings, current role facts or subsequent outcomes may be appended as if known then."
+      },
+      "rule_anchor_ids": [
+        "BARON-R00-A1"
+      ]
+    },
+    "ALT-HOME": {
+      "source_id": "ALT-HOME",
+      "title": "Altimeter official home",
+      "original_url": "https://www.altimeter.com/",
+      "published_date": null,
+      "report_period": null,
+      "authors": [
+        "Altimeter"
+      ],
+      "source_type": "first_party",
+      "retrieved_date": "2026-10-13",
+      "date_precision": "publication_date_not_shown",
+      "evidence_notes": [],
+      "locator": null,
+      "facts": {
+        "mandate": "Technology-focused funds spanning public and private markets; founder-oriented, long-term partnership through growth and transition to public markets."
+      },
+      "pre_2026_eligibility": {
+        "cutoff_utc": "2025-12-31T23:59:59Z",
+        "known_publication_before_cutoff": false,
+        "method_source_eligible": false,
+        "eligibility_reason": "Excluded: publication/revision day unknown or current mutable version not pinned.",
+        "historical_packet_scope": "Only information contained in the verified dated source. No later holdings, current role facts or subsequent outcomes may be appended as if known then."
+      },
+      "rule_anchor_ids": []
+    },
+    "ALT-S1-2020": {
+      "source_id": "ALT-S1-2020",
+      "title": "Altimeter Growth Corp. S-1 management section",
+      "original_url": "https://www.sec.gov/Archives/edgar/data/1823340/000114036120020275/nt10014830x2_s1.htm",
+      "published_date": null,
+      "report_period": null,
+      "authors": [
+        "Altimeter Growth Corp."
+      ],
+      "source_type": "sponsor_sec_s1",
+      "retrieved_date": "2026-10-13",
+      "date_precision": "publication_date_not_shown",
+      "evidence_notes": [
+        "2020 filing; exact filing day not verified in this audit."
+      ],
+      "locator": null,
+      "facts": {
+        "identity": "Brad Gerstner founded Altimeter in 2008 and served as CEO; responsible for investment strategy.",
+        "scope": "Management authority for the SPAC is not proof he personally originated every adviser holding."
+      },
+      "pre_2026_eligibility": {
+        "cutoff_utc": "2025-12-31T23:59:59Z",
+        "known_publication_before_cutoff": false,
+        "method_source_eligible": false,
+        "eligibility_reason": "Excluded: publication/revision day unknown or current mutable version not pinned.",
+        "historical_packet_scope": "Only information contained in the verified dated source. No later holdings, current role facts or subsequent outcomes may be appended as if known then."
+      },
+      "rule_anchor_ids": []
+    },
+    "ALT-13GA-20230214": {
+      "source_id": "ALT-13GA-20230214",
+      "title": "Altimeter Confluent Schedule 13G/A control description",
+      "original_url": "https://www.sec.gov/Archives/edgar/data/1541617/000154161723000004/confluent13gover5-dec22.pdf",
+      "published_date": "2023-02-14",
+      "report_period": null,
+      "authors": [
+        "Altimeter Capital Management LP",
+        "Brad Gerstner"
+      ],
+      "source_type": "manager_sec_13ga",
+      "retrieved_date": "2026-10-13",
+      "date_precision": "day",
+      "evidence_notes": [
+        "Accession 0001541617-23-000004. Cover event date says 2023 but ownership text says 2022; do not use that inconsistent cover date as a position timing observation."
+      ],
+      "locator": "PDF page 5, item 2(a)",
+      "facts": {
+        "authority": "Gerstner sole managing principal of the adviser/general partners; beneficial ownership aggregates funds, not personal economic ownership."
+      },
+      "pre_2026_eligibility": {
+        "cutoff_utc": "2025-12-31T23:59:59Z",
+        "known_publication_before_cutoff": true,
+        "method_source_eligible": false,
+        "eligibility_reason": "Dated before cutoff, but this source supplies identity, holdings or historical outcomes rather than operational method.",
+        "historical_packet_scope": "Only information contained in the verified dated source. No later holdings, current role facts or subsequent outcomes may be appended as if known then."
+      },
+      "rule_anchor_ids": []
+    },
+    "ALT-META-20221024": {
+      "source_id": "ALT-META-20221024",
+      "title": "Time to get fit: open letter to Mark Zuckerberg and Meta board",
+      "original_url": "https://medium.com/@alt.cap/time-to-get-fit-an-open-letter-from-altimeter-to-mark-zuckerberg-and-the-meta-board-of-392d94e80a18",
+      "published_date": "2022-10-24",
+      "report_period": null,
+      "authors": [
+        "Brad Gerstner"
+      ],
+      "source_type": "first_party_open_letter",
+      "retrieved_date": "2026-10-13",
+      "date_precision": "day",
+      "evidence_notes": [],
+      "locator": null,
+      "facts": {
+        "status": "Existing long-term shareholder; supportive of founder/product leadership, critical of excess spending.",
+        "plan": "Reduce headcount expense at least 20%; cap annual capex at $25B, $5B below $30B; limit metaverse spending to $5B/year.",
+        "FCF_target": "Approximately $40B in 2023 versus roughly $20B, via people/capex/metaverse expense discipline.",
+        "valuation": "P/E declined from 23x to 12x, less than half the average P/E of big-tech peers. The letter does not specify forward earnings or a decade-average 23x.",
+        "distinction": "Supports high-return AI investment; demands measured returns and bounded funding for uncertain, long-dated projects.",
+        "attribution": "Public request, not proof Meta management followed the letter or trades occurred on publication date."
+      },
+      "pre_2026_eligibility": {
+        "cutoff_utc": "2025-12-31T23:59:59Z",
+        "known_publication_before_cutoff": true,
+        "method_source_eligible": true,
+        "eligibility_reason": "Dated before cutoff; method is case/fund/team-specific, not a universal personal trading rule.",
+        "historical_packet_scope": "Only information contained in the verified dated source. No later holdings, current role facts or subsequent outcomes may be appended as if known then."
+      },
+      "rule_anchor_ids": [
+        "ALT-R01-A1",
+        "ALT-R02-A1",
+        "ALT-R02-A2",
+        "ALT-R03-A1",
+        "ALT-R03-A2"
+      ]
+    },
+    "ALT-13F-20220930": {
+      "source_id": "ALT-13F-20220930",
+      "title": "Altimeter 13F information table, Q3 2022",
+      "original_url": "https://www.sec.gov/Archives/edgar/data/1541617/000154161722000020/xslForm13F_X01/alt13f3q22.xml",
+      "published_date": "2022-11-14",
+      "report_period": "2022-09-30",
+      "authors": [
+        "Altimeter Capital Management LP"
+      ],
+      "source_type": "manager_sec_13f",
+      "retrieved_date": "2026-10-13",
+      "date_precision": "day",
+      "evidence_notes": [
+        "Accession 0001541617-22-000020; accepted 2022-11-14 16:24:02 ET. Became public after the Meta letter. USD thousands."
+      ],
+      "locator": null,
+      "facts": {
+        "META": {
+          "shares": 2346976,
+          "raw_value": 318438,
+          "value_unit": "USD_thousands",
+          "normalized_usd": 318438000
+        },
+        "GRAB_common": {
+          "shares": 2714995,
+          "raw_value": 7140,
+          "value_unit": "USD_thousands",
+          "normalized_usd": 7140000
+        },
+        "GRAB_warrants": {
+          "shares_or_units": 3502000,
+          "raw_value": 1751,
+          "value_unit": "USD_thousands",
+          "normalized_usd": 1751000
+        }
+      },
+      "pre_2026_eligibility": {
+        "cutoff_utc": "2025-12-31T23:59:59Z",
+        "known_publication_before_cutoff": true,
+        "method_source_eligible": false,
+        "eligibility_reason": "Dated before cutoff, but this source supplies identity, holdings or historical outcomes rather than operational method.",
+        "historical_packet_scope": "Only information contained in the verified dated source. No later holdings, current role facts or subsequent outcomes may be appended as if known then."
+      },
+      "rule_anchor_ids": []
+    },
+    "ALT-13F-20221231": {
+      "source_id": "ALT-13F-20221231",
+      "title": "Altimeter 13F information table, Q4 2022",
+      "original_url": "https://www.sec.gov/Archives/edgar/data/1541617/000154161723000003/xslForm13F_X02/alt13f4q22.xml",
+      "published_date": "2023-02-14",
+      "report_period": "2022-12-31",
+      "authors": [
+        "Altimeter Capital Management LP"
+      ],
+      "source_type": "manager_sec_13f",
+      "retrieved_date": "2026-10-13",
+      "date_precision": "day",
+      "evidence_notes": [
+        "Accession 0001541617-23-000003. Header says nearest dollar, but values appear legacy thousand-scaled. No silent repair. Dollar-value analysis quarantined pending original correction or reconciliation."
+      ],
+      "locator": null,
+      "facts": {
+        "META": {
+          "shares": 1994476,
+          "raw_value": 240015,
+          "declared_value_unit": "USD",
+          "normalized_usd": null,
+          "quality": "implausible value/share; unit inconsistency"
+        },
+        "GRAB_common": "No common-stock line in this information table.",
+        "GRAB_warrants": {
+          "shares_or_units": 3502000,
+          "raw_value": 1882,
+          "declared_value_unit": "USD",
+          "normalized_usd": null,
+          "quality": "unit inconsistency"
+        }
+      },
+      "pre_2026_eligibility": {
+        "cutoff_utc": "2025-12-31T23:59:59Z",
+        "known_publication_before_cutoff": true,
+        "method_source_eligible": false,
+        "eligibility_reason": "Dated before cutoff, but this source supplies identity, holdings or historical outcomes rather than operational method.",
+        "historical_packet_scope": "Only information contained in the verified dated source. No later holdings, current role facts or subsequent outcomes may be appended as if known then."
+      },
+      "rule_anchor_ids": []
+    },
+    "ALT-13F-20231231": {
+      "source_id": "ALT-13F-20231231",
+      "title": "Altimeter 13F information table, Q4 2023",
+      "original_url": "https://www.sec.gov/Archives/edgar/data/1541617/000154161724000004/xslForm13F_X02/4q2313f.xml",
+      "published_date": "2024-02-14",
+      "report_period": "2023-12-31",
+      "authors": [
+        "Altimeter Capital Management LP"
+      ],
+      "source_type": "manager_sec_13f",
+      "retrieved_date": "2026-10-13",
+      "date_precision": "day",
+      "evidence_notes": [
+        "Accession 0001541617-24-000004. USD."
+      ],
+      "locator": null,
+      "facts": {
+        "META": {
+          "shares": 2404781,
+          "value_usd": 851196283
+        },
+        "GRAB_warrants": {
+          "shares_or_units": 3502000,
+          "value_usd": 787775
+        }
+      },
+      "pre_2026_eligibility": {
+        "cutoff_utc": "2025-12-31T23:59:59Z",
+        "known_publication_before_cutoff": true,
+        "method_source_eligible": false,
+        "eligibility_reason": "Dated before cutoff, but this source supplies identity, holdings or historical outcomes rather than operational method.",
+        "historical_packet_scope": "Only information contained in the verified dated source. No later holdings, current role facts or subsequent outcomes may be appended as if known then."
+      },
+      "rule_anchor_ids": []
+    },
+    "META-10K-2023": {
+      "source_id": "META-10K-2023",
+      "title": "Meta Platforms 2023 Form 10-K",
+      "original_url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680124000012/meta-20231231.htm",
+      "published_date": "2024-02-02",
+      "report_period": "2023-12-31",
+      "authors": [
+        "Meta Platforms Inc."
+      ],
+      "source_type": "issuer_sec_10k",
+      "retrieved_date": "2026-10-13",
+      "date_precision": "day",
+      "evidence_notes": [
+        "Accession 0001326801-24-000012, accepted 2024-02-01 19:39 ET; filing date 2024-02-02. Original stock-return graph visually inspected, without extracting exact unlabeled graph values."
+      ],
+      "locator": null,
+      "facts": {
+        "FCF_usd_million": {
+          "2022": 18439,
+          "2023": 43010
+        },
+        "headcount_2023": 67317,
+        "headcount_yoy_pct": -22,
+        "capex_including_finance_leases_2023_usd_billion": 28.1,
+        "Reality_Labs_2023_usd_million": {
+          "expenses": 18016,
+          "operating_loss": 16120
+        },
+        "stock_graph": "Large 2023 recovery following 2022 decline; issuer series includes reinvested distributions and comparative index series.",
+        "comparability": "Headcount is not headcount expense. Reality Labs expenses/loss are not the letter's exact investment metric."
+      },
+      "pre_2026_eligibility": {
+        "cutoff_utc": "2025-12-31T23:59:59Z",
+        "known_publication_before_cutoff": true,
+        "method_source_eligible": false,
+        "eligibility_reason": "Dated before cutoff, but this source supplies identity, holdings or historical outcomes rather than operational method.",
+        "historical_packet_scope": "Only information contained in the verified dated source. No later holdings, current role facts or subsequent outcomes may be appended as if known then."
+      },
+      "rule_anchor_ids": []
+    },
+    "ALT-GRAB-DEAL-20210413": {
+      "source_id": "ALT-GRAB-DEAL-20210413",
+      "title": "Grab and Altimeter announce proposed combination",
+      "original_url": "https://investors.grab.com/news-and-events/news-details/2021/Grab-the-Leading-Superapp-for-Deliveries-Mobility-and-Financial-Services-in-Southeast-Asia-Plans-to-Go-Public-in-Partnership-with-Altimeter/default.aspx",
+      "published_date": "2021-04-13",
+      "report_period": null,
+      "authors": [
+        "Grab",
+        "Altimeter Growth Corp."
+      ],
+      "source_type": "issuer_sponsor_announcement",
+      "retrieved_date": "2026-10-13",
+      "date_precision": "day",
+      "evidence_notes": [],
+      "locator": null,
+      "facts": {
+        "valuation_pro_forma_equity_usd_billion": 39.6,
+        "PIPE_usd_billion": 4.0,
+        "Altimeter_managed_funds_PIPE_usd_million": 750,
+        "sponsor_terms": "Three-year lockup of sponsor promote shares; 10% sponsor promote donated. This is not a three-year lockup of every PIPE share.",
+        "claim": "Founder-led Southeast Asian superapp, cross-service flywheel, long-term partner."
+      },
+      "pre_2026_eligibility": {
+        "cutoff_utc": "2025-12-31T23:59:59Z",
+        "known_publication_before_cutoff": true,
+        "method_source_eligible": false,
+        "eligibility_reason": "Dated before cutoff, but this source supplies identity, holdings or historical outcomes rather than operational method.",
+        "historical_packet_scope": "Only information contained in the verified dated source. No later holdings, current role facts or subsequent outcomes may be appended as if known then."
+      },
+      "rule_anchor_ids": []
+    },
+    "ALT-GRAB-DECK-20210413": {
+      "source_id": "ALT-GRAB-DECK-20210413",
+      "title": "Grab-Altimeter original investor presentation",
+      "original_url": "https://www.sec.gov/Archives/edgar/data/1823340/000114036121012518/nt10022857x2_ex99-2.htm",
+      "published_date": "2021-04-13",
+      "report_period": null,
+      "authors": [
+        "Grab",
+        "Altimeter Growth Corp."
+      ],
+      "source_type": "sponsor_sec_transaction_deck",
+      "retrieved_date": "2026-10-13",
+      "date_precision": "day",
+      "evidence_notes": [
+        "Contemporary pre-deal-completion projections; after negotiations/commitment. Not a recovered private investment-committee memo."
+      ],
+      "locator": "Presentation page 59, 2023 forecasts and valuation sections",
+      "facts": {
+        "2023_forecasts": {
+          "GMV_usd_billion": 34.2,
+          "monthly_transacting_users_million": 43,
+          "adjusted_net_revenue_usd_billion": 4.5,
+          "adjusted_EBITDA_after_regional_costs_usd_billion": 0.5
+        },
+        "valuation_method": "Forward adjusted revenue comparisons to public peers, regional growth/TAM and segment leadership.",
+        "metric_caution": "Original adjusted net revenue and EBITDA definitions require a bridge to later IFRS revenue and updated adjusted EBITDA; direct headline subtraction is invalid.",
+        "PIPE_common_price_usd": 10.0
+      },
+      "pre_2026_eligibility": {
+        "cutoff_utc": "2025-12-31T23:59:59Z",
+        "known_publication_before_cutoff": true,
+        "method_source_eligible": true,
+        "eligibility_reason": "Dated before cutoff; method is case/fund/team-specific, not a universal personal trading rule.",
+        "historical_packet_scope": "Only information contained in the verified dated source. No later holdings, current role facts or subsequent outcomes may be appended as if known then."
+      },
+      "rule_anchor_ids": [
+        "ALT-R04-A1",
+        "ALT-R04-A2"
+      ]
+    },
+    "ALT-GRAB-VIDEO-20210413": {
+      "source_id": "ALT-GRAB-VIDEO-20210413",
+      "title": "Brad Gerstner original Grab transaction video transcript",
+      "original_url": "https://www.sec.gov/Archives/edgar/data/1823340/000114036121012518/nt10022857x2_ex99-8.htm",
+      "published_date": "2021-04-13",
+      "report_period": null,
+      "authors": [
+        "Brad Gerstner"
+      ],
+      "source_type": "sponsor_sec_transaction_transcript",
+      "retrieved_date": "2026-10-13",
+      "date_precision": "day",
+      "evidence_notes": [],
+      "locator": null,
+      "facts": {
+        "identity": "Introduces himself as Altimeter founder/CEO.",
+        "thesis": "Founder-led platform, long-term partnership and public-market transition; promotional statement rather than independent downside valuation."
+      },
+      "pre_2026_eligibility": {
+        "cutoff_utc": "2025-12-31T23:59:59Z",
+        "known_publication_before_cutoff": true,
+        "method_source_eligible": true,
+        "eligibility_reason": "Dated before cutoff; method is case/fund/team-specific, not a universal personal trading rule.",
+        "historical_packet_scope": "Only information contained in the verified dated source. No later holdings, current role facts or subsequent outcomes may be appended as if known then."
+      },
+      "rule_anchor_ids": []
+    },
+    "GRAB-CLOSE-20211201": {
+      "source_id": "GRAB-CLOSE-20211201",
+      "title": "Grab completes Altimeter combination",
+      "original_url": "https://investors.grab.com/news-and-events/news-details/2021/Grab-to-Trade-on-Nasdaq-Following-Successful-Business-Combination-with-Altimeter/default.aspx",
+      "published_date": "2021-12-01",
+      "report_period": null,
+      "authors": [
+        "Grab"
+      ],
+      "source_type": "issuer_announcement",
+      "retrieved_date": "2026-10-13",
+      "date_precision": "day",
+      "evidence_notes": [],
+      "locator": null,
+      "facts": {
+        "completion_date": "2021-12-01",
+        "expected_first_trading_date": "2021-12-02",
+        "approved_date": "2021-11-30",
+        "PIPE": "$4.0B PIPE including $750M led by Altimeter-managed funds; no individual account lot/cost/realization verification."
+      },
+      "pre_2026_eligibility": {
+        "cutoff_utc": "2025-12-31T23:59:59Z",
+        "known_publication_before_cutoff": true,
+        "method_source_eligible": false,
+        "eligibility_reason": "Dated before cutoff, but this source supplies identity, holdings or historical outcomes rather than operational method.",
+        "historical_packet_scope": "Only information contained in the verified dated source. No later holdings, current role facts or subsequent outcomes may be appended as if known then."
+      },
+      "rule_anchor_ids": []
+    },
+    "GRAB-RESULTS-2023": {
+      "source_id": "GRAB-RESULTS-2023",
+      "title": "Grab full-year 2023 results",
+      "original_url": "https://investors.grab.com/news-and-events/news-details/2024/Grab-Reports-Fourth-Quarter-and-Full-Year-2023-Results-and-Announces-Inaugural-Share-Repurchase-Program-of-Up-to-500-Million/default.aspx",
+      "published_date": "2024-02-22",
+      "report_period": "2023-12-31",
+      "authors": [
+        "Grab Holdings Limited"
+      ],
+      "source_type": "issuer_results",
+      "retrieved_date": "2026-10-13",
+      "date_precision": "day",
+      "evidence_notes": [],
+      "locator": null,
+      "facts": {
+        "revenue_usd_million": {
+          "2022": 1433,
+          "2023": 2359
+        },
+        "loss_usd_million": {
+          "2022": 1740,
+          "2023": 485
+        },
+        "group_adjusted_EBITDA_usd_million": {
+          "2022": -793,
+          "2023": -22
+        },
+        "GMV_2023_usd_million": 20983,
+        "MTU_2023_million": 35.5,
+        "context": "Strong loss reduction and improving profitability; original forecast confidence must still be challenged. GMV/MTU and adjusted metric definition changes need reconciliation."
+      },
+      "pre_2026_eligibility": {
+        "cutoff_utc": "2025-12-31T23:59:59Z",
+        "known_publication_before_cutoff": true,
+        "method_source_eligible": false,
+        "eligibility_reason": "Dated before cutoff, but this source supplies identity, holdings or historical outcomes rather than operational method.",
+        "historical_packet_scope": "Only information contained in the verified dated source. No later holdings, current role facts or subsequent outcomes may be appended as if known then."
+      },
+      "rule_anchor_ids": []
+    },
+    "COATUE-HOME": {
+      "source_id": "COATUE-HOME",
+      "title": "Coatue official home",
+      "original_url": "https://www.coatue.com/",
+      "published_date": null,
+      "report_period": null,
+      "authors": [
+        "Coatue"
+      ],
+      "source_type": "first_party",
+      "retrieved_date": "2026-10-13",
+      "date_precision": "publication_date_not_shown",
+      "evidence_notes": [],
+      "locator": null,
+      "facts": {
+        "mandate": "Public equity, venture, growth, tactical/structured capital and other technology/innovation investments.",
+        "selection_warning": "Featured companies are selected illustrations, not proof of representative holdings, profit or performance."
+      },
+      "pre_2026_eligibility": {
+        "cutoff_utc": "2025-12-31T23:59:59Z",
+        "known_publication_before_cutoff": false,
+        "method_source_eligible": false,
+        "eligibility_reason": "Excluded: publication/revision day unknown or current mutable version not pinned.",
+        "historical_packet_scope": "Only information contained in the verified dated source. No later holdings, current role facts or subsequent outcomes may be appended as if known then."
+      },
+      "rule_anchor_ids": []
+    },
+    "COATUE-CTEK-20260501": {
+      "source_id": "COATUE-CTEK-20260501",
+      "title": "Coatue Innovative Strategies Fund prospectus",
+      "original_url": "https://www.coatue.com/ctek/documents/Coatue_-_CTEK_Prospectus__May_1__2026_.pdf",
+      "published_date": "2026-05-01",
+      "report_period": null,
+      "authors": [
+        "Coatue Innovative Strategies Fund"
+      ],
+      "source_type": "fund_prospectus",
+      "retrieved_date": "2026-10-13",
+      "date_precision": "day",
+      "evidence_notes": [
+        "Applies to this specific fund and current date. Do not retroactively assign every term to all Coatue hedge/venture funds since 1999."
+      ],
+      "locator": "PDF pages 0, 24-27, 58; printed page 55 for portfolio manager",
+      "facts": {
+        "mandate": "CTEK non-diversified closed-end appreciation fund; approximate public/private allocation 50%-80%/20%-50%, discretionary. Equity, debt, derivatives and cash permitted.",
+        "liquidity": "No daily-redemption right; limited discretionary repurchases.",
+        "process": "Industry/TAM maps, management/business quality, adoption/profit S-curves; Mosaic models/data/surveys/experts guide sizing.",
+        "risk": "Resize, raise cash; possible leverage/derivatives/ETFs. No disclosed universal numeric stop.",
+        "AI": "Coatue Brain launched 2023; humans decide.",
+        "authority": "Laffont founded Coatue December 1999, principal decision-maker; CTEK overall portfolio/transaction responsibility with delegation."
+      },
+      "pre_2026_eligibility": {
+        "cutoff_utc": "2025-12-31T23:59:59Z",
+        "known_publication_before_cutoff": false,
+        "method_source_eligible": false,
+        "eligibility_reason": "Excluded: published during 2026, after decision cutoff.",
+        "historical_packet_scope": "Only information contained in the verified dated source. No later holdings, current role facts or subsequent outcomes may be appended as if known then."
+      },
+      "rule_anchor_ids": [
+        "COATUE-R01-A1",
+        "COATUE-R02-A1",
+        "COATUE-R03-A1",
+        "COATUE-R05-A1"
+      ]
+    },
+    "COATUE-AI-20231116": {
+      "source_id": "COATUE-AI-20231116",
+      "title": "AI: the coming revolution, 2023",
+      "original_url": "https://www.coatue.com/blog/perspective/ai-the-coming-revolution-2023",
+      "published_date": "2023-11-16",
+      "report_period": null,
+      "authors": [
+        "Sri Viswanath",
+        "Vibhor Khanna"
+      ],
+      "source_type": "first_party",
+      "retrieved_date": "2026-10-13",
+      "date_precision": "day",
+      "evidence_notes": [],
+      "locator": null,
+      "facts": {
+        "research": "Survey about 600 executives; maps compute/cloud, foundational models, developer tools and applications.",
+        "business_tests": "Training/inference demand and cost; distribution, data, talent, compute, engineering adoption and incumbent defenses.",
+        "timing": "Original team paper predates subsequent 2024 outcomes but follows known 2022 NVIDIA holding and much of 2023 appreciation.",
+        "attribution": "Authors are Viswanath and Khanna, not Laffont; no original NVIDIA purchase price target recovered."
+      },
+      "pre_2026_eligibility": {
+        "cutoff_utc": "2025-12-31T23:59:59Z",
+        "known_publication_before_cutoff": true,
+        "method_source_eligible": true,
+        "eligibility_reason": "Dated before cutoff; method is case/fund/team-specific, not a universal personal trading rule.",
+        "historical_packet_scope": "Only information contained in the verified dated source. No later holdings, current role facts or subsequent outcomes may be appended as if known then."
+      },
+      "rule_anchor_ids": [
+        "COATUE-R04-A1",
+        "COATUE-R04-A2"
+      ]
+    },
+    "COATUE-CTAKES": {
+      "source_id": "COATUE-CTAKES",
+      "title": "Coatue C:\\Takes public research disclaimer",
+      "original_url": "https://www.coatue.com/c/takes",
+      "published_date": null,
+      "report_period": null,
+      "authors": [
+        "Coatue"
+      ],
+      "source_type": "first_party",
+      "retrieved_date": "2026-10-13",
+      "date_precision": "publication_date_not_shown",
+      "evidence_notes": [],
+      "locator": null,
+      "facts": {
+        "scope": "Individual-author opinions; named securities are not necessarily current account holdings. Published research is not a complete portfolio or instruction to transact."
+      },
+      "pre_2026_eligibility": {
+        "cutoff_utc": "2025-12-31T23:59:59Z",
+        "known_publication_before_cutoff": false,
+        "method_source_eligible": false,
+        "eligibility_reason": "Excluded: publication/revision day unknown or current mutable version not pinned.",
+        "historical_packet_scope": "Only information contained in the verified dated source. No later holdings, current role facts or subsequent outcomes may be appended as if known then."
+      },
+      "rule_anchor_ids": []
+    },
+    "COATUE-13F-20221231": {
+      "source_id": "COATUE-13F-20221231",
+      "title": "Coatue 13F information table, Q4 2022",
+      "original_url": "https://www.sec.gov/Archives/edgar/data/1135730/000091957423001190/xslForm13F_X02/infotable.xml",
+      "published_date": "2023-02-14",
+      "report_period": "2022-12-31",
+      "authors": [
+        "Coatue Management LLC"
+      ],
+      "source_type": "manager_sec_13f",
+      "retrieved_date": "2026-10-13",
+      "date_precision": "day",
+      "evidence_notes": [
+        "Accession 0000919574-23-001190; accepted 2023-02-13 17:56:24 ET. USD; summed same-security common-stock rows across included managers."
+      ],
+      "locator": null,
+      "facts": {
+        "NVDA": {
+          "rows": 4,
+          "shares": 4638632,
+          "value_usd": 677889680,
+          "implied_value_per_share_usd": 146.1399998965212
+        },
+        "MRNA": {
+          "rows": 2,
+          "shares": 6393565,
+          "value_usd": 1148412145,
+          "implied_value_per_share_usd": 179.62
+        },
+        "split_basis": "NVIDIA share/price figures precede June 2024 ten-for-one split. Both compared calendar endpoints use the same basis."
+      },
+      "pre_2026_eligibility": {
+        "cutoff_utc": "2025-12-31T23:59:59Z",
+        "known_publication_before_cutoff": true,
+        "method_source_eligible": false,
+        "eligibility_reason": "Dated before cutoff, but this source supplies identity, holdings or historical outcomes rather than operational method.",
+        "historical_packet_scope": "Only information contained in the verified dated source. No later holdings, current role facts or subsequent outcomes may be appended as if known then."
+      },
+      "rule_anchor_ids": []
+    },
+    "COATUE-13F-20231231": {
+      "source_id": "COATUE-13F-20231231",
+      "title": "Coatue 13F information table, Q4 2023",
+      "original_url": "https://www.sec.gov/Archives/edgar/data/1135730/000091957424001118/xslForm13F_X02/infotable.xml",
+      "published_date": "2024-02-14",
+      "report_period": "2023-12-31",
+      "authors": [
+        "Coatue Management LLC"
+      ],
+      "source_type": "manager_sec_13f",
+      "retrieved_date": "2026-10-13",
+      "date_precision": "day",
+      "evidence_notes": [
+        "Accession 0000919574-24-001118; accepted 2024-02-13 17:54:39 ET. USD; aggregation may span different included managers than prior filing."
+      ],
+      "locator": null,
+      "facts": {
+        "NVDA": {
+          "rows": 6,
+          "shares": 4322201,
+          "value_usd": 2140440379,
+          "implied_value_per_share_usd": 495.2199999491
+        },
+        "MRNA": {
+          "rows": 2,
+          "shares": 3273052,
+          "value_usd": 325505021,
+          "implied_value_per_share_usd": 99.45
+        },
+        "split_basis": "NVIDIA share/price figures precede June 2024 ten-for-one split. Both compared calendar endpoints use the same basis."
+      },
+      "pre_2026_eligibility": {
+        "cutoff_utc": "2025-12-31T23:59:59Z",
+        "known_publication_before_cutoff": true,
+        "method_source_eligible": false,
+        "eligibility_reason": "Dated before cutoff, but this source supplies identity, holdings or historical outcomes rather than operational method.",
+        "historical_packet_scope": "Only information contained in the verified dated source. No later holdings, current role facts or subsequent outcomes may be appended as if known then."
+      },
+      "rule_anchor_ids": []
+    },
+    "NVDA-10K-FY2024": {
+      "source_id": "NVDA-10K-FY2024",
+      "title": "NVIDIA fiscal 2024 Form 10-K",
+      "original_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581024000029/nvda-20240128.htm",
+      "published_date": "2024-02-21",
+      "report_period": "2024-01-28",
+      "authors": [
+        "NVIDIA Corp."
+      ],
+      "source_type": "issuer_sec_10k",
+      "retrieved_date": "2026-10-13",
+      "date_precision": "day",
+      "evidence_notes": [
+        "Accession 0001045810-24-000029; accepted 16:36:57 ET. Fiscal dates differ from calendar 13F dates."
+      ],
+      "locator": null,
+      "facts": {
+        "revenue_usd_million": {
+          "FY2023": 26974,
+          "FY2024": 60922
+        },
+        "net_income_usd_million": {
+          "FY2023": 4368,
+          "FY2024": 29760
+        },
+        "stock_performance_index": {
+          "NVDA_20230129": 512.4,
+          "NVDA_20240128": 1536.28,
+          "SP500_20230129": 163.63,
+          "SP500_20240128": 199.83,
+          "Nasdaq100_20230129": 185.67,
+          "Nasdaq100_20240128": 268.13
+        },
+        "return_scope": "Issuer total-return comparison table, hypothetical reinvestment; not Coatue fund return."
+      },
+      "pre_2026_eligibility": {
+        "cutoff_utc": "2025-12-31T23:59:59Z",
+        "known_publication_before_cutoff": true,
+        "method_source_eligible": false,
+        "eligibility_reason": "Dated before cutoff, but this source supplies identity, holdings or historical outcomes rather than operational method.",
+        "historical_packet_scope": "Only information contained in the verified dated source. No later holdings, current role facts or subsequent outcomes may be appended as if known then."
+      },
+      "rule_anchor_ids": []
+    },
+    "MRNA-10K-2023": {
+      "source_id": "MRNA-10K-2023",
+      "title": "Moderna 2023 Form 10-K",
+      "original_url": "https://www.sec.gov/Archives/edgar/data/1682852/000168285224000015/mrna-20231231.htm",
+      "published_date": "2024-02-23",
+      "report_period": "2023-12-31",
+      "authors": [
+        "Moderna Inc."
+      ],
+      "source_type": "issuer_sec_10k",
+      "retrieved_date": "2026-10-13",
+      "date_precision": "day",
+      "evidence_notes": [
+        "Accession 0001682852-24-000015. Original HTML read; optional stock-performance image not verified."
+      ],
+      "locator": null,
+      "facts": {
+        "context": "COVID-product demand normalization; pipeline can have value even when current sales decline. This is issuer context, not evidence of Coatue rationale."
+      },
+      "pre_2026_eligibility": {
+        "cutoff_utc": "2025-12-31T23:59:59Z",
+        "known_publication_before_cutoff": true,
+        "method_source_eligible": false,
+        "eligibility_reason": "Dated before cutoff, but this source supplies identity, holdings or historical outcomes rather than operational method.",
+        "historical_packet_scope": "Only information contained in the verified dated source. No later holdings, current role facts or subsequent outcomes may be appended as if known then."
+      },
+      "rule_anchor_ids": []
+    },
+    "MRNA-RESULTS-2023": {
+      "source_id": "MRNA-RESULTS-2023",
+      "title": "Moderna fiscal 2023 results",
+      "original_url": "https://investors.modernatx.com/news/news-details/2024/Moderna-Reports-Fourth-Quarter-and-Fiscal-Year-2023-Financial-Results-and-Provides-Business-Updates/default.aspx",
+      "published_date": "2024-02-22",
+      "report_period": "2023-12-31",
+      "authors": [
+        "Moderna Inc."
+      ],
+      "source_type": "issuer_results",
+      "retrieved_date": "2026-10-13",
+      "date_precision": "day",
+      "evidence_notes": [],
+      "locator": null,
+      "facts": {
+        "revenue_usd_billion": {
+          "2022": 19.3,
+          "2023": 6.8
+        },
+        "product_sales_2023_usd_billion": 6.7,
+        "product_sales_yoy_pct": -64,
+        "cost_of_sales_pct": {
+          "2022": 29,
+          "2023": 70
+        },
+        "inventory_writedowns_2023_usd_billion": 2.2
+      },
+      "pre_2026_eligibility": {
+        "cutoff_utc": "2025-12-31T23:59:59Z",
+        "known_publication_before_cutoff": true,
+        "method_source_eligible": false,
+        "eligibility_reason": "Dated before cutoff, but this source supplies identity, holdings or historical outcomes rather than operational method.",
+        "historical_packet_scope": "Only information contained in the verified dated source. No later holdings, current role facts or subsequent outcomes may be appended as if known then."
+      },
+      "rule_anchor_ids": []
+    },
+    "MRNA-LETTER-20230103": {
+      "source_id": "MRNA-LETTER-20230103",
+      "title": "Moderna 2022 shareholder letter",
+      "original_url": "https://www.modernatx.com/media-center/all-media/blogs/moderna-2022-shareholder-letter",
+      "published_date": "2023-01-03",
+      "report_period": null,
+      "authors": [
+        "Stéphane Bancel"
+      ],
+      "source_type": "issuer_shareholder_letter",
+      "retrieved_date": "2026-10-13",
+      "date_precision": "day",
+      "evidence_notes": [],
+      "locator": null,
+      "facts": {
+        "platform": "mRNA platform and diversified clinical pipeline, 48 programs and 35 clinical candidates.",
+        "attribution": "Issuer optimism after 2022, not a Coatue investment memo."
+      },
+      "pre_2026_eligibility": {
+        "cutoff_utc": "2025-12-31T23:59:59Z",
+        "known_publication_before_cutoff": true,
+        "method_source_eligible": false,
+        "eligibility_reason": "Dated before cutoff, but this source supplies identity, holdings or historical outcomes rather than operational method.",
+        "historical_packet_scope": "Only information contained in the verified dated source. No later holdings, current role facts or subsequent outcomes may be appended as if known then."
+      },
+      "rule_anchor_ids": []
+    },
+    "ALT-ROLE-2026-SPEAKER": {
+      "source_id": "ALT-ROLE-2026-SPEAKER",
+      "title": "Brad Gerstner, 2026 Milken conference speaker biography",
+      "original_url": "https://milkeninstitute.org/events/global-conference-2026/speakers/brad-gerstner",
+      "published_date": null,
+      "report_period": null,
+      "authors": [
+        "Brad Gerstner, self-supplied biography hosted by Milken Institute"
+      ],
+      "source_type": "first_person_speaker_biography",
+      "retrieved_date": "2026-10-13",
+      "date_precision": "publication_date_not_shown",
+      "evidence_notes": [
+        "Panel engagement 2026-05-04. Milken explicitly says speaker biographies are self-provided and represent role at engagement, not independently verified. Investment success claims in biography are not core case evidence."
+      ],
+      "locator": "Speaker role and disclaimer",
+      "facts": {
+        "role": "Founder and CEO of Altimeter, self-reported for 2026-05-04 engagement."
+      },
+      "pre_2026_eligibility": {
+        "cutoff_utc": "2025-12-31T23:59:59Z",
+        "known_publication_before_cutoff": false,
+        "method_source_eligible": false,
+        "eligibility_reason": "2026 engagement/unknown exact publication date; identity audit only.",
+        "historical_packet_scope": "Do not use in the beginning-2026 method packet."
+      },
+      "rule_anchor_ids": []
+    }
+  }
+}

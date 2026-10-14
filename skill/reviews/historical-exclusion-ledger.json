@@ -1,0 +1,108 @@
+{
+  "schema_version": "historical-exclusion-ledger/v1",
+  "worker_transport_allowed": false,
+  "reason": "This control ledger describes exclusions and must remain outside the historical decision worker package.",
+  "excluded_rules": [
+    {
+      "master_id": "cathie-wood",
+      "rule_id": "ARK-R01",
+      "reason": "Current/undated generic process or not an admitted dated method fact."
+    },
+    {
+      "master_id": "cathie-wood",
+      "rule_id": "ARK-R02",
+      "reason": "Current/undated generic process or not an admitted dated method fact."
+    },
+    {
+      "master_id": "cathie-wood",
+      "rule_id": "ARK-R03",
+      "reason": "Current/undated generic process or not an admitted dated method fact."
+    },
+    {
+      "master_id": "ron-baron",
+      "rule_id": "BARON-R01",
+      "reason": "Current/undated generic process or not an admitted dated method fact."
+    },
+    {
+      "master_id": "ron-baron",
+      "rule_id": "BARON-R02",
+      "reason": "Current/undated generic process or not an admitted dated method fact."
+    },
+    {
+      "master_id": "ron-baron",
+      "rule_id": "BARON-R03",
+      "reason": "Current/undated generic process or not an admitted dated method fact."
+    },
+    {
+      "master_id": "ron-baron",
+      "rule_id": "BARON-R04",
+      "reason": "Current/undated generic process or not an admitted dated method fact."
+    },
+    {
+      "master_id": "ron-baron",
+      "rule_id": "BARON-R05",
+      "reason": "Current/undated generic process or not an admitted dated method fact."
+    },
+    {
+      "master_id": "philippe-laffont",
+      "rule_id": "COATUE-R01",
+      "reason": "Later/current process; outside cutoff or date unknown."
+    },
+    {
+      "master_id": "philippe-laffont",
+      "rule_id": "COATUE-R02",
+      "reason": "Later/current process; outside cutoff or date unknown."
+    },
+    {
+      "master_id": "philippe-laffont",
+      "rule_id": "COATUE-R03",
+      "reason": "Later/current process; outside cutoff or date unknown."
+    },
+    {
+      "master_id": "philippe-laffont",
+      "rule_id": "COATUE-R05",
+      "reason": "Later/current process; outside cutoff or date unknown."
+    },
+    {
+      "master_id": "ray-dalio",
+      "rule_id": "DAL-R4",
+      "reason": "Post-cutoff, team/other-person attribution, or case-derived audit lesson outside strict personal-method subset."
+    },
+    {
+      "master_id": "ray-dalio",
+      "rule_id": "DAL-R5",
+      "reason": "Post-cutoff, team/other-person attribution, or case-derived audit lesson outside strict personal-method subset."
+    },
+    {
+      "master_id": "george-soros",
+      "rule_id": "SOR-R4",
+      "reason": "Post-cutoff, team/other-person attribution, or case-derived audit lesson outside strict personal-method subset."
+    },
+    {
+      "master_id": "george-soros",
+      "rule_id": "SOR-R5",
+      "reason": "Post-cutoff, team/other-person attribution, or case-derived audit lesson outside strict personal-method subset."
+    },
+    {
+      "master_id": "stanley-druckenmiller",
+      "rule_id": "DRU-R4",
+      "reason": "Post-cutoff, team/other-person attribution, or case-derived audit lesson outside strict personal-method subset."
+    },
+    {
+      "master_id": "stanley-druckenmiller",
+      "rule_id": "DRU-R5",
+      "reason": "Post-cutoff, team/other-person attribution, or case-derived audit lesson outside strict personal-method subset."
+    },
+    {
+      "master_id": "leopold-aschenbrenner",
+      "rule_id": "L-R6",
+      "reason": "Unknown-date or later risk method excluded."
+    },
+    {
+      "master_id": "leopold-aschenbrenner",
+      "rule_id": "L-R7",
+      "reason": "Unknown-date or later risk method excluded."
+    }
+  ],
+  "stronger_than_raw_stream_cutoff_flag": "A pre-cutoff publication can still fail authentic personal-method scope. Current audit files retain all original evidence and candidate rule flags."
+}

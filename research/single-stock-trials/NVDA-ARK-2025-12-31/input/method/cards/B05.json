@@ -1,0 +1,47 @@
+{
+  "schema_version": "historical-finterm-procedural-card/v0.1-candidate",
+  "transport_status": "candidate_pending_exact_content_acceptance",
+  "card_id": "B05",
+  "title": "Distinguish a Franchise from a Commodity or Capital Trap",
+  "intent": [
+    "financial-analysis",
+    "memo-review",
+    "thesis-evaluation"
+  ],
+  "origin_label": "Finterm MIT editorial procedural framework, retrospective implementation under test; not proof of a native investor algorithm.",
+  "historical_source_fact_ids_if_any": [],
+  "source_repository": "finterm-ai/investment-skills",
+  "source_pin": "7235d3411601036cc79137fa0aec0d587f2c8e19",
+  "source_path": "vendor/finterm/references/02-business-economics.md",
+  "source_file_sha256": "839e3d8a80441f13a0f33eb4e19d8b175f97effa3c80a9abac0405ee8eb94afc",
+  "selected_fragment_sha256": "b52e157369ea9513e7b1ad03cba16261d7a6e0d8def325f2102b419f897e85c4",
+  "source_fragment_locator": {
+    "line_start_1_based": 118,
+    "line_end_1_based": 132,
+    "sha256": "b52e157369ea9513e7b1ad03cba16261d7a6e0d8def325f2102b419f897e85c4",
+    "bytes": 953
+  },
+  "procedural_question": "Will price-taking, excess capacity, and required reinvestment\n  consume apparent earnings or growth?",
+  "guidance": "Diagnose whether returns come from differentiated value or favorable\n  cycle and price while replacement and competitive capital absorb owner cash.",
+  "applicability": "Commodity, manufacturing, transport, capital-intensive, or rapidly\n  growing businesses with volatile prices or persistent reinvestment.",
+  "procedural_actions": "Measure replacement capital, working capital, utilization, and\n  incremental returns; test price-taking and capacity; identify low-cost or regulated\n  exceptions.",
+  "output_contract": "A franchise-versus-capital-trap diagnosis with capital burden, industry\n  mechanism, exceptions, and unresolved data.",
+  "limits": "A low-cost producer or fairly regulated asset can be viable; one weak\n  cycle does not establish a trap.",
+  "required_questions": [
+    "Will price-taking, excess capacity, and required reinvestment\n  consume apparent earnings or growth?"
+  ],
+  "falsifiers_and_contrary_checks": {
+    "standalone_falsifier_field_in_original": false,
+    "preserved_original_action_text": "Measure replacement capital, working capital, utilization, and\n  incremental returns; test price-taking and capacity; identify low-cost or regulated\n  exceptions.",
+    "preserved_original_limit_text": "A low-cost producer or fairly regulated asset can be viable; one weak\n  cycle does not establish a trap.",
+    "interpretation": "Use these exact original action/limit tests; this projection supplies no invented card-specific falsifier or calibrated probability."
+  },
+  "evidence_scope": "Only admitted supplied immutable historical evidence and explicitly labelled frozen assumptions. Any generic request to search, compare, classify new evidence or monitor is confined to that packet; no live retrieval or later-data monitoring is authorized.",
+  "procedural_fragment_verbatim": "### B05 — Distinguish a Franchise from a Commodity or Capital Trap\n\n- **Decision question:** Will price-taking, excess capacity, and required reinvestment\n  consume apparent earnings or growth?\n- **Guidance:** Diagnose whether returns come from differentiated value or favorable\n  cycle and price while replacement and competitive capital absorb owner cash.\n- **Use when:** Commodity, manufacturing, transport, capital-intensive, or rapidly\n  growing businesses with volatile prices or persistent reinvestment.\n- **Analytical actions:** Measure replacement capital, working capital, utilization, and\n  incremental returns; test price-taking and capacity; identify low-cost or regulated\n  exceptions.\n- **Output:** A franchise-versus-capital-trap diagnosis with capital burden, industry\n  mechanism, exceptions, and unresolved data.\n- **Limits:** A low-cost producer or fairly regulated asset can be viable; one weak\n  cycle does not establish a trap.\n",
+  "projection_limits": [
+    "Editorial guidance only; not an authenticated native Buffett or other master algorithm.",
+    "No source-basis or corroboration factual claims are transported.",
+    "No company fact, dated company example, holding, case result, prior opinion or actual outcome is included.",
+    "Absent prerequisites leave the corresponding branch unresolved."
+  ]
+}

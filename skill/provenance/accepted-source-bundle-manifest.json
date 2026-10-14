@@ -1,0 +1,821 @@
+{
+  "schema_version": "investment-master-skill-source-bundle/v0.1-source-refresh-v1.1",
+  "source_refresh_version": "v1.1",
+  "acceptance": "pending_independent_source_refresh_integration_review",
+  "prior_architecture_acceptance": "round1_accepted_activation_blocked_exact_snapshot_preserved",
+  "prior_architecture_receipt_sha256": "ff86ed34dda723d45719351c49ff4fba3aee3007384d1890589068deffef408a",
+  "prior_snapshot_manifest_sha256": "296f3af1f5e165425cf972882ff3d4dabf6ce243741a04318c47d85e380f02b6",
+  "scope": "Reviewable documentation, typed schemas, original-method registry/evidence normalization and inert licensed source; no upstream/model/math/live execution.",
+  "core_source_acceptance": "All ten core dossier sources plus separate Leopold emerging/risk extension accepted for bounded source content; complete deep-trade/runtime/historical transport acceptance not established.",
+  "catalogue_entities": 121,
+  "automatic_experts_or_routes": 0,
+  "curated_current_methods": 11,
+  "historical_method_files": 12,
+  "historical_method_facts": 37,
+  "finterm_cards_preserved": 65,
+  "feature_rows": 39,
+  "source_projects": 21,
+  "strict_r2_bytes_preserved": true,
+  "static_executed_checks": 46,
+  "corrective_rework_rounds_used": 2,
+  "maximum_corrective_rounds": 3,
+  "index_scope": "All files except this manifest; no unlisted source caches or execution helpers.",
+  "file_count_including_manifest": 160,
+  "files": [
+    {
+      "path": "NOTICE.md",
+      "sha256": "9f3b528a6a898bcd330d456839876b628935e035d4283a6184b56e1426c76e0a",
+      "bytes": 801
+    },
+    {
+      "path": "README.md",
+      "sha256": "9fc40df2e16eda0250f583db1623a395334dd1cf4deb7d554d6e5dc1acdded8d",
+      "bytes": 2583
+    },
+    {
+      "path": "SKILL.md",
+      "sha256": "92e70352f08a36ca22c747d9a5f9ef22a09256c7573f83bb124ad3feb793b822",
+      "bytes": 6205
+    },
+    {
+      "path": "compatibility/r2/LICENSE",
+      "sha256": "83a2c370b7a30045643a5c3236b27aa4ea6c0f3dee54672297be9320fa4a7cc3",
+      "bytes": 1067
+    },
+    {
+      "path": "compatibility/r2/NOTICE.md",
+      "sha256": "fe6e89e0eba7c65772fc698b074e9537e80e57a853c569888ea08d7099c47b06",
+      "bytes": 700
+    },
+    {
+      "path": "compatibility/r2/config/anchors.v1.json",
+      "sha256": "e1ce5d705f4bce0452c986ced8d8c50794f080b05bc5bbc03f95bc9828dc2f73",
+      "bytes": 6940
+    },
+    {
+      "path": "compatibility/r2/config/observation-window.v1.json",
+      "sha256": "c71a3e50483387392759e6feaad51207f8a56f4395928e3c962c67fb9320e15a",
+      "bytes": 586
+    },
+    {
+      "path": "compatibility/r2/config/requirements.v1.json",
+      "sha256": "e0282dc19558e67c82f30e62eb0aa27575b948b4dec268bd1241bdd4bde89648",
+      "bytes": 9034
+    },
+    {
+      "path": "compatibility/r2/contract-receipt.json",
+      "sha256": "3d2e3da5e0e89a0f7be6fbec262d4c0e391f502508fea1c20671505872d5c48e",
+      "bytes": 1647
+    },
+    {
+      "path": "compatibility/r2/method-manifest.json",
+      "sha256": "7e9b187ec37c358e3b5b3e8ce7ccc0836c220873ecc4f10d3bd5418713456589",
+      "bytes": 4243
+    },
+    {
+      "path": "compatibility/r2/schema/request.v1.json",
+      "sha256": "ea2576167e6e94733e1f797e26bd504d28acfc0e5ff05161f6e2e6d3a68e2891",
+      "bytes": 24371
+    },
+    {
+      "path": "compatibility/r2/schema/result.v1.json",
+      "sha256": "fc8bb7b49786f9e4a1221f26062bcd0999395eee7705f47dcf75b85835018cc8",
+      "bytes": 53450
+    },
+    {
+      "path": "current-library/fundamental/benchmark-2026-start-export.json",
+      "sha256": "b3ec8a7c99f9153c4c11f8a416d6259cbf026d24fc8dcd304fba9a00023994d8",
+      "bytes": 8844
+    },
+    {
+      "path": "current-library/fundamental/buffett-berkshire.json",
+      "sha256": "84cf6fa72f8e11dad346d0bd057133b4f1e24b8c067f49f665d2bc5243b91ddc",
+      "bytes": 118670
+    },
+    {
+      "path": "current-library/fundamental/candidate-cases.json",
+      "sha256": "a8b25f1764d77767357b26fe4b60fb26ae746e2db4e3621128ad16f2101c9810",
+      "bytes": 4353
+    },
+    {
+      "path": "current-library/fundamental/case-coverage.json",
+      "sha256": "25a030cab303cab527071c4c7e111972e4d534535560409cf78969a5a426943d",
+      "bytes": 8973
+    },
+    {
+      "path": "current-library/fundamental/claims.json",
+      "sha256": "a1cddf12b31eacd540a3910ec675a4e0978d0b2bbbf5f61355b1a8ccea2b4d48",
+      "bytes": 130226
+    },
+    {
+      "path": "current-library/fundamental/common-disclosure.json",
+      "sha256": "010762733e7e840717ff4e24570fe724503bae052b1eb440e5c0832d95c7f8bf",
+      "bytes": 5228
+    },
+    {
+      "path": "current-library/fundamental/corrective-submission-1.json",
+      "sha256": "8cdc440ce5507da247cc9be636f3243defa1c99ab50ec59155eb9833dfa5790f",
+      "bytes": 1612
+    },
+    {
+      "path": "current-library/fundamental/duan-yongping.json",
+      "sha256": "f945663d41d31fadc32a39049d6eb90ba2e6c8751bc54cfd6ef4cb1e764ee749",
+      "bytes": 126463
+    },
+    {
+      "path": "current-library/fundamental/evidence-map.json",
+      "sha256": "67db822bc7070febc61ae35adce32ee43f42e28d56abffd8e317fea4330e1dc5",
+      "bytes": 116713
+    },
+    {
+      "path": "current-library/fundamental/historical-method-packet.json",
+      "sha256": "b2863fe599e89eccbec50531d9e82332f0022d3d952475f3c8aeb9b3857a6704",
+      "bytes": 20068
+    },
+    {
+      "path": "current-library/fundamental/li-lu-himalaya.json",
+      "sha256": "eeb098aa6eca3e3c9fb4e4a50afc5bb8c55d165d4be10328f9a31afa2f8c7602",
+      "bytes": 87337
+    },
+    {
+      "path": "current-library/fundamental/rules.json",
+      "sha256": "047da361a6d088253080e577bec0cbb2c0307bf1dcd551068acb2d6fb57ad664",
+      "bytes": 33481
+    },
+    {
+      "path": "current-library/fundamental/sources.json",
+      "sha256": "347dfccb1bcc08ece97e8fae25004624ed19427f74be095d6e8df04ff52c01c4",
+      "bytes": 80988
+    },
+    {
+      "path": "current-library/fundamental/validation.json",
+      "sha256": "b952c5a55fd09dfc80fd69eb32875893b5be18137aecfa3bade24cb416a2c5ce",
+      "bytes": 4259
+    },
+    {
+      "path": "current-library/leopold/candidate-cases.json",
+      "sha256": "f387340607506db102cbf55ee601876617356578226562c6635fa03e6bab8ea6",
+      "bytes": 2736
+    },
+    {
+      "path": "current-library/leopold/contradictions-uncertainties.json",
+      "sha256": "c041e3b4e21e13163a74566eb83fe0f9fe8fa26714e0a2ed4d0d8ae6bbf46db3",
+      "bytes": 3659
+    },
+    {
+      "path": "current-library/leopold/deep-cases.json",
+      "sha256": "e1405251cfb29e6870e30579636ee38ba9b1a17d2965183769d5e1dc56946e13",
+      "bytes": 8692
+    },
+    {
+      "path": "current-library/leopold/dossier.json",
+      "sha256": "12463eac6b4456c6fa198842b0d43e200a81bf139aa655b42b85a279e88dfcc5",
+      "bytes": 23796
+    },
+    {
+      "path": "current-library/leopold/holdings-snapshots.json",
+      "sha256": "8e5310ebb483bbef442c0a3a8f9028de94aef293d849da02bbe7a3a3014c7438",
+      "bytes": 85591
+    },
+    {
+      "path": "current-library/leopold/self-validation.json",
+      "sha256": "a12064894840780fa9866bf465a2c69c36180845a9e491cfe9ba699b3a5232f4",
+      "bytes": 9615
+    },
+    {
+      "path": "current-library/leopold/sources.json",
+      "sha256": "c3d2423067cd7e32a87f6e94858ad512b74267e91f250d325fe729f3e8724128",
+      "bytes": 22861
+    },
+    {
+      "path": "current-library/leopold/statement-practice-pairs.json",
+      "sha256": "9acfa85e405c5a15ee8f74e41988bd8cbeca2f641fe339ff098bc31594fbc43e",
+      "bytes": 3398
+    },
+    {
+      "path": "current-library/macro/candidate-cases.json",
+      "sha256": "3ee31ff1c7603c31e300586da623c130eb2c7ea9ef232ec1a1d6a2f3c358d417",
+      "bytes": 5708
+    },
+    {
+      "path": "current-library/macro/common-audit-rules.json",
+      "sha256": "d04d3dff923788144937e8d025855368b0c6c26f7f8e3c3b27563f0275a8e573",
+      "bytes": 3912
+    },
+    {
+      "path": "current-library/macro/dalio.json",
+      "sha256": "34193462000cc56fd4b625c8caf5bd9d6d765a1719228558484c4d18b42d63c5",
+      "bytes": 24838
+    },
+    {
+      "path": "current-library/macro/druckenmiller.json",
+      "sha256": "7a1fd864543722bb4f05876906a75151ed6fcf27dedf4e213aed7b15af6d8941",
+      "bytes": 30693
+    },
+    {
+      "path": "current-library/macro/method-cutoff-2026.json",
+      "sha256": "da1a3c4060446ef95283fd1e103a58951fd444dc15d552dfa345262fd6b3bd44",
+      "bytes": 27152
+    },
+    {
+      "path": "current-library/macro/rework1-tests.json",
+      "sha256": "9ac348c80adf247f6befd429db10adea23333c595fd325277fd93bd304acb4fd",
+      "bytes": 1288
+    },
+    {
+      "path": "current-library/macro/soros.json",
+      "sha256": "f23c1efc21e831ead2ed69477a13c51096d57bd3966d55f49a4fc8c950738284",
+      "bytes": 26975
+    },
+    {
+      "path": "current-library/macro/sources.json",
+      "sha256": "9ade79aac0adaa40a968d16a735ab5bf68df627f8be3a3d2845e6fa99b17cf89",
+      "bytes": 63880
+    },
+    {
+      "path": "current-library/tech/brad_gerstner_altimeter.json",
+      "sha256": "7ad642aa3fafca608f7a24d22843999359840acabe35d952aff6ed2d5c6d2025",
+      "bytes": 33961
+    },
+    {
+      "path": "current-library/tech/case_selection.json",
+      "sha256": "972a2a3852cb3ebed141191e9e699b249cdd917872bac240cf25c90648284cb9",
+      "bytes": 3161
+    },
+    {
+      "path": "current-library/tech/cathie_wood_ark.json",
+      "sha256": "e56d8044ece4e69c2c4dae6d8286ffbe19fe1f04d8eb453923f34aae8bda6613",
+      "bytes": 29502
+    },
+    {
+      "path": "current-library/tech/common_disclosure.json",
+      "sha256": "1e643242dd12a3b29fcc27a4be8c7aaffe24e859a071772647ce7d9d73a8f5dd",
+      "bytes": 1421
+    },
+    {
+      "path": "current-library/tech/philippe_laffont_coatue.json",
+      "sha256": "098981fdd9979a116a018a70c9636b87bfff9387f0d449be57c5e011a8e9f5ca",
+      "bytes": 30903
+    },
+    {
+      "path": "current-library/tech/pre_2026_rule_anchors.json",
+      "sha256": "940260bd4c8f0630dc9fb3cd18824b39dac0c4283724659a046050d3b4f1af0a",
+      "bytes": 20557
+    },
+    {
+      "path": "current-library/tech/qa_report.json",
+      "sha256": "1cea819cb614d0f2a0367b8bc5599ee0917138ca954a382134534c9a3611aec3",
+      "bytes": 3319
+    },
+    {
+      "path": "current-library/tech/ron_baron.json",
+      "sha256": "efe40af15b4a1df5ed4bca095487eb08faeb93dedaf660aa33a80dc4d94cf35f",
+      "bytes": 31800
+    },
+    {
+      "path": "current-library/tech/rule_anchors.json",
+      "sha256": "160bc8ba0b50b15e89bcdd26f4da4565a7df3fe2c8f7c411a4d9c33e8e1a7ba0",
+      "bytes": 44699
+    },
+    {
+      "path": "current-library/tech/sources.json",
+      "sha256": "3fb2e0b0cc42f28fd0ed142aecfcda6baa592c873ce727d4452265f9c70d8c7c",
+      "bytes": 66126
+    },
+    {
+      "path": "evaluation-control/V2-adversarial-review-probes.json",
+      "sha256": "488673b431ca2dcedb35337c7a363aa26884fdb87b5144378130e52711237dc4",
+      "bytes": 9106
+    },
+    {
+      "path": "evaluation-control/V2-final-19-security-packet-contract-v1.1.md",
+      "sha256": "af50a65efe5d39f27cf4b27a71361a549e01344a3f2c0f87766284aa8be19449",
+      "bytes": 17852
+    },
+    {
+      "path": "evaluation-control/V2-final-19-security-packet-contract.md",
+      "sha256": "7a0a9145ca8cf2aef09e8b232332d1608097a22e869a1182eddd110f1230814f",
+      "bytes": 17316
+    },
+    {
+      "path": "evaluation-control/V2-research-acceptance-contract.md",
+      "sha256": "7b9771c8fde0e48ce02c06901b71131b7512dfd6ccbf1d27d928134d878316da",
+      "bytes": 26099
+    },
+    {
+      "path": "evaluation-control/V2-wrapper-design-review-0.md",
+      "sha256": "7e5985fba0c43ade6b4cb8633917dbdebead5e7be49284114b9bd379670d13b2",
+      "bytes": 3563
+    },
+    {
+      "path": "evaluation-control/cutoff-ticker-evidence/QA-allowlist.json",
+      "sha256": "7762b54fd194a2c04ffc0f3ea809a479f1d866f8c2b787ee404a988e16dd8bd4",
+      "bytes": 21789
+    },
+    {
+      "path": "evaluation-control/cutoff-ticker-evidence/USE-LIMITS.md",
+      "sha256": "b4a64b5a6f2421083b5b3ab13e72a164a4fc02b578dd5d4ab3834fdadb8d4e4f",
+      "bytes": 986
+    },
+    {
+      "path": "evaluation-control/cutoff-ticker-evidence/historical-export.json",
+      "sha256": "cceeba9329feb9e061ce92ab69a6cb6803307dbafe73b339aa389d658f8c4de5",
+      "bytes": 1021248
+    },
+    {
+      "path": "evaluation-control/cutoff-ticker-evidence/normalized.json",
+      "sha256": "eb4621b820216f09d8f3594dad7fd60ddca4bb460367c77704b1409f2d06b877",
+      "bytes": 950909
+    },
+    {
+      "path": "evaluation-control/cutoff-ticker-evidence/sanitized-manifest.json",
+      "sha256": "cd0b23cd8028e7aea3bc7fd0cc25909b0a2982bafe3b78c444383c9aa93b9925",
+      "bytes": 1548
+    },
+    {
+      "path": "evaluation-control/cutoff-ticker-evidence/source-ledger.json",
+      "sha256": "08b65873c81db05110b718bf6db2dc0fbccc84f4c9d28a29456a7210ffbded77",
+      "bytes": 84177
+    },
+    {
+      "path": "examples/adapter.synthetic-complete.result.json",
+      "sha256": "bc5c6cb000ebc3c319c5f046622e4e9345a3ce8f11e8af08599f5fc01e921a1e",
+      "bytes": 102449
+    },
+    {
+      "path": "examples/individual-model-response.abstention.json",
+      "sha256": "48d2bc19559747e2167716ca81265d86c1c38998563345ef05df8c110784eb6e",
+      "bytes": 1948
+    },
+    {
+      "path": "examples/individual-view-result.abstention.json",
+      "sha256": "8722441e30331889c2cce67f182396987e35df3dc8aea7a14a204aa20de53344",
+      "bytes": 5271
+    },
+    {
+      "path": "examples/research-result.existing-adapter-reference.json",
+      "sha256": "a916997a662c6998fd1530708cb25a6ccc1db4b43c88fd5fdf0a10b5c36bcc8f",
+      "bytes": 18015
+    },
+    {
+      "path": "examples/research-result.missing-adapter.json",
+      "sha256": "6b5850e5dcdf3e26011846d7e13ef81a8595f38f4dc14ca32bf43e578828e680",
+      "bytes": 17721
+    },
+    {
+      "path": "historical-methods/SKILL.md",
+      "sha256": "2906ee0ce55253247ed49623ea77a400936480138f5fea62b03cd3784a6f23f1",
+      "bytes": 3343
+    },
+    {
+      "path": "historical-methods/method-manifest.json",
+      "sha256": "6b50c8a9c0ca5e3a27670d513c18fe8cde6f935bdd17d576128db3a90a6a5b41",
+      "bytes": 6368
+    },
+    {
+      "path": "historical-methods/methods/brad-gerstner.json",
+      "sha256": "9ede81dc0c651dc29d974bf4d0c5bf5d7a806c6602d2645c561f290bf1b8eb48",
+      "bytes": 6799
+    },
+    {
+      "path": "historical-methods/methods/cathie-wood.json",
+      "sha256": "3853aa2162303e8b68c1a7598062409de78c0ae0e1cd07e87acc7ce5065d44b2",
+      "bytes": 4719
+    },
+    {
+      "path": "historical-methods/methods/coatue-team.json",
+      "sha256": "a645c69b1e550476732f35e1db77871aed2473c053ead21ea00d5e13e27c10b4",
+      "bytes": 2831
+    },
+    {
+      "path": "historical-methods/methods/duan-yongping.json",
+      "sha256": "e589e6162ab59ad9ce6204328dccbce00bfccc0afcffd585ae26c4440a0d193c",
+      "bytes": 9025
+    },
+    {
+      "path": "historical-methods/methods/george-soros.json",
+      "sha256": "194ff4d52847dfbfec9519c2aaf868f495163ce6af588f7215b240d9aba7abe8",
+      "bytes": 5650
+    },
+    {
+      "path": "historical-methods/methods/leopold-aschenbrenner.json",
+      "sha256": "363952ac34cc9d10921ab8f47da813781ad3900c2068566afa15cce60f935034",
+      "bytes": 5229
+    },
+    {
+      "path": "historical-methods/methods/li-lu.json",
+      "sha256": "5060dc800aa4ffd2f6e2e245eea54575ee3162034ce17277851b90bba9f7f993",
+      "bytes": 7962
+    },
+    {
+      "path": "historical-methods/methods/philippe-laffont.json",
+      "sha256": "d2831c0d80c80201341cefa29bf1ad8b93adcb44ca27444cfa1dabd0359974bc",
+      "bytes": 1140
+    },
+    {
+      "path": "historical-methods/methods/ray-dalio.json",
+      "sha256": "518a62a6d88113163109408fb24b8b7f99eed29f00ba9635ff8eade9d7f05675",
+      "bytes": 5319
+    },
+    {
+      "path": "historical-methods/methods/ron-baron.json",
+      "sha256": "8c71c69c259e8b42472f85f8325ecb10eb73d6053f3ed75c0f464a23a70760c2",
+      "bytes": 3380
+    },
+    {
+      "path": "historical-methods/methods/stanley-druckenmiller.json",
+      "sha256": "28e639d7c086ab689d64c67e8f244346aabea5d3bf7b0a5571380520df5766a8",
+      "bytes": 7410
+    },
+    {
+      "path": "historical-methods/methods/warren-buffett.json",
+      "sha256": "821620897c32b1b7562424c64d75ef1f722599b627f577c952e1e1c13552f49a",
+      "bytes": 14227
+    },
+    {
+      "path": "licenses/AlphaGBM__investment-masters__LICENSE",
+      "sha256": "3c1cef48a2edd49227253f9ad56e1db8a42e34c08691090e91c9495083e49afb",
+      "bytes": 1065
+    },
+    {
+      "path": "licenses/AskRoundtable__expert-skills__LICENSE",
+      "sha256": "ac4a43fe97a71e017b73027772f60c7e5ae5e537acc6f2ef7353628716e273d2",
+      "bytes": 1070
+    },
+    {
+      "path": "licenses/LLMQuant__skills__LICENSE",
+      "sha256": "f3c604822718f53bde05c001af1b0c0849faff4e89907aaadcff93fb55711f83",
+      "bytes": 1083
+    },
+    {
+      "path": "licenses/MichaelRochonnn__buffett-investment-research__LICENSE",
+      "sha256": "87a5b415d44470d169abea94b838917c674fbf4c59656360b641fcd1cf699fa5",
+      "bytes": 1072
+    },
+    {
+      "path": "licenses/alchaincyf__munger-skill__LICENSE",
+      "sha256": "d0952e801d7484cc5344f41cc0378567d20a3c996b784eb97460287adde9ab37",
+      "bytes": 1072
+    },
+    {
+      "path": "licenses/finterm-ai__investment-skills__LICENSE",
+      "sha256": "65a8de9eb5762941fbeb77d3380d3fdf587cef7317c8a945d7c9ee0dccc56fec",
+      "bytes": 1068
+    },
+    {
+      "path": "licenses/freenowill__stock-fish__LICENSE",
+      "sha256": "36da1f9abc77fe8c11dd6eb49ffd3f1b4871d282738555ed3bb3ac838738d6c8",
+      "bytes": 1067
+    },
+    {
+      "path": "licenses/kangarooking__buffett-letters-skill__LICENSE",
+      "sha256": "1126322e2cc8d165adc4c792eeb195717de2bcc7b39be1ce77959d78e87ef685",
+      "bytes": 1056
+    },
+    {
+      "path": "licenses/kangarooking__poor-charlies-almanack-skill__LICENSE",
+      "sha256": "1126322e2cc8d165adc4c792eeb195717de2bcc7b39be1ce77959d78e87ef685",
+      "bytes": 1056
+    },
+    {
+      "path": "licenses/lanfuli__aleabito-serenity-skills__LICENSE",
+      "sha256": "999d61a9dcd6baa2de43a0eaf23f8b34d7f3c5c24cb2d3a4719ddd0454d4c858",
+      "bytes": 1064
+    },
+    {
+      "path": "licenses/monarchjuno__vibe-investing__LICENSE",
+      "sha256": "66f12bda4587293c2f4a3d3dad4d9f7f01a46eccb10e1bd4f8d155862dce3d5d",
+      "bytes": 1068
+    },
+    {
+      "path": "licenses/questflowai__investorskills__LICENSE",
+      "sha256": "6748aeae289a10dcd5a49038b723b7ad92633f051dc6be76add6796d33987fc4",
+      "bytes": 1064
+    },
+    {
+      "path": "licenses/tradermonty__claude-trading-skills__LICENSE",
+      "sha256": "87c93cde8c3a000c19b0c790cd4f7a4e4cb8da5bc6b11e0939bf6df99e245d15",
+      "bytes": 1068
+    },
+    {
+      "path": "licenses/videGavin__serenity-analyst__LICENSE",
+      "sha256": "95d038ec1b782dfb912fc0a7a224b636129407d126c446de53fe381f31f33ffc",
+      "bytes": 1092
+    },
+    {
+      "path": "licenses/virattt__ai-hedge-fund__LICENSE",
+      "sha256": "6cb192c4a37c69c84459d2e1b3da7af51b06d91e35be521c898107bdae18e2a4",
+      "bytes": 1068
+    },
+    {
+      "path": "licenses/wbh604__UZI-Skill__LICENSE",
+      "sha256": "78bebb5232741327c31b0da4f5bbd570dc59ab3c3230582a4d1b4650238a7d58",
+      "bytes": 1069
+    },
+    {
+      "path": "licenses/will2025btc__buffett-perspective__LICENSE",
+      "sha256": "1126322e2cc8d165adc4c792eeb195717de2bcc7b39be1ce77959d78e87ef685",
+      "bytes": 1056
+    },
+    {
+      "path": "licenses/xbtlin__ai-berkshire__LICENSE",
+      "sha256": "81b843bec8a087f4c20e5be8ad744cfe1a169dc0b4f0147cbe61e6cd3da39981",
+      "bytes": 1063
+    },
+    {
+      "path": "methods/brad-gerstner.json",
+      "sha256": "3e16ce65fb720ffd2b563b5b17f3068ee6823abe17c1b5c75b38200449d0c9e3",
+      "bytes": 50048
+    },
+    {
+      "path": "methods/cathie-wood.json",
+      "sha256": "e6eea133e70adf6a9aeff1c7033aff321b6078149b8b72aa698393795db28439",
+      "bytes": 46085
+    },
+    {
+      "path": "methods/duan-yongping.json",
+      "sha256": "b754921d38b67f40f4926012bb7b6b75498dad5b198d57d8eca6d72d2978c058",
+      "bytes": 59596
+    },
+    {
+      "path": "methods/george-soros.json",
+      "sha256": "73e8e3706b5453099cb4ddd8ecab32acd7be3f41edf1f253fae886b6d464a86a",
+      "bytes": 35540
+    },
+    {
+      "path": "methods/leopold-aschenbrenner.json",
+      "sha256": "01246688438b7de3507a54b61e3b3ddd591ee66b4929725461b2080a2feb3886",
+      "bytes": 43160
+    },
+    {
+      "path": "methods/li-lu.json",
+      "sha256": "bebcfb2072292f897da484a9d7c64e4dcedd39f055c8feb82fb8d0c3b7383fce",
+      "bytes": 49120
+    },
+    {
+      "path": "methods/philippe-laffont.json",
+      "sha256": "bbc8462004367320bfa1a2c7e7ea071d9ffef844ad31852101a5af1799046860",
+      "bytes": 44238
+    },
+    {
+      "path": "methods/ray-dalio.json",
+      "sha256": "e63525aa25966834016af3cd8e9072824c5070e2030718796d8d3f94a7293030",
+      "bytes": 31769
+    },
+    {
+      "path": "methods/ron-baron.json",
+      "sha256": "e0a144a34ddcb111a9567b333013b8c74a32645a3492f0838f0b10ef87a4455b",
+      "bytes": 42771
+    },
+    {
+      "path": "methods/stanley-druckenmiller.json",
+      "sha256": "2dd6eddd03838fd0f6461ea7242c2dc87092b0fc2db6d8a32623d87f19ac69dd",
+      "bytes": 37936
+    },
+    {
+      "path": "methods/warren-buffett.json",
+      "sha256": "3154096049ebac483701fe177da449f5d5069d2fa7d483267fc0e3eac148d9c2",
+      "bytes": 63190
+    },
+    {
+      "path": "references/historical-isolation.md",
+      "sha256": "54752de2f520d8607eb80497314551ecec64fc93f535270e6f50ff1cc2251f00",
+      "bytes": 6194
+    },
+    {
+      "path": "references/quantitative-output.md",
+      "sha256": "475fb6b25b6fd1d7fdc534ead27cb6b980d0c6636304e1da2552f4a6cd25add7",
+      "bytes": 4335
+    },
+    {
+      "path": "references/registry-and-normalization.md",
+      "sha256": "defb91663a7265a48dd01c293699e433307766b0bb5ece250751261f77ccab38",
+      "bytes": 3267
+    },
+    {
+      "path": "references/routing.md",
+      "sha256": "32518417213f0cf8d1811845a24104bedb3be2df3e22feecb7144488baf9f603",
+      "bytes": 4068
+    },
+    {
+      "path": "references/source-holdings-audit.md",
+      "sha256": "cfd66b81949dea3561c266e298697ef915cea9820debf8f99595d1ed409bfc93",
+      "bytes": 3291
+    },
+    {
+      "path": "references/wrapper-semantic-invariants.md",
+      "sha256": "4e5b9bdb706e20dccb9341b2933aa51ac35f42f950a87f5653f9aab62a0797c0",
+      "bytes": 2629
+    },
+    {
+      "path": "registry/canonical-source-catalogue.json",
+      "sha256": "07cc5dc056370fc4b0aa236997e6f1a9d24e52c9b58ab86fe6416118e472dded",
+      "bytes": 1075834
+    },
+    {
+      "path": "registry/catalog-artifact-manifest.json",
+      "sha256": "d0a5dbabc26cf793e7916a6b8433f01e2878ad61bdb981f7d271ea4ed414892b",
+      "bytes": 1796
+    },
+    {
+      "path": "registry/catalog-qa.json",
+      "sha256": "0447218a432830e1f6830dee6b6ea845501fa73ed76e24de2e459bb06f8490b1",
+      "bytes": 2725
+    },
+    {
+      "path": "registry/current-method-registry.json",
+      "sha256": "33cb175acc10a0fb404ea8170cdcf209051d8a46101d9922e3196ea61964891a",
+      "bytes": 9075
+    },
+    {
+      "path": "registry/normalization-receipt.json",
+      "sha256": "baf926315617060b7b5b3583f4578890a08526b893e6bbf6b27f8bdd07f68449",
+      "bytes": 152272
+    },
+    {
+      "path": "registry/project-adoption-coverage.json",
+      "sha256": "8462de41026ca93f675feeccea0714e11de558c9742de1dcd8a3edd4fd43465a",
+      "bytes": 7493
+    },
+    {
+      "path": "registry/source-name-reconciliation.json",
+      "sha256": "f15a6f41ce33b13ed75fee4e180e40ca694b59782f14affcb9f903498b12862c",
+      "bytes": 234005
+    },
+    {
+      "path": "registry/synthesis-adoption-table.json",
+      "sha256": "8335af57e4616a6cb1605ece16bbeed939a56fe699cba76db42acd2d2c111303",
+      "bytes": 153447
+    },
+    {
+      "path": "reviews/QA-and-completion-limits.md",
+      "sha256": "cd16667c72fc69d8a4d778ef035d3993d0d281e0b77e9623f0b932af61491f17",
+      "bytes": 4985
+    },
+    {
+      "path": "reviews/correction-map.round1.json",
+      "sha256": "5fe4e8b695d1e586a15d22174f5792ff9bd305f5e33b4c0cbe725d09480fbdb4",
+      "bytes": 2531
+    },
+    {
+      "path": "reviews/correction-map.round2.json",
+      "sha256": "3b8fdbac2f53b95470419f46c4a808bc9f2663136b711e72e4181714209cf761",
+      "bytes": 1677
+    },
+    {
+      "path": "reviews/historical-exclusion-ledger.json",
+      "sha256": "59950e6656bbed4c7c503fd1488c525ffb04285f079f90b0299b590b0259cf51",
+      "bytes": 3891
+    },
+    {
+      "path": "reviews/individual-call-contract-QA.json",
+      "sha256": "c64c23320d205b4be00888b34a3c9fd51260d92803ff6364ed036de3857a0aa8",
+      "bytes": 734
+    },
+    {
+      "path": "reviews/regression-fixtures.json",
+      "sha256": "83aa2bf56589617ea3956906d48f3aeb077d643aa6dc786c6e96d61d9a84e3b3",
+      "bytes": 3609
+    },
+    {
+      "path": "reviews/schema-validation.json",
+      "sha256": "54c929d1b858bb1ee8a2828bd5af7d243eb42530c82dcf0c74fd27dbd156cb21",
+      "bytes": 1498
+    },
+    {
+      "path": "reviews/scope-polarity-QA.round2.json",
+      "sha256": "9601571f5be25462114caf2fead764d73f01af7eecc443ca1b6ab0548adb75a1",
+      "bytes": 8587
+    },
+    {
+      "path": "reviews/source-acceptance-ledger.json",
+      "sha256": "34053a2b8c007deaa4ebb7fb3a5630f722c21506e1cab578ae4cbc4bdc2a1793",
+      "bytes": 2545
+    },
+    {
+      "path": "reviews/source-coverage-limits.json",
+      "sha256": "84d8c2f86b0db769fb30544ee7a2685acd63d425d14a52a8251a60f5dfc46ac8",
+      "bytes": 1868
+    },
+    {
+      "path": "reviews/source-refresh-change-log.v1.1.json",
+      "sha256": "977cb41ae6ef785f7f79b3d28c3e245ca9df01f07a4b8883f9fe8166e5602189",
+      "bytes": 19407
+    },
+    {
+      "path": "reviews/source-refresh-change-log.v1.json",
+      "sha256": "e8dea907289f94b137713bb516d31c8441a8f081b9bb340b6801445583fd0dd4",
+      "bytes": 17497
+    },
+    {
+      "path": "reviews/static-QA.json",
+      "sha256": "3c5aea8f7312ff83f08a356b0efddd4b41afe9246fc245e03ab5ce7bf9d99cd8",
+      "bytes": 7203
+    },
+    {
+      "path": "schemas/current-method.v0.1.schema.json",
+      "sha256": "180a4992626d58eba3ffd50f77b5cb871854b602e2f8b96468d21956b41c9895",
+      "bytes": 7744
+    },
+    {
+      "path": "schemas/fundamental-scope-polarity.v0.1.schema.json",
+      "sha256": "36db0a46d7c891a6fef58f1a82e41ae16f6ab6070851eef9b84145c9a03967ec",
+      "bytes": 1765
+    },
+    {
+      "path": "schemas/historical-backbone-adapter-transport.v0.1.json",
+      "sha256": "cf7de62c8894b3fd9d8497517c2de468ea9c0c6db8caec8cfa4f5687cf0fa5e2",
+      "bytes": 6387
+    },
+    {
+      "path": "schemas/individual-model-response.v0.1.schema.json",
+      "sha256": "4d679a99c583cf5414d8ee7da78dd230ea5fafde5be91a6cbbfb7f8b523a024b",
+      "bytes": 15999
+    },
+    {
+      "path": "schemas/individual-view-result.v0.1.schema.json",
+      "sha256": "2ff4b58bdc05b589454ce7d97c76c48c79de9c2ccfb5a644f574aaa382ded590",
+      "bytes": 39536
+    },
+    {
+      "path": "schemas/research-result.v0.1.schema.json",
+      "sha256": "c226df918f6c81640cbfff0124de4dd1c6a84205490309059a9c8ad57ec5d0ec",
+      "bytes": 68066
+    },
+    {
+      "path": "schemas/semantic-preflight-contract.v0.1.json",
+      "sha256": "e2ad51dd8e7264e0c29ae652f6f441ee6f85ec1627904d1dd1873481f4a7723b",
+      "bytes": 7219
+    },
+    {
+      "path": "schemas/source-holdings-audit-assignment.v0.1.json",
+      "sha256": "68105a404639062138b0c8e297fa67622efa14890f683f9e0574d4e70cf5dbed",
+      "bytes": 2663
+    },
+    {
+      "path": "vendor/finterm/LICENSE",
+      "sha256": "65a8de9eb5762941fbeb77d3380d3fdf587cef7317c8a945d7c9ee0dccc56fec",
+      "bytes": 1068
+    },
+    {
+      "path": "vendor/finterm/SKILL.md",
+      "sha256": "4e68fa9add83b8a688dc185e12ae0619d93214e28905a3676ddc2823f49cf4bf",
+      "bytes": 11468
+    },
+    {
+      "path": "vendor/finterm/references/00-source-key.md",
+      "sha256": "fd0c4fd472b6c8b4b04dd7f28a100aa33fd3e971ce4de89cf4106a71e6d5b9b8",
+      "bytes": 6592
+    },
+    {
+      "path": "vendor/finterm/references/01-decision-posture.md",
+      "sha256": "2b61a70670c826c4e1d952ea55bb53eeb39ed39d95179164d2ea8f6aa56edb3d",
+      "bytes": 13224
+    },
+    {
+      "path": "vendor/finterm/references/02-business-economics.md",
+      "sha256": "839e3d8a80441f13a0f33eb4e19d8b175f97effa3c80a9abac0405ee8eb94afc",
+      "bytes": 10227
+    },
+    {
+      "path": "vendor/finterm/references/03-management-governance.md",
+      "sha256": "adf715871f20c41f811bf03d81c38368f00bbed068262f57c90ec9d309e6a322",
+      "bytes": 11699
+    },
+    {
+      "path": "vendor/finterm/references/04-financial-reality.md",
+      "sha256": "4a9f62a3c91f16f23c812411a849d3180e0361a1b69755ce84d9f60619e2e767",
+      "bytes": 10295
+    },
+    {
+      "path": "vendor/finterm/references/05-valuation.md",
+      "sha256": "03a9395e0c4563d96d865638e953894a842f0475495c0f7e0e4d7d2428f1abca",
+      "bytes": 8844
+    },
+    {
+      "path": "vendor/finterm/references/06-capital-allocation.md",
+      "sha256": "15f712f413c8db01dca0f2c92988732899acaf4b4229fcabd38da5e5a4b1960d",
+      "bytes": 13240
+    },
+    {
+      "path": "vendor/finterm/references/07-risk-monitoring.md",
+      "sha256": "d5a61603a98bf09a99f16e8545da69474a685f963c693511f01e5fc7297ecad1",
+      "bytes": 10170
+    },
+    {
+      "path": "vendor/finterm/references/08-specialized-overlays.md",
+      "sha256": "fde84b1f8539a19daf47368477ce9b1b35df9d0efc9de533e94715244c50f3c9",
+      "bytes": 17507
+    },
+    {
+      "path": "vendor/finterm/scripts/framework.py",
+      "sha256": "37c8db45c48aef8ac43f45732a0cfa632353ab69440ec0a35d9abd26d1c8f488",
+      "bytes": 18085
+    },
+    {
+      "path": "vendor/finterm/source-manifest.json",
+      "sha256": "df291fcb13b21041bab45fb228542c096739a24adc1da28f0b5f70efc50d0ca6",
+      "bytes": 3766
+    }
+  ]
+}

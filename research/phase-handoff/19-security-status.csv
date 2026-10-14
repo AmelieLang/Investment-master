@@ -1,0 +1,20 @@
+﻿公司,精确上市证券 / 计价币种,已选3个研究视角（固定顺序）,DATA状态,实际自定义观点,实际基线观点,原因
+英伟达,NASDAQ NVDA · 普通股 · USD,ARK研究团队 / Leopold Aschenbrenner / 德鲁肯米勒,已接受,0,0,历史数据包已接受；观点仍待运行准入
+AMD,NASDAQ AMD · 普通股 · USD,ARK研究团队 / 李录 / 德鲁肯米勒,暂不准入（HELD）,0,0,缺符合当前协议的截止前决策价格；第1次修正审查已闭合
+博通,NASDAQ AVGO · 普通股 · USD,巴菲特 / Leopold Aschenbrenner / 李录,暂不准入（HELD）,0,0,拆股来源修正已接受；决策价格准入仍阻挡，第1次修正审查已闭合
+Marvell,NASDAQ MRVL · 普通股 · USD,Ron Baron / Leopold Aschenbrenner / 李录,暂不准入（HELD）,0,0,缺符合当前协议的截止前决策价格；第1次修正审查已闭合
+Palantir,NASDAQ PLTR · A类 · USD,ARK研究团队 / Ron Baron / 李录,暂不准入（HELD）,0,0,缺已准入的截止前决策价格
+SK海力士,KRX 000660 · 普通股 · KRW,巴菲特 / 德鲁肯米勒 / Leopold Aschenbrenner,已接受,0,0,普通股历史数据包已接受；观点仍待运行准入
+台积电,NYSE TSM · ADS，1份=5普通股 · USD,巴菲特 / Leopold Aschenbrenner / 李录,已接受,0,0,财务与价格证据、最终准入元数据已接受；运行准入待定
+Alphabet,NASDAQ GOOG · C类 · USD,段永平 / ARK研究团队 / 巴菲特,暂不准入（HELD）,0,0,缺已准入的截止前决策价格
+亚马逊,NASDAQ AMZN · 普通股 · USD,段永平 / Ron Baron / ARK研究团队,暂不准入（HELD）,0,0,缺已准入的截止前决策价格
+Palo Alto Networks,NASDAQ PANW · 普通股 · USD,Ron Baron / ARK研究团队 / 李录,暂不准入（HELD）,0,0,缺已准入的截止前决策价格；来源差异所涉字段保留为空
+微软,NASDAQ MSFT · 普通股 · USD,巴菲特 / ARK研究团队 / 段永平,暂不准入（HELD）,0,0,缺已准入的截止前决策价格
+中芯国际,上交所 688981 · A股 · CNY,德鲁肯米勒 / 李录 / 达利欧,已接受,0,0,历史数据包已接受；达利欧仅为问题视角，运行准入待定
+ServiceNow,NYSE NOW · 普通股 · USD,Ron Baron / ARK研究团队 / 德鲁肯米勒,暂不准入（HELD）,0,0,缺已准入的决策价格；1拆5拆股及决策日交易单位证据未闭合
+三星电子,KRX 005930 · 普通股 · KRW,巴菲特 / 德鲁肯米勒 / 李录,已接受,0,0,普通股历史数据包已接受；观点仍待运行准入
+寒武纪,上交所 688256 · A股 · CNY,ARK研究团队 / Leopold Aschenbrenner / 李录,暂不准入（HELD）,0,0,原始STCN决策价格已核实；数据包仍含未准入FMP报价文字，整体保留
+CrowdStrike,NASDAQ CRWD · A类 · USD,Ron Baron / 李录 / 德鲁肯米勒,暂不准入（HELD）,0,0,缺已准入的决策价格；私有FMP端点差异未闭合
+阿里巴巴,港交所 9988 · 普通股 · HKD,段永平 / Ron Baron / ARK研究团队,暂不准入（HELD）,0,0,港股决策价格的历史来源准入未通过
+腾讯,港交所 0700 · 普通股 · HKD,段永平 / 巴菲特 / ARK研究团队,暂不准入（HELD）,0,0,港股决策价格的历史来源准入未通过
+Snowflake,NYSE SNOW · 普通股（原A类） · USD,ARK研究团队 / Ron Baron / 德鲁肯米勒,暂不准入（HELD）,0,0,缺已准入的截止前决策价格

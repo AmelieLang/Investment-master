@@ -1,0 +1,109 @@
+{
+  "schema_version": "semantic-preflight-contract/v0.1-draft",
+  "status": "mandatory_fail_closed_specification_not_implemented",
+  "run_before": [
+    "opinion_generation",
+    "wrapper_completion_claim",
+    "historical_worker_transport",
+    "repository_delivery"
+  ],
+  "allowed_result_states": [
+    "passed",
+    "blocked",
+    "failed"
+  ],
+  "passing_rule": "All applicable hard checks pass individually; never average or waive a failed gate.",
+  "checks": [
+    {
+      "id": "S01",
+      "check": "All source/fact/claim/calculation/rule/cell IDs resolve uniquely to exact versioned records.",
+      "failure_action": "Block dependent generation/acceptance; preserve exact defect and unaffected work."
+    },
+    {
+      "id": "S02",
+      "check": "Slots are exactly 1,2,3 with three distinct master IDs, preserved requested identities and meaningful challenge; all route/view correspondences match.",
+      "failure_action": "Block dependent generation/acceptance; preserve exact defect and unaffected work."
+    },
+    {
+      "id": "S03",
+      "check": "Actual artifact bytes match packet, catalogue, method, route, prompt, response and adapter hashes; accepted R2 validates without new fields.",
+      "failure_action": "Block dependent generation/acceptance; preserve exact defect and unaffected work."
+    },
+    {
+      "id": "S04",
+      "check": "Every available quality/valuation/evidence/uncertainty panel points to the exact adapter artifact and correct existing JSON pointer; absent adapter implies missing panels.",
+      "failure_action": "Block dependent generation/acceptance; preserve exact defect and unaffected work."
+    },
+    {
+      "id": "S05",
+      "check": "Route is frozen before invocations, from admissible observable traits, with no prior opinions/outcomes; method authority, scope and required inputs are accepted.",
+      "failure_action": "Block dependent generation/acceptance; preserve exact defect and unaffected work."
+    },
+    {
+      "id": "S06",
+      "check": "A completed model view has verified actual requested Sol identity/settings/roles and archived prompt/raw-response artifacts; actual calculation/invocation/orchestration/retries are independently true.",
+      "failure_action": "Block dependent generation/acceptance; preserve exact defect and unaffected work."
+    },
+    {
+      "id": "S07",
+      "check": "Historical worker bytes contain only admitted company facts, accepted original pre-cutoff method facts and reviewed hash-frozen date-safe finterm procedural cards. Public availability is established; unknown/mutable/later evidence excluded.",
+      "failure_action": "Block dependent generation/acceptance; preserve exact defect and unaffected work."
+    },
+    {
+      "id": "S08",
+      "check": "Every historical custom view has explicit selected finterm card and unchanged R2 integration receipts; no prior view output or scored interpretation contaminates another.",
+      "failure_action": "Block dependent generation/acceptance; preserve exact defect and unaffected work."
+    },
+    {
+      "id": "S09",
+      "check": "Quantitative inputs/model/period/unit/domain/share-class allocation/ADR/FX/dilution/reconciliation semantics pass separately reviewed math; forecasts and discount assumptions are authored/frozen before outcomes.",
+      "failure_action": "Block dependent generation/acceptance; preserve exact defect and unaffected work."
+    },
+    {
+      "id": "S10",
+      "check": "Generic method application versus actual ticker statement/holding are separated; original publication, entity/decision/class/period attribution passes or is not verified with a bounded research request.",
+      "failure_action": "Block dependent generation/acceptance; preserve exact defect and unaffected work."
+    },
+    {
+      "id": "S11",
+      "check": "Forecast horizons are preserved; observed security path is not personal trade P&L or proof of long-horizon intrinsic-value forecast correctness.",
+      "failure_action": "Block dependent generation/acceptance; preserve exact defect and unaffected work."
+    },
+    {
+      "id": "S12",
+      "check": "All rights/privacy/source publication checks pass; no full restricted source, private URL/user authorization/credential or live outbound integration enters release.",
+      "failure_action": "Block dependent generation/acceptance; preserve exact defect and unaffected work."
+    },
+    {
+      "id": "S13",
+      "check": "Every completed/partial view resolves a present accepted method artifact, nonempty rule references and supported/inferred material claims; declared source/calculation status matches actual artifacts. Preserve exact positive applicability and excluded applicability by rule ID against the accepted source; author-adapted scope is separately labelled and cannot become native investor evidence.",
+      "failure_action": "Block dependent generation/acceptance; preserve exact defect and unaffected work."
+    },
+    {
+      "id": "S14",
+      "check": "Enterprise FCFF forecasts require explicit operating-tax/reinvestment/cash-flow bridge and treatment of net interest, leases and other claims. After-interest CFO-capex, issuer-defined FCF, owner earnings and FCFE are not silently substituted. Missing maintenance capex/tax forecasts stay missing or authored assumptions; numeric arithmetic alone cannot pass semantics.",
+      "failure_action": "Mark enterprise FCFF unavailable and block that R2 valuation branch; retain separately labelled supported alternatives."
+    },
+    {
+      "id": "S15",
+      "check": "Each canonical independent view records exact finterm selected-card use and R2 contract/request/result accounting, including honest blocked/inapplicable states. Match its adapter result references to outer panels or declare separate per-view results; never silently degrade to method-only prompts. executed_result_present requires a present exact hash-verified accepted-R2 request and result; shared_result_reference requires a nonempty ID resolving to the frozen shared-calculation receipt, its source inputs/request/result hashes and approved chronology.",
+      "failure_action": "Block missing integration receipts; preserve supported qualitative branches when a documented numerical branch is missing/inapplicable."
+    }
+  ],
+  "negative_fixture_expectations": [
+    "Duplicate master IDs or slots reject, including previously unknown extension IDs.",
+    "Null/unverified actual model or absent prompt/raw-response artifacts reject completed opinions.",
+    "Wrong source/fact/rule IDs, hashes or adapter pointers reject.",
+    "Unavailable ticker-level actual evidence remains not verified, never personal endorsement.",
+    "Missing date-safe finterm projection or claim-allocation inputs blocks the affected historical/valuation branch."
+  ],
+  "execution_receipt_requirements": [
+    "validator_version_or_hash",
+    "input_artifact_hashes",
+    "per_check_status",
+    "exact_failure_details",
+    "actual_execution_time_outside_decision_input",
+    "independent_reviewer_receipt"
+  ],
+  "not_claimed": "No semantic validator implementation or successful historical runtime is delivered by this documentation/schema assembly."
+}

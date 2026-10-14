@@ -1,0 +1,668 @@
+{
+  "schema_version": "investor_dossier.v2.tech.1",
+  "investor_id": "ron_baron",
+  "as_of_date": "2026-10-13",
+  "identity": {
+    "person": "Ron Baron",
+    "organization": "Baron Capital",
+    "role": "Founder, CEO and portfolio manager; Baron Partners co-managed with Michael Baron in Q1 2024",
+    "role_evidence_dates": [
+      "2024-03-31 period",
+      "2026-10-13 retrieval of undated biography"
+    ],
+    "source_ids": [
+      "BARON-BIO",
+      "BARON-PARTNERS-Q12024"
+    ],
+    "organization_start": "1982",
+    "legal_entity_boundary": "Baron Capital brand; BAMCO Inc. adviser and broker-dealer affiliates are distinct. This audit centers fund-specific Baron Partners disclosures.",
+    "decision_attribution": "Partners letters co-authored/co-managed; firm analyst/PM process is not sole Ron authorship for every fund."
+  },
+  "source_registry_file": "sources.json",
+  "source_ids": [
+    "BARON-BIO",
+    "BARON-PROC",
+    "BARON-PARTNERS-Q12024",
+    "BARON-NCSRS-20150630",
+    "COM-SEC13F"
+  ],
+  "selection_file": "case_selection.json",
+  "common_disclosure_file": "common_disclosure.json",
+  "research_scope": {
+    "method": "Targeted first-party audit with original fund/issuer publications and SEC filings. Search chosen famous cases and counterexamples; follow dated antecedents before writing outcome chains.",
+    "completeness": "Not a scan of all lifetime content, all interviews, all transactions or all fund portfolios.",
+    "excluded": [
+      "Third-party holdings aggregators as core proof",
+      "Persona quotations without operational evidence",
+      "Paywalled/private investment-committee papers unavailable to this audit",
+      "Social media feeds/podcast lifetime transcripts",
+      "Private fund audited return histories not publicly recovered"
+    ],
+    "retrospective_selection": "Purposive famous-success selection paired with adverse/counterexample evidence, recorded before detailed writeups. Not a predictive backtest, hit rate or representative sample.",
+    "holding_inference_guardrails": [
+      "Do not infer the trade date, price, fund/account, intent or realized P&L from a 13F snapshot.",
+      "Do not treat omitted holdings as a full exit without coverage reconciliation.",
+      "Current process disclosures may not describe historic decisions."
+    ]
+  },
+  "process_rules": [
+    {
+      "rule_id": "BARON-R00",
+      "documented_rule": "Value future growth and profitability against the entry price.",
+      "source_ids": [
+        "BARON-NCSRS-20150630"
+      ],
+      "precision": "dated_general_fund_method",
+      "scope": "Baron Partners 2015 disclosure",
+      "skill_adaptation": {
+        "authorship": "Independent synthesis, not exact investor algorithm",
+        "questions": [
+          "What prospective operating improvement is needed to justify the current share price?",
+          "Which competitive or financing change would remove that prospective value?"
+        ]
+      },
+      "pre_2026_benchmark_eligible": true,
+      "evidence_time_class": "dated_pre_2026_method",
+      "evidence_anchors": [
+        {
+          "anchor_id": "BARON-R00-A1",
+          "source_id": "BARON-NCSRS-20150630",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1217673/000120928615000536/e108965.htm",
+          "source_publication_date": "2015-08-28",
+          "locator": {
+            "type": "sec_fund_report",
+            "printed_page": 3,
+            "fund_section": "Baron Partners Fund",
+            "heading": "MANAGEMENT’S DISCUSSION OF FUND PERFORMANCE",
+            "paragraph_locator": "Final paragraph before footnotes; corroborated by the third paragraph under this heading"
+          },
+          "supporting_paraphrase": "Entry value is assessed against future growth/profitability.",
+          "support_role": "direct_dated_fund_method",
+          "native_attribution": "Baron Partners Fund / BAMCO",
+          "native_scope": "June 2015 report, publicly filed August 28, 2015",
+          "verified_against_source_on": "2026-10-13",
+          "supplementary_html_text_line_range_at_retrieval": {
+            "start": 241,
+            "end": 255,
+            "caveat": "Retrieval-specific convenience; section/page/paragraph is the primary locator."
+          }
+        }
+      ],
+      "auditor_adaptation_boundary": "Evidence anchors authenticate the documented native principle only. Skill questions are independent auditor operationalization, not verbatim investor instructions or proof of historical use."
+    },
+    {
+      "rule_id": "BARON-R01",
+      "documented_rule": "Screen secular growth, moat, management and price together.",
+      "source_ids": [
+        "BARON-PROC"
+      ],
+      "precision": "documented_process",
+      "scope": "organization/current",
+      "skill_adaptation": {
+        "authorship": "independent research synthesis, not investor quotation or claimed exact algorithm",
+        "questions": [
+          "Show addressable spend and company market share without multiplying an unsupported TAM by an arbitrary share.",
+          "Which competitive advantage survives customer price sensitivity or substitution?"
+        ]
+      },
+      "pre_2026_benchmark_eligible": false,
+      "evidence_time_class": "audit_only_current_or_undated_method",
+      "evidence_anchors": [
+        {
+          "anchor_id": "BARON-R01-A1",
+          "source_id": "BARON-PROC",
+          "source_url": "https://www.baroncapitalgroup.com/article/baron-capital-investment-approach",
+          "source_publication_date": null,
+          "locator": {
+            "type": "html_section",
+            "heading": "Research",
+            "numbered_steps": [
+              1,
+              2
+            ],
+            "paragraph_locator": "Step 1 paragraphs 1-2; step 2 paragraphs 1-3"
+          },
+          "supporting_paraphrase": "Secular opportunity, moat and management are screened.",
+          "support_role": "direct_documented_selection_criteria",
+          "native_attribution": "Baron Capital research/portfolio teams",
+          "native_scope": "Undated current firm process; not solely Ron; historical packet excluded",
+          "verified_against_source_on": "2026-10-13",
+          "supplementary_html_text_line_range_at_retrieval": {
+            "start": 48,
+            "end": 57,
+            "caveat": "Retrieval-specific convenience; section/page/paragraph is the primary locator."
+          }
+        },
+        {
+          "anchor_id": "BARON-R01-A2",
+          "source_id": "BARON-PROC",
+          "source_url": "https://www.baroncapitalgroup.com/article/baron-capital-investment-approach",
+          "source_publication_date": null,
+          "locator": {
+            "type": "html_subsection",
+            "heading": "Risk/return analysis",
+            "paragraph": 1
+          },
+          "supporting_paraphrase": "Four criteria explicitly include valuation.",
+          "support_role": "direct_documented_four_criteria",
+          "native_attribution": "Baron Capital portfolio managers",
+          "native_scope": "Undated current firm process; historical packet excluded",
+          "verified_against_source_on": "2026-10-13",
+          "supplementary_html_text_line_range_at_retrieval": {
+            "start": 108,
+            "end": 109,
+            "caveat": "Retrieval-specific convenience; section/page/paragraph is the primary locator."
+          }
+        }
+      ],
+      "auditor_adaptation_boundary": "Evidence anchors authenticate the documented native principle only. Skill questions are independent auditor operationalization, not verbatim investor instructions or proof of historical use."
+    },
+    {
+      "rule_id": "BARON-R02",
+      "documented_rule": "Check primary counterparties, site operations and executive incentives.",
+      "source_ids": [
+        "BARON-PROC"
+      ],
+      "precision": "documented_process",
+      "scope": "organization/current",
+      "skill_adaptation": {
+        "authorship": "independent research synthesis, not investor quotation or claimed exact algorithm",
+        "questions": [
+          "Triangulate management claims against customers, competitors and observable operations.",
+          "Identify governance and capital-allocation evidence that would change the management assessment."
+        ]
+      },
+      "pre_2026_benchmark_eligible": false,
+      "evidence_time_class": "audit_only_current_or_undated_method",
+      "evidence_anchors": [
+        {
+          "anchor_id": "BARON-R02-A1",
+          "source_id": "BARON-PROC",
+          "source_url": "https://www.baroncapitalgroup.com/article/baron-capital-investment-approach",
+          "source_publication_date": null,
+          "locator": {
+            "type": "html_section",
+            "heading": "Research",
+            "numbered_step": 3,
+            "paragraphs_within_step": [
+              1,
+              2,
+              3
+            ]
+          },
+          "supporting_paraphrase": "Counterparty checks, visits and incentive review test theses.",
+          "support_role": "direct_documented_diligence_process",
+          "native_attribution": "Baron Capital research/portfolio teams",
+          "native_scope": "Undated current firm process; historical packet excluded",
+          "verified_against_source_on": "2026-10-13",
+          "supplementary_html_text_line_range_at_retrieval": {
+            "start": 59,
+            "end": 63,
+            "caveat": "Retrieval-specific convenience; section/page/paragraph is the primary locator."
+          }
+        }
+      ],
+      "auditor_adaptation_boundary": "Evidence anchors authenticate the documented native principle only. Skill questions are independent auditor operationalization, not verbatim investor instructions or proof of historical use."
+    },
+    {
+      "rule_id": "BARON-R03",
+      "documented_rule": "Build five historical and five forecast years; normally seek 15% annual return.",
+      "source_ids": [
+        "BARON-PROC"
+      ],
+      "precision": "stated_typical_hurdle_not_universal_guarantee",
+      "scope": "organization/current",
+      "skill_adaptation": {
+        "authorship": "independent research synthesis, not investor quotation or claimed exact algorithm",
+        "questions": [
+          "Bridge units, prices, incremental margins and cash investment to per-share value.",
+          "Stress financing, dilution, leverage and a lower exit multiple."
+        ]
+      },
+      "pre_2026_benchmark_eligible": false,
+      "evidence_time_class": "audit_only_current_or_undated_method",
+      "evidence_anchors": [
+        {
+          "anchor_id": "BARON-R03-A1",
+          "source_id": "BARON-PROC",
+          "source_url": "https://www.baroncapitalgroup.com/article/baron-capital-investment-approach",
+          "source_publication_date": null,
+          "locator": {
+            "type": "html_section",
+            "heading": "Research",
+            "numbered_step": 4,
+            "paragraph": 1,
+            "table_locator": "Revenue/cost/profitability/capital-structure table immediately following"
+          },
+          "supporting_paraphrase": "Models contain five historic and five forecast years.",
+          "support_role": "direct_documented_model_horizon",
+          "native_attribution": "Baron Capital research/portfolio teams",
+          "native_scope": "Undated current firm process; historical packet excluded",
+          "verified_against_source_on": "2026-10-13",
+          "supplementary_html_text_line_range_at_retrieval": {
+            "start": 65,
+            "end": 90,
+            "caveat": "Retrieval-specific convenience; section/page/paragraph is the primary locator."
+          }
+        },
+        {
+          "anchor_id": "BARON-R03-A2",
+          "source_id": "BARON-PROC",
+          "source_url": "https://www.baroncapitalgroup.com/article/baron-capital-investment-approach",
+          "source_publication_date": null,
+          "locator": {
+            "type": "html_section",
+            "heading": "Research",
+            "numbered_step": 5,
+            "paragraph": 1
+          },
+          "supporting_paraphrase": "Typically seek 15% annual return and stress scenarios.",
+          "support_role": "direct_stated_typical_hurdle_not_guarantee",
+          "native_attribution": "Baron Capital research/portfolio teams",
+          "native_scope": "Undated current firm process; historical packet excluded",
+          "verified_against_source_on": "2026-10-13",
+          "supplementary_html_text_line_range_at_retrieval": {
+            "start": 92,
+            "end": 94,
+            "caveat": "Retrieval-specific convenience; section/page/paragraph is the primary locator."
+          }
+        }
+      ],
+      "auditor_adaptation_boundary": "Evidence anchors authenticate the documented native principle only. Skill questions are independent auditor operationalization, not verbatim investor instructions or proof of historical use."
+    },
+    {
+      "rule_id": "BARON-R04",
+      "documented_rule": "Start small, add with learning; balance conviction against risk and liquidity.",
+      "source_ids": [
+        "BARON-PROC"
+      ],
+      "precision": "documented_process",
+      "scope": "organization/current",
+      "skill_adaptation": {
+        "authorship": "independent research synthesis, not investor quotation or claimed exact algorithm",
+        "questions": [
+          "Record what was learned before increasing concentration.",
+          "Measure net and gross exposure, borrow cost, margin liquidity and common-factor loss."
+        ]
+      },
+      "pre_2026_benchmark_eligible": false,
+      "evidence_time_class": "audit_only_current_or_undated_method",
+      "evidence_anchors": [
+        {
+          "anchor_id": "BARON-R04-A1",
+          "source_id": "BARON-PROC",
+          "source_url": "https://www.baroncapitalgroup.com/article/baron-capital-investment-approach",
+          "source_publication_date": null,
+          "locator": {
+            "type": "html_subsection",
+            "heading": "Position Sizing",
+            "paragraph_locator": "Final prose paragraph, after the watch-list paragraph"
+          },
+          "supporting_paraphrase": "Start smaller; add with knowledge and thesis confirmation.",
+          "support_role": "direct_documented_position_development",
+          "native_attribution": "Baron Capital portfolio managers",
+          "native_scope": "Undated current firm process; historical packet excluded",
+          "verified_against_source_on": "2026-10-13",
+          "supplementary_html_text_line_range_at_retrieval": {
+            "start": 124,
+            "end": 130,
+            "caveat": "Retrieval-specific convenience; section/page/paragraph is the primary locator."
+          }
+        },
+        {
+          "anchor_id": "BARON-R04-A2",
+          "source_id": "BARON-PROC",
+          "source_url": "https://www.baroncapitalgroup.com/article/baron-capital-investment-approach",
+          "source_publication_date": null,
+          "locator": {
+            "type": "html_subsections",
+            "headings": [
+              "Risk/return analysis",
+              "Liquidity"
+            ],
+            "paragraphs": [
+              1,
+              1
+            ]
+          },
+          "supporting_paraphrase": "Size conviction relative to risk while retaining liquidity.",
+          "support_role": "direct_documented_risk_liquidity_constraints",
+          "native_attribution": "Baron Capital portfolio managers",
+          "native_scope": "Undated current firm process; historical packet excluded",
+          "verified_against_source_on": "2026-10-13",
+          "supplementary_html_text_line_range_at_retrieval": {
+            "start": 108,
+            "end": 123,
+            "caveat": "Retrieval-specific convenience; section/page/paragraph is the primary locator."
+          }
+        }
+      ],
+      "auditor_adaptation_boundary": "Evidence anchors authenticate the documented native principle only. Skill questions are independent auditor operationalization, not verbatim investor instructions or proof of historical use."
+    },
+    {
+      "rule_id": "BARON-R05",
+      "documented_rule": "Partners seeks doubling business value over five-six years in a concentrated leveraged portfolio.",
+      "source_ids": [
+        "BARON-PARTNERS-Q12024"
+      ],
+      "precision": "fund_specific_objective",
+      "scope": "Baron Partners Fund",
+      "skill_adaptation": {
+        "authorship": "independent research synthesis, not investor quotation or claimed exact algorithm",
+        "questions": [
+          "State which business milestones support doubling and how long-term value can diverge from short-term price.",
+          "A long holding horizon is not a substitute for a funded liquidity reserve."
+        ]
+      },
+      "pre_2026_benchmark_eligible": false,
+      "evidence_time_class": "audit_only_current_or_undated_method",
+      "evidence_anchors": [
+        {
+          "anchor_id": "BARON-R05-A1",
+          "source_id": "BARON-PARTNERS-Q12024",
+          "source_url": "https://www.baroncapitalgroup.com/article/quarterly-letter-baron-partners-fund-q1-2024",
+          "source_publication_date": null,
+          "locator": {
+            "type": "html_section",
+            "heading": "Investment Strategy and Portfolio Structure",
+            "paragraphs": [
+              1,
+              2,
+              3
+            ]
+          },
+          "supporting_paraphrase": "Target value doubling; concentrated portfolio uses leverage.",
+          "support_role": "direct_fund_specific_objective_and_structure",
+          "native_attribution": "Ron Baron and Michael Baron / Baron Partners Fund",
+          "native_scope": "Q1 2024 fund letter; exact publication day unknown, historical packet excluded",
+          "verified_against_source_on": "2026-10-13",
+          "supplementary_html_text_line_range_at_retrieval": {
+            "start": 140,
+            "end": 143,
+            "caveat": "Retrieval-specific convenience; section/page/paragraph is the primary locator."
+          }
+        }
+      ],
+      "auditor_adaptation_boundary": "Evidence anchors authenticate the documented native principle only. Skill questions are independent auditor operationalization, not verbatim investor instructions or proof of historical use."
+    }
+  ],
+  "cases": [
+    {
+      "case_id": "BARON-C01-TESLA",
+      "selection": "famous_success_retrospective",
+      "security": "Tesla common stock",
+      "pre_initial_trade_evidence": {
+        "original_buy_memo_found": false,
+        "initial_purchase_date": "2014-02 per later fund statement",
+        "earliest_recovered_contemporary_investor_original": "BARON-NCSRS-20150630",
+        "classification": "during_accumulation_pre_later_success_not_pre_initial_trade"
+      },
+      "chain": [
+        {
+          "event_id": "BARON-C01-E01",
+          "event_date": "2014-02",
+          "event_type": "reported_historic_initial_purchase",
+          "source_id": "BARON-PARTNERS-Q12024",
+          "publication_date": null,
+          "timing_relative_to_initial_trade": "initial_trade_reported_retrospectively",
+          "evidence": "Later letter reports initial split-adjusted purchase price; not independently recovered contemporaneous blotter.",
+          "event_date_precision": "month",
+          "source_publication_pre_2026_verified": false
+        },
+        {
+          "event_id": "BARON-C01-E02",
+          "event_date": "2015-06-30",
+          "event_type": "contemporary_position_and_thesis",
+          "source_id": "BARON-NCSRS-20150630",
+          "publication_date": "2015-08-28",
+          "timing_relative_to_initial_trade": "after_initial_trade_during_accumulation",
+          "evidence": "Fund schedule plus Tesla Energy/70D/Model X thesis during accumulation, published August 28.",
+          "event_date_precision": "day",
+          "source_publication_pre_2026_verified": true
+        },
+        {
+          "event_id": "BARON-C01-E03",
+          "event_date": "2016-02",
+          "event_type": "reported_historic_final_accumulation",
+          "source_id": "BARON-PARTNERS-Q12024",
+          "publication_date": null,
+          "timing_relative_to_initial_trade": "after_initial_trade",
+          "evidence": "Later letter supplies shares, average cost and original position size.",
+          "event_date_precision": "month",
+          "source_publication_pre_2026_verified": false
+        },
+        {
+          "event_id": "BARON-C01-E04",
+          "event_date": "approximately 2021",
+          "event_type": "reported_historic_partial_sale",
+          "source_id": "BARON-PARTNERS-Q12024",
+          "publication_date": null,
+          "timing_relative_to_initial_trade": "after_initial_trade",
+          "evidence": "Approximate sale timing and weighted sale price in later fund letter; no exact trade dates or matched lots.",
+          "event_date_precision": "approximate_or_unknown",
+          "source_publication_pre_2026_verified": false
+        },
+        {
+          "event_id": "BARON-C01-E05",
+          "event_date": "2024-03-31",
+          "event_type": "later_success_narrative_with_disclosure",
+          "source_id": "BARON-PARTNERS-Q12024",
+          "publication_date": null,
+          "timing_relative_to_initial_trade": "after_initial_trade",
+          "evidence": "Reports decade stock appreciation and production scale, with continuing ownership.",
+          "event_date_precision": "day",
+          "source_publication_pre_2026_verified": false
+        }
+      ],
+      "outcome_evidence_ids": [
+        "BARON-PARTNERS-Q12024",
+        "BARON-NCSRS-20150630"
+      ],
+      "outcome_boundaries": {
+        "business_and_security_success": "documented by fund history, not selected before outcomes",
+        "partial_realization": "fund-reported approximate sale; original lot records unverified",
+        "remaining_position": "verified fund disclosure",
+        "realized_total_return": "unknown; do not infer from one average purchase and sale quote",
+        "benchmark_relative_Tesla_return": "not calculated"
+      },
+      "compatibility": "Contemporary Tesla platform/growth thesis and later long ownership agree. Partial sales following concentration growth fit risk balancing rather than abandonment.",
+      "independent_lesson": "Pair management/site learning and patient ownership with explicit position-size discipline. Success does not show every forecast was right or eliminate concentration risk.",
+      "confidence": {
+        "during_accumulation_thesis": "high",
+        "original_initial_memo": "absent",
+        "fund_reported_trade_history": "medium",
+        "lot_verified_realization": "unknown"
+      }
+    },
+    {
+      "case_id": "BARON-C02-TESLA-Q12024",
+      "selection": "adverse_counterexample",
+      "portfolio": "Baron Partners Fund",
+      "pre_outcome_evidence": {
+        "earlier_original": "BARON-NCSRS-20150630",
+        "specific_pre_Q1_2024_underwriting_memo_found": false,
+        "classification": "ongoing_thesis_and_exposure; Q1 explanation published after outcome"
+      },
+      "chain": [
+        {
+          "event_id": "BARON-C02-E01",
+          "event_date": "2015-06-30",
+          "event_type": "earlier_concentrated_holding",
+          "source_id": "BARON-NCSRS-20150630",
+          "publication_date": "2015-08-28",
+          "timing_relative_to_initial_trade": "after_initial_trade",
+          "evidence": "Tesla a meaningful leveraged-fund holding; not a forecast of 2024 risks.",
+          "event_date_precision": "day",
+          "source_publication_pre_2026_verified": true
+        },
+        {
+          "event_id": "BARON-C02-E02",
+          "event_date": "2024-03-31",
+          "event_type": "fund_security_and_contribution_outcome",
+          "source_id": "BARON-PARTNERS-Q12024",
+          "publication_date": null,
+          "timing_relative_to_initial_trade": "after_initial_trade",
+          "evidence": "Verified quarter return, Tesla contribution and concentrated/leverage metrics.",
+          "event_date_precision": "day",
+          "source_publication_pre_2026_verified": false
+        },
+        {
+          "event_id": "BARON-C02-E03",
+          "event_date": "2024 Q1 letter publication day unknown",
+          "event_type": "post_outcome_reunderwriting",
+          "source_id": "BARON-PARTNERS-Q12024",
+          "publication_date": null,
+          "timing_relative_to_initial_trade": "after_initial_trade",
+          "evidence": "Managers maintained conviction while discussing competition, price reductions and uncertain autonomy/lower-cost vehicle timing.",
+          "event_date_precision": "approximate_or_unknown",
+          "source_publication_pre_2026_verified": false
+        }
+      ],
+      "outcome_evidence_ids": [
+        "BARON-PARTNERS-Q12024"
+      ],
+      "compatibility": "Continuing ownership is consistent with long-term conviction, but one concentrated holding overwhelmed other contributors. The loss is direct portfolio-risk evidence, not proof Tesla's whole long-term thesis failed.",
+      "independent_lesson": "Review gross/net denominators, leverage and shock contribution before treating concentration as simply conviction. Compare like-for-like share class and benchmark periods.",
+      "return_verification": {
+        "fund_Q1_net_institutional": "verified fund-disclosed",
+        "security_and_contribution": "verified fund-disclosed attribution; not independently replicated",
+        "investor_money_weighted": "unknown",
+        "all_Baron_funds": "not applicable"
+      }
+    }
+  ],
+  "thought_position_audit": [
+    {
+      "audit_id": "BARON-A01",
+      "status": "compatible",
+      "source_ids": [
+        "BARON-PROC",
+        "BARON-PARTNERS-Q12024"
+      ],
+      "finding": "Long-term owner language, concentrated exposure and approximate partial sales coexist; trim does not necessarily contradict business conviction."
+    },
+    {
+      "audit_id": "BARON-A02",
+      "status": "tension",
+      "source_ids": [
+        "BARON-PARTNERS-Q12024"
+      ],
+      "finding": "Sector/business diversity failed to offset a very large individual position in Q1 2024. Portfolio protection cannot be assumed from qualitative categories."
+    },
+    {
+      "audit_id": "BARON-A03",
+      "status": "unknown",
+      "finding": "Who placed each historical Tesla order and how risk limits operated on that day are not public in recovered evidence."
+    }
+  ],
+  "license_and_reuse": {
+    "general": "Use facts and independently worded ideas with citations. Original prose, artwork, slide layouts, workbook/formulas, source code or prompt text are separate copyrighted materials; public accessibility is not a copying license.",
+    "prompt_code": "No investor-authored prompt code was recovered or executed. Do not label newly authored Skill prompts as the investor's exact instructions.",
+    "status": "No general open license identified; copyright notices and third-party data restrictions appear in fund materials.",
+    "implementation": "Paraphrase analytical practices and use factual fields with citations. Do not copy letter text, Morningstar ranking tables, proprietary models or layouts into Skill code/prompts."
+  },
+  "mandate": {
+    "documented_scope": "Baron Partners long-term focused growth ownership with permitted leverage; other Baron funds need separate PM/mandate review.",
+    "source_ids": [
+      "BARON-PARTNERS-Q12024",
+      "BARON-PROC"
+    ],
+    "asset_classes": [
+      "Primarily public equity",
+      "Some private growth investments in Partners"
+    ],
+    "style": "Business-owner compounding, moat/management diligence, growth-adjusted valuation; selected concentrated leveraged implementation",
+    "era": "Tesla accumulation 2014-2016, operating/stock success over following decade, adverse Q1 2024. Firm current process checked 2026.",
+    "business_fit_inference": [
+      "Businesses with a durable moat, large reinvestment runway and credible capital allocation",
+      "Customer economics whose unit/price and incremental margins can be modeled",
+      "Founder-led businesses with observable management alignment"
+    ],
+    "no_fit_inference": [
+      "Borrowed concentrated growth exposure for short-term spending needs",
+      "Weakly financed growth stories without durable unit economics",
+      "Blindly copying a holdings list across Baron funds with different managers"
+    ]
+  },
+  "holdings_coverage": {
+    "channels": [
+      "Fund quarterly letters and holdings",
+      "SEC N-CSR/N-CSRS/N-PORT fund schedules",
+      "BAMCO manager 13F for a different aggregate scope"
+    ],
+    "source_ids": [
+      "BARON-NCSRS-20150630",
+      "BARON-PARTNERS-Q12024",
+      "COM-SEC13F"
+    ],
+    "audit_snapshots": [
+      {
+        "period": "2015-06-30",
+        "filed": "2015-08-28",
+        "lag_days": 59,
+        "source_id": "BARON-NCSRS-20150630"
+      },
+      {
+        "period": "2024-03-31",
+        "publication_day": "unknown",
+        "source_id": "BARON-PARTNERS-Q12024"
+      }
+    ],
+    "remaining_gaps": [
+      "No universal quarterly website publication lag verified",
+      "No trade blotter, private-fund/full-family portfolio or lot-level tax record",
+      "Fund total-investment weights are not interchangeable with net-asset weights"
+    ]
+  },
+  "source_refs": [
+    {
+      "source_id": "BARON-BIO",
+      "url": "https://www.baroncapitalgroup.com/bio/ron-baron",
+      "published_date": null,
+      "pre_2026_method_eligible": false
+    },
+    {
+      "source_id": "BARON-PROC",
+      "url": "https://www.baroncapitalgroup.com/article/baron-capital-investment-approach",
+      "published_date": null,
+      "pre_2026_method_eligible": false
+    },
+    {
+      "source_id": "BARON-PARTNERS-Q12024",
+      "url": "https://www.baroncapitalgroup.com/article/quarterly-letter-baron-partners-fund-q1-2024",
+      "published_date": null,
+      "pre_2026_method_eligible": false
+    },
+    {
+      "source_id": "BARON-NCSRS-20150630",
+      "url": "https://www.sec.gov/Archives/edgar/data/1217673/000120928615000536/e108965.htm",
+      "published_date": "2015-08-28",
+      "pre_2026_method_eligible": true
+    },
+    {
+      "source_id": "COM-SEC13F",
+      "url": "https://www.sec.gov/rules-regulations/staff-guidance/frequently-asked-questions-about-form-13f",
+      "published_date": "2026-03-06",
+      "pre_2026_method_eligible": false
+    }
+  ],
+  "benchmark_2026_method_packet": {
+    "decision_cutoff_utc": "2025-12-31T23:59:59Z",
+    "audit_date": "2026-10-13",
+    "eligible_method_source_ids": [
+      "BARON-NCSRS-20150630"
+    ],
+    "audit_only_source_ids": [
+      "BARON-BIO",
+      "BARON-PROC",
+      "BARON-PARTNERS-Q12024",
+      "COM-SEC13F"
+    ],
+    "ex_ante_guardrail": "The current dossiers are an audit. For a beginning-2026 decision exercise, use only eligible dated method materials and company facts publicly available by cutoff. 2026 publications/holdings/outcomes, undated process statements, unknown revisions and latest-close results must not enter decision prompts. Freeze decisions before opening outcome packets.",
+    "identity_warning": "Present-day identity/authority checks are audit metadata, not a historical input.",
+    "case_warning": "Retrospectively selected historical cases inform method limitations; they are not a preselected performance sample.",
+    "limitation": "Strict date filtering leaves only a thin recovered generic Baron method. The rich current firm process and Q1 2024 webpage have unknown exact publication dates, so do not automatically import them into the ex-ante packet. Recover a dated archived/SEC version to expand the lens."
+  },
+  "rule_anchor_file": "rule_anchors.json",
+  "historical_rule_anchor_file": "pre_2026_rule_anchors.json"
+}

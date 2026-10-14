@@ -1,0 +1,111 @@
+{
+  "schema_version": "public-projection-quote-budget.v1",
+  "audit_inventory_sha256": "a642de4b7bd02b9f31c54b3446dea4e01e5108acafa4e972b83d866a96470ad4",
+  "source_totals": [
+    {
+      "original_url": "https://www.morganstanley.com/insights/videos/hard-lessons/duquesne-stan-druckenmiller-iliana-bouzali",
+      "source_ids": [
+        "DRU-03"
+      ],
+      "projected_direct_prose_words": 0,
+      "operational_cap_words": 25,
+      "measurement_scope": "Bounded occurrence-sensitive direct-prose inventory from the audit, preserved except the 13 locator replacements."
+    },
+    {
+      "original_url": "https://www.bridgewater.com/thinking-through-the-wide-range-of-possible-economic-outcomes",
+      "source_ids": [
+        "DAL-10"
+      ],
+      "projected_direct_prose_words": 0,
+      "operational_cap_words": 25,
+      "measurement_scope": "Bounded occurrence-sensitive direct-prose inventory from the audit, preserved except the 13 locator replacements."
+    },
+    {
+      "original_url": "https://assets.arkinvest.com/media-8e522a83-1b23-4d58-a202-792712f8d2d3/83a277d3-70f2-467e-a492-33b08e4bea90/ARK-Invest_Is%20AI%20Truly%20Disruptive_09302024%20%281%29.pdf",
+      "source_ids": [
+        "ARK-X-AI-DISRUPTION-20241001"
+      ],
+      "projected_direct_prose_words": 11,
+      "operational_cap_words": 25,
+      "measurement_scope": "Bounded occurrence-sensitive direct-prose inventory from the audit, preserved except the 13 locator replacements."
+    },
+    {
+      "original_url": "https://www.ark-invest.com/articles/analyst-research/wrights-law-2",
+      "source_ids": [
+        "ARK-X-WRIGHT-20190102"
+      ],
+      "projected_direct_prose_words": 11,
+      "operational_cap_words": 25,
+      "measurement_scope": "Bounded occurrence-sensitive direct-prose inventory from the audit, preserved except the 13 locator replacements."
+    },
+    {
+      "original_url": "https://www.ark-invest.com/articles/analyst-research/ai-will-determine-the-future-of-software-and-cloud-spending",
+      "source_ids": [
+        "ARK-X-SOFTWARE-20250729"
+      ],
+      "projected_direct_prose_words": 6,
+      "operational_cap_words": 25,
+      "measurement_scope": "Bounded occurrence-sensitive direct-prose inventory from the audit, preserved except the 13 locator replacements."
+    },
+    {
+      "original_url": "https://assets.arkinvest.com/media-8e522a83-1b23-4d58-a202-792712f8d2d3/8cea086f-21b4-47bf-8ac6-666b96a84a04/ARK-Invest_Big-Ideas-2024.pdf",
+      "source_ids": [
+        "ARK-X-BIG-IDEAS-2024"
+      ],
+      "projected_direct_prose_words": 5,
+      "operational_cap_words": 25,
+      "measurement_scope": "Bounded occurrence-sensitive direct-prose inventory from the audit, preserved except the 13 locator replacements."
+    },
+    {
+      "original_url": "https://research.ark-invest.com/hubfs/1_Download_Files_ARK-Invest/Big_Ideas/ARK%20Invest%20Big%20Ideas%202025.pdf",
+      "source_ids": [
+        "ARK-X-BIG-IDEAS-2025"
+      ],
+      "projected_direct_prose_words": 9,
+      "operational_cap_words": 25,
+      "measurement_scope": "Bounded occurrence-sensitive direct-prose inventory from the audit, preserved except the 13 locator replacements."
+    },
+    {
+      "original_url": "https://www.baroncapitalgroup.com/sites/default/files/2024-05/letter-from-ron-3.31.24.pdf",
+      "source_ids": [
+        "BARON-X-LETTER-20240512"
+      ],
+      "projected_direct_prose_words": 8,
+      "operational_cap_words": 25,
+      "measurement_scope": "Bounded occurrence-sensitive direct-prose inventory from the audit, preserved except the 13 locator replacements."
+    },
+    {
+      "original_url": "https://www.baroncapitalgroup.com/sites/default/files/2024-08/letter-from-ron-6.30.24_0.pdf",
+      "source_ids": [
+        "BARON-X-LETTER-20240716"
+      ],
+      "projected_direct_prose_words": 11,
+      "operational_cap_words": 25,
+      "measurement_scope": "Bounded occurrence-sensitive direct-prose inventory from the audit, preserved except the 13 locator replacements."
+    }
+  ],
+  "identified_removed_fragment_digests": [
+    {
+      "fragment_id": "DRU-03-Q1",
+      "sha256": "92c94ffbe9b4c3953181f79286d3bcb87bc56703d1e4ab7e7f17452984397230",
+      "words_per_occurrence": 8
+    },
+    {
+      "fragment_id": "DRU-03-Q2",
+      "sha256": "53b2ad771e53f53135873663732d086f8f2173dfd8880411c4b3944f1045dbfd",
+      "words_per_occurrence": 7
+    },
+    {
+      "fragment_id": "DAL-10-P1",
+      "sha256": "d25e98da44cb2dd6a0840705f038a7b58f0d4cd444c1635e2582903676891bc9",
+      "words_per_occurrence": 5
+    },
+    {
+      "fragment_id": "DAL-10-P2",
+      "sha256": "77c31b0ae3a9149e1c5e184ae0860ad8cb0e022fb7870b928940a603630a3096",
+      "words_per_occurrence": 3
+    }
+  ],
+  "limits": "This operational excerpt check is bounded; it is not a blanket copyright clearance or the legal definition of fair use.",
+  "all_audit_dry_run_conditions_passed": true
+}

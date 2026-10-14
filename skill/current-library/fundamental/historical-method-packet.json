@@ -1,0 +1,399 @@
+{
+  "schema_version": "2.1",
+  "task_id": "V2-B-fundamental",
+  "corrective_submission": 1,
+  "information_cutoff": "2025-12-31T23:59:59Z",
+  "strict_publication_gate": true,
+  "transport_use": "Frozen method-only material. Do not transport full dossiers, holdings, case narratives, later views or outcomes to historical decision workers.",
+  "security_specific_views_provided": false,
+  "rules": [
+    {
+      "investor_id": "WB",
+      "rule_id": "WB-R-01",
+      "name": "Business cash valuation",
+      "source_faithful_method_paraphrase": "Intrinsic value is an estimate of discounted extractable future cash. Owner earnings require maintenance investment and necessary working capital, with estimation uncertainty.",
+      "native_numeric_weights_or_universal_thresholds": "not established",
+      "provenance_basis": [
+        {
+          "source_id": "WB-S-OWNERS1999",
+          "publication_date": "1999-01",
+          "provenance_grade": "P1"
+        },
+        {
+          "source_id": "WB-S-1986",
+          "publication_date": "1987-02-27",
+          "provenance_grade": "P1"
+        }
+      ],
+      "author_adaptation": {
+        "origin": "auditor operationalization, not claimed investor procedure",
+        "operational_steps": [
+          "Reconcile earnings to cash available after maintenance spending and working capital. Separate expansion investment.",
+          "Write bear/base/bull cash paths, competitive assumptions and discount-rate sensitivity; report a range.",
+          "Reject precision unsupported by accounting or business knowledge."
+        ],
+        "fits": "Durable cash businesses with estimable reinvestment",
+        "does_not_fit": "Mechanical low P/E, EBITDA-only or book-value screens"
+      },
+      "method_specific_locators": [
+        "Owner manual Intrinsic Value appendix opening definition and estimate-sensitivity paragraphs.",
+        "1986 letter Appendix owner-earnings formula/maintenance-investment paragraph."
+      ]
+    },
+    {
+      "investor_id": "WB",
+      "rule_id": "WB-R-02",
+      "name": "Competence and durability",
+      "source_faithful_method_paraphrase": "An understandable business and the boundaries of competence matter. Selected technology-mediated businesses can be evaluated through their specific customer economics.",
+      "native_numeric_weights_or_universal_thresholds": "not established",
+      "provenance_basis": [
+        {
+          "source_id": "WB-S-1996",
+          "publication_date": "1997-02-28",
+          "provenance_grade": "P1"
+        },
+        {
+          "source_id": "WB-S-CNBC2017-MEETING",
+          "publication_date": "2017-05-06",
+          "provenance_grade": "P2"
+        }
+      ],
+      "author_adaptation": {
+        "origin": "auditor operationalization, not claimed investor procedure",
+        "operational_steps": [
+          "Explain who pays, why customers stay, and what change destroys earning power.",
+          "List the strongest evidence against the franchise and explicit unknowns.",
+          "Use no-fit or too-hard when crucial assumptions are ungrounded."
+        ],
+        "fits": "Business-specific knowledge including selected technology-mediated consumer franchises",
+        "does_not_fit": "Automatic sector stereotypes or prediction of every technology winner"
+      },
+      "method_specific_locators": [
+        "1996 letter Common Stock Investments competence-boundary paragraphs.",
+        "2017 original meeting archive afternoon section12, consumer-business discussion."
+      ]
+    },
+    {
+      "investor_id": "WB",
+      "rule_id": "WB-R-03",
+      "name": "Capital allocation economics",
+      "source_faithful_method_paraphrase": "Retained capital and repurchases need economic justification. Repurchase effects depend on price versus intrinsic value and underlying earnings, not share-count reduction alone.",
+      "native_numeric_weights_or_universal_thresholds": "not established",
+      "provenance_basis": [
+        {
+          "source_id": "WB-S-OWNERS1999",
+          "publication_date": "1999-01",
+          "provenance_grade": "P1"
+        },
+        {
+          "source_id": "WB-S-2011",
+          "publication_date": "2012-02-25",
+          "provenance_grade": "P1"
+        }
+      ],
+      "author_adaptation": {
+        "origin": "auditor operationalization, not claimed investor procedure",
+        "operational_steps": [
+          "Model business earnings independently of share-count reduction.",
+          "Price buybacks against intrinsic value and retained-capital alternatives.",
+          "Audit whether repurchases mask erosion of total cash generation."
+        ],
+        "fits": "Companies with meaningful reinvestment, buyback or dividend choices",
+        "does_not_fit": "EPS growth treated as sufficient proof of improved enterprise economics"
+      },
+      "method_specific_locators": [
+        "Owner manual principles7 and9, debt/retained-capital economic justification.",
+        "2011 letter printed p6/PDF page5, Share Repurchases first two condition paragraphs and excess-cash/dilution warning, rendered lines219–227."
+      ]
+    },
+    {
+      "investor_id": "WB",
+      "rule_id": "WB-R-04",
+      "name": "Survival and financing",
+      "source_faithful_method_paraphrase": "Preserve financing strength and liquidity appropriate to liabilities. Working liquidity, an absolute minimum and a purpose-specific repurchase condition are distinct constraints.",
+      "native_numeric_weights_or_universal_thresholds": "not established",
+      "provenance_basis": [
+        {
+          "source_id": "WB-S-OWNERS1999",
+          "publication_date": "1999-01",
+          "provenance_grade": "P1"
+        },
+        {
+          "source_id": "WB-S-2011",
+          "publication_date": "2012-02-25",
+          "provenance_grade": "P1"
+        }
+      ],
+      "author_adaptation": {
+        "origin": "auditor operationalization, not claimed investor procedure",
+        "operational_steps": [
+          "Map obligations, currency, funding tenor, insurance stress and liquidity before sizing.",
+          "Stress forced-sale risk rather than borrow against expected price stability.",
+          "Use actual capital and liability constraints; keep working liquidity, an absolute minimum and purpose-specific conditions separate without importing a universal or current numeric amount."
+        ],
+        "fits": "Long-duration investment capital compatible with liability profile",
+        "does_not_fit": "Return maximization requiring fragile financing"
+      },
+      "method_specific_locators": [
+        "Owner manual principle7 conservative financing paragraph.",
+        "2011 letter printed p18/PDF page17 liquidity-purpose paragraph; printed p6/PDF page5 separate repurchase-condition paragraph."
+      ]
+    },
+    {
+      "investor_id": "WB",
+      "rule_id": "WB-R-05",
+      "name": "Good business and price are separate",
+      "source_faithful_method_paraphrase": "Management or business quality does not remove the need for a justified price and a defensible normalized-earnings estimate.",
+      "native_numeric_weights_or_universal_thresholds": "not established",
+      "provenance_basis": [
+        {
+          "source_id": "WB-S-2020",
+          "publication_date": "2021-02-27",
+          "provenance_grade": "P1"
+        }
+      ],
+      "author_adaptation": {
+        "origin": "auditor operationalization, not claimed investor procedure",
+        "operational_steps": [
+          "Estimate normalized earnings over a full demand cycle.",
+          "Test downside from customer concentration, orders, margins and maintenance spending.",
+          "Record business-quality assessment separately from price, then revisit both after adverse evidence."
+        ],
+        "fits": "Cyclical high-quality businesses only at adequately risk-compensating valuation",
+        "does_not_fit": "Admiration for management used to waive valuation discipline"
+      },
+      "method_specific_locators": [
+        "2020 letter printed p4, pricing versus business quality and normalized-profit-estimation diagnosis paragraphs."
+      ]
+    },
+    {
+      "investor_id": "DYP",
+      "rule_id": "DYP-R-01",
+      "name": "Business model and culture filters",
+      "source_faithful_method_paraphrase": "Business model and corporate culture are separate filters. A profitable trade does not establish that the decision met those filters.",
+      "native_numeric_weights_or_universal_thresholds": "not established",
+      "provenance_basis": [
+        {
+          "source_id": "DYP-S-FILTERS2025",
+          "publication_date": "2025-08-15",
+          "provenance_grade": "P1"
+        },
+        {
+          "source_id": "DYP-S-FANGLUE2025",
+          "publication_date": "2025-11-11",
+          "provenance_grade": "P2"
+        }
+      ],
+      "author_adaptation": {
+        "origin": "auditor operationalization, not claimed investor procedure",
+        "operational_steps": [
+          "Explain how the business can keep producing cash and what the investor must understand.",
+          "Test culture with product choices, customer treatment, commitments and governance behavior, not slogans alone.",
+          "Record failed model or culture filters even if a past trade made money."
+        ],
+        "fits": "Businesses whose customer value and incentives can be examined",
+        "does_not_fit": "Profit on a trade used as proof the decision was sound"
+      },
+      "method_specific_locators": [
+        "Author Xueqiu replies2025-08-15 21:42/23:07.",
+        "Fanglue rendered lines367–378, model/culture filters and decision quality."
+      ]
+    },
+    {
+      "investor_id": "DYP",
+      "rule_id": "DYP-R-02",
+      "name": "Future cash and opportunity cost",
+      "source_faithful_method_paraphrase": "Understanding a company includes understanding future cash generation. Expected investment economics are judged against opportunity cost.",
+      "native_numeric_weights_or_universal_thresholds": "not established",
+      "provenance_basis": [
+        {
+          "source_id": "DYP-S-FANGLUE2025",
+          "publication_date": "2025-11-11",
+          "provenance_grade": "P2"
+        }
+      ],
+      "author_adaptation": {
+        "origin": "auditor operationalization, not claimed investor procedure",
+        "operational_steps": [
+          "Compare a conservative future cash-flow range with price and investable alternatives.",
+          "Separate company admiration from expected return at the chosen price.",
+          "Avoid importing exact historic multiples or a cash balance remembered many years later."
+        ],
+        "fits": "Long-lived cash generation with comprehensible uncertainty",
+        "does_not_fit": "Fixed PE rule, cheapness alone or guaranteed upside claims"
+      },
+      "method_specific_locators": [
+        "Fanglue rendered line267, future cash understanding; line412, future earnings and opportunity cost."
+      ]
+    },
+    {
+      "investor_id": "DYP",
+      "rule_id": "DYP-R-03",
+      "name": "Competence before conviction",
+      "source_faithful_method_paraphrase": "Business-specific experience and knowledge limits matter. Selective public positions and small learning stakes do not establish complete disclosure or conviction sizing.",
+      "native_numeric_weights_or_universal_thresholds": "not established",
+      "provenance_basis": [
+        {
+          "source_id": "DYP-S-FANGLUE2025",
+          "publication_date": "2025-11-11",
+          "provenance_grade": "P2"
+        }
+      ],
+      "author_adaptation": {
+        "origin": "auditor operationalization, not claimed investor procedure",
+        "operational_steps": [
+          "Link each major assumption to firsthand operating understanding or dated primary evidence.",
+          "Label uncertainty and observation positions; do not treat any public buy as conviction size.",
+          "Choose sizing from independent loss capacity and liquidity, never from an assumed percentage of the investor’s undisclosed wealth."
+        ],
+        "fits": "Concentrated research when competence and capital capacity are established",
+        "does_not_fit": "Blind copying, full-net-worth inference from one account’s exposure"
+      },
+      "method_specific_locators": [
+        "Fanglue rendered lines307–309, specific operating knowledge/account capital capacity; line386, selective disclosure and learning stakes."
+      ]
+    },
+    {
+      "investor_id": "DYP",
+      "rule_id": "DYP-R-04",
+      "name": "Instrument economics and correction",
+      "source_faithful_method_paraphrase": "Daily correlation does not establish long-run instrument tracking. Understand the economic mechanism and stop perpetuating a recognized mistake.",
+      "native_numeric_weights_or_universal_thresholds": "not established",
+      "provenance_basis": [
+        {
+          "source_id": "DYP-S-FANGLUE2025",
+          "publication_date": "2025-11-11",
+          "provenance_grade": "P2"
+        }
+      ],
+      "author_adaptation": {
+        "origin": "auditor operationalization, not claimed investor procedure",
+        "operational_steps": [
+          "Read legal instrument structure, daily-reset or roll exposure, carry, decay and long-run tracking before entry.",
+          "Separate belief in oil demand from the return delivered by an index product.",
+          "Specify an immediate reconsideration trigger when the economic mechanism is misunderstood; recognize sunk cost without needing price recovery."
+        ],
+        "fits": "Understandable instruments supporting an independently formed thesis",
+        "does_not_fit": "Long-term holding of a product whose tracking mechanism is unknown"
+      },
+      "method_specific_locators": [
+        "Fanglue rendered lines382–383, daily correlation versus long-run tracking and correction of recognized mechanism error."
+      ]
+    },
+    {
+      "investor_id": "LL",
+      "rule_id": "LL-R-01",
+      "name": "Epistemic audit before valuation",
+      "source_faithful_method_paraphrase": "Distinguish known, unknown, unnecessary-to-know and unknown-unknown risks. Engage the strongest contrary argument and leave crucial ununderstood situations too hard.",
+      "native_numeric_weights_or_universal_thresholds": "not established",
+      "provenance_basis": [
+        {
+          "source_id": "LL-S-COLUMBIA2013",
+          "publication_date": "2013-03",
+          "provenance_grade": "P2"
+        }
+      ],
+      "author_adaptation": {
+        "origin": "auditor operationalization, not claimed investor procedure",
+        "operational_steps": [
+          "Separate known, unknown, irrelevant-to-thesis and potential unknown-unknown risks.",
+          "Write the strongest contrary explanation using its best evidence.",
+          "Reject a crucial assumption lacking a defensible evidence path rather than fill it with a sector stereotype."
+        ],
+        "fits": "Deeply understood businesses with honest uncertainty ranges",
+        "does_not_fit": "A fluent narrative masking an essential knowledge gap"
+      },
+      "method_specific_locators": [
+        "Columbia Spring2013 printed p25 opposing-argument paragraph; p30 too-hard bucket; pp31–32 intellectual-honesty categories."
+      ]
+    },
+    {
+      "investor_id": "LL",
+      "rule_id": "LL-R-02",
+      "name": "Moat and adaptive culture",
+      "source_faithful_method_paraphrase": "Repeated problem-solving and an adaptive culture can be relevant business evidence. Rapid change still makes forecasts harder and outcomes uncertain.",
+      "native_numeric_weights_or_universal_thresholds": "not established",
+      "provenance_basis": [
+        {
+          "source_id": "LL-S-COLUMBIA2013",
+          "publication_date": "2013-03",
+          "provenance_grade": "P2"
+        }
+      ],
+      "author_adaptation": {
+        "origin": "auditor operationalization, not claimed investor procedure",
+        "operational_steps": [
+          "Test concrete repeatable problem-solving, organizational learning, incentives and customer value.",
+          "Separate what was proved at the decision date from what management accomplished later.",
+          "Price the range of outcomes with a margin for mechanisms not yet understood."
+        ],
+        "fits": "Selected changing industries where investor competence is adequate",
+        "does_not_fit": "Excluding every technology business or treating policy support as a guaranteed moat"
+      },
+      "method_specific_locators": [
+        "Columbia Spring2013 printed p28, repeatable engineering/problem-solving paragraph; p31, adaptive-culture/change paragraphs."
+      ]
+    },
+    {
+      "investor_id": "LL",
+      "rule_id": "LL-R-03",
+      "name": "Opportunity-cost portfolio construction",
+      "source_faithful_method_paraphrase": "Cash and existing holdings form an opportunity-cost comparison. Improve the portfolio’s risk-adjusted economics; a better alternative can justify selling.",
+      "native_numeric_weights_or_universal_thresholds": "not established",
+      "provenance_basis": [
+        {
+          "source_id": "LL-S-COLUMBIA2013",
+          "publication_date": "2013-03",
+          "provenance_grade": "P2"
+        }
+      ],
+      "author_adaptation": {
+        "origin": "auditor operationalization, not claimed investor procedure",
+        "operational_steps": [
+          "Compare candidate risk-adjusted economics with cash and current holdings.",
+          "Explain the marginal improvement to the whole portfolio rather than chase a target country weight.",
+          "Reassess a holding when a superior alternative or new adverse evidence changes the comparison."
+        ],
+        "fits": "Patient concentrated research with long-duration compatible capital",
+        "does_not_fit": "Forced deployment, fixed geographic quota or never-sell dogma"
+      },
+      "method_specific_locators": [
+        "Columbia Spring2013 printed pp28–29 opportunity-cost/cash/geography paragraphs; p32, superior-alternative sale paragraph."
+      ]
+    },
+    {
+      "investor_id": "LL",
+      "rule_id": "LL-R-04",
+      "name": "Avoid strategy risk incompatible with the mandate",
+      "source_faithful_method_paraphrase": "A correct thesis can fail financially under adverse strategy economics. Shorting adds asymmetric loss, borrowing persistence and attention costs incompatible with the later long-owner framework.",
+      "native_numeric_weights_or_universal_thresholds": "not established",
+      "provenance_basis": [
+        {
+          "source_id": "LL-S-COLUMBIA2013",
+          "publication_date": "2013-03",
+          "provenance_grade": "P2"
+        }
+      ],
+      "author_adaptation": {
+        "origin": "auditor operationalization, not claimed investor procedure",
+        "operational_steps": [
+          "Separate being factually right from surviving until prices recognize it.",
+          "Stress unlimited-loss, borrow-cost/recall and attention costs when evaluating a short strategy.",
+          "Do not apply the mature long-owner method to the investor’s earlier long/short era without an explicit era tag."
+        ],
+        "fits": "Long business ownership compatible with understanding and loss capacity",
+        "does_not_fit": "Assuming past shorting practice is a current endorsed skill"
+      },
+      "method_specific_locators": [
+        "Columbia Spring2013 printed pp26–27, short-strategy asymmetry/borrowing/attention-risk paragraphs."
+      ]
+    }
+  ],
+  "excluded_rule_ids": [
+    "DYP-R-05"
+  ],
+  "no_recommendations_or_performance_inference": true,
+  "acceptance": "pending independent re-review",
+  "worker_payload_content_boundary": "Only the 13 rules’ source-faithful method paraphrases, dated original provenance, method-specific locators and separately labelled adaptations. No rich claim records, security positions, named case narratives, case success/error labels, monetary outcomes or current views are included.",
+  "completed_at_utc": "2026-10-13T17:09:14.298344+00:00"
+}

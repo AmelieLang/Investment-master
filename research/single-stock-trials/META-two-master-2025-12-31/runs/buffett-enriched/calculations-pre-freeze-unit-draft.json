@@ -1,0 +1,3030 @@
+{
+  "schema": "meta-buffett-enriched-calculations.v1",
+  "run": {
+    "task_name": "/root/run_meta_buffett_enriched",
+    "requested_model": "gpt-6.1-sol",
+    "requested_reasoning_effort": "xhigh",
+    "fork_turns_requested": "none",
+    "provider_attestation": null,
+    "invocation_note": "Actual independent native research task; requested settings recorded, not a provider attestation. Parent records spawn receipt.",
+    "decision_cutoff": "2025-12-31T23:59:59Z",
+    "execution_date": "2026-10-14",
+    "horizon": "Five-year forward explicit analytical horizon, with explicitly discounted terminal sensitivity where shown.",
+    "intent": "financial-analysis",
+    "assigned_method": "Buffett Investment Framework, unchanged original Skill",
+    "additional_materials": "enrichment-public-materials.md",
+    "data_fetch_performed": false
+  },
+  "unit_convention": "USD million unless explicitly specified; positive cash-outflow magnitudes; signed RL losses.",
+  "calculations": [
+    {
+      "calculation_id": "TTM.revenue",
+      "kind": "historical_calculation",
+      "formula": "FY2024 + YTD9_2025 - YTD9_2024",
+      "inputs": [
+        {
+          "fact_id": "META.FY2024.revenue",
+          "value": 164501,
+          "unit": "USD million",
+          "period_id": "FY2024",
+          "kind": "reported_fact",
+          "sources": [
+            {
+              "source_id": "S1",
+              "publication_date": "2025-01-30",
+              "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000017/meta-20241231.htm"
+            }
+          ]
+        },
+        {
+          "fact_id": "META.YTD9_2025.revenue",
+          "value": 141073,
+          "unit": "USD million",
+          "period_id": "YTD9_2025",
+          "kind": "reported_fact",
+          "sources": [
+            {
+              "source_id": "S3",
+              "publication_date": "2025-10-30",
+              "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047240/meta-20250930.htm"
+            }
+          ]
+        },
+        {
+          "fact_id": "META.YTD9_2024.revenue",
+          "value": 116116,
+          "unit": "USD million",
+          "period_id": "YTD9_2024",
+          "kind": "reported_fact",
+          "sources": [
+            {
+              "source_id": "S3",
+              "publication_date": "2025-10-30",
+              "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047240/meta-20250930.htm"
+            }
+          ]
+        }
+      ],
+      "assumptions": [],
+      "result": 189458,
+      "unit": "USD million",
+      "limitations": [
+        "Period 2024-10-01 to 2025-09-30; not FY2025."
+      ]
+    },
+    {
+      "calculation_id": "TTM.operating_income",
+      "kind": "historical_calculation",
+      "formula": "FY2024 + YTD9_2025 - YTD9_2024",
+      "inputs": [
+        {
+          "fact_id": "META.FY2024.operating_income",
+          "value": 69380,
+          "unit": "USD million",
+          "period_id": "FY2024",
+          "kind": "reported_fact",
+          "sources": [
+            {
+              "source_id": "S1",
+              "publication_date": "2025-01-30",
+              "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000017/meta-20241231.htm"
+            }
+          ]
+        },
+        {
+          "fact_id": "META.YTD9_2025.operating_income",
+          "value": 58531,
+          "unit": "USD million",
+          "period_id": "YTD9_2025",
+          "kind": "reported_fact",
+          "sources": [
+            {
+              "source_id": "S3",
+              "publication_date": "2025-10-30",
+              "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047240/meta-20250930.htm"
+            }
+          ]
+        },
+        {
+          "fact_id": "META.YTD9_2024.operating_income",
+          "value": 46016,
+          "unit": "USD million",
+          "period_id": "YTD9_2024",
+          "kind": "reported_fact",
+          "sources": [
+            {
+              "source_id": "S3",
+              "publication_date": "2025-10-30",
+              "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047240/meta-20250930.htm"
+            }
+          ]
+        }
+      ],
+      "assumptions": [],
+      "result": 81895,
+      "unit": "USD million",
+      "limitations": [
+        "Period 2024-10-01 to 2025-09-30; not FY2025."
+      ]
+    },
+    {
+      "calculation_id": "TTM.net_income_gaap",
+      "kind": "historical_calculation",
+      "formula": "FY2024 + YTD9_2025 - YTD9_2024",
+      "inputs": [
+        {
+          "fact_id": "META.FY2024.net_income_gaap",
+          "value": 62360,
+          "unit": "USD million",
+          "period_id": "FY2024",
+          "kind": "reported_fact",
+          "sources": [
+            {
+              "source_id": "S1",
+              "publication_date": "2025-01-30",
+              "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000017/meta-20241231.htm"
+            }
+          ]
+        },
+        {
+          "fact_id": "META.YTD9_2025.net_income_gaap",
+          "value": 37690,
+          "unit": "USD million",
+          "period_id": "YTD9_2025",
+          "kind": "reported_fact",
+          "sources": [
+            {
+              "source_id": "S3",
+              "publication_date": "2025-10-30",
+              "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047240/meta-20250930.htm"
+            }
+          ]
+        },
+        {
+          "fact_id": "META.YTD9_2024.net_income_gaap",
+          "value": 41522,
+          "unit": "USD million",
+          "period_id": "YTD9_2024",
+          "kind": "reported_fact",
+          "sources": [
+            {
+              "source_id": "S3",
+              "publication_date": "2025-10-30",
+              "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047240/meta-20250930.htm"
+            }
+          ]
+        }
+      ],
+      "assumptions": [],
+      "result": 58528,
+      "unit": "USD million",
+      "limitations": [
+        "Period 2024-10-01 to 2025-09-30; not FY2025."
+      ]
+    },
+    {
+      "calculation_id": "TTM.cfo",
+      "kind": "historical_calculation",
+      "formula": "FY2024 + YTD9_2025 - YTD9_2024",
+      "inputs": [
+        {
+          "fact_id": "META.FY2024.cfo",
+          "value": 91328,
+          "unit": "USD million",
+          "period_id": "FY2024",
+          "kind": "reported_fact",
+          "sources": [
+            {
+              "source_id": "S1",
+              "publication_date": "2025-01-30",
+              "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000017/meta-20241231.htm"
+            }
+          ]
+        },
+        {
+          "fact_id": "META.YTD9_2025.cfo",
+          "value": 79586,
+          "unit": "USD million",
+          "period_id": "YTD9_2025",
+          "kind": "reported_fact",
+          "sources": [
+            {
+              "source_id": "S3",
+              "publication_date": "2025-10-30",
+              "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047240/meta-20250930.htm"
+            }
+          ]
+        },
+        {
+          "fact_id": "META.YTD9_2024.cfo",
+          "value": 63340,
+          "unit": "USD million",
+          "period_id": "YTD9_2024",
+          "kind": "reported_fact",
+          "sources": [
+            {
+              "source_id": "S3",
+              "publication_date": "2025-10-30",
+              "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047240/meta-20250930.htm"
+            }
+          ]
+        }
+      ],
+      "assumptions": [],
+      "result": 107574,
+      "unit": "USD million",
+      "limitations": [
+        "Period 2024-10-01 to 2025-09-30; not FY2025."
+      ]
+    },
+    {
+      "calculation_id": "TTM.cash_ppe_outflow",
+      "kind": "historical_calculation",
+      "formula": "FY2024 + YTD9_2025 - YTD9_2024",
+      "inputs": [
+        {
+          "fact_id": "META.FY2024.cash_ppe_outflow",
+          "value": 37256,
+          "unit": "USD million",
+          "period_id": "FY2024",
+          "kind": "reported_fact",
+          "sources": [
+            {
+              "source_id": "S1",
+              "publication_date": "2025-01-30",
+              "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000017/meta-20241231.htm"
+            }
+          ]
+        },
+        {
+          "fact_id": "META.YTD9_2025.cash_ppe_outflow",
+          "value": 48308,
+          "unit": "USD million",
+          "period_id": "YTD9_2025",
+          "kind": "reported_fact",
+          "sources": [
+            {
+              "source_id": "S3",
+              "publication_date": "2025-10-30",
+              "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047240/meta-20250930.htm"
+            }
+          ]
+        },
+        {
+          "fact_id": "META.YTD9_2024.cash_ppe_outflow",
+          "value": 22831,
+          "unit": "USD million",
+          "period_id": "YTD9_2024",
+          "kind": "reported_fact",
+          "sources": [
+            {
+              "source_id": "S3",
+              "publication_date": "2025-10-30",
+              "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047240/meta-20250930.htm"
+            }
+          ]
+        }
+      ],
+      "assumptions": [],
+      "result": 62733,
+      "unit": "USD million",
+      "limitations": [
+        "Period 2024-10-01 to 2025-09-30; not FY2025."
+      ]
+    },
+    {
+      "calculation_id": "TTM.finance_lease_principal",
+      "kind": "historical_calculation",
+      "formula": "FY2024 + YTD9_2025 - YTD9_2024",
+      "inputs": [
+        {
+          "fact_id": "META.FY2024.finance_lease_principal",
+          "value": 1969,
+          "unit": "USD million",
+          "period_id": "FY2024",
+          "kind": "reported_fact",
+          "sources": [
+            {
+              "source_id": "S1",
+              "publication_date": "2025-01-30",
+              "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000017/meta-20241231.htm"
+            }
+          ]
+        },
+        {
+          "fact_id": "META.YTD9_2025.finance_lease_principal",
+          "value": 1770,
+          "unit": "USD million",
+          "period_id": "YTD9_2025",
+          "kind": "reported_fact",
+          "sources": [
+            {
+              "source_id": "S3",
+              "publication_date": "2025-10-30",
+              "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047240/meta-20250930.htm"
+            }
+          ]
+        },
+        {
+          "fact_id": "META.YTD9_2024.finance_lease_principal",
+          "value": 1558,
+          "unit": "USD million",
+          "period_id": "YTD9_2024",
+          "kind": "reported_fact",
+          "sources": [
+            {
+              "source_id": "S3",
+              "publication_date": "2025-10-30",
+              "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047240/meta-20250930.htm"
+            }
+          ]
+        }
+      ],
+      "assumptions": [],
+      "result": 2181,
+      "unit": "USD million",
+      "limitations": [
+        "Period 2024-10-01 to 2025-09-30; not FY2025."
+      ]
+    },
+    {
+      "calculation_id": "TTM.company_fcf",
+      "kind": "historical_calculation",
+      "formula": "FY2024 + YTD9_2025 - YTD9_2024",
+      "inputs": [
+        {
+          "fact_id": "META.FY2024.company_fcf",
+          "value": 52103,
+          "unit": "USD million",
+          "period_id": "FY2024",
+          "kind": "reported_fact",
+          "sources": [
+            {
+              "source_id": "S5",
+              "publication_date": "2025-01-29",
+              "url": "https://investor.atmeta.com/investor-news/press-release-details/2025/Meta-Reports-Fourth-Quarter-and-Full-Year-2024-Results/default.aspx"
+            }
+          ]
+        },
+        {
+          "fact_id": "META.YTD9_2025.company_fcf",
+          "value": 29508,
+          "unit": "USD million",
+          "period_id": "YTD9_2025",
+          "kind": "reported_fact",
+          "sources": [
+            {
+              "source_id": "S2",
+              "publication_date": "2025-10-29",
+              "url": "https://investor.atmeta.com/investor-news/press-release-details/2025/Meta-Reports-Third-Quarter-2025-Results/default.aspx"
+            }
+          ]
+        },
+        {
+          "fact_id": "META.YTD9_2024.company_fcf",
+          "value": 38951,
+          "unit": "USD million",
+          "period_id": "YTD9_2024",
+          "kind": "reported_fact",
+          "sources": [
+            {
+              "source_id": "S2",
+              "publication_date": "2025-10-29",
+              "url": "https://investor.atmeta.com/investor-news/press-release-details/2025/Meta-Reports-Third-Quarter-2025-Results/default.aspx"
+            }
+          ]
+        }
+      ],
+      "assumptions": [],
+      "result": 42660,
+      "unit": "USD million",
+      "limitations": [
+        "Period 2024-10-01 to 2025-09-30; not FY2025."
+      ]
+    },
+    {
+      "calculation_id": "TTM.da",
+      "kind": "historical_calculation",
+      "formula": "FY2024 + YTD9_2025 - YTD9_2024",
+      "inputs": [
+        {
+          "fact_id": "META.FY2024.da",
+          "value": 15498,
+          "unit": "USD million",
+          "period_id": "FY2024",
+          "kind": "reported_fact",
+          "sources": [
+            {
+              "source_id": "S1",
+              "publication_date": "2025-01-30",
+              "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000017/meta-20241231.htm"
+            }
+          ]
+        },
+        {
+          "fact_id": "META.YTD9_2025.da",
+          "value": 13205,
+          "unit": "USD million",
+          "period_id": "YTD9_2025",
+          "kind": "reported_fact",
+          "sources": [
+            {
+              "source_id": "S3",
+              "publication_date": "2025-10-30",
+              "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047240/meta-20250930.htm"
+            }
+          ]
+        },
+        {
+          "fact_id": "META.YTD9_2024.da",
+          "value": 11038,
+          "unit": "USD million",
+          "period_id": "YTD9_2024",
+          "kind": "reported_fact",
+          "sources": [
+            {
+              "source_id": "S3",
+              "publication_date": "2025-10-30",
+              "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047240/meta-20250930.htm"
+            }
+          ]
+        }
+      ],
+      "assumptions": [],
+      "result": 17665,
+      "unit": "USD million",
+      "limitations": [
+        "Period 2024-10-01 to 2025-09-30; not FY2025."
+      ]
+    },
+    {
+      "calculation_id": "TTM.sbc",
+      "kind": "historical_calculation",
+      "formula": "FY2024 + YTD9_2025 - YTD9_2024",
+      "inputs": [
+        {
+          "fact_id": "META.FY2024.sbc",
+          "value": 16690,
+          "unit": "USD million",
+          "period_id": "FY2024",
+          "kind": "reported_fact",
+          "sources": [
+            {
+              "source_id": "S1",
+              "publication_date": "2025-01-30",
+              "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000017/meta-20241231.htm"
+            }
+          ]
+        },
+        {
+          "fact_id": "META.YTD9_2025.sbc",
+          "value": 14537,
+          "unit": "USD million",
+          "period_id": "YTD9_2025",
+          "kind": "reported_fact",
+          "sources": [
+            {
+              "source_id": "S3",
+              "publication_date": "2025-10-30",
+              "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047240/meta-20250930.htm"
+            }
+          ]
+        },
+        {
+          "fact_id": "META.YTD9_2024.sbc",
+          "value": 12428,
+          "unit": "USD million",
+          "period_id": "YTD9_2024",
+          "kind": "reported_fact",
+          "sources": [
+            {
+              "source_id": "S3",
+              "publication_date": "2025-10-30",
+              "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047240/meta-20250930.htm"
+            }
+          ]
+        }
+      ],
+      "assumptions": [],
+      "result": 18799,
+      "unit": "USD million",
+      "limitations": [
+        "Period 2024-10-01 to 2025-09-30; not FY2025."
+      ]
+    },
+    {
+      "calculation_id": "TTM.foa_revenue",
+      "kind": "historical_calculation",
+      "formula": "FY2024 + YTD9_2025 - YTD9_2024",
+      "inputs": [
+        {
+          "fact_id": "META.FY2024.foa_revenue",
+          "value": 162355,
+          "unit": "USD million",
+          "period_id": "FY2024",
+          "kind": "reported_fact",
+          "sources": [
+            {
+              "source_id": "S1",
+              "publication_date": "2025-01-30",
+              "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000017/meta-20241231.htm"
+            }
+          ]
+        },
+        {
+          "fact_id": "META.YTD9_2025.foa_revenue",
+          "value": 139821,
+          "unit": "USD million",
+          "period_id": "YTD9_2025",
+          "kind": "reported_fact",
+          "sources": [
+            {
+              "source_id": "S3",
+              "publication_date": "2025-10-30",
+              "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047240/meta-20250930.htm"
+            }
+          ]
+        },
+        {
+          "fact_id": "META.YTD9_2024.foa_revenue",
+          "value": 115053,
+          "unit": "USD million",
+          "period_id": "YTD9_2024",
+          "kind": "reported_fact",
+          "sources": [
+            {
+              "source_id": "S3",
+              "publication_date": "2025-10-30",
+              "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047240/meta-20250930.htm"
+            }
+          ]
+        }
+      ],
+      "assumptions": [],
+      "result": 187123,
+      "unit": "USD million",
+      "limitations": [
+        "Period 2024-10-01 to 2025-09-30; not FY2025."
+      ]
+    },
+    {
+      "calculation_id": "TTM.rl_revenue",
+      "kind": "historical_calculation",
+      "formula": "FY2024 + YTD9_2025 - YTD9_2024",
+      "inputs": [
+        {
+          "fact_id": "META.FY2024.rl_revenue",
+          "value": 2146,
+          "unit": "USD million",
+          "period_id": "FY2024",
+          "kind": "reported_fact",
+          "sources": [
+            {
+              "source_id": "S1",
+              "publication_date": "2025-01-30",
+              "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000017/meta-20241231.htm"
+            }
+          ]
+        },
+        {
+          "fact_id": "META.YTD9_2025.rl_revenue",
+          "value": 1252,
+          "unit": "USD million",
+          "period_id": "YTD9_2025",
+          "kind": "reported_fact",
+          "sources": [
+            {
+              "source_id": "S3",
+              "publication_date": "2025-10-30",
+              "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047240/meta-20250930.htm"
+            }
+          ]
+        },
+        {
+          "fact_id": "META.YTD9_2024.rl_revenue",
+          "value": 1063,
+          "unit": "USD million",
+          "period_id": "YTD9_2024",
+          "kind": "reported_fact",
+          "sources": [
+            {
+              "source_id": "S3",
+              "publication_date": "2025-10-30",
+              "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047240/meta-20250930.htm"
+            }
+          ]
+        }
+      ],
+      "assumptions": [],
+      "result": 2335,
+      "unit": "USD million",
+      "limitations": [
+        "Period 2024-10-01 to 2025-09-30; not FY2025."
+      ]
+    },
+    {
+      "calculation_id": "TTM.foa_operating_income",
+      "kind": "historical_calculation",
+      "formula": "FY2024 + YTD9_2025 - YTD9_2024",
+      "inputs": [
+        {
+          "fact_id": "META.FY2024.foa_operating_income",
+          "value": 87109,
+          "unit": "USD million",
+          "period_id": "FY2024",
+          "kind": "reported_fact",
+          "sources": [
+            {
+              "source_id": "S1",
+              "publication_date": "2025-01-30",
+              "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000017/meta-20241231.htm"
+            }
+          ]
+        },
+        {
+          "fact_id": "META.YTD9_2025.foa_operating_income",
+          "value": 71702,
+          "unit": "USD million",
+          "period_id": "YTD9_2025",
+          "kind": "reported_fact",
+          "sources": [
+            {
+              "source_id": "S3",
+              "publication_date": "2025-10-30",
+              "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047240/meta-20250930.htm"
+            }
+          ]
+        },
+        {
+          "fact_id": "META.YTD9_2024.foa_operating_income",
+          "value": 58778,
+          "unit": "USD million",
+          "period_id": "YTD9_2024",
+          "kind": "reported_fact",
+          "sources": [
+            {
+              "source_id": "S3",
+              "publication_date": "2025-10-30",
+              "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047240/meta-20250930.htm"
+            }
+          ]
+        }
+      ],
+      "assumptions": [],
+      "result": 100033,
+      "unit": "USD million",
+      "limitations": [
+        "Period 2024-10-01 to 2025-09-30; not FY2025."
+      ]
+    },
+    {
+      "calculation_id": "TTM.rl_operating_income",
+      "kind": "historical_calculation",
+      "formula": "FY2024 + YTD9_2025 - YTD9_2024",
+      "inputs": [
+        {
+          "fact_id": "META.FY2024.rl_operating_income",
+          "value": -17729,
+          "unit": "USD million",
+          "period_id": "FY2024",
+          "kind": "reported_fact",
+          "sources": [
+            {
+              "source_id": "S1",
+              "publication_date": "2025-01-30",
+              "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000017/meta-20241231.htm"
+            }
+          ]
+        },
+        {
+          "fact_id": "META.YTD9_2025.rl_operating_income",
+          "value": -13171,
+          "unit": "USD million",
+          "period_id": "YTD9_2025",
+          "kind": "reported_fact",
+          "sources": [
+            {
+              "source_id": "S3",
+              "publication_date": "2025-10-30",
+              "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047240/meta-20250930.htm"
+            }
+          ]
+        },
+        {
+          "fact_id": "META.YTD9_2024.rl_operating_income",
+          "value": -12762,
+          "unit": "USD million",
+          "period_id": "YTD9_2024",
+          "kind": "reported_fact",
+          "sources": [
+            {
+              "source_id": "S3",
+              "publication_date": "2025-10-30",
+              "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047240/meta-20250930.htm"
+            }
+          ]
+        }
+      ],
+      "assumptions": [],
+      "result": -18138,
+      "unit": "USD million",
+      "limitations": [
+        "Period 2024-10-01 to 2025-09-30; not FY2025."
+      ]
+    },
+    {
+      "calculation_id": "TTM.cash_capex",
+      "kind": "historical_calculation",
+      "formula": "TTM.cash_ppe_outflow + TTM.finance_lease_principal",
+      "inputs": [
+        {
+          "fact_id": "META.FY2024.cash_ppe_outflow",
+          "value": 37256,
+          "unit": "USD million",
+          "period_id": "FY2024",
+          "kind": "reported_fact",
+          "sources": [
+            {
+              "source_id": "S1",
+              "publication_date": "2025-01-30",
+              "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000017/meta-20241231.htm"
+            }
+          ]
+        },
+        {
+          "fact_id": "META.FY2024.finance_lease_principal",
+          "value": 1969,
+          "unit": "USD million",
+          "period_id": "FY2024",
+          "kind": "reported_fact",
+          "sources": [
+            {
+              "source_id": "S1",
+              "publication_date": "2025-01-30",
+              "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000017/meta-20241231.htm"
+            }
+          ]
+        },
+        {
+          "fact_id": "META.YTD9_2025.cash_ppe_outflow",
+          "value": 48308,
+          "unit": "USD million",
+          "period_id": "YTD9_2025",
+          "kind": "reported_fact",
+          "sources": [
+            {
+              "source_id": "S3",
+              "publication_date": "2025-10-30",
+              "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047240/meta-20250930.htm"
+            }
+          ]
+        },
+        {
+          "fact_id": "META.YTD9_2025.finance_lease_principal",
+          "value": 1770,
+          "unit": "USD million",
+          "period_id": "YTD9_2025",
+          "kind": "reported_fact",
+          "sources": [
+            {
+              "source_id": "S3",
+              "publication_date": "2025-10-30",
+              "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047240/meta-20250930.htm"
+            }
+          ]
+        },
+        {
+          "fact_id": "META.YTD9_2024.cash_ppe_outflow",
+          "value": 22831,
+          "unit": "USD million",
+          "period_id": "YTD9_2024",
+          "kind": "reported_fact",
+          "sources": [
+            {
+              "source_id": "S3",
+              "publication_date": "2025-10-30",
+              "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047240/meta-20250930.htm"
+            }
+          ]
+        },
+        {
+          "fact_id": "META.YTD9_2024.finance_lease_principal",
+          "value": 1558,
+          "unit": "USD million",
+          "period_id": "YTD9_2024",
+          "kind": "reported_fact",
+          "sources": [
+            {
+              "source_id": "S3",
+              "publication_date": "2025-10-30",
+              "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047240/meta-20250930.htm"
+            }
+          ]
+        }
+      ],
+      "assumptions": [],
+      "result": 64914,
+      "unit": "USD million",
+      "limitations": []
+    },
+    {
+      "calculation_id": "FY2020.ratios",
+      "kind": "historical_calculation",
+      "formula": "margin=EBIT/revenue*100; cash_capex=PPE+lease principal; capex/revenue*100; CFO/EBIT*100",
+      "inputs": [
+        {
+          "fact_id": "META.FY2020.revenue",
+          "value": 85965,
+          "unit": "USD million",
+          "period_id": "FY2020",
+          "kind": "reported_fact",
+          "sources": [
+            {
+              "source_id": "S4",
+              "publication_date": "2023-02-02",
+              "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680123000013/meta-20221231.htm"
+            }
+          ]
+        },
+        {
+          "fact_id": "META.FY2020.operating_income",
+          "value": 32671,
+          "unit": "USD million",
+          "period_id": "FY2020",
+          "kind": "reported_fact",
+          "sources": [
+            {
+              "source_id": "S4",
+              "publication_date": "2023-02-02",
+              "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680123000013/meta-20221231.htm"
+            }
+          ]
+        },
+        {
+          "fact_id": "META.FY2020.cfo",
+          "value": 38747,
+          "unit": "USD million",
+          "period_id": "FY2020",
+          "kind": "reported_fact",
+          "sources": [
+            {
+              "source_id": "S4",
+              "publication_date": "2023-02-02",
+              "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680123000013/meta-20221231.htm"
+            }
+          ]
+        },
+        {
+          "fact_id": "META.FY2020.cash_ppe_outflow",
+          "value": 15115,
+          "unit": "USD million",
+          "period_id": "FY2020",
+          "kind": "reported_fact",
+          "sources": [
+            {
+              "source_id": "S4",
+              "publication_date": "2023-02-02",
+              "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680123000013/meta-20221231.htm"
+            }
+          ]
+        },
+        {
+          "fact_id": "META.FY2020.finance_lease_principal",
+          "value": 604,
+          "unit": "USD million",
+          "period_id": "FY2020",
+          "kind": "reported_fact",
+          "sources": [
+            {
+              "source_id": "S4",
+              "publication_date": "2023-02-02",
+              "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680123000013/meta-20221231.htm"
+            }
+          ]
+        },
+        {
+          "fact_id": "META.FY2020.company_fcf",
+          "value": 23028,
+          "unit": "USD million",
+          "period_id": "FY2020",
+          "kind": "reported_fact",
+          "sources": [
+            {
+              "source_id": "S4",
+              "publication_date": "2023-02-02",
+              "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680123000013/meta-20221231.htm"
+            }
+          ]
+        },
+        {
+          "fact_id": "META.FY2020.sbc",
+          "value": 6536,
+          "unit": "USD million",
+          "period_id": "FY2020",
+          "kind": "reported_fact",
+          "sources": [
+            {
+              "source_id": "S4",
+              "publication_date": "2023-02-02",
+              "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680123000013/meta-20221231.htm"
+            }
+          ]
+        }
+      ],
+      "assumptions": [],
+      "result": {
+        "revenue": 85965,
+        "operating_income": 32671,
+        "cfo": 38747,
+        "cash_ppe_outflow": 15115,
+        "finance_lease_principal": 604,
+        "company_fcf": 23028,
+        "sbc": 6536,
+        "cash_capex": 15719,
+        "operating_margin_pct": 38.00500203571221,
+        "capex_revenue_pct": 18.285348688419706,
+        "cfo_to_ebit_pct": 118.59753298031895
+      },
+      "unit": "mixed: USD million and percent",
+      "limitations": [
+        "CFO/EBIT is descriptive, not owner cash or a return on capital.",
+        "FY2020–FY2022 PPE uses company net purchases convention."
+      ]
+    },
+    {
+      "calculation_id": "FY2021.ratios",
+      "kind": "historical_calculation",
+      "formula": "margin=EBIT/revenue*100; cash_capex=PPE+lease principal; capex/revenue*100; CFO/EBIT*100",
+      "inputs": [
+        {
+          "fact_id": "META.FY2021.revenue",
+          "value": 117929,
+          "unit": "USD million",
+          "period_id": "FY2021",
+          "kind": "reported_fact",
+          "sources": [
+            {
+              "source_id": "S4",
+              "publication_date": "2023-02-02",
+              "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680123000013/meta-20221231.htm"
+            }
+          ]
+        },
+        {
+          "fact_id": "META.FY2021.operating_income",
+          "value": 46753,
+          "unit": "USD million",
+          "period_id": "FY2021",
+          "kind": "reported_fact",
+          "sources": [
+            {
+              "source_id": "S4",
+              "publication_date": "2023-02-02",
+              "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680123000013/meta-20221231.htm"
+            }
+          ]
+        },
+        {
+          "fact_id": "META.FY2021.cfo",
+          "value": 57683,
+          "unit": "USD million",
+          "period_id": "FY2021",
+          "kind": "reported_fact",
+          "sources": [
+            {
+              "source_id": "S4",
+              "publication_date": "2023-02-02",
+              "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680123000013/meta-20221231.htm"
+            }
+          ]
+        },
+        {
+          "fact_id": "META.FY2021.cash_ppe_outflow",
+          "value": 18567,
+          "unit": "USD million",
+          "period_id": "FY2021",
+          "kind": "reported_fact",
+          "sources": [
+            {
+              "source_id": "S4",
+              "publication_date": "2023-02-02",
+              "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680123000013/meta-20221231.htm"
+            }
+          ]
+        },
+        {
+          "fact_id": "META.FY2021.finance_lease_principal",
+          "value": 677,
+          "unit": "USD million",
+          "period_id": "FY2021",
+          "kind": "reported_fact",
+          "sources": [
+            {
+              "source_id": "S4",
+              "publication_date": "2023-02-02",
+              "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680123000013/meta-20221231.htm"
+            }
+          ]
+        },
+        {
+          "fact_id": "META.FY2021.company_fcf",
+          "value": 38439,
+          "unit": "USD million",
+          "period_id": "FY2021",
+          "kind": "reported_fact",
+          "sources": [
+            {
+              "source_id": "S4",
+              "publication_date": "2023-02-02",
+              "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680123000013/meta-20221231.htm"
+            }
+          ]
+        },
+        {
+          "fact_id": "META.FY2021.sbc",
+          "value": 9164,
+          "unit": "USD million",
+          "period_id": "FY2021",
+          "kind": "reported_fact",
+          "sources": [
+            {
+              "source_id": "S4",
+              "publication_date": "2023-02-02",
+              "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680123000013/meta-20221231.htm"
+            }
+          ]
+        }
+      ],
+      "assumptions": [],
+      "result": {
+        "revenue": 117929,
+        "operating_income": 46753,
+        "cfo": 57683,
+        "cash_ppe_outflow": 18567,
+        "finance_lease_principal": 677,
+        "company_fcf": 38439,
+        "sbc": 9164,
+        "cash_capex": 19244,
+        "operating_margin_pct": 39.64504066005817,
+        "capex_revenue_pct": 16.318293210321464,
+        "cfo_to_ebit_pct": 123.37817894038885
+      },
+      "unit": "mixed: USD million and percent",
+      "limitations": [
+        "CFO/EBIT is descriptive, not owner cash or a return on capital.",
+        "FY2020–FY2022 PPE uses company net purchases convention."
+      ]
+    },
+    {
+      "calculation_id": "FY2022.ratios",
+      "kind": "historical_calculation",
+      "formula": "margin=EBIT/revenue*100; cash_capex=PPE+lease principal; capex/revenue*100; CFO/EBIT*100",
+      "inputs": [
+        {
+          "fact_id": "META.FY2022.revenue",
+          "value": 116609,
+          "unit": "USD million",
+          "period_id": "FY2022",
+          "kind": "reported_fact",
+          "sources": [
+            {
+              "source_id": "S4",
+              "publication_date": "2023-02-02",
+              "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680123000013/meta-20221231.htm"
+            }
+          ]
+        },
+        {
+          "fact_id": "META.FY2022.operating_income",
+          "value": 28944,
+          "unit": "USD million",
+          "period_id": "FY2022",
+          "kind": "reported_fact",
+          "sources": [
+            {
+              "source_id": "S4",
+              "publication_date": "2023-02-02",
+              "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680123000013/meta-20221231.htm"
+            }
+          ]
+        },
+        {
+          "fact_id": "META.FY2022.cfo",
+          "value": 50475,
+          "unit": "USD million",
+          "period_id": "FY2022",
+          "kind": "reported_fact",
+          "sources": [
+            {
+              "source_id": "S4",
+              "publication_date": "2023-02-02",
+              "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680123000013/meta-20221231.htm"
+            }
+          ]
+        },
+        {
+          "fact_id": "META.FY2022.cash_ppe_outflow",
+          "value": 31186,
+          "unit": "USD million",
+          "period_id": "FY2022",
+          "kind": "reported_fact",
+          "sources": [
+            {
+              "source_id": "S4",
+              "publication_date": "2023-02-02",
+              "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680123000013/meta-20221231.htm"
+            }
+          ]
+        },
+        {
+          "fact_id": "META.FY2022.finance_lease_principal",
+          "value": 850,
+          "unit": "USD million",
+          "period_id": "FY2022",
+          "kind": "reported_fact",
+          "sources": [
+            {
+              "source_id": "S4",
+              "publication_date": "2023-02-02",
+              "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680123000013/meta-20221231.htm"
+            }
+          ]
+        },
+        {
+          "fact_id": "META.FY2022.company_fcf",
+          "value": 18439,
+          "unit": "USD million",
+          "period_id": "FY2022",
+          "kind": "reported_fact",
+          "sources": [
+            {
+              "source_id": "S4",
+              "publication_date": "2023-02-02",
+              "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680123000013/meta-20221231.htm"
+            }
+          ]
+        },
+        {
+          "fact_id": "META.FY2022.sbc",
+          "value": 11992,
+          "unit": "USD million",
+          "period_id": "FY2022",
+          "kind": "reported_fact",
+          "sources": [
+            {
+              "source_id": "S4",
+              "publication_date": "2023-02-02",
+              "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680123000013/meta-20221231.htm"
+            }
+          ]
+        }
+      ],
+      "assumptions": [],
+      "result": {
+        "revenue": 116609,
+        "operating_income": 28944,
+        "cfo": 50475,
+        "cash_ppe_outflow": 31186,
+        "finance_lease_principal": 850,
+        "company_fcf": 18439,
+        "sbc": 11992,
+        "cash_capex": 32036,
+        "operating_margin_pct": 24.821411726367604,
+        "capex_revenue_pct": 27.47300808685436,
+        "cfo_to_ebit_pct": 174.38847429519072
+      },
+      "unit": "mixed: USD million and percent",
+      "limitations": [
+        "CFO/EBIT is descriptive, not owner cash or a return on capital.",
+        "FY2020–FY2022 PPE uses company net purchases convention."
+      ]
+    },
+    {
+      "calculation_id": "FY2023.ratios",
+      "kind": "historical_calculation",
+      "formula": "margin=EBIT/revenue*100; cash_capex=PPE+lease principal; capex/revenue*100; CFO/EBIT*100",
+      "inputs": [
+        {
+          "fact_id": "META.FY2023.revenue",
+          "value": 134902,
+          "unit": "USD million",
+          "period_id": "FY2023",
+          "kind": "reported_fact",
+          "sources": [
+            {
+              "source_id": "S1",
+              "publication_date": "2025-01-30",
+              "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000017/meta-20241231.htm"
+            }
+          ]
+        },
+        {
+          "fact_id": "META.FY2023.operating_income",
+          "value": 46751,
+          "unit": "USD million",
+          "period_id": "FY2023",
+          "kind": "reported_fact",
+          "sources": [
+            {
+              "source_id": "S1",
+              "publication_date": "2025-01-30",
+              "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000017/meta-20241231.htm"
+            }
+          ]
+        },
+        {
+          "fact_id": "META.FY2023.cfo",
+          "value": 71113,
+          "unit": "USD million",
+          "period_id": "FY2023",
+          "kind": "reported_fact",
+          "sources": [
+            {
+              "source_id": "S1",
+              "publication_date": "2025-01-30",
+              "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000017/meta-20241231.htm"
+            }
+          ]
+        },
+        {
+          "fact_id": "META.FY2023.cash_ppe_outflow",
+          "value": 27045,
+          "unit": "USD million",
+          "period_id": "FY2023",
+          "kind": "reported_fact",
+          "sources": [
+            {
+              "source_id": "S1",
+              "publication_date": "2025-01-30",
+              "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000017/meta-20241231.htm"
+            }
+          ]
+        },
+        {
+          "fact_id": "META.FY2023.finance_lease_principal",
+          "value": 1058,
+          "unit": "USD million",
+          "period_id": "FY2023",
+          "kind": "reported_fact",
+          "sources": [
+            {
+              "source_id": "S1",
+              "publication_date": "2025-01-30",
+              "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000017/meta-20241231.htm"
+            }
+          ]
+        },
+        {
+          "fact_id": "META.FY2023.company_fcf",
+          "value": 43010,
+          "unit": "USD million",
+          "period_id": "FY2023",
+          "kind": "reported_fact",
+          "sources": [
+            {
+              "source_id": "S5",
+              "publication_date": "2025-01-29",
+              "url": "https://investor.atmeta.com/investor-news/press-release-details/2025/Meta-Reports-Fourth-Quarter-and-Full-Year-2024-Results/default.aspx"
+            }
+          ]
+        },
+        {
+          "fact_id": "META.FY2023.sbc",
+          "value": 14027,
+          "unit": "USD million",
+          "period_id": "FY2023",
+          "kind": "reported_fact",
+          "sources": [
+            {
+              "source_id": "S1",
+              "publication_date": "2025-01-30",
+              "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000017/meta-20241231.htm"
+            }
+          ]
+        }
+      ],
+      "assumptions": [],
+      "result": {
+        "revenue": 134902,
+        "operating_income": 46751,
+        "cfo": 71113,
+        "cash_ppe_outflow": 27045,
+        "finance_lease_principal": 1058,
+        "company_fcf": 43010,
+        "sbc": 14027,
+        "cash_capex": 28103,
+        "operating_margin_pct": 34.655527716416366,
+        "capex_revenue_pct": 20.83215964181406,
+        "cfo_to_ebit_pct": 152.11011529165154
+      },
+      "unit": "mixed: USD million and percent",
+      "limitations": [
+        "CFO/EBIT is descriptive, not owner cash or a return on capital.",
+        "FY2020–FY2022 PPE uses company net purchases convention."
+      ]
+    },
+    {
+      "calculation_id": "FY2024.ratios",
+      "kind": "historical_calculation",
+      "formula": "margin=EBIT/revenue*100; cash_capex=PPE+lease principal; capex/revenue*100; CFO/EBIT*100",
+      "inputs": [
+        {
+          "fact_id": "META.FY2024.revenue",
+          "value": 164501,
+          "unit": "USD million",
+          "period_id": "FY2024",
+          "kind": "reported_fact",
+          "sources": [
+            {
+              "source_id": "S1",
+              "publication_date": "2025-01-30",
+              "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000017/meta-20241231.htm"
+            }
+          ]
+        },
+        {
+          "fact_id": "META.FY2024.operating_income",
+          "value": 69380,
+          "unit": "USD million",
+          "period_id": "FY2024",
+          "kind": "reported_fact",
+          "sources": [
+            {
+              "source_id": "S1",
+              "publication_date": "2025-01-30",
+              "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000017/meta-20241231.htm"
+            }
+          ]
+        },
+        {
+          "fact_id": "META.FY2024.cfo",
+          "value": 91328,
+          "unit": "USD million",
+          "period_id": "FY2024",
+          "kind": "reported_fact",
+          "sources": [
+            {
+              "source_id": "S1",
+              "publication_date": "2025-01-30",
+              "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000017/meta-20241231.htm"
+            }
+          ]
+        },
+        {
+          "fact_id": "META.FY2024.cash_ppe_outflow",
+          "value": 37256,
+          "unit": "USD million",
+          "period_id": "FY2024",
+          "kind": "reported_fact",
+          "sources": [
+            {
+              "source_id": "S1",
+              "publication_date": "2025-01-30",
+              "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000017/meta-20241231.htm"
+            }
+          ]
+        },
+        {
+          "fact_id": "META.FY2024.finance_lease_principal",
+          "value": 1969,
+          "unit": "USD million",
+          "period_id": "FY2024",
+          "kind": "reported_fact",
+          "sources": [
+            {
+              "source_id": "S1",
+              "publication_date": "2025-01-30",
+              "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000017/meta-20241231.htm"
+            }
+          ]
+        },
+        {
+          "fact_id": "META.FY2024.company_fcf",
+          "value": 52103,
+          "unit": "USD million",
+          "period_id": "FY2024",
+          "kind": "reported_fact",
+          "sources": [
+            {
+              "source_id": "S5",
+              "publication_date": "2025-01-29",
+              "url": "https://investor.atmeta.com/investor-news/press-release-details/2025/Meta-Reports-Fourth-Quarter-and-Full-Year-2024-Results/default.aspx"
+            }
+          ]
+        },
+        {
+          "fact_id": "META.FY2024.sbc",
+          "value": 16690,
+          "unit": "USD million",
+          "period_id": "FY2024",
+          "kind": "reported_fact",
+          "sources": [
+            {
+              "source_id": "S1",
+              "publication_date": "2025-01-30",
+              "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000017/meta-20241231.htm"
+            }
+          ]
+        }
+      ],
+      "assumptions": [],
+      "result": {
+        "revenue": 164501,
+        "operating_income": 69380,
+        "cfo": 91328,
+        "cash_ppe_outflow": 37256,
+        "finance_lease_principal": 1969,
+        "company_fcf": 52103,
+        "sbc": 16690,
+        "cash_capex": 39225,
+        "operating_margin_pct": 42.1760354040401,
+        "capex_revenue_pct": 23.84483984899788,
+        "cfo_to_ebit_pct": 131.6344767944653
+      },
+      "unit": "mixed: USD million and percent",
+      "limitations": [
+        "CFO/EBIT is descriptive, not owner cash or a return on capital.",
+        "FY2020–FY2022 PPE uses company net purchases convention."
+      ]
+    },
+    {
+      "calculation_id": "history.revenue_cagr_2020_2024",
+      "kind": "historical_calculation",
+      "formula": "(FY2024.revenue/FY2020.revenue)^(1/4)-1",
+      "inputs": [
+        {
+          "fact_id": "META.FY2024.revenue",
+          "value": 164501,
+          "unit": "USD million",
+          "period_id": "FY2024",
+          "kind": "reported_fact",
+          "sources": [
+            {
+              "source_id": "S1",
+              "publication_date": "2025-01-30",
+              "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000017/meta-20241231.htm"
+            }
+          ]
+        },
+        {
+          "fact_id": "META.FY2020.revenue",
+          "value": 85965,
+          "unit": "USD million",
+          "period_id": "FY2020",
+          "kind": "reported_fact",
+          "sources": [
+            {
+              "source_id": "S4",
+              "publication_date": "2023-02-02",
+              "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680123000013/meta-20221231.htm"
+            }
+          ]
+        }
+      ],
+      "assumptions": [],
+      "result": 17.614730752841655,
+      "unit": "percent",
+      "limitations": []
+    },
+    {
+      "calculation_id": "Q3_2025.foa_margin",
+      "kind": "historical_calculation",
+      "formula": "foa_operating_income/foa_revenue*100",
+      "inputs": [
+        {
+          "fact_id": "META.Q3_2025.foa_operating_income",
+          "value": 24967,
+          "unit": "USD million",
+          "period_id": "Q3_2025",
+          "kind": "reported_fact",
+          "sources": [
+            {
+              "source_id": "S3",
+              "publication_date": "2025-10-30",
+              "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047240/meta-20250930.htm"
+            }
+          ]
+        },
+        {
+          "fact_id": "META.Q3_2025.foa_revenue",
+          "value": 50772,
+          "unit": "USD million",
+          "period_id": "Q3_2025",
+          "kind": "reported_fact",
+          "sources": [
+            {
+              "source_id": "S3",
+              "publication_date": "2025-10-30",
+              "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047240/meta-20250930.htm"
+            }
+          ]
+        }
+      ],
+      "assumptions": [],
+      "result": 49.17474198377058,
+      "unit": "percent",
+      "limitations": []
+    },
+    {
+      "calculation_id": "Q3_2024.foa_margin",
+      "kind": "historical_calculation",
+      "formula": "foa_operating_income/foa_revenue*100",
+      "inputs": [
+        {
+          "fact_id": "META.Q3_2024.foa_operating_income",
+          "value": 21778,
+          "unit": "USD million",
+          "period_id": "Q3_2024",
+          "kind": "reported_fact",
+          "sources": [
+            {
+              "source_id": "S3",
+              "publication_date": "2025-10-30",
+              "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047240/meta-20250930.htm"
+            }
+          ]
+        },
+        {
+          "fact_id": "META.Q3_2024.foa_revenue",
+          "value": 40319,
+          "unit": "USD million",
+          "period_id": "Q3_2024",
+          "kind": "reported_fact",
+          "sources": [
+            {
+              "source_id": "S3",
+              "publication_date": "2025-10-30",
+              "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047240/meta-20250930.htm"
+            }
+          ]
+        }
+      ],
+      "assumptions": [],
+      "result": 54.01423646419802,
+      "unit": "percent",
+      "limitations": []
+    },
+    {
+      "calculation_id": "FY2024.foa_margin",
+      "kind": "historical_calculation",
+      "formula": "foa_operating_income/foa_revenue*100",
+      "inputs": [
+        {
+          "fact_id": "META.FY2024.foa_operating_income",
+          "value": 87109,
+          "unit": "USD million",
+          "period_id": "FY2024",
+          "kind": "reported_fact",
+          "sources": [
+            {
+              "source_id": "S1",
+              "publication_date": "2025-01-30",
+              "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000017/meta-20241231.htm"
+            }
+          ]
+        },
+        {
+          "fact_id": "META.FY2024.foa_revenue",
+          "value": 162355,
+          "unit": "USD million",
+          "period_id": "FY2024",
+          "kind": "reported_fact",
+          "sources": [
+            {
+              "source_id": "S1",
+              "publication_date": "2025-01-30",
+              "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000017/meta-20241231.htm"
+            }
+          ]
+        }
+      ],
+      "assumptions": [],
+      "result": 53.65341381540452,
+      "unit": "percent",
+      "limitations": []
+    },
+    {
+      "calculation_id": "YTD9.revenue_yoy",
+      "kind": "historical_calculation",
+      "formula": "YTD9_2025/YTD9_2024 - 1",
+      "inputs": [
+        {
+          "fact_id": "META.YTD9_2025.revenue",
+          "value": 141073,
+          "unit": "USD million",
+          "period_id": "YTD9_2025",
+          "kind": "reported_fact",
+          "sources": [
+            {
+              "source_id": "S3",
+              "publication_date": "2025-10-30",
+              "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047240/meta-20250930.htm"
+            }
+          ]
+        },
+        {
+          "fact_id": "META.YTD9_2024.revenue",
+          "value": 116116,
+          "unit": "USD million",
+          "period_id": "YTD9_2024",
+          "kind": "reported_fact",
+          "sources": [
+            {
+              "source_id": "S3",
+              "publication_date": "2025-10-30",
+              "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047240/meta-20250930.htm"
+            }
+          ]
+        }
+      ],
+      "assumptions": [],
+      "result": 21.49316201040339,
+      "unit": "percent",
+      "limitations": []
+    },
+    {
+      "calculation_id": "YTD9.cfo_yoy",
+      "kind": "historical_calculation",
+      "formula": "YTD9_2025/YTD9_2024 - 1",
+      "inputs": [
+        {
+          "fact_id": "META.YTD9_2025.cfo",
+          "value": 79586,
+          "unit": "USD million",
+          "period_id": "YTD9_2025",
+          "kind": "reported_fact",
+          "sources": [
+            {
+              "source_id": "S3",
+              "publication_date": "2025-10-30",
+              "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047240/meta-20250930.htm"
+            }
+          ]
+        },
+        {
+          "fact_id": "META.YTD9_2024.cfo",
+          "value": 63340,
+          "unit": "USD million",
+          "period_id": "YTD9_2024",
+          "kind": "reported_fact",
+          "sources": [
+            {
+              "source_id": "S3",
+              "publication_date": "2025-10-30",
+              "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047240/meta-20250930.htm"
+            }
+          ]
+        }
+      ],
+      "assumptions": [],
+      "result": 25.64887906536155,
+      "unit": "percent",
+      "limitations": []
+    },
+    {
+      "calculation_id": "YTD9.company_fcf_yoy",
+      "kind": "historical_calculation",
+      "formula": "YTD9_2025/YTD9_2024 - 1",
+      "inputs": [
+        {
+          "fact_id": "META.YTD9_2025.company_fcf",
+          "value": 29508,
+          "unit": "USD million",
+          "period_id": "YTD9_2025",
+          "kind": "reported_fact",
+          "sources": [
+            {
+              "source_id": "S2",
+              "publication_date": "2025-10-29",
+              "url": "https://investor.atmeta.com/investor-news/press-release-details/2025/Meta-Reports-Third-Quarter-2025-Results/default.aspx"
+            }
+          ]
+        },
+        {
+          "fact_id": "META.YTD9_2024.company_fcf",
+          "value": 38951,
+          "unit": "USD million",
+          "period_id": "YTD9_2024",
+          "kind": "reported_fact",
+          "sources": [
+            {
+              "source_id": "S2",
+              "publication_date": "2025-10-29",
+              "url": "https://investor.atmeta.com/investor-news/press-release-details/2025/Meta-Reports-Third-Quarter-2025-Results/default.aspx"
+            }
+          ]
+        }
+      ],
+      "assumptions": [],
+      "result": -24.243280018484757,
+      "unit": "percent",
+      "limitations": []
+    },
+    {
+      "calculation_id": "YTD9.cash_capex_yoy",
+      "kind": "historical_calculation",
+      "formula": "(PPE_2025+lease_2025)/(PPE_2024+lease_2024)-1",
+      "inputs": [
+        {
+          "fact_id": "META.YTD9_2025.cash_ppe_outflow",
+          "value": 48308,
+          "unit": "USD million",
+          "period_id": "YTD9_2025",
+          "kind": "reported_fact",
+          "sources": [
+            {
+              "source_id": "S3",
+              "publication_date": "2025-10-30",
+              "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047240/meta-20250930.htm"
+            }
+          ]
+        },
+        {
+          "fact_id": "META.YTD9_2025.finance_lease_principal",
+          "value": 1770,
+          "unit": "USD million",
+          "period_id": "YTD9_2025",
+          "kind": "reported_fact",
+          "sources": [
+            {
+              "source_id": "S3",
+              "publication_date": "2025-10-30",
+              "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047240/meta-20250930.htm"
+            }
+          ]
+        },
+        {
+          "fact_id": "META.YTD9_2024.cash_ppe_outflow",
+          "value": 22831,
+          "unit": "USD million",
+          "period_id": "YTD9_2024",
+          "kind": "reported_fact",
+          "sources": [
+            {
+              "source_id": "S3",
+              "publication_date": "2025-10-30",
+              "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047240/meta-20250930.htm"
+            }
+          ]
+        },
+        {
+          "fact_id": "META.YTD9_2024.finance_lease_principal",
+          "value": 1558,
+          "unit": "USD million",
+          "period_id": "YTD9_2024",
+          "kind": "reported_fact",
+          "sources": [
+            {
+              "source_id": "S3",
+              "publication_date": "2025-10-30",
+              "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047240/meta-20250930.htm"
+            }
+          ]
+        }
+      ],
+      "assumptions": [],
+      "result": 105.33027184386405,
+      "unit": "percent",
+      "limitations": []
+    },
+    {
+      "calculation_id": "Q3.revenue_yoy",
+      "kind": "historical_calculation",
+      "formula": "Q3_2025.revenue/Q3_2024.revenue - 1",
+      "inputs": [
+        {
+          "fact_id": "META.Q3_2025.revenue",
+          "value": 51242,
+          "unit": "USD million",
+          "period_id": "Q3_2025",
+          "kind": "reported_fact",
+          "sources": [
+            {
+              "source_id": "S2",
+              "publication_date": "2025-10-29",
+              "url": "https://investor.atmeta.com/investor-news/press-release-details/2025/Meta-Reports-Third-Quarter-2025-Results/default.aspx"
+            }
+          ]
+        },
+        {
+          "fact_id": "META.Q3_2024.revenue",
+          "value": 40589,
+          "unit": "USD million",
+          "period_id": "Q3_2024",
+          "kind": "reported_fact",
+          "sources": [
+            {
+              "source_id": "S2",
+              "publication_date": "2025-10-29",
+              "url": "https://investor.atmeta.com/investor-news/press-release-details/2025/Meta-Reports-Third-Quarter-2025-Results/default.aspx"
+            }
+          ]
+        }
+      ],
+      "assumptions": [],
+      "result": 26.246027248761973,
+      "unit": "percent",
+      "limitations": []
+    },
+    {
+      "calculation_id": "Q3.advertising_share",
+      "kind": "historical_calculation",
+      "formula": "advertising_revenue/revenue*100",
+      "inputs": [
+        {
+          "fact_id": "META.Q3_2025.advertising_revenue",
+          "value": 50082,
+          "unit": "USD million",
+          "period_id": "Q3_2025",
+          "kind": "reported_fact",
+          "sources": [
+            {
+              "source_id": "S3",
+              "publication_date": "2025-10-30",
+              "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047240/meta-20250930.htm"
+            }
+          ]
+        },
+        {
+          "fact_id": "META.Q3_2025.revenue",
+          "value": 51242,
+          "unit": "USD million",
+          "period_id": "Q3_2025",
+          "kind": "reported_fact",
+          "sources": [
+            {
+              "source_id": "S2",
+              "publication_date": "2025-10-29",
+              "url": "https://investor.atmeta.com/investor-news/press-release-details/2025/Meta-Reports-Third-Quarter-2025-Results/default.aspx"
+            }
+          ]
+        }
+      ],
+      "assumptions": [],
+      "result": 97.7362319971898,
+      "unit": "percent",
+      "limitations": []
+    },
+    {
+      "calculation_id": "TTM.segment_reconciliation",
+      "kind": "historical_calculation",
+      "formula": "FoA EBIT + RL EBIT = group EBIT",
+      "inputs": [
+        {
+          "fact_id": "META.FY2024.foa_operating_income",
+          "value": 87109,
+          "unit": "USD million",
+          "period_id": "FY2024",
+          "kind": "reported_fact",
+          "sources": [
+            {
+              "source_id": "S1",
+              "publication_date": "2025-01-30",
+              "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000017/meta-20241231.htm"
+            }
+          ]
+        },
+        {
+          "fact_id": "META.FY2024.rl_operating_income",
+          "value": -17729,
+          "unit": "USD million",
+          "period_id": "FY2024",
+          "kind": "reported_fact",
+          "sources": [
+            {
+              "source_id": "S1",
+              "publication_date": "2025-01-30",
+              "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000017/meta-20241231.htm"
+            }
+          ]
+        },
+        {
+          "fact_id": "META.FY2024.operating_income",
+          "value": 69380,
+          "unit": "USD million",
+          "period_id": "FY2024",
+          "kind": "reported_fact",
+          "sources": [
+            {
+              "source_id": "S1",
+              "publication_date": "2025-01-30",
+              "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000017/meta-20241231.htm"
+            }
+          ]
+        },
+        {
+          "fact_id": "META.YTD9_2025.foa_operating_income",
+          "value": 71702,
+          "unit": "USD million",
+          "period_id": "YTD9_2025",
+          "kind": "reported_fact",
+          "sources": [
+            {
+              "source_id": "S3",
+              "publication_date": "2025-10-30",
+              "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047240/meta-20250930.htm"
+            }
+          ]
+        },
+        {
+          "fact_id": "META.YTD9_2025.rl_operating_income",
+          "value": -13171,
+          "unit": "USD million",
+          "period_id": "YTD9_2025",
+          "kind": "reported_fact",
+          "sources": [
+            {
+              "source_id": "S3",
+              "publication_date": "2025-10-30",
+              "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047240/meta-20250930.htm"
+            }
+          ]
+        },
+        {
+          "fact_id": "META.YTD9_2025.operating_income",
+          "value": 58531,
+          "unit": "USD million",
+          "period_id": "YTD9_2025",
+          "kind": "reported_fact",
+          "sources": [
+            {
+              "source_id": "S3",
+              "publication_date": "2025-10-30",
+              "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047240/meta-20250930.htm"
+            }
+          ]
+        },
+        {
+          "fact_id": "META.YTD9_2024.foa_operating_income",
+          "value": 58778,
+          "unit": "USD million",
+          "period_id": "YTD9_2024",
+          "kind": "reported_fact",
+          "sources": [
+            {
+              "source_id": "S3",
+              "publication_date": "2025-10-30",
+              "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047240/meta-20250930.htm"
+            }
+          ]
+        },
+        {
+          "fact_id": "META.YTD9_2024.rl_operating_income",
+          "value": -12762,
+          "unit": "USD million",
+          "period_id": "YTD9_2024",
+          "kind": "reported_fact",
+          "sources": [
+            {
+              "source_id": "S3",
+              "publication_date": "2025-10-30",
+              "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047240/meta-20250930.htm"
+            }
+          ]
+        },
+        {
+          "fact_id": "META.YTD9_2024.operating_income",
+          "value": 46016,
+          "unit": "USD million",
+          "period_id": "YTD9_2024",
+          "kind": "reported_fact",
+          "sources": [
+            {
+              "source_id": "S3",
+              "publication_date": "2025-10-30",
+              "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047240/meta-20250930.htm"
+            }
+          ]
+        }
+      ],
+      "assumptions": [],
+      "result": {
+        "foa_ebit": 100033,
+        "rl_ebit": -18138,
+        "group_ebit": 81895,
+        "reconciled": true
+      },
+      "unit": "USD million",
+      "limitations": []
+    },
+    {
+      "calculation_id": "TTM.partially_adjusted_net_income",
+      "kind": "historical_calculation",
+      "formula": "TTM GAAP NI + Q3 tax valuation charge - nine-month server-life NI benefit",
+      "inputs": [
+        {
+          "fact_id": "META.FY2024.net_income_gaap",
+          "value": 62360,
+          "unit": "USD million",
+          "period_id": "FY2024",
+          "kind": "reported_fact",
+          "sources": [
+            {
+              "source_id": "S1",
+              "publication_date": "2025-01-30",
+              "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000017/meta-20241231.htm"
+            }
+          ]
+        },
+        {
+          "fact_id": "META.YTD9_2025.net_income_gaap",
+          "value": 37690,
+          "unit": "USD million",
+          "period_id": "YTD9_2025",
+          "kind": "reported_fact",
+          "sources": [
+            {
+              "source_id": "S3",
+              "publication_date": "2025-10-30",
+              "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047240/meta-20250930.htm"
+            }
+          ]
+        },
+        {
+          "fact_id": "META.YTD9_2024.net_income_gaap",
+          "value": 41522,
+          "unit": "USD million",
+          "period_id": "YTD9_2024",
+          "kind": "reported_fact",
+          "sources": [
+            {
+              "source_id": "S3",
+              "publication_date": "2025-10-30",
+              "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047240/meta-20250930.htm"
+            }
+          ]
+        },
+        {
+          "fact_id": "META.Q3_2025.one_time_noncash_tax_charge",
+          "value": 15930,
+          "unit": "USD million",
+          "period_id": "Q3_2025",
+          "kind": "reported_fact",
+          "sources": [
+            {
+              "source_id": "S2",
+              "publication_date": "2025-10-29",
+              "url": "https://investor.atmeta.com/investor-news/press-release-details/2025/Meta-Reports-Third-Quarter-2025-Results/default.aspx"
+            }
+          ]
+        },
+        {
+          "fact_id": "META.YTD9_2025.server_life_change_net_income_increase",
+          "value": 1960,
+          "unit": "USD million",
+          "period_id": "YTD9_2025",
+          "kind": "reported_fact",
+          "sources": [
+            {
+              "source_id": "S3",
+              "publication_date": "2025-10-30",
+              "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047240/meta-20250930.htm"
+            }
+          ]
+        }
+      ],
+      "assumptions": [],
+      "result": 72498,
+      "unit": "USD million",
+      "limitations": [
+        "Partial accounting comparability bridge only, not fully normalized NI or owner earnings.",
+        "No cash-tax normalization, fourth-quarter 2025 result, or full recurring-cost restatement.",
+        "Tax charge is not added to CFO."
+      ]
+    },
+    {
+      "calculation_id": "YTD9.old_server_life_ebit",
+      "kind": "historical_calculation",
+      "formula": "reported EBIT - disclosed D&A reduction",
+      "inputs": [
+        {
+          "fact_id": "META.YTD9_2025.operating_income",
+          "value": 58531,
+          "unit": "USD million",
+          "period_id": "YTD9_2025",
+          "kind": "reported_fact",
+          "sources": [
+            {
+              "source_id": "S3",
+              "publication_date": "2025-10-30",
+              "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047240/meta-20250930.htm"
+            }
+          ]
+        },
+        {
+          "fact_id": "META.YTD9_2025.server_life_change_da_reduction",
+          "value": 2290,
+          "unit": "USD million",
+          "period_id": "YTD9_2025",
+          "kind": "reported_fact",
+          "sources": [
+            {
+              "source_id": "S3",
+              "publication_date": "2025-10-30",
+              "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047240/meta-20250930.htm"
+            }
+          ]
+        }
+      ],
+      "assumptions": [],
+      "result": 56241,
+      "unit": "USD million",
+      "limitations": [
+        "Counterfactual accounting comparison, not a claim that old lives are true economic depletion.",
+        "Segment allocation of this effect is unavailable."
+      ]
+    },
+    {
+      "calculation_id": "TTM.total_capex_sbc_proxy",
+      "kind": "historical_calculation",
+      "formula": "TTM CFO - all cash PPE - finance lease principal - SBC",
+      "inputs": [
+        {
+          "fact_id": "META.FY2024.cfo",
+          "value": 91328,
+          "unit": "USD million",
+          "period_id": "FY2024",
+          "kind": "reported_fact",
+          "sources": [
+            {
+              "source_id": "S1",
+              "publication_date": "2025-01-30",
+              "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000017/meta-20241231.htm"
+            }
+          ]
+        },
+        {
+          "fact_id": "META.FY2024.cash_ppe_outflow",
+          "value": 37256,
+          "unit": "USD million",
+          "period_id": "FY2024",
+          "kind": "reported_fact",
+          "sources": [
+            {
+              "source_id": "S1",
+              "publication_date": "2025-01-30",
+              "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000017/meta-20241231.htm"
+            }
+          ]
+        },
+        {
+          "fact_id": "META.FY2024.finance_lease_principal",
+          "value": 1969,
+          "unit": "USD million",
+          "period_id": "FY2024",
+          "kind": "reported_fact",
+          "sources": [
+            {
+              "source_id": "S1",
+              "publication_date": "2025-01-30",
+              "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000017/meta-20241231.htm"
+            }
+          ]
+        },
+        {
+          "fact_id": "META.FY2024.sbc",
+          "value": 16690,
+          "unit": "USD million",
+          "period_id": "FY2024",
+          "kind": "reported_fact",
+          "sources": [
+            {
+              "source_id": "S1",
+              "publication_date": "2025-01-30",
+              "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000017/meta-20241231.htm"
+            }
+          ]
+        },
+        {
+          "fact_id": "META.YTD9_2025.cfo",
+          "value": 79586,
+          "unit": "USD million",
+          "period_id": "YTD9_2025",
+          "kind": "reported_fact",
+          "sources": [
+            {
+              "source_id": "S3",
+              "publication_date": "2025-10-30",
+              "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047240/meta-20250930.htm"
+            }
+          ]
+        },
+        {
+          "fact_id": "META.YTD9_2025.cash_ppe_outflow",
+          "value": 48308,
+          "unit": "USD million",
+          "period_id": "YTD9_2025",
+          "kind": "reported_fact",
+          "sources": [
+            {
+              "source_id": "S3",
+              "publication_date": "2025-10-30",
+              "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047240/meta-20250930.htm"
+            }
+          ]
+        },
+        {
+          "fact_id": "META.YTD9_2025.finance_lease_principal",
+          "value": 1770,
+          "unit": "USD million",
+          "period_id": "YTD9_2025",
+          "kind": "reported_fact",
+          "sources": [
+            {
+              "source_id": "S3",
+              "publication_date": "2025-10-30",
+              "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047240/meta-20250930.htm"
+            }
+          ]
+        },
+        {
+          "fact_id": "META.YTD9_2025.sbc",
+          "value": 14537,
+          "unit": "USD million",
+          "period_id": "YTD9_2025",
+          "kind": "reported_fact",
+          "sources": [
+            {
+              "source_id": "S3",
+              "publication_date": "2025-10-30",
+              "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047240/meta-20250930.htm"
+            }
+          ]
+        },
+        {
+          "fact_id": "META.YTD9_2024.cfo",
+          "value": 63340,
+          "unit": "USD million",
+          "period_id": "YTD9_2024",
+          "kind": "reported_fact",
+          "sources": [
+            {
+              "source_id": "S3",
+              "publication_date": "2025-10-30",
+              "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047240/meta-20250930.htm"
+            }
+          ]
+        },
+        {
+          "fact_id": "META.YTD9_2024.cash_ppe_outflow",
+          "value": 22831,
+          "unit": "USD million",
+          "period_id": "YTD9_2024",
+          "kind": "reported_fact",
+          "sources": [
+            {
+              "source_id": "S3",
+              "publication_date": "2025-10-30",
+              "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047240/meta-20250930.htm"
+            }
+          ]
+        },
+        {
+          "fact_id": "META.YTD9_2024.finance_lease_principal",
+          "value": 1558,
+          "unit": "USD million",
+          "period_id": "YTD9_2024",
+          "kind": "reported_fact",
+          "sources": [
+            {
+              "source_id": "S3",
+              "publication_date": "2025-10-30",
+              "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047240/meta-20250930.htm"
+            }
+          ]
+        },
+        {
+          "fact_id": "META.YTD9_2024.sbc",
+          "value": 12428,
+          "unit": "USD million",
+          "period_id": "YTD9_2024",
+          "kind": "reported_fact",
+          "sources": [
+            {
+              "source_id": "S3",
+              "publication_date": "2025-10-30",
+              "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047240/meta-20250930.htm"
+            }
+          ]
+        }
+      ],
+      "assumptions": [],
+      "result": 23861,
+      "unit": "USD million",
+      "limitations": [
+        "Economic-cost cash proxy, not FCFF or supported owner earnings.",
+        "Retains total capex. SBC cost method: no additional future dilution penalty or settlement-tax deduction.",
+        "CFO includes current-period working capital, cash taxes and interest; sustainable normalizations unresolved."
+      ]
+    },
+    {
+      "calculation_id": "conditional.owner_cash_parameter_grid",
+      "kind": "unsupported_parameter_sensitivity",
+      "formula": "C = TTM CFO - TTM SBC - M - Delta",
+      "inputs": [
+        {
+          "fact_id": "META.FY2024.cfo",
+          "value": 91328,
+          "unit": "USD million",
+          "period_id": "FY2024",
+          "kind": "reported_fact",
+          "sources": [
+            {
+              "source_id": "S1",
+              "publication_date": "2025-01-30",
+              "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000017/meta-20241231.htm"
+            }
+          ]
+        },
+        {
+          "fact_id": "META.FY2024.cash_ppe_outflow",
+          "value": 37256,
+          "unit": "USD million",
+          "period_id": "FY2024",
+          "kind": "reported_fact",
+          "sources": [
+            {
+              "source_id": "S1",
+              "publication_date": "2025-01-30",
+              "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000017/meta-20241231.htm"
+            }
+          ]
+        },
+        {
+          "fact_id": "META.FY2024.finance_lease_principal",
+          "value": 1969,
+          "unit": "USD million",
+          "period_id": "FY2024",
+          "kind": "reported_fact",
+          "sources": [
+            {
+              "source_id": "S1",
+              "publication_date": "2025-01-30",
+              "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000017/meta-20241231.htm"
+            }
+          ]
+        },
+        {
+          "fact_id": "META.FY2024.sbc",
+          "value": 16690,
+          "unit": "USD million",
+          "period_id": "FY2024",
+          "kind": "reported_fact",
+          "sources": [
+            {
+              "source_id": "S1",
+              "publication_date": "2025-01-30",
+              "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000017/meta-20241231.htm"
+            }
+          ]
+        },
+        {
+          "fact_id": "META.YTD9_2025.cfo",
+          "value": 79586,
+          "unit": "USD million",
+          "period_id": "YTD9_2025",
+          "kind": "reported_fact",
+          "sources": [
+            {
+              "source_id": "S3",
+              "publication_date": "2025-10-30",
+              "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047240/meta-20250930.htm"
+            }
+          ]
+        },
+        {
+          "fact_id": "META.YTD9_2025.cash_ppe_outflow",
+          "value": 48308,
+          "unit": "USD million",
+          "period_id": "YTD9_2025",
+          "kind": "reported_fact",
+          "sources": [
+            {
+              "source_id": "S3",
+              "publication_date": "2025-10-30",
+              "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047240/meta-20250930.htm"
+            }
+          ]
+        },
+        {
+          "fact_id": "META.YTD9_2025.finance_lease_principal",
+          "value": 1770,
+          "unit": "USD million",
+          "period_id": "YTD9_2025",
+          "kind": "reported_fact",
+          "sources": [
+            {
+              "source_id": "S3",
+              "publication_date": "2025-10-30",
+              "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047240/meta-20250930.htm"
+            }
+          ]
+        },
+        {
+          "fact_id": "META.YTD9_2025.sbc",
+          "value": 14537,
+          "unit": "USD million",
+          "period_id": "YTD9_2025",
+          "kind": "reported_fact",
+          "sources": [
+            {
+              "source_id": "S3",
+              "publication_date": "2025-10-30",
+              "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047240/meta-20250930.htm"
+            }
+          ]
+        },
+        {
+          "fact_id": "META.YTD9_2024.cfo",
+          "value": 63340,
+          "unit": "USD million",
+          "period_id": "YTD9_2024",
+          "kind": "reported_fact",
+          "sources": [
+            {
+              "source_id": "S3",
+              "publication_date": "2025-10-30",
+              "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047240/meta-20250930.htm"
+            }
+          ]
+        },
+        {
+          "fact_id": "META.YTD9_2024.cash_ppe_outflow",
+          "value": 22831,
+          "unit": "USD million",
+          "period_id": "YTD9_2024",
+          "kind": "reported_fact",
+          "sources": [
+            {
+              "source_id": "S3",
+              "publication_date": "2025-10-30",
+              "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047240/meta-20250930.htm"
+            }
+          ]
+        },
+        {
+          "fact_id": "META.YTD9_2024.finance_lease_principal",
+          "value": 1558,
+          "unit": "USD million",
+          "period_id": "YTD9_2024",
+          "kind": "reported_fact",
+          "sources": [
+            {
+              "source_id": "S3",
+              "publication_date": "2025-10-30",
+              "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047240/meta-20250930.htm"
+            }
+          ]
+        },
+        {
+          "fact_id": "META.YTD9_2024.sbc",
+          "value": 12428,
+          "unit": "USD million",
+          "period_id": "YTD9_2024",
+          "kind": "reported_fact",
+          "sources": [
+            {
+              "source_id": "S3",
+              "publication_date": "2025-10-30",
+              "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047240/meta-20250930.htm"
+            }
+          ]
+        }
+      ],
+      "assumptions": [
+        {
+          "id": "A_M",
+          "description": "M is assumed at 50%, 75%, or 100% of TTM total cash capex, including lease principal. These are arbitrary analytical settings, not source estimates or plausible confidence bounds."
+        },
+        {
+          "id": "A_DELTA",
+          "description": "Delta=-10000,0,+10000 is assumed aggregate normalization for working capital, cash taxes, other recurring economic cash needs and cash restrictions. No data-supported bound exists."
+        },
+        {
+          "id": "A_SBC",
+          "description": "Deduct reported SBC as economic compensation cost. Do not also deduct settlement taxes or projected dilution. Capitalized SBC/tax/economic replacement-cost bridge is not fully established."
+        }
+      ],
+      "result": [
+        {
+          "maintenance_share_of_total_cash_capex_assumption": 0.5,
+          "maintenance_capex_assumed_usd_million": 32457.0,
+          "net_further_cash_normalization_assumption_usd_million": -10000,
+          "conditional_owner_cash_usd_million": 66318.0
+        },
+        {
+          "maintenance_share_of_total_cash_capex_assumption": 0.5,
+          "maintenance_capex_assumed_usd_million": 32457.0,
+          "net_further_cash_normalization_assumption_usd_million": 0,
+          "conditional_owner_cash_usd_million": 56318.0
+        },
+        {
+          "maintenance_share_of_total_cash_capex_assumption": 0.5,
+          "maintenance_capex_assumed_usd_million": 32457.0,
+          "net_further_cash_normalization_assumption_usd_million": 10000,
+          "conditional_owner_cash_usd_million": 46318.0
+        },
+        {
+          "maintenance_share_of_total_cash_capex_assumption": 0.75,
+          "maintenance_capex_assumed_usd_million": 48685.5,
+          "net_further_cash_normalization_assumption_usd_million": -10000,
+          "conditional_owner_cash_usd_million": 50089.5
+        },
+        {
+          "maintenance_share_of_total_cash_capex_assumption": 0.75,
+          "maintenance_capex_assumed_usd_million": 48685.5,
+          "net_further_cash_normalization_assumption_usd_million": 0,
+          "conditional_owner_cash_usd_million": 40089.5
+        },
+        {
+          "maintenance_share_of_total_cash_capex_assumption": 0.75,
+          "maintenance_capex_assumed_usd_million": 48685.5,
+          "net_further_cash_normalization_assumption_usd_million": 10000,
+          "conditional_owner_cash_usd_million": 30089.5
+        },
+        {
+          "maintenance_share_of_total_cash_capex_assumption": 1,
+          "maintenance_capex_assumed_usd_million": 64914,
+          "net_further_cash_normalization_assumption_usd_million": -10000,
+          "conditional_owner_cash_usd_million": 33861
+        },
+        {
+          "maintenance_share_of_total_cash_capex_assumption": 1,
+          "maintenance_capex_assumed_usd_million": 64914,
+          "net_further_cash_normalization_assumption_usd_million": 0,
+          "conditional_owner_cash_usd_million": 23861
+        },
+        {
+          "maintenance_share_of_total_cash_capex_assumption": 1,
+          "maintenance_capex_assumed_usd_million": 64914,
+          "net_further_cash_normalization_assumption_usd_million": 10000,
+          "conditional_owner_cash_usd_million": 13861
+        }
+      ],
+      "unit": "USD million",
+      "limitations": [
+        "F02/F03: no supported owner-earnings range because M and Delta are materially unbounded.",
+        "Lower maintenance is not automatically distributable: growth capex may be required competitively."
+      ]
+    },
+    {
+      "calculation_id": "price.stale_actual_share_capitalization",
+      "kind": "historical_calculation",
+      "formula": "raw close * (October Class A + Class B shares)/1e6",
+      "inputs": [
+        {
+          "fact_id": "META.PRICE_2025_12_31.raw_close",
+          "value": 660.09,
+          "unit": "USD/share",
+          "period_id": "PRICE_2025_12_31",
+          "kind": "reported_fact",
+          "sources": [
+            {
+              "source_id": "S6",
+              "publication_date": null,
+              "url": "https://uk.finance.yahoo.com/quote/META/history/"
+            }
+          ]
+        },
+        {
+          "fact_id": "META.SHARES_2025_10_24.class_a_shares_outstanding",
+          "value": 2177889269,
+          "unit": "shares",
+          "period_id": "SHARES_2025_10_24",
+          "kind": "reported_fact",
+          "sources": [
+            {
+              "source_id": "S3",
+              "publication_date": "2025-10-30",
+              "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047240/meta-20250930.htm"
+            }
+          ]
+        },
+        {
+          "fact_id": "META.SHARES_2025_10_24.class_b_shares_outstanding",
+          "value": 342638328,
+          "unit": "shares",
+          "period_id": "SHARES_2025_10_24",
+          "kind": "reported_fact",
+          "sources": [
+            {
+              "source_id": "S3",
+              "publication_date": "2025-10-30",
+              "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047240/meta-20250930.htm"
+            }
+          ]
+        }
+      ],
+      "assumptions": [],
+      "result": 1663775.06150373,
+      "unit": "USD million",
+      "limitations": [
+        "Historical secondary price observation multiplied by stale October actual shares; not exact December market cap."
+      ]
+    },
+    {
+      "calculation_id": "price.assumed_diluted_share_anchor",
+      "kind": "conditional_scenario",
+      "formula": "raw close * Q3 diluted weighted-average shares",
+      "inputs": [
+        {
+          "fact_id": "META.PRICE_2025_12_31.raw_close",
+          "value": 660.09,
+          "unit": "USD/share",
+          "period_id": "PRICE_2025_12_31",
+          "kind": "reported_fact",
+          "sources": [
+            {
+              "source_id": "S6",
+              "publication_date": null,
+              "url": "https://uk.finance.yahoo.com/quote/META/history/"
+            }
+          ]
+        },
+        {
+          "fact_id": "META.Q3_2025.diluted_weighted_average_shares",
+          "value": 2572,
+          "unit": "shares million",
+          "period_id": "Q3_2025",
+          "kind": "reported_fact",
+          "sources": [
+            {
+              "source_id": "S2",
+              "publication_date": "2025-10-29",
+              "url": "https://investor.atmeta.com/investor-news/press-release-details/2025/Meta-Reports-Third-Quarter-2025-Results/default.aspx"
+            }
+          ]
+        }
+      ],
+      "assumptions": [
+        {
+          "id": "A_SHARES",
+          "description": "2572m Q3 diluted weighted-average shares held fixed as illustrative denominator, not actual December diluted shares."
+        }
+      ],
+      "result": 1697751.48,
+      "unit": "USD million",
+      "limitations": [
+        "Not an exact point-date capitalization."
+      ]
+    },
+    {
+      "calculation_id": "conditional.reverse_owner_cash_hurdle",
+      "kind": "conditional_scenario",
+      "formula": "F=sum((1+g)^t/(1+r)^t,t=1..5)+((1+g)^5*(1+gt)/(r-gt))/(1+r)^5; required C0=price*assumed_shares/F",
+      "inputs": [
+        {
+          "fact_id": "META.PRICE_2025_12_31.raw_close",
+          "value": 660.09,
+          "unit": "USD/share",
+          "period_id": "PRICE_2025_12_31",
+          "kind": "reported_fact",
+          "sources": [
+            {
+              "source_id": "S6",
+              "publication_date": null,
+              "url": "https://uk.finance.yahoo.com/quote/META/history/"
+            }
+          ]
+        },
+        {
+          "fact_id": "META.Q3_2025.diluted_weighted_average_shares",
+          "value": 2572,
+          "unit": "shares million",
+          "period_id": "Q3_2025",
+          "kind": "reported_fact",
+          "sources": [
+            {
+              "source_id": "S2",
+              "publication_date": "2025-10-29",
+              "url": "https://investor.atmeta.com/investor-news/press-release-details/2025/Meta-Reports-Third-Quarter-2025-Results/default.aspx"
+            }
+          ]
+        }
+      ],
+      "assumptions": [
+        {
+          "id": "A_R",
+          "value": [
+            0.08,
+            0.1,
+            0.12
+          ],
+          "unit": "fraction/year",
+          "description": "Analyst required returns, not universal Buffett parameters."
+        },
+        {
+          "id": "A_G",
+          "value": [
+            0,
+            0.05,
+            0.1
+          ],
+          "unit": "fraction/year",
+          "description": "Analyst growth of complete removable owner cash, not revenue forecasts."
+        },
+        {
+          "id": "A_GT",
+          "value": 0.03,
+          "unit": "fraction/year",
+          "description": "Analyst perpetual growth after year five; unsupported terminal assumption."
+        },
+        {
+          "id": "A_EXCESS_CASH",
+          "description": "Reverse equation attributes the full gross equity anchor to discounted operating owner cash. This is an algebraic convention, not a factual zero excess-cash assumption. Actual excess-cash adjustment is blocked."
+        },
+        {
+          "id": "A_SHARES",
+          "value": 2572,
+          "unit": "shares million",
+          "description": "Fixed Q3 diluted-share proxy; SBC expensed in owner cash, with no further dilution penalty."
+        }
+      ],
+      "result": [
+        {
+          "required_return_assumption": 0.08,
+          "five_year_owner_cash_growth_assumption": 0,
+          "terminal_growth_assumption": 0.03,
+          "explicit_years": 5,
+          "pv_first_five_years_per_c0": 3.992710037078085,
+          "pv_terminal_per_c0": 14.02001385889531,
+          "pv_factor_per_c0": 18.012723895973394,
+          "terminal_share_of_pv_pct": 77.83394638069912,
+          "conditional_required_c0_usd_million": 94252.90088299855
+        },
+        {
+          "required_return_assumption": 0.08,
+          "five_year_owner_cash_growth_assumption": 0.05,
+          "terminal_growth_assumption": 0.03,
+          "explicit_years": 5,
+          "pv_first_five_years_per_c0": 4.598447485748065,
+          "pv_terminal_per_c0": 17.893485194102563,
+          "pv_factor_per_c0": 22.491932679850628,
+          "terminal_share_of_pv_pct": 79.55512515886383,
+          "conditional_required_c0_usd_million": 75482.68546619512
+        },
+        {
+          "required_return_assumption": 0.08,
+          "five_year_owner_cash_growth_assumption": 0.1,
+          "terminal_growth_assumption": 0.03,
+          "explicit_years": 5,
+          "pv_first_five_years_per_c0": 5.2847324560156395,
+          "pv_terminal_per_c0": 22.579372519889493,
+          "pv_factor_per_c0": 27.864104975905132,
+          "terminal_share_of_pv_pct": 81.03390559077532,
+          "conditional_required_c0_usd_million": 60929.697238367895
+        },
+        {
+          "required_return_assumption": 0.1,
+          "five_year_owner_cash_growth_assumption": 0,
+          "terminal_growth_assumption": 0.03,
+          "explicit_years": 5,
+          "pv_first_five_years_per_c0": 3.7907867694084474,
+          "pv_terminal_per_c0": 9.136413753584709,
+          "pv_factor_per_c0": 12.927200522993155,
+          "terminal_share_of_pv_pct": 70.67588792588226,
+          "conditional_required_c0_usd_million": 131331.7200410305
+        },
+        {
+          "required_return_assumption": 0.1,
+          "five_year_owner_cash_growth_assumption": 0.05,
+          "terminal_growth_assumption": 0.03,
+          "explicit_years": 5,
+          "pv_first_five_years_per_c0": 4.358120835946377,
+          "pv_terminal_per_c0": 11.660636421071583,
+          "pv_factor_per_c0": 16.01875725701796,
+          "terminal_share_of_pv_pct": 72.79363956878088,
+          "conditional_required_c0_usd_million": 105985.21800161495
+        },
+        {
+          "required_return_assumption": 0.1,
+          "five_year_owner_cash_growth_assumption": 0.1,
+          "terminal_growth_assumption": 0.03,
+          "explicit_years": 5,
+          "pv_first_five_years_per_c0": 5.0,
+          "pv_terminal_per_c0": 14.714285714285714,
+          "pv_factor_per_c0": 19.714285714285715,
+          "terminal_share_of_pv_pct": 74.63768115942028,
+          "conditional_required_c0_usd_million": 86117.82869565216
+        },
+        {
+          "required_return_assumption": 0.12,
+          "five_year_owner_cash_growth_assumption": 0,
+          "terminal_growth_assumption": 0.03,
+          "explicit_years": 5,
+          "pv_first_five_years_per_c0": 3.604776202345004,
+          "pv_terminal_per_c0": 6.493885126557301,
+          "pv_factor_per_c0": 10.098661328902306,
+          "terminal_share_of_pv_pct": 64.30441535822023,
+          "conditional_required_c0_usd_million": 168116.48838455902
+        },
+        {
+          "required_return_assumption": 0.12,
+          "five_year_owner_cash_growth_assumption": 0.05,
+          "terminal_growth_assumption": 0.03,
+          "explicit_years": 5,
+          "pv_first_five_years_per_c0": 4.137053489685059,
+          "pv_terminal_per_c0": 8.288025856018065,
+          "pv_factor_per_c0": 12.425079345703123,
+          "terminal_share_of_pv_pct": 66.704007478908,
+          "conditional_required_c0_usd_million": 136639.08557550752
+        },
+        {
+          "required_return_assumption": 0.12,
+          "five_year_owner_cash_growth_assumption": 0.1,
+          "terminal_growth_assumption": 0.03,
+          "explicit_years": 5,
+          "pv_first_five_years_per_c0": 4.738435602815117,
+          "pv_terminal_per_c0": 10.458466935171803,
+          "pv_factor_per_c0": 15.196902537986919,
+          "terminal_share_of_pv_pct": 68.81972763218891,
+          "conditional_required_c0_usd_million": 111716.942038433
+        }
+      ],
+      "unit": "USD million and dimensionless",
+      "limitations": [
+        "Not an intrinsic-value range, return forecast, valuation conclusion or estimated actual C0.",
+        "Future terminal value is discounted to the cutoff, never represented as current value without discounting.",
+        "M, Delta, sustainable growth, net available cash, and full financing obligations remain unresolved.",
+        "The conditional equation is evidence burden only, not evidence that a price is too high or low."
+      ]
+    },
+    {
+      "calculation_id": "BS_Q3.net_cash_bonds_only",
+      "kind": "historical_calculation",
+      "formula": "cash+marketable_securities-bond_carrying_debt",
+      "inputs": [
+        {
+          "fact_id": "META.BS_Q3_2025.cash_and_equivalents",
+          "value": 10187,
+          "unit": "USD million",
+          "period_id": "BS_Q3_2025",
+          "kind": "reported_fact",
+          "sources": [
+            {
+              "source_id": "S3",
+              "publication_date": "2025-10-30",
+              "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047240/meta-20250930.htm"
+            }
+          ]
+        },
+        {
+          "fact_id": "META.BS_Q3_2025.marketable_securities",
+          "value": 34261,
+          "unit": "USD million",
+          "period_id": "BS_Q3_2025",
+          "kind": "reported_fact",
+          "sources": [
+            {
+              "source_id": "S3",
+              "publication_date": "2025-10-30",
+              "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047240/meta-20250930.htm"
+            }
+          ]
+        },
+        {
+          "fact_id": "META.BS_Q3_2025.bond_debt_carrying_amount",
+          "value": 28834,
+          "unit": "USD million",
+          "period_id": "BS_Q3_2025",
+          "kind": "reported_fact",
+          "sources": [
+            {
+              "source_id": "S3",
+              "publication_date": "2025-10-30",
+              "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047240/meta-20250930.htm"
+            }
+          ]
+        }
+      ],
+      "assumptions": [],
+      "result": 15614,
+      "unit": "USD million",
+      "limitations": [
+        "September only; excludes lease liabilities and commitments; not economic net cash or December balance."
+      ]
+    },
+    {
+      "calculation_id": "EVENT_Nov.bond_face_amount_after_issuance",
+      "kind": "historical_calculation",
+      "formula": "September bond face + November new principal",
+      "inputs": [
+        {
+          "fact_id": "META.BS_Q3_2025.bond_debt_face_amount",
+          "value": 29000,
+          "unit": "USD million",
+          "period_id": "BS_Q3_2025",
+          "kind": "reported_fact",
+          "sources": [
+            {
+              "source_id": "S3",
+              "publication_date": "2025-10-30",
+              "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047240/meta-20250930.htm"
+            }
+          ]
+        },
+        {
+          "fact_id": "META.EVENT_2025_11_03.new_bond_principal",
+          "value": 30000,
+          "unit": "USD million",
+          "period_id": "EVENT_2025_11_03",
+          "kind": "reported_fact",
+          "sources": [
+            {
+              "source_id": "S7",
+              "publication_date": "2025-11-03",
+              "url": "https://www.sec.gov/Archives/edgar/data/1326801/000119312525262593/d75422d8k.htm"
+            }
+          ]
+        }
+      ],
+      "assumptions": [],
+      "result": 59000,
+      "unit": "USD million",
+      "limitations": [
+        "Immediately after issuance before other changes, not December carrying debt. Borrowing proceeds must be considered; no old-cash/new-debt subtraction."
+      ]
+    },
+    {
+      "calculation_id": "BS_Q3.operating_lease_liabilities",
+      "kind": "historical_calculation",
+      "formula": "current + noncurrent",
+      "inputs": [
+        {
+          "fact_id": "META.BS_Q3_2025.operating_lease_liabilities_current",
+          "value": 2113,
+          "unit": "USD million",
+          "period_id": "BS_Q3_2025",
+          "kind": "reported_fact",
+          "sources": [
+            {
+              "source_id": "S3",
+              "publication_date": "2025-10-30",
+              "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047240/meta-20250930.htm"
+            }
+          ]
+        },
+        {
+          "fact_id": "META.BS_Q3_2025.operating_lease_liabilities_noncurrent",
+          "value": 20113,
+          "unit": "USD million",
+          "period_id": "BS_Q3_2025",
+          "kind": "reported_fact",
+          "sources": [
+            {
+              "source_id": "S3",
+              "publication_date": "2025-10-30",
+              "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047240/meta-20250930.htm"
+            }
+          ]
+        }
+      ],
+      "assumptions": [],
+      "result": 22226,
+      "unit": "USD million",
+      "limitations": []
+    }
+  ],
+  "blocked_calculations": [
+    {
+      "branch": "Supported owner-earnings range",
+      "missing": [
+        "Maintenance/growth/catch-up capex bounds",
+        "Required working capital normalization",
+        "Sustainable cash taxes and recurring economic needs",
+        "Restricted/distributable cash reconciliation"
+      ],
+      "status": "unresolved"
+    },
+    {
+      "branch": "Tangible ROIC and incremental ROIC",
+      "missing": [
+        "Required net tangible operating capital across comparable dates",
+        "Operating working capital/PPE and intangible bridge",
+        "Normalized unleveraged NOPAT/tax basis",
+        "Incremental investment and benefit timing, including lease assets"
+      ],
+      "status": "unresolved",
+      "reason": "Book equity is available but cannot substitute for net tangible operating capital. No delta EBIT/delta annual capex pseudo-ROIC."
+    },
+    {
+      "branch": "Supported intrinsic value, all-in EV and price/value conclusion",
+      "missing": [
+        "Supported owner-cash base and future reinvestment returns",
+        "Cutoff-date net available cash and all economic obligations",
+        "Point-date dilution",
+        "Supported discount/terminal assumptions"
+      ],
+      "status": "unresolved"
+    },
+    {
+      "branch": "Contingent guarantee quantitative stress",
+      "missing": [
+        "Termination/nonrenewal probability",
+        "Asset residual value and contractual cash timing",
+        "Collateral/counterparty detail and correlated downside ranges"
+      ],
+      "status": "unresolved"
+    }
+  ]
+}

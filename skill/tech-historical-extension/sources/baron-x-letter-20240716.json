@@ -1,0 +1,51 @@
+{
+  "source_id": "BARON-X-LETTER-20240716",
+  "title": "Letter from Ron | Q2 2024",
+  "original_public_url": "https://www.baroncapitalgroup.com/sites/default/files/2024-08/letter-from-ron-6.30.24_0.pdf",
+  "original_author_or_speaker": "Ronald Baron, signed CEO letter",
+  "provenance": "P1",
+  "publication_date_shown": "2024-07-16",
+  "publication_date_precision": "day",
+  "retrieval_date": "2026-10-13",
+  "decision_cutoff_utc": "2025-12-31T23:59:59Z",
+  "publication_proof": {
+    "primary_locator": "Printed/PDF page 3: signature block with Ronald Baron, CEO, July 16, 2024.",
+    "corroboration_url": "https://www.baroncapitalgroup.com/article/letter-ron-q2-2024",
+    "corroboration_locator": "Official indexed article date July 16, 2024; live reader layout omits this header date.",
+    "report_period": "2024-06-30",
+    "evidence": "Signed letter date is unambiguous. June 30 is the report period; August 2024 PDF path/metadata is not a July publication-day proof."
+  },
+  "precutoff_publication_eligible_candidate": true,
+  "historical_version_status": "dated_original_edition_retrieved_currently; exact historical bytes not archive-pinned",
+  "first_public_upload_time_independently_verified": false,
+  "content_scope": "Explicit personal description of management assessment, growth/competitive advantage and smaller/mid-sized management relevance.",
+  "admissibility": "candidate_only_pending_independent_Astra_source_acceptance",
+  "source_limits": [
+    "Public original statements establish the author/team stated analytical ideas, not that the ideas are correct or were applied to every investment.",
+    "A dated source is eligible relative to this replay cutoff; no actual stock-entry timing or personal position is inferred.",
+    "No exact first-public upload timestamp or archived original bytes recovered. The source is a publicly dated original letter; signature date and report period are kept separate.",
+    "Source contains unrelated holdings, returns and performance sections; none supply a rule, quantity or inference in this package."
+  ],
+  "copyright_reuse": {
+    "status": "Copyrighted first-party research; no source-wide open redistribution license established.",
+    "retained_content": "Bibliographic facts, very short authentication anchors and independently written analytical questions only.",
+    "excluded": "No full report, source graphics, source tables, workbook, code, native scoring matrix or weight reproduction.",
+    "ARK_CC_boundary": "No open license assumed."
+  },
+  "inspection_receipt": {
+    "retrieved_bytes_sha256": "84660304a0501f9f30e032168770e81336b01281b583ab05581c62f0c6c51d94",
+    "retrieved_bytes": 875153,
+    "pdf_page_count": 11,
+    "metadata": {
+      "/Author": "Baron Capital",
+      "/CreationDate": "D:20240802134847-04'00'",
+      "/Keywords": "ADA 508",
+      "/ModDate": "D:20240803045851+05'30'",
+      "/Producer": "Acrobat Distiller 8.1.0 (Windows)",
+      "/Subject": "Accessible PDF",
+      "/Title": "Letter from Ron"
+    },
+    "raw_file_in_deliverable": false,
+    "hash_proves": "The bytes read in this audit, not their historical public-availability date."
+  }
+}

@@ -1,0 +1,293 @@
+{
+  "schema_version": "2.1",
+  "information_cutoff": "2025-12-31",
+  "strict_publication_gate": true,
+  "method_only_not_recommendations": true,
+  "sanitized_method_packet_file": "historical-method-packet.json",
+  "eligible_rule_ids": [
+    "WB-R-01",
+    "WB-R-02",
+    "WB-R-03",
+    "WB-R-04",
+    "WB-R-05",
+    "DYP-R-01",
+    "DYP-R-02",
+    "DYP-R-03",
+    "DYP-R-04",
+    "LL-R-01",
+    "LL-R-02",
+    "LL-R-03",
+    "LL-R-04"
+  ],
+  "method_basis_claim_ids_only": [
+    "WB-F-VALUE",
+    "WB-F-OWNEREARNINGS",
+    "WB-F-CIRCLE",
+    "WB-F-TECHFIT",
+    "WB-F-CAPITAL",
+    "WB-F-LIQUIDITY2011",
+    "WB-F-PCC-ERROR",
+    "DYP-F-FILTERS",
+    "DYP-F-GE-ERROR",
+    "DYP-F-VALUATION",
+    "DYP-F-APPLE-PRICE2025",
+    "DYP-F-NETEASE-STORY",
+    "DYP-F-TRANSPARENCY",
+    "DYP-F-INDEX-ERROR",
+    "LL-F-HONESTY",
+    "LL-F-TOOHARD",
+    "LL-F-BYD-THESIS",
+    "LL-F-OPPCOST",
+    "LL-F-SELL-OPPCOST",
+    "LL-F-SHORT-ERROR",
+    "LL-F-SHORT-RISK",
+    "WB-F-REPURCHASE2011"
+  ],
+  "eligible_claim_ids_usage_guard": "Removed broad eligible_claim_ids because publication eligibility alone admitted holdings/case/outcome claims. Only sanitized method packet is suitable for historical transport; method_basis_claim_ids_only is audit metadata, not a prompt.",
+  "eligible_source_ids": [
+    "WB-S-OWNERS1999",
+    "WB-S-1986",
+    "WB-S-1996",
+    "WB-S-CNBC2017-MEETING",
+    "WB-S-2011",
+    "WB-S-2020",
+    "DYP-S-FILTERS2025",
+    "DYP-S-FANGLUE2025",
+    "LL-S-COLUMBIA2013"
+  ],
+  "excluded_rule_ids": [
+    "DYP-R-05"
+  ],
+  "excluded_recent_or_unverified_source_ids": [
+    "WB-S-ABEL2026",
+    "WB-S-Q226-INDEX",
+    "WB-S-Q226-TABLE",
+    "DYP-S-PROFILE",
+    "DYP-S-HH-Q226-INDEX",
+    "DYP-S-HH-Q226-COVER",
+    "DYP-S-HH-Q226-TABLE",
+    "DYP-S-HKEX-2026-INDIVIDUAL",
+    "DYP-S-HKEX-2026-CORPORATE",
+    "DYP-S-OPTIONS20261013",
+    "DYP-S-CORRECT20261013",
+    "DYP-S-COMPILED-LEADS",
+    "LL-S-HOME-EN",
+    "LL-S-HOME-CN",
+    "LL-S-PUBLICATIONS",
+    "LL-S-Q226-INDEX",
+    "LL-S-Q226-COVER",
+    "LL-S-Q226-TABLE",
+    "LL-S-Q425-RESTATEMENT-INDEX",
+    "LL-S-Q425-RESTATEMENT-COVER",
+    "LL-S-Q425-RESTATEMENT-TABLE",
+    "LL-S-Q425-SUPERSEDED",
+    "LL-S-2010-NOTES",
+    "LL-S-2024-VIDEO",
+    "GOV-S-13F"
+  ],
+  "rule_evidence_records": [
+    {
+      "rule_id": "WB-R-01",
+      "precutoff_evidence_records": [
+        {
+          "source_id": "WB-S-OWNERS1999",
+          "publication_date": "1999-01",
+          "provenance_grade": "P1"
+        },
+        {
+          "source_id": "WB-S-1986",
+          "publication_date": "1987-02-27",
+          "provenance_grade": "P1"
+        }
+      ],
+      "method_specific_locators": [
+        "Owner manual Intrinsic Value appendix opening definition and estimate-sensitivity paragraphs.",
+        "1986 letter Appendix owner-earnings formula/maintenance-investment paragraph."
+      ]
+    },
+    {
+      "rule_id": "WB-R-02",
+      "precutoff_evidence_records": [
+        {
+          "source_id": "WB-S-1996",
+          "publication_date": "1997-02-28",
+          "provenance_grade": "P1"
+        },
+        {
+          "source_id": "WB-S-CNBC2017-MEETING",
+          "publication_date": "2017-05-06",
+          "provenance_grade": "P2"
+        }
+      ],
+      "method_specific_locators": [
+        "1996 letter Common Stock Investments competence-boundary paragraphs.",
+        "2017 original meeting archive afternoon section12, consumer-business discussion."
+      ]
+    },
+    {
+      "rule_id": "WB-R-03",
+      "precutoff_evidence_records": [
+        {
+          "source_id": "WB-S-OWNERS1999",
+          "publication_date": "1999-01",
+          "provenance_grade": "P1"
+        },
+        {
+          "source_id": "WB-S-2011",
+          "publication_date": "2012-02-25",
+          "provenance_grade": "P1"
+        }
+      ],
+      "method_specific_locators": [
+        "Owner manual principles7 and9, debt/retained-capital economic justification.",
+        "2011 letter printed p6/PDF page5, Share Repurchases first two condition paragraphs and excess-cash/dilution warning, rendered lines219–227."
+      ]
+    },
+    {
+      "rule_id": "WB-R-04",
+      "precutoff_evidence_records": [
+        {
+          "source_id": "WB-S-OWNERS1999",
+          "publication_date": "1999-01",
+          "provenance_grade": "P1"
+        },
+        {
+          "source_id": "WB-S-2011",
+          "publication_date": "2012-02-25",
+          "provenance_grade": "P1"
+        }
+      ],
+      "method_specific_locators": [
+        "Owner manual principle7 conservative financing paragraph.",
+        "2011 letter printed p18/PDF page17 liquidity-purpose paragraph; printed p6/PDF page5 separate repurchase-condition paragraph."
+      ]
+    },
+    {
+      "rule_id": "WB-R-05",
+      "precutoff_evidence_records": [
+        {
+          "source_id": "WB-S-2020",
+          "publication_date": "2021-02-27",
+          "provenance_grade": "P1"
+        }
+      ],
+      "method_specific_locators": [
+        "2020 letter printed p4, pricing versus business quality and normalized-profit-estimation diagnosis paragraphs."
+      ]
+    },
+    {
+      "rule_id": "DYP-R-01",
+      "precutoff_evidence_records": [
+        {
+          "source_id": "DYP-S-FILTERS2025",
+          "publication_date": "2025-08-15",
+          "provenance_grade": "P1"
+        },
+        {
+          "source_id": "DYP-S-FANGLUE2025",
+          "publication_date": "2025-11-11",
+          "provenance_grade": "P2"
+        }
+      ],
+      "method_specific_locators": [
+        "Author Xueqiu replies2025-08-15 21:42/23:07.",
+        "Fanglue rendered lines367–378, model/culture filters and decision quality."
+      ]
+    },
+    {
+      "rule_id": "DYP-R-02",
+      "precutoff_evidence_records": [
+        {
+          "source_id": "DYP-S-FANGLUE2025",
+          "publication_date": "2025-11-11",
+          "provenance_grade": "P2"
+        }
+      ],
+      "method_specific_locators": [
+        "Fanglue rendered line267, future cash understanding; line412, future earnings and opportunity cost."
+      ]
+    },
+    {
+      "rule_id": "DYP-R-03",
+      "precutoff_evidence_records": [
+        {
+          "source_id": "DYP-S-FANGLUE2025",
+          "publication_date": "2025-11-11",
+          "provenance_grade": "P2"
+        }
+      ],
+      "method_specific_locators": [
+        "Fanglue rendered lines307–309, specific operating knowledge/account capital capacity; line386, selective disclosure and learning stakes."
+      ]
+    },
+    {
+      "rule_id": "DYP-R-04",
+      "precutoff_evidence_records": [
+        {
+          "source_id": "DYP-S-FANGLUE2025",
+          "publication_date": "2025-11-11",
+          "provenance_grade": "P2"
+        }
+      ],
+      "method_specific_locators": [
+        "Fanglue rendered lines382–383, daily correlation versus long-run tracking and correction of recognized mechanism error."
+      ]
+    },
+    {
+      "rule_id": "LL-R-01",
+      "precutoff_evidence_records": [
+        {
+          "source_id": "LL-S-COLUMBIA2013",
+          "publication_date": "2013-03",
+          "provenance_grade": "P2"
+        }
+      ],
+      "method_specific_locators": [
+        "Columbia Spring2013 printed p25 opposing-argument paragraph; p30 too-hard bucket; pp31–32 intellectual-honesty categories."
+      ]
+    },
+    {
+      "rule_id": "LL-R-02",
+      "precutoff_evidence_records": [
+        {
+          "source_id": "LL-S-COLUMBIA2013",
+          "publication_date": "2013-03",
+          "provenance_grade": "P2"
+        }
+      ],
+      "method_specific_locators": [
+        "Columbia Spring2013 printed p28, repeatable engineering/problem-solving paragraph; p31, adaptive-culture/change paragraphs."
+      ]
+    },
+    {
+      "rule_id": "LL-R-03",
+      "precutoff_evidence_records": [
+        {
+          "source_id": "LL-S-COLUMBIA2013",
+          "publication_date": "2013-03",
+          "provenance_grade": "P2"
+        }
+      ],
+      "method_specific_locators": [
+        "Columbia Spring2013 printed pp28–29 opportunity-cost/cash/geography paragraphs; p32, superior-alternative sale paragraph."
+      ]
+    },
+    {
+      "rule_id": "LL-R-04",
+      "precutoff_evidence_records": [
+        {
+          "source_id": "LL-S-COLUMBIA2013",
+          "publication_date": "2013-03",
+          "provenance_grade": "P2"
+        }
+      ],
+      "method_specific_locators": [
+        "Columbia Spring2013 printed pp26–27, short-strategy asymmetry/borrowing/attention-risk paragraphs."
+      ]
+    }
+  ],
+  "completed_at_utc": "2026-10-13T17:09:14.298344+00:00",
+  "corrective_submission": 1,
+  "acceptance": "pending independent re-review",
+  "warning": "No original T0 investor case thesis verified. Current holdings, historic case narratives and later outcomes remain outside historical method transport; no security-specific investor views are manufactured."
+}

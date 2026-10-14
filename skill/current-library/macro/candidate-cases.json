@@ -1,0 +1,78 @@
+{
+  "retrieved_at": "2026-10-13",
+  "selection_warning": "Retrospectively selected famous successes and major mistakes; not a representative sample, causal proof or predictive backtest.",
+  "candidates": [
+    {
+      "master": "Ray Dalio / Bridgewater",
+      "case": "2007-2008 deleveraging",
+      "decision_window": "2007-02-05 through 2008-09-15",
+      "selection": "selected major positive case",
+      "reason": "Official Bridgewater timeline republishes dated pre-Lehman Daily Observations; fund success requires separate return source; full positions and execution unobservable.",
+      "predecision_evidence": "Dated contemporary research republished by the firm, not an authenticated broker trade ledger.",
+      "source": "https://www.bridgewater.com/%20debt-crisis"
+    },
+    {
+      "master": "Ray Dalio / Bridgewater",
+      "case": "2020 COVID long tilt and drawdown",
+      "decision_window": "2020-01 through 2020-03-16",
+      "selection": "selected major adverse case",
+      "reason": "A contemporaneous client-letter reproduction identifies long tilt, rationale, decision not to override virus risk and strategy-specific losses; actual predecision January client notes were not found.",
+      "predecision_evidence": "January 2020 public view can be researched independently; March letter's description of January decisions is retrospective.",
+      "source": "https://www.gurufocus.com/news/1079552/ray-dalio-commentary-our-performance"
+    },
+    {
+      "master": "Ray Dalio / Bridgewater",
+      "case": "1982 depression prediction",
+      "decision_window": "1982",
+      "selection": "supplementary adverse candidate",
+      "reason": "Government-record search locates pre-outcome public depression view; original Principles interview supplies later admission of mistake, but exact trades and P&L unavailable.",
+      "predecision_evidence": "June 29, 1982 Congressional Record reproduces contemporary news quote; full PDF fetch too large, search extract only so far.",
+      "source": "https://www.govinfo.gov/content/pkg/GPO-CRECB-1982-pt11/pdf/GPO-CRECB-1982-pt11-9-2.pdf"
+    },
+    {
+      "master": "George Soros / Quantum; Stanley Druckenmiller as portfolio manager",
+      "case": "1992 sterling short",
+      "decision_window": "1992-09",
+      "selection": "selected iconic positive case with explicit ex-ante gap",
+      "reason": "Central-bank documentation establishes event mechanics; Druckenmiller's first-person later speech attributes idea/initial trade and Soros's sizing intervention. No authenticated fund pretrade memorandum found; do not manufacture one.",
+      "predecision_evidence": "Observable policy constraints are not proof of managers' contemporaneously documented motivation.",
+      "source": "https://www.bankofengland.co.uk/quarterly-bulletin/1992/q4/operation-of-monetary-policy"
+    },
+    {
+      "master": "George Soros / Quantum group",
+      "case": "1997-1998 Russia exposure and crisis",
+      "decision_window": "1997-08-21 through 1998-08",
+      "selection": "selected major adverse case",
+      "reason": "Own-site 1997 essay documents existing investments and shareholder-rights thesis before crisis; 1998 rescue essay and contemporary reports identify failure. Separate telecom investment from sovereign-debt book.",
+      "predecision_evidence": "1997 essay is before crisis but after initial investment, not pre-entry. Public own-site amount '$980 billion' appears erroneous and is excluded.",
+      "source": "https://www.georgesoros.com/1997/08/21/my-investments-in-russia/"
+    },
+    {
+      "master": "George Soros / Quantum",
+      "case": "1998 Hong Kong market intervention",
+      "decision_window": "1998-08",
+      "selection": "context / not selected as fully proven personal-loss case",
+      "reason": "HKMA documents cross-market currency/equity/futures intervention. Does not identify Soros's full positions or P&L; peg failure and equity squeeze are distinct outcomes.",
+      "predecision_evidence": "Institutional event source; personal trade attribution remains unresolved.",
+      "source": "https://www.hkma.gov.hk/media/eng/publication-and-research/annual-report/1998/ch01.pdf"
+    },
+    {
+      "master": "Stanley Druckenmiller / Soros Quantum",
+      "case": "1999 internet short and 2000 tech re-entry",
+      "decision_window": "1999-02/03 through 2000-03/04",
+      "selection": "selected major adverse case",
+      "reason": "First-person Lost Tree speech and official 2026 Morgan Stanley interview admit emotional re-entry at top. Contemporaneous 2000 press narrative can cross-check, but no authenticated pretrade fund memo available.",
+      "predecision_evidence": "Later reconstructed motive must remain retrospective; 1999 short loss and 2000 long loss are separate episodes.",
+      "source": "https://covestreetcapital.com/wp-content/uploads/2015/03/Druckenmiller-_Speech.pdf"
+    },
+    {
+      "master": "Stanley Druckenmiller / Duquesne Family Office",
+      "case": "2022-2024 Nvidia AI long",
+      "decision_window": "2022-Q4 through 2024",
+      "selection": "selected supplementary positive / statement-position cross-check",
+      "reason": "SEC 13F actual-share snapshots provide independent holdings evidence and official first-person 2026 interview attributes entry/scale-up and profit. No authentic pre-entry memo; 2023 public thesis is during holding, before later outcomes.",
+      "predecision_evidence": "13F is a lagged snapshot. Official XML value-unit ambiguity in 2023 requires use of raw share counts rather than assumed dollar values.",
+      "source": "https://www.sec.gov/Archives/edgar/data/1536411/000153641123000003/0001536411-23-000003-index.html"
+    }
+  ]
+}

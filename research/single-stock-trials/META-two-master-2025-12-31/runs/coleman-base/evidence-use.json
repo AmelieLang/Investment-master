@@ -1,0 +1,287 @@
+{
+  "schema": "meta-coleman-evidence-use.v1",
+  "metadata": {
+    "ticker": "META",
+    "decision_cutoff": "2025-12-31T23:59:59Z",
+    "analytical_horizon_years": 5,
+    "task_name": "/root/run_meta_coleman_base",
+    "requested_model": "gpt-6.1-sol",
+    "requested_reasoning_effort": "xhigh",
+    "requested_fork_turns": "none",
+    "requested_configuration_basis": "Parent assignment; root records the actual spawn receipt. No provider execution attestation claimed.",
+    "provider_attestation_claimed": false,
+    "runtime_analysis_date": "2026-10-14",
+    "method_attribution": "Community Coleman/Tiger Growth-style framework; not recovered personal algorithm or actual investor opinion.",
+    "numerical_stock_score": null
+  },
+  "input_files_and_sha256": {
+    "/workspace/shared/investor-research-v2/meta-minimum/protocol/research-call-contract.md": "cca28a7c6877faa30019ac5d6e709ecc5ac8fa44be1be8fcbe349f60a9b5c5ae",
+    "/workspace/shared/investor-research-v2/meta-minimum/data/base-public-data.md": "5b32145f177e80a9a83dc3762d7b7a394d31f30be9530a1fc9e1863b9d637292",
+    "/workspace/shared/investor-research-v2/meta-minimum/data/facts.json": "d447a9af9c882a4af70d8bd992a020b020a3dc0e7f2f1faf21323ef9dccdeae8",
+    "/workspace/shared/investor-research-v2/meta-minimum/selection/frozen/questflow-coleman/skills/coleman-tiger-growth/SKILL.md": "740ab11d4a19a1cf3a7b572fa2807b56f5535adbd8476acfcb89fd3b18f19a5d",
+    "/workspace/shared/investor-research-v2/meta-minimum/selection/frozen/questflow-coleman/skills/coleman-tiger-growth/invest.md": "23c4234b4c7572cd25032c646cdbab68f405ffe255645ccb0d2447b59a8e73b1"
+  },
+  "complete_assigned_method_read": [
+    "SKILL.md",
+    "invest.md"
+  ],
+  "necessary_reference_handling": {
+    "additional_method_reference_files": [],
+    "reason": "SKILL.md and invest.md contain the complete four-step process, filters, signals, verdicts and required sections. Generic source/podcast/reading lists are not necessary method cards or task-specific evidence; no external fetch performed."
+  },
+  "selected_method_ids": {
+    "skill_name": "coleman-tiger-growth",
+    "signals": [
+      "growthDuration",
+      "unitEconomics",
+      "networkEffects",
+      "valuationVsDuration"
+    ],
+    "filters": [
+      "scalableModel",
+      "unitEconomicsPositiveOrImproving",
+      "growthDurationCredible",
+      "brokenRetention",
+      "noPathToProfit"
+    ],
+    "card_ids": [],
+    "card_id_note": "This Skill defines no evidence cards. No cards or calibrated numerical score fabricated."
+  },
+  "four_step_tests": [
+    {
+      "step": 1,
+      "native_text": "Define product, customer, and growth engine.",
+      "finding": "Facebook/Instagram/Messenger/WhatsApp aggregate consumers; advertisers buy distribution and outcomes. Advertising is almost all revenue; reach, impression growth and monetization drive observed growth.",
+      "fact_ids": [
+        "META.Q3_2025.advertising_revenue",
+        "META.Q3_2025.revenue",
+        "META.Q3_2025.dap",
+        "META.Q3_2025.ad_impressions_growth_yoy",
+        "META.Q3_2025.average_ad_price_growth_yoy"
+      ],
+      "status": "supported_with_aggregate_metric_limit"
+    },
+    {
+      "step": 2,
+      "native_text": "Underwrite unit economics and retention.",
+      "finding": "FoA is strongly profitable, but Q3 margin compressed and capex accelerated. Aggregate DAP growth does not establish advertiser retention; positive segment economics provisionally pass while improving economics/retention evidence is incomplete.",
+      "fact_ids": [
+        "META.Q3_2025.foa_operating_income",
+        "META.Q3_2025.foa_revenue",
+        "META.Q3_2024.foa_operating_income",
+        "META.Q3_2024.foa_revenue",
+        "META.Q3_2025.company_fcf",
+        "META.Q3_2025.cash_capex_including_finance_leases"
+      ],
+      "status": "partial_no_cohort_underwriting"
+    },
+    {
+      "step": 3,
+      "native_text": "Estimate growth duration and competitive moat.",
+      "finding": "Scale and potential social/data/advertiser feedback support a credible duration hypothesis. Incremental network benefit and AI ROI are analyst inferences requiring tests; no five-year high-growth guarantee.",
+      "fact_ids": [
+        "META.Q3_2025.dap",
+        "META.Q3_2025.arpp_growth_yoy",
+        "META.FY2020.revenue",
+        "META.FY2024.revenue",
+        "META.GUIDANCE_2025_10_29.2026_spending_direction"
+      ],
+      "status": "credible_conditional"
+    },
+    {
+      "step": 4,
+      "native_text": "Compare valuation to multi-year compounding path.",
+      "finding": "Five-year earnings and exit-multiple scenarios do not demonstrate enough return margin for a concentrated growth long at the historical reference price. Native Watch retained.",
+      "fact_ids": [
+        "META.PRICE_2025_12_31.raw_close",
+        "META.TTM_Q3_2025.net_income_gaap",
+        "META.Q3_2025.one_time_noncash_tax_charge",
+        "META.YTD9_2025.server_life_change_net_income_increase",
+        "META.Q3_2025.diluted_weighted_average_shares"
+      ],
+      "calculation_ids": [
+        "analyst_partial_earnings_bridge",
+        "analyst_earnings_per_diluted_proxy",
+        "required_growth_for_analyst_hurdle"
+      ],
+      "status": "conditional_not_intrinsic_value"
+    }
+  ],
+  "native_verdict": "Watch",
+  "native_output_sections": [
+    "Verdict",
+    "Setup / Thesis",
+    "Evidence",
+    "Risks",
+    "Action Plan",
+    "Invalidation",
+    "Missing Data"
+  ],
+  "source_fact_ids": [
+    "META.BS_Q3_2025.cash_plus_marketable_securities",
+    "META.BS_Q3_2025.cash_securities_minus_bond_debt",
+    "META.BS_Q3_2025.jv_initial_lease_commitment",
+    "META.BS_Q3_2025.jv_residual_value_guarantee_initial_threshold",
+    "META.BS_Q3_2025.noncancelable_commitments",
+    "META.BS_Q3_2025.not_yet_commenced_leases",
+    "META.BS_Q3_2025.october_new_cloud_arrangements",
+    "META.EVENT_2025_11_03.new_bond_principal",
+    "META.FY2020.revenue",
+    "META.FY2024.cash_capex_including_finance_leases",
+    "META.FY2024.cash_ppe_outflow",
+    "META.FY2024.cfo",
+    "META.FY2024.company_fcf",
+    "META.FY2024.diluted_eps",
+    "META.FY2024.finance_lease_principal",
+    "META.FY2024.foa_operating_income",
+    "META.FY2024.foa_revenue",
+    "META.FY2024.net_income_gaap",
+    "META.FY2024.operating_income",
+    "META.FY2024.revenue",
+    "META.FY2024.sbc",
+    "META.GUIDANCE_2025_10_29.2026_spending_direction",
+    "META.GUIDANCE_2025_10_29.fy2025_cash_capex_guidance",
+    "META.GUIDANCE_2025_10_29.q4_revenue_guidance",
+    "META.PRICE_2025_12_31.raw_close",
+    "META.Q3_2024.cash_capex_including_finance_leases",
+    "META.Q3_2024.cfo",
+    "META.Q3_2024.company_fcf",
+    "META.Q3_2024.foa_operating_income",
+    "META.Q3_2024.foa_revenue",
+    "META.Q3_2024.operating_income",
+    "META.Q3_2024.revenue",
+    "META.Q3_2025.ad_impressions_growth_yoy",
+    "META.Q3_2025.advertising_revenue",
+    "META.Q3_2025.arpp",
+    "META.Q3_2025.arpp_growth_yoy",
+    "META.Q3_2025.average_ad_price_growth_yoy",
+    "META.Q3_2025.cash_capex_including_finance_leases",
+    "META.Q3_2025.cfo",
+    "META.Q3_2025.company_fcf",
+    "META.Q3_2025.dap",
+    "META.Q3_2025.dap_growth_yoy",
+    "META.Q3_2025.diluted_weighted_average_shares",
+    "META.Q3_2025.foa_operating_income",
+    "META.Q3_2025.foa_revenue",
+    "META.Q3_2025.one_time_noncash_tax_charge",
+    "META.Q3_2025.operating_income",
+    "META.Q3_2025.revenue",
+    "META.Q3_2025.rl_operating_income",
+    "META.TTM_Q3_2025.cash_capex_including_finance_leases",
+    "META.TTM_Q3_2025.company_fcf",
+    "META.TTM_Q3_2025.net_income_gaap",
+    "META.TTM_Q3_2025.operating_income",
+    "META.TTM_Q3_2025.revenue",
+    "META.YTD9_2024.cash_capex_including_finance_leases",
+    "META.YTD9_2024.cash_ppe_outflow",
+    "META.YTD9_2024.cfo",
+    "META.YTD9_2024.company_fcf",
+    "META.YTD9_2024.finance_lease_principal",
+    "META.YTD9_2024.foa_operating_income",
+    "META.YTD9_2024.foa_revenue",
+    "META.YTD9_2024.net_income_gaap",
+    "META.YTD9_2024.operating_income",
+    "META.YTD9_2024.revenue",
+    "META.YTD9_2024.sbc",
+    "META.YTD9_2025.cash_capex_including_finance_leases",
+    "META.YTD9_2025.cash_nonmarketable_equity_investments",
+    "META.YTD9_2025.cash_ppe_outflow",
+    "META.YTD9_2025.cfo",
+    "META.YTD9_2025.company_fcf",
+    "META.YTD9_2025.deferred_income_tax_cashflow_adjustment",
+    "META.YTD9_2025.finance_lease_principal",
+    "META.YTD9_2025.foa_operating_income",
+    "META.YTD9_2025.foa_revenue",
+    "META.YTD9_2025.net_income_gaap",
+    "META.YTD9_2025.operating_income",
+    "META.YTD9_2025.revenue",
+    "META.YTD9_2025.sbc",
+    "META.YTD9_2025.server_life_change_da_reduction",
+    "META.YTD9_2025.server_life_change_net_income_increase",
+    "META.YTD9_2025.taxes_paid_for_net_share_settlement"
+  ],
+  "source_kind_handling": {
+    "issuer_facts": "Used as dated historical facts with period and source metadata.",
+    "management_guidance": "Q4/FY2025 ranges and 2026 spending direction remain forecasts, never realized outcomes.",
+    "company_counterfactual": "Charge-excluded EPS is not claimed as fully normalized. Independent two-item earnings bridge computed instead.",
+    "secondary_market_observation": "2025-12-31 raw close is currently retrieved historical Yahoo row with failed full-page open; not primary or archived-session evidence.",
+    "analyst_inferences": "Network feedback, growth duration, AI monetization possibilities, hurdle and terminal valuation assumptions are expressly labelled."
+  },
+  "assumptions": {
+    "earnings_bridge": "Add one-time tax charge; reverse only disclosed useful-life NI impact. Partial not fully normalized.",
+    "five_year_total_earnings_growth_decimal": [
+      0,
+      0.08,
+      0.12,
+      0.16
+    ],
+    "year5_exit_pe_times": [
+      15,
+      18,
+      22,
+      26
+    ],
+    "net_share_change_decimal": 0,
+    "dilution_sensitivity_decimal": 0.01,
+    "required_price_return_decimal": 0.12,
+    "horizon_years": 5,
+    "dividends": "Not credited, not assumed nonexistent.",
+    "SBC": "Retained in GAAP earnings expense; no automatic duplicate deduction. Company FCF is assessed separately without treating it as FCFF."
+  },
+  "gaps": [
+    {
+      "branch": "Intrinsic value / full DCF",
+      "status": "unresolved_not_calculated",
+      "reason": "No complete forecast cash-flow model, maintenance/growth capex split, full economic net debt, sustainable cash taxes, or discount-rate evidence."
+    },
+    {
+      "branch": "Advertiser LTV/CAC, payback, cohort retention",
+      "status": "unresolved_not_calculated",
+      "reason": "Not supplied. DAP, ARPP and ad growth are aggregate signals, not advertiser cohort economics."
+    },
+    {
+      "branch": "December economic net cash / exact enterprise value",
+      "status": "unresolved_not_calculated",
+      "reason": "Sep cash and November borrowing cannot reconstruct Dec balance sheet; commitments and contingent guarantee have distinct scopes."
+    },
+    {
+      "branch": "SaaS NDR",
+      "status": "not_applicable",
+      "reason": "Advertising platform; no subscription-style NDR invented."
+    },
+    {
+      "branch": "Five-year intrinsic value from terminal price",
+      "status": "not_performed",
+      "reason": "Five-year prices are explicitly conditional future observations; none is labelled current intrinsic value."
+    }
+  ],
+  "additional_materials": {
+    "assigned": "NONE",
+    "read": false,
+    "claims": [],
+    "adopted_claims": [],
+    "partly_adopted_claims": [],
+    "rejected_claims": [],
+    "unresolved_claims": []
+  },
+  "risk_and_monitoring": {
+    "cadence": "quarterly",
+    "analyst_triggers": [
+      "Two consecutive quarters of weakening audience/monetization accompanied by advertiser ROI or retention deterioration: review growthDuration/brokenRetention.",
+      "FoA margin below 45% for two quarters with no cash-return evidence: review unitEconomics.",
+      "Continuing capex faster than CFO with no subsequent conversion improvement: do not upgrade to concentrated growth long."
+    ],
+    "thresholds_are_analyst_assumptions": true,
+    "position_sizing": "Not assigned; risk budget and portfolio factor correlations unavailable."
+  },
+  "independence_controls": {
+    "sibling_reports_read": false,
+    "enrichment_read": false,
+    "other_investor_methods_read": false,
+    "external_sources_fetched": false,
+    "current_quotes_or_2026_operating_outcomes_used": false,
+    "opinion_delegated": false,
+    "upstream_code_executed": false
+  },
+  "report_status": "Original independent report saved before review."
+}

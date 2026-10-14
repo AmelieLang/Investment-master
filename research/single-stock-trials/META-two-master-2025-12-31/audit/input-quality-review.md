@@ -1,0 +1,19 @@
+# META frozen-input quality review
+
+Reviewed 2026-10-14. Decision cutoff: 2025-12-31. **Pass with minor labels; no material must-correct data error or blocking finding found.** Frozen inputs were not changed. This was a targeted source spot-check, not an audit of all 262 facts or the independent models' output arithmetic.
+
+## Material checks
+
+- All 10 supplied TTM bridges and all 10 annual/interim/TTM company-FCF equations recompute exactly. TTM revenue is $189.458bn, operating income $81.895bn, CFO $107.574bn, company FCF $42.660bn and SBC $18.799bn. Annual inputs agree with [FY2024 SEC statements](https://www.sec.gov/Archives/edgar/data/1326801/000132680125000017/meta-20241231.htm); earlier net-PPE/lease treatment agrees with [FY2022 reconciliation](https://www.sec.gov/Archives/edgar/data/1326801/000132680123000013/meta-20221231.htm).
+- [Q3 release](https://investor.atmeta.com/investor-news/press-release-details/2025/Meta-Reports-Third-Quarter-2025-Results/default.aspx) supports the cash-capex/FCF definition, SBC and $15.93bn noncash tax charge. The $18.64bn/$7.25 charge-excluded figures are correctly distinguished from fully normalized earnings; adding the charge again to CFO would be wrong.
+- [Q3 10-Q](https://www.sec.gov/Archives/edgar/data/1326801/000162828025047240/meta-20250930.htm) supports cash-tax/deferred-tax distinctions, useful-life effect, actual October 24 A+B shares versus diluted weighted averages, dated cash/debt and operating/commitment disclosures. DAP/ARPP/impressions are correctly described as aggregate measures, not advertiser retention.
+- The [November financing](https://www.sec.gov/Archives/edgar/data/1326801/000119312525262593/d75422d8k.htm) six tranches total $30bn. Its [SEC index](https://www.sec.gov/Archives/edgar/data/1326801/000119312525262593/0001193125-25-262593-index.html), now accessible, confirms filing November 3 and acceptance at 16:18:13. The packet correctly avoids subtracting new debt from stale cash without proceeds or inventing December net cash.
+- Both [Yahoo UK](https://uk.finance.yahoo.com/quote/META/history/) and [Yahoo AU](https://au.finance.yahoo.com/quote/META/history/) historical search rows reproduce $660.09 in the December 31, 2025 Close column and the supplied OHLC/volume. These are currently retrieved secondary mirrors of one provider, not separate vendors or preserved cutoff snapshots. Dividend-adjusted values differ and were correctly excluded.
+- SEC filing-index dates for S1/S3/S4 and displayed IR dates for S2/S5 match the packet. [E1 transcript](https://s21.q4cdn.com/399680738/files/doc_financials/2025/q3/META-Q3-2025-Earnings-Call-Transcript.pdf) confirms the event date and scoped management observations, with upload-time uncertainty properly retained. [E2](https://www.investing.com/news/stock-market-news/oppenheimer-downgrades-meta-on-ai-spending-concerns-4319927) and [E3](https://www.investing.com/analysis/meta-platforms-selloff-exposes-ai-capex-risk-despite-noncash-tax-hit-200669395) are readable public articles with matching author/date provenance. Their 21x 2027E comparison and $869 target anchor are correctly attributed opinions, not verified consensus, cutoff-price multiples or independent fair values.
+
+## Minor, nonblocking labels
+
+1. Four October cloud/JV facts use BS_Q3_2025 period IDs despite being subsequent events. Their narrative context identifies October. Preserve the frozen input but date those events correctly in downstream outputs; a later schema revision could separate event IDs.
+2. Table heading EBIT means reported operating income, as correctly named in facts.json. Prefer operating income in downstream prose to avoid implying a reconstructed pre-interest earnings measure.
+
+No 2026 outcomes or current opinions were used; incidental current page widgets were disregarded. The companion JSON records source URLs, exact mechanical checks and input hashes.

@@ -1,0 +1,748 @@
+{
+  "schema_version": "investment-master-method/v0.1-draft",
+  "master_id": "stanley-druckenmiller",
+  "catalogue_entity_id": "stanley-druckenmiller",
+  "display_name": "Stanley Druckenmiller",
+  "classification": "core_dossier",
+  "source_stream": "macro",
+  "source_acceptance": "accepted",
+  "implementation_ready": false,
+  "identity_and_mandate_record": {
+    "era_mandates": [
+      {
+        "era": "1981-2010",
+        "mandate": "Duquesne Capital historical hedge-fund period; quoted record is not independently audited here",
+        "source_ids": [
+          "DRU-03"
+        ]
+      },
+      {
+        "era": "Historical Soros/Quantum period ending 2000",
+        "mandate": "Portfolio-manager agency in sterling and tech cases; Soros sizing intervention does not erase Druckenmiller idea/execution role",
+        "source_ids": [
+          "DRU-01"
+        ]
+      },
+      {
+        "era": "Family-office era",
+        "mandate": "Duquesne Family Office manages own capital; SEC filer CIK 1536411 is not the historical Quantum risk book",
+        "source_ids": [
+          "DRU-03",
+          "DFO-22Q4"
+        ]
+      }
+    ]
+  },
+  "scope": {
+    "strong": [
+      "Liquidity/policy and changing business conditions",
+      "Flexible asymmetric macro risk questions"
+    ],
+    "conditional": [
+      "Equity inflection with independent operating/price data"
+    ],
+    "not_established": [
+      "Every current technology narrative",
+      "Post-cutoff changed signals or NVIDIA recollections in historical mode"
+    ],
+    "historical_status": "Original pre-cutoff method facts only; company stock valuation is not the macro module core."
+  },
+  "rules": [
+    {
+      "rule_id": "DRU-R1",
+      "method_fact": "Liquidity and policy matter to markets; earnings alone are insufficient.",
+      "method_fact_origin": "Native-principle paraphrase; action/thresholds are independent operationalization.",
+      "source_ids": [
+        "DRU-01"
+      ],
+      "claim_ids": [],
+      "our_design_questions": [
+        "Separate broad liquidity regime from company-specific change; describe the pathway and what is already priced."
+      ],
+      "required_inputs": [
+        "Policy expectations",
+        "Funding/credit conditions",
+        "Valuation",
+        "Company earnings/change evidence"
+      ],
+      "falsifiers": [
+        "Revise if the asset stops responding as the thesis predicts or policy transmission changes."
+      ],
+      "limits": [
+        "Operational workflow adapted by this audit; not a master-authored formula"
+      ],
+      "historical_eligibility": {
+        "status": "candidate_eligible_pending_review",
+        "eligible_source_ids": [
+          "DRU-01"
+        ],
+        "reason": "Use the dated eligible sources only; prospective implementation must be frozen before outcome review. Independent acceptance pending; historical exporter separately tests direct-method authority."
+      },
+      "original_record": {
+        "id": "DRU-R1",
+        "native_principle": "Liquidity and policy matter to markets; earnings alone are insufficient.",
+        "implementation_status": "Operational workflow adapted by this audit; not a master-authored formula",
+        "action": "Separate broad liquidity regime from company-specific change; describe the pathway and what is already priced.",
+        "required_data": [
+          "Policy expectations",
+          "Funding/credit conditions",
+          "Valuation",
+          "Company earnings/change evidence"
+        ],
+        "invalidation_test": "Revise if the asset stops responding as the thesis predicts or policy transmission changes.",
+        "source_ids": [
+          "DRU-01"
+        ],
+        "beginning_2026_eligibility": {
+          "cutoff": "2026-01-01T00:00:00Z",
+          "status": "eligible_pre2026_native_principle_with_audit_adaptation",
+          "eligible_source_ids": [
+            "DRU-01"
+          ],
+          "excluded_or_uncertain_source_ids": [],
+          "reason": "Use the dated eligible sources only; prospective implementation must be frozen before outcome review.",
+          "publication_provenance_source_ids": [
+            "DRU-PUB-01",
+            "DRU-PUB-02"
+          ],
+          "public_availability_verified_by": "2015-04-13, with March 30 posting independently reported; no URL-derived publication assumption"
+        },
+        "evidence_anchors": [
+          {
+            "source_id": "DRU-01",
+            "url": "https://covestreetcapital.com/wp-content/uploads/2015/03/Druckenmiller-_Speech.pdf",
+            "locator_type": "pdf_page_and_section",
+            "locator": "Transcript p.16 last paragraph continuing onto p.17 first paragraph: mentor’s central-bank/liquidity lesson",
+            "supporting_paraphrase": "Broad-market conditions require attention to central banks and liquidity, beyond earnings.",
+            "supports": "native_principle",
+            "does_not_authenticate": "Audit action, input checklist and invalidation workflow remain analyst-adapted.",
+            "pdf_pages_1_based": [
+              16,
+              17
+            ]
+          }
+        ],
+        "native_principle_attribution_status": "source-anchored principle, observation or firm disclosure; exact provenance recorded per anchor"
+      }
+    },
+    {
+      "rule_id": "DRU-R7",
+      "method_fact": "Look ahead to changing conditions rather than rely on present earnings.",
+      "method_fact_origin": "Native-principle paraphrase; action/thresholds are independent operationalization.",
+      "source_ids": [
+        "DRU-01"
+      ],
+      "claim_ids": [],
+      "our_design_questions": [
+        "Describe how the business, liquidity and investor expectations might evolve over the relevant investment horizon."
+      ],
+      "required_inputs": [
+        "A dated forward-change thesis",
+        "Issuer operating evidence",
+        "Current valuation and implied expectations",
+        "Alternative future paths"
+      ],
+      "falsifiers": [
+        "Do not equate a currently admired business with an attractive price. Reject a forward story lacking testable dated evidence."
+      ],
+      "limits": [
+        "Operational workflow adapted by this audit; not a master-authored formula"
+      ],
+      "historical_eligibility": {
+        "status": "candidate_eligible_pending_review",
+        "eligible_source_ids": [
+          "DRU-01"
+        ],
+        "reason": "2015 speech p.16 visually inspected; not dependent on the 2026 interview. Independent acceptance pending; historical exporter separately tests direct-method authority."
+      },
+      "original_record": {
+        "id": "DRU-R7",
+        "native_principle": "Look ahead to changing conditions rather than rely on present earnings.",
+        "implementation_status": "Operational workflow adapted by this audit; not a master-authored formula",
+        "action": "Describe how the business, liquidity and investor expectations might evolve over the relevant investment horizon.",
+        "required_data": [
+          "A dated forward-change thesis",
+          "Issuer operating evidence",
+          "Current valuation and implied expectations",
+          "Alternative future paths"
+        ],
+        "invalidation_test": "Do not equate a currently admired business with an attractive price. Reject a forward story lacking testable dated evidence.",
+        "source_ids": [
+          "DRU-01"
+        ],
+        "beginning_2026_eligibility": {
+          "cutoff": "2026-01-01T00:00:00Z",
+          "status": "eligible_pre2026_native_principle_with_audit_adaptation",
+          "eligible_source_ids": [
+            "DRU-01"
+          ],
+          "excluded_or_uncertain_source_ids": [],
+          "reason": "2015 speech p.16 visually inspected; not dependent on the 2026 interview.",
+          "publication_provenance_source_ids": [
+            "DRU-PUB-01",
+            "DRU-PUB-02"
+          ],
+          "public_availability_verified_by": "2015-04-13, with March 30 posting independently reported; no URL-derived publication assumption"
+        },
+        "evidence_anchors": [
+          {
+            "source_id": "DRU-01",
+            "url": "https://covestreetcapital.com/wp-content/uploads/2015/03/Druckenmiller-_Speech.pdf",
+            "locator_type": "pdf_page_and_section",
+            "locator": "Transcript p.16: first of mentor’s two lessons, the 18-month forward situation",
+            "supporting_paraphrase": "Present earnings are insufficient; envision how conditions will change ahead.",
+            "supports": "native_principle",
+            "does_not_authenticate": "Audit action, input checklist and invalidation workflow remain analyst-adapted.",
+            "pdf_pages_1_based": [
+              16
+            ]
+          }
+        ],
+        "native_principle_attribution_status": "source-anchored principle, observation or firm disclosure; exact provenance recorded per anchor"
+      }
+    },
+    {
+      "rule_id": "DRU-R2",
+      "method_fact": "Concentrate when a rare opportunity is compelling, and change course quickly when wrong.",
+      "method_fact_origin": "Native-principle paraphrase; action/thresholds are independent operationalization.",
+      "source_ids": [
+        "DRU-01",
+        "DRU-02"
+      ],
+      "claim_ids": [],
+      "our_design_questions": [
+        "Use concentration only after explicit capacity, liquidity and loss-budget approval; do not copy anecdotal notional ratios."
+      ],
+      "required_inputs": [
+        "Expected asymmetric payoff",
+        "Stress losses",
+        "Correlated exposures",
+        "Exit and funding capacity"
+      ],
+      "falsifiers": [
+        "A thesis break or failed survival test outweighs original conviction."
+      ],
+      "limits": [
+        "Operational workflow adapted by this audit; not a master-authored formula"
+      ],
+      "historical_eligibility": {
+        "status": "candidate_eligible_pending_review",
+        "eligible_source_ids": [
+          "DRU-01",
+          "DRU-02"
+        ],
+        "reason": "Use the dated eligible sources only; prospective implementation must be frozen before outcome review. Independent acceptance pending; historical exporter separately tests direct-method authority."
+      },
+      "original_record": {
+        "id": "DRU-R2",
+        "native_principle": "Concentrate when a rare opportunity is compelling, and change course quickly when wrong.",
+        "implementation_status": "Operational workflow adapted by this audit; not a master-authored formula",
+        "action": "Use concentration only after explicit capacity, liquidity and loss-budget approval; do not copy anecdotal notional ratios.",
+        "required_data": [
+          "Expected asymmetric payoff",
+          "Stress losses",
+          "Correlated exposures",
+          "Exit and funding capacity"
+        ],
+        "invalidation_test": "A thesis break or failed survival test outweighs original conviction.",
+        "source_ids": [
+          "DRU-01",
+          "DRU-02"
+        ],
+        "beginning_2026_eligibility": {
+          "cutoff": "2026-01-01T00:00:00Z",
+          "status": "eligible_pre2026_native_principle_with_audit_adaptation",
+          "eligible_source_ids": [
+            "DRU-01",
+            "DRU-02"
+          ],
+          "excluded_or_uncertain_source_ids": [],
+          "reason": "Use the dated eligible sources only; prospective implementation must be frozen before outcome review.",
+          "publication_provenance_source_ids": [
+            "DRU-PUB-01",
+            "DRU-PUB-02"
+          ],
+          "public_availability_verified_by": "2015-04-13, with March 30 posting independently reported; no URL-derived publication assumption"
+        },
+        "evidence_anchors": [
+          {
+            "source_id": "DRU-01",
+            "url": "https://covestreetcapital.com/wp-content/uploads/2015/03/Druckenmiller-_Speech.pdf",
+            "locator_type": "pdf_page_and_section",
+            "locator": "Transcript pp.13-14: concentration discussion and rare opportunity paragraph",
+            "supporting_paraphrase": "Rare, compelling opportunities motivate concentration with close attention to the position.",
+            "supports": "native_principle",
+            "does_not_authenticate": "Audit action, input checklist and invalidation workflow remain analyst-adapted.",
+            "pdf_pages_1_based": [
+              13,
+              14
+            ]
+          },
+          {
+            "source_id": "DRU-02",
+            "url": "https://www.goldmansachs.com/insights/talks-at-gs/stanley-druckenmiller.html",
+            "locator_type": "web_named_section",
+            "locator": "On his approach to risk management, both paragraphs; On his investment process, second paragraph",
+            "supporting_paraphrase": "Focused concentration and the ability to change direction are separate disciplines.",
+            "supports": "native_principle",
+            "does_not_authenticate": "Audit action, input checklist and invalidation workflow remain analyst-adapted."
+          }
+        ],
+        "native_principle_attribution_status": "source-anchored principle, observation or firm disclosure; exact provenance recorded per anchor"
+      }
+    },
+    {
+      "rule_id": "DRU-R3",
+      "method_fact": "Flexible liquid asset classes create alternatives to dangerous markets.",
+      "method_fact_origin": "Native-principle paraphrase; action/thresholds are independent operationalization.",
+      "source_ids": [
+        "DRU-02"
+      ],
+      "claim_ids": [],
+      "our_design_questions": [
+        "Compare cash, currency, rates and equities rather than forcing an equity recommendation."
+      ],
+      "required_inputs": [
+        "Available permitted instruments",
+        "Liquidity",
+        "Different regime sensitivities",
+        "Mandate constraints"
+      ],
+      "falsifiers": [
+        "Abstain when no instrument meets required evidence and loss tolerance."
+      ],
+      "limits": [
+        "Operational workflow adapted by this audit; not a master-authored formula"
+      ],
+      "historical_eligibility": {
+        "status": "candidate_eligible_pending_review",
+        "eligible_source_ids": [
+          "DRU-02"
+        ],
+        "reason": "Use the dated eligible sources only; prospective implementation must be frozen before outcome review. Independent acceptance pending; historical exporter separately tests direct-method authority."
+      },
+      "original_record": {
+        "id": "DRU-R3",
+        "native_principle": "Flexible liquid asset classes create alternatives to dangerous markets.",
+        "implementation_status": "Operational workflow adapted by this audit; not a master-authored formula",
+        "action": "Compare cash, currency, rates and equities rather than forcing an equity recommendation.",
+        "required_data": [
+          "Available permitted instruments",
+          "Liquidity",
+          "Different regime sensitivities",
+          "Mandate constraints"
+        ],
+        "invalidation_test": "Abstain when no instrument meets required evidence and loss tolerance.",
+        "source_ids": [
+          "DRU-02"
+        ],
+        "beginning_2026_eligibility": {
+          "cutoff": "2026-01-01T00:00:00Z",
+          "status": "eligible_pre2026_native_principle_with_audit_adaptation",
+          "eligible_source_ids": [
+            "DRU-02"
+          ],
+          "excluded_or_uncertain_source_ids": [],
+          "reason": "Use the dated eligible sources only; prospective implementation must be frozen before outcome review."
+        },
+        "evidence_anchors": [
+          {
+            "source_id": "DRU-02",
+            "url": "https://www.goldmansachs.com/insights/talks-at-gs/stanley-druckenmiller.html",
+            "locator_type": "web_named_section",
+            "locator": "On his investment process, both paragraphs",
+            "supporting_paraphrase": "Liquid currencies and bonds enable flexibility and avoiding dangerous opportunities.",
+            "supports": "native_principle",
+            "does_not_authenticate": "Audit action, input checklist and invalidation workflow remain analyst-adapted."
+          }
+        ],
+        "native_principle_attribution_status": "source-anchored principle, observation or firm disclosure; exact provenance recorded per anchor"
+      }
+    },
+    {
+      "rule_id": "DRU-R4",
+      "method_fact": "Specialist input can reveal an emerging change before the general investor recognizes it.",
+      "method_fact_origin": "Native-principle paraphrase; action/thresholds are independent operationalization.",
+      "source_ids": [
+        "DRU-03",
+        "DFO-22Q4"
+      ],
+      "claim_ids": [],
+      "our_design_questions": [
+        "Record the specialist evidence separately from the allocator's confidence and test it against issuer filings."
+      ],
+      "required_inputs": [
+        "Domain-expert mechanism",
+        "Primary operating data",
+        "Investor expectations",
+        "Reasons the thesis could be a fad"
+      ],
+      "falsifiers": [
+        "No recommendation on enthusiasm alone; obtain security-specific corroboration."
+      ],
+      "limits": [
+        "Operational workflow adapted by this audit; not a master-authored formula"
+      ],
+      "historical_eligibility": {
+        "status": "excluded",
+        "eligible_source_ids": [],
+        "reason": "Native proposition in this audit relies on the 2026 interview; historical SEC holdings alone do not supply its method. Independent acceptance pending; historical exporter separately tests direct-method authority."
+      },
+      "original_record": {
+        "id": "DRU-R4",
+        "native_principle": "Specialist input can reveal an emerging change before the general investor recognizes it.",
+        "implementation_status": "Operational workflow adapted by this audit; not a master-authored formula",
+        "action": "Record the specialist evidence separately from the allocator's confidence and test it against issuer filings.",
+        "required_data": [
+          "Domain-expert mechanism",
+          "Primary operating data",
+          "Investor expectations",
+          "Reasons the thesis could be a fad"
+        ],
+        "invalidation_test": "No recommendation on enthusiasm alone; obtain security-specific corroboration.",
+        "source_ids": [
+          "DRU-03",
+          "DFO-22Q4"
+        ],
+        "beginning_2026_eligibility": {
+          "cutoff": "2026-01-01T00:00:00Z",
+          "status": "exclude_rule_from_beginning_2026_method_packet",
+          "eligible_source_ids": [
+            "DFO-22Q4"
+          ],
+          "excluded_or_uncertain_source_ids": [
+            "DRU-03"
+          ],
+          "reason": "Native proposition in this audit relies on the 2026 interview; historical SEC holdings alone do not supply its method."
+        },
+        "evidence_anchors": [
+          {
+            "source_id": "DRU-03",
+            "url": "https://www.morganstanley.com/insights/videos/hard-lessons/duquesne-stan-druckenmiller-iliana-bouzali",
+            "locator_type": "web_transcript_topic",
+            "locator": "AI-investment narrative: interviewer asks about recognizing the opportunity’s scale; partner and specialist-network discussion preceding the initial purchase",
+            "supporting_paraphrase": "Trusted specialist input helped him recognize an AI investment opportunity.",
+            "supports": "native_principle_post_cutoff_only",
+            "does_not_authenticate": "Audit action, input checklist and invalidation workflow remain analyst-adapted.",
+            "transcript_location_hint": "First transcript occurrence, paragraphs corresponding to rendered lines 247-255; locate by question, not unstable line numbers",
+            "public_date": "2026-02-27"
+          }
+        ],
+        "native_principle_attribution_status": "source-anchored principle, observation or firm disclosure; exact provenance recorded per anchor"
+      }
+    },
+    {
+      "rule_id": "DRU-R5",
+      "method_fact": "Technical/news-response signals can lose usefulness as others learn them.",
+      "method_fact_origin": "Native-principle paraphrase; action/thresholds are independent operationalization.",
+      "source_ids": [
+        "DRU-03"
+      ],
+      "claim_ids": [],
+      "our_design_questions": [
+        "Validate signal stability by era and implementation before including a chart-based rule."
+      ],
+      "required_inputs": [
+        "Out-of-sample signal history",
+        "Transaction costs",
+        "Crowding",
+        "Structural market changes"
+      ],
+      "falsifiers": [
+        "Retire a rule when current evidence fails; personal percentage estimates are not calibration."
+      ],
+      "limits": [
+        "Operational workflow adapted by this audit; not a master-authored formula"
+      ],
+      "historical_eligibility": {
+        "status": "excluded",
+        "eligible_source_ids": [],
+        "reason": "Native proposition in this audit relies on the 2026 interview; historical SEC holdings alone do not supply its method. Independent acceptance pending; historical exporter separately tests direct-method authority."
+      },
+      "original_record": {
+        "id": "DRU-R5",
+        "native_principle": "Technical/news-response signals can lose usefulness as others learn them.",
+        "implementation_status": "Operational workflow adapted by this audit; not a master-authored formula",
+        "action": "Validate signal stability by era and implementation before including a chart-based rule.",
+        "required_data": [
+          "Out-of-sample signal history",
+          "Transaction costs",
+          "Crowding",
+          "Structural market changes"
+        ],
+        "invalidation_test": "Retire a rule when current evidence fails; personal percentage estimates are not calibration.",
+        "source_ids": [
+          "DRU-03"
+        ],
+        "beginning_2026_eligibility": {
+          "cutoff": "2026-01-01T00:00:00Z",
+          "status": "exclude_rule_from_beginning_2026_method_packet",
+          "eligible_source_ids": [],
+          "excluded_or_uncertain_source_ids": [
+            "DRU-03"
+          ],
+          "reason": "Native proposition in this audit relies on the 2026 interview; historical SEC holdings alone do not supply its method."
+        },
+        "evidence_anchors": [
+          {
+            "source_id": "DRU-03",
+            "url": "https://www.morganstanley.com/insights/videos/hard-lessons/duquesne-stan-druckenmiller-iliana-bouzali",
+            "locator_type": "web_transcript_topic",
+            "locator": "Interview discussion of reduced reliance on technical analysis and market reaction to news; the following three answer paragraphs",
+            "supporting_paraphrase": "He reports less reliance on technical/news-response signals as competitors adopted them.",
+            "supports": "native_principle_post_cutoff_only",
+            "does_not_authenticate": "Audit action, input checklist and invalidation workflow remain analyst-adapted.",
+            "transcript_location_hint": "First transcript occurrence, paragraphs corresponding to rendered lines 266-271",
+            "public_date": "2026-02-27"
+          }
+        ],
+        "native_principle_attribution_status": "source-anchored principle, observation or firm disclosure; exact provenance recorded per anchor"
+      }
+    },
+    {
+      "rule_id": "DRU-R6",
+      "method_fact": "Knowing a rule does not prevent emotional re-entry.",
+      "method_fact_origin": "Native-principle paraphrase; action/thresholds are independent operationalization.",
+      "source_ids": [
+        "DRU-01",
+        "DRU-09"
+      ],
+      "claim_ids": [],
+      "our_design_questions": [
+        "Require an independent re-entry checklist and cool-off review after a correct exit or missed rally."
+      ],
+      "required_inputs": [
+        "Fresh thesis and valuation",
+        "Position-size justification",
+        "What changed since exit",
+        "Peer-performance/FOMO check"
+      ],
+      "falsifiers": [
+        "If the only change is peers making money, decline re-entry."
+      ],
+      "limits": [
+        "Operational workflow adapted by this audit; not a master-authored formula"
+      ],
+      "historical_eligibility": {
+        "status": "candidate_eligible_pending_review",
+        "eligible_source_ids": [
+          "DRU-01",
+          "DRU-09"
+        ],
+        "reason": "Use the dated eligible sources only; prospective implementation must be frozen before outcome review. Independent acceptance pending; historical exporter separately tests direct-method authority."
+      },
+      "original_record": {
+        "id": "DRU-R6",
+        "native_principle": "Knowing a rule does not prevent emotional re-entry.",
+        "implementation_status": "Operational workflow adapted by this audit; not a master-authored formula",
+        "action": "Require an independent re-entry checklist and cool-off review after a correct exit or missed rally.",
+        "required_data": [
+          "Fresh thesis and valuation",
+          "Position-size justification",
+          "What changed since exit",
+          "Peer-performance/FOMO check"
+        ],
+        "invalidation_test": "If the only change is peers making money, decline re-entry.",
+        "source_ids": [
+          "DRU-01",
+          "DRU-09"
+        ],
+        "beginning_2026_eligibility": {
+          "cutoff": "2026-01-01T00:00:00Z",
+          "status": "eligible_pre2026_native_principle_with_audit_adaptation",
+          "eligible_source_ids": [
+            "DRU-01",
+            "DRU-09"
+          ],
+          "excluded_or_uncertain_source_ids": [],
+          "reason": "Use the dated eligible sources only; prospective implementation must be frozen before outcome review.",
+          "publication_provenance_source_ids": [
+            "DRU-PUB-01",
+            "DRU-PUB-02"
+          ],
+          "public_availability_verified_by": "2015-04-13, with March 30 posting independently reported; no URL-derived publication assumption"
+        },
+        "evidence_anchors": [
+          {
+            "source_id": "DRU-01",
+            "url": "https://covestreetcapital.com/wp-content/uploads/2015/03/Druckenmiller-_Speech.pdf",
+            "locator_type": "pdf_page_and_section",
+            "locator": "Transcript pp.39-40: January 2000 exit, frustration at others’ gains, emotional re-entry and admission",
+            "supporting_paraphrase": "Emotional re-entry overrode discipline he says he already understood.",
+            "supports": "first_person_case_derived_principle",
+            "does_not_authenticate": "Audit action, input checklist and invalidation workflow remain analyst-adapted.",
+            "pdf_pages_1_based": [
+              39,
+              40
+            ]
+          }
+        ],
+        "native_principle_attribution_status": "case-derived audit synthesis"
+      }
+    }
+  ],
+  "source_records": [
+    {
+      "id": "DFO-22Q4",
+      "title": "Duquesne Family Office SEC 13F information table",
+      "url": "https://www.sec.gov/Archives/edgar/data/1536411/000153641123000003/xslForm13F_X02/form13f_20221231.xml",
+      "date": "2022-12-31",
+      "kind": "regulatory filing primary",
+      "access": "inspected Nvidia common and option rows",
+      "limits": "CIK 1536411. 2023/24 value fields appear thousand-scaled despite rendered nearest-dollar header; preserve raw fields and withhold dollar/weight normalization pending validation. Share quantities are reported units.",
+      "locator": "",
+      "retrieved_at": "2026-10-13",
+      "source_date_semantics": "The date field may describe an original event/report. Use publication_visibility below for temporal decision-packet eligibility.",
+      "publication_visibility": {
+        "original_publication_or_filing_date": "2023-02-14",
+        "date_precision": "day",
+        "public_republication_date": "unknown where current author/firm page is a republication",
+        "eligibility_before_2026": "eligible_dated_original_content",
+        "provenance_caveat": "A dated original first-person source reproduced on a current host is not an immutable archive of every historical version."
+      }
+    },
+    {
+      "id": "DRU-01",
+      "title": "Stanley Druckenmiller: Lost Tree Club speech",
+      "url": "https://covestreetcapital.com/wp-content/uploads/2015/03/Druckenmiller-_Speech.pdf",
+      "date": "2015-01-18",
+      "kind": "first-person speech transcript, third-party public host",
+      "access": "selected sections OCR / visual inspection",
+      "limits": "Scanned 48-page document. Selected pages 13-18, 21-23 and 38-40 checked via OCR or direct image inspection. No independently authenticated fund ledger. SHA256 5759ffd62681f0a28ee0fa02009b5173ce9c67f23d99ea411ef400c2f80a51d0.",
+      "locator": "Transcript pp.21-22: UK housing/recession versus Germany/reunification and linked-currency discussion | Transcript p.16 last paragraph continuing onto p.17 first paragraph: mentor’s central-bank/liquidity lesson | Transcript p.16: first of mentor’s two lessons, the 18-month forward situation | Transcript pp.13-14: concentration discussion and rare opportunity paragraph | Transcript pp.39-40: January 2000 exit, frustration at others’ gains, emotional re-entry and admission",
+      "retrieved_at": "2026-10-13",
+      "source_date_semantics": "The date field may describe an original event/report. Use publication_visibility below for temporal decision-packet eligibility.",
+      "publication_visibility": {
+        "original_public_event_date": "2015-01-18",
+        "original_publication_or_filing_date": null,
+        "latest_pre2026_bound": "2015-04-13",
+        "date_precision": "directly corroborated public-availability upper bound",
+        "reported_initial_posting_date": "2015-03-30",
+        "reported_posting_date_source_ids": [
+          "DRU-PUB-01"
+        ],
+        "independent_public_before_cutoff_source_ids": [
+          "DRU-PUB-02"
+        ],
+        "basis": "GitHub records a public text transcription created April 13, 2015; relevant passages match the reviewed scan. A contemporaneous April 13 report independently states Cove Street posting March 30. The /2015/03/ URL is no longer used as publication proof.",
+        "eligibility_before_2026": "eligible_public_availability_corroborated_original_content",
+        "provenance_caveat": "First-person 2015 speech via third-party transcript. No immutable 2015 snapshot of the exact currently downloaded PDF bytes obtained; preserved 2026 download hash is a current-content integrity check, not historical byte identity."
+      }
+    },
+    {
+      "id": "DRU-02",
+      "title": "Goldman Sachs: Talks at GS, Stanley Druckenmiller",
+      "url": "https://www.goldmansachs.com/insights/talks-at-gs/stanley-druckenmiller.html",
+      "date": "recorded 2021-01-21; posted 2021-02-03",
+      "kind": "original interview on host institution site",
+      "access": "selected content inspected",
+      "limits": "Public interview, not a dated position/risk report.",
+      "locator": "On his approach to risk management, both paragraphs; On his investment process, second paragraph | On his investment process, both paragraphs",
+      "retrieved_at": "2026-10-13",
+      "source_date_semantics": "The date field may describe an original event/report. Use publication_visibility below for temporal decision-packet eligibility.",
+      "publication_visibility": {
+        "original_publication_or_filing_date": "2021-02-03",
+        "date_precision": "day",
+        "public_republication_date": "unknown where current author/firm page is a republication",
+        "eligibility_before_2026": "eligible_dated_original_content",
+        "provenance_caveat": "A dated original first-person source reproduced on a current host is not an immutable archive of every historical version."
+      }
+    },
+    {
+      "id": "DRU-03",
+      "title": "Morgan Stanley: Hard Lessons, Stan Druckenmiller",
+      "url": "https://www.morganstanley.com/insights/videos/hard-lessons/duquesne-stan-druckenmiller-iliana-bouzali",
+      "date": "recorded 2026-01-30; posted 2026-02-27",
+      "kind": "original interview and transcript on host institution site",
+      "access": "inspected relevant transcript",
+      "limits": "Nvidia entry, sizing and profit are retrospective self-reports. Technical-effectiveness percentages are personal opinions, not measured backtests.",
+      "locator": "AI-investment narrative: interviewer asks about recognizing the opportunity’s scale; partner and specialist-network discussion preceding the initial purchase | Interview discussion of reduced reliance on technical analysis and market reaction to news; the following three answer paragraphs",
+      "retrieved_at": "2026-10-13",
+      "source_date_semantics": "The date field may describe an original event/report. Use publication_visibility below for temporal decision-packet eligibility.",
+      "publication_visibility": {
+        "original_publication_or_filing_date": "2026-02-27",
+        "date_precision": "day",
+        "public_republication_date": "unknown where current author/firm page is a republication",
+        "eligibility_before_2026": "excluded_post_cutoff",
+        "provenance_caveat": "A dated original first-person source reproduced on a current host is not an immutable archive of every historical version."
+      }
+    },
+    {
+      "id": "DRU-09",
+      "title": "WSJ tech-loss story reproduced in LBO-Talk archive",
+      "url": "https://mailman.lbo-talk.org/2000/2000-May/010724.html",
+      "date": "2000-05-22",
+      "kind": "third-party reproduction of contemporary reporting",
+      "access": "selected passages inspected",
+      "limits": "Original WSJ publication not independently retrieved. Anonymous descriptions of prior meetings are not authenticated pretrade documents.",
+      "locator": "",
+      "retrieved_at": "2026-10-13",
+      "source_date_semantics": "The date field may describe an original event/report. Use publication_visibility below for temporal decision-packet eligibility.",
+      "publication_visibility": {
+        "original_publication_or_filing_date": "2000-05-22",
+        "date_precision": "day",
+        "public_republication_date": "unknown where current author/firm page is a republication",
+        "eligibility_before_2026": "eligible_dated_original_content",
+        "provenance_caveat": "A dated original first-person source reproduced on a current host is not an immutable archive of every historical version."
+      }
+    }
+  ],
+  "evidence_artifacts": [
+    {
+      "path": "current-library/macro/dalio.json",
+      "sha256": "34193462000cc56fd4b625c8caf5bd9d6d765a1719228558484c4d18b42d63c5",
+      "content_kind": "current evidence including holdings/cases/limits; forbidden to historical workers"
+    },
+    {
+      "path": "current-library/macro/soros.json",
+      "sha256": "f23c1efc21e831ead2ed69477a13c51096d57bd3966d55f49a4fc8c950738284",
+      "content_kind": "current evidence including holdings/cases/limits; forbidden to historical workers"
+    },
+    {
+      "path": "current-library/macro/druckenmiller.json",
+      "sha256": "7a1fd864543722bb4f05876906a75151ed6fcf27dedf4e213aed7b15af6d8941",
+      "content_kind": "current evidence including holdings/cases/limits; forbidden to historical workers"
+    },
+    {
+      "path": "current-library/macro/sources.json",
+      "sha256": "9ade79aac0adaa40a968d16a735ab5bf68df627f8be3a3d2845e6fa99b17cf89",
+      "content_kind": "current evidence including holdings/cases/limits; forbidden to historical workers"
+    },
+    {
+      "path": "current-library/macro/common-audit-rules.json",
+      "sha256": "d04d3dff923788144937e8d025855368b0c6c26f7f8e3c3b27563f0275a8e573",
+      "content_kind": "current evidence including holdings/cases/limits; forbidden to historical workers"
+    },
+    {
+      "path": "current-library/macro/method-cutoff-2026.json",
+      "sha256": "da1a3c4060446ef95283fd1e103a58951fd444dc15d552dfa345262fd6b3bd44",
+      "content_kind": "current evidence including holdings/cases/limits; forbidden to historical workers"
+    },
+    {
+      "path": "current-library/macro/candidate-cases.json",
+      "sha256": "3ee31ff1c7603c31e300586da623c130eb2c7ea9ef232ec1a1d6a2f3c358d417",
+      "content_kind": "current evidence including holdings/cases/limits; forbidden to historical workers"
+    },
+    {
+      "path": "current-library/macro/rework1-tests.json",
+      "sha256": "9ac348c80adf247f6befd429db10adea23333c595fd325277fd93bd304acb4fd",
+      "content_kind": "current evidence including holdings/cases/limits; forbidden to historical workers"
+    }
+  ],
+  "corpus_limits": [
+    "{\"reviewed\": \"Named original 2021/2026 institutional interviews, selected Lost Tree transcript pages, five SEC Nvidia tables and split filing, June 2023 public-thesis report and qualified May 2000 press reproduction.\", \"not_reviewed\": \"Every speech, full Lost Tree pages, original historical fund letters, complete Schwager interview, all DFO filings/amendments or full current macro book.\", \"limits\": \"No authenticated authored monograph or original pretrade GBP/tech/Nvidia memo found within the bounded search; absence is not proof none exists.\"}"
+  ],
+  "normalization": {
+    "original_dossier_path": "macro/druckenmiller.json",
+    "original_dossier_sha256": "7a1fd864543722bb4f05876906a75151ed6fcf27dedf4e213aed7b15af6d8941",
+    "field_mapping": {
+      "method_fact": "/rules/*/native_principle",
+      "our_design_questions": "/rules/*/action",
+      "falsifiers": "/rules/*/invalidation_test",
+      "sources": "/rules/*/source_ids joins macro/sources.json",
+      "historical_eligibility": "/rules/*/beginning_2026_eligibility; publication_visibility retained"
+    },
+    "raw_evidence_preserved": true,
+    "source_audit_receipt_sha256": "5f1e2b12aacfe6af28d6db21240aa98ce3a38c51c712cd1d55003dd5393083ff"
+  }
+}

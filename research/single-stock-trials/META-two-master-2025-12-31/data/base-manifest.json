@@ -1,0 +1,13 @@
+{
+  "ticker": "META",
+  "decision_cutoff": "2025-12-31T23:59:59Z",
+  "identical_base_for": [
+    "buffett",
+    "chase_coleman"
+  ],
+  "fact_count": 262,
+  "sha256": {
+    "base-public-data.md": "5b32145f177e80a9a83dc3762d7b7a394d31f30be9530a1fc9e1863b9d637292",
+    "facts.json": "d447a9af9c882a4af70d8bd992a020b020a3dc0e7f2f1faf21323ef9dccdeae8"
+  }
+}

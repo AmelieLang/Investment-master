@@ -1,0 +1,47 @@
+{
+  "schema_version": "historical-finterm-procedural-card/v0.1-candidate",
+  "transport_status": "candidate_pending_exact_content_acceptance",
+  "card_id": "B04",
+  "title": "Test Cost, Scale, Switching, Network, and Efficient-Scale Advantages",
+  "intent": [
+    "financial-analysis",
+    "memo-review",
+    "thesis-evaluation"
+  ],
+  "origin_label": "Finterm MIT editorial procedural framework, retrospective implementation under test; not proof of a native investor algorithm.",
+  "historical_source_fact_ids_if_any": [],
+  "source_repository": "finterm-ai/investment-skills",
+  "source_pin": "7235d3411601036cc79137fa0aec0d587f2c8e19",
+  "source_path": "vendor/finterm/references/02-business-economics.md",
+  "source_file_sha256": "839e3d8a80441f13a0f33eb4e19d8b175f97effa3c80a9abac0405ee8eb94afc",
+  "selected_fragment_sha256": "fe05d15003211e2d4e47c505790aace72767b9ac3e438ef848332eb1d85da903",
+  "source_fragment_locator": {
+    "line_start_1_based": 96,
+    "line_end_1_based": 109,
+    "sha256": "fe05d15003211e2d4e47c505790aace72767b9ac3e438ef848332eb1d85da903",
+    "bytes": 905
+  },
+  "procedural_question": "Does a non-brand mechanism durably alter delivered cost,\n  customer switching, competitor entry, or network utility?",
+  "guidance": "Verify each mechanism through unit-cost, customer, network, or entry\n  evidence; do not infer durability from size alone.",
+  "applicability": "A thesis rests on low cost, scale, switching costs, network effects,\n  scarce capacity, or efficient scale.",
+  "procedural_actions": "Quantify the claimed difference; test whether rivals can copy\n  or bypass it; track switching, network density, entry, and delivered cost.",
+  "output_contract": "A mechanism-specific advantage table with causal link, rival response,\n  durability, and unresolved evidence.",
+  "limits": "Scale can add complexity, switching can be inertia, networks can reverse,\n  and temporary efficiency is not a moat.",
+  "required_questions": [
+    "Does a non-brand mechanism durably alter delivered cost,\n  customer switching, competitor entry, or network utility?"
+  ],
+  "falsifiers_and_contrary_checks": {
+    "standalone_falsifier_field_in_original": false,
+    "preserved_original_action_text": "Quantify the claimed difference; test whether rivals can copy\n  or bypass it; track switching, network density, entry, and delivered cost.",
+    "preserved_original_limit_text": "Scale can add complexity, switching can be inertia, networks can reverse,\n  and temporary efficiency is not a moat.",
+    "interpretation": "Use these exact original action/limit tests; this projection supplies no invented card-specific falsifier or calibrated probability."
+  },
+  "evidence_scope": "Only admitted supplied immutable historical evidence and explicitly labelled frozen assumptions. Any generic request to search, compare, classify new evidence or monitor is confined to that packet; no live retrieval or later-data monitoring is authorized.",
+  "procedural_fragment_verbatim": "### B04 — Test Cost, Scale, Switching, Network, and Efficient-Scale Advantages\n\n- **Decision question:** Does a non-brand mechanism durably alter delivered cost,\n  customer switching, competitor entry, or network utility?\n- **Guidance:** Verify each mechanism through unit-cost, customer, network, or entry\n  evidence; do not infer durability from size alone.\n- **Use when:** A thesis rests on low cost, scale, switching costs, network effects,\n  scarce capacity, or efficient scale.\n- **Analytical actions:** Quantify the claimed difference; test whether rivals can copy\n  or bypass it; track switching, network density, entry, and delivered cost.\n- **Output:** A mechanism-specific advantage table with causal link, rival response,\n  durability, and unresolved evidence.\n- **Limits:** Scale can add complexity, switching can be inertia, networks can reverse,\n  and temporary efficiency is not a moat.\n",
+  "projection_limits": [
+    "Editorial guidance only; not an authenticated native Buffett or other master algorithm.",
+    "No source-basis or corroboration factual claims are transported.",
+    "No company fact, dated company example, holding, case result, prior opinion or actual outcome is included.",
+    "Absent prerequisites leave the corresponding branch unresolved."
+  ]
+}
