@@ -1,0 +1,100 @@
+{
+  "scope": "Four exploratory native single-master calls; no provider-level attestation or live Feishu routing claim",
+  "common_contract_sha256": "cca28a7c6877faa30019ac5d6e709ecc5ac8fa44be1be8fcbe349f60a9b5c5ae",
+  "base_sha256": "5b32145f177e80a9a83dc3762d7b7a394d31f30be9530a1fc9e1863b9d637292",
+  "facts_sha256": "d447a9af9c882a4af70d8bd992a020b020a3dc0e7f2f1faf21323ef9dccdeae8",
+  "requested_model": "gpt-6.1-sol",
+  "reasoning_effort": "xhigh",
+  "fork_turns": "none",
+  "runs": [
+    {
+      "task_name": "/root/run_meta_buffett_base",
+      "master": "buffett",
+      "condition": "base",
+      "spawn_confirmed": true,
+      "spawn_time_utc": "2026-10-14T04:40:34Z"
+    },
+    {
+      "task_name": "/root/run_meta_coleman_base",
+      "master": "coleman",
+      "condition": "base",
+      "spawn_confirmed": true,
+      "spawn_time_utc": "2026-10-14T04:40:47Z"
+    },
+    {
+      "task_name": "/root/run_meta_buffett_enriched",
+      "master": "buffett",
+      "condition": "enriched",
+      "spawn_confirmed": true,
+      "spawn_time_utc": "2026-10-14T04:41:52Z"
+    },
+    {
+      "task_name": "/root/run_meta_coleman_enriched",
+      "master": "coleman",
+      "condition": "enriched",
+      "spawn_confirmed": true,
+      "spawn_time_utc": "2026-10-14T04:42:07Z"
+    },
+    {
+      "task_name": "/root/run_meta_coleman_control_base",
+      "master": "coleman",
+      "condition": "controlled-base",
+      "spawn_confirmed": true,
+      "spawn_time_utc": "2026-10-14T04:53:05Z"
+    },
+    {
+      "task_name": "/root/run_meta_coleman_control_enriched",
+      "master": "coleman",
+      "condition": "controlled-enriched",
+      "spawn_confirmed": true,
+      "spawn_time_utc": "2026-10-14T04:53:19Z"
+    }
+  ],
+  "enrichment_sha256": "9fab9ecec66bb210900527ee147c50ebd2490a61309c4368488050b58be8759d",
+  "controlled_correction": {
+    "round": 1,
+    "reason": "Original Coleman conditions used different valuation families; preserve originals and test shared analyst worksheet",
+    "worksheet_sha256": "4ee21b802229de72297bf6d3279b42a98eec0771beb33e534680704b1872a3cb",
+    "scope": "two fresh Coleman calls only; no rewrite of native method"
+  },
+  "final_outputs": {
+    "buffett-base": {
+      "original-report.md": "245bf46d0de295723c421c69b032c29f53b130e8e80c28758edb137c90cb2397",
+      "calculations.json": "53474ef4edb552dbc789da93ddceb9a0dd670a11600bac6668ee8b5c8e507cc5",
+      "evidence-use.json": "560fca6e6e9faa85827618a2d3f9d3af62d3ed9aab74a4b5a350ddd2a15581e4"
+    },
+    "buffett-enriched": {
+      "original-report.md": "fce1f59c98ebc18514ad1496883cc0eedd4a90db4075eee787aad452cd82532b",
+      "calculations.json": "3287021cd7527953ced240c30d4ca9c9d7be7f723d133bea36f52ebffa6003ab",
+      "evidence-use.json": "29973289d59b12a22d6224a954cf16d7cbcaf9a843fa638d4fba7698f3630f8c"
+    },
+    "coleman-base": {
+      "original-report.md": "ecd9e65cec027977bde14cbff79e9254a9c609b944d4cef6399c4ab52b125e45",
+      "calculations.json": "9b9c6f62fb6d3ec4514e65a50204352437deff462dc72e4aebca8b0036234443",
+      "evidence-use.json": "b86015e5a3dfff0ca3020bb0238b95dfd07d2f1ee22930d0fb6b6f1ef6da0412"
+    },
+    "coleman-enriched": {
+      "original-report.md": "c3bfab4d491e556bba5a0faf4a5ea28b2640f601bd9b905c4b751f775c80325e",
+      "calculations.json": "4303da3125a5a4ee02a1314d7f9d5a2f5a0e123d8c8781b60c1ab82be80c32b0",
+      "evidence-use.json": "4aa1813fbed8e0f4dd10e99eaeef19ba6b5619fadecf11f4d0add1ed8b9e2b0f"
+    },
+    "coleman-controlled-base": {
+      "original-report.md": "036441fa336c2b90bc77ab6aef46ec1c3a64f4c946b16774e78d7a63ff8785ae",
+      "calculations.json": "efac06163432f0d06fb2cbd1daf892170b3a8c35a32a11b56efad9b2f6002a02",
+      "evidence-use.json": "ed096fc01953c40c97b26ea695786f818c2251dab395fd8d145b564632e12426"
+    },
+    "coleman-controlled-enriched": {
+      "original-report.md": "1b4b8e6361fc91feba176e3d68270b9a319d5185777a127171753217afd253c3",
+      "calculations.json": "d9eb09c9adc0b34b7190296b258f95d84274a5b23759d3fe9ba21cd74ccddb1c",
+      "evidence-use.json": "38fe180f33a28e3cf9fbf0c0d4c726eb7e4d9fc5f8fc1f7e1114b105ed4b0cc9"
+    }
+  },
+  "recorded_final_utc": "2026-10-14T05:05:15.118217+00:00",
+  "opinion_calls_completed": 6,
+  "scope_limits": [
+    "Native spawn settings and reported input delivery, not provider-level attestation",
+    "Independent supplied contexts, not OS-level file-access isolation",
+    "Historical research reconstruction, not prospective or realized-return backtest",
+    "No live Feishu routing, production publishing or automatic installed-Skill retrieval tested"
+  ]
+}

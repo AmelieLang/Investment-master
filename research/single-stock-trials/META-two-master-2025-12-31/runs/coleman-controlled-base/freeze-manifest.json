@@ -1,0 +1,23 @@
+{
+  "schema": "coleman-controlled-readonly-freeze.v1",
+  "condition": "base_only",
+  "frozen_at_UTC": "2026-10-14T05:00:49.886811+00:00",
+  "purpose": "Original report preserved before any outside review; independent run deliverables read-only.",
+  "sha256": {
+    "original-report.md": "036441fa336c2b90bc77ab6aef46ec1c3a64f4c946b16774e78d7a63ff8785ae",
+    "calculations.json": "efac06163432f0d06fb2cbd1daf892170b3a8c35a32a11b56efad9b2f6002a02",
+    "evidence-use.json": "ed096fc01953c40c97b26ea695786f818c2251dab395fd8d145b564632e12426",
+    "build_calculations.py": "2df25a6335328e3d25ed614f9f708d1b956dd7b337b388065a3bfaac4aca0f1a",
+    "build_evidence.py": "87323d259fadaf9854622ea32de97b7c75fab81a3611e43f642e31ec92fd3808"
+  },
+  "output_mode": "0444",
+  "input_sha256": {
+    "contract": "cca28a7c6877faa30019ac5d6e709ecc5ac8fa44be1be8fcbe349f60a9b5c5ae",
+    "analyst_worksheet": "4ee21b802229de72297bf6d3279b42a98eec0771beb33e534680704b1872a3cb",
+    "original_skill": "740ab11d4a19a1cf3a7b572fa2807b56f5535adbd8476acfcb89fd3b18f19a5d",
+    "original_required_reference": "23c4234b4c7572cd25032c646cdbab68f405ffe255645ccb0d2447b59a8e73b1",
+    "base_public_data": "5b32145f177e80a9a83dc3762d7b7a394d31f30be9530a1fc9e1863b9d637292",
+    "facts": "d447a9af9c882a4af70d8bd992a020b020a3dc0e7f2f1faf21323ef9dccdeae8",
+    "base_manifest": "c45293ae4c5df17fd22a90f8069732109ec4964b0113c9005e89763df40b6c8e"
+  }
+}

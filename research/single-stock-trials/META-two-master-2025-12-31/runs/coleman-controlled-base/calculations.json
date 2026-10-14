@@ -1,0 +1,779 @@
+{
+  "schema": "coleman-controlled-calculations.v1",
+  "ticker": "META",
+  "decision_cutoff": "2025-12-31T23:59:59Z",
+  "arithmetic": "Independent, ordinary Python arithmetic written for this call; no upstream executable run.",
+  "units": "USD million for earnings/cash; million shares for denominators; USD/share for prices/EPS; explicit percent or decimal for rates.",
+  "historical_and_proxy_calculations": [
+    {
+      "calculation_id": "ttm_revenue",
+      "classification": "historical_derived",
+      "formula": "FY2024 + YTD9_2025 - YTD9_2024",
+      "input_fact_ids": [
+        "META.FY2024.revenue",
+        "META.YTD9_2025.revenue",
+        "META.YTD9_2024.revenue"
+      ],
+      "inputs": {
+        "META.FY2024.revenue": {
+          "value": 164501,
+          "unit": "USD million",
+          "period_id": "FY2024"
+        },
+        "META.YTD9_2025.revenue": {
+          "value": 141073,
+          "unit": "USD million",
+          "period_id": "YTD9_2025"
+        },
+        "META.YTD9_2024.revenue": {
+          "value": 116116,
+          "unit": "USD million",
+          "period_id": "YTD9_2024"
+        }
+      },
+      "result": 189458,
+      "output_unit": "USD million",
+      "limitations": "Period 2024-10-01 through 2025-09-30; not FY2025 actual."
+    },
+    {
+      "calculation_id": "ttm_operating_income",
+      "classification": "historical_derived",
+      "formula": "FY2024 + YTD9_2025 - YTD9_2024",
+      "input_fact_ids": [
+        "META.FY2024.operating_income",
+        "META.YTD9_2025.operating_income",
+        "META.YTD9_2024.operating_income"
+      ],
+      "inputs": {
+        "META.FY2024.operating_income": {
+          "value": 69380,
+          "unit": "USD million",
+          "period_id": "FY2024"
+        },
+        "META.YTD9_2025.operating_income": {
+          "value": 58531,
+          "unit": "USD million",
+          "period_id": "YTD9_2025"
+        },
+        "META.YTD9_2024.operating_income": {
+          "value": 46016,
+          "unit": "USD million",
+          "period_id": "YTD9_2024"
+        }
+      },
+      "result": 81895,
+      "output_unit": "USD million",
+      "limitations": "Period 2024-10-01 through 2025-09-30; not FY2025 actual."
+    },
+    {
+      "calculation_id": "ttm_net_income_gaap",
+      "classification": "historical_derived",
+      "formula": "FY2024 + YTD9_2025 - YTD9_2024",
+      "input_fact_ids": [
+        "META.FY2024.net_income_gaap",
+        "META.YTD9_2025.net_income_gaap",
+        "META.YTD9_2024.net_income_gaap"
+      ],
+      "inputs": {
+        "META.FY2024.net_income_gaap": {
+          "value": 62360,
+          "unit": "USD million",
+          "period_id": "FY2024"
+        },
+        "META.YTD9_2025.net_income_gaap": {
+          "value": 37690,
+          "unit": "USD million",
+          "period_id": "YTD9_2025"
+        },
+        "META.YTD9_2024.net_income_gaap": {
+          "value": 41522,
+          "unit": "USD million",
+          "period_id": "YTD9_2024"
+        }
+      },
+      "result": 58528,
+      "output_unit": "USD million",
+      "limitations": "Period 2024-10-01 through 2025-09-30; not FY2025 actual."
+    },
+    {
+      "calculation_id": "ttm_cfo",
+      "classification": "historical_derived",
+      "formula": "FY2024 + YTD9_2025 - YTD9_2024",
+      "input_fact_ids": [
+        "META.FY2024.cfo",
+        "META.YTD9_2025.cfo",
+        "META.YTD9_2024.cfo"
+      ],
+      "inputs": {
+        "META.FY2024.cfo": {
+          "value": 91328,
+          "unit": "USD million",
+          "period_id": "FY2024"
+        },
+        "META.YTD9_2025.cfo": {
+          "value": 79586,
+          "unit": "USD million",
+          "period_id": "YTD9_2025"
+        },
+        "META.YTD9_2024.cfo": {
+          "value": 63340,
+          "unit": "USD million",
+          "period_id": "YTD9_2024"
+        }
+      },
+      "result": 107574,
+      "output_unit": "USD million",
+      "limitations": "Period 2024-10-01 through 2025-09-30; not FY2025 actual."
+    },
+    {
+      "calculation_id": "ttm_cash_ppe_outflow",
+      "classification": "historical_derived",
+      "formula": "FY2024 + YTD9_2025 - YTD9_2024",
+      "input_fact_ids": [
+        "META.FY2024.cash_ppe_outflow",
+        "META.YTD9_2025.cash_ppe_outflow",
+        "META.YTD9_2024.cash_ppe_outflow"
+      ],
+      "inputs": {
+        "META.FY2024.cash_ppe_outflow": {
+          "value": 37256,
+          "unit": "USD million",
+          "period_id": "FY2024"
+        },
+        "META.YTD9_2025.cash_ppe_outflow": {
+          "value": 48308,
+          "unit": "USD million",
+          "period_id": "YTD9_2025"
+        },
+        "META.YTD9_2024.cash_ppe_outflow": {
+          "value": 22831,
+          "unit": "USD million",
+          "period_id": "YTD9_2024"
+        }
+      },
+      "result": 62733,
+      "output_unit": "USD million",
+      "limitations": "Period 2024-10-01 through 2025-09-30; not FY2025 actual."
+    },
+    {
+      "calculation_id": "ttm_finance_lease_principal",
+      "classification": "historical_derived",
+      "formula": "FY2024 + YTD9_2025 - YTD9_2024",
+      "input_fact_ids": [
+        "META.FY2024.finance_lease_principal",
+        "META.YTD9_2025.finance_lease_principal",
+        "META.YTD9_2024.finance_lease_principal"
+      ],
+      "inputs": {
+        "META.FY2024.finance_lease_principal": {
+          "value": 1969,
+          "unit": "USD million",
+          "period_id": "FY2024"
+        },
+        "META.YTD9_2025.finance_lease_principal": {
+          "value": 1770,
+          "unit": "USD million",
+          "period_id": "YTD9_2025"
+        },
+        "META.YTD9_2024.finance_lease_principal": {
+          "value": 1558,
+          "unit": "USD million",
+          "period_id": "YTD9_2024"
+        }
+      },
+      "result": 2181,
+      "output_unit": "USD million",
+      "limitations": "Period 2024-10-01 through 2025-09-30; not FY2025 actual."
+    },
+    {
+      "calculation_id": "ttm_company_fcf",
+      "classification": "historical_derived",
+      "formula": "FY2024 + YTD9_2025 - YTD9_2024",
+      "input_fact_ids": [
+        "META.FY2024.company_fcf",
+        "META.YTD9_2025.company_fcf",
+        "META.YTD9_2024.company_fcf"
+      ],
+      "inputs": {
+        "META.FY2024.company_fcf": {
+          "value": 52103,
+          "unit": "USD million",
+          "period_id": "FY2024"
+        },
+        "META.YTD9_2025.company_fcf": {
+          "value": 29508,
+          "unit": "USD million",
+          "period_id": "YTD9_2025"
+        },
+        "META.YTD9_2024.company_fcf": {
+          "value": 38951,
+          "unit": "USD million",
+          "period_id": "YTD9_2024"
+        }
+      },
+      "result": 42660,
+      "output_unit": "USD million",
+      "limitations": "Period 2024-10-01 through 2025-09-30; not FY2025 actual."
+    },
+    {
+      "calculation_id": "ttm_sbc",
+      "classification": "historical_derived",
+      "formula": "FY2024 + YTD9_2025 - YTD9_2024",
+      "input_fact_ids": [
+        "META.FY2024.sbc",
+        "META.YTD9_2025.sbc",
+        "META.YTD9_2024.sbc"
+      ],
+      "inputs": {
+        "META.FY2024.sbc": {
+          "value": 16690,
+          "unit": "USD million",
+          "period_id": "FY2024"
+        },
+        "META.YTD9_2025.sbc": {
+          "value": 14537,
+          "unit": "USD million",
+          "period_id": "YTD9_2025"
+        },
+        "META.YTD9_2024.sbc": {
+          "value": 12428,
+          "unit": "USD million",
+          "period_id": "YTD9_2024"
+        }
+      },
+      "result": 18799,
+      "output_unit": "USD million",
+      "limitations": "Period 2024-10-01 through 2025-09-30; not FY2025 actual."
+    },
+    {
+      "calculation_id": "q3_revenue_growth",
+      "classification": "historical_ratio",
+      "formula": "(current / prior - 1) * 100",
+      "input_fact_ids": [
+        "META.Q3_2025.revenue",
+        "META.Q3_2024.revenue"
+      ],
+      "inputs": {
+        "META.Q3_2025.revenue": {
+          "value": 51242,
+          "unit": "USD million",
+          "period_id": "Q3_2025"
+        },
+        "META.Q3_2024.revenue": {
+          "value": 40589,
+          "unit": "USD million",
+          "period_id": "Q3_2024"
+        }
+      },
+      "result": 26.246027248761973,
+      "output_unit": "percent",
+      "limitations": ""
+    },
+    {
+      "calculation_id": "q3_foa_income_growth",
+      "classification": "historical_ratio",
+      "formula": "(current / prior - 1) * 100",
+      "input_fact_ids": [
+        "META.Q3_2025.foa_operating_income",
+        "META.Q3_2024.foa_operating_income"
+      ],
+      "inputs": {
+        "META.Q3_2025.foa_operating_income": {
+          "value": 24967,
+          "unit": "USD million",
+          "period_id": "Q3_2025"
+        },
+        "META.Q3_2024.foa_operating_income": {
+          "value": 21778,
+          "unit": "USD million",
+          "period_id": "Q3_2024"
+        }
+      },
+      "result": 14.643217926347685,
+      "output_unit": "percent",
+      "limitations": ""
+    },
+    {
+      "calculation_id": "ytd_company_fcf_growth",
+      "classification": "historical_ratio",
+      "formula": "(current / prior - 1) * 100",
+      "input_fact_ids": [
+        "META.YTD9_2025.company_fcf",
+        "META.YTD9_2024.company_fcf"
+      ],
+      "inputs": {
+        "META.YTD9_2025.company_fcf": {
+          "value": 29508,
+          "unit": "USD million",
+          "period_id": "YTD9_2025"
+        },
+        "META.YTD9_2024.company_fcf": {
+          "value": 38951,
+          "unit": "USD million",
+          "period_id": "YTD9_2024"
+        }
+      },
+      "result": -24.243280018484757,
+      "output_unit": "percent",
+      "limitations": ""
+    },
+    {
+      "calculation_id": "ytd_cash_capex_growth",
+      "classification": "historical_ratio",
+      "formula": "(current / prior - 1) * 100",
+      "input_fact_ids": [
+        "META.YTD9_2025.cash_capex_including_finance_leases",
+        "META.YTD9_2024.cash_capex_including_finance_leases"
+      ],
+      "inputs": {
+        "META.YTD9_2025.cash_capex_including_finance_leases": {
+          "value": 50078,
+          "unit": "USD million",
+          "period_id": "YTD9_2025"
+        },
+        "META.YTD9_2024.cash_capex_including_finance_leases": {
+          "value": 24389,
+          "unit": "USD million",
+          "period_id": "YTD9_2024"
+        }
+      },
+      "result": 105.33027184386405,
+      "output_unit": "percent",
+      "limitations": ""
+    },
+    {
+      "calculation_id": "fy2022_revenue_growth",
+      "classification": "historical_ratio",
+      "formula": "(current / prior - 1) * 100",
+      "input_fact_ids": [
+        "META.FY2022.revenue",
+        "META.FY2021.revenue"
+      ],
+      "inputs": {
+        "META.FY2022.revenue": {
+          "value": 116609,
+          "unit": "USD million",
+          "period_id": "FY2022"
+        },
+        "META.FY2021.revenue": {
+          "value": 117929,
+          "unit": "USD million",
+          "period_id": "FY2021"
+        }
+      },
+      "result": -1.1193175554782941,
+      "output_unit": "percent",
+      "limitations": ""
+    },
+    {
+      "calculation_id": "fy2022_net_income_growth",
+      "classification": "historical_ratio",
+      "formula": "(current / prior - 1) * 100",
+      "input_fact_ids": [
+        "META.FY2022.net_income_gaap",
+        "META.FY2021.net_income_gaap"
+      ],
+      "inputs": {
+        "META.FY2022.net_income_gaap": {
+          "value": 23200,
+          "unit": "USD million",
+          "period_id": "FY2022"
+        },
+        "META.FY2021.net_income_gaap": {
+          "value": 39370,
+          "unit": "USD million",
+          "period_id": "FY2021"
+        }
+      },
+      "result": -41.071882143764284,
+      "output_unit": "percent",
+      "limitations": ""
+    },
+    {
+      "calculation_id": "q3_2025_foa_margin",
+      "classification": "historical_ratio",
+      "formula": "numerator / denominator * 100",
+      "input_fact_ids": [
+        "META.Q3_2025.foa_operating_income",
+        "META.Q3_2025.foa_revenue"
+      ],
+      "inputs": {
+        "META.Q3_2025.foa_operating_income": {
+          "value": 24967,
+          "unit": "USD million",
+          "period_id": "Q3_2025"
+        },
+        "META.Q3_2025.foa_revenue": {
+          "value": 50772,
+          "unit": "USD million",
+          "period_id": "Q3_2025"
+        }
+      },
+      "result": 49.17474198377058,
+      "output_unit": "percent",
+      "limitations": ""
+    },
+    {
+      "calculation_id": "q3_2024_foa_margin",
+      "classification": "historical_ratio",
+      "formula": "numerator / denominator * 100",
+      "input_fact_ids": [
+        "META.Q3_2024.foa_operating_income",
+        "META.Q3_2024.foa_revenue"
+      ],
+      "inputs": {
+        "META.Q3_2024.foa_operating_income": {
+          "value": 21778,
+          "unit": "USD million",
+          "period_id": "Q3_2024"
+        },
+        "META.Q3_2024.foa_revenue": {
+          "value": 40319,
+          "unit": "USD million",
+          "period_id": "Q3_2024"
+        }
+      },
+      "result": 54.01423646419802,
+      "output_unit": "percent",
+      "limitations": ""
+    },
+    {
+      "calculation_id": "q3_ad_revenue_share",
+      "classification": "historical_ratio",
+      "formula": "numerator / denominator * 100",
+      "input_fact_ids": [
+        "META.Q3_2025.advertising_revenue",
+        "META.Q3_2025.revenue"
+      ],
+      "inputs": {
+        "META.Q3_2025.advertising_revenue": {
+          "value": 50082,
+          "unit": "USD million",
+          "period_id": "Q3_2025"
+        },
+        "META.Q3_2025.revenue": {
+          "value": 51242,
+          "unit": "USD million",
+          "period_id": "Q3_2025"
+        }
+      },
+      "result": 97.7362319971898,
+      "output_unit": "percent",
+      "limitations": ""
+    },
+    {
+      "calculation_id": "ttm_operating_margin",
+      "classification": "historical_ratio",
+      "formula": "numerator / denominator * 100",
+      "input_fact_ids": [
+        "META.TTM_Q3_2025.operating_income",
+        "META.TTM_Q3_2025.revenue"
+      ],
+      "inputs": {
+        "META.TTM_Q3_2025.operating_income": {
+          "value": 81895,
+          "unit": "USD million",
+          "period_id": "TTM_Q3_2025"
+        },
+        "META.TTM_Q3_2025.revenue": {
+          "value": 189458,
+          "unit": "USD million",
+          "period_id": "TTM_Q3_2025"
+        }
+      },
+      "result": 43.22593925830527,
+      "output_unit": "percent",
+      "limitations": ""
+    },
+    {
+      "calculation_id": "ttm_fcf_margin",
+      "classification": "historical_ratio",
+      "formula": "numerator / denominator * 100",
+      "input_fact_ids": [
+        "META.TTM_Q3_2025.company_fcf",
+        "META.TTM_Q3_2025.revenue"
+      ],
+      "inputs": {
+        "META.TTM_Q3_2025.company_fcf": {
+          "value": 42660,
+          "unit": "USD million",
+          "period_id": "TTM_Q3_2025"
+        },
+        "META.TTM_Q3_2025.revenue": {
+          "value": 189458,
+          "unit": "USD million",
+          "period_id": "TTM_Q3_2025"
+        }
+      },
+      "result": 22.516863895955833,
+      "output_unit": "percent",
+      "limitations": ""
+    },
+    {
+      "calculation_id": "ttm_capex_revenue",
+      "classification": "historical_ratio",
+      "formula": "numerator / denominator * 100",
+      "input_fact_ids": [
+        "META.TTM_Q3_2025.cash_capex_including_finance_leases",
+        "META.TTM_Q3_2025.revenue"
+      ],
+      "inputs": {
+        "META.TTM_Q3_2025.cash_capex_including_finance_leases": {
+          "value": 64914,
+          "unit": "USD million",
+          "period_id": "TTM_Q3_2025"
+        },
+        "META.TTM_Q3_2025.revenue": {
+          "value": 189458,
+          "unit": "USD million",
+          "period_id": "TTM_Q3_2025"
+        }
+      },
+      "result": 34.26300288190522,
+      "output_unit": "percent",
+      "limitations": ""
+    },
+    {
+      "calculation_id": "partial_adjusted_earnings_proxy_E0",
+      "classification": "analyst_adjusted_historical_proxy",
+      "formula": "TTM GAAP NI + Q3 one-time noncash tax charge - YTD9 useful-life NI benefit",
+      "input_fact_ids": [
+        "META.TTM_Q3_2025.net_income_gaap",
+        "META.Q3_2025.one_time_noncash_tax_charge",
+        "META.YTD9_2025.server_life_change_net_income_increase"
+      ],
+      "inputs": {
+        "META.TTM_Q3_2025.net_income_gaap": {
+          "value": 58528,
+          "unit": "USD million",
+          "period_id": "TTM_Q3_2025"
+        },
+        "META.Q3_2025.one_time_noncash_tax_charge": {
+          "value": 15930,
+          "unit": "USD million",
+          "period_id": "Q3_2025"
+        },
+        "META.YTD9_2025.server_life_change_net_income_increase": {
+          "value": 1960,
+          "unit": "USD million",
+          "period_id": "YTD9_2025"
+        }
+      },
+      "result": 72498,
+      "output_unit": "USD million",
+      "limitations": "Partial earnings proxy only; not fully normalized earnings, CFO, FCF or FCFF. No CFO tax-charge add-back. Subtraction is disclosed nine-month benefit only, not an invented full-year amount."
+    }
+  ],
+  "primary_common_worksheet": {
+    "E0_USD_million": 72498,
+    "EPS0_USD_per_share_proxy": 28.187402799377917,
+    "historical_price_to_partial_earnings_proxy_x": 23.417907804353224,
+    "shares_basis": {
+      "fact_id": "META.Q3_2025.diluted_weighted_average_shares",
+      "value_million": 2572,
+      "scope": "Q3 diluted weighted average; explicitly stale analytical proxy, neither December actual shares nor reported TTM denominator"
+    },
+    "price_basis": {
+      "fact_id": "META.PRICE_2025_12_31.raw_close",
+      "value_USD_per_share": 660.09,
+      "scope": "2025-12-31 raw historical regular-session close; currently retrieved secondary source"
+    },
+    "price_return_hurdle": {
+      "annual_decimal": 0.12,
+      "origin": "Explicit analyst choice in this controlled worksheet analysis; not native Coleman guidance",
+      "reference_minus_hurdle_percentage_points": -1.390369773021527,
+      "reference_meets_hurdle": false
+    },
+    "formulas": {
+      "EPS0": "E0 / S0",
+      "historical_proxy_PE": "P0 / EPS0",
+      "NI5": "E0 * (1+g)^5",
+      "shares5": "S0 * (1+d)^5",
+      "EPS5": "NI5 / shares5",
+      "conditional_future_price": "EPS5 * PE5",
+      "price_CAGR": "(conditional_future_price / P0)^(1/5) - 1"
+    },
+    "scenarios": [
+      {
+        "scenario_id": "stress",
+        "classification": "conditional_sensitivity_not_forecast",
+        "inputs": {
+          "E0_USD_million": 72498,
+          "S0_shares_million": 2572,
+          "historical_price_USD_per_share": 660.09,
+          "years": 5,
+          "annual_total_net_income_growth_decimal": 0,
+          "year5_pe_x": 15,
+          "annual_net_share_change_decimal": 0,
+          "dividends_credited_USD": 0
+        },
+        "results": {
+          "year5_total_net_income_USD_million": 72498,
+          "year5_share_proxy_million": 2572,
+          "year5_eps_USD_per_share": 28.187402799377917,
+          "conditional_year5_price_USD_per_share": 422.81104199066874,
+          "five_year_price_cagr_decimal": -0.08523690872624345,
+          "five_year_price_cagr_percent": -8.523690872624346
+        },
+        "assumption_origin": "Analyst-supplied common worksheet; no calibrated probabilities or native Coleman numerical rule."
+      },
+      {
+        "scenario_id": "cautious",
+        "classification": "conditional_sensitivity_not_forecast",
+        "inputs": {
+          "E0_USD_million": 72498,
+          "S0_shares_million": 2572,
+          "historical_price_USD_per_share": 660.09,
+          "years": 5,
+          "annual_total_net_income_growth_decimal": 0.08,
+          "year5_pe_x": 18,
+          "annual_net_share_change_decimal": 0,
+          "dividends_credited_USD": 0
+        },
+        "results": {
+          "year5_total_net_income_USD_million": 106523.34691184644,
+          "year5_share_proxy_million": 2572,
+          "year5_eps_USD_per_share": 41.41654234519691,
+          "conditional_year5_price_USD_per_share": 745.4977622135443,
+          "five_year_price_cagr_decimal": 0.02463370589838698,
+          "five_year_price_cagr_percent": 2.463370589838698
+        },
+        "assumption_origin": "Analyst-supplied common worksheet; no calibrated probabilities or native Coleman numerical rule."
+      },
+      {
+        "scenario_id": "reference",
+        "classification": "conditional_sensitivity_not_forecast",
+        "inputs": {
+          "E0_USD_million": 72498,
+          "S0_shares_million": 2572,
+          "historical_price_USD_per_share": 660.09,
+          "years": 5,
+          "annual_total_net_income_growth_decimal": 0.12,
+          "year5_pe_x": 22,
+          "annual_net_share_change_decimal": 0,
+          "dividends_credited_USD": 0
+        },
+        "results": {
+          "year5_total_net_income_USD_million": 127766.24734863365,
+          "year5_share_proxy_million": 2572,
+          "year5_eps_USD_per_share": 49.67583489449209,
+          "conditional_year5_price_USD_per_share": 1092.868367678826,
+          "five_year_price_cagr_decimal": 0.10609630226978473,
+          "five_year_price_cagr_percent": 10.609630226978473
+        },
+        "assumption_origin": "Analyst-supplied common worksheet; no calibrated probabilities or native Coleman numerical rule."
+      },
+      {
+        "scenario_id": "upside",
+        "classification": "conditional_sensitivity_not_forecast",
+        "inputs": {
+          "E0_USD_million": 72498,
+          "S0_shares_million": 2572,
+          "historical_price_USD_per_share": 660.09,
+          "years": 5,
+          "annual_total_net_income_growth_decimal": 0.16,
+          "year5_pe_x": 26,
+          "annual_net_share_change_decimal": 0,
+          "dividends_credited_USD": 0
+        },
+        "results": {
+          "year5_total_net_income_USD_million": 152270.56949268474,
+          "year5_share_proxy_million": 2572,
+          "year5_eps_USD_per_share": 59.203176319084264,
+          "conditional_year5_price_USD_per_share": 1539.2825842961909,
+          "five_year_price_cagr_decimal": 0.18452175237360846,
+          "five_year_price_cagr_percent": 18.452175237360848
+        },
+        "assumption_origin": "Analyst-supplied common worksheet; no calibrated probabilities or native Coleman numerical rule."
+      },
+      {
+        "scenario_id": "reference_with_1pct_dilution",
+        "classification": "conditional_sensitivity_not_forecast",
+        "inputs": {
+          "E0_USD_million": 72498,
+          "S0_shares_million": 2572,
+          "historical_price_USD_per_share": 660.09,
+          "years": 5,
+          "annual_total_net_income_growth_decimal": 0.12,
+          "year5_pe_x": 22,
+          "annual_net_share_change_decimal": 0.01,
+          "dividends_credited_USD": 0
+        },
+        "results": {
+          "year5_total_net_income_USD_million": 127766.24734863365,
+          "year5_share_proxy_million": 2703.1978488572004,
+          "year5_eps_USD_per_share": 47.26485240532723,
+          "conditional_year5_price_USD_per_share": 1039.8267529171992,
+          "five_year_price_cagr_decimal": 0.09514485373246018,
+          "five_year_price_cagr_percent": 9.514485373246018
+        },
+        "assumption_origin": "Analyst-supplied common worksheet; no calibrated probabilities or native Coleman numerical rule."
+      }
+    ],
+    "required_growth_at_reference_exit_pe": [
+      {
+        "annual_net_share_change_decimal": 0,
+        "formula": "[P0 * (1+h)^5 * S0 * (1+d)^5 / (E0 * PE5)]^(1/5) - 1",
+        "inputs": {
+          "P0_USD_per_share": 660.09,
+          "h_decimal": 0.12,
+          "S0_shares_million": 2572,
+          "d_decimal": 0,
+          "E0_USD_million": 72498,
+          "PE5_x": 22,
+          "years": 5
+        },
+        "required_annual_total_net_income_growth_decimal": 0.1340784680555267,
+        "required_annual_total_net_income_growth_percent": 13.40784680555267,
+        "classification": "conditional_hurdle_solution_not_forecast"
+      },
+      {
+        "annual_net_share_change_decimal": 0.01,
+        "formula": "[P0 * (1+h)^5 * S0 * (1+d)^5 / (E0 * PE5)]^(1/5) - 1",
+        "inputs": {
+          "P0_USD_per_share": 660.09,
+          "h_decimal": 0.12,
+          "S0_shares_million": 2572,
+          "d_decimal": 0.01,
+          "E0_USD_million": 72498,
+          "PE5_x": 22,
+          "years": 5
+        },
+        "required_annual_total_net_income_growth_decimal": 0.14541925273608203,
+        "required_annual_total_net_income_growth_percent": 14.541925273608204,
+        "classification": "conditional_hurdle_solution_not_forecast"
+      }
+    ],
+    "interpretation_limits": [
+      "All g, exit P/E, share changes and hurdle are analyst assumptions, not issuer forecasts or observed probabilities.",
+      "Five-year analytical path uses last available TTM earnings as start proxy, not a point-date earnings report; five compounding periods from the cutoff convention.",
+      "Future prices are conditional future outputs, not current intrinsic values or actionable targets.",
+      "No dividends credited; this does not assert that dividends do not exist. Therefore these are price returns, not total returns.",
+      "SBC remains an expense in GAAP and E0; no automatic second earnings deduction. Zero net shares does not mean free buybacks.",
+      "Price-to-earnings proxy is not a reported TTM P/E.",
+      "No separate numerical parameter revision is justified by this base-only packet."
+    ]
+  },
+  "unsupported_branches": [
+    {
+      "branch": "FCFF or current intrinsic-value DCF",
+      "status": "not_calculated",
+      "reason": "Maintenance/growth capex, sustainable cash tax rate, interest and working-capital conventions, all-in economic debt and future cash forecasts missing; not zero-filled."
+    },
+    {
+      "branch": "LTV/CAC, advertiser cohort retention and payback",
+      "status": "not_calculated",
+      "reason": "Not supplied; aggregate DAP and ARPP cannot substitute."
+    },
+    {
+      "branch": "December economic net debt or exact diluted share count",
+      "status": "not_calculated",
+      "reason": "Q4 cash generation/use, lease liability extraction and point-date dilution missing; November borrowing cannot be subtracted from stale cash without proceeds."
+    },
+    {
+      "branch": "Scenario probabilities or expected-return blend",
+      "status": "not_calculated",
+      "reason": "No probability calibration in the source packet or original Skill."
+    }
+  ]
+}

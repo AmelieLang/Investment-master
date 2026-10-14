@@ -1,0 +1,111 @@
+{
+  "schema": "meta.controlled-pair-method-review.v1",
+  "reviewed_at_utc": "2026-10-14T05:04:11.058329+00:00",
+  "status": "narrow_comparability_guardrail_observed_to_work_method_review_pass",
+  "additional_research_calls": 2,
+  "total_research_calls": 6,
+  "original_four_preserved": true,
+  "intervention": "One identical analyst-supplied EPS/P-E worksheet applied to two fresh Coleman conditions; no earlier opinion, computed answer or target verdict supplied.",
+  "worksheet_sha256": "4ee21b802229de72297bf6d3279b42a98eec0771beb33e534680704b1872a3cb",
+  "raw_output_sha256": {
+    "coleman-controlled-base": {
+      "original-report.md": "036441fa336c2b90bc77ab6aef46ec1c3a64f4c946b16774e78d7a63ff8785ae",
+      "calculations.json": "efac06163432f0d06fb2cbd1daf892170b3a8c35a32a11b56efad9b2f6002a02",
+      "evidence-use.json": "ed096fc01953c40c97b26ea695786f818c2251dab395fd8d145b564632e12426"
+    },
+    "coleman-controlled-enriched": {
+      "original-report.md": "1b4b8e6361fc91feba176e3d68270b9a319d5185777a127171753217afd253c3",
+      "calculations.json": "d9eb09c9adc0b34b7190296b258f95d84274a5b23759d3fe9ba21cd74ccddb1c",
+      "evidence-use.json": "38fe180f33a28e3cf9fbf0c0d4c726eb7e4d9fc5f8fc1f7e1114b105ed4b0cc9"
+    }
+  },
+  "native_method": {
+    "four_steps_retained": true,
+    "native_verdict_base": "Watch",
+    "native_verdict_enriched": "Watch",
+    "no_cross_master_mixing": true,
+    "native_filters_and_data_gaps_retained": true,
+    "no_synthetic_stock_score": true,
+    "valuation_overlay_explicitly_not_native_doctrine": true,
+    "same_primary_family": "Partial-adjusted EPS times terminal P/E, five-year price-only return"
+  },
+  "common_basis": {
+    "price_usd": 660.09,
+    "earnings_proxy_usdm": 72498,
+    "share_proxy_million": 2572,
+    "horizon_years": 5,
+    "growth_pe_pairs": [
+      [
+        0,
+        15
+      ],
+      [
+        0.08,
+        18
+      ],
+      [
+        0.12,
+        22
+      ],
+      [
+        0.16,
+        26
+      ]
+    ],
+    "default_net_share_growth": 0,
+    "separate_dilution_sensitivity": 0.01,
+    "analyst_price_return_hurdle": 0.12,
+    "no_dividends_credited": true
+  },
+  "observed_displayed_common_results": {
+    "stress_price_cagr_percent": -8.52,
+    "cautious_price_cagr_percent": 2.46,
+    "reference_price_cagr_percent": 10.61,
+    "upside_price_cagr_percent": 18.45,
+    "reference_plus_dilution_price_cagr_percent": 9.51,
+    "required_earnings_growth_percent": 13.41,
+    "note": "Display-level comparison; independent exact arithmetic review is separate."
+  },
+  "enrichment_effect": {
+    "common_grid_preserved": true,
+    "additional_numerical_revisions": false,
+    "trace": "Scoped AI engagement/conversion observations support the qualitative core-growth mechanism; absent incremental profit/all-capital ROI calibration, growth/multiple parameters unchanged. Cost-risk arguments remain attributed and do not calibrate a numerical cut.",
+    "external_anchors": "$869/28% and21x2027E not imported; $60bn tool-throughput not duplicated as new revenue.",
+    "no_baseline_answer_seen_claim": "Both reports state no earlier/sibling report access; creation/input receipts support distinct controlled calls."
+  },
+  "material_must_correct_findings": [],
+  "minor_errata": [
+    {
+      "run": "coleman-controlled-enriched",
+      "item": "Main narrative Q3 revenue growth26.24% should be26.25% (exact26.246027248761973%). Calculations correct; original immutable; author verification-addendum.json records correction.",
+      "impact": "No method, scenario, assumptions or verdict change"
+    }
+  ],
+  "what_is_established": "Under the supplied common method/evidence contract, source-labeled packets and identical analyst worksheet, both calls retained a comparable primary quantitative basis and did not make an unsupported material-driven numerical revision.",
+  "what_is_not_established": [
+    "Spontaneous numerical stability of the unmodified Skill without the worksheet",
+    "Causal effect of added materials on model behavior",
+    "Statistical robustness or general immunity from copying/anchoring",
+    "Economic validity of the analyst worksheet parameters or future realization",
+    "Runtime acceptance of the migration JSONs",
+    "Production native @ or installed Skill ticker-only flow"
+  ],
+  "arithmetic_review": {
+    "status": "all_nonprose_checks_pass_with_known_prose_rounding_erratum",
+    "file": "arithmetic-controlled-review.json",
+    "nonprose_checks_passed": 904,
+    "nonprose_checks_failed": 0,
+    "independently_recomputed_numeric_scalars": 120,
+    "paired_common_grid_scalar_equalities_passed": 30,
+    "line_bound_report_claim_checks": 81,
+    "line_bound_report_claim_failures": 1,
+    "erratum": "Controlled-enriched Q3 revenue growth26.24% should round26.25%; original and author addendum preserved.",
+    "assumption_validity_or_future_outcomes_established": false
+  },
+  "migration_change": {
+    "status": "draft_only",
+    "rule": "For explicitly comparative tasks retain the supplied method/units/date/horizon/share-basis/common assumptions, keep common-grid result, show source-supported revisions separately with economic mechanism and uncertainty.",
+    "method_attribution": "Project comparison guardrail, not investor doctrine. No META-specific parameters hardcoded.",
+    "updated_json_runtime_tested": false
+  }
+}

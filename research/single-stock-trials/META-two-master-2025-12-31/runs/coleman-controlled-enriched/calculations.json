@@ -1,0 +1,1607 @@
+{
+  "schema": "meta-coleman-controlled-calculations.v1",
+  "decision_cutoff": "2025-12-31T23:59:59Z",
+  "analysis_horizon_years": 5,
+  "units": {
+    "earnings": "USD million",
+    "shares": "million shares",
+    "EPS_and_price": "USD/share",
+    "growth_and_returns": "decimal plus percent where marked"
+  },
+  "input_hashes_sha256": {
+    "protocol/research-call-contract.md": "cca28a7c6877faa30019ac5d6e709ecc5ac8fa44be1be8fcbe349f60a9b5c5ae",
+    "protocol/coleman-controlled-worksheet.md": "4ee21b802229de72297bf6d3279b42a98eec0771beb33e534680704b1872a3cb",
+    "selection/frozen/questflow-coleman/skills/coleman-tiger-growth/SKILL.md": "740ab11d4a19a1cf3a7b572fa2807b56f5535adbd8476acfcb89fd3b18f19a5d",
+    "selection/frozen/questflow-coleman/skills/coleman-tiger-growth/invest.md": "23c4234b4c7572cd25032c646cdbab68f405ffe255645ccb0d2447b59a8e73b1",
+    "data/base-public-data.md": "5b32145f177e80a9a83dc3762d7b7a394d31f30be9530a1fc9e1863b9d637292",
+    "data/facts.json": "d447a9af9c882a4af70d8bd992a020b020a3dc0e7f2f1faf21323ef9dccdeae8",
+    "data/enrichment-public-materials.md": "9fab9ecec66bb210900527ee147c50ebd2490a61309c4368488050b58be8759d",
+    "data/base-manifest.json": "c45293ae4c5df17fd22a90f8069732109ec4964b0113c9005e89763df40b6c8e"
+  },
+  "worksheet_identity": "Analyst-supplied comparability overlay; not native Coleman doctrine or the investor's personal algorithm",
+  "historical_arithmetic": [
+    {
+      "calculation_id": "q3_revenue_yoy",
+      "kind": "historical_arithmetic_not_forecast",
+      "formula": "(Q3_2025 revenue / Q3_2024 revenue - 1) * 100",
+      "input_fact_ids": [
+        "META.Q3_2025.revenue",
+        "META.Q3_2024.revenue"
+      ],
+      "inputs": [
+        {
+          "fact_id": "META.Q3_2025.revenue",
+          "value": 51242,
+          "unit": "USD million",
+          "period_id": "Q3_2025",
+          "period": {
+            "start": "2025-07-01",
+            "end": "2025-09-30",
+            "scope": "quarter duration"
+          },
+          "kind": "reported_fact",
+          "source_ids": [
+            "S2"
+          ],
+          "source_urls": [
+            "https://investor.atmeta.com/investor-news/press-release-details/2025/Meta-Reports-Third-Quarter-2025-Results/default.aspx"
+          ],
+          "publication_dates": [
+            "2025-10-29"
+          ]
+        },
+        {
+          "fact_id": "META.Q3_2024.revenue",
+          "value": 40589,
+          "unit": "USD million",
+          "period_id": "Q3_2024",
+          "period": {
+            "start": "2024-07-01",
+            "end": "2024-09-30",
+            "scope": "quarter duration"
+          },
+          "kind": "reported_fact",
+          "source_ids": [
+            "S2"
+          ],
+          "source_urls": [
+            "https://investor.atmeta.com/investor-news/press-release-details/2025/Meta-Reports-Third-Quarter-2025-Results/default.aspx"
+          ],
+          "publication_dates": [
+            "2025-10-29"
+          ]
+        }
+      ],
+      "value": 26.246027248761973,
+      "unit": "percent"
+    },
+    {
+      "calculation_id": "Q3_2025_foa_operating_margin",
+      "kind": "historical_arithmetic_not_forecast",
+      "formula": "FoA operating income / FoA revenue * 100",
+      "input_fact_ids": [
+        "META.Q3_2025.foa_operating_income",
+        "META.Q3_2025.foa_revenue"
+      ],
+      "inputs": [
+        {
+          "fact_id": "META.Q3_2025.foa_operating_income",
+          "value": 24967,
+          "unit": "USD million",
+          "period_id": "Q3_2025",
+          "period": {
+            "start": "2025-07-01",
+            "end": "2025-09-30",
+            "scope": "quarter duration"
+          },
+          "kind": "reported_fact",
+          "source_ids": [
+            "S3"
+          ],
+          "source_urls": [
+            "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047240/meta-20250930.htm"
+          ],
+          "publication_dates": [
+            "2025-10-30"
+          ]
+        },
+        {
+          "fact_id": "META.Q3_2025.foa_revenue",
+          "value": 50772,
+          "unit": "USD million",
+          "period_id": "Q3_2025",
+          "period": {
+            "start": "2025-07-01",
+            "end": "2025-09-30",
+            "scope": "quarter duration"
+          },
+          "kind": "reported_fact",
+          "source_ids": [
+            "S3"
+          ],
+          "source_urls": [
+            "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047240/meta-20250930.htm"
+          ],
+          "publication_dates": [
+            "2025-10-30"
+          ]
+        }
+      ],
+      "value": 49.17474198377058,
+      "unit": "percent"
+    },
+    {
+      "calculation_id": "Q3_2024_foa_operating_margin",
+      "kind": "historical_arithmetic_not_forecast",
+      "formula": "FoA operating income / FoA revenue * 100",
+      "input_fact_ids": [
+        "META.Q3_2024.foa_operating_income",
+        "META.Q3_2024.foa_revenue"
+      ],
+      "inputs": [
+        {
+          "fact_id": "META.Q3_2024.foa_operating_income",
+          "value": 21778,
+          "unit": "USD million",
+          "period_id": "Q3_2024",
+          "period": {
+            "start": "2024-07-01",
+            "end": "2024-09-30",
+            "scope": "quarter duration"
+          },
+          "kind": "reported_fact",
+          "source_ids": [
+            "S3"
+          ],
+          "source_urls": [
+            "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047240/meta-20250930.htm"
+          ],
+          "publication_dates": [
+            "2025-10-30"
+          ]
+        },
+        {
+          "fact_id": "META.Q3_2024.foa_revenue",
+          "value": 40319,
+          "unit": "USD million",
+          "period_id": "Q3_2024",
+          "period": {
+            "start": "2024-07-01",
+            "end": "2024-09-30",
+            "scope": "quarter duration"
+          },
+          "kind": "reported_fact",
+          "source_ids": [
+            "S3"
+          ],
+          "source_urls": [
+            "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047240/meta-20250930.htm"
+          ],
+          "publication_dates": [
+            "2025-10-30"
+          ]
+        }
+      ],
+      "value": 54.01423646419802,
+      "unit": "percent"
+    },
+    {
+      "calculation_id": "q3_advertising_revenue_share",
+      "kind": "historical_arithmetic_not_forecast",
+      "formula": "advertising revenue / total revenue * 100",
+      "input_fact_ids": [
+        "META.Q3_2025.advertising_revenue",
+        "META.Q3_2025.revenue"
+      ],
+      "inputs": [
+        {
+          "fact_id": "META.Q3_2025.advertising_revenue",
+          "value": 50082,
+          "unit": "USD million",
+          "period_id": "Q3_2025",
+          "period": {
+            "start": "2025-07-01",
+            "end": "2025-09-30",
+            "scope": "quarter duration"
+          },
+          "kind": "reported_fact",
+          "source_ids": [
+            "S3"
+          ],
+          "source_urls": [
+            "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047240/meta-20250930.htm"
+          ],
+          "publication_dates": [
+            "2025-10-30"
+          ]
+        },
+        {
+          "fact_id": "META.Q3_2025.revenue",
+          "value": 51242,
+          "unit": "USD million",
+          "period_id": "Q3_2025",
+          "period": {
+            "start": "2025-07-01",
+            "end": "2025-09-30",
+            "scope": "quarter duration"
+          },
+          "kind": "reported_fact",
+          "source_ids": [
+            "S2"
+          ],
+          "source_urls": [
+            "https://investor.atmeta.com/investor-news/press-release-details/2025/Meta-Reports-Third-Quarter-2025-Results/default.aspx"
+          ],
+          "publication_dates": [
+            "2025-10-29"
+          ]
+        }
+      ],
+      "value": 97.7362319971898,
+      "unit": "percent"
+    },
+    {
+      "calculation_id": "ttm_net_income_gaap",
+      "kind": "historical_arithmetic_not_forecast",
+      "formula": "FY2024 + YTD9_2025 - YTD9_2024",
+      "input_fact_ids": [
+        "META.FY2024.net_income_gaap",
+        "META.YTD9_2025.net_income_gaap",
+        "META.YTD9_2024.net_income_gaap"
+      ],
+      "inputs": [
+        {
+          "fact_id": "META.FY2024.net_income_gaap",
+          "value": 62360,
+          "unit": "USD million",
+          "period_id": "FY2024",
+          "period": {
+            "start": "2024-01-01",
+            "end": "2024-12-31",
+            "scope": "annual duration"
+          },
+          "kind": "reported_fact",
+          "source_ids": [
+            "S1"
+          ],
+          "source_urls": [
+            "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000017/meta-20241231.htm"
+          ],
+          "publication_dates": [
+            "2025-01-30"
+          ]
+        },
+        {
+          "fact_id": "META.YTD9_2025.net_income_gaap",
+          "value": 37690,
+          "unit": "USD million",
+          "period_id": "YTD9_2025",
+          "period": {
+            "start": "2025-01-01",
+            "end": "2025-09-30",
+            "scope": "nine-month duration"
+          },
+          "kind": "reported_fact",
+          "source_ids": [
+            "S3"
+          ],
+          "source_urls": [
+            "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047240/meta-20250930.htm"
+          ],
+          "publication_dates": [
+            "2025-10-30"
+          ]
+        },
+        {
+          "fact_id": "META.YTD9_2024.net_income_gaap",
+          "value": 41522,
+          "unit": "USD million",
+          "period_id": "YTD9_2024",
+          "period": {
+            "start": "2024-01-01",
+            "end": "2024-09-30",
+            "scope": "nine-month duration"
+          },
+          "kind": "reported_fact",
+          "source_ids": [
+            "S3"
+          ],
+          "source_urls": [
+            "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047240/meta-20250930.htm"
+          ],
+          "publication_dates": [
+            "2025-10-30"
+          ]
+        }
+      ],
+      "value": 58528,
+      "unit": "USD million"
+    },
+    {
+      "calculation_id": "ttm_revenue",
+      "kind": "historical_arithmetic_not_forecast",
+      "formula": "FY2024 + YTD9_2025 - YTD9_2024",
+      "input_fact_ids": [
+        "META.FY2024.revenue",
+        "META.YTD9_2025.revenue",
+        "META.YTD9_2024.revenue"
+      ],
+      "inputs": [
+        {
+          "fact_id": "META.FY2024.revenue",
+          "value": 164501,
+          "unit": "USD million",
+          "period_id": "FY2024",
+          "period": {
+            "start": "2024-01-01",
+            "end": "2024-12-31",
+            "scope": "annual duration"
+          },
+          "kind": "reported_fact",
+          "source_ids": [
+            "S1"
+          ],
+          "source_urls": [
+            "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000017/meta-20241231.htm"
+          ],
+          "publication_dates": [
+            "2025-01-30"
+          ]
+        },
+        {
+          "fact_id": "META.YTD9_2025.revenue",
+          "value": 141073,
+          "unit": "USD million",
+          "period_id": "YTD9_2025",
+          "period": {
+            "start": "2025-01-01",
+            "end": "2025-09-30",
+            "scope": "nine-month duration"
+          },
+          "kind": "reported_fact",
+          "source_ids": [
+            "S3"
+          ],
+          "source_urls": [
+            "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047240/meta-20250930.htm"
+          ],
+          "publication_dates": [
+            "2025-10-30"
+          ]
+        },
+        {
+          "fact_id": "META.YTD9_2024.revenue",
+          "value": 116116,
+          "unit": "USD million",
+          "period_id": "YTD9_2024",
+          "period": {
+            "start": "2024-01-01",
+            "end": "2024-09-30",
+            "scope": "nine-month duration"
+          },
+          "kind": "reported_fact",
+          "source_ids": [
+            "S3"
+          ],
+          "source_urls": [
+            "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047240/meta-20250930.htm"
+          ],
+          "publication_dates": [
+            "2025-10-30"
+          ]
+        }
+      ],
+      "value": 189458,
+      "unit": "USD million"
+    },
+    {
+      "calculation_id": "ttm_operating_income",
+      "kind": "historical_arithmetic_not_forecast",
+      "formula": "FY2024 + YTD9_2025 - YTD9_2024",
+      "input_fact_ids": [
+        "META.FY2024.operating_income",
+        "META.YTD9_2025.operating_income",
+        "META.YTD9_2024.operating_income"
+      ],
+      "inputs": [
+        {
+          "fact_id": "META.FY2024.operating_income",
+          "value": 69380,
+          "unit": "USD million",
+          "period_id": "FY2024",
+          "period": {
+            "start": "2024-01-01",
+            "end": "2024-12-31",
+            "scope": "annual duration"
+          },
+          "kind": "reported_fact",
+          "source_ids": [
+            "S1"
+          ],
+          "source_urls": [
+            "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000017/meta-20241231.htm"
+          ],
+          "publication_dates": [
+            "2025-01-30"
+          ]
+        },
+        {
+          "fact_id": "META.YTD9_2025.operating_income",
+          "value": 58531,
+          "unit": "USD million",
+          "period_id": "YTD9_2025",
+          "period": {
+            "start": "2025-01-01",
+            "end": "2025-09-30",
+            "scope": "nine-month duration"
+          },
+          "kind": "reported_fact",
+          "source_ids": [
+            "S3"
+          ],
+          "source_urls": [
+            "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047240/meta-20250930.htm"
+          ],
+          "publication_dates": [
+            "2025-10-30"
+          ]
+        },
+        {
+          "fact_id": "META.YTD9_2024.operating_income",
+          "value": 46016,
+          "unit": "USD million",
+          "period_id": "YTD9_2024",
+          "period": {
+            "start": "2024-01-01",
+            "end": "2024-09-30",
+            "scope": "nine-month duration"
+          },
+          "kind": "reported_fact",
+          "source_ids": [
+            "S3"
+          ],
+          "source_urls": [
+            "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047240/meta-20250930.htm"
+          ],
+          "publication_dates": [
+            "2025-10-30"
+          ]
+        }
+      ],
+      "value": 81895,
+      "unit": "USD million"
+    },
+    {
+      "calculation_id": "ttm_cfo",
+      "kind": "historical_arithmetic_not_forecast",
+      "formula": "FY2024 + YTD9_2025 - YTD9_2024",
+      "input_fact_ids": [
+        "META.FY2024.cfo",
+        "META.YTD9_2025.cfo",
+        "META.YTD9_2024.cfo"
+      ],
+      "inputs": [
+        {
+          "fact_id": "META.FY2024.cfo",
+          "value": 91328,
+          "unit": "USD million",
+          "period_id": "FY2024",
+          "period": {
+            "start": "2024-01-01",
+            "end": "2024-12-31",
+            "scope": "annual duration"
+          },
+          "kind": "reported_fact",
+          "source_ids": [
+            "S1"
+          ],
+          "source_urls": [
+            "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000017/meta-20241231.htm"
+          ],
+          "publication_dates": [
+            "2025-01-30"
+          ]
+        },
+        {
+          "fact_id": "META.YTD9_2025.cfo",
+          "value": 79586,
+          "unit": "USD million",
+          "period_id": "YTD9_2025",
+          "period": {
+            "start": "2025-01-01",
+            "end": "2025-09-30",
+            "scope": "nine-month duration"
+          },
+          "kind": "reported_fact",
+          "source_ids": [
+            "S3"
+          ],
+          "source_urls": [
+            "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047240/meta-20250930.htm"
+          ],
+          "publication_dates": [
+            "2025-10-30"
+          ]
+        },
+        {
+          "fact_id": "META.YTD9_2024.cfo",
+          "value": 63340,
+          "unit": "USD million",
+          "period_id": "YTD9_2024",
+          "period": {
+            "start": "2024-01-01",
+            "end": "2024-09-30",
+            "scope": "nine-month duration"
+          },
+          "kind": "reported_fact",
+          "source_ids": [
+            "S3"
+          ],
+          "source_urls": [
+            "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047240/meta-20250930.htm"
+          ],
+          "publication_dates": [
+            "2025-10-30"
+          ]
+        }
+      ],
+      "value": 107574,
+      "unit": "USD million"
+    },
+    {
+      "calculation_id": "ttm_cash_ppe_outflow",
+      "kind": "historical_arithmetic_not_forecast",
+      "formula": "FY2024 + YTD9_2025 - YTD9_2024",
+      "input_fact_ids": [
+        "META.FY2024.cash_ppe_outflow",
+        "META.YTD9_2025.cash_ppe_outflow",
+        "META.YTD9_2024.cash_ppe_outflow"
+      ],
+      "inputs": [
+        {
+          "fact_id": "META.FY2024.cash_ppe_outflow",
+          "value": 37256,
+          "unit": "USD million",
+          "period_id": "FY2024",
+          "period": {
+            "start": "2024-01-01",
+            "end": "2024-12-31",
+            "scope": "annual duration"
+          },
+          "kind": "reported_fact",
+          "source_ids": [
+            "S1"
+          ],
+          "source_urls": [
+            "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000017/meta-20241231.htm"
+          ],
+          "publication_dates": [
+            "2025-01-30"
+          ]
+        },
+        {
+          "fact_id": "META.YTD9_2025.cash_ppe_outflow",
+          "value": 48308,
+          "unit": "USD million",
+          "period_id": "YTD9_2025",
+          "period": {
+            "start": "2025-01-01",
+            "end": "2025-09-30",
+            "scope": "nine-month duration"
+          },
+          "kind": "reported_fact",
+          "source_ids": [
+            "S3"
+          ],
+          "source_urls": [
+            "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047240/meta-20250930.htm"
+          ],
+          "publication_dates": [
+            "2025-10-30"
+          ]
+        },
+        {
+          "fact_id": "META.YTD9_2024.cash_ppe_outflow",
+          "value": 22831,
+          "unit": "USD million",
+          "period_id": "YTD9_2024",
+          "period": {
+            "start": "2024-01-01",
+            "end": "2024-09-30",
+            "scope": "nine-month duration"
+          },
+          "kind": "reported_fact",
+          "source_ids": [
+            "S3"
+          ],
+          "source_urls": [
+            "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047240/meta-20250930.htm"
+          ],
+          "publication_dates": [
+            "2025-10-30"
+          ]
+        }
+      ],
+      "value": 62733,
+      "unit": "USD million"
+    },
+    {
+      "calculation_id": "ttm_finance_lease_principal",
+      "kind": "historical_arithmetic_not_forecast",
+      "formula": "FY2024 + YTD9_2025 - YTD9_2024",
+      "input_fact_ids": [
+        "META.FY2024.finance_lease_principal",
+        "META.YTD9_2025.finance_lease_principal",
+        "META.YTD9_2024.finance_lease_principal"
+      ],
+      "inputs": [
+        {
+          "fact_id": "META.FY2024.finance_lease_principal",
+          "value": 1969,
+          "unit": "USD million",
+          "period_id": "FY2024",
+          "period": {
+            "start": "2024-01-01",
+            "end": "2024-12-31",
+            "scope": "annual duration"
+          },
+          "kind": "reported_fact",
+          "source_ids": [
+            "S1"
+          ],
+          "source_urls": [
+            "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000017/meta-20241231.htm"
+          ],
+          "publication_dates": [
+            "2025-01-30"
+          ]
+        },
+        {
+          "fact_id": "META.YTD9_2025.finance_lease_principal",
+          "value": 1770,
+          "unit": "USD million",
+          "period_id": "YTD9_2025",
+          "period": {
+            "start": "2025-01-01",
+            "end": "2025-09-30",
+            "scope": "nine-month duration"
+          },
+          "kind": "reported_fact",
+          "source_ids": [
+            "S3"
+          ],
+          "source_urls": [
+            "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047240/meta-20250930.htm"
+          ],
+          "publication_dates": [
+            "2025-10-30"
+          ]
+        },
+        {
+          "fact_id": "META.YTD9_2024.finance_lease_principal",
+          "value": 1558,
+          "unit": "USD million",
+          "period_id": "YTD9_2024",
+          "period": {
+            "start": "2024-01-01",
+            "end": "2024-09-30",
+            "scope": "nine-month duration"
+          },
+          "kind": "reported_fact",
+          "source_ids": [
+            "S3"
+          ],
+          "source_urls": [
+            "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047240/meta-20250930.htm"
+          ],
+          "publication_dates": [
+            "2025-10-30"
+          ]
+        }
+      ],
+      "value": 2181,
+      "unit": "USD million"
+    },
+    {
+      "calculation_id": "ttm_company_fcf",
+      "kind": "historical_arithmetic_not_forecast",
+      "formula": "FY2024 + YTD9_2025 - YTD9_2024",
+      "input_fact_ids": [
+        "META.FY2024.company_fcf",
+        "META.YTD9_2025.company_fcf",
+        "META.YTD9_2024.company_fcf"
+      ],
+      "inputs": [
+        {
+          "fact_id": "META.FY2024.company_fcf",
+          "value": 52103,
+          "unit": "USD million",
+          "period_id": "FY2024",
+          "period": {
+            "start": "2024-01-01",
+            "end": "2024-12-31",
+            "scope": "annual duration"
+          },
+          "kind": "reported_fact",
+          "source_ids": [
+            "S5"
+          ],
+          "source_urls": [
+            "https://investor.atmeta.com/investor-news/press-release-details/2025/Meta-Reports-Fourth-Quarter-and-Full-Year-2024-Results/default.aspx"
+          ],
+          "publication_dates": [
+            "2025-01-29"
+          ]
+        },
+        {
+          "fact_id": "META.YTD9_2025.company_fcf",
+          "value": 29508,
+          "unit": "USD million",
+          "period_id": "YTD9_2025",
+          "period": {
+            "start": "2025-01-01",
+            "end": "2025-09-30",
+            "scope": "nine-month duration"
+          },
+          "kind": "reported_fact",
+          "source_ids": [
+            "S2"
+          ],
+          "source_urls": [
+            "https://investor.atmeta.com/investor-news/press-release-details/2025/Meta-Reports-Third-Quarter-2025-Results/default.aspx"
+          ],
+          "publication_dates": [
+            "2025-10-29"
+          ]
+        },
+        {
+          "fact_id": "META.YTD9_2024.company_fcf",
+          "value": 38951,
+          "unit": "USD million",
+          "period_id": "YTD9_2024",
+          "period": {
+            "start": "2024-01-01",
+            "end": "2024-09-30",
+            "scope": "nine-month duration"
+          },
+          "kind": "reported_fact",
+          "source_ids": [
+            "S2"
+          ],
+          "source_urls": [
+            "https://investor.atmeta.com/investor-news/press-release-details/2025/Meta-Reports-Third-Quarter-2025-Results/default.aspx"
+          ],
+          "publication_dates": [
+            "2025-10-29"
+          ]
+        }
+      ],
+      "value": 42660,
+      "unit": "USD million"
+    },
+    {
+      "calculation_id": "ttm_sbc",
+      "kind": "historical_arithmetic_not_forecast",
+      "formula": "FY2024 + YTD9_2025 - YTD9_2024",
+      "input_fact_ids": [
+        "META.FY2024.sbc",
+        "META.YTD9_2025.sbc",
+        "META.YTD9_2024.sbc"
+      ],
+      "inputs": [
+        {
+          "fact_id": "META.FY2024.sbc",
+          "value": 16690,
+          "unit": "USD million",
+          "period_id": "FY2024",
+          "period": {
+            "start": "2024-01-01",
+            "end": "2024-12-31",
+            "scope": "annual duration"
+          },
+          "kind": "reported_fact",
+          "source_ids": [
+            "S1"
+          ],
+          "source_urls": [
+            "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000017/meta-20241231.htm"
+          ],
+          "publication_dates": [
+            "2025-01-30"
+          ]
+        },
+        {
+          "fact_id": "META.YTD9_2025.sbc",
+          "value": 14537,
+          "unit": "USD million",
+          "period_id": "YTD9_2025",
+          "period": {
+            "start": "2025-01-01",
+            "end": "2025-09-30",
+            "scope": "nine-month duration"
+          },
+          "kind": "reported_fact",
+          "source_ids": [
+            "S3"
+          ],
+          "source_urls": [
+            "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047240/meta-20250930.htm"
+          ],
+          "publication_dates": [
+            "2025-10-30"
+          ]
+        },
+        {
+          "fact_id": "META.YTD9_2024.sbc",
+          "value": 12428,
+          "unit": "USD million",
+          "period_id": "YTD9_2024",
+          "period": {
+            "start": "2024-01-01",
+            "end": "2024-09-30",
+            "scope": "nine-month duration"
+          },
+          "kind": "reported_fact",
+          "source_ids": [
+            "S3"
+          ],
+          "source_urls": [
+            "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047240/meta-20250930.htm"
+          ],
+          "publication_dates": [
+            "2025-10-30"
+          ]
+        }
+      ],
+      "value": 18799,
+      "unit": "USD million"
+    },
+    {
+      "calculation_id": "ttm_cash_capex",
+      "kind": "historical_arithmetic_not_forecast",
+      "formula": "cash PPE outflow + finance lease principal",
+      "input_fact_ids": [
+        "META.TTM_Q3_2025.cash_ppe_outflow",
+        "META.TTM_Q3_2025.finance_lease_principal"
+      ],
+      "inputs": [
+        {
+          "fact_id": "META.TTM_Q3_2025.cash_ppe_outflow",
+          "value": 62733,
+          "unit": "USD million",
+          "period_id": "TTM_Q3_2025",
+          "period": {
+            "start": "2024-10-01",
+            "end": "2025-09-30",
+            "scope": "derived trailing twelve months; not FY2025"
+          },
+          "kind": "derived_fact",
+          "source_ids": [
+            "S1",
+            "S2",
+            "S3",
+            "S5"
+          ],
+          "source_urls": [
+            "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000017/meta-20241231.htm",
+            "https://investor.atmeta.com/investor-news/press-release-details/2025/Meta-Reports-Third-Quarter-2025-Results/default.aspx",
+            "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047240/meta-20250930.htm",
+            "https://investor.atmeta.com/investor-news/press-release-details/2025/Meta-Reports-Fourth-Quarter-and-Full-Year-2024-Results/default.aspx"
+          ],
+          "publication_dates": [
+            "2025-01-30",
+            "2025-10-29",
+            "2025-10-30",
+            "2025-01-29"
+          ]
+        },
+        {
+          "fact_id": "META.TTM_Q3_2025.finance_lease_principal",
+          "value": 2181,
+          "unit": "USD million",
+          "period_id": "TTM_Q3_2025",
+          "period": {
+            "start": "2024-10-01",
+            "end": "2025-09-30",
+            "scope": "derived trailing twelve months; not FY2025"
+          },
+          "kind": "derived_fact",
+          "source_ids": [
+            "S1",
+            "S2",
+            "S3",
+            "S5"
+          ],
+          "source_urls": [
+            "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000017/meta-20241231.htm",
+            "https://investor.atmeta.com/investor-news/press-release-details/2025/Meta-Reports-Third-Quarter-2025-Results/default.aspx",
+            "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047240/meta-20250930.htm",
+            "https://investor.atmeta.com/investor-news/press-release-details/2025/Meta-Reports-Fourth-Quarter-and-Full-Year-2024-Results/default.aspx"
+          ],
+          "publication_dates": [
+            "2025-01-30",
+            "2025-10-29",
+            "2025-10-30",
+            "2025-01-29"
+          ]
+        }
+      ],
+      "value": 64914,
+      "unit": "USD million"
+    },
+    {
+      "calculation_id": "ttm_fcf_reconciliation",
+      "kind": "historical_arithmetic_not_forecast",
+      "formula": "CFO - cash PPE outflow - finance lease principal",
+      "input_fact_ids": [
+        "META.TTM_Q3_2025.cfo",
+        "META.TTM_Q3_2025.cash_ppe_outflow",
+        "META.TTM_Q3_2025.finance_lease_principal"
+      ],
+      "inputs": [
+        {
+          "fact_id": "META.TTM_Q3_2025.cfo",
+          "value": 107574,
+          "unit": "USD million",
+          "period_id": "TTM_Q3_2025",
+          "period": {
+            "start": "2024-10-01",
+            "end": "2025-09-30",
+            "scope": "derived trailing twelve months; not FY2025"
+          },
+          "kind": "derived_fact",
+          "source_ids": [
+            "S1",
+            "S2",
+            "S3",
+            "S5"
+          ],
+          "source_urls": [
+            "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000017/meta-20241231.htm",
+            "https://investor.atmeta.com/investor-news/press-release-details/2025/Meta-Reports-Third-Quarter-2025-Results/default.aspx",
+            "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047240/meta-20250930.htm",
+            "https://investor.atmeta.com/investor-news/press-release-details/2025/Meta-Reports-Fourth-Quarter-and-Full-Year-2024-Results/default.aspx"
+          ],
+          "publication_dates": [
+            "2025-01-30",
+            "2025-10-29",
+            "2025-10-30",
+            "2025-01-29"
+          ]
+        },
+        {
+          "fact_id": "META.TTM_Q3_2025.cash_ppe_outflow",
+          "value": 62733,
+          "unit": "USD million",
+          "period_id": "TTM_Q3_2025",
+          "period": {
+            "start": "2024-10-01",
+            "end": "2025-09-30",
+            "scope": "derived trailing twelve months; not FY2025"
+          },
+          "kind": "derived_fact",
+          "source_ids": [
+            "S1",
+            "S2",
+            "S3",
+            "S5"
+          ],
+          "source_urls": [
+            "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000017/meta-20241231.htm",
+            "https://investor.atmeta.com/investor-news/press-release-details/2025/Meta-Reports-Third-Quarter-2025-Results/default.aspx",
+            "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047240/meta-20250930.htm",
+            "https://investor.atmeta.com/investor-news/press-release-details/2025/Meta-Reports-Fourth-Quarter-and-Full-Year-2024-Results/default.aspx"
+          ],
+          "publication_dates": [
+            "2025-01-30",
+            "2025-10-29",
+            "2025-10-30",
+            "2025-01-29"
+          ]
+        },
+        {
+          "fact_id": "META.TTM_Q3_2025.finance_lease_principal",
+          "value": 2181,
+          "unit": "USD million",
+          "period_id": "TTM_Q3_2025",
+          "period": {
+            "start": "2024-10-01",
+            "end": "2025-09-30",
+            "scope": "derived trailing twelve months; not FY2025"
+          },
+          "kind": "derived_fact",
+          "source_ids": [
+            "S1",
+            "S2",
+            "S3",
+            "S5"
+          ],
+          "source_urls": [
+            "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000017/meta-20241231.htm",
+            "https://investor.atmeta.com/investor-news/press-release-details/2025/Meta-Reports-Third-Quarter-2025-Results/default.aspx",
+            "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047240/meta-20250930.htm",
+            "https://investor.atmeta.com/investor-news/press-release-details/2025/Meta-Reports-Fourth-Quarter-and-Full-Year-2024-Results/default.aspx"
+          ],
+          "publication_dates": [
+            "2025-01-30",
+            "2025-10-29",
+            "2025-10-30",
+            "2025-01-29"
+          ]
+        }
+      ],
+      "value": 42660,
+      "unit": "USD million"
+    },
+    {
+      "calculation_id": "ttm_fcf_margin",
+      "kind": "historical_arithmetic_not_forecast",
+      "formula": "company_fcf / revenue * 100",
+      "input_fact_ids": [
+        "META.TTM_Q3_2025.company_fcf",
+        "META.TTM_Q3_2025.revenue"
+      ],
+      "inputs": [
+        {
+          "fact_id": "META.TTM_Q3_2025.company_fcf",
+          "value": 42660,
+          "unit": "USD million",
+          "period_id": "TTM_Q3_2025",
+          "period": {
+            "start": "2024-10-01",
+            "end": "2025-09-30",
+            "scope": "derived trailing twelve months; not FY2025"
+          },
+          "kind": "derived_fact",
+          "source_ids": [
+            "S1",
+            "S2",
+            "S3",
+            "S5"
+          ],
+          "source_urls": [
+            "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000017/meta-20241231.htm",
+            "https://investor.atmeta.com/investor-news/press-release-details/2025/Meta-Reports-Third-Quarter-2025-Results/default.aspx",
+            "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047240/meta-20250930.htm",
+            "https://investor.atmeta.com/investor-news/press-release-details/2025/Meta-Reports-Fourth-Quarter-and-Full-Year-2024-Results/default.aspx"
+          ],
+          "publication_dates": [
+            "2025-01-30",
+            "2025-10-29",
+            "2025-10-30",
+            "2025-01-29"
+          ]
+        },
+        {
+          "fact_id": "META.TTM_Q3_2025.revenue",
+          "value": 189458,
+          "unit": "USD million",
+          "period_id": "TTM_Q3_2025",
+          "period": {
+            "start": "2024-10-01",
+            "end": "2025-09-30",
+            "scope": "derived trailing twelve months; not FY2025"
+          },
+          "kind": "derived_fact",
+          "source_ids": [
+            "S1",
+            "S2",
+            "S3",
+            "S5"
+          ],
+          "source_urls": [
+            "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000017/meta-20241231.htm",
+            "https://investor.atmeta.com/investor-news/press-release-details/2025/Meta-Reports-Third-Quarter-2025-Results/default.aspx",
+            "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047240/meta-20250930.htm",
+            "https://investor.atmeta.com/investor-news/press-release-details/2025/Meta-Reports-Fourth-Quarter-and-Full-Year-2024-Results/default.aspx"
+          ],
+          "publication_dates": [
+            "2025-01-30",
+            "2025-10-29",
+            "2025-10-30",
+            "2025-01-29"
+          ]
+        }
+      ],
+      "value": 22.516863895955833,
+      "unit": "percent"
+    },
+    {
+      "calculation_id": "ttm_capex_revenue_ratio",
+      "kind": "historical_arithmetic_not_forecast",
+      "formula": "cash_capex_including_finance_leases / revenue * 100",
+      "input_fact_ids": [
+        "META.TTM_Q3_2025.cash_capex_including_finance_leases",
+        "META.TTM_Q3_2025.revenue"
+      ],
+      "inputs": [
+        {
+          "fact_id": "META.TTM_Q3_2025.cash_capex_including_finance_leases",
+          "value": 64914,
+          "unit": "USD million",
+          "period_id": "TTM_Q3_2025",
+          "period": {
+            "start": "2024-10-01",
+            "end": "2025-09-30",
+            "scope": "derived trailing twelve months; not FY2025"
+          },
+          "kind": "derived_fact",
+          "source_ids": [
+            "S1",
+            "S2",
+            "S3"
+          ],
+          "source_urls": [
+            "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000017/meta-20241231.htm",
+            "https://investor.atmeta.com/investor-news/press-release-details/2025/Meta-Reports-Third-Quarter-2025-Results/default.aspx",
+            "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047240/meta-20250930.htm"
+          ],
+          "publication_dates": [
+            "2025-01-30",
+            "2025-10-29",
+            "2025-10-30"
+          ]
+        },
+        {
+          "fact_id": "META.TTM_Q3_2025.revenue",
+          "value": 189458,
+          "unit": "USD million",
+          "period_id": "TTM_Q3_2025",
+          "period": {
+            "start": "2024-10-01",
+            "end": "2025-09-30",
+            "scope": "derived trailing twelve months; not FY2025"
+          },
+          "kind": "derived_fact",
+          "source_ids": [
+            "S1",
+            "S2",
+            "S3",
+            "S5"
+          ],
+          "source_urls": [
+            "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000017/meta-20241231.htm",
+            "https://investor.atmeta.com/investor-news/press-release-details/2025/Meta-Reports-Third-Quarter-2025-Results/default.aspx",
+            "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047240/meta-20250930.htm",
+            "https://investor.atmeta.com/investor-news/press-release-details/2025/Meta-Reports-Fourth-Quarter-and-Full-Year-2024-Results/default.aspx"
+          ],
+          "publication_dates": [
+            "2025-01-30",
+            "2025-10-29",
+            "2025-10-30",
+            "2025-01-29"
+          ]
+        }
+      ],
+      "value": 34.26300288190522,
+      "unit": "percent"
+    },
+    {
+      "calculation_id": "ttm_operating_margin",
+      "kind": "historical_arithmetic_not_forecast",
+      "formula": "operating_income / revenue * 100",
+      "input_fact_ids": [
+        "META.TTM_Q3_2025.operating_income",
+        "META.TTM_Q3_2025.revenue"
+      ],
+      "inputs": [
+        {
+          "fact_id": "META.TTM_Q3_2025.operating_income",
+          "value": 81895,
+          "unit": "USD million",
+          "period_id": "TTM_Q3_2025",
+          "period": {
+            "start": "2024-10-01",
+            "end": "2025-09-30",
+            "scope": "derived trailing twelve months; not FY2025"
+          },
+          "kind": "derived_fact",
+          "source_ids": [
+            "S1",
+            "S2",
+            "S3",
+            "S5"
+          ],
+          "source_urls": [
+            "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000017/meta-20241231.htm",
+            "https://investor.atmeta.com/investor-news/press-release-details/2025/Meta-Reports-Third-Quarter-2025-Results/default.aspx",
+            "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047240/meta-20250930.htm",
+            "https://investor.atmeta.com/investor-news/press-release-details/2025/Meta-Reports-Fourth-Quarter-and-Full-Year-2024-Results/default.aspx"
+          ],
+          "publication_dates": [
+            "2025-01-30",
+            "2025-10-29",
+            "2025-10-30",
+            "2025-01-29"
+          ]
+        },
+        {
+          "fact_id": "META.TTM_Q3_2025.revenue",
+          "value": 189458,
+          "unit": "USD million",
+          "period_id": "TTM_Q3_2025",
+          "period": {
+            "start": "2024-10-01",
+            "end": "2025-09-30",
+            "scope": "derived trailing twelve months; not FY2025"
+          },
+          "kind": "derived_fact",
+          "source_ids": [
+            "S1",
+            "S2",
+            "S3",
+            "S5"
+          ],
+          "source_urls": [
+            "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000017/meta-20241231.htm",
+            "https://investor.atmeta.com/investor-news/press-release-details/2025/Meta-Reports-Third-Quarter-2025-Results/default.aspx",
+            "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047240/meta-20250930.htm",
+            "https://investor.atmeta.com/investor-news/press-release-details/2025/Meta-Reports-Fourth-Quarter-and-Full-Year-2024-Results/default.aspx"
+          ],
+          "publication_dates": [
+            "2025-01-30",
+            "2025-10-29",
+            "2025-10-30",
+            "2025-01-29"
+          ]
+        }
+      ],
+      "value": 43.22593925830527,
+      "unit": "percent"
+    },
+    {
+      "calculation_id": "ttm_sbc_revenue_ratio",
+      "kind": "historical_arithmetic_not_forecast",
+      "formula": "sbc / revenue * 100",
+      "input_fact_ids": [
+        "META.TTM_Q3_2025.sbc",
+        "META.TTM_Q3_2025.revenue"
+      ],
+      "inputs": [
+        {
+          "fact_id": "META.TTM_Q3_2025.sbc",
+          "value": 18799,
+          "unit": "USD million",
+          "period_id": "TTM_Q3_2025",
+          "period": {
+            "start": "2024-10-01",
+            "end": "2025-09-30",
+            "scope": "derived trailing twelve months; not FY2025"
+          },
+          "kind": "derived_fact",
+          "source_ids": [
+            "S1",
+            "S2",
+            "S3",
+            "S5"
+          ],
+          "source_urls": [
+            "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000017/meta-20241231.htm",
+            "https://investor.atmeta.com/investor-news/press-release-details/2025/Meta-Reports-Third-Quarter-2025-Results/default.aspx",
+            "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047240/meta-20250930.htm",
+            "https://investor.atmeta.com/investor-news/press-release-details/2025/Meta-Reports-Fourth-Quarter-and-Full-Year-2024-Results/default.aspx"
+          ],
+          "publication_dates": [
+            "2025-01-30",
+            "2025-10-29",
+            "2025-10-30",
+            "2025-01-29"
+          ]
+        },
+        {
+          "fact_id": "META.TTM_Q3_2025.revenue",
+          "value": 189458,
+          "unit": "USD million",
+          "period_id": "TTM_Q3_2025",
+          "period": {
+            "start": "2024-10-01",
+            "end": "2025-09-30",
+            "scope": "derived trailing twelve months; not FY2025"
+          },
+          "kind": "derived_fact",
+          "source_ids": [
+            "S1",
+            "S2",
+            "S3",
+            "S5"
+          ],
+          "source_urls": [
+            "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000017/meta-20241231.htm",
+            "https://investor.atmeta.com/investor-news/press-release-details/2025/Meta-Reports-Third-Quarter-2025-Results/default.aspx",
+            "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047240/meta-20250930.htm",
+            "https://investor.atmeta.com/investor-news/press-release-details/2025/Meta-Reports-Fourth-Quarter-and-Full-Year-2024-Results/default.aspx"
+          ],
+          "publication_dates": [
+            "2025-01-30",
+            "2025-10-29",
+            "2025-10-30",
+            "2025-01-29"
+          ]
+        }
+      ],
+      "value": 9.922515808253017,
+      "unit": "percent"
+    }
+  ],
+  "earnings_proxy": {
+    "inputs": [
+      {
+        "fact_id": "META.TTM_Q3_2025.net_income_gaap",
+        "value": 58528,
+        "unit": "USD million",
+        "period_id": "TTM_Q3_2025",
+        "period": {
+          "start": "2024-10-01",
+          "end": "2025-09-30",
+          "scope": "derived trailing twelve months; not FY2025"
+        },
+        "kind": "derived_fact",
+        "source_ids": [
+          "S1",
+          "S2",
+          "S3",
+          "S5"
+        ],
+        "source_urls": [
+          "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000017/meta-20241231.htm",
+          "https://investor.atmeta.com/investor-news/press-release-details/2025/Meta-Reports-Third-Quarter-2025-Results/default.aspx",
+          "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047240/meta-20250930.htm",
+          "https://investor.atmeta.com/investor-news/press-release-details/2025/Meta-Reports-Fourth-Quarter-and-Full-Year-2024-Results/default.aspx"
+        ],
+        "publication_dates": [
+          "2025-01-30",
+          "2025-10-29",
+          "2025-10-30",
+          "2025-01-29"
+        ]
+      },
+      {
+        "fact_id": "META.Q3_2025.one_time_noncash_tax_charge",
+        "value": 15930,
+        "unit": "USD million",
+        "period_id": "Q3_2025",
+        "period": {
+          "start": "2025-07-01",
+          "end": "2025-09-30",
+          "scope": "quarter duration"
+        },
+        "kind": "reported_fact",
+        "source_ids": [
+          "S2"
+        ],
+        "source_urls": [
+          "https://investor.atmeta.com/investor-news/press-release-details/2025/Meta-Reports-Third-Quarter-2025-Results/default.aspx"
+        ],
+        "publication_dates": [
+          "2025-10-29"
+        ]
+      },
+      {
+        "fact_id": "META.YTD9_2025.server_life_change_net_income_increase",
+        "value": 1960,
+        "unit": "USD million",
+        "period_id": "YTD9_2025",
+        "period": {
+          "start": "2025-01-01",
+          "end": "2025-09-30",
+          "scope": "nine-month duration"
+        },
+        "kind": "reported_fact",
+        "source_ids": [
+          "S3"
+        ],
+        "source_urls": [
+          "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047240/meta-20250930.htm"
+        ],
+        "publication_dates": [
+          "2025-10-30"
+        ]
+      },
+      {
+        "fact_id": "META.Q3_2025.diluted_weighted_average_shares",
+        "value": 2572,
+        "unit": "shares million",
+        "period_id": "Q3_2025",
+        "period": {
+          "start": "2025-07-01",
+          "end": "2025-09-30",
+          "scope": "quarter duration"
+        },
+        "kind": "reported_fact",
+        "source_ids": [
+          "S2"
+        ],
+        "source_urls": [
+          "https://investor.atmeta.com/investor-news/press-release-details/2025/Meta-Reports-Third-Quarter-2025-Results/default.aspx"
+        ],
+        "publication_dates": [
+          "2025-10-29"
+        ]
+      },
+      {
+        "fact_id": "META.PRICE_2025_12_31.raw_close",
+        "value": 660.09,
+        "unit": "USD/share",
+        "period_id": "PRICE_2025_12_31",
+        "period": {
+          "date": "2025-12-31",
+          "scope": "Nasdaq regular-session raw close"
+        },
+        "kind": "reported_fact",
+        "source_ids": [
+          "S6"
+        ],
+        "source_urls": [
+          "https://uk.finance.yahoo.com/quote/META/history/"
+        ],
+        "publication_dates": [
+          null
+        ]
+      }
+    ],
+    "formula": "E0 = TTM GAAP net income + Q3 one-time noncash tax charge - YTD useful-life net-income benefit",
+    "E0_USD_million": 72498,
+    "label": "partial adjusted-earnings proxy, not fully normalized earnings",
+    "EPS0_proxy_USD_per_share": 28.187402799377917,
+    "EPS0_formula": "E0 / N0",
+    "price_to_EPS0_proxy_x": 23.417907804353224,
+    "price_to_EPS0_formula": "P0 / (E0 / N0)",
+    "limitations": [
+      "The TTM ends 2025-09-30 and is not FY2025 actual earnings.",
+      "2,572 million is Q3 diluted weighted-average shares, explicitly stale; neither a December share count nor a reported TTM denominator.",
+      "Only the two mandated adjustments are made; other nonrecurring items, sustainable tax rate, future depreciation and investment returns remain unresolved.",
+      "The tax charge is not added to CFO.",
+      "SBC remains included in earnings costs; no automatic second deduction. Zero net share change is an assumption, not free buybacks."
+    ]
+  },
+  "common_grid": [
+    {
+      "name": "stress",
+      "kind": "conditional_scenario_not_forecast_probability",
+      "assumptions": {
+        "annual_total_net_income_growth_decimal": 0,
+        "year_five_pe_x": 15,
+        "annual_net_share_change_decimal": 0,
+        "horizon_years": 5,
+        "dividends_credited_USD": 0
+      },
+      "year_five_net_income_USD_million": 72498,
+      "year_five_shares_million": 2572,
+      "year_five_eps_USD_per_share": 28.187402799377917,
+      "conditional_future_price_USD_per_share": 422.81104199066874,
+      "five_year_price_CAGR_decimal": -0.08523690872624345,
+      "five_year_price_CAGR_percent": -8.523690872624346,
+      "formulas": {
+        "net_income": "E5 = E0 * (1 + g)^T",
+        "shares": "N5 = N0 * (1 + d)^T",
+        "eps": "EPS5 = E5 / N5",
+        "conditional_future_price": "P5 = EPS5 * exit_PE",
+        "price_CAGR": "(P5 / P0)^(1/T) - 1"
+      }
+    },
+    {
+      "name": "cautious",
+      "kind": "conditional_scenario_not_forecast_probability",
+      "assumptions": {
+        "annual_total_net_income_growth_decimal": 0.08,
+        "year_five_pe_x": 18,
+        "annual_net_share_change_decimal": 0,
+        "horizon_years": 5,
+        "dividends_credited_USD": 0
+      },
+      "year_five_net_income_USD_million": 106523.34691184644,
+      "year_five_shares_million": 2572,
+      "year_five_eps_USD_per_share": 41.41654234519691,
+      "conditional_future_price_USD_per_share": 745.4977622135443,
+      "five_year_price_CAGR_decimal": 0.02463370589838698,
+      "five_year_price_CAGR_percent": 2.463370589838698,
+      "formulas": {
+        "net_income": "E5 = E0 * (1 + g)^T",
+        "shares": "N5 = N0 * (1 + d)^T",
+        "eps": "EPS5 = E5 / N5",
+        "conditional_future_price": "P5 = EPS5 * exit_PE",
+        "price_CAGR": "(P5 / P0)^(1/T) - 1"
+      }
+    },
+    {
+      "name": "reference",
+      "kind": "conditional_scenario_not_forecast_probability",
+      "assumptions": {
+        "annual_total_net_income_growth_decimal": 0.12,
+        "year_five_pe_x": 22,
+        "annual_net_share_change_decimal": 0,
+        "horizon_years": 5,
+        "dividends_credited_USD": 0
+      },
+      "year_five_net_income_USD_million": 127766.24734863365,
+      "year_five_shares_million": 2572,
+      "year_five_eps_USD_per_share": 49.67583489449209,
+      "conditional_future_price_USD_per_share": 1092.868367678826,
+      "five_year_price_CAGR_decimal": 0.10609630226978473,
+      "five_year_price_CAGR_percent": 10.609630226978473,
+      "formulas": {
+        "net_income": "E5 = E0 * (1 + g)^T",
+        "shares": "N5 = N0 * (1 + d)^T",
+        "eps": "EPS5 = E5 / N5",
+        "conditional_future_price": "P5 = EPS5 * exit_PE",
+        "price_CAGR": "(P5 / P0)^(1/T) - 1"
+      }
+    },
+    {
+      "name": "upside",
+      "kind": "conditional_scenario_not_forecast_probability",
+      "assumptions": {
+        "annual_total_net_income_growth_decimal": 0.16,
+        "year_five_pe_x": 26,
+        "annual_net_share_change_decimal": 0,
+        "horizon_years": 5,
+        "dividends_credited_USD": 0
+      },
+      "year_five_net_income_USD_million": 152270.56949268474,
+      "year_five_shares_million": 2572,
+      "year_five_eps_USD_per_share": 59.203176319084264,
+      "conditional_future_price_USD_per_share": 1539.2825842961909,
+      "five_year_price_CAGR_decimal": 0.18452175237360846,
+      "five_year_price_CAGR_percent": 18.452175237360848,
+      "formulas": {
+        "net_income": "E5 = E0 * (1 + g)^T",
+        "shares": "N5 = N0 * (1 + d)^T",
+        "eps": "EPS5 = E5 / N5",
+        "conditional_future_price": "P5 = EPS5 * exit_PE",
+        "price_CAGR": "(P5 / P0)^(1/T) - 1"
+      }
+    },
+    {
+      "name": "reference_1pct_annual_net_dilution",
+      "kind": "conditional_scenario_not_forecast_probability",
+      "assumptions": {
+        "annual_total_net_income_growth_decimal": 0.12,
+        "year_five_pe_x": 22,
+        "annual_net_share_change_decimal": 0.01,
+        "horizon_years": 5,
+        "dividends_credited_USD": 0
+      },
+      "year_five_net_income_USD_million": 127766.24734863365,
+      "year_five_shares_million": 2703.1978488572004,
+      "year_five_eps_USD_per_share": 47.26485240532723,
+      "conditional_future_price_USD_per_share": 1039.8267529171992,
+      "five_year_price_CAGR_decimal": 0.09514485373246018,
+      "five_year_price_CAGR_percent": 9.514485373246018,
+      "formulas": {
+        "net_income": "E5 = E0 * (1 + g)^T",
+        "shares": "N5 = N0 * (1 + d)^T",
+        "eps": "EPS5 = E5 / N5",
+        "conditional_future_price": "P5 = EPS5 * exit_PE",
+        "price_CAGR": "(P5 / P0)^(1/T) - 1"
+      }
+    }
+  ],
+  "hurdle_comparison": {
+    "kind": "analyst_chosen_price_return_requirement_not_native_guidance",
+    "annual_price_return_hurdle_decimal": 0.12,
+    "reference_case_price_CAGR_decimal": 0.10609630226978473,
+    "reference_minus_hurdle_percentage_points": -1.390369773021527,
+    "reference_meets_hurdle": false,
+    "required_annual_total_net_income_growth_decimal": 0.1340784680555267,
+    "required_growth_percent": 13.40784680555267,
+    "required_growth_formula": "g_required = [P0 * (1+h)^T * N0 * (1+d)^T / (exit_PE * E0)]^(1/T) - 1; d=0, exit_PE=22",
+    "required_growth_with_1pct_net_dilution_percent": 14.541925273608204,
+    "future_price_at_hurdle_USD_per_share": 1163.3041216634886,
+    "future_price_at_hurdle_formula": "P0 * (1 + h)^T"
+  },
+  "additional_material_parameter_revision": {
+    "revision_made": false,
+    "revised_cases": [],
+    "reason": "E1 scopes some core-ad efficacy improvements; E2 and E3 contain uncalibrated judgments/anchors. None supplies incremental economic profit, attributable total-spend ROI or a defensible five-year earnings/multiple calibration."
+  },
+  "unsupported_branches": [
+    "No present intrinsic value, actionable target price, scenario probabilities, FCFF model or maintenance capex estimate.",
+    "No reconstructed December net cash, complete enterprise value or all-in debt figure.",
+    "No dividend-inclusive total return; zero dividend credit does not assert that dividends do not exist.",
+    "No portfolio size, leverage, synthetic score or claim of Chase Coleman's actual META view."
+  ],
+  "presentation_conversion": {
+    "USD_million_to_USD_billion_formula": "value / 1000",
+    "percentage_rounding": "ordinary rounding for presentation only; full precision retained above"
+  }
+}

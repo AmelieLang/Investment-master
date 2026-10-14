@@ -1,0 +1,472 @@
+{
+  "schema": "meta.coleman.enriched.evidence-use.v1",
+  "request_context": {
+    "task_name": "/root/run_meta_coleman_enriched",
+    "requested_model": "gpt-6.1-sol",
+    "requested_reasoning_effort": "xhigh",
+    "fork_turns": "none",
+    "identity_basis": "Parent-requested execution configuration; not independently provider-attested",
+    "provider_attestation": null,
+    "decision_cutoff": "2025-12-31T23:59:59Z",
+    "analytical_horizon_years": 5,
+    "horizon_end": "2030-12-31",
+    "historical_reconstruction": true,
+    "built_at_utc": "2026-10-14T04:49:48.580338+00:00"
+  },
+  "input_integrity": {
+    "contract": {
+      "path": "/workspace/shared/investor-research-v2/meta-minimum/protocol/research-call-contract.md",
+      "sha256": "cca28a7c6877faa30019ac5d6e709ecc5ac8fa44be1be8fcbe349f60a9b5c5ae"
+    },
+    "skill": {
+      "path": "/workspace/shared/investor-research-v2/meta-minimum/selection/frozen/questflow-coleman/skills/coleman-tiger-growth/SKILL.md",
+      "sha256": "740ab11d4a19a1cf3a7b572fa2807b56f5535adbd8476acfcb89fd3b18f19a5d"
+    },
+    "invest": {
+      "path": "/workspace/shared/investor-research-v2/meta-minimum/selection/frozen/questflow-coleman/skills/coleman-tiger-growth/invest.md",
+      "sha256": "23c4234b4c7572cd25032c646cdbab68f405ffe255645ccb0d2447b59a8e73b1"
+    },
+    "base": {
+      "path": "/workspace/shared/investor-research-v2/meta-minimum/data/base-public-data.md",
+      "sha256": "5b32145f177e80a9a83dc3762d7b7a394d31f30be9530a1fc9e1863b9d637292"
+    },
+    "facts": {
+      "path": "/workspace/shared/investor-research-v2/meta-minimum/data/facts.json",
+      "sha256": "d447a9af9c882a4af70d8bd992a020b020a3dc0e7f2f1faf21323ef9dccdeae8"
+    },
+    "enrichment": {
+      "path": "/workspace/shared/investor-research-v2/meta-minimum/data/enrichment-public-materials.md",
+      "sha256": "9fab9ecec66bb210900527ee147c50ebd2490a61309c4368488050b58be8759d"
+    }
+  },
+  "method": {
+    "attribution": "Community Coleman/Tiger Growth-style framework, not the recovered personal algorithm or actual META view of Chase Coleman/Tiger Global.",
+    "selected_method_ids": [
+      "coleman-tiger-growth:define-product-customer-growth-engine",
+      "coleman-tiger-growth:underwrite-unit-economics-retention",
+      "coleman-tiger-growth:estimate-growth-duration-moat",
+      "coleman-tiger-growth:compare-valuation-multi-year-compounding"
+    ],
+    "selected_card_ids": [],
+    "read_in_full": [
+      "SKILL.md",
+      "invest.md",
+      "research-call-contract.md",
+      "base-public-data.md",
+      "enrichment-public-materials.md"
+    ],
+    "required_reference_selection": "invest.md is the only operational reference needed. Generic podcast, video and reading lists are source directories, not additional method contracts or ticker evidence; not consulted.",
+    "facts_consulted": "Selected exact facts, periods, units, kinds, publication dates and URLs from facts.json; no claim of an autonomous Skill data API.",
+    "native_verdict": "Watch",
+    "native_verdict_options": [
+      "Concentrated Growth Long",
+      "Watch",
+      "Too Expensive",
+      "Growth Broken",
+      "Pass"
+    ],
+    "universal_numeric_stock_score": null,
+    "filter_findings": {
+      "inUniverse": "pass: scalable consumer internet advertising platform",
+      "scalableModel": "pass: aggregate FoA profitability and cross-product audience scale",
+      "unitEconomicsPositiveOrImproving": "aggregate positive; improving advertiser-level economics unproven; Q3 FoA margin decreased",
+      "growthDurationCredible": "plausible conditional five-year growth runway; not demonstrated at forecast CAGR",
+      "brokenRetention": "not established; cohort retention unavailable, so no zero-churn assumption",
+      "noPathToProfit": "not present for FoA; RL and frontier compute payback unresolved",
+      "evidenceSufficient": "sufficient for Watch, insufficient for concentrated-growth sizing/action",
+      "riskDefined": "thesis and cost-conversion monitoring defined; complete portfolio risk context absent"
+    }
+  },
+  "source_fact_ids": [
+    "META.BS_Q3_2025.bond_debt_carrying_amount",
+    "META.BS_Q3_2025.cash_plus_marketable_securities",
+    "META.BS_Q3_2025.noncancelable_commitments",
+    "META.BS_Q3_2025.not_yet_commenced_leases",
+    "META.BS_Q3_2025.october_new_cloud_arrangements",
+    "META.EVENT_2025_11_03.new_bond_principal",
+    "META.FY2020.revenue",
+    "META.FY2024.cash_ppe_outflow",
+    "META.FY2024.cfo",
+    "META.FY2024.company_fcf",
+    "META.FY2024.finance_lease_principal",
+    "META.FY2024.net_income_gaap",
+    "META.FY2024.operating_income",
+    "META.FY2024.revenue",
+    "META.FY2024.sbc",
+    "META.GUIDANCE_2025_10_29.2026_spending_direction",
+    "META.GUIDANCE_2025_10_29.fy2025_cash_capex_guidance",
+    "META.PRICE_2025_12_31.raw_close",
+    "META.Q3_2024.advertising_revenue",
+    "META.Q3_2024.company_fcf",
+    "META.Q3_2024.foa_operating_income",
+    "META.Q3_2024.foa_revenue",
+    "META.Q3_2024.operating_income",
+    "META.Q3_2024.revenue",
+    "META.Q3_2025.ad_impressions_growth_yoy",
+    "META.Q3_2025.advertising_revenue",
+    "META.Q3_2025.arpp",
+    "META.Q3_2025.arpp_growth_yoy",
+    "META.Q3_2025.average_ad_price_growth_yoy",
+    "META.Q3_2025.company_fcf",
+    "META.Q3_2025.company_tax_charge_excluded_net_income",
+    "META.Q3_2025.dap",
+    "META.Q3_2025.dap_growth_yoy",
+    "META.Q3_2025.diluted_weighted_average_shares",
+    "META.Q3_2025.foa_operating_income",
+    "META.Q3_2025.foa_revenue",
+    "META.Q3_2025.one_time_noncash_tax_charge",
+    "META.Q3_2025.operating_income",
+    "META.Q3_2025.revenue",
+    "META.Q3_2025.rl_operating_income",
+    "META.SHARES_2025_10_24.total_actual_shares_outstanding",
+    "META.TTM_Q3_2025.cash_ppe_outflow",
+    "META.TTM_Q3_2025.cfo",
+    "META.TTM_Q3_2025.company_fcf",
+    "META.TTM_Q3_2025.finance_lease_principal",
+    "META.TTM_Q3_2025.operating_income",
+    "META.TTM_Q3_2025.revenue",
+    "META.TTM_Q3_2025.sbc",
+    "META.YTD9_2024.cash_capex_including_finance_leases",
+    "META.YTD9_2024.cash_ppe_outflow",
+    "META.YTD9_2024.cfo",
+    "META.YTD9_2024.company_fcf",
+    "META.YTD9_2024.finance_lease_principal",
+    "META.YTD9_2024.net_income_gaap",
+    "META.YTD9_2024.operating_income",
+    "META.YTD9_2024.revenue",
+    "META.YTD9_2024.sbc",
+    "META.YTD9_2025.cash_capex_including_finance_leases",
+    "META.YTD9_2025.cash_nonmarketable_equity_investments",
+    "META.YTD9_2025.cash_ppe_outflow",
+    "META.YTD9_2025.cfo",
+    "META.YTD9_2025.company_fcf",
+    "META.YTD9_2025.finance_lease_principal",
+    "META.YTD9_2025.net_income_gaap",
+    "META.YTD9_2025.operating_income",
+    "META.YTD9_2025.revenue",
+    "META.YTD9_2025.sbc",
+    "META.YTD9_2025.server_life_change_da_reduction",
+    "META.YTD9_2025.server_life_change_net_income_increase",
+    "META.YTD9_2025.taxes_paid_for_net_share_settlement"
+  ],
+  "sources": {
+    "S1": {
+      "title": "Meta FY2024 Form 10-K",
+      "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000017/meta-20241231.htm",
+      "publication_date": "2025-01-30",
+      "accepted_timestamp_sec_display": "2025-01-29 20:00:50",
+      "date_evidence_url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000017/0001326801-25-000017-index.html",
+      "primary": true,
+      "retrieved_at": "2026-10-14",
+      "admission_basis": "dated public primary source before cutoff"
+    },
+    "S2": {
+      "title": "Meta Q3 2025 earnings release",
+      "url": "https://investor.atmeta.com/investor-news/press-release-details/2025/Meta-Reports-Third-Quarter-2025-Results/default.aspx",
+      "publication_date": "2025-10-29",
+      "primary": true,
+      "retrieved_at": "2026-10-14",
+      "admission_basis": "dated public primary source before cutoff"
+    },
+    "S3": {
+      "title": "Meta Q3 2025 Form 10-Q",
+      "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047240/meta-20250930.htm",
+      "publication_date": "2025-10-30",
+      "accepted_timestamp_sec_display": "2025-10-29 18:50:26",
+      "date_evidence_url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047240/0001628280-25-047240-index.htm",
+      "primary": true,
+      "retrieved_at": "2026-10-14",
+      "admission_basis": "dated public primary source before cutoff"
+    },
+    "S4": {
+      "title": "Meta FY2022 Form 10-K (2020-2022 comparatives)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680123000013/meta-20221231.htm",
+      "publication_date": "2023-02-02",
+      "accepted_timestamp_sec_display": "2023-02-01 20:26:31",
+      "date_evidence_url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680123000013/0001326801-23-000013-index.html",
+      "primary": true,
+      "retrieved_at": "2026-10-14",
+      "admission_basis": "dated public primary source before cutoff"
+    },
+    "S5": {
+      "title": "Meta Q4 / FY2024 earnings release",
+      "url": "https://investor.atmeta.com/investor-news/press-release-details/2025/Meta-Reports-Fourth-Quarter-and-Full-Year-2024-Results/default.aspx",
+      "publication_date": "2025-01-29",
+      "primary": true,
+      "retrieved_at": "2026-10-14",
+      "admission_basis": "dated public primary source before cutoff"
+    },
+    "S6": {
+      "title": "Yahoo Finance META historical price table, UK / AU mirrors",
+      "url": "https://uk.finance.yahoo.com/quote/META/history/",
+      "corroborating_url": "https://au.finance.yahoo.com/quote/META/history/",
+      "publication_date": null,
+      "market_date": "2025-12-31",
+      "primary": false,
+      "availability_note": "Historical row retrieved from public search extracts on 2026-10-14. Raw OHLC close agrees across mirrors; full-page open failed. This is a reconstructed historical market observation, not proof of an archived 2025 web snapshot. Adjusted closes are deliberately excluded because later dividends change them.",
+      "retrieved_at": "2026-10-14",
+      "admission_basis": "dated historical market row, currently retrieved"
+    },
+    "S7": {
+      "title": "Meta November 3, 2025 financing Form 8-K",
+      "url": "https://www.sec.gov/Archives/edgar/data/1326801/000119312525262593/d75422d8k.htm",
+      "publication_date": "2025-11-03",
+      "primary": true,
+      "date_basis": "Dated SEC filing and completed-offering date in the document; filing-index page open failed.",
+      "retrieved_at": "2026-10-14",
+      "admission_basis": "dated public primary source before cutoff"
+    }
+  },
+  "source_constraints": {
+    "outside_web_data_used": false,
+    "sibling_reports_read": false,
+    "other_master_frameworks_read_or_applied": false,
+    "2026_operating_outcomes_or_current_quotes_used": false,
+    "upstream_code_executed": false,
+    "opinion_delegated": false,
+    "external_mutations": false
+  },
+  "assumptions": {
+    "scale_anchor": {
+      "value": 189458,
+      "unit": "USD million/year",
+      "fact_id": "META.TTM_Q3_2025.revenue",
+      "interpretation": "Historical trailing revenue used as a run-rate scale anchor at cutoff, not FY2025 revenue."
+    },
+    "share_denominator_anchor": {
+      "value": 2572,
+      "unit": "shares million",
+      "fact_id": "META.Q3_2025.diluted_weighted_average_shares",
+      "interpretation": "Quarter weighted-average diluted shares, not point-date December shares."
+    },
+    "horizon_years": 5,
+    "net_diluted_share_growth_per_year": {
+      "value": 0.01,
+      "unit": "fraction/year",
+      "kind": "analyst_assumption",
+      "interpretation": "Sensitivity convention for net dilution; future repurchase cost and award settlement taxes are not reconstructed."
+    },
+    "capital_appreciation_hurdle": {
+      "value": 0.12,
+      "unit": "fraction/year",
+      "kind": "analyst_assumption",
+      "interpretation": "Comparison hurdle; not calibrated investor requirement and not a total-return forecast."
+    },
+    "terminal_multiple_basis": "Price / company_FCF_per_diluted_share proxy; not P/E and not enterprise-value/FCFF",
+    "dividends": "excluded from annualized price-only scenario returns; not asserted zero",
+    "sbc_treatment": "Company CFO contains SBC add-back. Net diluted-share growth is the scenario treatment; no second SBC cash deduction. It does not demonstrate that buyback/settlement cash costs are fully covered.",
+    "monitoring_review_thresholds": {
+      "consecutive_quarters": 2,
+      "foa_operating_margin_below": {
+        "value": 0.4,
+        "unit": "fraction"
+      },
+      "advertising_revenue_growth_below": {
+        "value": 0.1,
+        "unit": "fraction/year"
+      },
+      "kind": "analyst_defined_review_trigger_not_reported_fact_or_automatic_trade"
+    },
+    "scenario_probability": "none assigned",
+    "annual_cashflow_paths": "not modeled; terminal cash margins are conditions, not a claim that capex falls immediately in 2026"
+  },
+  "material_additional_claim_handling": [
+    {
+      "claim_id": "E1a.facebook_time",
+      "claim": "AI recommendation changes increased Facebook time spent by 5%.",
+      "handling": "partly_adopted",
+      "source_classification": "primary_management_reported_observation",
+      "method_test": "Growth engine and engagement durability",
+      "effect_on_assumptions_or_verdict": "Supports a scoped product-improvement channel; no direct revenue/CAGR adjustment.",
+      "remaining_limitation": "Experiment definitions and persistence not independently audited; not cohort retention."
+    },
+    {
+      "claim_id": "E1a.threads_time",
+      "claim": "Threads time spent increased by 10%.",
+      "handling": "partly_adopted",
+      "source_classification": "primary_management_reported_observation",
+      "method_test": "Growth duration and network/product use",
+      "effect_on_assumptions_or_verdict": "Adds directional engagement support; no standalone Threads valuation.",
+      "remaining_limitation": "Scope and monetization link unmeasured."
+    },
+    {
+      "claim_id": "E1a.lattice_app_ads",
+      "claim": "App-ad Lattice deployment produced nearly 3% conversion gain for that objective.",
+      "handling": "partly_adopted",
+      "source_classification": "primary_management_reported_observation",
+      "method_test": "Advertiser unit economics and payback",
+      "effect_on_assumptions_or_verdict": "Supports plausible advertiser ROI improvements; no universal conversion or ROAS assumption.",
+      "remaining_limitation": "No customer cohorts, spending incrementality, margins or persistence."
+    },
+    {
+      "claim_id": "E1b.automated_tools_runrate",
+      "claim": "End-to-end automated ad tools handled a $60b annualized revenue run rate.",
+      "handling": "adopted",
+      "source_classification": "primary_management_reported_scope",
+      "method_test": "Product/customer definition and avoid double counting",
+      "effect_on_assumptions_or_verdict": "Treat as existing-ad tool adoption/throughput; adds zero standalone incremental AI sales to scenarios.",
+      "remaining_limitation": "Overlap with ads; not separate segment or proof of incremental economic profit."
+    },
+    {
+      "claim_id": "E1c.profitable_core_compute",
+      "claim": "Additional compute could be used profitably in core ads/recommendations.",
+      "handling": "partly_adopted",
+      "source_classification": "management_forward_looking_judgment",
+      "method_test": "Positive unit economics of marginal growth investment",
+      "effect_on_assumptions_or_verdict": "Plausible hypothesis keeps long-duration opportunity alive; does not justify reference terminal margin as established.",
+      "remaining_limitation": "No measured ROI, payback date or return on frontier-model spend."
+    },
+    {
+      "claim_id": "E1c.surplus_external_services",
+      "claim": "Surplus capacity could serve external services or future demand.",
+      "handling": "unresolved",
+      "source_classification": "management_forward_looking_optionality",
+      "method_test": "Growth duration needs monetizable business evidence",
+      "effect_on_assumptions_or_verdict": "No external-compute revenue or value included.",
+      "remaining_limitation": "No established external business, pricing, customers or returns."
+    },
+    {
+      "claim_id": "E1c.overshoot",
+      "claim": "Management acknowledged overshoot risk.",
+      "handling": "adopted",
+      "source_classification": "primary_management_testimony",
+      "method_test": "Risk definition and growth capital discipline",
+      "effect_on_assumptions_or_verdict": "Retains pressure scenario and no-improvement sensitivity.",
+      "remaining_limitation": "No magnitude or likelihood quantified."
+    },
+    {
+      "claim_id": "E2a.downgrade",
+      "claim": "Public article reported Oppenheimer downgrade Outperform to Perform.",
+      "handling": "adopted",
+      "source_classification": "secondary_report_of_brokerage_action",
+      "method_test": "Separate external action from own verdict",
+      "effect_on_assumptions_or_verdict": "Historical action accepted only as reported; no copied rating or numerical adjustment.",
+      "remaining_limitation": "Full note not supplied."
+    },
+    {
+      "claim_id": "E2b.capex_analogy",
+      "claim": "Superintelligence spend with unclear revenue could resemble 2021-2022 metaverse spending and offset core-ad growth.",
+      "handling": "partly_adopted",
+      "source_classification": "external_analyst_opinion_reported_secondhand",
+      "method_test": "Growth duration versus unit economics and cost trajectory",
+      "effect_on_assumptions_or_verdict": "Independent S2 spending guidance and weaker cash conversion make overspend risk material; rejects analogy as quantified proof.",
+      "remaining_limitation": "Historical analogy does not establish probability or magnitude; healthy core ads remain supported."
+    },
+    {
+      "claim_id": "E2b.visibility_2027",
+      "claim": "Valuation may be difficult without 2027 visibility.",
+      "handling": "partly_adopted",
+      "source_classification": "external_analyst_opinion",
+      "method_test": "Valuation versus compounding path and evidence sufficiency",
+      "effect_on_assumptions_or_verdict": "Unresolved future capex/CFO reinforces Watch; uses five-year conditional scenarios rather than a 2027 model.",
+      "remaining_limitation": "The year 2027 is not a model requirement or endpoint proved by data."
+    },
+    {
+      "claim_id": "E2c.21x",
+      "claim": "Article attributed approximately 21x 2027 estimated earnings comparison for Meta and Alphabet.",
+      "handling": "unresolved",
+      "source_classification": "unverified_external_estimate_based_comparison",
+      "method_test": "Independently rebuild valuation inputs",
+      "effect_on_assumptions_or_verdict": "Not used as current META P/E, terminal multiple or valuation conclusion.",
+      "remaining_limitation": "Full estimates, peer inputs, price anchors and model unavailable."
+    },
+    {
+      "claim_id": "E3a.core_dominance_growth",
+      "claim": "Core-market dominance and strong revenue growth can support long-term compounding.",
+      "handling": "partly_adopted",
+      "source_classification": "external_opinion_with_primary_fact_corroboration",
+      "method_test": "Scale/network effects and growth engine",
+      "effect_on_assumptions_or_verdict": "Independent DAP/ad growth and margins support scale; no quantified market share or monopoly claim.",
+      "remaining_limitation": "Competitive durability and advertiser retention not fully measured."
+    },
+    {
+      "claim_id": "E3a.selloff_opportunity",
+      "claim": "The selloff represented a valuation opportunity despite capex uncertainty and RL losses.",
+      "handling": "rejected",
+      "source_classification": "external_valuation_opinion",
+      "method_test": "Price versus independently assumed compounding economics",
+      "effect_on_assumptions_or_verdict": "No bargain conclusion copied; reference price-only return is below analyst hurdle and capex recovery unproved.",
+      "remaining_limitation": "Separate dated price and unknown model; rejection is of the imported conclusion, not denial of core growth."
+    },
+    {
+      "claim_id": "E3b.869_target",
+      "claim": "Article stated a $869 median analyst target.",
+      "handling": "rejected",
+      "source_classification": "unverified_attributed_target_anchor",
+      "method_test": "Independent valuation reconstruction",
+      "effect_on_assumptions_or_verdict": "No target adopted or averaged into scenarios.",
+      "remaining_limitation": "Survey universe, timestamp and model missing."
+    },
+    {
+      "claim_id": "E3b.28pct_upside",
+      "claim": "Article stated about 28% upside at its then-current price.",
+      "handling": "rejected",
+      "source_classification": "external_dated_price_comparison",
+      "method_test": "Consistent date/price basis",
+      "effect_on_assumptions_or_verdict": "Not carried to the December $660.09 close.",
+      "remaining_limitation": "Original survey price anchor and return horizon are not supplied."
+    }
+  ],
+  "enrichment_sources": {
+    "E1": {
+      "url": "https://s21.q4cdn.com/399680738/files/doc_financials/2025/q3/META-Q3-2025-Earnings-Call-Transcript.pdf",
+      "event_date": "2025-10-29",
+      "upload_date": "not independently established",
+      "source_type": "primary management testimony"
+    },
+    "E2": {
+      "url": "https://www.investing.com/news/stock-market-news/oppenheimer-downgrades-meta-on-ai-spending-concerns-4319927",
+      "publication_date": "2025-10-30",
+      "display_time": "09:19 AM, timezone unspecified",
+      "source_type": "secondary public account of external brokerage note"
+    },
+    "E3": {
+      "url": "https://www.investing.com/analysis/meta-platforms-selloff-exposes-ai-capex-risk-despite-noncash-tax-hit-200669395",
+      "publication_date": "2025-10-30",
+      "display_time": "02:34 PM, timezone unspecified",
+      "source_type": "public external investment opinion"
+    }
+  },
+  "gaps": [
+    "advertiser cohort retention/churn; no invented CAC/LTV/payback",
+    "SaaS subscription NDR is not applicable",
+    "marginal compute ROI and frontier-model revenue/payback",
+    "maintenance versus growth capex and 2026 numerical capex budget",
+    "sustainable cash taxes and complete non-FCF cash uses",
+    "cutoff balance sheet, full lease/economic debt and commitments overlap",
+    "point-date diluted shares and future SBC/buyback economics",
+    "portfolio context, correlation budget and risk tolerance"
+  ],
+  "unsupported_valuation_branches": [
+    {
+      "branch": "Full intrinsic equity valuation / FCFF DCF",
+      "status": "unresolved_not_computed",
+      "missing": [
+        "full economic net debt at cutoff",
+        "finance-lease liability balance",
+        "complete non-FCF equity cash uses",
+        "future cash-tax assumptions",
+        "maintenance vs growth capex",
+        "future buyback and dilution paths",
+        "discount-rate calibration"
+      ],
+      "reason": "Company FCF cannot silently become FCFF or complete distributable equity cash."
+    },
+    {
+      "branch": "21x 2027E external earnings comparison",
+      "status": "not_used",
+      "reason": "E2 lacks the underlying earnings model and date-compatible price/share inputs."
+    },
+    {
+      "branch": "$869 outside target or claimed 28% upside",
+      "status": "not_used",
+      "reason": "E3 target provenance/model missing and upside belongs to a different dated price anchor."
+    }
+  ],
+  "baseline_comparison": "No baseline answer viewed; no claim of a change relative to one.",
+  "files": [
+    "original-report.md",
+    "calculations.json",
+    "evidence-use.json"
+  ]
+}

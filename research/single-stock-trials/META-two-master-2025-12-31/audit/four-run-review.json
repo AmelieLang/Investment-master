@@ -1,0 +1,223 @@
+{
+  "schema": "meta.four-run-method-review.v1",
+  "status": "method_fidelity_pass_with_quantitative_comparability_limitations",
+  "reviewed_at_utc": "2026-10-14T05:04:51.141013+00:00",
+  "scope": "Independent artifact review of the four frozen original outputs, native method fidelity, source handling and within-master changes. No output rewritten. Arithmetic is reviewed separately.",
+  "material_must_correct_findings": [],
+  "raw_outputs_modified": false,
+  "decision_cutoff": "2025-12-31T23:59:59Z",
+  "historical_example_not_backtest": true,
+  "artifact_sha256": {
+    "buffett-base": {
+      "original-report.md": "245bf46d0de295723c421c69b032c29f53b130e8e80c28758edb137c90cb2397",
+      "calculations.json": "53474ef4edb552dbc789da93ddceb9a0dd670a11600bac6668ee8b5c8e507cc5",
+      "evidence-use.json": "560fca6e6e9faa85827618a2d3f9d3af62d3ed9aab74a4b5a350ddd2a15581e4"
+    },
+    "buffett-enriched": {
+      "original-report.md": "fce1f59c98ebc18514ad1496883cc0eedd4a90db4075eee787aad452cd82532b",
+      "calculations.json": "3287021cd7527953ced240c30d4ca9c9d7be7f723d133bea36f52ebffa6003ab",
+      "evidence-use.json": "29973289d59b12a22d6224a954cf16d7cbcaf9a843fa638d4fba7698f3630f8c"
+    },
+    "coleman-base": {
+      "original-report.md": "ecd9e65cec027977bde14cbff79e9254a9c609b944d4cef6399c4ab52b125e45",
+      "calculations.json": "9b9c6f62fb6d3ec4514e65a50204352437deff462dc72e4aebca8b0036234443",
+      "evidence-use.json": "b86015e5a3dfff0ca3020bb0238b95dfd07d2f1ee22930d0fb6b6f1ef6da0412"
+    },
+    "coleman-enriched": {
+      "original-report.md": "c3bfab4d491e556bba5a0faf4a5ea28b2640f601bd9b905c4b751f775c80325e",
+      "calculations.json": "4303da3125a5a4ee02a1314d7f9d5a2f5a0e123d8c8781b60c1ab82be80c32b0",
+      "evidence-use.json": "4aa1813fbed8e0f4dd10e99eaeef19ba6b5619fadecf11f4d0add1ed8b9e2b0f"
+    }
+  },
+  "runtime_boundary": {
+    "consumed": "Unmodified original selected Skill and necessary references, identical common contract, common base/facts, optional identical enrichment packet",
+    "migration_seven_field_json_consumed": false,
+    "migration_validation": "Static JSON/schema/field/hash checks only",
+    "independence_evidence": "Four separately confirmed fresh native calls in invocation-receipts.json, fork_turns none; workers report no sibling output access. Not OS isolation or provider-level model attestation.",
+    "requested_model": "gpt-6.1-sol",
+    "requested_reasoning_effort": "xhigh",
+    "not_demonstrated": [
+      "native Feishu individual-master mentions",
+      "production publishing/loading",
+      "personal skill installation",
+      "skill-native ticker-only retrieval",
+      "hard security isolation",
+      "actual investor personal opinion or algorithm"
+    ],
+    "source_handling_attribution": "Observed behavior of original Skill + common evidence contract + curated/source-labeled facts and additions; not an unaided standalone Skill test. The packet already labels the outside targets as unverified.",
+    "retrieval_observed": "Host source collector actually retrieved public META data from ticker and cutoff and built the frozen packet; analysis calls consumed the packet. No end-to-end installed Skill/Feishu single-mention retrieval flow tested."
+  },
+  "method_findings": {
+    "buffett": {
+      "workflow_base": "financial-analysis",
+      "workflow_enriched": "financial-analysis",
+      "card_ids_base": [
+        "F01",
+        "F02",
+        "F05",
+        "F06",
+        "F07",
+        "F03",
+        "B02",
+        "B06",
+        "V01",
+        "V05",
+        "R03",
+        "R07"
+      ],
+      "card_ids_enriched": [
+        "F01",
+        "F02",
+        "F03",
+        "F05",
+        "F06",
+        "F07",
+        "B02",
+        "B06",
+        "V01",
+        "V05",
+        "R03",
+        "R07"
+      ],
+      "same_card_set": true,
+      "eight_required_sections_present": true,
+      "native_no_trade_instruction_preserved": true,
+      "no_synthetic_stock_score": true,
+      "owner_earnings_and_intrinsic_value": "Unresolved in both, not filled from company FCF or unsupported maintenance assumptions",
+      "core_findings": "Historical ad/FoA economics supported; all-AI incremental owner return and price-value conclusion unresolved"
+    },
+    "coleman": {
+      "four_steps_present_in_both": true,
+      "native_filters_and_limitations_present": true,
+      "verdict_base": "Watch",
+      "verdict_enriched": "Watch",
+      "native_verdict_categories_preserved": true,
+      "community_style_attribution_preserved": true,
+      "no_synthetic_stock_score": true,
+      "unknown_retention_not_promoted_to_pass": true,
+      "sizing_not_given_without_portfolio_context": true,
+      "core_findings": "Scalable profitable ad platform, conditional duration, but insufficient retention/capital-return evidence for concentrated-growth conviction"
+    }
+  },
+  "enrichment_trace": [
+    {
+      "claim": "E1a scoped 5%/10% engagement and near-3% app-ad conversion",
+      "buffett": "Supports a scoped causal-moat/core-compute-use mechanism; no aggregate ROI or numerical growth uplift",
+      "coleman": "Supports product/advertiser-value hypotheses; not cohort retention or calibrated forecast uplift"
+    },
+    {
+      "claim": "E1b $60bn automated-ad-tools throughput",
+      "buffett": "Attributed and not added as incremental AI sales",
+      "coleman": "Attributed and not added as incremental AI sales"
+    },
+    {
+      "claim": "E1c profitable surplus compute/external-service optionality",
+      "buffett": "Core-use hypothesis partly accepted; all-capital returns and external revenue unresolved",
+      "coleman": "Core-use hypothesis partly accepted; no external-service revenue valuation"
+    },
+    {
+      "claim": "E2a/b downgrade, cost pressure and metaverse analogy",
+      "buffett": "Reported action remains attribution; cost risk cross-checked with base cash evidence, no adopted rating/probability",
+      "coleman": "Same source separation; analogy does not quantify future loss or force Growth Broken"
+    },
+    {
+      "claim": "E2c 21x 2027E comparison",
+      "buffett": "Excluded from numerical valuation",
+      "coleman": "Unresolved external claim, excluded from current/terminal valuation"
+    },
+    {
+      "claim": "E3a/b bargain opinion, $869 and 28%",
+      "buffett": "Business-quality component separated from unestablished valuation opportunity; target/upside excluded",
+      "coleman": "Bargain conclusion and target/upside not imported; independent Watch retained"
+    }
+  ],
+  "quantitative_comparability": {
+    "buffett": {
+      "displayed_base": {
+        "required_return": 0.1,
+        "five_year_owner_cash_growth": 0.1,
+        "terminal_growth": 0.02,
+        "required_starting_owner_cash_usdm": 95647.97
+      },
+      "displayed_enriched": {
+        "required_return": 0.1,
+        "five_year_owner_cash_growth": 0.05,
+        "terminal_growth": 0.03,
+        "required_starting_owner_cash_usdm": 105985.22
+      },
+      "judgment": "Same algebra family but different analyst parameters; displayed output difference is not an identified material effect. Match common parameter cells separately if available.",
+      "other_new_assumptions": "Enriched hypothetical maintenance ratios 50/75/100% and normalization grid explicitly lack evidence bounds; not an owner-earnings estimate or validated range.",
+      "verified_common_cell": {
+        "required_return": 0.1,
+        "five_year_owner_cash_growth": 0.1,
+        "terminal_growth": 0.03,
+        "price_usd": 660.09,
+        "shares_million": 2572,
+        "required_starting_owner_cash_usdm_both": 86117.82869565216,
+        "terminal_present_value_share_percent_both": 74.63768115942028,
+        "verification": "Independent arithmetic reviewer recomputed both raw files; same mechanical condition, not identical headline scenarios or empirical assumptions."
+      }
+    },
+    "coleman": {
+      "base_reference": "Partial-adjusted EPS; 12% total earnings growth, 22x year-five P/E, flat shares; 10.61% price CAGR",
+      "enriched_reference": "Revenue/CFO-capex/company-FCF proxy; 13% revenue growth, 31% terminal FCF margin, 24x terminal cash proxy, 1% dilution; about 7.8% price CAGR",
+      "judgment": "Different valuation bases and parameters. Not a comparable forecast downgrade and not causally attributable to added reports. Both fit the flexible native fourth step but numerical implementation is uncontrolled.",
+      "monitoring_variation": "Base 45% FoA margin for two quarters; enriched 40% plus ad growth below10%. Both explicitly analyst triggers, not source-calibrated revisions."
+    }
+  },
+  "evidence_strength": {
+    "supported_observation": "In this example both enriched outputs distinguish added facts from opinion, keep native analytical structure, and do not import the supplied $869/28% or21x as valuation inputs.",
+    "not_established": [
+      "Causal material effect on output",
+      "Robust numerical stability",
+      "General anti-copy or anti-anchor immunity",
+      "Correctness of subjective growth, margin, multiple, return-hurdle or maintenance assumptions",
+      "Exhaustive review of all original primary documents by each model"
+    ],
+    "reason": "One fresh stochastic run per master-condition; flexible native quantitative implementation, no repeated sampling, and no invariant scenario grid in the original protocol.",
+    "copy_check_scope": "Manual comparison with supplied enrichment and method text; no evidence of directly adopting its recommendation or valuation anchor. Not a universal plagiarism search or an inference about hidden cognition."
+  },
+  "arithmetic_review": {
+    "status": "passed_calculations_with_minor_report_erratum",
+    "review_file": "arithmetic-review.json",
+    "review_generated_at_utc": "2026-10-14T05:02:59.686298+00:00",
+    "scalar_reference_structure_hash_checks": 4249,
+    "failed_checks": 0,
+    "independently_recomputed_scalar_or_pair_outputs": 557,
+    "line_bound_report_claim_checks": 142,
+    "line_bound_report_claim_failures": 1,
+    "errata": [
+      {
+        "run": "coleman-base",
+        "issue": "Stress scenario price CAGR is -8.523690872624345%; round to -8.52%, not frozen report -8.53%. Calculations JSON is correct.",
+        "severity": "minor_rounding_nonblocking"
+      },
+      {
+        "run": "coleman-enriched",
+        "issue": "ttm_company_fcf calculation ID appears twice for consistent TTM and CFO-capex equations; identifier ambiguity only.",
+        "severity": "minor_identifier_nonblocking"
+      }
+    ],
+    "assumptions_validated": false,
+    "future_outcomes_validated": false,
+    "per_run_numeric_scalar_outputs": 555,
+    "paired_buffett_numeric_equalities": 2,
+    "dimensional_unit_checks": 213
+  },
+  "source_limits": [
+    "Public additions are one call excerpt/summary plus two dated public opinion articles, not full paid sell-side reports.",
+    "Price is a currently retrieved dated historical secondary row, not preserved contemporaneous evidence.",
+    "E1 event date verified; exact PDF upload time unverified.",
+    "October-event IDs under a September balance-sheet namespace must be interpreted by the stated event dates."
+  ],
+  "minimal_followup": "If authorized within the existing trial, apply one identical analyst worksheet to two fresh Coleman conditions; retain originals and label controlled repeat. Do not claim that a forced worksheet proves unprompted stability.",
+  "controlled_repeat": {
+    "status": "method_review_complete",
+    "review_files": [
+      "controlled-pair-review.json",
+      "controlled-pair-review.md"
+    ],
+    "raw_four_replaced": false,
+    "total_calls_after_one_correction": 6
+  }
+}

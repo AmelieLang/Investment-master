@@ -1,0 +1,24 @@
+{
+  "schema": "meta-independent-run-freeze.v1",
+  "created_at_UTC": "2026-10-14T04:59:48.506716+00:00",
+  "condition": "coleman-controlled-enriched",
+  "decision_cutoff": "2025-12-31T23:59:59Z",
+  "inputs_sha256": {
+    "protocol/research-call-contract.md": "cca28a7c6877faa30019ac5d6e709ecc5ac8fa44be1be8fcbe349f60a9b5c5ae",
+    "protocol/coleman-controlled-worksheet.md": "4ee21b802229de72297bf6d3279b42a98eec0771beb33e534680704b1872a3cb",
+    "selection/frozen/questflow-coleman/skills/coleman-tiger-growth/SKILL.md": "740ab11d4a19a1cf3a7b572fa2807b56f5535adbd8476acfcb89fd3b18f19a5d",
+    "selection/frozen/questflow-coleman/skills/coleman-tiger-growth/invest.md": "23c4234b4c7572cd25032c646cdbab68f405ffe255645ccb0d2447b59a8e73b1",
+    "data/base-public-data.md": "5b32145f177e80a9a83dc3762d7b7a394d31f30be9530a1fc9e1863b9d637292",
+    "data/facts.json": "d447a9af9c882a4af70d8bd992a020b020a3dc0e7f2f1faf21323ef9dccdeae8",
+    "data/enrichment-public-materials.md": "9fab9ecec66bb210900527ee147c50ebd2490a61309c4368488050b58be8759d",
+    "data/base-manifest.json": "c45293ae4c5df17fd22a90f8069732109ec4964b0113c9005e89763df40b6c8e"
+  },
+  "outputs_sha256": {
+    "original-report.md": "1b4b8e6361fc91feba176e3d68270b9a319d5185777a127171753217afd253c3",
+    "calculations.json": "d9eb09c9adc0b34b7190296b258f95d84274a5b23759d3fe9ba21cd74ccddb1c",
+    "evidence-use.json": "38fe180f33a28e3cf9fbf0c0d4c726eb7e4d9fc5f8fc1f7e1114b105ed4b0cc9"
+  },
+  "freeze_mode": "0444 for original report, calculations, evidence-use and manifest; input files not modified",
+  "unmodified_original_before_review": true,
+  "provider_execution_attestation_claimed": false
+}

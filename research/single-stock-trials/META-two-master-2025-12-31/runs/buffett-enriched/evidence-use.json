@@ -1,0 +1,592 @@
+{
+  "schema": "meta-buffett-enriched-evidence-use.v1",
+  "run": {
+    "task_name": "/root/run_meta_buffett_enriched",
+    "requested_model": "gpt-6.1-sol",
+    "requested_reasoning_effort": "xhigh",
+    "fork_turns_requested": "none",
+    "provider_attestation": null,
+    "invocation_note": "Actual independent native research task; requested settings recorded, not a provider attestation. Parent records spawn receipt.",
+    "decision_cutoff": "2025-12-31T23:59:59Z",
+    "execution_date": "2026-10-14",
+    "horizon": "Five-year forward explicit analytical horizon, with explicitly discounted terminal sensitivity where shown.",
+    "intent": "financial-analysis",
+    "assigned_method": "Buffett Investment Framework, unchanged original Skill",
+    "additional_materials": "enrichment-public-materials.md",
+    "data_fetch_performed": false
+  },
+  "input_hash_checks": {
+    "protocol/research-call-contract.md": {
+      "expected": "cca28a7c6877faa30019ac5d6e709ecc5ac8fa44be1be8fcbe349f60a9b5c5ae",
+      "actual": "cca28a7c6877faa30019ac5d6e709ecc5ac8fa44be1be8fcbe349f60a9b5c5ae",
+      "matches": true
+    },
+    "data/base-public-data.md": {
+      "expected": "5b32145f177e80a9a83dc3762d7b7a394d31f30be9530a1fc9e1863b9d637292",
+      "actual": "5b32145f177e80a9a83dc3762d7b7a394d31f30be9530a1fc9e1863b9d637292",
+      "matches": true
+    },
+    "data/facts.json": {
+      "expected": "d447a9af9c882a4af70d8bd992a020b020a3dc0e7f2f1faf21323ef9dccdeae8",
+      "actual": "d447a9af9c882a4af70d8bd992a020b020a3dc0e7f2f1faf21323ef9dccdeae8",
+      "matches": true
+    },
+    "data/enrichment-public-materials.md": {
+      "expected": "9fab9ecec66bb210900527ee147c50ebd2490a61309c4368488050b58be8759d",
+      "actual": "9fab9ecec66bb210900527ee147c50ebd2490a61309c4368488050b58be8759d",
+      "matches": true
+    }
+  },
+  "method_card_count": 12,
+  "selected_method_cards": [
+    {
+      "card_id": "F01",
+      "selection_reason": "Tax valuation charge, server-life estimate and CFO addbacks require a reported-to-economic bridge.",
+      "reference_module": "04-financial-reality.md",
+      "complete_card_read": true,
+      "complete_card_sha256": "b46c36637f4e456e8f52310c2e8cb2cf8fb86ec3ddcdebac2d705ac58de96b77"
+    },
+    {
+      "card_id": "F02",
+      "selection_reason": "Removable owner cash is distinct from company FCF and SBC addbacks.",
+      "reference_module": "04-financial-reality.md",
+      "complete_card_read": true,
+      "complete_card_sha256": "1ecd261fae28664072422d63af3e4a7900a9baf7135298f7772b596567cd1010"
+    },
+    {
+      "card_id": "F03",
+      "selection_reason": "Rapid AI capex requires maintenance/growth/competitively required classification.",
+      "reference_module": "04-financial-reality.md",
+      "complete_card_read": true,
+      "complete_card_sha256": "e1a5b655e4f12b47df533c88fa333a792cfda07c9cd22c53cef10084a4653477"
+    },
+    {
+      "card_id": "F05",
+      "selection_reason": "FoA and Reality Labs require segment reconciliation; genuine RL costs retained.",
+      "reference_module": "04-financial-reality.md",
+      "complete_card_read": true,
+      "complete_card_sha256": "d20592ee4e9d15d1dfb9c0c7adb575d64f21789756c8a1339c99691ead33bc11"
+    },
+    {
+      "card_id": "F06",
+      "selection_reason": "Historical return claims and AI reinvestment must have defensible tangible/incremental capital denominators.",
+      "reference_module": "04-financial-reality.md",
+      "complete_card_read": true,
+      "complete_card_sha256": "ff462dcc00ffd0a7c8eb75c427b64e3e53fa2963cdae0dc4c0a20ab4f7f1eba1"
+    },
+    {
+      "card_id": "F07",
+      "selection_reason": "Financing outflows, leases, commitments and post-quarter bonds change cash claims.",
+      "reference_module": "04-financial-reality.md",
+      "complete_card_read": true,
+      "complete_card_sha256": "c1ac1e7b6133920656f02e0ddf85990fcb74186736fb0f8aaeff56324e98617d"
+    },
+    {
+      "card_id": "B02",
+      "selection_reason": "E3 core-market dominance claim and E1 product metrics require causal moat tests.",
+      "reference_module": "02-business-economics.md",
+      "complete_card_read": true,
+      "complete_card_sha256": "8702318bd2b9545c9c1b646f08d5da8ea8ca4837821d6a12c5fcfa5e288734f4"
+    },
+    {
+      "card_id": "B06",
+      "selection_reason": "E1 compute profitability claim must pass incremental capital return/runway test.",
+      "reference_module": "02-business-economics.md",
+      "complete_card_read": true,
+      "complete_card_sha256": "662035ed5d0739bdf5f181302da350ec6e7e01182b9974c9d60d544b26999d05"
+    },
+    {
+      "card_id": "V01",
+      "selection_reason": "Any intrinsic value must be discounted complete owner cash, not an external target.",
+      "reference_module": "05-valuation.md",
+      "complete_card_read": true,
+      "complete_card_sha256": "a638580d4e8b24150a87780cfdbd7d9c1c91b14757079fb48092c7c2cfa27191"
+    },
+    {
+      "card_id": "V05",
+      "selection_reason": "Maintenance, growth, discounting, dilution and terminal uncertainty require explicit sensitivity/blocked conclusions.",
+      "reference_module": "05-valuation.md",
+      "complete_card_read": true,
+      "complete_card_sha256": "43744991b180cced041572482cbeca45008050a53505f9f7746839902a8865ca"
+    },
+    {
+      "card_id": "R03",
+      "selection_reason": "Blue Owl JV conditional guarantee requires contingent cash trigger and dependency ledger.",
+      "reference_module": "07-risk-monitoring.md",
+      "complete_card_read": true,
+      "complete_card_sha256": "91f8f5af8ca7da305516ff6ef94873dab2fceedad6f1e1926fd35e85d0b1d752"
+    },
+    {
+      "card_id": "R07",
+      "selection_reason": "Each material finding needs strengthening/weakening/invalidation observations.",
+      "reference_module": "07-risk-monitoring.md",
+      "complete_card_read": true,
+      "complete_card_sha256": "8abf8b7a89cb4197f71569e1c6844b27698dff7447aa3eee4b41af399e65b1a2"
+    }
+  ],
+  "routing": "Retained ordinary financial-analysis F01/F02/F05/F06/F07; added seven evidence-triggered cards; no substitution; exactly 12 cards. No second-master method or upstream executable used.",
+  "source_fact_ids": [
+    "META.BS_Q3_2025.bond_debt_carrying_amount",
+    "META.BS_Q3_2025.bond_debt_face_amount",
+    "META.BS_Q3_2025.cash_and_equivalents",
+    "META.BS_Q3_2025.jv_initial_lease_commitment",
+    "META.BS_Q3_2025.jv_one_time_distribution",
+    "META.BS_Q3_2025.jv_residual_value_guarantee_initial_threshold",
+    "META.BS_Q3_2025.marketable_securities",
+    "META.BS_Q3_2025.noncancelable_commitments",
+    "META.BS_Q3_2025.not_yet_commenced_leases",
+    "META.BS_Q3_2025.october_new_cloud_arrangements",
+    "META.BS_Q3_2025.operating_lease_liabilities_current",
+    "META.BS_Q3_2025.operating_lease_liabilities_noncurrent",
+    "META.EVENT_2025_11_03.new_bond_principal",
+    "META.FY2020.cash_ppe_outflow",
+    "META.FY2020.cfo",
+    "META.FY2020.company_fcf",
+    "META.FY2020.finance_lease_principal",
+    "META.FY2020.operating_income",
+    "META.FY2020.revenue",
+    "META.FY2020.sbc",
+    "META.FY2021.cash_ppe_outflow",
+    "META.FY2021.cfo",
+    "META.FY2021.company_fcf",
+    "META.FY2021.finance_lease_principal",
+    "META.FY2021.operating_income",
+    "META.FY2021.revenue",
+    "META.FY2021.sbc",
+    "META.FY2022.cash_ppe_outflow",
+    "META.FY2022.cfo",
+    "META.FY2022.company_fcf",
+    "META.FY2022.finance_lease_principal",
+    "META.FY2022.operating_income",
+    "META.FY2022.revenue",
+    "META.FY2022.sbc",
+    "META.FY2023.cash_ppe_outflow",
+    "META.FY2023.cfo",
+    "META.FY2023.company_fcf",
+    "META.FY2023.finance_lease_principal",
+    "META.FY2023.operating_income",
+    "META.FY2023.revenue",
+    "META.FY2023.sbc",
+    "META.FY2024.cash_ppe_outflow",
+    "META.FY2024.cfo",
+    "META.FY2024.company_fcf",
+    "META.FY2024.da",
+    "META.FY2024.finance_lease_principal",
+    "META.FY2024.foa_operating_income",
+    "META.FY2024.foa_revenue",
+    "META.FY2024.net_income_gaap",
+    "META.FY2024.operating_income",
+    "META.FY2024.revenue",
+    "META.FY2024.rl_operating_income",
+    "META.FY2024.rl_revenue",
+    "META.FY2024.sbc",
+    "META.GUIDANCE_2025_10_29.2026_spending_direction",
+    "META.GUIDANCE_2025_10_29.fy2025_cash_capex_guidance",
+    "META.PRICE_2025_12_31.raw_close",
+    "META.Q3_2024.foa_operating_income",
+    "META.Q3_2024.foa_revenue",
+    "META.Q3_2024.revenue",
+    "META.Q3_2025.ad_impressions_growth_yoy",
+    "META.Q3_2025.advertising_revenue",
+    "META.Q3_2025.arpp",
+    "META.Q3_2025.arpp_growth_yoy",
+    "META.Q3_2025.average_ad_price_growth_yoy",
+    "META.Q3_2025.dap",
+    "META.Q3_2025.diluted_weighted_average_shares",
+    "META.Q3_2025.foa_operating_income",
+    "META.Q3_2025.foa_revenue",
+    "META.Q3_2025.one_time_noncash_tax_charge",
+    "META.Q3_2025.revenue",
+    "META.SHARES_2025_10_24.class_a_shares_outstanding",
+    "META.SHARES_2025_10_24.class_b_shares_outstanding",
+    "META.YTD9_2024.cash_ppe_outflow",
+    "META.YTD9_2024.cfo",
+    "META.YTD9_2024.company_fcf",
+    "META.YTD9_2024.da",
+    "META.YTD9_2024.finance_lease_principal",
+    "META.YTD9_2024.foa_operating_income",
+    "META.YTD9_2024.foa_revenue",
+    "META.YTD9_2024.net_income_gaap",
+    "META.YTD9_2024.operating_income",
+    "META.YTD9_2024.revenue",
+    "META.YTD9_2024.rl_operating_income",
+    "META.YTD9_2024.rl_revenue",
+    "META.YTD9_2024.sbc",
+    "META.YTD9_2025.cash_nonmarketable_equity_investments",
+    "META.YTD9_2025.cash_ppe_outflow",
+    "META.YTD9_2025.cash_taxes_paid",
+    "META.YTD9_2025.cfo",
+    "META.YTD9_2025.company_fcf",
+    "META.YTD9_2025.da",
+    "META.YTD9_2025.deferred_income_tax_cashflow_adjustment",
+    "META.YTD9_2025.finance_lease_principal",
+    "META.YTD9_2025.foa_operating_income",
+    "META.YTD9_2025.foa_revenue",
+    "META.YTD9_2025.net_income_gaap",
+    "META.YTD9_2025.operating_income",
+    "META.YTD9_2025.revenue",
+    "META.YTD9_2025.rl_operating_income",
+    "META.YTD9_2025.rl_revenue",
+    "META.YTD9_2025.sbc",
+    "META.YTD9_2025.server_life_change_da_reduction",
+    "META.YTD9_2025.server_life_change_net_income_increase",
+    "META.YTD9_2025.taxes_paid_for_net_share_settlement"
+  ],
+  "source_register": {
+    "S1": {
+      "title": "Meta FY2024 Form 10-K",
+      "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000017/meta-20241231.htm",
+      "publication_date": "2025-01-30",
+      "accepted_timestamp_sec_display": "2025-01-29 20:00:50",
+      "date_evidence_url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000017/0001326801-25-000017-index.html",
+      "primary": true,
+      "retrieved_at": "2026-10-14",
+      "admission_basis": "dated public primary source before cutoff"
+    },
+    "S2": {
+      "title": "Meta Q3 2025 earnings release",
+      "url": "https://investor.atmeta.com/investor-news/press-release-details/2025/Meta-Reports-Third-Quarter-2025-Results/default.aspx",
+      "publication_date": "2025-10-29",
+      "primary": true,
+      "retrieved_at": "2026-10-14",
+      "admission_basis": "dated public primary source before cutoff"
+    },
+    "S3": {
+      "title": "Meta Q3 2025 Form 10-Q",
+      "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047240/meta-20250930.htm",
+      "publication_date": "2025-10-30",
+      "accepted_timestamp_sec_display": "2025-10-29 18:50:26",
+      "date_evidence_url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047240/0001628280-25-047240-index.htm",
+      "primary": true,
+      "retrieved_at": "2026-10-14",
+      "admission_basis": "dated public primary source before cutoff"
+    },
+    "S4": {
+      "title": "Meta FY2022 Form 10-K (2020-2022 comparatives)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680123000013/meta-20221231.htm",
+      "publication_date": "2023-02-02",
+      "accepted_timestamp_sec_display": "2023-02-01 20:26:31",
+      "date_evidence_url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680123000013/0001326801-23-000013-index.html",
+      "primary": true,
+      "retrieved_at": "2026-10-14",
+      "admission_basis": "dated public primary source before cutoff"
+    },
+    "S5": {
+      "title": "Meta Q4 / FY2024 earnings release",
+      "url": "https://investor.atmeta.com/investor-news/press-release-details/2025/Meta-Reports-Fourth-Quarter-and-Full-Year-2024-Results/default.aspx",
+      "publication_date": "2025-01-29",
+      "primary": true,
+      "retrieved_at": "2026-10-14",
+      "admission_basis": "dated public primary source before cutoff"
+    },
+    "S6": {
+      "title": "Yahoo Finance META historical price table, UK / AU mirrors",
+      "url": "https://uk.finance.yahoo.com/quote/META/history/",
+      "corroborating_url": "https://au.finance.yahoo.com/quote/META/history/",
+      "publication_date": null,
+      "market_date": "2025-12-31",
+      "primary": false,
+      "availability_note": "Historical row retrieved from public search extracts on 2026-10-14. Raw OHLC close agrees across mirrors; full-page open failed. This is a reconstructed historical market observation, not proof of an archived 2025 web snapshot. Adjusted closes are deliberately excluded because later dividends change them.",
+      "retrieved_at": "2026-10-14",
+      "admission_basis": "dated historical market row, currently retrieved"
+    },
+    "S7": {
+      "title": "Meta November 3, 2025 financing Form 8-K",
+      "url": "https://www.sec.gov/Archives/edgar/data/1326801/000119312525262593/d75422d8k.htm",
+      "publication_date": "2025-11-03",
+      "primary": true,
+      "date_basis": "Dated SEC filing and completed-offering date in the document; filing-index page open failed.",
+      "retrieved_at": "2026-10-14",
+      "admission_basis": "dated public primary source before cutoff"
+    }
+  },
+  "primary_evidence_receipt": {
+    "FY2020_FY2022": "Supplied S4 comparative statement extraction, not independent re-audit.",
+    "FY2023_FY2024": "Supplied S1/S5 statement and segment extraction.",
+    "interim": "S2/S3 last available Q3 and 9M2025 with 2024 comparisons.",
+    "financing": "S7 Nov 3 bond event.",
+    "management_addition": "E1 scoped call testimony; exact PDF upload time not independently established.",
+    "market": "S6 historical raw close currently retrieved from secondary extracts; full-page open failed."
+  },
+  "optional_material_handling": [
+    {
+      "claim_id": "E1a.facebook_time",
+      "claim": "AI recommendations raised Facebook time spent 5%.",
+      "source_type": "primary management-reported scoped measurement",
+      "url": "https://s21.q4cdn.com/399680738/files/doc_financials/2025/q3/META-Q3-2025-Earnings-Call-Transcript.pdf",
+      "event_date": "2025-10-29",
+      "disposition": "adopted",
+      "method_cards": [
+        "B02",
+        "B06"
+      ],
+      "test": "Evidence of user-response mechanism, not causal moat permanence or aggregate capex ROI.",
+      "assumption_effect": "Strengthens plausibility of core compute use; no numerical growth or ROI uplift."
+    },
+    {
+      "claim_id": "E1a.threads_time",
+      "claim": "AI recommendations raised Threads time spent 10%.",
+      "source_type": "primary management-reported scoped measurement",
+      "url": "https://s21.q4cdn.com/399680738/files/doc_financials/2025/q3/META-Q3-2025-Earnings-Call-Transcript.pdf",
+      "event_date": "2025-10-29",
+      "disposition": "adopted",
+      "method_cards": [
+        "B02",
+        "B06"
+      ],
+      "test": "Engagement is not incremental owner cash; experimental definitions and monetization unmeasured.",
+      "assumption_effect": "Qualitative core-use corroboration only; no revenue addition."
+    },
+    {
+      "claim_id": "E1a.lattice_conversion",
+      "claim": "Lattice app-ad deployment raised conversions nearly 3% for that objective.",
+      "source_type": "primary management-reported scoped measurement",
+      "url": "https://s21.q4cdn.com/399680738/files/doc_financials/2025/q3/META-Q3-2025-Earnings-Call-Transcript.pdf",
+      "event_date": "2025-10-29",
+      "disposition": "adopted",
+      "method_cards": [
+        "B02",
+        "B06"
+      ],
+      "test": "Scoped advertiser outcome supports ad efficiency; not universal lift or full-investment return.",
+      "assumption_effect": "Supports ad performance mechanism, no extrapolation to all ads or frontier models."
+    },
+    {
+      "claim_id": "E1b",
+      "claim": "Automated ad tools handled a $60bn annualized revenue run rate.",
+      "source_type": "primary management testimony",
+      "url": "https://s21.q4cdn.com/399680738/files/doc_financials/2025/q3/META-Q3-2025-Earnings-Call-Transcript.pdf",
+      "event_date": "2025-10-29",
+      "disposition": "adopted",
+      "method_cards": [
+        "F01",
+        "B06"
+      ],
+      "test": "Revenue through tools can overlap base ad revenue; distinct AI revenue bridge absent.",
+      "assumption_effect": "No incremental $60bn added to revenue, cash flow or valuation."
+    },
+    {
+      "claim_id": "E1c",
+      "claim": "Additional or surplus compute can be used profitably in core business, external services or future demand.",
+      "source_type": "management forward-looking judgment",
+      "url": "https://s21.q4cdn.com/399680738/files/doc_financials/2025/q3/META-Q3-2025-Earnings-Call-Transcript.pdf",
+      "event_date": "2025-10-29",
+      "disposition": "partly_adopted",
+      "method_cards": [
+        "B06",
+        "F03",
+        "V05"
+      ],
+      "test": "Core experiments establish possible uses; scale, total capital, utilization, payback and incremental owner cash absent; overshoot acknowledged.",
+      "assumption_effect": "Profitable core-use hypothesis retained; full-return assertion and external compute business unresolved; no ROI/payback assumption adopted."
+    },
+    {
+      "claim_id": "E2a",
+      "claim": "Oppenheimer reportedly downgraded Outperform to Perform.",
+      "source_type": "secondary account of brokerage action",
+      "url": "https://www.investing.com/news/stock-market-news/oppenheimer-downgrades-meta-on-ai-spending-concerns-4319927",
+      "publication_date": "2025-10-30",
+      "disposition": "adopted",
+      "method_cards": [
+        "F01",
+        "V05"
+      ],
+      "test": "Accepted only as reported historical author action; rating is not a framework output or independent owner-economics fact.",
+      "assumption_effect": "None; no rating imported."
+    },
+    {
+      "claim_id": "E2b",
+      "claim": "Superintelligence spending may repeat metaverse economics; fast costs can offset ad growth; 2027 visibility missing.",
+      "source_type": "external analyst opinion through secondary report",
+      "url": "https://www.investing.com/news/stock-market-news/oppenheimer-downgrades-meta-on-ai-spending-concerns-4319927",
+      "publication_date": "2025-10-30",
+      "disposition": "partly_adopted",
+      "method_cards": [
+        "B06",
+        "F02",
+        "F05",
+        "F07",
+        "V05"
+      ],
+      "test": "Cost absorption supported by 9M cash-capex/FCF divergence and spending guidance; project equivalence and future failure not established.",
+      "assumption_effect": "Adopts cost-versus-monetization downside mechanism, not an analogy-derived loss probability or forecast; no 2027 estimates invented."
+    },
+    {
+      "claim_id": "E2c",
+      "claim": "Around 21x 2027 estimated earnings comparison with Alphabet.",
+      "source_type": "unverified external estimate-based valuation claim",
+      "url": "https://www.investing.com/news/stock-market-news/oppenheimer-downgrades-meta-on-ai-spending-concerns-4319927",
+      "publication_date": "2025-10-30",
+      "disposition": "rejected",
+      "method_cards": [
+        "V01",
+        "V05",
+        "F05"
+      ],
+      "test": "Forecast series, normalized EPS, price date and model unavailable; not discounted owner cash.",
+      "assumption_effect": "Excluded from numerical valuation and cutoff multiple; historical attribution retained only."
+    },
+    {
+      "claim_id": "E3a",
+      "claim": "Core dominance and strong growth make selloff a valuation opportunity despite AI/RL uncertainty.",
+      "source_type": "external public opinion",
+      "url": "https://www.investing.com/analysis/meta-platforms-selloff-exposes-ai-capex-risk-despite-noncash-tax-hit-200669395",
+      "publication_date": "2025-10-30",
+      "disposition": "partly_adopted",
+      "method_cards": [
+        "B02",
+        "F05",
+        "V01"
+      ],
+      "test": "Revenue and FoA profitability supported; dominance alone does not prove moat, and business quality cannot establish price/value gap.",
+      "assumption_effect": "Core quality proposition partly supported; valuation-opportunity component unresolved; no trade instruction."
+    },
+    {
+      "claim_id": "E3b",
+      "claim": "$869 median target and roughly 28% upside at article-date price.",
+      "source_type": "unverified external target/survey attribution",
+      "url": "https://www.investing.com/analysis/meta-platforms-selloff-exposes-ai-capex-risk-despite-noncash-tax-hit-200669395",
+      "publication_date": "2025-10-30",
+      "disposition": "rejected",
+      "method_cards": [
+        "V01",
+        "V05"
+      ],
+      "test": "Survey/model/time basis unavailable; article-date upside cannot carry to cutoff price and target is not owner-cash present value.",
+      "assumption_effect": "No target, upside, consensus, terminal price or valuation anchor adopted."
+    }
+  ],
+  "assumptions": [
+    {
+      "id": "A_M",
+      "description": "M is assumed at 50%, 75%, or 100% of TTM total cash capex, including lease principal. These are arbitrary analytical settings, not source estimates or plausible confidence bounds."
+    },
+    {
+      "id": "A_DELTA",
+      "description": "Delta=-10000,0,+10000 is assumed aggregate normalization for working capital, cash taxes, other recurring economic cash needs and cash restrictions. No data-supported bound exists."
+    },
+    {
+      "id": "A_SBC",
+      "description": "Deduct reported SBC as economic compensation cost. Do not also deduct settlement taxes or projected dilution. Capitalized SBC/tax/economic replacement-cost bridge is not fully established."
+    },
+    {
+      "id": "A_SHARES",
+      "description": "2572m Q3 diluted weighted-average shares held fixed as illustrative denominator, not actual December diluted shares."
+    },
+    {
+      "id": "A_R",
+      "value": [
+        0.08,
+        0.1,
+        0.12
+      ],
+      "unit": "fraction/year",
+      "description": "Analyst required returns, not universal Buffett parameters."
+    },
+    {
+      "id": "A_G",
+      "value": [
+        0,
+        0.05,
+        0.1
+      ],
+      "unit": "fraction/year",
+      "description": "Analyst growth of complete removable owner cash, not revenue forecasts."
+    },
+    {
+      "id": "A_GT",
+      "value": 0.03,
+      "unit": "fraction/year",
+      "description": "Analyst perpetual growth after year five; unsupported terminal assumption."
+    },
+    {
+      "id": "A_EXCESS_CASH",
+      "description": "Reverse equation attributes the full gross equity anchor to discounted operating owner cash. This is an algebraic convention, not a factual zero excess-cash assumption. Actual excess-cash adjustment is blocked."
+    },
+    {
+      "id": "A_SHARES",
+      "value": 2572,
+      "unit": "shares million",
+      "description": "Fixed Q3 diluted-share proxy; SBC expensed in owner cash, with no further dilution penalty."
+    }
+  ],
+  "gaps": [
+    {
+      "branch": "Supported owner-earnings range",
+      "missing": [
+        "Maintenance/growth/catch-up capex bounds",
+        "Required working capital normalization",
+        "Sustainable cash taxes and recurring economic needs",
+        "Restricted/distributable cash reconciliation"
+      ],
+      "status": "unresolved"
+    },
+    {
+      "branch": "Tangible ROIC and incremental ROIC",
+      "missing": [
+        "Required net tangible operating capital across comparable dates",
+        "Operating working capital/PPE and intangible bridge",
+        "Normalized unleveraged NOPAT/tax basis",
+        "Incremental investment and benefit timing, including lease assets"
+      ],
+      "status": "unresolved",
+      "reason": "Book equity is available but cannot substitute for net tangible operating capital. No delta EBIT/delta annual capex pseudo-ROIC."
+    },
+    {
+      "branch": "Supported intrinsic value, all-in EV and price/value conclusion",
+      "missing": [
+        "Supported owner-cash base and future reinvestment returns",
+        "Cutoff-date net available cash and all economic obligations",
+        "Point-date dilution",
+        "Supported discount/terminal assumptions"
+      ],
+      "status": "unresolved"
+    },
+    {
+      "branch": "Contingent guarantee quantitative stress",
+      "missing": [
+        "Termination/nonrenewal probability",
+        "Asset residual value and contractual cash timing",
+        "Collateral/counterparty detail and correlated downside ranges"
+      ],
+      "status": "unresolved"
+    }
+  ],
+  "method_limits": [
+    "No supported owner-earnings or intrinsic-value range from unbounded maintenance/normalization inputs.",
+    "No historical return or business quality extrapolated into incremental AI return.",
+    "No buy/sell/hold, entry price, position size, trade instruction, synthetic stock score, or Buffett endorsement.",
+    "No baseline/sibling comparison, outside/current data, 2026 outcomes, private PDF or another master method.",
+    "Owner-cash algebra scenarios and reverse hurdles are conditional, not estimated fair value."
+  ],
+  "monitoring": [
+    {
+      "finding": "Core advertising economics supported; causal durability partly unresolved",
+      "cadence": "Future publicly available quarterly filing/call after cutoff, not fetched in this run",
+      "strengthen": "Sustained engagement and scoped advertiser conversion lift accompanied by incremental cash margins",
+      "weaken": "Higher compute and distribution expense with persistent FoA margin compression or deteriorating ad outcomes",
+      "invalidate": "Sustained weakening advertiser results and user demand defeats the scale/efficiency causal link, even if aggregate revenue remains positive"
+    },
+    {
+      "finding": "AI reinvestment return unresolved",
+      "cadence": "Next spend/asset-utilization/segment disclosure",
+      "strengthen": "Comparable cohort capital, utilization, incremental after-cost owner cash and payback disclosure",
+      "weaken": "Larger competitively required compute cost with no incremental contribution",
+      "invalidate": "Compute obsolescence or low utilization requires repeated replacement before economic recovery"
+    },
+    {
+      "finding": "Full distributability and valuation unresolved",
+      "cadence": "Next full cash flow and obligation disclosure",
+      "strengthen": "Maintenance capex bounds, sustainable taxes, compensation bridge and complete cash restrictions available",
+      "weaken": "FCF falls while reported accounting earnings rise",
+      "invalidate": "Claims absorb cash required to preserve core economics; prior removability premise must be retired"
+    },
+    {
+      "finding": "Contingent claim downside unresolved",
+      "cadence": "Contract/lease and JV update",
+      "strengthen": "Full nonrenewal trigger, cash timing and declining guarantee schedule",
+      "weaken": "Correlated ad slowdown, compute asset residual-value impairment and continuing commitments",
+      "invalidate": "Asset value shortfall plus nonrenewal/termination activates material guarantee cash needs"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "buffett": "exact copy of enriched original",
+  "coleman": {
+    "original_report_sha256": "1b4b8e6361fc91feba176e3d68270b9a319d5185777a127171753217afd253c3",
+    "changes": [
+      {
+        "from": "26.24%",
+        "to": "26.25%",
+        "reason": "rounding of (51242/40589-1)*100 =26.246027..."
+      },
+      "append explicit reader-edition note"
+    ],
+    "no_investment_logic_or_scenario_change": true
+  }
+}

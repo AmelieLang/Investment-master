@@ -1,0 +1,13 @@
+{
+  "status": "frozen original outputs before review",
+  "files": {
+    "original-report.md": "245bf46d0de295723c421c69b032c29f53b130e8e80c28758edb137c90cb2397",
+    "calculations.json": "53474ef4edb552dbc789da93ddceb9a0dd670a11600bac6668ee8b5c8e507cc5",
+    "evidence-use.json": "560fca6e6e9faa85827618a2d3f9d3af62d3ed9aab74a4b5a350ddd2a15581e4"
+  },
+  "task_name": "/root/run_meta_buffett_base",
+  "requested_model": "gpt-6.1-sol",
+  "requested_reasoning_effort": "xhigh",
+  "requested_fork": "none",
+  "provider_attestation": false
+}

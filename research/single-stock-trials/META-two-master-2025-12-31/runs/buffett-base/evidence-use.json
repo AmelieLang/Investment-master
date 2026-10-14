@@ -1,0 +1,518 @@
+{
+  "schema": "meta-buffett-evidence-use.v1",
+  "metadata": {
+    "task_name": "/root/run_meta_buffett_base",
+    "assigned_method": "Buffett Investment Framework",
+    "intent": "financial-analysis",
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort_requested": "xhigh",
+    "fork_turns_requested": "none",
+    "provider_model_attestation": "not claimed; root records spawn receipt separately",
+    "decision_cutoff": "2025-12-31T23:59:59Z",
+    "forward_horizon_years": 5,
+    "created_at_utc": "2026-10-14T04:46:08.450976+00:00",
+    "independence": "Only assigned frozen skill/selected cards/source key, contract, base and facts; no enrichment, sibling outputs, outside data or delegation of opinion."
+  },
+  "input_integrity": [
+    {
+      "file": "protocol/research-call-contract.md",
+      "sha256": "cca28a7c6877faa30019ac5d6e709ecc5ac8fa44be1be8fcbe349f60a9b5c5ae"
+    },
+    {
+      "file": "data/base-public-data.md",
+      "sha256": "5b32145f177e80a9a83dc3762d7b7a394d31f30be9530a1fc9e1863b9d637292"
+    },
+    {
+      "file": "data/facts.json",
+      "sha256": "d447a9af9c882a4af70d8bd992a020b020a3dc0e7f2f1faf21323ef9dccdeae8"
+    }
+  ],
+  "skill": {
+    "path": "/workspace/shared/investor-research-v2/meta-minimum/selection/frozen/finterm-buffett/skills/buffett-investment-framework/SKILL.md",
+    "sha256": "4e68fa9add83b8a688dc185e12ae0619d93214e28905a3676ddc2823f49cf4bf",
+    "read_complete": true,
+    "workflow": "financial-analysis",
+    "ordinary_cards": [
+      "F01",
+      "F02",
+      "F05",
+      "F06",
+      "F07"
+    ],
+    "manual_evidence_triggered_additions": [
+      "F03",
+      "B02",
+      "B06",
+      "V01",
+      "V05",
+      "R03",
+      "R07"
+    ],
+    "substitutions": [],
+    "card_count": 12,
+    "cards": [
+      {
+        "id": "F01",
+        "trigger": "Noncash tax charge and useful-life estimate change require accounting-to-economic bridge.",
+        "reference": "/workspace/shared/investor-research-v2/meta-minimum/selection/frozen/finterm-buffett/skills/buffett-investment-framework/references/04-financial-reality.md",
+        "full_text_read": true,
+        "full_text": "### F01 — Reconstruct Economic Substance from Accounting\n\n- **Decision question:** What ownership, cash-flow, and obligation economics lie behind\n  the reported result?\n- **Guidance:** Begin with audited figures and reconcile every adjustment back to them;\n  accounting rules are inputs, not permission to discard costs.\n- **Use when:** Accounting form, rule changes, acquisition accounting, noncash charges,\n  consolidation, or management metrics may obscure economics.\n- **Analytical actions:** Inventory policies and changes; reconcile totals to the\n  analytical view; explain the economic reason for every adjustment.\n- **Output:** A reported-to-economic bridge with source, amount, rationale, and\n  unresolved items for each adjustment.\n- **Limits:** Adjustments can introduce bias and false precision; unsupported\n  substitutions or an unreconciled bridge remain unresolved.\n- **Source basis:**\n  - **Berkshire Hathaway 1982 annual letter** — *supports*: accounting numbers begin not\n    end valuation.\n  - **Berkshire Hathaway 2001 annual letter** — *illustrates*: goodwill rule change\n    raises reported not economic earnings.\n- **Corroboration:** EWB §V.B; EWB §V.D; OM1996; BH2014.\n\n<a id=\"f02\"></a>"
+      },
+      {
+        "id": "F02",
+        "trigger": "Large CFO add-backs and capital spending make removable owner cash distinct from FCF.",
+        "reference": "/workspace/shared/investor-research-v2/meta-minimum/selection/frozen/finterm-buffett/skills/buffett-investment-framework/references/04-financial-reality.md",
+        "full_text_read": true,
+        "full_text": "### F02 — Estimate Owner Earnings After All Real Costs\n\n- **Decision question:** How much cash can owners remove without weakening competitive\n  position or unit volume?\n- **Guidance:** Restore noncash charges only when they are not economic depletion and\n  subtract maintenance capital, required working capital, compensation, and recurring\n  costs; use supported ranges.\n- **Use when:** Cash removability or distributable earning power matters to valuation,\n  reinvestment, or payout analysis.\n- **Analytical actions:** Show every adjustment; estimate maintenance capital and\n  working capital across a representative period; sensitize judgmental components.\n- **Output:** A reconciled owner-earnings range with assumptions, sensitivities, and\n  blocked components.\n- **Limits:** Maintenance and growth overlap and depreciation or amortization may\n  misstate depletion; unbounded material needs leave the result unresolved.\n- **Source basis:**\n  - **Berkshire Hathaway 1986 annual letter** — *defines*: owner earnings.\n  - **Berkshire Hathaway 2000 annual letter** — *supports*: depreciation represents real\n    maintenance capital cost.\n- **Corroboration:** EWB §V.D; BH2002; BH2014; BH2023.\n\n<a id=\"f03\"></a>"
+      },
+      {
+        "id": "F05",
+        "trigger": "FoA and RL economics plus two unusual accounting items require segment/period normalization.",
+        "reference": "/workspace/shared/investor-research-v2/meta-minimum/selection/frozen/finterm-buffett/skills/buffett-investment-framework/references/04-financial-reality.md",
+        "full_text_read": true,
+        "full_text": "### F05 — Build a Reconciled Normalized Earning-Power Base\n\n- **Decision question:** What recurring earning power belongs to each distinct business\n  across a representative period?\n- **Guidance:** Bridge unusual, market-driven, cyclical, and acquisition effects without\n  erasing genuine costs; preserve reconciliation and period.\n- **Use when:** Before valuation or comparison when results contain cycles, unusual\n  items, marks, acquisitions, or heterogeneous segments.\n- **Analytical actions:** Reconcile by segment and period; classify adjustments; produce\n  base and adverse normalized ranges.\n- **Output:** A normalized earning-power bridge by segment, period, and adjustment with\n  reconciled totals.\n- **Limits:** Normalization can cherry-pick and structural change can make history\n  unrepresentative; an unbounded cycle leaves the base unresolved.\n- **Source basis:**\n  - **Berkshire Hathaway 1983 annual letter** — *implements*: separate operating\n    earnings from unusual gains.\n  - **Berkshire Hathaway 2003 annual letter** — *implements*: analyze diversified\n    enterprises by economic segment and through time.\n- **Corroboration:** BH2014; BH2022.\n\n<a id=\"f06\"></a>"
+      },
+      {
+        "id": "F06",
+        "trigger": "Cash capex escalation makes historical tangible/incremental returns a necessary but blocked test.",
+        "reference": "/workspace/shared/investor-research-v2/meta-minimum/selection/frozen/finterm-buffett/skills/buffett-investment-framework/references/04-financial-reality.md",
+        "full_text_read": true,
+        "full_text": "### F06 — Measure Returns on Tangible and Incremental Capital\n\n- **Decision question:** What normalized unleveraged returns does the business earn on\n  required tangible capital, and what has additional capital produced?\n- **Guidance:** Measure historical tangible and incremental returns independently of\n  leverage and acquisition premiums; keep measurement separate from prospective\n  durability and value.\n- **Use when:** Business quality, reinvestment, growth value, or capital intensity is\n  material.\n- **Analytical actions:** Reconcile operating profit and tangible capital; calculate\n  incremental returns over defensible intervals; separate organic investment,\n  acquisitions, leverage, and goodwill.\n- **Output:** A historical return schedule with denominators, intervals, adjustments,\n  and sensitivities.\n- **Limits:** Denominators and lags are judgmental and historical returns may not\n  persist; an indefensible bridge remains unresolved.\n- **Source basis:**\n  - **Berkshire Hathaway 1992 annual letter** — *supports*: best and worst businesses by\n    incremental capital returns.\n  - **Berkshire Hathaway 2013 annual letter** — *supports*: returns on unleveraged net\n    tangible assets reveal business economics.\n- **Corroboration:** EWB §V.C; OM1996; BH2014; LOW ch.20 (USAir capital-intensity case).\n\n<a id=\"f07\"></a>"
+      },
+      {
+        "id": "F07",
+        "trigger": "FCF omissions, leases, cloud commitments and post-quarter financing require cash/obligation ledger.",
+        "reference": "/workspace/shared/investor-research-v2/meta-minimum/selection/frozen/finterm-buffett/skills/buffett-investment-framework/references/04-financial-reality.md",
+        "full_text_read": true,
+        "full_text": "### F07 — Reconcile Cash Conversion and Hidden or Long-Duration Obligations\n\n- **Decision question:** What disclosed or implied claims could absorb cash materially\n  beyond reported earnings or liabilities?\n- **Guidance:** Reconcile cash conversion and inventory debt, reserves, pensions,\n  derivatives, collateral, guarantees, and uncertain promises by amount, timing, range,\n  and liquidity demand.\n- **Use when:** Accruals, long-tail claims, pensions, derivatives, guarantees,\n  collateral, or refinancing obligations are material.\n- **Analytical actions:** Build a cash bridge; inventory obligations and timing;\n  reconcile reported amounts to ranges and assumptions.\n- **Output:** An obligation ledger with amount or range, timing, model dependence, cash\n  trigger, and unresolved exposure.\n- **Limits:** Product mechanics matter and terminal cash can differ from interim marks;\n  do not invent absent ranges.\n- **Source basis:**\n  - **Berkshire Hathaway 1992 annual letter** — *supports*: cash accounting can conceal\n    growing future liabilities.\n  - **Berkshire Hathaway 2003 annual letter** — *qualifies*: derivatives company\n    disclosures cannot reveal the full risk.\n- **Corroboration:** EWB §V.H; BH2002.\n\n<!-- This document follows common-doc-guidelines.md.\nSee github.com/jlevy/practical-prose and review guidelines before editing.\n-->"
+      },
+      {
+        "id": "F03",
+        "trigger": "Maintenance versus growth, catch-up and distributability are not disclosed; AI spending triggers classification.",
+        "reference": "/workspace/shared/investor-research-v2/meta-minimum/selection/frozen/finterm-buffett/skills/buffett-investment-framework/references/04-financial-reality.md",
+        "full_text_read": true,
+        "full_text": "### F03 — Separate Maintenance, Growth, Restricted, and Distributable Capital\n\n- **Decision question:** Which capital preserves economics, funds growth, remains\n  trapped, or is actually distributable?\n- **Guidance:** Classify capital by economic function before treating cash flow as owner\n  value; required, catch-up, restricted, or low-return reinvestment is not freely\n  distributable.\n- **Use when:** Capital-intensive, regulated, cyclical, rapidly growing, or structurally\n  restricted businesses.\n- **Analytical actions:** Classify spending and working capital; reconcile restrictions\n  and reserves; test whether claimed growth spending only preserves economics.\n- **Output:** A schedule of maintenance, growth, catch-up, restricted, and distributable\n  amounts or ranges.\n- **Limits:** Categories overlap and management labels may be unreliable; unbounded\n  maintenance or restrictions leave distributability unresolved.\n- **Source basis:**\n  - **Berkshire Hathaway 1986 annual letter** — *defines*: owner earnings.\n  - **Berkshire Hathaway 2007 annual letter** — *qualifies*: rapid growth low return\n    capital hunger is worst business model.\n- **Corroboration:** EWB §V.C; OM1996; BH2023.\n\n<a id=\"f04\"></a>"
+      },
+      {
+        "id": "B02",
+        "trigger": "Audience/monetization strength invites causal moat test and attack mechanisms.",
+        "reference": "/workspace/shared/investor-research-v2/meta-minimum/selection/frozen/finterm-buffett/skills/buffett-investment-framework/references/02-business-economics.md",
+        "full_text_read": true,
+        "full_text": "### B02 — Identify a Causal Moat and Track Its Direction\n\n- **Decision question:** What mechanism protects excess returns, and is it widening or\n  eroding?\n- **Guidance:** Name the mechanism, behavior it changes, and economics it protects;\n  track direction with business-specific evidence rather than labels.\n- **Use when:** A thesis claims durable quality, excess returns, franchise value, or\n  competitive advantage.\n- **Analytical actions:** State the mechanism and protected benefit; describe the\n  strongest plausible attack; track strengthening and erosion indicators.\n- **Output:** A causal moat map with mechanism, protected economics, attack path,\n  indicators, and unresolved links.\n- **Limits:** Reputation, market share, and historical returns do not alone prove a\n  moat.\n- **Source basis:**\n  - **Berkshire Hathaway 2005 annual letter** — *defines*: widening the moat.\n  - **Berkshire Hathaway 1995 annual letter** — *illustrates*: GEICO direct distribution\n    created structural cost advantage.\n- **Corroboration:** BH1981; BH2007; BH2014; LOW ch.3 (GEICO cost-advantage discovery).\n\n<a id=\"b03\"></a>"
+      },
+      {
+        "id": "B06",
+        "trigger": "Prospective AI/infrastructure investment is material, but historical cash economics do not prove runway returns.",
+        "reference": "/workspace/shared/investor-research-v2/meta-minimum/selection/frozen/finterm-buffett/skills/buffett-investment-framework/references/02-business-economics.md",
+        "full_text_read": true,
+        "full_text": "### B06 — Judge the Reinvestment Runway from Normalized Capital Returns\n\n- **Decision question:** Can the business deploy material additional capital at\n  attractive normalized returns for long enough to affect owner value?\n- **Guidance:** Separate returns on required from incremental capital, then test the\n  scale, duration, funding, and durability of the prospective runway.\n- **Use when:** Growth valuation, retained-earnings analysis, or a quality claim based\n  on historical returns.\n- **Analytical actions:** Measure normalized unleveraged returns; estimate deployable\n  capital and funding; stress return decay with scale and competition.\n- **Output:** A reinvestment-runway schedule showing return evidence, deployable\n  capital, duration, decay assumptions, and unresolved bounds.\n- **Limits:** Historical returns do not prove future opportunity; neither reinvestment\n  nor distribution alone establishes security value.\n- **Source basis:**\n  - **Berkshire Hathaway 1992 annual letter** — *supports*: best and worst businesses by\n    incremental capital returns.\n  - **Berkshire Hathaway 2007 annual letter** — *qualifies*: scale prevents repetition\n    of Berkshire past returns.\n- **Corroboration:** EWB §III.C; OM1996; BH2014; BH2023.\n\n<a id=\"b07\"></a>"
+      },
+      {
+        "id": "V01",
+        "trigger": "Historical price is supplied; owner-cash valuation must be separated from cash-flow shortcuts.",
+        "reference": "/workspace/shared/investor-research-v2/meta-minimum/selection/frozen/finterm-buffett/skills/buffett-investment-framework/references/05-valuation.md",
+        "full_text_read": true,
+        "full_text": "### V01 — Define Intrinsic Value as a Range of Owner Cash\n\n- **Decision question:** What conservative range represents the present value of cash\n  owners can remove over the business’s remaining life?\n- **Guidance:** Model owner cash, reinvestment, timing, and discounting explicitly and\n  express value as a range reflecting uncertainty.\n- **Use when:** Evidence supports an explicit owner-cash valuation rather than only\n  asset or relative checks.\n- **Analytical actions:** Define removable owner cash; build supported cash-flow and\n  terminal scenarios; state discounting assumptions and range-invalidating variables.\n- **Output:** An intrinsic-value range tied to operating, reinvestment, timing, and\n  discount assumptions.\n- **Limits:** Analysts can produce different ranges; no universal discount rate or\n  terminal method applies, and unbounded cash flows leave value unresolved.\n- **Source basis:**\n  - **Berkshire Hathaway 1994 annual letter** — *defines*: intrinsic value discounted\n    owner cash.\n  - **Berkshire Hathaway 1999 annual letter** — *implements*: estimate intrinsic value\n    as a range.\n- **Corroboration:** EWB §II.D; EWB §V.E; OM1996; BH2014.\n\n<a id=\"v02\"></a>"
+      },
+      {
+        "id": "V05",
+        "trigger": "Unbounded owner cash requires reverse consistency sensitivities instead of unsupported fair value.",
+        "reference": "/workspace/shared/investor-research-v2/meta-minimum/selection/frozen/finterm-buffett/skills/buffett-investment-framework/references/05-valuation.md",
+        "full_text_read": true,
+        "full_text": "### V05 — Expose Assumptions, Sensitivities, and Missing Evidence\n\n- **Decision question:** Which assumptions drive the range, how fragile are they, and\n  which missing facts block a conclusion?\n- **Guidance:** Make operating, reinvestment, discounting, and terminal assumptions\n  explicit; test plausible combinations and identify invalidating evidence.\n- **Use when:** Every material valuation, especially when forecast or model dependence\n  is high.\n- **Analytical actions:** Rank drivers by impact and uncertainty; run supported scenario\n  combinations; map each missing input to the blocked conclusion.\n- **Output:** A sensitivity and missing-evidence register tied to the value range and\n  invalidation conditions.\n- **Limits:** Sensitivity cannot validate bad assumptions or assign unsupported\n  probabilities; unsupported bounds require no value conclusion.\n- **Source basis:**\n  - **Berkshire Hathaway 1999 annual letter** — *implements*: estimate intrinsic value\n    as a range.\n  - **Berkshire Hathaway 2020 annual letter** — *illustrates*: Precision Castparts\n    overpayment from earnings overestimate.\n- **Corroboration:** EWB §II.D; BH2002; BH2014.\n\n<a id=\"v06\"></a>"
+      },
+      {
+        "id": "R03",
+        "trigger": "JV conditional residual-value guarantee and overlapping long-duration commitments trigger tail mapping.",
+        "reference": "/workspace/shared/investor-research-v2/meta-minimum/selection/frozen/finterm-buffett/skills/buffett-investment-framework/references/07-risk-monitoring.md",
+        "full_text_read": true,
+        "full_text": "### R03 — Stress Contingent Obligations, Derivatives, Models, and Counterparties\n\n- **Decision question:** Could nonlinear claims, model errors, collateral demands, or\n  weakest-link counterparties exceed liabilities or available liquidity?\n- **Guidance:** Reconstruct the obligation and counterparty chain, challenge model\n  population and incentives, and stress amount, timing, correlation, collateral,\n  refinancing, and settlement together.\n- **Use when:** Derivatives, pensions, reserves, guarantees, structured claims, or\n  model-dependent liabilities.\n- **Analytical actions:** Build the obligation and collateral chain; challenge\n  structural breaks; stress timing, correlation, liquidity, and counterparties.\n- **Output:** A contingent-obligation ledger and tail map with ranges, dependencies, and\n  unresolved exposures.\n- **Limits:** Product expertise is often necessary; do not estimate absent exposure\n  merely to complete the analysis.\n- **Source basis:**\n  - **Berkshire Hathaway 2003 annual letter** — *supports*: derivatives company\n    disclosures cannot reveal the full risk.\n  - **Berkshire Hathaway 2008 annual letter** — *implements*: test history based models\n    for changes in the underlying universe.\n- **Corroboration:** EWB §II.G; BH2002.\n\n<a id=\"r04\"></a>"
+      },
+      {
+        "id": "R07",
+        "trigger": "Material findings require evidence-linked strengthening, weakening and invalidation observations.",
+        "reference": "/workspace/shared/investor-research-v2/meta-minimum/selection/frozen/finterm-buffett/skills/buffett-investment-framework/references/07-risk-monitoring.md",
+        "full_text_read": true,
+        "full_text": "### R07 — Monitor Assumptions, Change Indicators, and Invalidation Conditions\n\n- **Decision question:** Which observations would strengthen, weaken, revise, or retire\n  each material assumption?\n- **Guidance:** Maintain a compact assumption register with evidence-linked indicators\n  and invalidation conditions; update from decision-relevant evidence rather than\n  undirected news or quotes.\n- **Use when:** Ongoing monitoring, periodic thesis review, or material new operating,\n  governance, financing, or industry evidence.\n- **Analytical actions:** Register assumptions, indicators, and cadence; classify new\n  evidence; mark assumptions strengthened, weakened, revised, retired, or unresolved.\n- **Output:** A thesis-monitoring register with dated evidence, status changes, and\n  blocked conclusions.\n- **Limits:** Indicators can be noisy or lagging and no update automatically produces a\n  buy, sell, or hold action.\n- **Source basis:**\n  - **Berkshire Hathaway 2013 annual letter** — *implements*: ignore daily prices and\n    monitor productive output.\n  - **Berkshire Hathaway 1996 annual letter** — *qualifies*: do not sell fine businesses\n    on scary news alone.\n- **Corroboration:** EWB §II.E; BPL1967; BH2014.\n\n<!-- This document follows common-doc-guidelines.md.\nSee github.com/jlevy/practical-prose and review guidelines before editing.\n-->"
+      }
+    ],
+    "source_key_read_complete": true,
+    "upstream_code_executed": false,
+    "prohibitions_preserved": [
+      "No buy/sell/hold verdict",
+      "No entry-price or trade instruction",
+      "No portfolio sizing",
+      "No synthetic stock score",
+      "No claim investor actually holds view"
+    ]
+  },
+  "source_fact_ids": [
+    "META.BS_2024.cash_and_equivalents",
+    "META.BS_2024.marketable_securities",
+    "META.BS_2024.operating_lease_liabilities_current",
+    "META.BS_2024.operating_lease_liabilities_noncurrent",
+    "META.BS_Q3_2025.bond_debt_carrying_amount",
+    "META.BS_Q3_2025.bond_debt_face_amount",
+    "META.BS_Q3_2025.cash_and_equivalents",
+    "META.BS_Q3_2025.jv_initial_lease_commitment",
+    "META.BS_Q3_2025.jv_one_time_distribution",
+    "META.BS_Q3_2025.jv_residual_value_guarantee_initial_threshold",
+    "META.BS_Q3_2025.marketable_securities",
+    "META.BS_Q3_2025.noncancelable_commitments",
+    "META.BS_Q3_2025.not_yet_commenced_leases",
+    "META.BS_Q3_2025.october_new_cloud_arrangements",
+    "META.BS_Q3_2025.operating_lease_liabilities_current",
+    "META.BS_Q3_2025.operating_lease_liabilities_noncurrent",
+    "META.EVENT_2025_11_03.new_bond_principal",
+    "META.FY2020.cash_ppe_outflow",
+    "META.FY2020.cfo",
+    "META.FY2020.company_fcf",
+    "META.FY2020.da",
+    "META.FY2020.diluted_weighted_average_shares",
+    "META.FY2020.finance_lease_principal",
+    "META.FY2020.net_income_gaap",
+    "META.FY2020.operating_income",
+    "META.FY2020.revenue",
+    "META.FY2020.sbc",
+    "META.FY2021.cash_ppe_outflow",
+    "META.FY2021.cfo",
+    "META.FY2021.company_fcf",
+    "META.FY2021.da",
+    "META.FY2021.diluted_weighted_average_shares",
+    "META.FY2021.finance_lease_principal",
+    "META.FY2021.net_income_gaap",
+    "META.FY2021.operating_income",
+    "META.FY2021.revenue",
+    "META.FY2021.sbc",
+    "META.FY2022.cash_ppe_outflow",
+    "META.FY2022.cfo",
+    "META.FY2022.company_fcf",
+    "META.FY2022.da",
+    "META.FY2022.diluted_weighted_average_shares",
+    "META.FY2022.finance_lease_principal",
+    "META.FY2022.net_income_gaap",
+    "META.FY2022.operating_income",
+    "META.FY2022.revenue",
+    "META.FY2022.sbc",
+    "META.FY2023.cash_ppe_outflow",
+    "META.FY2023.cfo",
+    "META.FY2023.company_fcf",
+    "META.FY2023.da",
+    "META.FY2023.diluted_weighted_average_shares",
+    "META.FY2023.finance_lease_principal",
+    "META.FY2023.net_income_gaap",
+    "META.FY2023.operating_income",
+    "META.FY2023.revenue",
+    "META.FY2023.sbc",
+    "META.FY2024.advertising_revenue",
+    "META.FY2024.cash_ppe_outflow",
+    "META.FY2024.cfo",
+    "META.FY2024.company_fcf",
+    "META.FY2024.da",
+    "META.FY2024.diluted_weighted_average_shares",
+    "META.FY2024.finance_lease_principal",
+    "META.FY2024.foa_operating_income",
+    "META.FY2024.foa_revenue",
+    "META.FY2024.net_income_gaap",
+    "META.FY2024.operating_income",
+    "META.FY2024.revenue",
+    "META.FY2024.rl_operating_income",
+    "META.FY2024.rl_revenue",
+    "META.FY2024.sbc",
+    "META.GUIDANCE_2025_10_29.2026_spending_direction",
+    "META.GUIDANCE_2025_10_29.fy2025_cash_capex_guidance",
+    "META.PRICE_2025_12_31.raw_close",
+    "META.Q3_2024.foa_operating_income",
+    "META.Q3_2024.foa_revenue",
+    "META.Q3_2024.operating_income",
+    "META.Q3_2024.revenue",
+    "META.Q3_2024.rl_operating_income",
+    "META.Q3_2024.rl_revenue",
+    "META.Q3_2025.ad_impressions_growth_yoy",
+    "META.Q3_2025.advertising_revenue",
+    "META.Q3_2025.arpp",
+    "META.Q3_2025.arpp_growth_yoy",
+    "META.Q3_2025.average_ad_price_growth_yoy",
+    "META.Q3_2025.company_tax_charge_excluded_diluted_eps",
+    "META.Q3_2025.company_tax_charge_excluded_net_income",
+    "META.Q3_2025.dap",
+    "META.Q3_2025.dap_growth_yoy",
+    "META.Q3_2025.diluted_weighted_average_shares",
+    "META.Q3_2025.foa_operating_income",
+    "META.Q3_2025.foa_revenue",
+    "META.Q3_2025.net_income_gaap",
+    "META.Q3_2025.one_time_noncash_tax_charge",
+    "META.Q3_2025.operating_income",
+    "META.Q3_2025.revenue",
+    "META.Q3_2025.rl_operating_income",
+    "META.Q3_2025.rl_revenue",
+    "META.SHARES_2025_10_24.class_a_shares_outstanding",
+    "META.SHARES_2025_10_24.class_b_shares_outstanding",
+    "META.TTM_Q3_2025.cash_capex_including_finance_leases",
+    "META.TTM_Q3_2025.cash_capex_revenue_ratio",
+    "META.TTM_Q3_2025.cash_ppe_outflow",
+    "META.TTM_Q3_2025.cfo",
+    "META.TTM_Q3_2025.company_fcf",
+    "META.TTM_Q3_2025.company_fcf_margin",
+    "META.TTM_Q3_2025.cost_of_revenue",
+    "META.TTM_Q3_2025.da",
+    "META.TTM_Q3_2025.finance_lease_principal",
+    "META.TTM_Q3_2025.gross_margin",
+    "META.TTM_Q3_2025.net_income_gaap",
+    "META.TTM_Q3_2025.operating_income",
+    "META.TTM_Q3_2025.operating_margin",
+    "META.TTM_Q3_2025.revenue",
+    "META.TTM_Q3_2025.sbc",
+    "META.TTM_Q3_2025.sbc_revenue_ratio",
+    "META.YTD9_2024.cash_ppe_outflow",
+    "META.YTD9_2024.cfo",
+    "META.YTD9_2024.company_fcf",
+    "META.YTD9_2024.da",
+    "META.YTD9_2024.finance_lease_principal",
+    "META.YTD9_2024.foa_operating_income",
+    "META.YTD9_2024.foa_revenue",
+    "META.YTD9_2024.net_income_gaap",
+    "META.YTD9_2024.operating_income",
+    "META.YTD9_2024.revenue",
+    "META.YTD9_2024.rl_operating_income",
+    "META.YTD9_2024.rl_revenue",
+    "META.YTD9_2024.sbc",
+    "META.YTD9_2025.cash_nonmarketable_equity_investments",
+    "META.YTD9_2025.cash_ppe_outflow",
+    "META.YTD9_2025.cash_taxes_paid",
+    "META.YTD9_2025.cfo",
+    "META.YTD9_2025.company_fcf",
+    "META.YTD9_2025.da",
+    "META.YTD9_2025.deferred_income_tax_cashflow_adjustment",
+    "META.YTD9_2025.finance_lease_principal",
+    "META.YTD9_2025.foa_operating_income",
+    "META.YTD9_2025.foa_revenue",
+    "META.YTD9_2025.net_income_gaap",
+    "META.YTD9_2025.operating_income",
+    "META.YTD9_2025.revenue",
+    "META.YTD9_2025.rl_operating_income",
+    "META.YTD9_2025.rl_revenue",
+    "META.YTD9_2025.sbc",
+    "META.YTD9_2025.server_life_change_da_reduction",
+    "META.YTD9_2025.server_life_change_net_income_increase",
+    "META.YTD9_2025.taxes_paid_for_net_share_settlement"
+  ],
+  "source_only_qualitative_claims": [
+    {
+      "claim": "Mobile OS/data-signal dependence, competition, regulation/privacy, AI risk and founder voting control",
+      "sources": [
+        "S1",
+        "S3"
+      ],
+      "disposition": "Disclosed risk mechanism adopted; impact probabilities unresolved",
+      "limit": "Base narrative has no dedicated fact IDs for these qualitative claims."
+    },
+    {
+      "claim": "EU advertising restrictions and US youth litigation as possible material headwinds",
+      "sources": [
+        "S2"
+      ],
+      "disposition": "Management risk disclosure adopted as risk, not realized outcome or probability."
+    }
+  ],
+  "claim_dispositions": [
+    {
+      "claim": "Advertising earning power and substantial operating cash generation",
+      "status": "supported",
+      "cards": [
+        "F01",
+        "F05",
+        "B02"
+      ],
+      "facts": [
+        "META.Q3_2025.advertising_revenue",
+        "META.Q3_2025.dap",
+        "META.YTD9_2025.cfo"
+      ],
+      "limit": "Durable moat and advertiser cohort economics only partly supported."
+    },
+    {
+      "claim": "Q3 GAAP NI collapse represents comparable operating collapse",
+      "status": "challenged",
+      "cards": [
+        "F01",
+        "F05"
+      ],
+      "facts": [
+        "META.Q3_2025.one_time_noncash_tax_charge",
+        "META.Q3_2025.operating_income"
+      ],
+      "limit": "Charge removal not full normalization."
+    },
+    {
+      "claim": "Useful-life extension means cash economics improved by D&A benefit",
+      "status": "challenged",
+      "cards": [
+        "F01",
+        "F03"
+      ],
+      "facts": [
+        "META.YTD9_2025.server_life_change_da_reduction",
+        "META.YTD9_2025.server_life_change_net_income_increase"
+      ]
+    },
+    {
+      "claim": "Company FCF equals removable owner earnings",
+      "status": "challenged",
+      "cards": [
+        "F02",
+        "F03",
+        "F07"
+      ],
+      "facts": [
+        "META.TTM_Q3_2025.company_fcf",
+        "META.YTD9_2025.taxes_paid_for_net_share_settlement",
+        "META.YTD9_2025.cash_nonmarketable_equity_investments"
+      ]
+    },
+    {
+      "claim": "New AI capital earns historical franchise returns",
+      "status": "unresolved",
+      "cards": [
+        "F06",
+        "B06"
+      ],
+      "facts": [
+        "META.GUIDANCE_2025_10_29.2026_spending_direction"
+      ]
+    },
+    {
+      "claim": "September partial net cash and guarantee threshold give exact December economic leverage",
+      "status": "challenged",
+      "cards": [
+        "F07",
+        "R03"
+      ],
+      "facts": [
+        "META.BS_Q3_2025.bond_debt_carrying_amount",
+        "META.EVENT_2025_11_03.new_bond_principal",
+        "META.BS_Q3_2025.jv_residual_value_guarantee_initial_threshold"
+      ]
+    },
+    {
+      "claim": "Current intrinsic value and price margin of safety are numerically resolved",
+      "status": "unresolved",
+      "cards": [
+        "V01",
+        "V05"
+      ],
+      "facts": [
+        "META.PRICE_2025_12_31.raw_close",
+        "META.Q3_2025.diluted_weighted_average_shares"
+      ]
+    }
+  ],
+  "assumptions": [
+    {
+      "id": "A1",
+      "description": "FCF minus reported SBC treats SBC as replacement-compensation economic cost for a dollar cash proxy only. No additional future dilution-growth penalty or same-award tax deduction.",
+      "provided_by": "analyst",
+      "purpose": "Expose cost omitted by CFO SBC add-back; not estimate owner earnings."
+    },
+    {
+      "id": "A2",
+      "description": "Reverse cash model uses five year-end projected removable equity cash flows followed by terminal owner cash; g 0/10/20%, r 8/10/12%, h 2%, terminal sensitivities 0/3%.",
+      "provided_by": "analyst",
+      "purpose": "Assumption consistency and sensitivity; neither selected as forecast nor universally calibrated."
+    },
+    {
+      "id": "A3",
+      "description": "Q3 diluted weighted-average 2,572m shares is a constant price-equivalence scale proxy. No actual December dilution claimed.",
+      "provided_by": "analyst",
+      "purpose": "Conditional reverse model scale."
+    },
+    {
+      "id": "A4",
+      "description": "No separate excess-cash credit in reverse test because December distributable reserves are unresolved; this is a modeling convention, not zero-filled cash.",
+      "provided_by": "analyst",
+      "purpose": "Avoid mixing September cash with November debt or claiming exact equity value."
+    },
+    {
+      "id": "A5",
+      "description": "Old useful-life EBIT and NI counterfactual subtract only company-disclosed accounting-estimate benefits; neither old nor new economic useful life is affirmed.",
+      "provided_by": "analyst",
+      "purpose": "Comparable-accounting sensitivity."
+    }
+  ],
+  "gaps": [
+    {
+      "branch": "Owner earnings / distributable cash range",
+      "status": "unresolved",
+      "missing": [
+        "maintenance versus growth and catch-up capex",
+        "sustainable cash taxes",
+        "normalized required working capital",
+        "economic depletion and obsolescence",
+        "restricted/reserve cash needs",
+        "future compensation and dilution treatment"
+      ],
+      "rule": "F02/F03: unbounded material requirements stop numeric owner-earnings range; no fabricated maintenance amount."
+    },
+    {
+      "branch": "Historical tangible and incremental ROIC",
+      "status": "unresolved",
+      "missing": [
+        "net tangible operating asset reconciliation",
+        "operating working capital",
+        "goodwill/intangibles split",
+        "finance lease liability balance",
+        "acquisition versus organic investment and lags",
+        "normalized unleveraged tax base"
+      ],
+      "rule": "F06/B06: do not call EBIT/book equity, EBIT/capex or delta EBIT/delta capex ROIC."
+    },
+    {
+      "branch": "Conservative current intrinsic value / margin of safety",
+      "status": "unresolved",
+      "missing": [
+        "bounded owner cash",
+        "funding and returns needed for growth",
+        "terminal durability",
+        "December economic net debt and distributable reserves",
+        "point-date dilution"
+      ],
+      "rule": "V01/V05: reverse cash burden is conditional analysis, not a fair-value range or investment instruction."
+    },
+    {
+      "branch": "Contingent JV maximum cash payoff / aggregate total commitments",
+      "status": "unresolved",
+      "missing": [
+        "complete guarantee trigger and residual valuation path",
+        "overlapping scope reconciliations",
+        "counterparty and timing stress ranges"
+      ],
+      "rule": "R03/F07: do not convert guarantee threshold to debt due or blindly sum commitments."
+    }
+  ],
+  "optional_materials": {
+    "assigned": "NONE",
+    "read": false,
+    "material_added_claims": [],
+    "enrichment_used": false
+  },
+  "evidence_boundaries": {
+    "issuer_reported_facts": "Exact supplied fact IDs, periods and dated primary source URLs",
+    "management_guidance": "Forecast explicitly distinct from actual",
+    "company_counterfactual": "Charge-excluded NI/EPS, not fully normalized earnings",
+    "external_analyst_opinion": "None assigned or used",
+    "market_observation": "Secondary raw historical price row currently retrieved; full-page open failed in collector; not archived contemporaneous evidence",
+    "analyst_inference": "Causal moat, competing mechanism, cost proxy, risk map and reverse test clearly marked",
+    "outside_fetches": 0,
+    "original_framework_sources": "Card lineage read as editorial guidance, not independently retrieved primary text."
+  },
+  "output_contract_sections": [
+    "Question and scope",
+    "Evidence receipt",
+    "Card load",
+    "Analytical work",
+    "Findings",
+    "Counterevidence and alternatives",
+    "Limits and blocked branches",
+    "Monitoring and invalidation"
+  ]
+}
